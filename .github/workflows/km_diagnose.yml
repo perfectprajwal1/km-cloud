@@ -162,9 +162,15 @@ jobs:
               sleep 10
             done ) & HB=$!
           cp stories/SAMPLE-001.json public/story.json
+          set +e
           python -u scripts/km_cards.py public/story.json --out out --fonts public/fonts --public public 2>&1 | tee out/km_cards.log
+          RC=${PIPESTATUS[0]}
+          set -e
           kill $HB 2>/dev/null
-          echo "cards baked: $(ls out/SAMPLE-001/card_*.png | wc -l)"
+          echo "km_cards.py exit code: $RC (recorded as evidence; PNGs are the verdict)"
+          N=$(ls out/SAMPLE-001/card_*.png 2>/dev/null | wc -l)
+          echo "cards baked: $N"
+          [ "$N" -ge 11 ] || { echo "::error::cards missing ($N/11)"; exit 1; }
           echo "CARD_SECONDS=$(( $(date +%s) - S ))"
           echo "CARD_DONE $(date -Is)"
 
