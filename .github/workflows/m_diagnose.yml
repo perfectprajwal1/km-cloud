@@ -1,0 +1,264 @@
+name: KM diagnose
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: km-reel
+  cancel-in-progress: false
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Machine facts
+        run: |
+          date -Is
+          nproc
+          lscpu | grep -E 'Model name|^CPU\(s\)'
+          free -h
+          df -h /dev/shm
+          echo "fonts on runner: $(fc-list | wc -l)"
+          echo "preinstalled browsers (path + version):"
+          for b in google-chrome microsoft-edge chromium; do
+            p=$(which $b 2>/dev/null) && echo "$b -> $(readlink -f $p) | $($b --version 2>/dev/null)"
+          done; true
+
+      - name: System libraries and ffmpeg
+        run: |
+          sudo apt-get update -y >/dev/null 2>&1
+          for p in ffmpeg libnss3 libdbus-1-3 libatk1.0-0t64 libatk-bridge2.0-0t64 libxrandr2 libxkbcommon0 libxfixes3 libxcomposite1 libxdamage1 libgbm1 libcups2t64 libcairo2 libpango-1.0-0 fonts-noto-core; do
+            sudo apt-get install -y $p >/dev/null 2>&1 || echo "apt FAILED: $p"
+          done
+          sudo apt-get install -y libasound2t64 >/dev/null 2>&1 || echo "apt FAILED: libasound2t64"
+          ffmpeg -version | head -1
+
+      - name: Python packages
+        run: |
+          pip install --no-input edge-tts playwright pillow numpy scipy onnxruntime >/dev/null
+          python -m playwright install --with-deps chromium >/dev/null 2>&1 || python -m playwright install chromium
+          pip list 2>/dev/null | grep -iE 'onnxruntime|playwright|edge-tts|numpy|scipy|pillow'
+
+      - name: Node packages (cached)
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: nm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - run: |
+          [ -d node_modules/remotion ] || npm ci --no-audit --no-fund
+          npx remotion browser ensure
+
+      - name: CHROMIUM_SMOKE_START - mirror km_cards launch order (msedge -> chrome -> bundled), real page+screenshot
+        timeout-minutes: 4
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::SMOKE step failed rc=$rc line=$LINENO"' ERR
+          echo "CHROMIUM_SMOKE_START $(date -Is)"
+          S=$(date +%s)
+          echo '<html><body style="background:#123;color:#fff;font-size:64px">smoke</body></html>' > /tmp/smoke.html
+          python -u - <<'PY'
+          import sys, time
+          from playwright.sync_api import sync_playwright
+          ok = False
+          with sync_playwright() as p:
+              print('bundled executable_path:', p.chromium.executable_path, flush=True)
+              for ch in ("msedge", "chrome", None):
+                  t0 = time.time()
+                  try:
+                      b = p.chromium.launch(channel=ch) if ch else p.chromium.launch()
+                  except Exception as e:
+                      print('channel %-8s LAUNCH_FAIL (%s)' % (ch or "bundled", type(e).__name__), flush=True)
+                      continue
+                  try:
+                      pg = b.new_page(viewport={"width": 1080, "height": 1920})
+                      pg.goto("file:///tmp/smoke.html")
+                      pg.evaluate("1+1")
+                      pg.screenshot(path="/tmp/smoke.png", full_page=False)
+                      print('channel %-8s FULL_PATH_OK seconds=%.1f version=%s' % (ch or "bundled", time.time() - t0, b.version), flush=True)
+                      ok = True
+                  except Exception as e:
+                      print('channel %-8s LAUNCH_OK_BUT_PAGE_FAIL (%s)' % (ch or "bundled", type(e).__name__), flush=True)
+                  finally:
+                      b.close()
+                  if ok:
+                      break
+          sys.exit(0 if ok else 1)
+          PY
+          echo "CHROMIUM_SMOKE_SECONDS=$(( $(date +%s) - S ))"
+          echo "CHROMIUM_SMOKE_DONE $(date -Is)"
+
+      - name: VOICE_RESTORE_START - restore saved voice files
+        timeout-minutes: 3
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::VOICE_RESTORE failed rc=$rc line=$LINENO"' ERR
+          echo "VOICE_RESTORE_START $(date -Is)"
+          S=$(date +%s)
+          STORY=SAMPLE-001
+          H=$(git log -1 --format=%H --grep="state after $STORY (")
+          D=$(git show --name-only --format= "$H" | grep '^one_call_voice/' | cut -d/ -f2 | sort -u | head -1)
+          echo "voice state folder: one_call_voice/$D"
+          python - "$D" <<'PY'
+          import hashlib, json, shutil, sys
+          from pathlib import Path
+          d = Path('one_call_voice') / sys.argv[1]
+          rec = d / 'installed_reviewed.json'
+          records = json.loads(rec.read_text(encoding='utf-8'))
+          dest = Path('public/voice_in')
+          dest.mkdir(parents=True, exist_ok=True)
+          ok = True
+          for r in records:
+              src = d / 'cards' / r['name']
+              if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest() != r['sha256']:
+                  ok = False
+                  break
+              shutil.copy2(src, dest / r['name'])
+          print('restored', len(records), 'voice files' if ok else 'HASH MISMATCH')
+          sys.exit(0 if ok else 1)
+          PY
+          echo "VOICE_RESTORE_SECONDS=$(( $(date +%s) - S ))"
+          echo "VOICE_RESTORE_DONE $(date -Is)"
+
+      - name: VOICE_CHECK_START - gemini_voice receipt path, NO keys (must not call Gemini)
+        timeout-minutes: 3
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::VOICE_CHECK failed rc=$rc line=$LINENO"' ERR
+          echo "VOICE_CHECK_START $(date -Is)"
+          S=$(date +%s)
+          ls gemini_key.txt gemini_key2.txt 2>/dev/null && echo "UNEXPECTED: key files present" || echo "no key files (correct for this test)"
+          python -u scripts/gemini_voice.py stories/SAMPLE-001.json
+          echo "VOICE_CHECK_SECONDS=$(( $(date +%s) - S ))"
+          echo "VOICE_CHECK_DONE $(date -Is)"
+
+      - name: "CARD_START - bake the PNG cards (heartbeat: ps + wchan every 10s)"
+        timeout-minutes: 6
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::CARD failed rc=$rc line=$LINENO"' ERR
+          trap 'kill $HB 2>/dev/null' EXIT
+          echo "CARD_START $(date -Is)"
+          S=$(date +%s)
+          ( while :; do
+              echo "HEARTBEAT $(date +%T)"
+              ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
+              for p in $(pgrep -f 'python|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
+              sleep 10
+            done ) & HB=$!
+          cp stories/SAMPLE-001.json public/story.json
+          python -u scripts/km_cards.py public/story.json --out out --fonts public/fonts --public public 2>&1 | tee out/km_cards.log
+          kill $HB 2>/dev/null
+          echo "cards baked: $(ls out/SAMPLE-001/card_*.png | wc -l)"
+          echo "CARD_SECONDS=$(( $(date +%s) - S ))"
+          echo "CARD_DONE $(date -Is)"
+
+      - name: TTS_START - voice + timing (edge-tts only)
+        timeout-minutes: 6
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::TTS failed rc=$rc line=$LINENO"' ERR
+          echo "TTS_START $(date -Is)"
+          S=$(date +%s)
+          python -u scripts/tts.py public/story.json public
+          echo "TTS_SECONDS=$(( $(date +%s) - S ))"
+          echo "TTS_DONE $(date -Is)"
+
+      - name: PROPS_START - build props.json and fail loudly
+        timeout-minutes: 2
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::PROPS failed rc=$rc line=$LINENO"' ERR
+          echo "PROPS_START $(date -Is)"
+          S=$(date +%s)
+          python - <<'PY'
+          import json
+          story = json.load(open('stories/SAMPLE-001.json'))
+          timing = json.load(open('public/timing.json'))
+          json.dump({'story': story, 'timing': timing, 'lite': False}, open('out/props.json', 'w'))
+          print('props written')
+          PY
+          test -s out/props.json || { echo "::error::out/props.json missing or empty"; exit 1; }
+          echo "PROPS_SECONDS=$(( $(date +%s) - S ))"
+          echo "PROPS_DONE $(date -Is)"
+
+      - name: "REMOTION_START - direct 90-frame slice, concurrency 1, verbose (heartbeat: ps + wchan)"
+        timeout-minutes: 15
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::REMOTION_C1 failed rc=$rc line=$LINENO"' ERR
+          trap 'kill $HB 2>/dev/null' EXIT
+          echo "REMOTION_START $(date -Is)"
+          S=$(date +%s)
+          ( while :; do
+              echo "HEARTBEAT $(date +%T)"
+              ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
+              for p in $(pgrep -f 'node|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
+              sleep 10
+            done ) & HB=$!
+          npx remotion render src/index.ts Reel /tmp/slice_c1.mkv \
+            --props=out/props.json --frames=0-89 \
+            --concurrency=1 --gl=swangle \
+            --image-format=jpeg --jpeg-quality=92 --crf=18 \
+            --pixel-format=yuv420p --audio-codec=pcm-16 --codec=h264 --scale=1 \
+            --timeout=10000 --log=verbose 2>&1 | tee /tmp/slice_c1.log
+          kill $HB 2>/dev/null
+          E=$(( $(date +%s) - S ))
+          echo "### SLICE concurrency=1: ${E}s for 90 frames" >> $GITHUB_STEP_SUMMARY
+          echo "REMOTION_SLICE_SECONDS=$E" | tee /tmp/slice_secs
+          grep -iE 'slowest|gpu|fallback|swiftshader|angle|crash|delayRender|browser|executable' /tmp/slice_c1.log | tail -30 || true
+
+      - name: "REMOTION_C2 - same slice, concurrency 2 (heartbeat: ps + wchan)"
+        timeout-minutes: 15
+        run: |
+          set -Eeuxo pipefail
+          trap 'rc=$?; echo "::error::REMOTION_C2 failed rc=$rc line=$LINENO"' ERR
+          trap 'kill $HB 2>/dev/null' EXIT
+          S=$(date +%s)
+          ( while :; do
+              echo "HEARTBEAT $(date +%T)"
+              ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
+              for p in $(pgrep -f 'node|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
+              sleep 10
+            done ) & HB=$!
+          npx remotion render src/index.ts Reel /tmp/slice_c2.mkv \
+            --props=out/props.json --frames=0-89 \
+            --concurrency=2 --gl=swangle \
+            --image-format=jpeg --jpeg-quality=92 --crf=18 \
+            --pixel-format=yuv420p --audio-codec=pcm-16 --codec=h264 --scale=1 \
+            --log=verbose 2>&1 | tee /tmp/slice_c2.log
+          kill $HB 2>/dev/null
+          E=$(( $(date +%s) - S ))
+          echo "### SLICE concurrency=2: ${E}s for 90 frames" >> $GITHUB_STEP_SUMMARY
+
+      - name: DIAG_RESULT
+        if: always()
+        run: |
+          echo "== marker recap: the last START without its DONE is the culprit =="
+          cat /tmp/slice_secs 2>/dev/null || echo "slice never finished"
+
+      - name: Archive logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: km-diagnose-logs
+          path: |
+            out/km_cards.log
+            /tmp/slice_c1.log
+            /tmp/slice_c2.log
+          if-no-files-found: warn
