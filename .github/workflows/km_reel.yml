@@ -203,6 +203,34 @@ jobs:
           retention-days: 3
           if-no-files-found: warn
 
+      - name: Upload the mp4 to Google Drive
+        if: ${{ !cancelled() }}
+        env:
+          DRIVE_TOKEN_URL: ${{ secrets.DRIVE_TOKEN_URL }}
+          DRIVE_TOKEN_SECRET: ${{ secrets.DRIVE_TOKEN_SECRET }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        run: |
+          set +e
+          [ -f /tmp/km_ok ] || { echo "no mp4 to upload"; exit 0; }
+          if [ -z "$DRIVE_TOKEN_URL" ] || [ -z "$DRIVE_TOKEN_SECRET" ] || [ -z "$DRIVE_FOLDER_ID" ]; then
+            echo "Drive secrets not set, skipping Drive upload. The mp4 is in Artifacts."; echo skipped > /tmp/km_drive; exit 0
+          fi
+          RESP=$(curl -sL --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL")
+          TOKEN=$(printf '%s' "$RESP" | python3 -c "import sys,json; print(json.load(sys.stdin).get('token',''))" 2>/dev/null)
+          if [ -z "$TOKEN" ]; then echo "Could not get a Drive token (wrong URL/secret, or the script is not deployed as Anyone)."; echo failed > /tmp/km_drive; exit 0; fi
+          echo "::add-mask::$TOKEN"
+          for f in out/*.mp4; do
+            [ -s "$f" ] || continue
+            NAME=$(basename "$f")
+            META=$(python3 -c "import json,sys; print(json.dumps({'name':sys.argv[1],'parents':[sys.argv[2]]}))" "$NAME" "$DRIVE_FOLDER_ID")
+            curl -s -D /tmp/hdr.txt -o /dev/null --max-time 60 -X POST "https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable&supportsAllDrives=true" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json; charset=UTF-8" -H "X-Upload-Content-Type: video/mp4" -d "$META"
+            LOC=$(grep -i '^location:' /tmp/hdr.txt | head -1 | cut -d' ' -f2- | tr -d '\r\n')
+            if [ -z "$LOC" ]; then echo "Drive refused to start the upload for $NAME:"; head -1 /tmp/hdr.txt; echo failed > /tmp/km_drive; continue; fi
+            OUT=$(curl -s --max-time 900 -X PUT --data-binary "@$f" -H "Content-Type: video/mp4" "$LOC")
+            ID=$(printf '%s' "$OUT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
+            if [ -n "$ID" ]; then echo "Uploaded $NAME to Drive: https://drive.google.com/file/d/$ID/view"; echo "ok $NAME" >> /tmp/km_drive; else echo "Upload failed for $NAME"; printf '%s' "$OUT" | head -c 300; echo; echo failed > /tmp/km_drive; fi
+          done
+
       - name: Summary
         if: always()
         run: |
@@ -211,7 +239,7 @@ jobs:
           {
             echo "## KM reel summary"
             echo "story: $STORY | mode: $MODE | cores: $(nproc)"
-            if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; fi
+            if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Mark the run red if the reel was not made
