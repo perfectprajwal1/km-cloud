@@ -39,6 +39,8 @@ jobs:
           echo "story: ${STORY:-(new rows from the Sheet)}, mode: $MODE"
 
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -101,6 +103,43 @@ jobs:
           printf '%s' "$GEMINI_KEY" > gemini_key.txt
           printf '%s' "$GEMINI_KEY2" > gemini_key2.txt
           echo "key files written (not shown)"
+
+      - name: Restore saved voice files for this story
+        run: |
+          set +e
+          [ -n "$STORY" ] || { echo "no story id, nothing to restore"; exit 0; }
+          H=$(git log -1 --format=%H --grep="state after $STORY (")
+          [ -n "$H" ] || { echo "no saved voice state for $STORY"; exit 0; }
+          D=$(git show --name-only --format= "$H" | grep '^one_call_voice/' | cut -d/ -f2 | sort -u | head -1)
+          [ -n "$D" ] || { echo "saved state has no voice folder"; exit 0; }
+          echo "voice state folder: one_call_voice/$D"
+          python - "$D" <<'PY'
+          import hashlib, json, os, shutil, sys
+          from pathlib import Path
+          d = Path('one_call_voice') / sys.argv[1]
+          rec = d / 'installed_reviewed.json'
+          if not rec.exists():
+              print('no install receipt yet; nothing to restore')
+              sys.exit(0)
+          records = json.loads(rec.read_text(encoding='utf-8'))
+          dest = Path('public/voice_in')
+          dest.mkdir(parents=True, exist_ok=True)
+          ok = True
+          for r in records:
+              src = d / 'cards' / r['name']
+              if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest() != r['sha256']:
+                  ok = False
+                  break
+              shutil.copy2(src, dest / r['name'])
+          if ok:
+              print('restored', len(records), 'voice files from saved cards (hashes match the receipt)')
+          else:
+              rec.unlink()
+              for f in dest.glob('c*.wav'):
+                  f.unlink()
+              shutil.rmtree(d / 'previous_voice_in', ignore_errors=True)
+              print('saved cards do not match the receipt; receipt removed so the voice step re-checks from the saved audio')
+          PY
 
       - name: Run the reel (voice, render, loudness, outro)
         run: |
@@ -174,3 +213,11 @@ jobs:
             echo "story: $STORY | mode: $MODE | cores: $(nproc)"
             if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Mark the run red if the reel was not made
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -f /tmp/km_ok ]; then exit 0; fi
+          if grep -q "No newly approved row found" /tmp/km_run.log 2>/dev/null; then echo "Nothing new in the Sheet: not an error."; exit 0; fi
+          echo "Reel NOT made, see the summary above."
+          exit 1
