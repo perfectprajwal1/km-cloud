@@ -25,6 +25,10 @@ jobs:
             sudo apt-get install -y $p >/dev/null 2>&1 || echo "apt FAILED: $p"
           done
           sudo apt-get install -y libasound2t64 >/dev/null 2>&1 || echo "apt FAILED: libasound2t64"
+          sudo apt-get install -y ffmpeg >/dev/null 2>&1 || echo "apt FAILED: ffmpeg"
+          ffmpeg -version | head -1
+          ffmpeg -hide_banner -encoders 2>/dev/null | grep -E 'libx264|aac ' | head -3
+          ffmpeg -hide_banner -filters 2>/dev/null | grep -cE ' (subtitles|ass) ' | sed 's/^/subtitles filters: /'
 
       - name: Install Remotion 4.0.242
         run: |
@@ -65,6 +69,7 @@ jobs:
 
       - name: Render 240 frames (timed alone)
         run: |
+          set +e
           cd $HOME/kmtest
           S=$(date +%s)
           npx remotion render src/index.jsx T out/test.mp4 --codec=h264 --concurrency=$(nproc) --log=info > /tmp/render.log 2>&1
@@ -77,7 +82,9 @@ jobs:
 
       - name: Encode (libx264 + loudnorm + aac, timed alone)
         run: |
+          set +e
           cd $HOME/kmtest
+          command -v ffmpeg || { echo "ffmpeg missing"; echo 127 > /tmp/enc_rc; exit 0; }
           ffmpeg -y -loglevel error -f lavfi -i "sine=frequency=440:duration=8" out/a.wav
           S=$(date +%s)
           ffmpeg -y -loglevel error -i out/test.mp4 -i out/a.wav -map 0:v -map 1:a -c:v libx264 -preset medium -crf 20 -pix_fmt yuv420p -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k -shortest -map_metadata -1 -fflags +bitexact -movflags +faststart out/final.mp4
