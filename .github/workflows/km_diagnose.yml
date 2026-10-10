@@ -68,7 +68,6 @@ jobs:
         timeout-minutes: 4
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::SMOKE step failed rc=$rc line=$LINENO"' ERR
           echo "CHROMIUM_SMOKE_START $(date -Is)"
           S=$(date +%s)
           echo '<html><body style="background:#123;color:#fff;font-size:64px">smoke</body></html>' > /tmp/smoke.html
@@ -107,7 +106,6 @@ jobs:
         timeout-minutes: 3
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::VOICE_RESTORE failed rc=$rc line=$LINENO"' ERR
           echo "VOICE_RESTORE_START $(date -Is)"
           S=$(date +%s)
           STORY=SAMPLE-001
@@ -139,7 +137,6 @@ jobs:
         timeout-minutes: 3
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::VOICE_CHECK failed rc=$rc line=$LINENO"' ERR
           echo "VOICE_CHECK_START $(date -Is)"
           S=$(date +%s)
           ls gemini_key.txt gemini_key2.txt 2>/dev/null && echo "UNEXPECTED: key files present" || echo "no key files (correct for this test)"
@@ -151,11 +148,11 @@ jobs:
         timeout-minutes: 6
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::CARD failed rc=$rc line=$LINENO"' ERR
-          trap 'kill $HB 2>/dev/null' EXIT
+          trap 'kill $HB 2>/dev/null || true' EXIT
           echo "CARD_START $(date -Is)"
           S=$(date +%s)
-          ( while :; do
+          ( set +e +E
+          while :; do
               echo "HEARTBEAT $(date +%T)"
               ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
               for p in $(pgrep -f 'python|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
@@ -166,7 +163,7 @@ jobs:
           python -u scripts/km_cards.py public/story.json --out out --fonts public/fonts --public public 2>&1 | tee out/km_cards.log
           RC=${PIPESTATUS[0]}
           set -e
-          kill $HB 2>/dev/null
+          kill $HB 2>/dev/null || true
           echo "km_cards.py exit code: $RC (recorded as evidence; PNGs are the verdict)"
           N=$(ls out/SAMPLE-001/card_*.png 2>/dev/null | wc -l)
           echo "cards baked: $N"
@@ -178,7 +175,6 @@ jobs:
         timeout-minutes: 6
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::TTS failed rc=$rc line=$LINENO"' ERR
           echo "TTS_START $(date -Is)"
           S=$(date +%s)
           python -u scripts/tts.py public/story.json public
@@ -189,7 +185,6 @@ jobs:
         timeout-minutes: 2
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::PROPS failed rc=$rc line=$LINENO"' ERR
           echo "PROPS_START $(date -Is)"
           S=$(date +%s)
           python - <<'PY'
@@ -207,11 +202,11 @@ jobs:
         timeout-minutes: 15
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::REMOTION_C1 failed rc=$rc line=$LINENO"' ERR
-          trap 'kill $HB 2>/dev/null' EXIT
+          trap 'kill $HB 2>/dev/null || true' EXIT
           echo "REMOTION_START $(date -Is)"
           S=$(date +%s)
-          ( while :; do
+          ( set +e +E
+          while :; do
               echo "HEARTBEAT $(date +%T)"
               ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
               for p in $(pgrep -f 'node|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
@@ -223,7 +218,7 @@ jobs:
             --image-format=jpeg --jpeg-quality=92 --crf=18 \
             --pixel-format=yuv420p --audio-codec=pcm-16 --codec=h264 --scale=1 \
             --timeout=10000 --log=verbose 2>&1 | tee /tmp/slice_c1.log
-          kill $HB 2>/dev/null
+          kill $HB 2>/dev/null || true
           E=$(( $(date +%s) - S ))
           echo "### SLICE concurrency=1: ${E}s for 90 frames" >> $GITHUB_STEP_SUMMARY
           echo "REMOTION_SLICE_SECONDS=$E" | tee /tmp/slice_secs
@@ -233,10 +228,10 @@ jobs:
         timeout-minutes: 15
         run: |
           set -Eeuxo pipefail
-          trap 'rc=$?; echo "::error::REMOTION_C2 failed rc=$rc line=$LINENO"' ERR
-          trap 'kill $HB 2>/dev/null' EXIT
+          trap 'kill $HB 2>/dev/null || true' EXIT
           S=$(date +%s)
-          ( while :; do
+          ( set +e +E
+          while :; do
               echo "HEARTBEAT $(date +%T)"
               ps -eo pid,comm,%cpu,rss --sort=-%cpu | head -8
               for p in $(pgrep -f 'node|chrome' | head -6); do echo "  wchan pid=$p: $(cat /proc/$p/wchan 2>/dev/null)"; done
@@ -248,7 +243,7 @@ jobs:
             --image-format=jpeg --jpeg-quality=92 --crf=18 \
             --pixel-format=yuv420p --audio-codec=pcm-16 --codec=h264 --scale=1 \
             --log=verbose 2>&1 | tee /tmp/slice_c2.log
-          kill $HB 2>/dev/null
+          kill $HB 2>/dev/null || true
           E=$(( $(date +%s) - S ))
           echo "### SLICE concurrency=2: ${E}s for 90 frames" >> $GITHUB_STEP_SUMMARY
 
