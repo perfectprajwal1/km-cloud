@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       story_id:
-        description: "Story id, for example RV_20261010_n5twyq"
-        required: true
+        description: "Story id, e.g. RV_20261011_abc123. Leave EMPTY to fetch newly approved rows from the Sheet (make only)."
+        required: false
+        default: ""
       mode:
         description: "make = new story, resume = continue a story that stopped on voice"
         required: true
@@ -33,8 +34,9 @@ jobs:
       - name: Check inputs
         run: |
           case "$STORY" in
-            RV_*[!A-Za-z0-9_-]*|"") echo "Bad story id"; exit 1;; esac
-          echo "story: $STORY, mode: $MODE"
+            *[!A-Za-z0-9_-]*) echo "Bad story id"; exit 1;; esac
+          if [ -z "$STORY" ] && [ "$MODE" = resume ]; then echo "resume needs a story id"; exit 1; fi
+          echo "story: ${STORY:-(new rows from the Sheet)}, mode: $MODE"
 
       - uses: actions/checkout@v4
 
@@ -105,14 +107,31 @@ jobs:
           set +e
           S=$(date +%s)
           if [ "$MODE" = resume ]; then
+            [ -d "inbox/$STORY" ] || { echo "STOP: inbox/$STORY is not in the repo, nothing to resume."; echo 2 > /tmp/km_rc; exit 0; }
             python resume_failed.py "$STORY" 2>&1 | tee /tmp/km_run.log
-          else
+          elif [ -z "$STORY" ]; then
+            echo "No story id: asking the Sheet for newly approved rows"
+            python make_reel.py 2>&1 | tee /tmp/km_run.log
+          elif [ -d "inbox/$STORY" ]; then
             python make_reel.py "$STORY" 2>&1 | tee /tmp/km_run.log
+          else
+            echo "inbox/$STORY is not in the repo; checking the Sheet for it"
+            python producer.py --once 2>&1 | tee /tmp/km_run.log
+            if [ -d "inbox/$STORY" ]; then
+              python make_reel.py "$STORY" 2>&1 | tee -a /tmp/km_run.log
+            elif [ -f "stories/$STORY.json" ]; then
+              echo "Hand-made story file found; skipping the script converter (voice + render only)"
+              python -c "import os,sys; sys.path.insert(0,'.'); import make_reel; sys.exit(make_reel.voice_and_render(os.environ['STORY'], recover=True))" 2>&1 | tee -a /tmp/km_run.log
+            else
+              echo "STOP: $STORY is not in inbox/, not newly approved in the Sheet, and has no stories/$STORY.json."
+              echo "If the row was already made on the PC, upload its inbox/$STORY folder or delete its line in produced.json."
+              echo 2 > /tmp/km_rc; exit 0
+            fi
           fi
           RC=${PIPESTATUS[0]}
-          echo "$RC" > /tmp/km_rc
+          [ -f /tmp/km_rc ] || echo "$RC" > /tmp/km_rc
           echo "$(( $(date +%s)-S ))" > /tmp/km_secs
-          [ -s "out/$STORY.mp4" ] && echo ok > /tmp/km_ok
+          if [ -n "$STORY" ]; then [ -s "out/$STORY.mp4" ] && echo ok > /tmp/km_ok; else ls out/*.mp4 >/dev/null 2>&1 && echo ok > /tmp/km_ok; fi
           exit 0
 
       - name: Remove key files
@@ -140,8 +159,8 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: reel-${{ github.event.inputs.story_id }}
-          path: out/${{ github.event.inputs.story_id }}.mp4
+          name: reel-${{ github.event.inputs.story_id || 'new' }}
+          path: out/*.mp4
           retention-days: 3
           if-no-files-found: warn
 
