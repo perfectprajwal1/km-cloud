@@ -1,0 +1,914 @@
+REVIEW ID: RV_20261010_sgh2kr
+TOPIC: नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_a085947f8eb7bf3b
+DATE: 2026-10-10T03:51:25.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Nagarik News
+CATEGORY: sports
+SOURCE: https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्। शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ। परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ। त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ। मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्। नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "nepali literature poetry writing diary close up",
+   "shot_description": "Close up shot of a pen writing Nepali poetic lines on paper",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ",
+  "big_hook_text": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "प्रकाशित मिति",
+     "value": "२४ आश्विन २०८३"
+    }
+   ],
+   "data_source_quote": "प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"
+  },
+  "caption_text": "शनिबार प्रकाशित मुक्तक रचना",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "person listening carefully thoughtful look",
+   "shot_description": "A thoughtful Nepali person sitting quietly observing their surroundings",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "परिस्थिति सधैँ समान हुँदैन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "team collaboration discussion office kathmandu",
+   "shot_description": "Colleagues working together around a table discussing project tasks",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "काम गर्न टिम चाहिन्छ",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "परिणाम आउनलाई काम गर्ने टिम चाहिन्छ"
+ },
+ {
+  "line_id": 5,
+  "beat": "takeaway",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "मुक्तक संख्या",
+     "value": "५"
+    }
+   ],
+   "data_source_quote": "५) मुक्तक"
+  },
+  "caption_text": "मुक्तक प्रस्तुत",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "५) मुक्तक"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "nepali newspaper reading morning desk",
+   "shot_description": "Newspaper open on desk with Nepali script visible",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "नागरिक नेटवर्कमा प्रकाशित विवरण",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "५) मुक्तक"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_a085947f8eb7bf3b","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","article_quote":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ मासुमासु भने पनि खान मीठो त झोल हुन्छ","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ?","closing_line":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","comment_prompt":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","pinned_comment":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","lines":[{"line_id":1,"beat":"hook","narration_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"nepali literature poetry writing diary close up","shot_description":"Close up shot of a pen writing Nepali poetic lines on paper","depiction_scope":"generic_illustration"},"caption_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","big_hook_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","pip_mode":"off","source_evidence":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"प्रकाशित मिति","value":"२४ आश्विन २०८३"}],"data_source_quote":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"},"caption_text":"शनिबार प्रकाशित मुक्तक रचना","big_hook_text":"","pip_mode":"off","source_evidence":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"person listening carefully thoughtful look","shot_description":"A thoughtful Nepali person sitting quietly observing their surroundings","depiction_scope":"generic_illustration"},"caption_text":"परिस्थिति सधैँ समान हुँदैन","big_hook_text":"","pip_mode":"off","source_evidence":"परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"detail","narration_text":"त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"team collaboration discussion office kathmandu","shot_description":"Colleagues working together around a table discussing project tasks","depiction_scope":"generic_illustration"},"caption_text":"काम गर्न टिम चाहिन्छ","big_hook_text":"","pip_mode":"off","source_evidence":"परिणाम आउनलाई काम गर्ने टिम चाहिन्छ","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"takeaway","narration_text":"मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मुक्तक संख्या","value":"५"}],"data_source_quote":"५) मुक्तक"},"caption_text":"मुक्तक प्रस्तुत","big_hook_text":"","pip_mode":"off","source_evidence":"५) मुक्तक","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"nepali newspaper reading morning desk","shot_description":"Newspaper open on desk with Nepali script visible","depiction_scope":"generic_illustration"},"caption_text":"नागरिक नेटवर्कमा प्रकाशित विवरण","big_hook_text":"","pip_mode":"off","source_evidence":"५) मुक्तक","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ: मुक्तक","youtube_description":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ र अनुभवहरू प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","youtube_tags":["Nagarik News","Nepali Muktak","Nepali Literature","साहित्य","मुक्तक","Khabar Minute","नेपाली साहित्य","कविता"],"tiktok_caption":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै प्रकाशित मुक्तक।","instagram_caption":"नागरिक नेटवर्कमा जीवनका भोगाइ र यथार्थ समेटिएका मुक्तक प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","facebook_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका विविध पाटो र भोगाइ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","threads_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","linkedin_post":"नागरिक नेटवर्कको कला साहित्य खण्डमा समसामयिक मुक्तकहरू प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","hashtags":["#NepaliMuktak","#NepaliLiterature","#NagarikNews","#KhabarMinute"],"source_credit":"Source: Nagarik News"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 2: मिति
+unverified label line 5: संख्या
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+SOFT-FAIL SHIPPED after 2 correction rounds. Waived soft check(s): DURATION. All hard checks (facts, quotes, grounding, sources, credits) PASSED. Review carefully before publishing.
+FACT CHECK: 2 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: Two claims lack direct support in the article: the coverage of various life experiences and the statement about presenting simple yet deep aspects of life.
+REVIEW CLOSING: last line has low word overlap with the article (0.33); confirm it is a fact from the source.
+Closing: removed question wording ("यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?"); dropped line(s) 7; last line is now: "नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।".
+B-roll: only 2/6 lines show this story's own facts; line(s) 1, 3, 4, 6 use general topic footage.
+Line 2: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 4: text-only card used (no data card fits this line).
+Line 6: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ?
+
+--- PINNED COMMENT (Nepali question) ---
+यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "pen writing Nepali poetry",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "pen writing Nepali poetry",
+   "alt_queries": [
+    "hand writing verses",
+    "paper notebook closeup"
+   ],
+   "query_source": "director",
+   "shot_description": "Close up shot of a pen writing Nepali poetic lines on paper",
+   "commons": null,
+   "map": null,
+   "motion_text": "नाम पो फुटबल",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "pen writing Nepali poetry",
+     "search_url": "https://www.pexels.com/search/videos/pen%20writing%20Nepali%20poetry/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=pen%20writing%20Nepali%20poetry&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Close up shot of a pen writing Nepali poetic lines on paper",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "pen writing Nepali poetry",
+     "search_url": "https://pixabay.com/videos/search/pen%20writing%20Nepali%20poetry/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=pen%20writing%20Nepali%20poetry&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "hand writing verses",
+     "search_url": "https://www.pexels.com/search/videos/hand%20writing%20verses/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=hand%20writing%20verses&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "paper notebook closeup",
+     "search_url": "https://www.pexels.com/search/videos/paper%20notebook%20closeup/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=paper%20notebook%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "pen writing Nepali poetry",
+     "search_url": "https://openverse.org/search/image?q=pen%20writing%20Nepali%20poetry",
+     "api": "GET https://api.openverse.org/v1/images/?q=pen%20writing%20Nepali%20poetry&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नाम पो फुटबल",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L1 [full] STOCK VIDEO via pexels_video: \"pen writing Nepali poetry\" | then stock video @pixabay \"pen writing Nepali poetry\", stock video @pexels \"hand writing verses\", stock video @pexels \"paper notebook closeup\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "calendar Nepali date",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "calendar Nepali date",
+   "alt_queries": [
+    "Ashwin month calendar",
+    "Saturday date display"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "शनिबार प्रकाशित",
+   "on_screen_data": [
+    {
+     "label": "प्रकाशित मिति",
+     "value": "२४ आश्विन २०८३"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "प्रकाशित मिति",
+       "value": "२४ आश्विन २०८३"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "calendar Nepali date",
+     "search_url": "https://www.pexels.com/search/videos/calendar%20Nepali%20date/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=calendar%20Nepali%20date&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "calendar Nepali date",
+     "search_url": "https://pixabay.com/videos/search/calendar%20Nepali%20date/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=calendar%20Nepali%20date&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Ashwin month calendar",
+     "search_url": "https://www.pexels.com/search/videos/Ashwin%20month%20calendar/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Ashwin%20month%20calendar&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Saturday date display",
+     "search_url": "https://www.pexels.com/search/videos/Saturday%20date%20display/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Saturday%20date%20display&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "calendar Nepali date",
+     "search_url": "https://openverse.org/search/image?q=calendar%20Nepali%20date",
+     "api": "GET https://api.openverse.org/v1/images/?q=calendar%20Nepali%20date&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "शनिबार प्रकाशित",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \"प्रकाशित मिति २४ आश्विन २०८३\" | then stock video @pexels \"calendar Nepali date\" [bg], stock video @pixabay \"calendar Nepali date\", stock video @pexels \"Ashwin month calendar\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "thoughtful Nepali person",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "thoughtful Nepali person",
+   "alt_queries": [
+    "person listening",
+    "contemplative look"
+   ],
+   "query_source": "director",
+   "shot_description": "A thoughtful Nepali person sitting quietly observing their surroundings",
+   "commons": null,
+   "map": null,
+   "motion_text": "परिस्थिति सधैँ",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "thoughtful Nepali person",
+     "search_url": "https://www.pexels.com/search/videos/thoughtful%20Nepali%20person/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=thoughtful%20Nepali%20person&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "A thoughtful Nepali person sitting quietly observing their surroundings",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "thoughtful Nepali person",
+     "search_url": "https://pixabay.com/videos/search/thoughtful%20Nepali%20person/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=thoughtful%20Nepali%20person&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "person listening",
+     "search_url": "https://www.pexels.com/search/videos/person%20listening/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=person%20listening&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "contemplative look",
+     "search_url": "https://www.pexels.com/search/videos/contemplative%20look/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=contemplative%20look&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "thoughtful Nepali person",
+     "search_url": "https://openverse.org/search/image?q=thoughtful%20Nepali%20person",
+     "api": "GET https://api.openverse.org/v1/images/?q=thoughtful%20Nepali%20person&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "परिस्थिति सधैँ",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L3 [full] STOCK VIDEO via pexels_video: \"thoughtful Nepali person\" | then stock video @pixabay \"thoughtful Nepali person\", stock video @pexels \"person listening\", stock video @pexels \"contemplative look\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "team collaboration Kathmandu",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "team collaboration Kathmandu",
+   "alt_queries": [
+    "office discussion",
+    "colleagues working"
+   ],
+   "query_source": "director",
+   "shot_description": "Colleagues working together around a table discussing project tasks",
+   "commons": null,
+   "map": null,
+   "motion_text": "काम गर्ने टिम",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "team collaboration Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/team%20collaboration%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=team%20collaboration%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Colleagues working together around a table discussing project tasks",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "team collaboration Kathmandu",
+     "search_url": "https://pixabay.com/videos/search/team%20collaboration%20Kathmandu/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=team%20collaboration%20Kathmandu&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "office discussion",
+     "search_url": "https://www.pexels.com/search/videos/office%20discussion/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=office%20discussion&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "colleagues working",
+     "search_url": "https://www.pexels.com/search/videos/colleagues%20working/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=colleagues%20working&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "team collaboration Kathmandu",
+     "search_url": "https://openverse.org/search/image?q=team%20collaboration%20Kathmandu",
+     "api": "GET https://api.openverse.org/v1/images/?q=team%20collaboration%20Kathmandu&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "परिणाम आउनलाई काम गर्ने टिम चाहिन्छ",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "काम गर्ने टिम",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L4 [full] STOCK VIDEO via pexels_video: \"team collaboration Kathmandu\" | then stock video @pixabay \"team collaboration Kathmandu\", stock video @pexels \"office discussion\", stock video @pexels \"colleagues working\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "number five graphic",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "takeaway",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "number five graphic",
+   "alt_queries": [
+    "count of poems",
+    "five items display"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "मुक्तक संख्या",
+     "value": "५"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "मुक्तक संख्या",
+       "value": "५"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "number five graphic",
+     "search_url": "https://www.pexels.com/search/videos/number%20five%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=number%20five%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "number five graphic",
+     "search_url": "https://pixabay.com/videos/search/number%20five%20graphic/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=number%20five%20graphic&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "count of poems",
+     "search_url": "https://www.pexels.com/search/videos/count%20of%20poems/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=count%20of%20poems&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "five items display",
+     "search_url": "https://www.pexels.com/search/videos/five%20items%20display/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=five%20items%20display&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "number five graphic",
+     "search_url": "https://openverse.org/search/image?q=number%20five%20graphic",
+     "api": "GET https://api.openverse.org/v1/images/?q=number%20five%20graphic&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "५) मुक्तक",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L5 [plate] NUMBER CARD via local_render: \"मुक्तक संख्या ५\" | then stock video @pexels \"number five graphic\" [bg], stock video @pixabay \"number five graphic\", stock video @pexels \"count of poems\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "newspaper Nepali morning",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "newspaper Nepali morning",
+   "alt_queries": [
+    "desk reading paper",
+    "morning news"
+   ],
+   "query_source": "director",
+   "shot_description": "Newspaper open on desk with Nepali script visible",
+   "commons": null,
+   "map": null,
+   "motion_text": "नागरिक नेटवर्कमा",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "newspaper Nepali morning",
+     "search_url": "https://www.pexels.com/search/videos/newspaper%20Nepali%20morning/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=newspaper%20Nepali%20morning&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Newspaper open on desk with Nepali script visible",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "newspaper Nepali morning",
+     "search_url": "https://pixabay.com/videos/search/newspaper%20Nepali%20morning/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=newspaper%20Nepali%20morning&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "desk reading paper",
+     "search_url": "https://www.pexels.com/search/videos/desk%20reading%20paper/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=desk%20reading%20paper&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "morning news",
+     "search_url": "https://www.pexels.com/search/videos/morning%20news/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=morning%20news&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "newspaper Nepali morning",
+     "search_url": "https://openverse.org/search/image?q=newspaper%20Nepali%20morning",
+     "api": "GET https://api.openverse.org/v1/images/?q=newspaper%20Nepali%20morning&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "५) मुक्तक",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नागरिक नेटवर्कमा",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L6 [full] STOCK VIDEO via pexels_video: \"newspaper Nepali morning\" | then stock video @pixabay \"newspaper Nepali morning\", stock video @pexels \"desk reading paper\", stock video @pexels \"morning news\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 2/6 content lines; article quote cards 0; topic stock only 4; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] STOCK VIDEO via pexels_video: "pen writing Nepali poetry" | then stock video @pixabay "pen writing Nepali poetry", stock video @pexels "hand writing verses", stock video @pexels "paper notebook closeup" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/pen%20writing%20Nepali%20poetry/?orientation=portrait
+L2 [plate] NUMBER CARD via local_render: "प्रकाशित मिति २४ आश्विन २०८३" | then stock video @pexels "calendar Nepali date" [bg], stock video @pixabay "calendar Nepali date", stock video @pexels "Ashwin month calendar" | quality: story_fact
+L3 [full] STOCK VIDEO via pexels_video: "thoughtful Nepali person" | then stock video @pixabay "thoughtful Nepali person", stock video @pexels "person listening", stock video @pexels "contemplative look" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/thoughtful%20Nepali%20person/?orientation=portrait
+L4 [full] STOCK VIDEO via pexels_video: "team collaboration Kathmandu" | then stock video @pixabay "team collaboration Kathmandu", stock video @pexels "office discussion", stock video @pexels "colleagues working" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/team%20collaboration%20Kathmandu/?orientation=portrait
+L5 [plate] NUMBER CARD via local_render: "मुक्तक संख्या ५" | then stock video @pexels "number five graphic" [bg], stock video @pixabay "number five graphic", stock video @pexels "count of poems" | quality: story_fact
+L6 [full] STOCK VIDEO via pexels_video: "newspaper Nepali morning" | then stock video @pixabay "newspaper Nepali morning", stock video @pexels "desk reading paper", stock video @pexels "morning news" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/newspaper%20Nepali%20morning/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ: मुक्तक",
+ "youtube_description": "नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ र अनुभवहरू प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html",
+ "youtube_tags": [
+  "Nagarik News",
+  "Nepali Muktak",
+  "Nepali Literature",
+  "साहित्य",
+  "मुक्तक",
+  "Khabar Minute",
+  "नेपाली साहित्य",
+  "कविता"
+ ],
+ "tiktok_caption": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै प्रकाशित मुक्तक।\nSource: Nagarik News",
+ "instagram_caption": "नागरिक नेटवर्कमा जीवनका भोगाइ र यथार्थ समेटिएका मुक्तक प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html",
+ "facebook_post": "नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका विविध पाटो र भोगाइ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html",
+ "threads_post": "नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html",
+ "linkedin_post": "नागरिक नेटवर्कको कला साहित्य खण्डमा समसामयिक मुक्तकहरू प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html",
+ "hashtags": [
+  "#NepaliMuktak",
+  "#NepaliLiterature",
+  "#NagarikNews",
+  "#KhabarMinute"
+ ],
+ "source_credit": "Source: Nagarik News"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261010_sgh2kr","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261010_sgh2kr","review_date":"20261010","title":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!","chosen_topic":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!","category":"sports","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","story_id":"ST_a085947f8eb7bf3b","risk_flag":"NORMAL","source_credit":"Source: Nagarik News","full_script":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्। शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ। परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ। त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ। मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्। नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","hook":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।","alternate_hook":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ?","hook_type":"direct_callout","closing_line":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","pinned_comment":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","lines":[{"text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"pen writing Nepali poetry","broll_kind":"stock_video"},{"text":"शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।","voice":"neutral","pose":"neutral","broll":"calendar Nepali date","broll_kind":"number_card"},{"text":"परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।","voice":"thinking","pose":"thinking","broll":"thoughtful Nepali person","broll_kind":"stock_video"},{"text":"त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"team collaboration Kathmandu","broll_kind":"stock_video"},{"text":"मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।","voice":"neutral","pose":"neutral","broll":"number five graphic","broll_kind":"number_card"},{"text":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","voice":"neutral","pose":"neutral","broll":"newspaper Nepali morning","broll_kind":"stock_video"}],"word_count":67,"workbook":{"schema_version":"6.6.9","story_id":"ST_a085947f8eb7bf3b","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","article_quote":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ मासुमासु भने पनि खान मीठो त झोल हुन्छ","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ?","closing_line":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","comment_prompt":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","pinned_comment":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","lines":[{"line_id":1,"beat":"hook","narration_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"nepali literature poetry writing diary close up","shot_description":"Close up shot of a pen writing Nepali poetic lines on paper","depiction_scope":"generic_illustration"},"caption_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","big_hook_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","pip_mode":"off","source_evidence":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"प्रकाशित मिति","value":"२४ आश्विन २०८३"}],"data_source_quote":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"},"caption_text":"शनिबार प्रकाशित मुक्तक रचना","big_hook_text":"","pip_mode":"off","source_evidence":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"person listening carefully thoughtful look","shot_description":"A thoughtful Nepali person sitting quietly observing their surroundings","depiction_scope":"generic_illustration"},"caption_text":"परिस्थिति सधैँ समान हुँदैन","big_hook_text":"","pip_mode":"off","source_evidence":"परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"detail","narration_text":"त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"team collaboration discussion office kathmandu","shot_description":"Colleagues working together around a table discussing project tasks","depiction_scope":"generic_illustration"},"caption_text":"काम गर्न टिम चाहिन्छ","big_hook_text":"","pip_mode":"off","source_evidence":"परिणाम आउनलाई काम गर्ने टिम चाहिन्छ","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"takeaway","narration_text":"मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मुक्तक संख्या","value":"५"}],"data_source_quote":"५) मुक्तक"},"caption_text":"मुक्तक प्रस्तुत","big_hook_text":"","pip_mode":"off","source_evidence":"५) मुक्तक","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"nepali newspaper reading morning desk","shot_description":"Newspaper open on desk with Nepali script visible","depiction_scope":"generic_illustration"},"caption_text":"नागरिक नेटवर्कमा प्रकाशित विवरण","big_hook_text":"","pip_mode":"off","source_evidence":"५) मुक्तक","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ: मुक्तक","youtube_description":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ र अनुभवहरू प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","youtube_tags":["Nagarik News","Nepali Muktak","Nepali Literature","साहित्य","मुक्तक","Khabar Minute","नेपाली साहित्य","कविता"],"tiktok_caption":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै प्रकाशित मुक्तक।","instagram_caption":"नागरिक नेटवर्कमा जीवनका भोगाइ र यथार्थ समेटिएका मुक्तक प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","facebook_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका विविध पाटो र भोगाइ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","threads_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","linkedin_post":"नागरिक नेटवर्कको कला साहित्य खण्डमा समसामयिक मुक्तकहरू प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","hashtags":["#NepaliMuktak","#NepaliLiterature","#NagarikNews","#KhabarMinute"],"source_credit":"Source: Nagarik News"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"nepali literature poetry writing diary close up","shot_description":"Close up shot of a pen writing Nepali poetic lines on paper","depiction_scope":"generic_illustration"},"caption_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","big_hook_text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"प्रकाशित मिति","value":"२४ आश्विन २०८३"}],"data_source_quote":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"},"caption_text":"शनिबार प्रकाशित मुक्तक रचना","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"person listening carefully thoughtful look","shot_description":"A thoughtful Nepali person sitting quietly observing their surroundings","depiction_scope":"generic_illustration"},"caption_text":"परिस्थिति सधैँ समान हुँदैन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।"},{"line_id":4,"beat":"detail","visual":{"type":"BROLL","search_query":"team collaboration discussion office kathmandu","shot_description":"Colleagues working together around a table discussing project tasks","depiction_scope":"generic_illustration"},"caption_text":"काम गर्न टिम चाहिन्छ","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"परिणाम आउनलाई काम गर्ने टिम चाहिन्छ"},{"line_id":5,"beat":"takeaway","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मुक्तक संख्या","value":"५"}],"data_source_quote":"५) मुक्तक"},"caption_text":"मुक्तक प्रस्तुत","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"५) मुक्तक"},{"line_id":6,"beat":"closing","visual":{"type":"BROLL","search_query":"nepali newspaper reading morning desk","shot_description":"Newspaper open on desk with Nepali script visible","depiction_scope":"generic_illustration"},"caption_text":"नागरिक नेटवर्कमा प्रकाशित विवरण","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"५) मुक्तक"}],"lines_legacy":[{"text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"pen writing Nepali poetry","broll_kind":"stock_video"},{"text":"शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।","voice":"neutral","pose":"neutral","broll":"calendar Nepali date","broll_kind":"number_card"},{"text":"परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।","voice":"thinking","pose":"thinking","broll":"thoughtful Nepali person","broll_kind":"stock_video"},{"text":"त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"team collaboration Kathmandu","broll_kind":"stock_video"},{"text":"मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।","voice":"neutral","pose":"neutral","broll":"number five graphic","broll_kind":"number_card"},{"text":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।","voice":"neutral","pose":"neutral","broll":"newspaper Nepali morning","broll_kind":"stock_video"}],"youtube_title":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ: मुक्तक","youtube_description":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ र अनुभवहरू प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","youtube_tags":["Nagarik News","Nepali Muktak","Nepali Literature","साहित्य","मुक्तक","Khabar Minute","नेपाली साहित्य","कविता"],"tiktok_caption":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै प्रकाशित मुक्तक।\nSource: Nagarik News","instagram_caption":"नागरिक नेटवर्कमा जीवनका भोगाइ र यथार्थ समेटिएका मुक्तक प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","facebook_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका विविध पाटो र भोगाइ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","threads_post":"नागरिक नेटवर्कमा प्रकाशित मुक्तकहरूले जीवनका यथार्थ प्रस्तुत गरेका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","linkedin_post":"नागरिक नेटवर्कको कला साहित्य खण्डमा समसामयिक मुक्तकहरू प्रकाशित भएका छन्। Source: Nagarik News https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","hashtags":["#NepaliMuktak","#NepaliLiterature","#NagarikNews","#KhabarMinute"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"pen writing Nepali poetry","alt_queries":["hand writing verses","paper notebook closeup"],"query_source":"director","shot_description":"Close up shot of a pen writing Nepali poetic lines on paper","commons":null,"map":null,"motion_text":"नाम पो फुटबल","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"pen writing Nepali poetry","search_url":"https://www.pexels.com/search/videos/pen%20writing%20Nepali%20poetry/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=pen%20writing%20Nepali%20poetry&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Close up shot of a pen writing Nepali poetic lines on paper","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"pen writing Nepali poetry","search_url":"https://pixabay.com/videos/search/pen%20writing%20Nepali%20poetry/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=pen%20writing%20Nepali%20poetry&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"hand writing verses","search_url":"https://www.pexels.com/search/videos/hand%20writing%20verses/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=hand%20writing%20verses&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"paper notebook closeup","search_url":"https://www.pexels.com/search/videos/paper%20notebook%20closeup/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=paper%20notebook%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"pen writing Nepali poetry","search_url":"https://openverse.org/search/image?q=pen%20writing%20Nepali%20poetry","api":"GET https://api.openverse.org/v1/images/?q=pen%20writing%20Nepali%20poetry&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"नाम पो फुटबल","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L1 [full] STOCK VIDEO via pexels_video: \"pen writing Nepali poetry\" | then stock video @pixabay \"pen writing Nepali poetry\", stock video @pexels \"hand writing verses\", stock video @pexels \"paper notebook closeup\" | quality: topic_stock"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"calendar Nepali date","alt_queries":["Ashwin month calendar","Saturday date display"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"शनिबार प्रकाशित","on_screen_data":[{"label":"प्रकाशित मिति","value":"२४ आश्विन २०८३"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"प्रकाशित मिति","value":"२४ आश्विन २०८३"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"calendar Nepali date","search_url":"https://www.pexels.com/search/videos/calendar%20Nepali%20date/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=calendar%20Nepali%20date&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"calendar Nepali date","search_url":"https://pixabay.com/videos/search/calendar%20Nepali%20date/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=calendar%20Nepali%20date&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"Ashwin month calendar","search_url":"https://www.pexels.com/search/videos/Ashwin%20month%20calendar/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Ashwin%20month%20calendar&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"Saturday date display","search_url":"https://www.pexels.com/search/videos/Saturday%20date%20display/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Saturday%20date%20display&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"calendar Nepali date","search_url":"https://openverse.org/search/image?q=calendar%20Nepali%20date","api":"GET https://api.openverse.org/v1/images/?q=calendar%20Nepali%20date&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"प्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"शनिबार प्रकाशित","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \"प्रकाशित मिति २४ आश्विन २०८३\" | then stock video @pexels \"calendar Nepali date\" [bg], stock video @pixabay \"calendar Nepali date\", stock video @pexels \"Ashwin month calendar\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"thoughtful Nepali person","alt_queries":["person listening","contemplative look"],"query_source":"director","shot_description":"A thoughtful Nepali person sitting quietly observing their surroundings","commons":null,"map":null,"motion_text":"परिस्थिति सधैँ","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"thoughtful Nepali person","search_url":"https://www.pexels.com/search/videos/thoughtful%20Nepali%20person/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=thoughtful%20Nepali%20person&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"A thoughtful Nepali person sitting quietly observing their surroundings","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"thoughtful Nepali person","search_url":"https://pixabay.com/videos/search/thoughtful%20Nepali%20person/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=thoughtful%20Nepali%20person&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"person listening","search_url":"https://www.pexels.com/search/videos/person%20listening/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=person%20listening&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"contemplative look","search_url":"https://www.pexels.com/search/videos/contemplative%20look/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=contemplative%20look&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"thoughtful Nepali person","search_url":"https://openverse.org/search/image?q=thoughtful%20Nepali%20person","api":"GET https://api.openverse.org/v1/images/?q=thoughtful%20Nepali%20person&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"परिस्थिति सधैँ समान अनि अनुकूल हुँदैन, आवश्यकता अनुसार मुख कान थुन्नुपर्छ।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"परिस्थिति सधैँ","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L3 [full] STOCK VIDEO via pexels_video: \"thoughtful Nepali person\" | then stock video @pixabay \"thoughtful Nepali person\", stock video @pexels \"person listening\", stock video @pexels \"contemplative look\" | quality: topic_stock"},{"line_id":4,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"team collaboration Kathmandu","alt_queries":["office discussion","colleagues working"],"query_source":"director","shot_description":"Colleagues working together around a table discussing project tasks","commons":null,"map":null,"motion_text":"काम गर्ने टिम","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"team collaboration Kathmandu","search_url":"https://www.pexels.com/search/videos/team%20collaboration%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=team%20collaboration%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Colleagues working together around a table discussing project tasks","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"team collaboration Kathmandu","search_url":"https://pixabay.com/videos/search/team%20collaboration%20Kathmandu/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=team%20collaboration%20Kathmandu&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"office discussion","search_url":"https://www.pexels.com/search/videos/office%20discussion/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=office%20discussion&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"colleagues working","search_url":"https://www.pexels.com/search/videos/colleagues%20working/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=colleagues%20working&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"team collaboration Kathmandu","search_url":"https://openverse.org/search/image?q=team%20collaboration%20Kathmandu","api":"GET https://api.openverse.org/v1/images/?q=team%20collaboration%20Kathmandu&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"परिणाम आउनलाई काम गर्ने टिम चाहिन्छ","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"काम गर्ने टिम","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L4 [full] STOCK VIDEO via pexels_video: \"team collaboration Kathmandu\" | then stock video @pixabay \"team collaboration Kathmandu\", stock video @pexels \"office discussion\", stock video @pexels \"colleagues working\" | quality: topic_stock"},{"line_id":5,"beat":"takeaway","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"number five graphic","alt_queries":["count of poems","five items display"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"मुक्तक संख्या","value":"५"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"मुक्तक संख्या","value":"५"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"number five graphic","search_url":"https://www.pexels.com/search/videos/number%20five%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=number%20five%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"number five graphic","search_url":"https://pixabay.com/videos/search/number%20five%20graphic/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=number%20five%20graphic&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"count of poems","search_url":"https://www.pexels.com/search/videos/count%20of%20poems/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=count%20of%20poems&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"five items display","search_url":"https://www.pexels.com/search/videos/five%20items%20display/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=five%20items%20display&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"number five graphic","search_url":"https://openverse.org/search/image?q=number%20five%20graphic","api":"GET https://api.openverse.org/v1/images/?q=number%20five%20graphic&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"५) मुक्तक","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L5 [plate] NUMBER CARD via local_render: \"मुक्तक संख्या ५\" | then stock video @pexels \"number five graphic\" [bg], stock video @pixabay \"number five graphic\", stock video @pexels \"count of poems\" | quality: story_fact"},{"line_id":6,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"newspaper Nepali morning","alt_queries":["desk reading paper","morning news"],"query_source":"director","shot_description":"Newspaper open on desk with Nepali script visible","commons":null,"map":null,"motion_text":"नागरिक नेटवर्कमा","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"newspaper Nepali morning","search_url":"https://www.pexels.com/search/videos/newspaper%20Nepali%20morning/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=newspaper%20Nepali%20morning&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Newspaper open on desk with Nepali script visible","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"newspaper Nepali morning","search_url":"https://pixabay.com/videos/search/newspaper%20Nepali%20morning/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=newspaper%20Nepali%20morning&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"desk reading paper","search_url":"https://www.pexels.com/search/videos/desk%20reading%20paper/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=desk%20reading%20paper&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"morning news","search_url":"https://www.pexels.com/search/videos/morning%20news/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=morning%20news&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"newspaper Nepali morning","search_url":"https://openverse.org/search/image?q=newspaper%20Nepali%20morning","api":"GET https://api.openverse.org/v1/images/?q=newspaper%20Nepali%20morning&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"५) मुक्तक","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"नागरिक नेटवर्कमा","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L6 [full] STOCK VIDEO via pexels_video: \"newspaper Nepali morning\" | then stock video @pixabay \"newspaper Nepali morning\", stock video @pexels \"desk reading paper\", stock video @pexels \"morning news\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":2,"quote_card":0,"topic_stock":4,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":2,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 2/6 content lines; article quote cards 0; topic stock only 4; needs a pick 0","lines_with_stock_query":6,"lines_with_commons":0,"lines_with_map":0,"rejected":[]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.33,"removed_text":["यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"मुक्तकहरू"}},"picture":{"status":"candidates","subject":{"kind":"object","name_en":"football","in_line":"फुटबल","in_article":true},"depiction":"generic_illustration","note":"General picture of the football, not the people or event in this story. Never put a name on it.","queries":[{"rank":1,"source":"wikimedia_commons","query":"football match stadium","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=football%20match%20stadium&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=football%20match%20stadium&ns6=1"},{"rank":2,"source":"openverse","query":"football players","api":"https://api.openverse.org/v1/images/?q=football%20players&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=football%20players&aspect_ratio=wide"},{"rank":3,"source":"pexels_photo","query":"football on pitch","api":"https://api.pexels.com/v1/search?query=football%20on%20pitch&orientation=landscape&per_page=8","url":"https://www.pexels.com/search/football%20on%20pitch/?orientation=landscape"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":3,"beat":"detail","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"detail","card":{"type":"kicker","fields":{"text":"काम गर्ने टिम नै चाहिन्छ भनिएको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"त्यस्तै","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":5,"beat":"takeaway","card":{"type":"bignum","fields":{"value":"5","decimals":0,"unit":"","prefix":"","label":"मुक्तक संख्या","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"dots","total":5,"hi":5,"label":"मुक्तक संख्या","fallback_kind":"dots"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":6,"beat":"closing","card":{"type":"kicker","fields":{"text":"नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"नेटवर्कमा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":2,"types_used":{"hook":1,"kicker":2,"bignum":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":1,"no_picture_lines":3,"blocked_claims":2,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":4,"chosen_topic":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!","category":"sports","reason":"फुटबलसँग सम्बन्धित शीर्षकले अहिलेको प्रिमियर लिग र EPL ट्रेन्डसँग मेल खान्छ, जसले नेपाली GenZ मा फुटबलको उत्साह र मीम‑संस्कृति दुवैलाई आकर्षित गर्ने सम्भावना बढाउँछ।","angle":"नेपाली फुटबलको अनौठो क्षणलाई ग्लोबल फुटबल हङ्गामसँग तुलना गर्दै हल्का‑फुल्का, रमाइलो र शेयर‑योग्य सामग्री तयार गर्नु।","chosen_id_recovered":false,"chosen_headline_exact":"नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ!","source_url":"https://nagariknews.nagariknetwork.com/arts/it-s-called-football-but-goals-can-also-be-scored-with-the-head-br-63-55.html","source_feed":"Nagarik News","rss_pub_date":"2026-10-10T03:51:25.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":186,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":19,"direct_headline_count":167,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_a085947f8eb7bf3b","source_credit":"Source: Nagarik News","trust_eligible":true,"trust_skip_reason":"","article_age_hours":2.0521941666666668,"date_unknown":false,"article_text":"१) मुक्तक\nकहिले सुनाउनुपर्छ अनि कहिले सुन्नुपर्छ\nउही फूल कहिले च्यात्नु कहिले उन्नुपर्छ\nपरिस्थिति सधैँ समान अनि अनुकूल हुँदैन,\nआवश्यकता अनुसार मुख कान थुन्नुपर्छ।\n२) मुक्तक\nआफैँलाई खाने त हो आखिर पिरले पनि\nजेनतेन जीवन निर्वाह गर्ने हो जागिरले पनि\nशान्त र खुशी मनले पेटभर खान पाए हुन्छ,\nउही एक छाक टर्ने हो ढिँडो वा खीरले पनि।\n३) मुक्तक\nनिश्चित हुँदैन फल लाग्ने भमरा डुल्दैमा\nविश्वास गर्न सकिँदैन कुराकानीमा खुल्दैमा\nजान्नेसँग नै हो सिक्ने, सिक्न लजाउनु पर्दैन,\nज्ञान, सीप, ढङ्ग पुग्दैन मात्र कपाल फुल्दैमा।\n४) मुक्तक\nनाम पो फुटबल तर टाउकोले पनि गोल हुन्छ\nमासुमासु भने पनि खान मीठो त झोल हुन्छ\nनमिलौँ भन्ने कसलाई होला र एक आपसमा,\nबीउ धेरै चाहिँदैन मात्र बिचमा एक पोल हुन्छ।\n५) मुक्तक\nसेट मात्र भएर चल्दैन फोन सिम चाहिन्छ\nपरिणाम आउनलाई काम गर्ने टिम चाहिन्छ\nआफन्त हुँदैमा आफ्नो हुन सक्दैन कोही,\nउनलाई उज्यालो तर मलाई डिम चाहिन्छ।\nप्रकाशित: २४ आश्विन २०८३ ०९:३६ शनिबार","article_char_count":865,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Nagarik News","assigned_hook_type":"direct_callout","review_id":"RV_20261010_sgh2kr","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

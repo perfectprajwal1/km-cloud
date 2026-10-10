@@ -1,0 +1,73 @@
+{
+  "master_sha256": "771e0f841622bb179b0b1605bb093ee8d6cce89da7145ed08220276b7b5d22c1",
+  "cuts_sec": [
+    6.2011666666666665,
+    15.768583333333332,
+    22.45025,
+    28.786916666666666,
+    35.863708333333335
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नमुना खबर। पेट्रोलको मूल्य पाँच रुपैयाँले बढेको छ।",
+      "master_start_sec": 0.26,
+      "master_end_sec": 4.92,
+      "duration_sec": 4.66,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "अब एक लिटर पेट्रोलको मूल्य एक सय असी रुपैयाँ पुगेको छ, नमुना स्रोतले जनाएको छ।",
+      "master_start_sec": 7.581,
+      "master_end_sec": 14.581,
+      "duration_sec": 7.0,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "डिजेलको मूल्य भने एक सय पैँसट्ठी रुपैयाँमै स्थिर छ।",
+      "master_start_sec": 16.989,
+      "master_end_sec": 21.169,
+      "duration_sec": 4.18,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "नयाँ मूल्य असोज सत्र गते मध्यरातदेखि लागू हुनेछ।",
+      "master_start_sec": 23.77,
+      "master_end_sec": 27.67,
+      "duration_sec": 3.9,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "हप्तामा दस लिटर चलाउने मोटरसाइकलवालालाई पचास रुपैयाँ थपिन्छ।",
+      "master_start_sec": 30.027,
+      "master_end_sec": 34.647,
+      "duration_sec": 4.62,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 6,
+      "expected_text": "नमुना नगरको डिपोमा अहिले तीन दिनलाई पुग्ने मौज्दात छ।",
+      "master_start_sec": 37.144,
+      "master_end_sec": 41.224,
+      "duration_sec": 4.08,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

@@ -1,0 +1,62 @@
+{
+  "master_sha256": "efa75f6769113e5b1c395892533d0324466b459310fc8a85b5379d85264ebc8d",
+  "cuts_sec": [
+    5.7265,
+    15.709958333333333,
+    20.956791666666668,
+    26.248625
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नमुना प्रवक्ताका अनुसार, मूल्य समायोजन पन्ध्र दिनमा फेरि हुन्छ।",
+      "master_start_sec": 0.18,
+      "master_end_sec": 4.72,
+      "duration_sec": 4.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "पहिलो, अन्तर्राष्ट्रिय मूल्य बढेको। दोस्रो, भन्सार दर उस्तै। तेस्रो, अर्को समीक्षा पन्ध्र दिनमा।",
+      "master_start_sec": 6.846,
+      "master_end_sec": 14.726,
+      "duration_sec": 7.88,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "एक सय पचहत्तरबाट एक सय असी रुपैयाँ।",
+      "master_start_sec": 16.79,
+      "master_end_sec": 19.95,
+      "duration_sec": 3.16,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "यो करिब दुई दशमलव नौ प्रतिशतको वृद्धि हो।",
+      "master_start_sec": 21.957,
+      "master_end_sec": 25.297,
+      "duration_sec": 3.34,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "अर्को मूल्य समीक्षा कात्तिक दुई गते हुनेछ।",
+      "master_start_sec": 27.309,
+      "master_end_sec": 30.409,
+      "duration_sec": 3.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}
