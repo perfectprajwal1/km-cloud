@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""One-command reel launcher. Voice auto-accept uses acoustic checks only, not human listening."""
+"""One-command reel launcher. Voice auto-accept uses acoustic checks only, not human listening.
+v5.4: no-arg run makes ALL unfinished inbox stories (oldest first, max 5 per run), not just new Sheet rows; done.txt now means uploaded to Drive, so a story whose upload failed is simply made again next run."""
 import json,os,re,shutil,subprocess,sys,time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
@@ -79,10 +80,14 @@ def main():
     if len(args)>1 or (args and not re.fullmatch(r'[A-Za-z0-9_-]+',args[0])):print('Use: py make_reel.py [REVIEW_ID]');return 2
     if args:ids=args
     else:
-        before=inbox_ids();r=run([PY,'producer.py','--once'])
+        r=run([PY,'producer.py','--once'])
         if r.returncode:return r.returncode
-        ids=sorted(inbox_ids()-before)
+        dp=ROOT/'out'/'done.txt';done=set()
+        if dp.exists():done={l.strip() for l in dp.read_text(encoding='utf-8').splitlines() if l.strip()}
+        open_ids=[d for d in sorted(inbox_ids()) if d not in done and not d.startswith('SAMPLE-')]
+        ids=open_ids[:5]
         if not ids:print('No newly approved row found.');return 0
+        if len(open_ids)>5:print('Batch cap 5: '+str(len(open_ids)-5)+' more stories stay for the next run.',flush=True)
     for rid in ids:
         print('SELECTED ONLY: '+rid,flush=True)
         if not ensure_layout(rid,always=True):return 2
