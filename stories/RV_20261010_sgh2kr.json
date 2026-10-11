@@ -1,0 +1,314 @@
+{
+ "id": "RV_20261010_sgh2kr",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?",
+ "pinned_comment": "यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ",
+   "sub": "",
+   "vo": "नाम पो फुटबल तर टाउकोले पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_01_e9e3b9.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नाम पो "
+       },
+       {
+        "t": "फुटबल",
+        "hl": true,
+        "at": 0.128
+       },
+       {
+        "t": " तर "
+       },
+       {
+        "t": "टाउकोले",
+        "hl": true,
+        "at": 0.228
+       },
+       {
+        "t": " पनि गोल हुन्छ भन्दै मुक्तकहरू प्रकाशित भएका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "२४ आश्विन २०८३",
+   "headline": "शनिबार प्रकाशित मुक्तक रचना",
+   "sub": "प्रकाशित मिति",
+   "vo": "शनिबार प्रकाशित यो रचनामा जीवनका विभिन्न भोगाइ र यथार्थलाई समेटिएको छ।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_02_423ab6.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "शनिबार",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "प्रकाशित",
+        "key": true,
+        "at": 0.114
+       },
+       {
+        "t": "मुक्तक",
+        "key": false,
+        "at": 0.42
+       },
+       {
+        "t": "रचना",
+        "key": false,
+        "at": 0.455
+       }
+      ],
+      "icon": "star",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "परिस्थिति सधैँ समान हुँदैन",
+   "points": [
+    "परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने"
+   ],
+   "vo": "परिस्थिति सधैँ समान नहुने भएकाले आवश्यकता अनुसार चल्नुपर्ने सन्देश रचनामा दिइएको छ।",
+   "voice_tone": "thinking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_03_1e79ff.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "परिस्थिति",
+        "key": true,
+        "at": 0.06
+       },
+       {
+        "t": "सधैँ",
+        "key": false,
+        "at": 0.125
+       },
+       {
+        "t": "समान",
+        "key": false,
+        "at": 0.16
+       },
+       {
+        "t": "हुँदैन",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "काम गर्न टिम चाहिन्छ",
+   "points": [
+    "त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन"
+   ],
+   "vo": "त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम गर्ने टिम नै चाहिन्छ भनिएको छ।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_04_6b036e.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "त्यस्तै परिणाम निकाल्न केवल फोन सेट भएर पुग्दैन, काम "
+       },
+       {
+        "t": "गर्ने",
+        "hl": true,
+        "at": 0.561
+       },
+       {
+        "t": " टिम नै "
+       },
+       {
+        "t": "चाहिन्छ",
+        "hl": true,
+        "at": 0.686
+       },
+       {
+        "t": " भनिएको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "bignum",
+   "dark": true,
+   "label": "मुक्तक संख्या",
+   "prefix": "",
+   "value": 5,
+   "sub": "मुक्तक प्रस्तुत",
+   "vo": "मुक्तकमार्फत जीवनका सरल तर गहिरा पक्षहरू प्रस्तुत गरिएका छन्।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_05_ee020a.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 5,
+      "icon": "star",
+      "label": "मुक्तक संख्या",
+      "at": 0.04,
+      "layout": {
+       "cols": 5,
+       "rows": 1,
+       "step": 180.0,
+       "size": 140,
+       "x0": 90.0,
+       "y0": 172,
+       "capY": 386
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नागरिक नेटवर्कमा प्रकाशित विवरण",
+   "points": [
+    "नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो"
+   ],
+   "vo": "नागरिक नेटवर्कमा प्रकाशित मुक्तकको विवरण यही हो।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261010_sgh2kr_06_3526f1.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "नागरिक",
+        "key": true,
+        "at": 0.06
+       },
+       {
+        "t": "नेटवर्कमा",
+        "key": false,
+        "at": 0.139
+       },
+       {
+        "t": "प्रकाशित",
+        "key": false,
+        "at": 0.251
+       },
+       {
+        "t": "विवरण",
+        "key": false,
+        "at": 0.454
+       }
+      ],
+      "icon": "people",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 94
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "people": "<circle pathLength=\"1\" cx=\"9\" cy=\"8\" r=\"3\"/><circle pathLength=\"1\" cx=\"17\" cy=\"9\" r=\"2.5\"/><path pathLength=\"1\" d=\"M3 20c0-3.5 2.5-6 6-6s6 2.5 6 6\"/><path pathLength=\"1\" d=\"M15 14.5c3 0 6 2 6 5.5\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "यीमध्ये तपाईंलाई कुन मुक्तकको भाव सबैभन्दा सान्दर्भिक लाग्यो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ]
+}
