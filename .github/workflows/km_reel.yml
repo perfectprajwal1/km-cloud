@@ -1,4 +1,4 @@
-# v5.2 (2026-10-11): v5.1 + zero-click resume, Opus-reviewed: when story id is empty, the OLDEST unfinished inbox/ story (folder + stories/<id>.json exist, no nonzero out/<id>.mp4) is auto-continued via MODE=resume before the Sheet is asked for new rows.
+# v5.3 (2026-10-11): v5.1 + zero-click resume, Opus-reviewed: when story id is empty, the OLDEST unfinished inbox/ story (folder exists, no nonzero out/<id>.mp4) is auto-continued through the normal make path (make_reel.py rebuilds a missing stories/<id>.json from inbox/ by itself - verified in source) before the Sheet is asked for new rows.
 # Watchdog marks by process signature (chrome/ffmpeg/voice-prep) as telemetry; explicit MARK lines are the source of truth. Pipeline code itself is NOT touched.
 name: KM reel
 
@@ -49,14 +49,13 @@ jobs:
             for d in $(ls -tr inbox); do
               [ -d "inbox/$d" ] || continue
               case "$d" in SAMPLE-*) continue;; esac
-              [ -f "stories/$d.json" ] || { echo "skipping $d: no stories/$d.json, not resumable"; continue; }
               if [ ! -s "out/$d.mp4" ]; then PICK=$d; break; fi
             done
           fi
           if [ -n "$PICK" ]; then
             echo "Unfinished story found: $PICK - continuing it instead of pulling the Sheet"
             echo "STORY=$PICK" >> "$GITHUB_ENV"
-            echo "MODE=resume" >> "$GITHUB_ENV"
+            echo "MODE=make" >> "$GITHUB_ENV"
           else
             echo "No unfinished story in inbox/ - the Sheet provides"
           fi
@@ -321,9 +320,11 @@ jobs:
         run: |
           RC=$(cat /tmp/km_rc 2>/dev/null || echo X)
           SECS=$(cat /tmp/km_secs 2>/dev/null || echo 0)
+          SHOW="$STORY"
+          [ -n "$SHOW" ] || SHOW=$(ls out/*.mp4 2>/dev/null | head -1 | xargs -r -n1 basename | sed 's/\.mp4$//')
           {
             echo "## KM reel summary"
-            echo "story: $STORY | mode: $MODE | cores: $(nproc)"
+            echo "story: ${SHOW:-(none - nothing rendered)} | mode: $MODE | cores: $(nproc)"
             if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; echo "Watchdog tail:"; tail -15 /tmp/km_watch.log 2>/dev/null; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
