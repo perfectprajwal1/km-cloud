@@ -1,0 +1,120 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "alignment_targets": [
+    {
+      "original": "जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।",
+      "spoken": "जवाफमा क्यानाडाले बाइस ओभरमा तीन विकेट गुमाएर नब्बे रन जोडेको छ।",
+      "mapping": [
+        {
+          "original": "२२",
+          "spoken": "बाइस",
+          "start": 18,
+          "end": 20,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "३",
+          "spoken": "तीन",
+          "start": 27,
+          "end": 28,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "९०",
+          "spoken": "नब्बे",
+          "start": 42,
+          "end": 44,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+      "spoken": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+      "mapping": []
+    },
+    {
+      "original": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो? कमेन्टमा भन्नुस्।",
+      "spoken": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो? कमेन्टमा भन्नुस्।",
+      "mapping": []
+    }
+  ],
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "4659a9817f6ad432c0c6e5f04098f3aedd2353ff120e98b12f2544531814c933",
+  "greedy": "जबाफमा क्यानडाले बाइस ओभरमा तीन विकेट गुमाएर नब्बे रण जोलेको छनेपाल र क्यानडा बिचको खेल जारि छयो खेलमा नेपालको प्रदर्शन तपाईँलएको स्थुलाग्यो  कमेन्टमा भन्नुस ",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "transcript_char_match": 0.9144981412639405,
+  "scores": [
+    -0.42947176174766355,
+    -1.2319220633101395,
+    -1.8900001175421495
+  ],
+  "cuts_sec": [
+    7.417291666666667,
+    14.910708333333332
+  ],
+  "boundaries": [
+    {
+      "left_anchor": 4.902298623002283,
+      "right_anchor": 9.864625392408675,
+      "scores": [
+        -0.42947176174766355,
+        -1.2319220633101395
+      ],
+      "candidates": [
+        {
+          "cut": 7.417291666666667,
+          "valley_start": 5.072291666666667,
+          "valley_end": 9.762291666666668,
+          "quiet_sec": 4.69,
+          "rms": 1.3973017892738093e-05,
+          "cost": -4.689323406820777
+        }
+      ],
+      "selected": {
+        "cut": 7.417291666666667,
+        "valley_start": 5.072291666666667,
+        "valley_end": 9.762291666666668,
+        "quiet_sec": 4.69,
+        "rms": 1.3973017892738093e-05,
+        "cost": -4.689323406820777
+      }
+    },
+    {
+      "left_anchor": 12.225732484303652,
+      "right_anchor": 17.52821875,
+      "scores": [
+        -1.2319220633101395,
+        -1.8900001175421495
+      ],
+      "candidates": [
+        {
+          "cut": 14.910708333333332,
+          "valley_start": 12.405708333333333,
+          "valley_end": 17.41570833333333,
+          "quiet_sec": 5.01,
+          "rms": 2.6027119651744923e-05,
+          "cost": -5.00932534567637
+        }
+      ],
+      "selected": {
+        "cut": 14.910708333333332,
+        "valley_start": 12.405708333333333,
+        "valley_end": 17.41570833333333,
+        "quiet_sec": 5.01,
+        "rms": 2.6027119651744923e-05,
+        "cost": -5.00932534567637
+      }
+    }
+  ],
+  "gates": "provisional thresholds; card listening review still required"
+}

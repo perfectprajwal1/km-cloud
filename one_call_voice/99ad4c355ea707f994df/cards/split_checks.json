@@ -1,0 +1,73 @@
+{
+  "master_sha256": "f6ef1821042ab77b1eca0676f8b16124939b8f2454ab244e0abd93fb12bc4bc6",
+  "cuts_sec": [
+    6.282041666666666,
+    15.786041666666666,
+    27.010958333333335,
+    35.428250000000006,
+    42.92166666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 5.16,
+      "duration_sec": 5.16,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।",
+      "master_start_sec": 7.502,
+      "master_end_sec": 14.662,
+      "duration_sec": 7.16,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।",
+      "master_start_sec": 16.966,
+      "master_end_sec": 24.206,
+      "duration_sec": 7.24,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।",
+      "master_start_sec": 28.131,
+      "master_end_sec": 33.171,
+      "duration_sec": 5.04,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+      "master_start_sec": 37.768,
+      "master_end_sec": 40.508,
+      "duration_sec": 2.74,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 6,
+      "expected_text": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 45.362,
+      "master_end_sec": 49.702,
+      "duration_sec": 4.34,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}
