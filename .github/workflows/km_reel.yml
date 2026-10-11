@@ -1,3 +1,4 @@
+# v5.3.2 (2026-10-11): Drive upload fixed. The token ask is now 2 steps (POST, read Google's redirect, wait 2s, GET the answer) because curl -L gets Google's HTML error page instead of the script JSON. Proven green in the KM Drive test run.
 # v5.3 (2026-10-11): v5.1 + zero-click resume, Opus-reviewed: when story id is empty, the OLDEST unfinished inbox/ story (folder exists, no nonzero out/<id>.mp4) is auto-continued through the normal make path (make_reel.py rebuilds a missing stories/<id>.json from inbox/ by itself - verified in source) before the Sheet is asked for new rows.
 # Watchdog marks by process signature (chrome/ffmpeg/voice-prep) as telemetry; explicit MARK lines are the source of truth. Pipeline code itself is NOT touched.
 name: KM reel
@@ -311,7 +312,10 @@ jobs:
           if [ -z "$DRIVE_TOKEN_URL" ] || [ -z "$DRIVE_TOKEN_SECRET" ] || [ -z "$DRIVE_FOLDER_ID" ]; then
             echo "Drive secrets not set, skipping Drive upload. The mp4 is in Artifacts."; echo skipped > /tmp/km_drive; exit 0
           fi
-          RESP=$(curl -sL --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL")
+          TOKLOC=$(curl -s -D - -o /dev/null --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL" | grep -i '^location:' | sed 's/^location: //I' | tr -d '\r')
+          if [ -z "$TOKLOC" ]; then echo "script gave no redirect, check the URL"; fi
+          sleep 2
+          RESP=$(curl -s --max-time 60 "$TOKLOC")
           TOKEN=$(printf '%s' "$RESP" | python3 -c "import sys,json; print(json.load(sys.stdin).get('token',''))" 2>/dev/null)
           if [ -z "$TOKEN" ]; then echo "Could not get a Drive token (wrong URL/secret, or the script is not deployed as Anyone)."; echo failed > /tmp/km_drive; exit 0; fi
           echo "::add-mask::$TOKEN"
