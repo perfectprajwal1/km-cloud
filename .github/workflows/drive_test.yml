@@ -26,7 +26,10 @@ jobs:
             echo "FAIL: one of the three secrets is empty"; exit 1
           fi
           echo "secrets present, asking the script for a token"
-          RESP=$(curl -sL --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL")
+          TOKLOC=$(curl -s -D - -o /dev/null --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL" | grep -i '^location:' | sed 's/^location: //I' | tr -d '\r')
+          if [ -z "$TOKLOC" ]; then echo "script gave no redirect, check the URL"; fi
+          sleep 2
+          RESP=$(curl -s --max-time 60 "$TOKLOC")
           echo "script answered: $(printf '%s' "$RESP" | head -c 80)"
           TOKEN=$(printf '%s' "$RESP" | python3 -c "import sys,json; print(json.load(sys.stdin).get('token',''))" 2>/dev/null)
           if [ -z "$TOKEN" ]; then echo "FAIL: no token. Secret word mismatch or deployment not Anyone."; exit 1; fi
