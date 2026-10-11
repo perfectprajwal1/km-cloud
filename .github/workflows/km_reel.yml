@@ -1,5 +1,5 @@
-# v5.1 (2026-10-11): timeout 180 + watchdog with unambiguous stage marks (render/stitch/voice-prep start+end, final-success, child PID per stage) + logs artifact on every run.
-# Stages are detected by process signature (chrome=render, ffmpeg=stitch) - pipeline code itself is NOT touched. Instrumentation only, same as v4 otherwise.
+# v5.2 (2026-10-11): v5.1 + zero-click resume, Opus-reviewed: when story id is empty, the OLDEST unfinished inbox/ story (folder + stories/<id>.json exist, no nonzero out/<id>.mp4) is auto-continued via MODE=resume before the Sheet is asked for new rows.
+# Watchdog marks by process signature (chrome/ffmpeg/voice-prep) as telemetry; explicit MARK lines are the source of truth. Pipeline code itself is NOT touched.
 name: KM reel
 
 on:
@@ -39,6 +39,27 @@ jobs:
             *[!A-Za-z0-9_-]*) echo "Bad story id"; exit 1;; esac
           if [ -z "$STORY" ] && [ "$MODE" = resume ]; then echo "resume needs a story id"; exit 1; fi
           echo "story: ${STORY:-(new rows from the Sheet)}, mode: $MODE"
+
+
+      - name: Auto-continue an unfinished story (zero-click resume)
+        run: |
+          [ -z "$STORY" ] || { echo "story id given, no auto-pick"; exit 0; }
+          PICK=""
+          if [ -d inbox ]; then
+            for d in $(ls -tr inbox); do
+              [ -d "inbox/$d" ] || continue
+              case "$d" in SAMPLE-*) continue;; esac
+              [ -f "stories/$d.json" ] || { echo "skipping $d: no stories/$d.json, not resumable"; continue; }
+              if [ ! -s "out/$d.mp4" ]; then PICK=$d; break; fi
+            done
+          fi
+          if [ -n "$PICK" ]; then
+            echo "Unfinished story found: $PICK - continuing it instead of pulling the Sheet"
+            echo "STORY=$PICK" >> "$GITHUB_ENV"
+            echo "MODE=resume" >> "$GITHUB_ENV"
+          else
+            echo "No unfinished story in inbox/ - the Sheet provides"
+          fi
 
       - uses: actions/checkout@v4
         with:
@@ -149,7 +170,8 @@ jobs:
           set +e
           cat > /tmp/km_watch.sh <<'W'
           #!/bin/bash
-          # KM watchdog v5.1: read-only sampler + stage transitions by process signature. Never kills anything.
+          # KM watchdog v5.2: read-only sampler + stage transitions by process signature. Never kills anything.
+          # chrome = card-building OR render (cards ~6s, render ~80min - duration tells them apart); ffmpeg = stitch/loudness.
           LOG=/tmp/km_watch.log
           STAGE=""; CAND=""; CNT=0; DONE=0
           echo "MARK watchdog-start $(date -u +%H:%M:%S)" >> "$LOG"
@@ -163,8 +185,8 @@ jobs:
               FDS=$(ls /proc/$(echo $PIDS | cut -d" " -f1)/fd 2>/dev/null | wc -l)
               PST=$(ps -o pid=,stat=,etime= -p $PIDS 2>/dev/null | tr '\n' ' ')
               echo "$TS PIPE-alive fds=$FDS $DISK | $PST| $TOP| $LINE" >> "$LOG"
-              if pgrep -f 'chrome|headless' >/dev/null 2>&1; then NS=render
-              elif pgrep -f ffmpeg >/dev/null 2>&1; then NS=stitch
+              if pgrep -f 'chrome|headless' >/dev/null 2>&1; then NS=chrome
+              elif pgrep -f ffmpeg >/dev/null 2>&1; then NS=ffmpeg
               else NS=voice-prep; fi
             else
               echo "$TS PIPE-GONE $DISK | $TOP| $LINE" >> "$LOG"
