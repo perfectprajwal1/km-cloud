@@ -9,9 +9,9 @@ jobs:
     steps:
       - name: Test the Drive upload with a small file
         env:
-         DRIVE_TOKEN_URL: ${{ secrets.DRIVE_TOKEN_URL }}
-DRIVE_TOKEN_SECRET: ${{ secrets.DRIVE_TOKEN_SECRET }}
-DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DRIVE_TOKEN_URL: ${{ secrets.DRIVE_TOKEN_URL }}
+          DRIVE_TOKEN_SECRET: ${{ secrets.DRIVE_TOKEN_SECRET }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
         run: |
           set +e
           mkdir -p out
