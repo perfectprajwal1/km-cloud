@@ -41,15 +41,21 @@ jobs:
           echo "story: ${STORY:-(new rows from the Sheet)}, mode: $MODE"
 
 
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Auto-continue an unfinished story (zero-click resume)
         run: |
           [ -z "$STORY" ] || { echo "story id given, no auto-pick"; exit 0; }
           PICK=""
           if [ -d inbox ]; then
-            for d in $(ls -tr inbox); do
+            for d in $(ls inbox); do
               [ -d "inbox/$d" ] || continue
               case "$d" in SAMPLE-*) continue;; esac
-              if [ ! -s "out/$d.mp4" ]; then PICK=$d; break; fi
+              grep -qFx "$d" out/done.txt 2>/dev/null && continue
+              PICK=$d; break
             done
           fi
           if [ -n "$PICK" ]; then
@@ -59,10 +65,6 @@ jobs:
           else
             echo "No unfinished story in inbox/ - the Sheet provides"
           fi
-
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -257,13 +259,24 @@ jobs:
             echo "reel done, dropping its voice cache from the repo"
             git rm -r -q --ignore-unmatch one_call_voice || true
             rm -rf one_call_voice
-          else
+            mkdir -p out
+            for f in out/*.mp4; do
+              [ -f "$f" ] || continue
+              id=$(basename "$f" .mp4)
+              grep -qFx "$id" out/done.txt 2>/dev/null || echo "$id" >> out/done.txt
+            done
+            git add out/done.txt 2>/dev/null || true
+          elif [ -d one_call_voice ]; then
             git add one_call_voice
           fi
-          git add stories inbox produced.json 2>/dev/null
-          git diff --cached --quiet || git commit -q -m "state after $STORY ($MODE)"
-          git pull -q --rebase || true
-          git push -q || echo "push failed"
+          git add stories inbox produced.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "nothing to save"
+          else
+            git commit -q -m "state after ${STORY:-sheet-check} ($MODE)"
+            git pull -q --rebase || true
+            git push -q || echo "push failed"
+          fi
 
       - name: Save the mp4 as a download
         if: always()
