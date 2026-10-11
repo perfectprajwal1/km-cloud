@@ -1,3 +1,5 @@
+# v5.1 (2026-10-11): timeout 180 + watchdog with unambiguous stage marks (render/stitch/voice-prep start+end, final-success, child PID per stage) + logs artifact on every run.
+# Stages are detected by process signature (chrome=render, ffmpeg=stitch) - pipeline code itself is NOT touched. Instrumentation only, same as v4 otherwise.
 name: KM reel
 
 on:
@@ -26,7 +28,7 @@ concurrency:
 jobs:
   reel:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     env:
       STORY: ${{ github.event.inputs.story_id }}
       MODE: ${{ github.event.inputs.mode }}
@@ -92,6 +94,7 @@ jobs:
           sed -i "s/'--gl=angle'/'--gl=swangle'/" scripts/render.mjs
           sed -i "s/setChromiumOpenGlRenderer('angle')/setChromiumOpenGlRenderer('swangle')/" remotion.config.ts
           grep -n "swangle" scripts/render.mjs remotion.config.ts | cut -c1-120
+          grep -q "swangle" scripts/render.mjs || echo "WARN: swangle sed did not apply to render.mjs - check the sed pattern still matches"
 
       - name: Put Gemini keys on this runner only
         env:
@@ -144,6 +147,50 @@ jobs:
       - name: Run the reel (voice, render, loudness, outro)
         run: |
           set +e
+          cat > /tmp/km_watch.sh <<'W'
+          #!/bin/bash
+          # KM watchdog v5.1: read-only sampler + stage transitions by process signature. Never kills anything.
+          LOG=/tmp/km_watch.log
+          STAGE=""; CAND=""; CNT=0; DONE=0
+          echo "MARK watchdog-start $(date -u +%H:%M:%S)" >> "$LOG"
+          while true; do
+            TS=$(date -u +%H:%M:%S)
+            PIDS=$(pgrep -f 'make_reel|resume_failed|producer' 2>/dev/null | tr '\n' ' ')
+            LINE=$(tail -1 /tmp/km_run.log 2>/dev/null | tr '\n' ' ' | cut -c1-90)
+            DISK=$(df -m / | awk 'NR==2{print $4"MB-free"}')
+            TOP=$(ps -eo comm=,pcpu=,rss= --sort=-pcpu 2>/dev/null | head -4 | awk '{printf "%s(%s%%,%dMB) ",$1,$2,$3/1024}')
+            if [ -n "$PIDS" ]; then
+              FDS=$(ls /proc/$(echo $PIDS | cut -d" " -f1)/fd 2>/dev/null | wc -l)
+              PST=$(ps -o pid=,stat=,etime= -p $PIDS 2>/dev/null | tr '\n' ' ')
+              echo "$TS PIPE-alive fds=$FDS $DISK | $PST| $TOP| $LINE" >> "$LOG"
+              if pgrep -f 'chrome|headless' >/dev/null 2>&1; then NS=render
+              elif pgrep -f ffmpeg >/dev/null 2>&1; then NS=stitch
+              else NS=voice-prep; fi
+            else
+              echo "$TS PIPE-GONE $DISK | $TOP| $LINE" >> "$LOG"
+              NS=""
+              if [ -n "$STAGE" ]; then echo "$TS MARK $STAGE-end (pipeline gone)" >> "$LOG"; STAGE=""; fi
+              if [ "$DONE" = 0 ] && ls out/*.mp4 >/dev/null 2>&1; then
+                echo "$TS MARK final-success file=$(ls out/*.mp4 | head -1)" >> "$LOG"; DONE=1
+              fi
+            fi
+            if [ -n "$NS" ]; then
+              if [ "$NS" = "$STAGE" ]; then CAND=""; CNT=0
+              elif [ "$NS" = "$CAND" ]; then CNT=$((CNT+1))
+                if [ "$CNT" -ge 1 ]; then
+                  [ -n "$STAGE" ] && echo "$TS MARK $STAGE-end" >> "$LOG"
+                  echo "$TS MARK $NS-start pid=$PIDS" >> "$LOG"
+                  STAGE=$NS; CAND=""; CNT=0
+                fi
+              else CAND=$NS; CNT=0; fi
+            fi
+            sleep 10
+          done
+          W
+          chmod +x /tmp/km_watch.sh
+          echo "MARK run-start $(date -u +%H:%M:%S)" | tee -a /tmp/km_run.log
+          /tmp/km_watch.sh & WPID=$!
+          trap 'rc=$?; echo "MARK step-exit rc=$rc $(date -u +%H:%M:%S)" >> /tmp/km_watch.log; kill $WPID 2>/dev/null; wait $WPID 2>/dev/null' EXIT
           S=$(date +%s)
           if [ "$MODE" = resume ]; then
             [ -d "inbox/$STORY" ] || { echo "STOP: inbox/$STORY is not in the repo, nothing to resume."; echo 2 > /tmp/km_rc; exit 0; }
@@ -170,6 +217,9 @@ jobs:
           RC=${PIPESTATUS[0]}
           [ -f /tmp/km_rc ] || echo "$RC" > /tmp/km_rc
           echo "$(( $(date +%s)-S ))" > /tmp/km_secs
+          echo "MARK pipeline-end rc=$(cat /tmp/km_rc) secs=$(cat /tmp/km_secs) $(date -u +%H:%M:%S)" | tee -a /tmp/km_run.log
+          kill $WPID 2>/dev/null; wait $WPID 2>/dev/null
+          trap - EXIT
           if [ -n "$STORY" ]; then [ -s "out/$STORY.mp4" ] && echo ok > /tmp/km_ok; else ls out/*.mp4 >/dev/null 2>&1 && echo ok > /tmp/km_ok; fi
           exit 0
 
@@ -203,6 +253,17 @@ jobs:
           retention-days: 3
           if-no-files-found: warn
 
+      - name: Upload the logs (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: km-logs-${{ github.event.inputs.story_id || 'new' }}
+          path: |
+            /tmp/km_watch.log
+            /tmp/km_run.log
+          retention-days: 3
+          if-no-files-found: warn
+
       - name: Upload the mp4 to Google Drive
         if: ${{ !cancelled() }}
         env:
@@ -212,6 +273,7 @@ jobs:
         run: |
           set +e
           [ -f /tmp/km_ok ] || { echo "no mp4 to upload"; exit 0; }
+          echo "MARK drive-upload-start $(date -u +%H:%M:%S)"
           if [ -z "$DRIVE_TOKEN_URL" ] || [ -z "$DRIVE_TOKEN_SECRET" ] || [ -z "$DRIVE_FOLDER_ID" ]; then
             echo "Drive secrets not set, skipping Drive upload. The mp4 is in Artifacts."; echo skipped > /tmp/km_drive; exit 0
           fi
@@ -230,6 +292,7 @@ jobs:
             ID=$(printf '%s' "$OUT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
             if [ -n "$ID" ]; then echo "Uploaded $NAME to Drive: https://drive.google.com/file/d/$ID/view"; echo "ok $NAME" >> /tmp/km_drive; else echo "Upload failed for $NAME"; printf '%s' "$OUT" | head -c 300; echo; echo failed > /tmp/km_drive; fi
           done
+          echo "MARK drive-upload-end $(date -u +%H:%M:%S)"
 
       - name: Summary
         if: always()
@@ -239,7 +302,7 @@ jobs:
           {
             echo "## KM reel summary"
             echo "story: $STORY | mode: $MODE | cores: $(nproc)"
-            if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; fi
+            if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; echo "Watchdog tail:"; tail -15 /tmp/km_watch.log 2>/dev/null; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Mark the run red if the reel was not made
