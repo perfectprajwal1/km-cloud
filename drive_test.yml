@@ -1,0 +1,42 @@
+name: KM Drive test
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Test the Drive upload with a small file
+        env:
+         DRIVE_TOKEN_URL: ${{ secrets.DRIVE_TOKEN_URL }}
+DRIVE_TOKEN_SECRET: ${{ secrets.DRIVE_TOKEN_SECRET }}
+DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        run: |
+          set +e
+          mkdir -p out
+          python3 -c "
+          import random
+          random.seed(7)
+          with open('out/drive_test.txt','w') as f:
+              for i in range(20000): f.write('khabar minute drive test line %d\n' % i)
+          "
+          ls -la out/
+          if [ -z "$DRIVE_TOKEN_URL" ] || [ -z "$DRIVE_TOKEN_SECRET" ] || [ -z "$DRIVE_FOLDER_ID" ]; then
+            echo "FAIL: one of the three secrets is empty"; exit 1
+          fi
+          echo "secrets present, asking the script for a token"
+          RESP=$(curl -sL --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL")
+          echo "script answered: $(printf '%s' "$RESP" | head -c 80)"
+          TOKEN=$(printf '%s' "$RESP" | python3 -c "import sys,json; print(json.load(sys.stdin).get('token',''))" 2>/dev/null)
+          if [ -z "$TOKEN" ]; then echo "FAIL: no token. Secret word mismatch or deployment not Anyone."; exit 1; fi
+          echo "::add-mask::$TOKEN"
+          echo "token OK, uploading test file"
+          META=$(python3 -c "import json,sys; print(json.dumps({'name':'drive_test.txt','parents':[sys.argv[1]]}))" "$DRIVE_FOLDER_ID")
+          curl -s -D /tmp/hdr.txt -o /dev/null --max-time 60 -X POST "https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable&supportsAllDrives=true" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json; charset=UTF-8" -H "X-Upload-Content-Type: text/plain" -d "$META"
+          LOC=$(grep -i '^location:' /tmp/hdr.txt | head -1 | cut -d' ' -f2- | tr -d '\r\n')
+          if [ -z "$LOC" ]; then echo "FAIL: Drive refused to start the upload:"; head -3 /tmp/hdr.txt; exit 1; fi
+          OUT=$(curl -s --max-time 300 -X PUT --data-binary "@out/drive_test.txt" -H "Content-Type: text/plain" "$LOC")
+          ID=$(printf '%s' "$OUT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
+          if [ -z "$ID" ]; then echo "FAIL: upload did not return a file id:"; printf '%s' "$OUT" | head -c 300; echo; exit 1; fi
+          echo "PASS: drive_test.txt is in your Drive folder: https://drive.google.com/file/d/$ID/view"
