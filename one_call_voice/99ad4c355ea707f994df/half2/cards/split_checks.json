@@ -1,0 +1,40 @@
+{
+  "master_sha256": "f007cd2e8ef759595c756eaa44aa363f9837d8532d2718879a2bec56b7572fac",
+  "cuts_sec": [
+    6.333125,
+    10.885958333333333
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।",
+      "master_start_sec": 0.06,
+      "master_end_sec": 5.38,
+      "duration_sec": 5.32,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+      "master_start_sec": 7.353,
+      "master_end_sec": 9.993,
+      "duration_sec": 2.64,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 11.806,
+      "master_end_sec": 16.306,
+      "duration_sec": 4.5,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

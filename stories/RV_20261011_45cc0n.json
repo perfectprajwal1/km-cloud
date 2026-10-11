@@ -1,0 +1,235 @@
+{
+ "id": "RV_20261011_45cc0n",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?",
+ "pinned_comment": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "सन्दीपले {{१७औं}} ओभरमा लिए २ विकेट",
+   "sub": "ओभर",
+   "vo": "सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_45cc0n_01_155ab4.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 17,
+      "icon": "star",
+      "label": "ओभर",
+      "at": 0.206,
+      "layout": {
+       "cols": 6,
+       "rows": 3,
+       "step": 110.0,
+       "size": 86,
+       "x0": 210.0,
+       "y0": 97,
+       "capY": 461
+      }
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "२३५ रन",
+   "headline": "नेपालले बनायो {{२३५ रन}}",
+   "sub": "नेपालको स्कोर",
+   "vo": "आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_45cc0n_02_59d2c8.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "नेपालले",
+        "key": true,
+        "at": 0.415
+       },
+       {
+        "t": "बनायो",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.415
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "१०१ रन",
+   "headline": "रोहित पौडेलले बनाए {{१०१ रन}}",
+   "sub": "रोहित पौडेल",
+   "vo": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_45cc0n_03_df6d12.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "रोहित",
+        "key": false,
+        "at": 0.173
+       },
+       {
+        "t": "पौडेलले",
+        "key": true,
+        "at": 0.225
+       },
+       {
+        "t": "बनाए",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.173
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "९०/३",
+   "headline": "क्यानाडा ९० रनमा ३ विकेट",
+   "sub": "क्यानाडा",
+   "vo": "जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_45cc0n_04_c6b8bd.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "क्यानाडा",
+        "key": true,
+        "at": 0.126
+       },
+       {
+        "t": "रनमा",
+        "key": false,
+        "at": 0.33
+       },
+       {
+        "t": "विकेट",
+        "key": false,
+        "at": 0.365
+       }
+      ],
+      "icon": "star",
+      "at": 0.126
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "खेल जारी छ",
+   "points": [
+    "नेपाल र क्यानाडाबीचको खेल जारी छ"
+   ],
+   "vo": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_45cc0n_05_733360.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नेपाल र क्यानाडाबीचको खेल "
+       },
+       {
+        "t": "जारी",
+        "hl": true,
+        "at": 0.68
+       },
+       {
+        "t": " छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ]
+}

@@ -1,0 +1,697 @@
+REVIEW ID: RV_20261011_45cc0n
+TOPIC: विश्वकप लिग-२ः क्यानडाविरुद्ध नेपालको कसिलो बलिङ, सन्दीपलाई एकै ओभरमा दुई विकेट
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_123a99dc826c99f0
+DATE: 2026-10-11T11:13:19.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Nagarik News
+CATEGORY: sports
+SOURCE: https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html
+ARTICLE GROUNDING: YES
+*** RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 HOOK_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; HOOK_LINE_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; DURATION: speech word range outside target; no filler permitted / R2 INFO_VALUE: line 3 127; INFO_VALUE: line 4 22; DURATION: speech word range outside target; no filler permitted || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 127 (+1 more hard failures: INFO_VALUE: line 4 22) ***
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो। नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे। जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ। नेपाल र क्यानाडाबीचको खेल जारी छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "ओभर",
+     "value": "१७औं"
+    },
+    {
+     "label": "विकेट",
+     "value": "२"
+    }
+   ],
+   "data_source_quote": "नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"
+  },
+  "caption_text": "सन्दीपले १७औं ओभरमा लिए २ विकेट",
+  "source_evidence": "नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "नेपालको स्कोर",
+     "value": "२३५ रन"
+    }
+   ],
+   "data_source_quote": "यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"
+  },
+  "caption_text": "नेपालले बनायो २३५ रन",
+  "source_evidence": "यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "रोहित पौडेल",
+     "value": "१०१ रन"
+    }
+   ],
+   "data_source_quote": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"
+  },
+  "caption_text": "रोहित पौडेलले बनाए १०१ रन",
+  "source_evidence": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "क्यानाडा",
+     "value": "९०/३"
+    }
+   ],
+   "data_source_quote": "नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"
+  },
+  "caption_text": "क्यानाडा ९० रनमा ३ विकेट",
+  "source_evidence": "नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "cricket stadium",
+   "shot_description": "Cricket stadium view",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "खेल जारी छ",
+  "source_evidence": "आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_123a99dc826c99f0","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"bold_claim","hook_claim":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","article_quote":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।","asset_ref":"","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"नेपालका सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","closing_line":"नेपाल र क्यानाडाबीचको खेल जारी छ।","comment_prompt":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","pinned_comment":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","lines":[{"line_id":1,"beat":"hook","narration_text":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ओभर","value":"१७औं"},{"label":"विकेट","value":"२"}],"data_source_quote":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"},"caption_text":"सन्दीपले १७औं ओभरमा लिए २ विकेट","big_hook_text":"सन्दीपले १७औं ओभरमा लिए २ विकेट","pip_mode":"off","source_evidence":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२३५ रन"}],"data_source_quote":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"},"caption_text":"नेपालले बनायो २३५ रन","big_hook_text":"","pip_mode":"off","source_evidence":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१०१ रन"}],"data_source_quote":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"},"caption_text":"रोहित पौडेलले बनाए १०१ रन","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"क्यानाडा","value":"९०/३"}],"data_source_quote":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"},"caption_text":"क्यानाडा ९० रनमा ३ विकेट","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"नेपाल र क्यानाडाबीचको खेल जारी छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"cricket stadium","shot_description":"Cricket stadium view","depiction_scope":"generic_illustration"},"caption_text":"खेल जारी छ","big_hook_text":"","pip_mode":"off","source_evidence":"आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"विश्वकप लिग-२ः सन्दीपको उत्कृष्ट बलिङ","youtube_description":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","youtube_tags":["NepalCricket","SandeepLamichhane","RohitPaudel","CWCL2","KhabarMinute","CricketNepal","NepalSports","WorldCupLeague2"],"tiktok_caption":"सन्दीप लामिछानेले १७औं ओभरमा लिए २ विकेट।","instagram_caption":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","facebook_post":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। पहिले ब्याटिङ गरेको नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","threads_post":"विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएका छन्। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","linkedin_post":"आईसीसी विश्वकप लिग-२ क्रिकेटमा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","hashtags":["#NepalCricket","#CWCL2","#SandeepLamichhane"],"source_credit":"Source: Nagarik News"}}
+--- WARNINGS ---
+RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 HOOK_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; HOOK_LINE_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; DURATION: speech word range outside target; no filler permitted / R2 INFO_VALUE: line 3 127; INFO_VALUE: line 4 22; DURATION: speech word range outside target; no filler permitted || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 127 (+1 more hard failures: INFO_VALUE: line 4 22)
+Fact-check did not run: validator/gate held this script. Verify all claims, names and numbers against the source.
+Closing: removed question wording ("यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?"); dropped line(s) 6; last line is now: "नेपाल र क्यानाडाबीचको खेल जारी छ।".
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 4: no different truthful card fits; previous card stays on screen.
+Line 5: text-only card used (no data card fits this line).
+Line 3: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: a second text card in a row was skipped; the previous text card stays on screen.
+
+--- ALTERNATE HOOK ---
+नेपालका सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।
+
+--- PINNED COMMENT (Nepali question) ---
+यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "२ विकेट",
+   "on_screen_data": [
+    {
+     "label": "ओभर",
+     "value": "१७औं"
+    },
+    {
+     "label": "विकेट",
+     "value": "२"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "ओभर",
+       "value": "१७औं"
+      },
+      {
+       "label": "विकेट",
+       "value": "२"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 2
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "२ विकेट",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 3
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \"ओभर १७औं, विकेट २\" | then quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "cricket scoreboard showing runs",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "cricket scoreboard showing runs",
+   "alt_queries": [
+    "team batting celebration",
+    "stadium lights at night"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "२३५ रन",
+   "on_screen_data": [
+    {
+     "label": "नेपालको स्कोर",
+     "value": "२३५ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "नेपालको स्कोर",
+       "value": "२३५ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket scoreboard showing runs",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20scoreboard%20showing%20runs/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20scoreboard%20showing%20runs&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "cricket scoreboard showing runs",
+     "search_url": "https://pixabay.com/videos/search/cricket%20scoreboard%20showing%20runs/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20scoreboard%20showing%20runs&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "team batting celebration",
+     "search_url": "https://www.pexels.com/search/videos/team%20batting%20celebration/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=team%20batting%20celebration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "stadium lights at night",
+     "search_url": "https://www.pexels.com/search/videos/stadium%20lights%20at%20night/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=stadium%20lights%20at%20night&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "cricket scoreboard showing runs",
+     "search_url": "https://openverse.org/search/image?q=cricket%20scoreboard%20showing%20runs",
+     "api": "GET https://api.openverse.org/v1/images/?q=cricket%20scoreboard%20showing%20runs&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 8
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "२३५ रन",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 9
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \"नेपालको स्कोर २३५ रन\" | then flag row @wikimedia_commons (1), stock video @pexels \"cricket scoreboard showing runs\" [bg], stock video @pixabay \"cricket scoreboard showing runs\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "१०१ रन",
+   "on_screen_data": [
+    {
+     "label": "रोहित पौडेल",
+     "value": "१०१ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "रोहित पौडेल",
+       "value": "१०१ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 3
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "१०१ रन",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 4
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"रोहित पौडेल १०१ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "cricket match score comparison",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "cricket match score comparison",
+   "alt_queries": [
+    "team Canada batting",
+    "runs and wickets overlay"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "९० रन",
+   "on_screen_data": [
+    {
+     "label": "क्यानाडा",
+     "value": "९०/३"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "क्यानाडा",
+       "value": "९०/३"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket match score comparison",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20match%20score%20comparison/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20match%20score%20comparison&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "cricket match score comparison",
+     "search_url": "https://pixabay.com/videos/search/cricket%20match%20score%20comparison/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20match%20score%20comparison&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "team Canada batting",
+     "search_url": "https://www.pexels.com/search/videos/team%20Canada%20batting/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=team%20Canada%20batting&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "runs and wickets overlay",
+     "search_url": "https://www.pexels.com/search/videos/runs%20and%20wickets%20overlay/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=runs%20and%20wickets%20overlay&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "cricket match score comparison",
+     "search_url": "https://openverse.org/search/image?q=cricket%20match%20score%20comparison",
+     "api": "GET https://api.openverse.org/v1/images/?q=cricket%20match%20score%20comparison&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "९० रन",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"क्यानाडा ९०/३\" | then stock video @pexels \"cricket match score comparison\" [bg], stock video @pixabay \"cricket match score comparison\", stock video @pexels \"team Canada batting\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "empty stadium seats",
+  "broll_kind": "flag_row",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "flag_row",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "empty stadium seats",
+   "alt_queries": [
+    "sunset over field"
+   ],
+   "query_source": "director_alt",
+   "shot_description": "Cricket stadium view",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "empty stadium seats",
+     "search_url": "https://www.pexels.com/search/videos/empty%20stadium%20seats/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=empty%20stadium%20seats&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Cricket stadium view",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "empty stadium seats",
+     "search_url": "https://pixabay.com/videos/search/empty%20stadium%20seats/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=empty%20stadium%20seats&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "sunset over field",
+     "search_url": "https://www.pexels.com/search/videos/sunset%20over%20field/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=sunset%20over%20field&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "empty stadium seats",
+     "search_url": "https://openverse.org/search/image?q=empty%20stadium%20seats",
+     "api": "GET https://api.openverse.org/v1/images/?q=empty%20stadium%20seats&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नेपाल र क्यानाडाबीचको खेल जारी छ।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"empty stadium seats\" [bg], stock video @pixabay \"empty stadium seats\", stock video @pexels \"sunset over field\" | quality: story_fact"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 5/5 content lines; article quote cards 0; topic stock only 0; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: "ओभर १७औं, विकेट २" | then quote card @local_render, text plate @local_render | quality: story_fact
+L2 [plate] NUMBER CARD via local_render: "नेपालको स्कोर २३५ रन" | then flag row @wikimedia_commons (1), stock video @pexels "cricket scoreboard showing runs" [bg], stock video @pixabay "cricket scoreboard showing runs" | quality: story_fact
+L3 [plate] NUMBER CARD via local_render: "रोहित पौडेल १०१ रन" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "क्यानाडा ९०/३" | then stock video @pexels "cricket match score comparison" [bg], stock video @pixabay "cricket match score comparison", stock video @pexels "team Canada batting" | quality: story_fact
+L5 [full] FLAG ROW via wikimedia_commons: "नेपाल" | then stock video @pexels "empty stadium seats" [bg], stock video @pixabay "empty stadium seats", stock video @pexels "sunset over field" | quality: story_fact
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "विश्वकप लिग-२ः सन्दीपको उत्कृष्ट बलिङ",
+ "youtube_description": "आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html\nSource: Nagarik News",
+ "youtube_tags": [
+  "NepalCricket",
+  "SandeepLamichhane",
+  "RohitPaudel",
+  "CWCL2",
+  "KhabarMinute",
+  "CricketNepal",
+  "NepalSports",
+  "WorldCupLeague2"
+ ],
+ "tiktok_caption": "सन्दीप लामिछानेले १७औं ओभरमा लिए २ विकेट। Source: Nagarik News",
+ "instagram_caption": "आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html\nSource: Nagarik News",
+ "facebook_post": "आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। पहिले ब्याटिङ गरेको नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html\nSource: Nagarik News",
+ "threads_post": "विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएका छन्। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html\nSource: Nagarik News",
+ "linkedin_post": "आईसीसी विश्वकप लिग-२ क्रिकेटमा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html\nSource: Nagarik News",
+ "hashtags": [
+  "#NepalCricket",
+  "#CWCL2",
+  "#SandeepLamichhane"
+ ],
+ "source_credit": "Source: Nagarik News"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261011_45cc0n","regen_round":0,"fact_check_failure_count":0,"checker_unavailable_count":0,"review":{"review_severity":"LOUD","held":true,"held_detail":"EARLIER ROUNDS: R1 HOOK_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; HOOK_LINE_GROUND: ENTITY_ABSENT क्यानाडाविरुद्ध; DURATION: speech word range outside target; no filler permitted / R2 INFO_VALUE: line 3 127; INFO_VALUE: line 4 22; DURATION: speech word range outside target; no filler permitted || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 127 (+1 more hard failures: INFO_VALUE: line 4 22)","held_reason_code":"INFO_VALUE","held_codes":["INFO_VALUE"],"hold_signature":"INFO_VALUE@3","hold_diagnostic_text":"Line 3: spoken “नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।”; on screen “रोहित पौडेल: १०१ रन”. Check the spoken words and screen value against the article: “नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।”."},"pkg":{"review_id":"RV_20261011_45cc0n","review_date":"20261011","title":"विश्वकप लिग-२ः क्यानडाविरुद्ध नेपालको कसिलो बलिङ, सन्दीपलाई एकै ओभरमा दुई विकेट","chosen_topic":"विश्वकप लिग-२ः क्यानडाविरुद्ध नेपालको कसिलो बलिङ, सन्दीपलाई एकै ओभरमा दुई विकेट","category":"sports","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","story_id":"ST_123a99dc826c99f0","risk_flag":"NORMAL","source_credit":"Source: Nagarik News","full_script":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो। नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे। जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ। नेपाल र क्यानाडाबीचको खेल जारी छ।","alternate_hook":"नेपालका सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","closing_line":"नेपाल र क्यानाडाबीचको खेल जारी छ।","pinned_comment":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","lines":[{"text":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।","voice":"neutral","pose":"neutral","broll":"cricket scoreboard showing runs","broll_kind":"number_card"},{"text":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"number_card"},{"text":"जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"cricket match score comparison","broll_kind":"number_card"},{"text":"नेपाल र क्यानाडाबीचको खेल जारी छ।","voice":"neutral","pose":"neutral","broll":"empty stadium seats","broll_kind":"flag_row"}],"word_count":49,"workbook":{"schema_version":"6.6.9","story_id":"ST_123a99dc826c99f0","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"bold_claim","hook_claim":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","article_quote":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।","asset_ref":"","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"नेपालका सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","closing_line":"नेपाल र क्यानाडाबीचको खेल जारी छ।","comment_prompt":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","pinned_comment":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","lines":[{"line_id":1,"beat":"hook","narration_text":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ओभर","value":"१७औं"},{"label":"विकेट","value":"२"}],"data_source_quote":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"},"caption_text":"सन्दीपले १७औं ओभरमा लिए २ विकेट","big_hook_text":"सन्दीपले १७औं ओभरमा लिए २ विकेट","pip_mode":"off","source_evidence":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२३५ रन"}],"data_source_quote":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"},"caption_text":"नेपालले बनायो २३५ रन","big_hook_text":"","pip_mode":"off","source_evidence":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१०१ रन"}],"data_source_quote":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"},"caption_text":"रोहित पौडेलले बनाए १०१ रन","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"क्यानाडा","value":"९०/३"}],"data_source_quote":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"},"caption_text":"क्यानाडा ९० रनमा ३ विकेट","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"नेपाल र क्यानाडाबीचको खेल जारी छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"cricket stadium","shot_description":"Cricket stadium view","depiction_scope":"generic_illustration"},"caption_text":"खेल जारी छ","big_hook_text":"","pip_mode":"off","source_evidence":"आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"विश्वकप लिग-२ः सन्दीपको उत्कृष्ट बलिङ","youtube_description":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","youtube_tags":["NepalCricket","SandeepLamichhane","RohitPaudel","CWCL2","KhabarMinute","CricketNepal","NepalSports","WorldCupLeague2"],"tiktok_caption":"सन्दीप लामिछानेले १७औं ओभरमा लिए २ विकेट।","instagram_caption":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","facebook_post":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। पहिले ब्याटिङ गरेको नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","threads_post":"विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएका छन्। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","linkedin_post":"आईसीसी विश्वकप लिग-२ क्रिकेटमा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","hashtags":["#NepalCricket","#CWCL2","#SandeepLamichhane"],"source_credit":"Source: Nagarik News"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ओभर","value":"१७औं"},{"label":"विकेट","value":"२"}],"data_source_quote":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"},"caption_text":"सन्दीपले १७औं ओभरमा लिए २ विकेट","source_evidence":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२३५ रन"}],"data_source_quote":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"},"caption_text":"नेपालले बनायो २३५ रन","source_evidence":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१०१ रन"}],"data_source_quote":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"},"caption_text":"रोहित पौडेलले बनाए १०१ रन","source_evidence":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"क्यानाडा","value":"९०/३"}],"data_source_quote":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"},"caption_text":"क्यानाडा ९० रनमा ३ विकेट","source_evidence":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"cricket stadium","shot_description":"Cricket stadium view","depiction_scope":"generic_illustration"},"caption_text":"खेल जारी छ","source_evidence":"आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।"}],"lines_legacy":[{"text":"सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।","voice":"neutral","pose":"neutral","broll":"cricket scoreboard showing runs","broll_kind":"number_card"},{"text":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"number_card"},{"text":"जवाफमा क्यानाडाले २२ ओभरमा ३ विकेट गुमाएर ९० रन जोडेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"cricket match score comparison","broll_kind":"number_card"},{"text":"नेपाल र क्यानाडाबीचको खेल जारी छ।","voice":"neutral","pose":"neutral","broll":"empty stadium seats","broll_kind":"flag_row"}],"youtube_title":"विश्वकप लिग-२ः सन्दीपको उत्कृष्ट बलिङ","youtube_description":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","youtube_tags":["NepalCricket","SandeepLamichhane","RohitPaudel","CWCL2","KhabarMinute","CricketNepal","NepalSports","WorldCupLeague2"],"tiktok_caption":"सन्दीप लामिछानेले १७औं ओभरमा लिए २ विकेट। Source: Nagarik News","instagram_caption":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","facebook_post":"आईसीसी विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए। पहिले ब्याटिङ गरेको नेपालले २३५ रन बनाएको थियो। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","threads_post":"विश्वकप लिग-२ मा सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएका छन्। रोहित पौडेलले १०१ रन बनाए। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","linkedin_post":"आईसीसी विश्वकप लिग-२ क्रिकेटमा सन्दीप लामिछानेले १७औं ओभरमा २ विकेट लिएका छन्। Nagarik News https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","hashtags":["#NepalCricket","#CWCL2","#SandeepLamichhane"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"२ विकेट","on_screen_data":[{"label":"ओभर","value":"१७औं"},{"label":"विकेट","value":"२"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"ओभर","value":"१७औं"},{"label":"विकेट","value":"२"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"quote_card","source":"local_render","text":"नेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":2},{"kind":"text_plate","source":"local_render","text":"२ विकेट","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":3}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \"ओभर १७औं, विकेट २\" | then quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"cricket scoreboard showing runs","alt_queries":["team batting celebration","stadium lights at night"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"२३५ रन","on_screen_data":[{"label":"नेपालको स्कोर","value":"२३५ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"नेपालको स्कोर","value":"२३५ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"cricket scoreboard showing runs","search_url":"https://www.pexels.com/search/videos/cricket%20scoreboard%20showing%20runs/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20scoreboard%20showing%20runs&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"cricket scoreboard showing runs","search_url":"https://pixabay.com/videos/search/cricket%20scoreboard%20showing%20runs/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20scoreboard%20showing%20runs&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"team batting celebration","search_url":"https://www.pexels.com/search/videos/team%20batting%20celebration/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=team%20batting%20celebration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"stadium lights at night","search_url":"https://www.pexels.com/search/videos/stadium%20lights%20at%20night/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=stadium%20lights%20at%20night&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"cricket scoreboard showing runs","search_url":"https://openverse.org/search/image?q=cricket%20scoreboard%20showing%20runs","api":"GET https://api.openverse.org/v1/images/?q=cricket%20scoreboard%20showing%20runs&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"quote_card","source":"local_render","text":"यसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":8},{"kind":"text_plate","source":"local_render","text":"२३५ रन","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":9}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \"नेपालको स्कोर २३५ रन\" | then flag row @wikimedia_commons (1), stock video @pexels \"cricket scoreboard showing runs\" [bg], stock video @pixabay \"cricket scoreboard showing runs\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"१०१ रन","on_screen_data":[{"label":"रोहित पौडेल","value":"१०१ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"रोहित पौडेल","value":"१०१ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"quote_card","source":"local_render","text":"नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":3},{"kind":"text_plate","source":"local_render","text":"१०१ रन","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":4}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"रोहित पौडेल १०१ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"cricket match score comparison","alt_queries":["team Canada batting","runs and wickets overlay"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"९० रन","on_screen_data":[{"label":"क्यानाडा","value":"९०/३"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"क्यानाडा","value":"९०/३"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"cricket match score comparison","search_url":"https://www.pexels.com/search/videos/cricket%20match%20score%20comparison/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20match%20score%20comparison&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"cricket match score comparison","search_url":"https://pixabay.com/videos/search/cricket%20match%20score%20comparison/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20match%20score%20comparison&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"team Canada batting","search_url":"https://www.pexels.com/search/videos/team%20Canada%20batting/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=team%20Canada%20batting&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"runs and wickets overlay","search_url":"https://www.pexels.com/search/videos/runs%20and%20wickets%20overlay/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=runs%20and%20wickets%20overlay&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"cricket match score comparison","search_url":"https://openverse.org/search/image?q=cricket%20match%20score%20comparison","api":"GET https://api.openverse.org/v1/images/?q=cricket%20match%20score%20comparison&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"९० रन","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"क्यानाडा ९०/३\" | then stock video @pexels \"cricket match score comparison\" [bg], stock video @pixabay \"cricket match score comparison\", stock video @pexels \"team Canada batting\" | quality: story_fact"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"flag_row","quality":"story_fact","anchor":"","primary_query":"empty stadium seats","alt_queries":["sunset over field"],"query_source":"director_alt","shot_description":"Cricket stadium view","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":1},{"kind":"stock_video","source":"pexels_video","query":"empty stadium seats","search_url":"https://www.pexels.com/search/videos/empty%20stadium%20seats/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=empty%20stadium%20seats&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Cricket stadium view","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"empty stadium seats","search_url":"https://pixabay.com/videos/search/empty%20stadium%20seats/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=empty%20stadium%20seats&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"sunset over field","search_url":"https://www.pexels.com/search/videos/sunset%20over%20field/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=sunset%20over%20field&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"empty stadium seats","search_url":"https://openverse.org/search/image?q=empty%20stadium%20seats","api":"GET https://api.openverse.org/v1/images/?q=empty%20stadium%20seats&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"नेपाल र क्यानाडाबीचको खेल जारी छ।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"empty stadium seats\" [bg], stock video @pixabay \"empty stadium seats\", stock video @pexels \"sunset over field\" | quality: story_fact"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":5,"quote_card":0,"topic_stock":0,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":5,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 5/5 content lines; article quote cards 0; topic stock only 0; needs a pick 0","lines_with_stock_query":3,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"cricket bowler delivering ball","verdict":"person_line"},{"src":"director_alt","query":"cricket action closeup","verdict":"person_line"},{"src":"director_alt","query":"sports stadium background","verdict":"person_line"}]},{"line_id":3,"tried":[{"src":"director","query":"cricket batsman scoring century","verdict":"person_line"},{"src":"director_alt","query":"closeup of batsman swing","verdict":"person_line"},{"src":"director_alt","query":"crowd applauding","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":null,"removed_text":["यो खेलमा नेपालको प्रदर्शन तपाईंलाई कस्तो लाग्यो?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"सन्दीप लामिछानेले {{१७औं}} ओभरमा मेडनसहित २ विकेट","sub":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"लामिछानेले","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"bignum","fields":{"value":"235","decimals":0,"unit":"रन","prefix":"","label":"नेपालको स्कोर","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"२३५"}},"picture":{"status":"candidates","subject":{"kind":"object","name_en":"cricket","in_line":"क्रिकेट","in_article":false},"depiction":"generic_illustration","note":"General picture of the cricket, not the people or event in this story. Never put a name on it.","queries":[{"rank":1,"source":"wikimedia_commons","query":"cricket match stadium","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=cricket%20match%20stadium&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=cricket%20match%20stadium&ns6=1"},{"rank":2,"source":"openverse","query":"cricket batsman","api":"https://api.openverse.org/v1/images/?q=cricket%20batsman&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=cricket%20batsman&aspect_ratio=wide"},{"rank":3,"source":"pexels_photo","query":"cricket ball stumps","api":"https://api.pexels.com/v1/search?query=cricket%20ball%20stumps&orientation=landscape&per_page=8","url":"https://www.pexels.com/search/cricket%20ball%20stumps/?orientation=landscape"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"detail","card":{"type":"kicker","fields":{"text":"बलमा १०१ रनको शतकीय योगदान गरे"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"नेपालका","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2,"number_guard":true}},{"line_id":4,"beat":"pivot","card":{"type":"kicker","hold_from_line":3,"fields":null},"strip":{"hold_from_line":3},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"नेपाल र क्यानाडाबीचको खेल जारी छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"क्यानाडाबीचको","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":3,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":1,"types_used":{"hook":1,"bignum":1,"kicker":2},"distinct_types":3,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":1,"no_picture_lines":3,"blocked_claims":0,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":3,"chosen_topic":"विश्वकप लिग-२ः क्यानडाविरुद्ध नेपालको कसिलो बलिङ, सन्दीपलाई एकै ओभरमा दुई विकेट","category":"sports","reason":"Matches current Google Nepal trend 'cwc league 2' and 'nepal national cricket team', cricket is highly popular among GenZ, and the impressive bowling feat offers shareable excitement.","angle":"Emphasize Nepal's strong bowling against Canada, celebrate Sandeep's double wicket over, and hype upcoming matches to boost national pride and viral engagement.","chosen_id_recovered":false,"chosen_headline_exact":"विश्वकप लिग-२ः क्यानडाविरुद्ध नेपालको कसिलो बलिङ, सन्दीपलाई एकै ओभरमा दुई विकेट","source_url":"https://nagariknews.nagariknetwork.com/sports/world-cup-league-2-nepal-s-strong-bowling-against-canada-sandeep-takes-two-wickets-in-one-over-74-98.html","source_feed":"Nagarik News","rss_pub_date":"2026-10-11T11:13:19.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":22,"direct_headline_count":168,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_123a99dc826c99f0","source_credit":"Source: Nagarik News","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.9208622222222222,"date_unknown":false,"article_text":"आईसीसी पुरुष क्रिकेटविश्वकप लिग-२ अन्तर्गत नेपालविरुद्ध क्यानाडाले सम्हालिएको जवाफ फर्काइरहेको छ। नेपालले दिएको २३६ रनको लक्ष्य पछ्याएको क्यानाडाले २२ ओभरको समाप्तिमा ३ विकेट गुमाएर ९० रन बनाएको छ।\nनेपालका लागि कप्तान सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिएपछि क्यानाडा दबाबमा परेको हो। सन्दीपले आरोन जोन्सनलाई ४४ रनमा क्याच आउट गराउँदा आदित्य भर्दराजनलाई गोल्डेन डकआउट गराए। पहिलो विकेट भने करण केसीले लिएका हुन्। उनले ओपनर युवराज सम्रालाई एक रनमा एलबीडब्लू धरापमा पारेका थिए।\nयसअघि पहिला ब्याटिङ गरेको नेपालले निर्धारित ओभरमा सबै विकेट गुमाएर २३५ रन बनाएको थियो। नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रन बनाए। गुल्सन झाले आक्रामक ब्याटिङ गर्दै ३४ बलमा ४८ रन बनाए। बासिर अहमदले ३० रन, अर्जुन कुमालले २३ रनको योगदान गरे।\nक्यानडाका लागि सुखजिन्दर सिंहले सर्वाधिक तीन विकेट लिए। जाहिद सिरजाद र अखिल कुमारले समान दुई विकेट लिए।\nप्रकाशित: २५ आश्विन २०८३ १६:५८ आइतबार","article_char_count":874,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Nagarik News","assigned_hook_type":"bold_claim","review_id":"RV_20261011_45cc0n","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

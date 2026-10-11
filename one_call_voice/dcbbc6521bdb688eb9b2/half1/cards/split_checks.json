@@ -1,0 +1,51 @@
+{
+  "master_sha256": "4cd6ffcbafd05f3ffc8477cf88364f211c9335334e58f51fa54e6f5db2d1d41e",
+  "cuts_sec": [
+    7.24,
+    16.05,
+    23.61
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 5.9,
+      "duration_sec": 5.9,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।",
+      "master_start_sec": 8.62,
+      "master_end_sec": 14.72,
+      "duration_sec": 6.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।",
+      "master_start_sec": 17.43,
+      "master_end_sec": 22.31,
+      "duration_sec": 4.88,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।",
+      "master_start_sec": 24.95,
+      "master_end_sec": 29.99,
+      "duration_sec": 5.04,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

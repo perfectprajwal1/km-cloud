@@ -1,0 +1,897 @@
+REVIEW ID: RV_20261011_d64xnr
+TOPIC: रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य
+MODEL: gemini-3.8-flash
+STORY ID: ST_95f1ad911b4ba195
+DATE: 2026-10-11T09:12:08.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Desh Sanchar
+CATEGORY: sports
+SOURCE: https://deshsanchar.com/2026/10/11/1239272/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो। नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए। गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे। बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे। नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "नेपालको लक्ष्य",
+     "value": "२ सय ३६ रन"
+    }
+   ],
+   "data_source_quote": "नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"
+  },
+  "caption_text": "क्यानडालाई २ सय ३६ रनको लक्ष्य",
+  "big_hook_text": "क्यानडालाई २३६ रनको लक्ष्य",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "नेपालको स्कोर",
+     "value": "२ सय ३५ रन"
+    }
+   ],
+   "data_source_quote": "टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"
+  },
+  "caption_text": "नेपाल २ सय ३५ रनमा समेटियो",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "रोहित पौडेल",
+     "value": "१ सय १ रन"
+    }
+   ],
+   "data_source_quote": "रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"
+  },
+  "caption_text": "रोहित पौडेलको १ सय १ रन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"
+ },
+ {
+  "line_id": 4,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "गुल्सन झा",
+     "value": "४८ रन"
+    }
+   ],
+   "data_source_quote": "गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"
+  },
+  "caption_text": "गुल्सन झाको महत्वपूर्ण ४८ रन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"
+ },
+ {
+  "line_id": 5,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "अखिल कुमार",
+     "value": "४ विकेट"
+    }
+   ],
+   "data_source_quote": "क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"
+  },
+  "caption_text": "अखिल कुमारको ४ विकेट",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "cricket players walking off the ground",
+   "shot_description": "Cricket players walking off the pitch towards the pavilion after an innings.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "नेपालले पहिले ब्याटिङ गर्दै योगफल बनायो",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_95f1ad911b4ba195","source_url":"https://deshsanchar.com/2026/10/11/1239272/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"bold_claim","hook_claim":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/11/1239272/","article_quote":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"excited","alternate_hook":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो","closing_line":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","comment_prompt":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","pinned_comment":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","lines":[{"line_id":1,"beat":"hook","narration_text":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको लक्ष्य","value":"२ सय ३६ रन"}],"data_source_quote":"नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"},"caption_text":"क्यानडालाई २ सय ३६ रनको लक्ष्य","big_hook_text":"क्यानडालाई २३६ रनको लक्ष्य","pip_mode":"off","source_evidence":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२ सय ३५ रन"}],"data_source_quote":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"},"caption_text":"नेपाल २ सय ३५ रनमा समेटियो","big_hook_text":"","pip_mode":"off","source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।","voice":"proud","emotion":"proud","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१ सय १ रन"}],"data_source_quote":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"},"caption_text":"रोहित पौडेलको १ सय १ रन","big_hook_text":"","pip_mode":"off","source_evidence":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"detail","narration_text":"गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।","voice":"excited","emotion":"excited","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गुल्सन झा","value":"४८ रन"}],"data_source_quote":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"},"caption_text":"गुल्सन झाको महत्वपूर्ण ४८ रन","big_hook_text":"","pip_mode":"off","source_evidence":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"pivot","narration_text":"बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अखिल कुमार","value":"४ विकेट"}],"data_source_quote":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"},"caption_text":"अखिल कुमारको ४ विकेट","big_hook_text":"","pip_mode":"off","source_evidence":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"cricket players walking off the ground","shot_description":"Cricket players walking off the pitch towards the pavilion after an innings.","depiction_scope":"generic_illustration"},"caption_text":"नेपालले पहिले ब्याटिङ गर्दै योगफल बनायो","big_hook_text":"","pip_mode":"off","source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","youtube_description":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। कप्तान रोहित पौडेलले १ सय १ रनको शतकीय पारी खेलेका छन्। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","youtube_tags":["Nepal Cricket","Rohit Paudel","League 2","Nepal vs Canada","Cricket Update","Gulsan Jha","Khabar Minute","Nepali Sports","Desh Sanchar"],"tiktok_caption":"विश्वकप क्रिकेट लिग-२ मा क्यानडालाई २३६ रनको लक्ष्य","instagram_caption":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दिएको छ। रोहित पौडेलले १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","facebook_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। रोहित पौडेलले शतकीय इनिङ्स खेल्दै १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","threads_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दियो। रोहित पौडेलको १ सय १ रन। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","linkedin_post":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","hashtags":["#NepalCrickethunger","#RohitPaudel","#League2","#CricketUpdate","#KhabarMinute"],"source_credit":"Source: Desh Sanchar"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 2: स्कोर
+unverified label line 3: पौडेल
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+NUMBER CONTEXT: Line 3: पारी खेल्दै 1 सय -> Words next to the number (पारी) are not next to it in the article: "बनायो नेपालका लागि रोहित पौडेलले 1 सय 1". Copy the article wording. | Line 4: इनिङ्समा महत्वपूर्ण 48 रन -> Words next to the number (महत्वपूर्ण) are not next to it in the article: "रहेन गुल्सन झाले 34 बलमा 48 रनको इनिङ्स". Copy the article wording. | Line 5: कुमार एक्लैले 4 विकेट -> Words next to the number (एक्लैले) are not next to it in the article: "48 रनको इनिङ्स खले उनले 4 चौका र". Copy the article wording.
+FACT CHECK: 3 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?"); dropped line(s) 7; last line is now: "नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।".
+Line 3: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 4: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 5: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 6: text-only card used (no data card fits this line).
+Line 3: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: previous card shows a number this line does not say; text card from this line used instead.
+Line 5: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: a second text card in a row was skipped; the previous text card stays on screen.
+Line 6: a second text card in a row was skipped; the previous text card stays on screen.
+
+--- ALTERNATE HOOK ---
+विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो
+
+--- PINNED COMMENT (Nepali question) ---
+क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "players fielding action",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "players fielding action",
+   "alt_queries": [
+    "cricket bowler run up"
+   ],
+   "query_source": "director_alt",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "प्रस्तुत",
+   "on_screen_data": [
+    {
+     "label": "नेपालको लक्ष्य",
+     "value": "२ सय ३६ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "नेपालको लक्ष्य",
+       "value": "२ सय ३६ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      },
+      {
+       "name": "क्यानडा",
+       "en": "Canada",
+       "file": "Flag_of_Canada.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "players fielding action",
+     "search_url": "https://www.pexels.com/search/videos/players%20fielding%20action/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=players%20fielding%20action&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "players fielding action",
+     "search_url": "https://pixabay.com/videos/search/players%20fielding%20action/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=players%20fielding%20action&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket bowler run up",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20bowler%20run%20up/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20bowler%20run%20up&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "players fielding action",
+     "search_url": "https://openverse.org/search/image?q=players%20fielding%20action",
+     "api": "GET https://api.openverse.org/v1/images/?q=players%20fielding%20action&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "प्रस्तुत",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \"नेपालको लक्ष्य २ सय ३६ रन\" | then flag row @wikimedia_commons (2), stock video @pexels \"players fielding action\" [bg], stock video @pixabay \"players fielding action\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "cricket run tally graphic",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "cricket run tally graphic",
+   "alt_queries": [
+    "cricket score overlay",
+    "overs bowled animation"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "समेटियो",
+   "on_screen_data": [
+    {
+     "label": "नेपालको स्कोर",
+     "value": "२ सय ३५ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "नेपालको स्कोर",
+       "value": "२ सय ३५ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket run tally graphic",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20run%20tally%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20run%20tally%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "cricket run tally graphic",
+     "search_url": "https://pixabay.com/videos/search/cricket%20run%20tally%20graphic/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20run%20tally%20graphic&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket score overlay",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20score%20overlay/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20score%20overlay&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "overs bowled animation",
+     "search_url": "https://www.pexels.com/search/videos/overs%20bowled%20animation/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=overs%20bowled%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "cricket run tally graphic",
+     "search_url": "https://openverse.org/search/image?q=cricket%20run%20tally%20graphic",
+     "api": "GET https://api.openverse.org/v1/images/?q=cricket%20run%20tally%20graphic&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 8
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "समेटियो",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 9
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \"नेपालको स्कोर २ सय ३५ रन\" | then flag row @wikimedia_commons (1), stock video @pexels \"cricket run tally graphic\" [bg], stock video @pixabay \"cricket run tally graphic\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।",
+  "voice": "proud",
+  "pose": "proud",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "योगदान",
+   "on_screen_data": [
+    {
+     "label": "रोहित पौडेल",
+     "value": "१ सय १ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "रोहित पौडेल",
+       "value": "१ सय १ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 3
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "योगदान",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 4
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"रोहित पौडेल १ सय १ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।",
+  "voice": "excited",
+  "pose": "excited",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "विष्फोटक",
+   "on_screen_data": [
+    {
+     "label": "गुल्सन झा",
+     "value": "४८ रन"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "गुल्सन झा",
+       "value": "४८ रन"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 3
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "विष्फोटक",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 4
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"गुल्सन झा ४८ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "हात",
+   "on_screen_data": [
+    {
+     "label": "अखिल कुमार",
+     "value": "४ विकेट"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "अखिल कुमार",
+       "value": "४ विकेट"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "क्यानडा",
+       "en": "Canada",
+       "file": "Flag_of_Canada.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 3
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "हात",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 4
+    }
+   ],
+   "human_brief": "L5 [plate] NUMBER CARD via local_render: \"अखिल कुमार ४ विकेट\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "cricket players walking off pitch",
+  "broll_kind": "flag_row",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "flag_row",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "cricket players walking off pitch",
+   "alt_queries": [
+    "cricket pavilion entrance",
+    "cricket team huddle"
+   ],
+   "query_source": "director",
+   "shot_description": "Cricket players walking off the pitch towards the pavilion after an innings.",
+   "commons": null,
+   "map": null,
+   "motion_text": "तयार",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket players walking off pitch",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20players%20walking%20off%20pitch/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20players%20walking%20off%20pitch&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Cricket players walking off the pitch towards the pavilion after an innings.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "cricket players walking off pitch",
+     "search_url": "https://pixabay.com/videos/search/cricket%20players%20walking%20off%20pitch/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20players%20walking%20off%20pitch&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket pavilion entrance",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20pavilion%20entrance/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20pavilion%20entrance&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cricket team huddle",
+     "search_url": "https://www.pexels.com/search/videos/cricket%20team%20huddle/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cricket%20team%20huddle&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "cricket players walking off pitch",
+     "search_url": "https://openverse.org/search/image?q=cricket%20players%20walking%20off%20pitch",
+     "api": "GET https://api.openverse.org/v1/images/?q=cricket%20players%20walking%20off%20pitch&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "तयार",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L6 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"cricket players walking off pitch\" [bg], stock video @pixabay \"cricket players walking off pitch\", stock video @pexels \"cricket pavilion entrance\" | quality: story_fact"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 6/6 content lines; article quote cards 0; topic stock only 0; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: "नेपालको लक्ष्य २ सय ३६ रन" | then flag row @wikimedia_commons (2), stock video @pexels "players fielding action" [bg], stock video @pixabay "players fielding action" | quality: story_fact
+L2 [plate] NUMBER CARD via local_render: "नेपालको स्कोर २ सय ३५ रन" | then flag row @wikimedia_commons (1), stock video @pexels "cricket run tally graphic" [bg], stock video @pixabay "cricket run tally graphic" | quality: story_fact
+L3 [plate] NUMBER CARD via local_render: "रोहित पौडेल १ सय १ रन" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "गुल्सन झा ४८ रन" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact
+L5 [plate] NUMBER CARD via local_render: "अखिल कुमार ४ विकेट" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact
+L6 [full] FLAG ROW via wikimedia_commons: "नेपाल" | then stock video @pexels "cricket players walking off pitch" [bg], stock video @pixabay "cricket players walking off pitch", stock video @pexels "cricket pavilion entrance" | quality: story_fact
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य",
+ "youtube_description": "विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। कप्तान रोहित पौडेलले १ सय १ रनको शतकीय पारी खेलेका छन्। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/",
+ "youtube_tags": [
+  "Nepal Cricket",
+  "Rohit Paudel",
+  "League 2",
+  "Nepal vs Canada",
+  "Cricket Update",
+  "Gulsan Jha",
+  "Khabar Minute",
+  "Nepali Sports",
+  "Desh Sanchar"
+ ],
+ "tiktok_caption": "विश्वकप क्रिकेट लिग-२ मा क्यानडालाई २३६ रनको लक्ष्य\nSource: Desh Sanchar",
+ "instagram_caption": "विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दिएको छ। रोहित पौडेलले १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/",
+ "facebook_post": "विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। रोहित पौडेलले शतकीय इनिङ्स खेल्दै १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/",
+ "threads_post": "विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दियो। रोहित पौडेलको १ सय १ रन। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/",
+ "linkedin_post": "विश्वकप क्रिकेट लिग-२ अन्तर्गतको खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/",
+ "hashtags": [
+  "#NepalCrickethunger",
+  "#RohitPaudel",
+  "#League2",
+  "#CricketUpdate",
+  "#KhabarMinute"
+ ],
+ "source_credit": "Source: Desh Sanchar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261011_d64xnr","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261011_d64xnr","review_date":"20261011","title":"रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","chosen_topic":"रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","category":"sports","source_url":"https://deshsanchar.com/2026/10/11/1239272/","story_id":"ST_95f1ad911b4ba195","risk_flag":"NORMAL","source_credit":"Source: Desh Sanchar","full_script":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो। नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए। गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे। बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे। नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","hook":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","alternate_hook":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो","hook_type":"bold_claim","closing_line":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","pinned_comment":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","lines":[{"text":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"players fielding action","broll_kind":"number_card"},{"text":"टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।","voice":"neutral","pose":"neutral","broll":"cricket run tally graphic","broll_kind":"number_card"},{"text":"नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।","voice":"proud","pose":"proud","broll":"","broll_kind":"number_card"},{"text":"गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।","voice":"excited","pose":"excited","broll":"","broll_kind":"number_card"},{"text":"बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","voice":"neutral","pose":"neutral","broll":"cricket players walking off pitch","broll_kind":"flag_row"}],"word_count":74,"workbook":{"schema_version":"6.6.9","story_id":"ST_95f1ad911b4ba195","source_url":"https://deshsanchar.com/2026/10/11/1239272/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"bold_claim","hook_claim":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/11/1239272/","article_quote":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"excited","alternate_hook":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गर्यो","closing_line":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","comment_prompt":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","pinned_comment":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","lines":[{"line_id":1,"beat":"hook","narration_text":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको लक्ष्य","value":"२ सय ३६ रन"}],"data_source_quote":"नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"},"caption_text":"क्यानडालाई २ सय ३६ रनको लक्ष्य","big_hook_text":"क्यानडालाई २३६ रनको लक्ष्य","pip_mode":"off","source_evidence":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२ सय ३५ रन"}],"data_source_quote":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"},"caption_text":"नेपाल २ सय ३५ रनमा समेटियो","big_hook_text":"","pip_mode":"off","source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।","voice":"proud","emotion":"proud","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१ सय १ रन"}],"data_source_quote":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"},"caption_text":"रोहित पौडेलको १ सय १ रन","big_hook_text":"","pip_mode":"off","source_evidence":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"detail","narration_text":"गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।","voice":"excited","emotion":"excited","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गुल्सन झा","value":"४८ रन"}],"data_source_quote":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"},"caption_text":"गुल्सन झाको महत्वपूर्ण ४८ रन","big_hook_text":"","pip_mode":"off","source_evidence":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"pivot","narration_text":"बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अखिल कुमार","value":"४ विकेट"}],"data_source_quote":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"},"caption_text":"अखिल कुमारको ४ विकेट","big_hook_text":"","pip_mode":"off","source_evidence":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"cricket players walking off the ground","shot_description":"Cricket players walking off the pitch towards the pavilion after an innings.","depiction_scope":"generic_illustration"},"caption_text":"नेपालले पहिले ब्याटिङ गर्दै योगफल बनायो","big_hook_text":"","pip_mode":"off","source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","youtube_description":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। कप्तान रोहित पौडेलले १ सय १ रनको शतकीय पारी खेलेका छन्। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","youtube_tags":["Nepal Cricket","Rohit Paudel","League 2","Nepal vs Canada","Cricket Update","Gulsan Jha","Khabar Minute","Nepali Sports","Desh Sanchar"],"tiktok_caption":"विश्वकप क्रिकेट लिग-२ मा क्यानडालाई २३६ रनको लक्ष्य","instagram_caption":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दिएको छ। रोहित पौडेलले १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","facebook_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। रोहित पौडेलले शतकीय इनिङ्स खेल्दै १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","threads_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दियो। रोहित पौडेलको १ सय १ रन। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","linkedin_post":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","hashtags":["#NepalCrickethunger","#RohitPaudel","#League2","#CricketUpdate","#KhabarMinute"],"source_credit":"Source: Desh Sanchar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको लक्ष्य","value":"२ सय ३६ रन"}],"data_source_quote":"नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"},"caption_text":"क्यानडालाई २ सय ३६ रनको लक्ष्य","big_hook_text":"क्यानडालाई २३६ रनको लक्ष्य","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नेपालको स्कोर","value":"२ सय ३५ रन"}],"data_source_quote":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"},"caption_text":"नेपाल २ सय ३५ रनमा समेटियो","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"रोहित पौडेल","value":"१ सय १ रन"}],"data_source_quote":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"},"caption_text":"रोहित पौडेलको १ सय १ रन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।"},{"line_id":4,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गुल्सन झा","value":"४८ रन"}],"data_source_quote":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"},"caption_text":"गुल्सन झाको महत्वपूर्ण ४८ रन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।"},{"line_id":5,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अखिल कुमार","value":"४ विकेट"}],"data_source_quote":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"},"caption_text":"अखिल कुमारको ४ विकेट","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।"},{"line_id":6,"beat":"closing","visual":{"type":"BROLL","search_query":"cricket players walking off the ground","shot_description":"Cricket players walking off the pitch towards the pavilion after an innings.","depiction_scope":"generic_illustration"},"caption_text":"नेपालले पहिले ब्याटिङ गर्दै योगफल बनायो","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।"}],"lines_legacy":[{"text":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"players fielding action","broll_kind":"number_card"},{"text":"टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।","voice":"neutral","pose":"neutral","broll":"cricket run tally graphic","broll_kind":"number_card"},{"text":"नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।","voice":"proud","pose":"proud","broll":"","broll_kind":"number_card"},{"text":"गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।","voice":"excited","pose":"excited","broll":"","broll_kind":"number_card"},{"text":"बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।","voice":"neutral","pose":"neutral","broll":"cricket players walking off pitch","broll_kind":"flag_row"}],"youtube_title":"नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","youtube_description":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। कप्तान रोहित पौडेलले १ सय १ रनको शतकीय पारी खेलेका छन्। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","youtube_tags":["Nepal Cricket","Rohit Paudel","League 2","Nepal vs Canada","Cricket Update","Gulsan Jha","Khabar Minute","Nepali Sports","Desh Sanchar"],"tiktok_caption":"विश्वकप क्रिकेट लिग-२ मा क्यानडालाई २३६ रनको लक्ष्य\nSource: Desh Sanchar","instagram_caption":"विश्वकप क्रिकेट लिग-२ अन्तर्गत नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दिएको छ। रोहित पौडेलले १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","facebook_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। रोहित पौडेलले शतकीय इनिङ्स खेल्दै १ सय १ रन बनाए। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","threads_post":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य दियो। रोहित पौडेलको १ सय १ रन। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","linkedin_post":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। Source: Desh Sanchar https://deshsanchar.com/2026/10/11/1239272/","hashtags":["#NepalCrickethunger","#RohitPaudel","#League2","#CricketUpdate","#KhabarMinute"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.8-flash","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"players fielding action","alt_queries":["cricket bowler run up"],"query_source":"director_alt","shot_description":"","commons":null,"map":null,"motion_text":"प्रस्तुत","on_screen_data":[{"label":"नेपालको लक्ष्य","value":"२ सय ३६ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"नेपालको लक्ष्य","value":"२ सय ३६ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"},{"name":"क्यानडा","en":"Canada","file":"Flag_of_Canada.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"players fielding action","search_url":"https://www.pexels.com/search/videos/players%20fielding%20action/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=players%20fielding%20action&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"players fielding action","search_url":"https://pixabay.com/videos/search/players%20fielding%20action/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=players%20fielding%20action&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"cricket bowler run up","search_url":"https://www.pexels.com/search/videos/cricket%20bowler%20run%20up/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20bowler%20run%20up&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"players fielding action","search_url":"https://openverse.org/search/image?q=players%20fielding%20action","api":"GET https://api.openverse.org/v1/images/?q=players%20fielding%20action&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"प्रस्तुत","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \"नेपालको लक्ष्य २ सय ३६ रन\" | then flag row @wikimedia_commons (2), stock video @pexels \"players fielding action\" [bg], stock video @pixabay \"players fielding action\" | quality: story_fact"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"cricket run tally graphic","alt_queries":["cricket score overlay","overs bowled animation"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"समेटियो","on_screen_data":[{"label":"नेपालको स्कोर","value":"२ सय ३५ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"नेपालको स्कोर","value":"२ सय ३५ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"cricket run tally graphic","search_url":"https://www.pexels.com/search/videos/cricket%20run%20tally%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20run%20tally%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"cricket run tally graphic","search_url":"https://pixabay.com/videos/search/cricket%20run%20tally%20graphic/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20run%20tally%20graphic&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"cricket score overlay","search_url":"https://www.pexels.com/search/videos/cricket%20score%20overlay/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20score%20overlay&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"overs bowled animation","search_url":"https://www.pexels.com/search/videos/overs%20bowled%20animation/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=overs%20bowled%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"cricket run tally graphic","search_url":"https://openverse.org/search/image?q=cricket%20run%20tally%20graphic","api":"GET https://api.openverse.org/v1/images/?q=cricket%20run%20tally%20graphic&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"quote_card","source":"local_render","text":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":8},{"kind":"text_plate","source":"local_render","text":"समेटियो","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":9}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \"नेपालको स्कोर २ सय ३५ रन\" | then flag row @wikimedia_commons (1), stock video @pexels \"cricket run tally graphic\" [bg], stock video @pixabay \"cricket run tally graphic\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"योगदान","on_screen_data":[{"label":"रोहित पौडेल","value":"१ सय १ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"रोहित पौडेल","value":"१ सय १ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"quote_card","source":"local_render","text":"रोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":3},{"kind":"text_plate","source":"local_render","text":"योगदान","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":4}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"रोहित पौडेल १ सय १ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":4,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"विष्फोटक","on_screen_data":[{"label":"गुल्सन झा","value":"४८ रन"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"गुल्सन झा","value":"४८ रन"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"quote_card","source":"local_render","text":"गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":3},{"kind":"text_plate","source":"local_render","text":"विष्फोटक","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":4}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"गुल्सन झा ४८ रन\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":5,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"हात","on_screen_data":[{"label":"अखिल कुमार","value":"४ विकेट"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"अखिल कुमार","value":"४ विकेट"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"क्यानडा","en":"Canada","file":"Flag_of_Canada.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"quote_card","source":"local_render","text":"क्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":3},{"kind":"text_plate","source":"local_render","text":"हात","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":4}],"human_brief":"L5 [plate] NUMBER CARD via local_render: \"अखिल कुमार ४ विकेट\" | then flag row @wikimedia_commons (1), quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":6,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"flag_row","quality":"story_fact","anchor":"","primary_query":"cricket players walking off pitch","alt_queries":["cricket pavilion entrance","cricket team huddle"],"query_source":"director","shot_description":"Cricket players walking off the pitch towards the pavilion after an innings.","commons":null,"map":null,"motion_text":"तयार","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":1},{"kind":"stock_video","source":"pexels_video","query":"cricket players walking off pitch","search_url":"https://www.pexels.com/search/videos/cricket%20players%20walking%20off%20pitch/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20players%20walking%20off%20pitch&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Cricket players walking off the pitch towards the pavilion after an innings.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"cricket players walking off pitch","search_url":"https://pixabay.com/videos/search/cricket%20players%20walking%20off%20pitch/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=cricket%20players%20walking%20off%20pitch&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"cricket pavilion entrance","search_url":"https://www.pexels.com/search/videos/cricket%20pavilion%20entrance/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20pavilion%20entrance&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"cricket team huddle","search_url":"https://www.pexels.com/search/videos/cricket%20team%20huddle/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cricket%20team%20huddle&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"cricket players walking off pitch","search_url":"https://openverse.org/search/image?q=cricket%20players%20walking%20off%20pitch","api":"GET https://api.openverse.org/v1/images/?q=cricket%20players%20walking%20off%20pitch&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"तयार","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L6 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"cricket players walking off pitch\" [bg], stock video @pixabay \"cricket players walking off pitch\", stock video @pexels \"cricket pavilion entrance\" | quality: story_fact"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":6,"quote_card":0,"topic_stock":0,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":6,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 6/6 content lines; article quote cards 0; topic stock only 0; needs a pick 0","lines_with_stock_query":3,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":3,"tried":[{"src":"director","query":"cricket batsman celebrating","verdict":"person_line"},{"src":"director_alt","query":"cricket player handshake","verdict":"person_line"},{"src":"director_alt","query":"cricket crowd cheering","verdict":"person_line"}]},{"line_id":4,"tried":[{"src":"director","query":"cricket batting explosion","verdict":"person_line"},{"src":"director_alt","query":"cricket boundary hit","verdict":"person_line"},{"src":"director_alt","query":"cricket six celebration","verdict":"person_line"}]},{"line_id":5,"tried":[{"src":"director","query":"cricket bowler delivering","verdict":"person_line"},{"src":"director_alt","query":"cricket wicket celebration","verdict":"person_line"},{"src":"director_alt","query":"cricket fielding action","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.75,"removed_text":["क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":3}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"क्यानडालाई"}},"picture":{"status":"candidates","subject":{"kind":"object","name_en":"cricket","in_line":"क्रिकेट","in_article":true},"depiction":"generic_illustration","note":"General picture of the cricket, not the people or event in this story. Never put a name on it.","queries":[{"rank":1,"source":"wikimedia_commons","query":"cricket match stadium","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=cricket%20match%20stadium&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=cricket%20match%20stadium&ns6=1"},{"rank":2,"source":"openverse","query":"cricket batsman","api":"https://api.openverse.org/v1/images/?q=cricket%20batsman&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=cricket%20batsman&aspect_ratio=wide"},{"rank":3,"source":"pexels_photo","query":"cricket ball stumps","api":"https://api.pexels.com/v1/search?query=cricket%20ball%20stumps&orientation=landscape&per_page=8","url":"https://www.pexels.com/search/cricket%20ball%20stumps/?orientation=landscape"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"bignum","fields":{"value":"235","decimals":0,"unit":"रन","prefix":"","label":"नेपालको स्कोर","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":3}},"strip":{"kind":"echo","text":"२३५","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"detail","card":{"type":"kicker","fields":{"text":"रनको योगदान दिए"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":3}},"strip":{"kind":"echo","text":"नेपालका","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2,"number_guard":true}},{"line_id":4,"beat":"detail","card":{"type":"kicker","hold_from_line":3,"fields":null},"strip":{"hold_from_line":3},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"pivot","card":{"type":"kicker","fields":{"text":"बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":3}},"strip":{"kind":"echo","text":"क्यानडाका","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":3,"cap":2,"number_guard":true}},{"line_id":6,"beat":"closing","card":{"type":"kicker","hold_from_line":5,"fields":null},"strip":{"hold_from_line":5},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":2,"types_used":{"hook":1,"bignum":1,"kicker":2},"distinct_types":3,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":1,"no_picture_lines":3,"blocked_claims":3,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":2,"chosen_topic":"रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","category":"sports","reason":"Matches trending searches like 'nepal vs canada' and 'cricinfo', cricket is hugely popular among Nepali GenZ, and the surprising high target creates buzz","angle":"Emphasize Nepal's impressive chase against Canada, celebrate the team's performance, and create shareable short clips highlighting key moments","chosen_id_recovered":false,"chosen_headline_exact":"रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य","source_url":"https://deshsanchar.com/2026/10/11/1239272/","source_feed":"Desh Sanchar","rss_pub_date":"2026-10-11T09:12:08.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":184,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":21,"direct_headline_count":165,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_95f1ad911b4ba195","source_credit":"Source: Desh Sanchar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":1.6680288888888888,"date_unknown":false,"article_text":"रोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य\nरोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य\nदेश सञ्चार\n२०८३ असोज २५ गते १४:५७\nअ\n+\nअ\nअ\n-\nकाठमाडौँ – विश्वकप क्रिकेट लिग-२ अन्तर्गतको अन्तिम शृंखलाको पहिलो खेलमा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ। टस हारेर पहिले ब्याटिङ गरेको नेपाल निर्धारित ५० ओभरमा अलआउट हुँदै २ सय ३५ रन बनायो।\nनेपालका लागि रोहित पौडेलले १ सय १ रनको शतकीय इनिङ्स खेल्दा उनले गुल्सनलाई साथ दिए तर अन्य खेलाडीको प्रदर्शन भने गतिलो रहेन। गुल्सन झाले ३४ बलमा ४८ रनको इनिङ्स खले। उनले ४ चौका र ३ छक्का प्रहार गरेका थिए।\nरोहितले भने १२७ बलमा ८ चौका र १ छक्काको सहयोगमा १ सय १ रन बनाएर आउट भए। रोहित र गुल्सनबाहेक बसिर अहमदले ३० रन बनाउँदा अर्जुन कुमालको २३ रन थप दोहोरो स्कोरका रुपमा रह्यो।\nक्यानडाका लागि अखिल कुमारले ४ विकेट लिँदा सुखिन्दर सिंहले ३ तथा जहिद सिर्जादले २ विकेट लिए।\nसबै\nरोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य\nक्यानडा विरुद्ध रोहितको शतक\nएकदिवसीय मान्यता जोगाउने दबाबमा रहेको नेपाल क्यानडासँग भिड्दै\nलमहीमा घर संसार फुटसल कप सुरु, विजेताले एक लाख पाउने\nएनपिएल–३: अन्तर्राष्ट्रिय मान्यता पाउने आशामा क्यान\nराष्ट्रिय तेक्वान्दो प्रतियोगिताको २६ औं संस्करण विराटनगरमा घटस्थापनाबाट सुरु गरिने\nरोहितको शतकमा नेपालले दियो क्यानडालाई २३६ रनको लक्ष्य\nबुढीगण्डकी अपडेट: ठाउँ-ठाउँका बस्तीमा बाढी पस्यो, ४७ जनाको उद्धार\nहुम्लामा यस पटकको दसैँ तिहारमा खाद्यान्न अभाव नहुने\nमौसम पूर्वानुमान क्षमता ७ दिनसम्म विस्तार गरिएको छः उर्जामन्त्री श्रेष्ठ\nक्यानडा विरुद्ध रोहितको शतक\nदसैँका लागि ६ स्थानबाट ग्यास वितरण, सिलिन्डर साट्न नपाएको उपभोक्ताको गुनासो\nललितपुरको कुपोण्डोलमा देवी दुर्गाको मूर्ति बनाउँदै मूर्तिकार (फोटोफिचर)\nक्याम्पाको ब्रान्ड एम्बासडरमा अभिनेत्री आँचल शर्मा नियुक्त\nरसुवा बाढीले बगाएको ४७ दिनका बन्यो बेत्रावती पुल, सेनाले गर्‍यो हस्तान्तरण (तस्बिरहरू)\nनदी थुनिँदा बुढीगण्डकी बाढी, कहाँ-कहाँ गर्‍यो क्षति?\nबुढीगण्डकी बाढी अपडेट: दुई झोलुङ्गे पुलसहित फलामे पुल बगायो, घरहरूमा क्षति\nअरविन्द केजरीवाल र ममता बनर्जी पक्राउ\nजंगली च्याउ खाँदा तीन वर्षीया बालिकाको मृत्यु\nविशेष महाविधेशन एक करोड ६३ लाखमै सम्पन्न, चुनावमा तीन करोड खर्च\nबुढीगण्डकी अपडेट: ठाउँ-ठाउँका बस्तीमा बाढी पस्यो, ४७ जनाको उद्धार\nकीर्तिपुरमा गुञ्जियो नेपथ्य, सांगीतिक धुनमा झुमे दर्शक (तस्बिरहरू)\nदुर्गा पक्षः नेपालीको महान् पर्व बडादसैँ सुरु, आज घटस्थापना गरिँदै\nजनकपुरधाममा सुरु भयो दसैँको रौनक\nबेलिब्रिज निर्माण भएसँगै रसुवामा आजदेखि यातायात सञ्चालन\nबुढीगण्डकीको बाढीले शान्ति बजारका घर डुबानमा (फोटोफिचर)\nशून्य समय\nप्रहरी हैन, संसदीय समितिले गर्नुपर्छ चोलेन्द्र प्रकरणको छानबिन\nयो संविधानको हैसियत र पूर्वप्रधानन्यायाधीशको गिरफ्तारी\nबालेन्द्र सरकारविरुद्ध लहरको संकेत\nभरत दाहाल गिरफ्तारीले निम्त्याएका प्रश्न\nहुन नसकेको सहिदको यो क्रन्दन\nदेशसञ्चार चौतारी\nसबै\nगायनमा ज्ञानु राणाका ६ दशक\nसुनिल पोखरेलको रंगमञ्च यात्रा, गुरुकुलको सपना र अधुरो रंगमञ्च\nसेफ गोपाल सिंह: पाँच दशकको पाक–यात्रा र स्वादको साधना\nअभिनयमा अचानक आइपुगेकी कवि अभिनेत्री गौरी मल्ल\n‘हामी गोर्खाली हौँ, विपत्तिबाट जसरी पनि उठ्छौँ’\n‘हिमाल र हिमाली क्षेत्रका ताल नै नेपालका लागि जोखिमयुक्त छ’\n‘तान्त्रिक नृत्यमार्फत देउतालाई साकार गरिन्छ’\n‘स्थानीय मौलिक ज्ञानलाई समेटेमात्र शिक्षा प्रभावकारी हुन्छ’\nअंग्रेजी साहित्यका नेपाली सम्राट","article_char_count":3046,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Desh Sanchar","assigned_hook_type":"bold_claim","review_id":"RV_20261011_d64xnr","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

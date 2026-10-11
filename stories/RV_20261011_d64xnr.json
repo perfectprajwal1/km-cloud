@@ -1,0 +1,265 @@
+{
+ "id": "RV_20261011_d64xnr",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?",
+ "pinned_comment": "क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "क्यानडालाई {{२ सय ३६ रन}}को लक्ष्य",
+   "sub": "नेपालको लक्ष्य",
+   "vo": "विश्वकप क्रिकेट लिग-२ मा नेपालले क्यानडालाई २ सय ३६ रनको लक्ष्य प्रस्तुत गरेको छ।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_01_66e1e8.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 2.0,
+      "numText": "२",
+      "unit": "सय ३६ रन",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "नेपालको लक्ष्य",
+      "at": 0.285
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "२ सय ३५ रन",
+   "headline": "नेपाल {{२ सय ३५ रन}}मा समेटियो",
+   "sub": "नेपालको स्कोर",
+   "vo": "टस हारेर पहिले batting गरेको नेपाल निर्धारित ओभरमा अलआउट हुँदै २ सय ३५ रनमा समेटियो।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_02_3455de.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 2,
+      "icon": "star",
+      "label": "नेपालको स्कोर",
+      "at": 0.385,
+      "layout": {
+       "cols": 2,
+       "rows": 1,
+       "step": 190,
+       "size": 148,
+       "x0": 350.0,
+       "y0": 167,
+       "capY": 391
+      }
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "१ सय १ रन",
+   "headline": "रोहित पौडेलको {{१ सय १ रन}}",
+   "sub": "रोहित पौडेल",
+   "vo": "नेपालका लागि रोहित पौडेलले शतकीय पारी खेल्दै १ सय १ रनको योगदान दिए।",
+   "voice_tone": "proud",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_03_aad227.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "रोहित",
+        "key": false,
+        "at": 0.163
+       },
+       {
+        "t": "पौडेलको",
+        "key": true,
+        "at": 0.6
+       }
+      ],
+      "icon": "medal",
+      "at": 0.163
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "medal": "<circle pathLength=\"1\" cx=\"12\" cy=\"15\" r=\"5\"/><path pathLength=\"1\" d=\"M8.5 3l3.5 7 3.5-7\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "४८ रन",
+   "headline": "गुल्सन झाको महत्वपूर्ण {{४८ रन}}",
+   "sub": "गुल्सन झा",
+   "vo": "गुल्सन झाले विष्फोटक ब्याटिङ गर्दै नेपालको इनिङ्समा महत्वपूर्ण ४८ रन थपे।",
+   "voice_tone": "excited",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_04_4a8ad1.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 48,
+      "icon": "star",
+      "label": "गुल्सन झा",
+      "at": 0.437,
+      "layout": {
+       "cols": 12,
+       "rows": 4,
+       "step": 75.0,
+       "size": 58,
+       "x0": 90.0,
+       "y0": 112,
+       "capY": 446
+      }
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "४ विकेट",
+   "headline": "अखिल कुमारको {{४ विकेट}}",
+   "sub": "अखिल कुमार",
+   "vo": "बलिङतर्फ क्यानडाका बलर अखिल कुमार एक्लैले ४ विकेट हात पारे।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_05_4c0b16.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 4,
+      "icon": "star",
+      "label": "अखिल कुमार",
+      "at": 0.367,
+      "layout": {
+       "cols": 4,
+       "rows": 1,
+       "step": 190,
+       "size": 148,
+       "x0": 160.0,
+       "y0": 167,
+       "capY": 391
+      }
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नेपालले पहिले ब्याटिङ गर्दै योगफल बनायो",
+   "points": [
+    "नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो"
+   ],
+   "vo": "नेपालले टस हारेर पहिले ब्याटिङ गर्दै यो योगफल तयार पारेको हो।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261011_d64xnr_06_d4f960.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नेपालले",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " टस हारेर "
+       },
+       {
+        "t": "पहिले ब्याटिङ गर्दै",
+        "hl": true,
+        "at": 0.273
+       },
+       {
+        "t": " यो योगफल तयार पारेको हो।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": false,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "क्यानडा विरुद्धको यो खेलमा नेपालको बलिङ कस्तो रहला? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ]
+}
