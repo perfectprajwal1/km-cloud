@@ -48,6 +48,67 @@ def request(url, token='', data=None, params=None, headers=None):
     return response
 
 
+def facebook_diagnostics(user):
+    """Print only allowlisted metadata. Never print a debug response or token."""
+    secret = os.environ.get('FB_APP_SECRET', '').strip()
+    if not secret:
+        grants = request(FB + '/me/permissions', user).get('data', [])
+        scopes = {g.get('permission') for g in grants if g.get('status') == 'granted'}
+        print('Facebook granted posting scopes:', sorted(scopes.intersection({'pages_show_list','pages_read_engagement','pages_manage_posts','business_management'})))
+        return
+    SECRETS.append(secret)
+    app_token = FB_APP_ID + '|' + secret; SECRETS.append(app_token)
+    data = request(FB + '/debug_token', app_token, params={'input_token':user}).get('data', {})
+    if data.get('is_valid') is not True:
+        raise MetaError('Facebook user token is invalid or expired')
+    if str(data.get('app_id')) != FB_APP_ID:
+        raise MetaError('Facebook user token app_id does not match FB_APP_ID')
+    scopes = set(data.get('scopes', []))
+    missing = {'pages_show_list','pages_read_engagement','pages_manage_posts'} - scopes
+    print('Facebook token valid; app_id matches; expires_at=', data.get('expires_at'), 'data_access_expires_at=', data.get('data_access_expires_at'))
+    print('Facebook business_management granted:', 'business_management' in scopes)
+    print('Facebook missing posting scopes:', sorted(missing))
+    for grant in data.get('granular_scopes', []):
+        if grant.get('scope') in ('pages_show_list','pages_read_engagement','pages_manage_posts'):
+            targets = grant.get('target_ids')
+            print('Facebook granular scope', grant['scope'], 'selected Page included:', 'unrestricted/not returned' if targets is None else FB_PAGE_ID in [str(t) for t in targets])
+    if missing:
+        raise MetaError('Facebook token lacks required posting scopes: ' + ','.join(sorted(missing)))
+
+
+def lookup_page(user, include_token=True):
+    # This documented direct Page lookup does not depend on /me/accounts listing.
+    fields = 'id,name,access_token' if include_token else 'id,name'
+    direct_error = None
+    try:
+        page = request(FB + '/' + FB_PAGE_ID, user, params={'fields':fields})
+        if str(page.get('id')) != FB_PAGE_ID:
+            raise MetaError('direct Page lookup returned a different Page')
+        if not include_token or page.get('access_token'):
+            print('Facebook configured Page verified using direct Page lookup')
+            return page
+        direct_error = 'direct lookup returned no Page access token'
+    except MetaError as e:
+        direct_error = clean(e)
+    # Bounded pagination uses opaque cursors only, never token-bearing next URLs.
+    after = None
+    for attempt in range(10):
+        params = {'fields':'id,name,access_token,tasks' if include_token else 'id,name,tasks', 'limit':100}
+        if after:
+            params['after'] = after
+        response = request(FB + '/me/accounts', user, params=params)
+        page = next((v for v in response.get('data', []) if str(v.get('id')) == FB_PAGE_ID), None)
+        if page and (not include_token or page.get('access_token')):
+            print('Facebook configured Page verified using paginated accounts lookup')
+            return page
+        paging = response.get('paging', {})
+        cursor = paging.get('cursors', {}).get('after')
+        if not paging.get('next') or not cursor or cursor == after:
+            break
+        after = cursor
+    raise MetaError('configured Page token unavailable via direct lookup and bounded accounts pagination (' + str(direct_error) + '); check granular Page grants, scopes, business access and Page role')
+
+
 def identity(network):
     token = (os.environ.get('FB_PAGE_TOKEN') or os.environ.get('FB_USER_TOKEN', '')) if network == 'facebook' else os.environ.get({'instagram':'IG_TOKEN','threads':'THREADS_TOKEN'}[network], '')
     token = token.strip()
@@ -75,14 +136,14 @@ def identity(network):
         if str(page.get('id')) != FB_PAGE_ID:
             raise MetaError('FB_PAGE_TOKEN belongs to a different Page')
         return token, FB_PAGE_ID, page.get('name', '')
-    # Dry-run never prints Page tokens from the response and never exchanges tokens.
-    pages = request(FB + '/me/accounts', token, params={'fields':'id,name,tasks'})
-    page = next((p for p in pages.get('data', []) if str(p.get('id')) == FB_PAGE_ID), None)
-    if not page:
-        raise MetaError('configured Facebook Page not in first returned account page; resolve access/pagination')
-    if not set(page.get('tasks', [])).intersection({'CREATE_CONTENT','MANAGE','PROFILE_PLUS_CREATE_CONTENT','PROFILE_PLUS_FULL_CONTROL'}):
-        raise MetaError('Facebook Page token lacks a verified create-content task')
-    return token, FB_PAGE_ID, page.get('name', '')
+    facebook_diagnostics(token)
+    page = lookup_page(token, include_token=True)
+    # Token is private in runtime memory; dry-run performs GETs but prints only ID/name.
+    SECRETS.append(page['access_token'])
+    verify = request(FB + '/me', page['access_token'], params={'fields':'id,name'})
+    if str(verify.get('id')) != FB_PAGE_ID:
+        raise MetaError('derived Page token identity mismatch')
+    return token, FB_PAGE_ID, verify.get('name', page.get('name', ''))
 
 
 def page_token(user):
@@ -96,12 +157,11 @@ def page_token(user):
         'grant_type':'fb_exchange_token', 'client_id':FB_APP_ID,
         'client_secret':secret, 'fb_exchange_token':user})['access_token']
     SECRETS.append(long)
-    # Never save this JSON: it contains all Page tokens.
-    pages = request(FB + '/me/accounts', long, params={'fields':'id,name,access_token,tasks'})
-    page = next((p for p in pages.get('data', []) if str(p.get('id')) == FB_PAGE_ID), None)
-    if not page or not page.get('access_token'):
-        raise MetaError('long-lived Page token not returned for configured Page')
+    page = lookup_page(long, include_token=True)
     token = page['access_token']; SECRETS.append(token)
+    verify = request(FB + '/me', token, params={'fields':'id,name'})
+    if str(verify.get('id')) != FB_PAGE_ID:
+        raise MetaError('long-lived Page token identity mismatch')
     return token
 
 
