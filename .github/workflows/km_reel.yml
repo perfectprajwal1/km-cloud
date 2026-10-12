@@ -1,3 +1,4 @@
+# v5.4.1 (2026-10-12): done-marking was silently lost - git pull --rebase died on unstaged changes and the push never happened, so uploaded reels were never marked done and every run re-rendered them (and the WhatsApp text was the only step that fired... into a Meta error). Fix: git add -u stages every tracked change before commit, rebase failures abort cleanly, push retries 3x then turns the run red instead of failing silently.
 # v5.4 (2026-10-11): auto-start + safe finish. 30-min schedule + queue:max (a tick never cancels a render). make_reel.py now batches ALL unfinished inbox stories (oldest first, max 5 per run) so the old auto-continue step is gone. done.txt is written ONLY after the Drive upload succeeds (fixes the sgh2kr hole: marked done with the mp4 stuck in Artifacts). Drive re-upload is skipped if the file already exists. WhatsApp message per finished reel (id + title) and one on failure; needs secrets WA_TOKEN, WA_PHONE_ID, WA_TO - without them the messages are skipped, nothing fails. Run timeout 180 -> 350 min for multi-reel runs.
 # v5.3.2 (2026-10-11): Drive upload fixed. The token ask is now 2 steps (POST, read Google's redirect, wait 2s, GET the answer) because curl -L gets Google's HTML error page instead of the script JSON. Proven green in the KM Drive test run.
 # v5.3 (2026-10-11): v5.1 + zero-click resume, Opus-reviewed: when story id is empty, the OLDEST unfinished inbox/ story (folder exists, no nonzero out/<id>.mp4) is auto-continued through the normal make path (make_reel.py rebuilds a missing stories/<id>.json from inbox/ by itself - verified in source) before the Sheet is asked for new rows.
@@ -240,13 +241,14 @@ jobs:
         run: |
           git config user.name "km-cloud"
           git config user.email "km-cloud@users.noreply.github.com"
+          git add -u
           git add one_call_voice stories inbox produced.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "nothing to save"
           else
             git commit -q -m "state after ${STORY:-sheet-check} ($MODE)"
-            git pull -q --rebase || true
-            git push -q || echo "push failed"
+            git pull -q --rebase || git rebase --abort
+            git push -q || echo "push failed (step 20 retries and backstops this state)"
           fi
 
       - name: Save the mp4 as a download
@@ -348,8 +350,15 @@ jobs:
             git rm -r -q --ignore-unmatch one_call_voice || true
             rm -rf one_call_voice
           fi
+          git add -u
           git add -A out/done.txt out/done one_call_voice 2>/dev/null || true
-          if git diff --cached --quiet; then echo "nothing to mark"; else git commit -q -m "done after upload ${STORY:-batch}"; git pull -q --rebase || true; git push -q || echo "push failed"; fi
+          if git diff --cached --quiet; then echo "nothing to mark"; else
+            git commit -q -m "done after upload ${STORY:-batch}"
+            git pull -q --rebase || git rebase --abort
+            PUSHED=0
+            for i in 1 2 3; do git push -q && { PUSHED=1; break; }; sleep 5; done
+            if [ "$PUSHED" = 1 ]; then echo "done-marking pushed"; else echo "PUSH FAILED 3x - done-marking NOT saved, marking the run red"; exit 1; fi
+          fi
 
       - name: WhatsApp if the run failed
         if: failure()
