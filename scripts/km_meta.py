@@ -165,10 +165,35 @@ def page_token(user):
     return token
 
 
+def brand_topic_first(text):
+    """Make the approved brand the first Threads hashtag/topic, maximum five tags."""
+    import re
+    text = re.sub(r'(?i)(?<!\S)#(?:KhabarMinute|khabarminutenepal)(?=\s|$)', '', text)
+    text = re.sub(r'[ \t]{2,}', ' ', text).strip()
+    tag = re.search(r'(?<!\S)#[^\s]+', text)
+    if tag:
+        text = text[:tag.start()] + '#khabarminutenepal ' + text[tag.start():]
+    else:
+        text = (text + ' #khabarminutenepal').strip()
+    count, out, seen = 0, [], set()
+    for token in re.split(r'(\s+)', text):
+        if token.startswith('#'):
+            if token.lower() in seen:
+                continue
+            seen.add(token.lower())
+            count += 1
+            if count > 5:
+                continue
+        out.append(token)
+    return ''.join(out).strip()
+
+
 def caption(pub, pack, network):
     copy = dict(pack)
     copy['tiktok_caption'] = pack.get({'facebook':'facebook_post','instagram':'instagram_caption','threads':'threads_post'}[network]) or pack.get('tiktok_caption')
     text = pub.build_caption(copy)
+    if network == 'threads':
+        text = brand_topic_first(text)
     if network == 'threads' and len(text.encode('utf-8')) > 500:
         # Fail instead of chopping Nepali text or hashtags into malformed fragments.
         raise MetaError('Threads caption exceeds conservative 500-byte limit; review a shorter caption')
