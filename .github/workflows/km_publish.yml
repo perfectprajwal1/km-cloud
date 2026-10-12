@@ -1,0 +1,41 @@
+name: KM publish
+# Retry or manual post of ONE finished reel to TikTok through Buffer.
+# Uses the copy in km-media if it is already there. If not, it cannot upload (the mp4 is not in this repo).
+on:
+  workflow_dispatch:
+    inputs:
+      story_id:
+        description: "Story id, e.g. RV_20261011_abc123"
+        required: true
+      dry_run:
+        description: "true = check everything, post nothing"
+        default: "false"
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post through Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          STORY: ${{ inputs.story_id }}
+        run: |
+          case "$STORY" in *[!A-Za-z0-9_-]*) echo "Bad story id"; exit 1;; esac
+          echo "::add-mask::$BUFFER_API_KEY"
+          echo "::add-mask::$GH_PAT"
+          python3 scripts/km_publish.py "$STORY"
+          cat /tmp/km_publish_result.txt 2>/dev/null
+          if grep -q '^failed' /tmp/km_publish_result.txt 2>/dev/null; then exit 1; fi
+          if [ -f out/buffer_posted.txt ]; then
+            git config user.name "km-cloud"; git config user.email "km-cloud@users.noreply.github.com"
+            git add out/buffer_posted.txt
+            git diff --cached --quiet || { git commit -q -m "buffer posted $STORY"; git pull -q --rebase; git push -q; }
+          fi
