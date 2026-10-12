@@ -67,6 +67,11 @@ def read_pack(sid):
     return obj
 
 
+def normalize_brand(text):
+    """Exact hashtag-token replacement, case-insensitive; no upstream mutation."""
+    return re.sub(r'(?i)(?<!\S)#(?:KhabarMinute|khabarminutenepal)(?=\s|$)', '#khabarminutenepal', text)
+
+
 def build_caption(pack):
     """tiktok_caption without any source credit, plus hashtags, max 5 hashtags in total."""
     base = str(pack.get("tiktok_caption") or pack.get("instagram_caption") or "")
@@ -82,19 +87,29 @@ def build_caption(pack):
         ln = URL_RE.sub("", ln).strip()
         if ln:
             lines.append(ln)
-    text = "\n".join(lines).strip()
+    text = normalize_brand("\n".join(lines).strip())
     tags = [t for t in re.findall(r"#\S+", text)]
     for h in pack.get("hashtags") or []:
         h = str(h).strip()
         if h and not h.startswith("#"):
             h = "#" + h
+        h = normalize_brand(h)
         if h and h.lower() not in [t.lower() for t in tags]:
             tags.append(h)
             text = (text + " " + h).strip()
     # enforce max tags: drop extras from the end, keep order
-    seen, out = 0, []
+    seen, out, tag_seen = 0, [], set()
+    has_brand = bool(re.search(r"(?<!\S)#khabarminutenepal(?=\s|$)", text))
+    other_count = 0
     for tok in re.split(r"(\s+)", text):
         if tok.startswith("#"):
+            if tok.lower() in tag_seen:
+                continue
+            tag_seen.add(tok.lower())
+            if tok != "#khabarminutenepal":
+                other_count += 1
+                if other_count > MAX_TAGS - (1 if has_brand else 0):
+                    continue
             seen += 1
             if seen > MAX_TAGS:
                 continue
