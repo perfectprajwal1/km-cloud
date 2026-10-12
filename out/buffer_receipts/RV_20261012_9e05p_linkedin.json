@@ -1,7 +1,9 @@
 {
-  "state": "pending",
+  "state": "accepted",
   "channel_id": "6acd05ad778b240e2fe8aba1",
-  "media_url": "https://perfectprajwal1.github.io/km-media/RV_20261012_9e05p.mp4",
+  "post_id": "6acd5659aec88be081e4ae84",
+  "status": "sending",
+  "scheduling_type": "automatic",
   "story_id": "RV_20261012_9e05p",
   "platform": "linkedin"
 }
