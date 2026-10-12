@@ -1,0 +1,146 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "alignment_targets": [
+    {
+      "original": "सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।",
+      "spoken": "सन्दीप लामिछानेले एक सात औं ओभरमा मेडनसहित दुई विकेट लिए।",
+      "mapping": [
+        {
+          "original": "१७",
+          "spoken": "एक सात",
+          "start": 18,
+          "end": 20,
+          "rule": "numbers-english-unverified-v4",
+          "note": "Ambiguous/identifier numeric span read literally by digits and separators; source meaning not inferred."
+        },
+        {
+          "original": "२",
+          "spoken": "दुई",
+          "start": 38,
+          "end": 39,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।",
+      "spoken": "आईसीसी क्रिकेट विश्वकप लिग ड्यास दुई मा पहिले ब्याटिङ गर्दै नेपालले दुई सय पैँतिस रन बनाएको थियो।",
+      "mapping": [
+        {
+          "original": "-२",
+          "spoken": "ड्यास दुई",
+          "start": 26,
+          "end": 28,
+          "rule": "numbers-english-unverified-v4",
+          "note": "Ambiguous/identifier numeric span read literally by digits and separators; source meaning not inferred."
+        },
+        {
+          "original": "२३५",
+          "spoken": "दुई सय पैँतिस",
+          "start": 60,
+          "end": 63,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।",
+      "spoken": "नेपालका लागि रोहित पौडेलले एक सय सत्ताइस बलमा एक सय एक रनको शतकीय योगदान गरे।",
+      "mapping": [
+        {
+          "original": "१२७",
+          "spoken": "एक सय सत्ताइस",
+          "start": 27,
+          "end": 30,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१०१",
+          "spoken": "एक सय एक",
+          "start": 36,
+          "end": 39,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "42f25996e3b6a3dcd9975c11481f330cbc3c6537a8d92e5fbd8cca9eb421fede",
+  "greedy": "सन्धीप लामिछनेले एक सातौँ ओभरमा मेडन सहित दुई विकेटलिएआइशिशी क्लिकेट विश्व कप लिगड्यास दुईमा पहिले व्याटिङ गर्दै नेपालले दुई सय पैतिस रण बनाएको थियोनेपालका लागि रोहित पौडेलले एक सय सत्ताइस बलमा एक सय एक रणको सतकीय योगदान गरे ",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "transcript_char_match": 0.9308510638297872,
+  "scores": [
+    -1.003433615474781,
+    -1.022138147052859,
+    -0.5713416090978475
+  ],
+  "cuts_sec": [
+    6.966666666666667,
+    18.926291666666664
+  ],
+  "boundaries": [
+    {
+      "left_anchor": 4.2816726699952445,
+      "right_anchor": 9.623759599381835,
+      "scores": [
+        -1.003433615474781,
+        -1.022138147052859
+      ],
+      "candidates": [
+        {
+          "cut": 6.966666666666667,
+          "valley_start": 4.411666666666667,
+          "valley_end": 9.521666666666668,
+          "quiet_sec": 5.11,
+          "rms": 0.000140392247903555,
+          "cost": -5.109720989360437
+        }
+      ],
+      "selected": {
+        "cut": 6.966666666666667,
+        "valley_start": 4.411666666666667,
+        "valley_end": 9.521666666666668,
+        "quiet_sec": 5.11,
+        "rms": 0.000140392247903555,
+        "cost": -5.109720989360437
+      }
+    },
+    {
+      "left_anchor": 16.186323317879218,
+      "right_anchor": 21.668464960770326,
+      "scores": [
+        -1.022138147052859,
+        -0.5713416090978475
+      ],
+      "candidates": [
+        {
+          "cut": 18.926291666666664,
+          "valley_start": 16.286291666666667,
+          "valley_end": 21.566291666666665,
+          "quiet_sec": 5.28,
+          "rms": 3.676967551898129e-05,
+          "cost": -5.279977950546838
+        }
+      ],
+      "selected": {
+        "cut": 18.926291666666664,
+        "valley_start": 16.286291666666667,
+        "valley_end": 21.566291666666665,
+        "quiet_sec": 5.28,
+        "rms": 3.676967551898129e-05,
+        "cost": -5.279977950546838
+      }
+    }
+  ],
+  "gates": "provisional thresholds; card listening review still required"
+}

@@ -1,0 +1,40 @@
+{
+  "master_sha256": "42f25996e3b6a3dcd9975c11481f330cbc3c6537a8d92e5fbd8cca9eb421fede",
+  "cuts_sec": [
+    6.966666666666667,
+    18.926291666666664
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "सन्दीप लामिछानेले १७औं ओभरमा मेडनसहित २ विकेट लिए।",
+      "master_start_sec": 0.2,
+      "master_end_sec": 4.5,
+      "duration_sec": 4.3,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "आईसीसी क्रिकेट विश्वकप लिग-२ मा पहिले ब्याटिङ गर्दै नेपालले २३५ रन बनाएको थियो।",
+      "master_start_sec": 9.487,
+      "master_end_sec": 16.387,
+      "duration_sec": 6.9,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "नेपालका लागि रोहित पौडेलले १२७ बलमा १०१ रनको शतकीय योगदान गरे।",
+      "master_start_sec": 21.546,
+      "master_end_sec": 27.646,
+      "duration_sec": 6.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}
