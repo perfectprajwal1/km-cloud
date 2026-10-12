@@ -1,0 +1,23 @@
+name: KM WhatsApp test
+# One job, one step: send a single test text through the same secrets the reel
+# workflow uses. Loud on purpose - no error swallowing, full Meta reply in the log.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wa:
+    runs-on: ubuntu-latest
+    env:
+      WA_TOKEN: ${{ secrets.WA_TOKEN }}
+      WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
+      WA_TO: ${{ secrets.WA_TO }}
+    steps:
+      - name: Send a test text
+        run: |
+          if [ -z "$WA_TOKEN" ] || [ -z "$WA_PHONE_ID" ] || [ -z "$WA_TO" ]; then echo "WA secrets not set"; exit 1; fi
+          PAYLOAD=$(WA_TEXT="Test from km-cloud: WhatsApp texts are working now." python3 -c "import json,os;print(json.dumps({'messaging_product':'whatsapp','to':os.environ['WA_TO'],'type':'text','text':{'body':os.environ['WA_TEXT']}}))")
+          curl -s --max-time 30 -X POST "https://graph.facebook.com/v21.0/$WA_PHONE_ID/messages" -H "Authorization: Bearer $WA_TOKEN" -H "Content-Type: application/json" --data "$PAYLOAD"
+          echo
