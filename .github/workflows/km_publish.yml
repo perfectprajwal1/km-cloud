@@ -1,5 +1,5 @@
 name: KM publish
-# Retry or manual post of ONE finished reel to TikTok through Buffer.
+# Read-only check or approved retry of ONE finished reel to connected Buffer channels.
 # Uses the copy in km-media if it is already there. If not, it cannot upload (the mp4 is not in this repo).
 on:
   workflow_dispatch:
@@ -7,35 +7,54 @@ on:
       story_id:
         description: "Story id, e.g. RV_20261011_abc123"
         required: true
+      platforms:
+        description: "Comma list: youtube,linkedin or facebook,instagram,threads; blank = enabled platforms"
+        required: false
+        default: ""
       dry_run:
         description: "true = check everything, post nothing"
-        default: "false"
+        default: "true"
+concurrency:
+  group: km-reel
+  cancel-in-progress: false
+  queue: max
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Post through Buffer
+      - name: Post through Buffer and Meta
         env:
+          META_ENABLE: ${{ vars.META_ENABLE || 'false' }}
+          FB_APP_ID: "2213813046222236"
+          FB_PAGE_ID: "1404139492777541"
+          IG_ACCOUNT_ID: "17841423978484959"
+          THREADS_USERNAME: ${{ vars.THREADS_USERNAME || 'khabarminutenepal' }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          FB_USER_TOKEN: ${{ secrets.FB_USER_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          PERSIST_POST_STATE: "true"
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
           DRY_RUN: ${{ inputs.dry_run }}
+          PLATFORMS: ${{ inputs.platforms }}
           STORY: ${{ inputs.story_id }}
         run: |
           case "$STORY" in *[!A-Za-z0-9_-]*) echo "Bad story id"; exit 1;; esac
           echo "::add-mask::$BUFFER_API_KEY"
           echo "::add-mask::$GH_PAT"
+          git config user.name "km-cloud"
+          git config user.email "km-cloud@users.noreply.github.com"
           python3 scripts/km_publish.py "$STORY"
           cat /tmp/km_publish_result.txt 2>/dev/null
           if grep -q '^failed' /tmp/km_publish_result.txt 2>/dev/null; then exit 1; fi
-          if [ -f out/buffer_posted.txt ]; then
-            git config user.name "km-cloud"; git config user.email "km-cloud@users.noreply.github.com"
-            git add out/buffer_posted.txt
-            git diff --cached --quiet || { git commit -q -m "buffer posted $STORY"; git pull -q --rebase; git push -q; }
-          fi
