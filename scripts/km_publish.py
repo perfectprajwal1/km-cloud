@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """KM publish: put a finished reel on km-media (GitHub Pages), wait until the public URL
-serves it, then post it to the TikTok channel through Buffer.
+serves it, then submit connected TikTok, YouTube Shorts, LinkedIn and Instagram Reels through Buffer.
 
 Usage: python scripts/km_publish.py <story_id>
 Reads : out/<id>.mp4 (if present), inbox/<id>/*.txt (platform pack)
-Env   : BUFFER_API_KEY, GH_PAT (secrets, never printed); optional MEDIA_REPO, MEDIA_BASE,
-        POST_MODE, KEEP_FILES, WAIT_SECONDS, BUFFER_API (tests only), DRY_RUN
-Result: appends one line to /tmp/km_publish_result.txt:  "posted <id> <status>" or "failed <id> <why>"
+Env   : PERSIST_POST_STATE (true in Actions), BUFFER_API_KEY, GH_PAT (secrets, never printed); optional MEDIA_REPO, MEDIA_BASE,
+        POST_MODE, PLATFORMS (comma list), WAIT_SECONDS, BUFFER_API (tests only), DRY_RUN
+Result: lines in /tmp/km_publish_result.txt: accepted/failed/skipped/dry_run <id> <platform> <detail>.
+An accepted post is not proof of final delivery. Pending submissions are never automatically retried.
 Always exits 0: a publishing problem must never fail the render or lose the Drive copy.
 """
 import base64, glob, json, os, re, shutil, subprocess, sys, tempfile, time
@@ -20,7 +21,12 @@ MODE = os.environ.get("POST_MODE", "shareNow")
 KEEP = int(os.environ.get("KEEP_FILES", "30"))
 WAIT = int(os.environ.get("WAIT_SECONDS", "720"))
 DRY = os.environ.get("DRY_RUN", "false").lower() == "true"
-POSTED = "out/buffer_posted.txt"
+POSTED = "out/buffer_posted.txt"  # legacy TikTok-only ledger
+RECEIPTS = "out/buffer_receipts"
+PLATFORMS = ("tiktok", "youtube", "linkedin")
+ALL_PLATFORMS = PLATFORMS + ("facebook", "instagram", "threads")
+TIKTOK_BLOCKED = {"RV_20261011_d64xnr"}
+PERSIST = os.environ.get("PERSIST_POST_STATE", "false").lower() == "true"
 RESULT = "/tmp/km_publish_result.txt"
 MAX_TAGS = 5
 MAX_LEN = 2200
@@ -51,7 +57,8 @@ def read_pack(sid):
     files = sorted(glob.glob("inbox/%s/*.txt" % sid))
     if not files:
         raise Soft("no package txt in inbox/%s" % sid)
-    txt = open(files[0], encoding="utf-8").read()
+    with open(files[0], encoding="utf-8") as f:
+        txt = f.read()
     marker = "--- PLATFORM PACK (JSON) ---"
     i = txt.find(marker)
     if i < 0:
@@ -68,6 +75,8 @@ def build_caption(pack):
     for ln in base.replace("\r", "").split("\n"):
         if SRC_LINE.match(ln):
             continue
+        # Credits can occur inline, not just at the start of a line.
+        ln = re.split(r"(?:source|src|स्रोत|श्रोत)\s*[:：-]", ln, maxsplit=1, flags=re.I)[0]
         if credit:
             ln = ln.replace(credit, "")
         ln = URL_RE.sub("", ln).strip()
@@ -145,10 +154,7 @@ def upload_media(sid, pat):
         git(["config", "user.name", "km-cloud"], tmp, pat)
         git(["config", "user.email", "km-cloud@users.noreply.github.com"], tmp, pat)
         shutil.copyfile(local, os.path.join(tmp, name))
-        # keep the repo small: newest KEEP reels stay (ids start with a date, so name order = age order)
-        mp4s = sorted(f for f in os.listdir(tmp) if f.endswith(".mp4"))
-        for old in [f for f in mp4s if f != name][:max(0, len(mp4s) - KEEP)]:
-            git(["rm", "-q", old], tmp, pat, check=False)
+        # Do not delete older media: Buffer may still be processing it.
         git(["add", "-A"], tmp, pat)
         git(["commit", "-q", "-m", "reel " + sid], tmp, pat)
         ok = False
@@ -188,40 +194,91 @@ def gql(query, key):
     return data["data"]
 
 
-def tiktok_channel(key):
+def channels(key):
     orgs = gql("query { account { organizations { id name } } }", key)["account"]["organizations"]
-    found = []
+    found = {network: [] for network in PLATFORMS}
     for o in orgs:
         for c in gql('query { channels(input: {organizationId: "%s"}) { id service name } }' % o["id"], key)["channels"]:
-            if str(c["service"]).lower() == "tiktok":
-                found.append(c)
-    if len(found) != 1:
-        raise Soft("expected exactly 1 TikTok channel in Buffer, found %d" % len(found))
-    return found[0]
+            service = str(c["service"]).lower()
+            if service in found:
+                found[service].append(c)
+    return found
 
 
-def post_buffer(caption, url, key):
-    ch = tiktok_channel(key)
-    q = '''mutation CreatePost {
+def platform_caption(pack, network):
+    if network == "tiktok":
+        return build_caption(pack)
+    copy = dict(pack)
+    copy["tiktok_caption"] = pack.get({"youtube": "youtube_description", "instagram": "instagram_caption", "linkedin": "linkedin_post"}[network]) or pack.get("tiktok_caption")
+    return build_caption(copy)
+
+
+def youtube_title(pack, caption):
+    copy = dict(pack, tiktok_caption=pack.get("youtube_title") or caption.splitlines()[0], hashtags=[])
+    title = build_caption(copy).replace("\n", " ").replace("<", "").replace(">", "")[:100].strip()
+    if not title:
+        raise Soft("YouTube title is empty")
+    return title
+
+
+def post_query(network, ch, pack, url):
+    caption = platform_caption(pack, network)
+    metadata = ""
+    if network == "youtube":
+        metadata = 'metadata: {youtube: {title: %s categoryId: "25" privacy: public madeForKids: false}}' % json.dumps(youtube_title(pack, caption), ensure_ascii=False)
+    elif network == "instagram":
+        metadata = 'metadata: {instagram: {type: reel shouldShareToFeed: true}}'
+    return '''mutation CreatePost {
   createPost(input: {
     text: %s
     channelId: "%s"
     schedulingType: automatic
     mode: %s
     assets: [ { video: { url: "%s" } } ]
+    %s
   }) {
     ... on PostActionSuccess { post { id status schedulingType shareMode dueAt } }
     ... on MutationError { message }
   }
-}''' % (json.dumps(caption, ensure_ascii=False), ch["id"], MODE, url)
-    res = gql(q, key)["createPost"]
-    if "message" in res:
-        raise Soft("Buffer refused the post: %s" % res["message"])
-    p = res["post"]
-    print("Buffer post id=%s status=%s schedulingType=%s" % (p["id"], p["status"], p["schedulingType"]))
-    if p["schedulingType"] != "automatic":
-        raise Soft("Buffer made a reminder, not an auto-post (schedulingType=%s)" % p["schedulingType"])
-    return p
+}''' % (json.dumps(caption, ensure_ascii=False), ch["id"], MODE, url, metadata)
+
+
+def receipt_path(sid, network):
+    return os.path.join(RECEIPTS, sid + "_" + network + ".json")
+
+
+def load_receipt(sid, network):
+    path = receipt_path(sid, network)
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    if network == "tiktok" and os.path.isfile(POSTED):
+        with open(POSTED) as f:
+            if sid in f.read().split():
+                return {"state": "accepted", "legacy": True}
+    return {}
+
+
+def save_receipt(sid, network, **data):
+    os.makedirs(RECEIPTS, exist_ok=True)
+    path = receipt_path(sid, network)
+    data.update(story_id=sid, platform=network)
+    with open(path + ".tmp", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.replace(path + ".tmp", path)
+    if PERSIST:
+        # Persist BEFORE the mutation. A lost response must never cause an automatic retry.
+        # Both workflows share the km-reel concurrency group, including manual retries.
+        for args in (["git", "add", path], ["git", "commit", "-q", "-m", "buffer receipt " + sid + " " + network]):
+            r = subprocess.run(args, capture_output=True, text=True, timeout=60)
+            if r.returncode:
+                raise Soft("receipt checkpoint failed; no automatic retry")
+        for attempt in range(3):
+            if subprocess.run(["git", "push", "-q"], capture_output=True, timeout=90).returncode == 0:
+                return
+            # No rebase of receipt files: a conflicting ledger requires human review.
+            time.sleep(5)
+        raise Soft("receipt push failed; check Buffer before retrying")
 
 
 def main():
@@ -232,28 +289,87 @@ def main():
     key = os.environ.get("BUFFER_API_KEY", "").strip()
     pat = os.environ.get("GH_PAT", "").strip()
     try:
-        if os.path.isfile(POSTED) and sid in open(POSTED).read().split():
-            print("already posted to Buffer, skipping:", sid)
-            return
+        if MODE not in ("shareNow", "addToQueue"):
+            raise Soft("unsupported POST_MODE")
         if not key:
+            if os.environ.get("PLATFORMS", "").strip() and all(v.strip() in ("facebook", "instagram", "threads") for v in os.environ["PLATFORMS"].split(",")):
+                return
             raise Soft("secret BUFFER_API_KEY is empty")
-        caption = build_caption(read_pack(sid))
-        print("caption (%d chars, %d hashtags):" % (len(caption), len(re.findall(r"#\S+", caption))))
-        print(caption)
-        url = upload_media(sid, pat)
-        if DRY:
-            print("DRY_RUN: stopping before Buffer. Media URL:", url)
+        selected = [v.strip().lower() for v in os.environ.get("PLATFORMS", "").split(",") if v.strip()] or list(PLATFORMS)
+        if any(v not in ALL_PLATFORMS for v in selected):
+            raise Soft("invalid PLATFORMS; use tiktok,youtube,linkedin,facebook,instagram,threads")
+        selected = [v for v in dict.fromkeys(selected) if v in PLATFORMS]
+        if not selected:
             return
-        p = post_buffer(caption, url, key)
-        os.makedirs("out", exist_ok=True)
-        with open(POSTED, "a") as f:
-            f.write(sid + "\n")
-        result("posted", sid, p["status"])
-    except Soft as e:
-        result("failed", sid, str(e))
-    except Exception as e:  # never break the render
-        result("failed", sid, "unexpected %s" % type(e).__name__)
+        if sid in TIKTOK_BLOCKED:
+            selected = [v for v in selected if v != "tiktok"]
+            # This existing test reel must never publish beyond explicit manual selection.
+            if not os.environ.get("PLATFORMS", "").strip():
+                print("existing test reel requires explicit platform selection; no submissions")
+                return
+        pack = read_pack(sid)
+        discovered = channels(key)
+        # Dry-run never creates drafts, publishes, uploads media, or changes receipts.
+        if DRY:
+            for network in selected:
+                chs = discovered[network]
+                if not chs:
+                    continue
+                if len(chs) != 1:
+                    result("failed", sid, network + " expected 1 channel, found " + str(len(chs)))
+                    continue
+                print("DRY_RUN channel:", network, chs[0]["name"], chs[0]["id"])
+                print(post_query(network, chs[0], pack, MEDIA_BASE + "/" + sid + ".mp4"))
+                print("existing receipt:", load_receipt(sid, network))
+                result("dry_run", sid, network + " checked; no mutation sent")
+            return
+        pending = []
+        for network in selected:
+            rec = load_receipt(sid, network)
+            if rec.get("state") == "accepted":
+                result("skipped", sid, network + " already accepted")
+            elif rec.get("state") == "pending":
+                result("failed", sid, network + " uncertain previous submission; inspect Buffer, do not blindly retry")
+            elif not discovered[network]:
+                continue
+            elif len(discovered[network]) != 1:
+                result("failed", sid, network + " expected 1 channel, found " + str(len(discovered[network])))
+            else:
+                pending.append(network)
+        if not pending:
+            return
+        try:
+            url = upload_media(sid, pat)
+        except Exception as e:
+            for network in pending:
+                result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
+            return
+        for network in pending:
+            try:
+                ch = discovered[network][0]
+                query = post_query(network, ch, pack, url)
+                save_receipt(sid, network, state="pending", channel_id=ch["id"], media_url=url)
+                response = gql(query, key)["createPost"]
+                if "message" in response:
+                    save_receipt(sid, network, state="rejected", reason=secret_free(str(response["message"]), [key, pat]))
+                    raise Soft("Buffer refused: " + str(response["message"]))
+                post = response["post"]
+                save_receipt(sid, network, state="accepted", channel_id=ch["id"], post_id=post["id"], status=post["status"], scheduling_type=post["schedulingType"])
+                if post["schedulingType"] != "automatic":
+                    result("failed", sid, network + " accepted as reminder, inspect Buffer; automatic retry blocked")
+                else:
+                    result("accepted", sid, network + " Buffer id=" + str(post["id"]) + " status=" + str(post["status"]))
+            except Exception as e:
+                result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
+    except Exception as e:
+        for network in PLATFORMS:
+            result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
 
 
 if __name__ == "__main__":
     main()
+    try:
+        import km_meta
+        km_meta.run(sys.modules[__name__])
+    except Exception as e:
+        result("failed", sys.argv[1] if len(sys.argv) > 1 else "unknown", "meta unexpected " + type(e).__name__)
