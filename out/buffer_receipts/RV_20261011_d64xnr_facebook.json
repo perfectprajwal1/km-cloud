@@ -1,8 +1,8 @@
 {
-  "state": "pending",
+  "state": "accepted",
   "channel_id": "1404139492777541",
-  "container_id": "1116387688038759",
-  "stage": "upload",
+  "post_id": "1116387688038759",
+  "status": "publish_requested",
   "story_id": "RV_20261011_d64xnr",
   "platform": "facebook"
 }
