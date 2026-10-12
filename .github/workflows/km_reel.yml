@@ -1,3 +1,4 @@
+# v5.5 (2026-10-12): TikTok auto-post. After the Drive upload and done-marking, each new reel is copied to the public repo km-media (GitHub Pages), the run waits until its URL serves the mp4, then Buffer posts it to the TikTok channel (caption from the package with the source line removed, max 5 hashtags). Soft step: any failure only sends a WhatsApp notice, the render and the Drive copy are untouched. Needs secrets BUFFER_API_KEY and GH_PAT; without them the step is skipped. Nothing else changed.
 # v5.4.1 (2026-10-12): done-marking was silently lost - git pull --rebase died on unstaged changes and the push never happened, so uploaded reels were never marked done and every run re-rendered them (and the WhatsApp text was the only step that fired... into a Meta error). Fix: git add -u stages every tracked change before commit, rebase failures abort cleanly, push retries 3x then turns the run red instead of failing silently.
 # v5.4 (2026-10-11): auto-start + safe finish. 30-min schedule + queue:max (a tick never cancels a render). make_reel.py now batches ALL unfinished inbox stories (oldest first, max 5 per run) so the old auto-continue step is gone. done.txt is written ONLY after the Drive upload succeeds (fixes the sgh2kr hole: marked done with the mp4 stuck in Artifacts). Drive re-upload is skipped if the file already exists. WhatsApp message per finished reel (id + title) and one on failure; needs secrets WA_TOKEN, WA_PHONE_ID, WA_TO - without them the messages are skipped, nothing fails. Run timeout 180 -> 350 min for multi-reel runs.
 # v5.3.2 (2026-10-11): Drive upload fixed. The token ask is now 2 steps (POST, read Google's redirect, wait 2s, GET the answer) because curl -L gets Google's HTML error page instead of the script JSON. Proven green in the KM Drive test run.
@@ -359,6 +360,51 @@ jobs:
             for i in 1 2 3; do git push -q && { PUSHED=1; break; }; sleep 5; done
             if [ "$PUSHED" = 1 ]; then echo "done-marking pushed"; else echo "PUSH FAILED 3x - done-marking NOT saved, marking the run red"; exit 1; fi
           fi
+
+      - name: Publish to TikTok through Buffer (soft - never fails the run)
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          WA_TOKEN: ${{ secrets.WA_TOKEN }}
+          WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
+          WA_TO: ${{ secrets.WA_TO }}
+        run: |
+          set +e
+          wa_send() {
+            if [ -z "$WA_TOKEN" ] || [ -z "$WA_PHONE_ID" ] || [ -z "$WA_TO" ]; then echo "WA secrets not set, WhatsApp skipped"; return 0; fi
+            PAYLOAD=$(WA_TEXT="$1" python3 -c "import json,os;print(json.dumps({'messaging_product':'whatsapp','to':os.environ['WA_TO'],'type':'text','text':{'body':os.environ['WA_TEXT']}}))")
+            curl -s --max-time 30 -X POST "https://graph.facebook.com/v21.0/$WA_PHONE_ID/messages" -H "Authorization: Bearer $WA_TOKEN" -H "Content-Type: application/json" --data "$PAYLOAD" | head -c 150
+            echo
+          }
+          rm -f /tmp/km_publish_result.txt
+          ls out/*.mp4 >/dev/null 2>&1 || { echo "no new mp4, nothing to publish"; exit 0; }
+          if [ -z "$BUFFER_API_KEY" ] || [ -z "$GH_PAT" ]; then echo "Secret BUFFER_API_KEY or GH_PAT is empty - TikTok posting skipped. Reel is safe in Drive."; exit 0; fi
+          echo "::add-mask::$BUFFER_API_KEY"
+          echo "::add-mask::$GH_PAT"
+          for f in out/*.mp4; do
+            [ -s "$f" ] || continue
+            id=$(basename "$f" .mp4)
+            echo "=== publish $id ==="
+            python3 scripts/km_publish.py "$id"
+          done
+          touch /tmp/km_publish_result.txt
+          while read -r kind id rest; do
+            [ -n "$id" ] || continue
+            if [ "$kind" = posted ]; then wa_send "📱 Posted to TikTok through Buffer: $id"; else wa_send "⚠️ TikTok auto-post did not go out for $id ($rest). The reel is safe in Drive. Re-run Actions > KM publish > story id $id, or post it by hand."; fi
+          done < /tmp/km_publish_result.txt
+          if [ -f out/buffer_posted.txt ]; then
+            git config user.name "km-cloud"
+            git config user.email "km-cloud@users.noreply.github.com"
+            git add out/buffer_posted.txt
+            if ! git diff --cached --quiet; then
+              git commit -q -m "buffer posted ${STORY:-batch}"
+              git pull -q --rebase || git rebase --abort
+              for i in 1 2 3; do git push -q && break; sleep 5; done
+            fi
+          fi
+          exit 0
 
       - name: WhatsApp if the run failed
         if: failure()
