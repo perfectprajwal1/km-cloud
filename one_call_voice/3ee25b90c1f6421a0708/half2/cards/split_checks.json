@@ -1,0 +1,40 @@
+{
+  "master_sha256": "03fe4793e61524a3e73bddf5abe0436679632f2e6b9a0012a7f7581eec25a968",
+  "cuts_sec": [
+    8.48275,
+    17.996875
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।",
+      "master_start_sec": 0.18,
+      "master_end_sec": 6.66,
+      "duration_sec": 6.48,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।",
+      "master_start_sec": 10.363,
+      "master_end_sec": 16.283,
+      "duration_sec": 5.92,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 19.737,
+      "master_end_sec": 24.277,
+      "duration_sec": 4.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

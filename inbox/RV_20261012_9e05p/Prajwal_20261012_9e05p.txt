@@ -1,0 +1,788 @@
+REVIEW ID: RV_20261012_9e05p
+TOPIC: अर्बौंको हुण्डी कारोबार, प्रतिवादीलाई लाखमै उन्मुक्ति !
+MODEL: gemini-3.5-flash-lite
+STORY ID: ST_14dd45fd19bf2859
+DATE: 2026-10-12T13:56:01.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Nagarik News
+CATEGORY: news
+SOURCE: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो? प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्। पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो। कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो। पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "हुण्डी कारोबार",
+     "value": "रु २ अर्ब ३९ करोड"
+    }
+   ],
+   "data_source_quote": "संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"
+  },
+  "caption_text": "दुई अर्ब ३९ करोडको हुण्डी कारोबारमा अभियुक्तहरूलाई धरौटीमा उन्मुक्ति",
+  "big_hook_text": "अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "legal documents on desk",
+   "shot_description": "Close up of legal documents and files on a desk.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "कमजोर अभियोगका कारण प्रतिवादीहरू धरौटीमा छुटे",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "गम्भीर कसुर आकर्षित हुने नेपाल राष्ट्र बैंक ऐनलाई सुरुमै पन्छाएर संगठित अपराध र सम्पत्ति शुद्धीकरणको अभियोगसमेत हटाइएका कारण अर्बौँको वित्तीय अपराधमा मुछिएका प्रतिवादीहरू जिल्ला अदालतबाट केही लाख धरौटी बुझाएर छुट्न सफल भएका छन्।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "धरौटी रकम",
+     "value": "५ लाख रुपैयाँ"
+    }
+   ],
+   "data_source_quote": "पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"
+  },
+  "caption_text": "प्रतिवादीहरूलाई जनही ५ लाख धरौटी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "संभावित कैद",
+     "value": "७ वर्ष"
+    }
+   ],
+   "data_source_quote": "कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"
+  },
+  "caption_text": "राष्ट्र बैंक ऐन अनुसार ७ वर्ष कैद हुन सक्थ्यो",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "court building",
+   "shot_description": "A shot of the Parsa District Court building.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अदालतको आदेशमा धरौटीमा रिहा",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_14dd45fd19bf2859","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"sharp_question","hook_claim":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","article_quote":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।","asset_ref":"ST_14dd45fd19bf2859","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","closing_line":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","comment_prompt":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","pinned_comment":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","voice":"curious","emotion":"curious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"हुण्डी कारोबार","value":"रु २ अर्ब ३९ करोड"}],"data_source_quote":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"},"caption_text":"दुई अर्ब ३९ करोडको हुण्डी कारोबारमा अभियुक्तहरूलाई धरौटीमा उन्मुक्ति","big_hook_text":"अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","pip_mode":"off","source_evidence":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"legal documents on desk","shot_description":"Close up of legal documents and files on a desk.","depiction_scope":"generic_illustration"},"caption_text":"कमजोर अभियोगका कारण प्रतिवादीहरू धरौटीमा छुटे","big_hook_text":"","pip_mode":"off","source_evidence":"गम्भीर कसुर आकर्षित हुने नेपाल राष्ट्र बैंक ऐनलाई सुरुमै पन्छाएर संगठित अपराध र सम्पत्ति शुद्धीकरणको अभियोगसमेत हटाइएका कारण अर्बौँको वित्तीय अपराधमा मुछिएका प्रतिवादीहरू जिल्ला अदालतबाट केही लाख धरौटी बुझाएर छुट्न सफल भएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"धरौटी रकम","value":"५ लाख रुपैयाँ"}],"data_source_quote":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"},"caption_text":"प्रतिवादीहरूलाई जनही ५ लाख धरौटी","big_hook_text":"","pip_mode":"off","source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।","voice":"thinking","emotion":"thinking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"संभावित कैद","value":"७ वर्ष"}],"data_source_quote":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"},"caption_text":"राष्ट्र बैंक ऐन अनुसार ७ वर्ष कैद हुन सक्थ्यो","big_hook_text":"","pip_mode":"off","source_evidence":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"closing","narration_text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"court building","shot_description":"A shot of the Parsa District Court building.","depiction_scope":"generic_illustration"},"caption_text":"अदालतको आदेशमा धरौटीमा रिहा","big_hook_text":"","pip_mode":"off","source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"हुण्डी कारोबार: प्रतिवादीहरू धरौटीमा छुटे!","youtube_description":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","youtube_tags":["Hundi","Nepal Crime","Parsa Court","Financial Crime","Nepal News","Legal News","Nagarik News","Illegal Transaction"],"tiktok_caption":"हुण्डी कारोबारमा संलग्नहरू धरौटीमा छुटे! यो कस्तो कानुनी कारबाही?","instagram_caption":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","facebook_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","threads_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","linkedin_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","hashtags":["#NepalNews","#HundiCase","#LegalUpdate","#FinancialCrime","#NagarikNews"],"source_credit":"Source: Nagarik News"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 3: रकम
+Line 3: invalid transition replaced
+unverified label line 4: संभावित
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+SOFT-FAIL SHIPPED after 2 correction rounds. Waived soft check(s): INFO_WORD, DURATION. All hard checks (facts, quotes, grounding, sources, credits) PASSED. Review carefully before publishing.
+NUMBER CONTEXT: Line 3: प्रतिवादीहरूलाई जनही 5 लाख -> Words next to the number (प्रतिवादीहरूलाई) are not next to it in the article: "साह र राहुलकुमार गुप्तालाई जनही 5-5 लाख रुपैयाँ". Copy the article wording. | Line 4: भए प्रतिवादीहरूलाई सात वर्षसम्म -> Words next to the number (प्रतिवादीहरूलाई) are not next to it in the article: "गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद". Copy the article wording.
+FACT CHECK: 2 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All factual claims in the script are supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?"); dropped line(s) 6; last line is now: "पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।".
+Line 4: no different truthful card fits; previous card stays on screen.
+Line 5: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?
+
+--- PINNED COMMENT (Nepali question) ---
+वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?",
+  "voice": "curious",
+  "pose": "curious",
+  "broll": "illegal money laundering infographic",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "illegal money laundering infographic",
+   "alt_queries": [
+    "court chart animation",
+    "financial crime graphics"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "अवैध हुण्डी कारोबार",
+   "on_screen_data": [
+    {
+     "label": "हुण्डी कारोबार",
+     "value": "रु २ अर्ब ३९ करोड"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "हुण्डी कारोबार",
+       "value": "रु २ अर्ब ३९ करोड"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "illegal money laundering infographic",
+     "search_url": "https://www.pexels.com/search/videos/illegal%20money%20laundering%20infographic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=illegal%20money%20laundering%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "illegal money laundering infographic",
+     "search_url": "https://pixabay.com/videos/search/illegal%20money%20laundering%20infographic/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=illegal%20money%20laundering%20infographic&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court chart animation",
+     "search_url": "https://www.pexels.com/search/videos/court%20chart%20animation/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20chart%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "financial crime graphics",
+     "search_url": "https://www.pexels.com/search/videos/financial%20crime%20graphics/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=financial%20crime%20graphics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "illegal money laundering infographic",
+     "search_url": "https://openverse.org/search/image?q=illegal%20money%20laundering%20infographic",
+     "api": "GET https://api.openverse.org/v1/images/?q=illegal%20money%20laundering%20infographic&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अवैध हुण्डी कारोबार",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \"हुण्डी कारोबार रु २ अर्ब ३९ करोड\" | then stock video @pexels \"illegal money laundering infographic\" [bg], stock video @pixabay \"illegal money laundering infographic\", stock video @pexels \"court chart animation\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "legal documents on desk",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "legal documents on desk",
+   "alt_queries": [
+    "lawyer reviewing files",
+    "court paperwork"
+   ],
+   "query_source": "director",
+   "shot_description": "Close up of legal documents and files on a desk.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "legal documents on desk",
+     "search_url": "https://www.pexels.com/search/videos/legal%20documents%20on%20desk/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=legal%20documents%20on%20desk&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Close up of legal documents and files on a desk.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "legal documents on desk",
+     "search_url": "https://pixabay.com/videos/search/legal%20documents%20on%20desk/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=legal%20documents%20on%20desk&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "lawyer reviewing files",
+     "search_url": "https://www.pexels.com/search/videos/lawyer%20reviewing%20files/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=lawyer%20reviewing%20files&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court paperwork",
+     "search_url": "https://www.pexels.com/search/videos/court%20paperwork/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20paperwork&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "legal documents on desk",
+     "search_url": "https://openverse.org/search/image?q=legal%20documents%20on%20desk",
+     "api": "GET https://api.openverse.org/v1/images/?q=legal%20documents%20on%20desk&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L2 [full] STOCK VIDEO via pexels_video: \"legal documents on desk\" | then stock video @pixabay \"legal documents on desk\", stock video @pexels \"lawyer reviewing files\", stock video @pexels \"court paperwork\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "court bail amount graphic",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "court bail amount graphic",
+   "alt_queries": [
+    "bail money illustration",
+    "court payment"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "५ लाख",
+   "on_screen_data": [
+    {
+     "label": "धरौटी रकम",
+     "value": "५ लाख रुपैयाँ"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "धरौटी रकम",
+       "value": "५ लाख रुपैयाँ"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court bail amount graphic",
+     "search_url": "https://www.pexels.com/search/videos/court%20bail%20amount%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20bail%20amount%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "court bail amount graphic",
+     "search_url": "https://pixabay.com/videos/search/court%20bail%20amount%20graphic/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=court%20bail%20amount%20graphic&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "bail money illustration",
+     "search_url": "https://www.pexels.com/search/videos/bail%20money%20illustration/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=bail%20money%20illustration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court payment",
+     "search_url": "https://www.pexels.com/search/videos/court%20payment/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20payment&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "court bail amount graphic",
+     "search_url": "https://openverse.org/search/image?q=court%20bail%20amount%20graphic",
+     "api": "GET https://api.openverse.org/v1/images/?q=court%20bail%20amount%20graphic&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "५ लाख",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"धरौटी रकम ५ लाख रुपैयाँ\" | then stock video @pexels \"court bail amount graphic\" [bg], stock video @pixabay \"court bail amount graphic\", stock video @pexels \"bail money illustration\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "potential prison term scale",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "potential prison term scale",
+   "alt_queries": [
+    "prison years chart",
+    "sentence length graphic"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "संभावित कैद",
+     "value": "७ वर्ष"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "संभावित कैद",
+       "value": "७ वर्ष"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "potential prison term scale",
+     "search_url": "https://www.pexels.com/search/videos/potential%20prison%20term%20scale/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=potential%20prison%20term%20scale&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "potential prison term scale",
+     "search_url": "https://pixabay.com/videos/search/potential%20prison%20term%20scale/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=potential%20prison%20term%20scale&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "prison years chart",
+     "search_url": "https://www.pexels.com/search/videos/prison%20years%20chart/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=prison%20years%20chart&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "sentence length graphic",
+     "search_url": "https://www.pexels.com/search/videos/sentence%20length%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=sentence%20length%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "potential prison term scale",
+     "search_url": "https://openverse.org/search/image?q=potential%20prison%20term%20scale",
+     "api": "GET https://api.openverse.org/v1/images/?q=potential%20prison%20term%20scale&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"संभावित कैद ७ वर्ष\" | then stock video @pexels \"potential prison term scale\" [bg], stock video @pixabay \"potential prison term scale\", stock video @pexels \"prison years chart\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "court building exterior",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "court building exterior",
+   "alt_queries": [
+    "Parsa district court view",
+    "court facade"
+   ],
+   "query_source": "director",
+   "shot_description": "A shot of the Parsa District Court building.",
+   "commons": null,
+   "map": null,
+   "motion_text": "धरौटीमा छाड्न",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court building exterior",
+     "search_url": "https://www.pexels.com/search/videos/court%20building%20exterior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20building%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "A shot of the Parsa District Court building.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "court building exterior",
+     "search_url": "https://pixabay.com/videos/search/court%20building%20exterior/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=court%20building%20exterior&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Parsa district court view",
+     "search_url": "https://www.pexels.com/search/videos/Parsa%20district%20court%20view/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Parsa%20district%20court%20view&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "court facade",
+     "search_url": "https://www.pexels.com/search/videos/court%20facade/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=court%20facade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "court building exterior",
+     "search_url": "https://openverse.org/search/image?q=court%20building%20exterior",
+     "api": "GET https://api.openverse.org/v1/images/?q=court%20building%20exterior&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "धरौटीमा छाड्न",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"court building exterior\" | then stock video @pixabay \"court building exterior\", stock video @pexels \"Parsa district court view\", stock video @pexels \"court facade\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 3/5 content lines; article quote cards 0; topic stock only 2; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: "हुण्डी कारोबार रु २ अर्ब ३९ करोड" | then stock video @pexels "illegal money laundering infographic" [bg], stock video @pixabay "illegal money laundering infographic", stock video @pexels "court chart animation" | quality: story_fact
+L2 [full] STOCK VIDEO via pexels_video: "legal documents on desk" | then stock video @pixabay "legal documents on desk", stock video @pexels "lawyer reviewing files", stock video @pexels "court paperwork" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/legal%20documents%20on%20desk/?orientation=portrait
+L3 [plate] NUMBER CARD via local_render: "धरौटी रकम ५ लाख रुपैयाँ" | then stock video @pexels "court bail amount graphic" [bg], stock video @pixabay "court bail amount graphic", stock video @pexels "bail money illustration" | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "संभावित कैद ७ वर्ष" | then stock video @pexels "potential prison term scale" [bg], stock video @pixabay "potential prison term scale", stock video @pexels "prison years chart" | quality: story_fact
+L5 [full] STOCK VIDEO via pexels_video: "court building exterior" | then stock video @pixabay "court building exterior", stock video @pexels "Parsa district court view", stock video @pexels "court facade" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/court%20building%20exterior/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "हुण्डी कारोबार: प्रतिवादीहरू धरौटीमा छुटे!",
+ "youtube_description": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html\nSource: Nagarik News",
+ "youtube_tags": [
+  "Hundi",
+  "Nepal Crime",
+  "Parsa Court",
+  "Financial Crime",
+  "Nepal News",
+  "Legal News",
+  "Nagarik News",
+  "Illegal Transaction"
+ ],
+ "tiktok_caption": "हुण्डी कारोबारमा संलग्नहरू धरौटीमा छुटे! यो कस्तो कानुनी कारबाही?\nSource: Nagarik News",
+ "instagram_caption": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html\nSource: Nagarik News",
+ "facebook_post": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html\nSource: Nagarik News",
+ "threads_post": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html\nSource: Nagarik News",
+ "linkedin_post": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html\nSource: Nagarik News",
+ "hashtags": [
+  "#NepalNews",
+  "#HundiCase",
+  "#LegalUpdate",
+  "#FinancialCrime",
+  "#NagarikNews"
+ ],
+ "source_credit": "Source: Nagarik News"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261012_9e05p","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261012_9e05p","review_date":"20261012","title":"अर्बौंको हुण्डी कारोबार, प्रतिवादीलाई लाखमै उन्मुक्ति !","chosen_topic":"अर्बौंको हुण्डी कारोबार, प्रतिवादीलाई लाखमै उन्मुक्ति !","category":"news","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","story_id":"ST_14dd45fd19bf2859","risk_flag":"NORMAL","source_credit":"Source: Nagarik News","full_script":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो? प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्। पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो। कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो। पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","hook":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","alternate_hook":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","hook_type":"sharp_question","closing_line":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","pinned_comment":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","lines":[{"text":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","voice":"curious","pose":"curious","broll":"illegal money laundering infographic","broll_kind":"number_card"},{"text":"प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।","voice":"serious","pose":"serious","broll":"legal documents on desk","broll_kind":"stock_video"},{"text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","voice":"neutral","pose":"neutral","broll":"court bail amount graphic","broll_kind":"number_card"},{"text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।","voice":"thinking","pose":"thinking","broll":"potential prison term scale","broll_kind":"number_card"},{"text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","voice":"neutral","pose":"neutral","broll":"court building exterior","broll_kind":"stock_video"}],"word_count":68,"workbook":{"schema_version":"6.6.9","story_id":"ST_14dd45fd19bf2859","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"sharp_question","hook_claim":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","article_quote":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।","asset_ref":"ST_14dd45fd19bf2859","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","closing_line":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","comment_prompt":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","pinned_comment":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","voice":"curious","emotion":"curious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"हुण्डी कारोबार","value":"रु २ अर्ब ३९ करोड"}],"data_source_quote":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"},"caption_text":"दुई अर्ब ३९ करोडको हुण्डी कारोबारमा अभियुक्तहरूलाई धरौटीमा उन्मुक्ति","big_hook_text":"अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","pip_mode":"off","source_evidence":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"legal documents on desk","shot_description":"Close up of legal documents and files on a desk.","depiction_scope":"generic_illustration"},"caption_text":"कमजोर अभियोगका कारण प्रतिवादीहरू धरौटीमा छुटे","big_hook_text":"","pip_mode":"off","source_evidence":"गम्भीर कसुर आकर्षित हुने नेपाल राष्ट्र बैंक ऐनलाई सुरुमै पन्छाएर संगठित अपराध र सम्पत्ति शुद्धीकरणको अभियोगसमेत हटाइएका कारण अर्बौँको वित्तीय अपराधमा मुछिएका प्रतिवादीहरू जिल्ला अदालतबाट केही लाख धरौटी बुझाएर छुट्न सफल भएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"धरौटी रकम","value":"५ लाख रुपैयाँ"}],"data_source_quote":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"},"caption_text":"प्रतिवादीहरूलाई जनही ५ लाख धरौटी","big_hook_text":"","pip_mode":"off","source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।","voice":"thinking","emotion":"thinking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"संभावित कैद","value":"७ वर्ष"}],"data_source_quote":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"},"caption_text":"राष्ट्र बैंक ऐन अनुसार ७ वर्ष कैद हुन सक्थ्यो","big_hook_text":"","pip_mode":"off","source_evidence":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"closing","narration_text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"court building","shot_description":"A shot of the Parsa District Court building.","depiction_scope":"generic_illustration"},"caption_text":"अदालतको आदेशमा धरौटीमा रिहा","big_hook_text":"","pip_mode":"off","source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"हुण्डी कारोबार: प्रतिवादीहरू धरौटीमा छुटे!","youtube_description":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","youtube_tags":["Hundi","Nepal Crime","Parsa Court","Financial Crime","Nepal News","Legal News","Nagarik News","Illegal Transaction"],"tiktok_caption":"हुण्डी कारोबारमा संलग्नहरू धरौटीमा छुटे! यो कस्तो कानुनी कारबाही?","instagram_caption":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","facebook_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","threads_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","linkedin_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","hashtags":["#NepalNews","#HundiCase","#LegalUpdate","#FinancialCrime","#NagarikNews"],"source_credit":"Source: Nagarik News"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"हुण्डी कारोबार","value":"रु २ अर्ब ३९ करोड"}],"data_source_quote":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"},"caption_text":"दुई अर्ब ३९ करोडको हुण्डी कारोबारमा अभियुक्तहरूलाई धरौटीमा उन्मुक्ति","big_hook_text":"अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"legal documents on desk","shot_description":"Close up of legal documents and files on a desk.","depiction_scope":"generic_illustration"},"caption_text":"कमजोर अभियोगका कारण प्रतिवादीहरू धरौटीमा छुटे","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"गम्भीर कसुर आकर्षित हुने नेपाल राष्ट्र बैंक ऐनलाई सुरुमै पन्छाएर संगठित अपराध र सम्पत्ति शुद्धीकरणको अभियोगसमेत हटाइएका कारण अर्बौँको वित्तीय अपराधमा मुछिएका प्रतिवादीहरू जिल्ला अदालतबाट केही लाख धरौटी बुझाएर छुट्न सफल भएका छन्।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"धरौटी रकम","value":"५ लाख रुपैयाँ"}],"data_source_quote":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"},"caption_text":"प्रतिवादीहरूलाई जनही ५ लाख धरौटी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"संभावित कैद","value":"७ वर्ष"}],"data_source_quote":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"},"caption_text":"राष्ट्र बैंक ऐन अनुसार ७ वर्ष कैद हुन सक्थ्यो","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"court building","shot_description":"A shot of the Parsa District Court building.","depiction_scope":"generic_illustration"},"caption_text":"अदालतको आदेशमा धरौटीमा रिहा","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।"}],"lines_legacy":[{"text":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?","voice":"curious","pose":"curious","broll":"illegal money laundering infographic","broll_kind":"number_card"},{"text":"प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।","voice":"serious","pose":"serious","broll":"legal documents on desk","broll_kind":"stock_video"},{"text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।","voice":"neutral","pose":"neutral","broll":"court bail amount graphic","broll_kind":"number_card"},{"text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।","voice":"thinking","pose":"thinking","broll":"potential prison term scale","broll_kind":"number_card"},{"text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न आदेश दिएको हो।","voice":"neutral","pose":"neutral","broll":"court building exterior","broll_kind":"stock_video"}],"youtube_title":"हुण्डी कारोबार: प्रतिवादीहरू धरौटीमा छुटे!","youtube_description":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","youtube_tags":["Hundi","Nepal Crime","Parsa Court","Financial Crime","Nepal News","Legal News","Nagarik News","Illegal Transaction"],"tiktok_caption":"हुण्डी कारोबारमा संलग्नहरू धरौटीमा छुटे! यो कस्तो कानुनी कारबाही?\nSource: Nagarik News","instagram_caption":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","facebook_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","threads_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","linkedin_post":"दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई कमजोर अभियोगका कारण धरौटीमा उन्मुक्ति मिलेको छ। थप जानकारीका लागि Nagarik News को रिपोर्ट हेर्नुहोस्: https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","hashtags":["#NepalNews","#HundiCase","#LegalUpdate","#FinancialCrime","#NagarikNews"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.5-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"illegal money laundering infographic","alt_queries":["court chart animation","financial crime graphics"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"अवैध हुण्डी कारोबार","on_screen_data":[{"label":"हुण्डी कारोबार","value":"रु २ अर्ब ३९ करोड"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"हुण्डी कारोबार","value":"रु २ अर्ब ३९ करोड"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"illegal money laundering infographic","search_url":"https://www.pexels.com/search/videos/illegal%20money%20laundering%20infographic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=illegal%20money%20laundering%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"illegal money laundering infographic","search_url":"https://pixabay.com/videos/search/illegal%20money%20laundering%20infographic/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=illegal%20money%20laundering%20infographic&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"court chart animation","search_url":"https://www.pexels.com/search/videos/court%20chart%20animation/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20chart%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"financial crime graphics","search_url":"https://www.pexels.com/search/videos/financial%20crime%20graphics/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=financial%20crime%20graphics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"illegal money laundering infographic","search_url":"https://openverse.org/search/image?q=illegal%20money%20laundering%20infographic","api":"GET https://api.openverse.org/v1/images/?q=illegal%20money%20laundering%20infographic&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"अवैध हुण्डी कारोबार","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \"हुण्डी कारोबार रु २ अर्ब ३९ करोड\" | then stock video @pexels \"illegal money laundering infographic\" [bg], stock video @pixabay \"illegal money laundering infographic\", stock video @pexels \"court chart animation\" | quality: story_fact"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"legal documents on desk","alt_queries":["lawyer reviewing files","court paperwork"],"query_source":"director","shot_description":"Close up of legal documents and files on a desk.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"legal documents on desk","search_url":"https://www.pexels.com/search/videos/legal%20documents%20on%20desk/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=legal%20documents%20on%20desk&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Close up of legal documents and files on a desk.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"legal documents on desk","search_url":"https://pixabay.com/videos/search/legal%20documents%20on%20desk/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=legal%20documents%20on%20desk&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"lawyer reviewing files","search_url":"https://www.pexels.com/search/videos/lawyer%20reviewing%20files/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=lawyer%20reviewing%20files&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"court paperwork","search_url":"https://www.pexels.com/search/videos/court%20paperwork/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20paperwork&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"legal documents on desk","search_url":"https://openverse.org/search/image?q=legal%20documents%20on%20desk","api":"GET https://api.openverse.org/v1/images/?q=legal%20documents%20on%20desk&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"text_plate","source":"local_render","text":"प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L2 [full] STOCK VIDEO via pexels_video: \"legal documents on desk\" | then stock video @pixabay \"legal documents on desk\", stock video @pexels \"lawyer reviewing files\", stock video @pexels \"court paperwork\" | quality: topic_stock"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"court bail amount graphic","alt_queries":["bail money illustration","court payment"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"५ लाख","on_screen_data":[{"label":"धरौटी रकम","value":"५ लाख रुपैयाँ"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"धरौटी रकम","value":"५ लाख रुपैयाँ"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"court bail amount graphic","search_url":"https://www.pexels.com/search/videos/court%20bail%20amount%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20bail%20amount%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"court bail amount graphic","search_url":"https://pixabay.com/videos/search/court%20bail%20amount%20graphic/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=court%20bail%20amount%20graphic&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"bail money illustration","search_url":"https://www.pexels.com/search/videos/bail%20money%20illustration/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=bail%20money%20illustration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"court payment","search_url":"https://www.pexels.com/search/videos/court%20payment/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20payment&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"court bail amount graphic","search_url":"https://openverse.org/search/image?q=court%20bail%20amount%20graphic","api":"GET https://api.openverse.org/v1/images/?q=court%20bail%20amount%20graphic&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"५ लाख","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"धरौटी रकम ५ लाख रुपैयाँ\" | then stock video @pexels \"court bail amount graphic\" [bg], stock video @pixabay \"court bail amount graphic\", stock video @pexels \"bail money illustration\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"potential prison term scale","alt_queries":["prison years chart","sentence length graphic"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"संभावित कैद","value":"७ वर्ष"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"संभावित कैद","value":"७ वर्ष"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"potential prison term scale","search_url":"https://www.pexels.com/search/videos/potential%20prison%20term%20scale/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=potential%20prison%20term%20scale&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"potential prison term scale","search_url":"https://pixabay.com/videos/search/potential%20prison%20term%20scale/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=potential%20prison%20term%20scale&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"prison years chart","search_url":"https://www.pexels.com/search/videos/prison%20years%20chart/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=prison%20years%20chart&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"sentence length graphic","search_url":"https://www.pexels.com/search/videos/sentence%20length%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=sentence%20length%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"potential prison term scale","search_url":"https://openverse.org/search/image?q=potential%20prison%20term%20scale","api":"GET https://api.openverse.org/v1/images/?q=potential%20prison%20term%20scale&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"कानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन आकर्षित गरिएको भए प्रतिवादीहरूलाई सात वर्षसम्म कैद हुन सक्थ्यो।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"संभावित कैद ७ वर्ष\" | then stock video @pexels \"potential prison term scale\" [bg], stock video @pixabay \"potential prison term scale\", stock video @pexels \"prison years chart\" | quality: story_fact"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"court building exterior","alt_queries":["Parsa district court view","court facade"],"query_source":"director","shot_description":"A shot of the Parsa District Court building.","commons":null,"map":null,"motion_text":"धरौटीमा छाड्न","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"court building exterior","search_url":"https://www.pexels.com/search/videos/court%20building%20exterior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20building%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"A shot of the Parsa District Court building.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"court building exterior","search_url":"https://pixabay.com/videos/search/court%20building%20exterior/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=court%20building%20exterior&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"Parsa district court view","search_url":"https://www.pexels.com/search/videos/Parsa%20district%20court%20view/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Parsa%20district%20court%20view&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"court facade","search_url":"https://www.pexels.com/search/videos/court%20facade/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=court%20facade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"court building exterior","search_url":"https://openverse.org/search/image?q=court%20building%20exterior","api":"GET https://api.openverse.org/v1/images/?q=court%20building%20exterior&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"पर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"धरौटीमा छाड्न","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"court building exterior\" | then stock video @pixabay \"court building exterior\", stock video @pexels \"Parsa district court view\", stock video @pexels \"court facade\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":3,"quote_card":0,"topic_stock":2,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":3,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 3/5 content lines; article quote cards 0; topic stock only 2; needs a pick 0","lines_with_stock_query":5,"lines_with_commons":0,"lines_with_map":0,"rejected":[]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["वित्तीय अपराधमा यति फितलो कानुनी कारबाही हुनुमा कसको दोष देख्नुहुन्छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"{{दुई अर्ब ३९ करोड रुपैयाँभन्दा}} बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी","sub":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"अभियुक्तहरूलाई","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"points","fields":{"points":["प्रहरी","सरकारी वकिल कार्यालय"],"title":"लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"प्रतिवादीहरू","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":3,"beat":"detail","card":{"type":"place","fields":{"place":"पर्सा","area":"","headline":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"पर्सा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":4,"beat":"pivot","card":{"type":"place","hold_from_line":3,"fields":null},"strip":{"hold_from_line":3},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई धरौटीमा छाड्न"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"अदालतले","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":1,"types_used":{"hook":1,"points":1,"place":1,"kicker":1},"distinct_types":4,"caps_relaxed":0,"picture_lines":0,"generic_picture_lines":0,"no_picture_lines":4,"blocked_claims":2,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":6,"chosen_topic":"अर्बौंको हुण्डी कारोबार, प्रतिवादीलाई लाखमै उन्मुक्ति !","category":"news","reason":"Sensational illegal liquor trade involving billions and a surprising low‑value bail grabs attention, fits GenZ love for scandal, quick‑fire drama, and online khabar trends, making it highly shareable.","angle":"Highlight the Nepal‑specific context of the illicit liquor market, its impact on local communities, and the legal system’s handling, framing it as a cautionary yet gripping story for Nepali youth.","chosen_id_recovered":false,"chosen_headline_exact":"अर्बौंको हुण्डी कारोबार, प्रतिवादीलाई लाखमै उन्मुक्ति !","source_url":"https://nagariknews.nagariknetwork.com/social-affairs/2-39-billion-hundi-transaction-bail-of-lakhs-granted-to-defendant-br-67-87.html","source_feed":"Nagarik News","rss_pub_date":"2026-10-12T13:56:01.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":25,"direct_headline_count":167,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_14dd45fd19bf2859","source_credit":"Source: Nagarik News","trust_eligible":true,"trust_skip_reason":"","article_age_hours":1.8869469444444444,"date_unknown":false,"article_text":"संगठित रूपमा दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई उन्मुक्ति मिल्ने गरी प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाएको तथ्य बाहिर आएको छ।\nगम्भीर कसुर आकर्षित हुने नेपाल राष्ट्र बैंक ऐनलाई सुरुमै पन्छाएर संगठित अपराध र सम्पत्ति शुद्धीकरणको अभियोगसमेत हटाइएका कारण अर्बौँको वित्तीय अपराधमा मुछिएका प्रतिवादीहरू जिल्ला अदालतबाट केही लाख धरौटी बुझाएर छुट्न सफल भएका छन्।\nपर्सा जिल्ला अदालतका न्यायाधीश ठाकुर खरेलको इजलासले गत असोज ८ गते प्रतिवादीहरू सागरकुमार साह, उपेन्द्रकुमार साह र राहुलकुमार गुप्तालाई जनही ५-५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो। भारतीय नागरिक सुरजकुमार साहलाई भने थुनामा पठाउन आदेश भएको थियो।\nत्यसैगरी असोज १३ गते सोही मुद्दाका अर्का प्रतिवादी प्रमेश सर्राफलाई न्यायाधीश मोहनबहादुर अधिकारीको इजलासले जम्मा दुई लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको अदालतका सूचना अधिकारी रामप्रसाद पन्थीले जानकारी दिए।\nअदालतका सूचना अधिकारी पन्थीका अनुसार सरकारी वकिल कार्यालयबाट दर्ता भएको कमजोर अभियोगपत्रकै आधारमा अभियुक्तहरूलाई धरौटीमा छाड्ने आदेश भएको हो।\nगत साउन २५ गते वीरगन्ज-१० आदर्शनगरबाट ५२ लाख ५० हजार रुपैयाँ नगदसहित चार जना पक्राउ परेपछि यो सञ्जालको रहस्य खुलेको थियो। अनुसन्धानका क्रममा बैंक खाता, भौचर, ह्वाट्सएप च्याट र डिजिटल कारोबार केलाउँदा कुल दुई अर्ब ३९ करोड २२ लाख ६८ हजार ७९३ रुपैयाँ बराबरको हुण्डी कारोबार भएको प्रहरीको दाबी थियो।\nयस प्रकरणमा १० जनाको समूह संलग्न रहेको खुले पनि मुख्य कानुन छलेर मुलुकी अपराध संहिता, २०७४ को दफा १२५(क) अन्तर्गत मात्रै मुद्दा चलाइएको छ।\nकानुन व्यवसायीहरूका अनुसार नेपाल राष्ट्र बैंक ऐन, २०५८ आकर्षित गरी मुद्दा चलाइएको भए अभियुक्तहरूलाई सात वर्षसम्म कैद र बिगोबमोजिम जरिवाना हुने कानुनी व्यवस्था थियो।\nसात वर्षसम्म कैद हुन सक्ने कसुरमा प्रतिवादीहरू धरौटीमा छुट्न नसकी पुर्पक्षका लागि थुनामै बस्नुपर्ने कानुनी बाध्यता रहन्छ।\nपर्साका प्रहरी प्रमुख एसपी पवन भट्टराईले संगठित अपराध, सम्पत्ति शुद्धीकरण र हुण्डी कसुरमा अनुसन्धान प्रतिवेदन बुझाइए पनि सरकारी वकिल कार्यालयले गम्भीर अभियोग हटाएको बताए।\n‘हामीले बुझाएको प्रतिवेदनका आधारमा मुद्दा चलाइएको भए प्रतिवादीहरूलाई कडा सजाय हुन्थ्यो,’ एसपी भट्टराईले भने, ‘तर सरकारी वकिल कार्यालयले संगठित अपराध र सम्पत्ति शुद्धीकरण हटाएर हुण्डी कसुरमा मात्रै अभियोगपत्र पेस गरेपछि प्रतिवादीलाई राहत पुगेको हो।’\nनेपाल राष्ट्र बैंक ऐनअन्तर्गत भने सुरुदेखि नै अनुसन्धान अघि नबढाइएको उनले स्वीकार गरे।\nउता जिल्ला सरकारी वकिल कार्यालय पर्साका प्रमुख जिल्ला न्यायाधिवक्ता मनोजकुमार गुप्ताले भने प्रहरीले राष्ट्र बैंक ऐन आकर्षित हुने गरी अनुसन्धान नै नगरेको जिकिर गरे।\nसंगठित अपराध र सम्पत्ति शुद्धीकरणको कसुर पुष्टि हुने पर्याप्त प्रमाण प्रहरी प्रतिवेदनमा नदेखिएकाले तत्कालका लागि हुण्डी कारोबारमा मात्रै अभियोगपत्र दायर गरिएको र बाँकी विषयमा थप अनुसन्धान गर्न प्रहरीलाई निर्देशन दिइएको गुप्ताको दाबी छ।\nहुण्डीको मुख्य सञ्जाल जोगाउन जिल्ला प्रहरी कार्यालय पर्साका मुद्दा शाखा इन्चार्ज प्रहरी नायब उपरीक्षक चक्रबहादुर मल्ल र जिल्ला न्यायाधिवक्ता मनोजकुमार गुप्ताले अनुचित लाभ लिएर फितलो अभियोजन गरेको आरोप स्थानीय कानुन व्यवसायीहरूले लगाएका छन्। यद्यपि यस आरोपको स्वतन्त्र पुष्टि हुन बाँकी छ।\nअभियोगपत्रअनुसार मुख्य प्रतिवादी सागरकुमार साहले आफ्नो बैंक खातामार्फत भएको १ अर्ब ३९ करोड ९८ लाख १२ हजार रुपैयाँको कारोबार हुण्डीकै भएको स्वीकार गरिसकेका छन्। साहले हुण्डीबाट कमाएको ३ लाख रुपैयाँले कलैया-३ स्थित गार्डेन रिसोर्टमा सेयर किनेको बयान दिएका थिए।\nकाठमाडौंपछिको ठूलो हुण्डी केन्द्र मानिने वीरगन्जमा भारतीय सहर रक्सौलसँगको सीमापार व्यापार र मलेसिया तथा खाडी मुलुकमा कार्यरत नेपाली कामदारको विप्रेषणलाई अवैध हुण्डी सञ्जालमा जोड्ने गरिएको छ।\nश्रमिकबाट विदेशी मुद्रा उतै संकलन गर्ने र नेपालमा भारतीय सीमाबाट भित्र्याइएको नगद तथा कनेक्ट आईपीएसमार्फत भुक्तानी दिने गिरोह सक्रिय रहँदै आएको छ।\nप्रकाशित: २६ आश्विन २०८३ १९:४१ सोमबार","article_char_count":3565,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Nagarik News","assigned_hook_type":"sharp_question","review_id":"RV_20261012_9e05p","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

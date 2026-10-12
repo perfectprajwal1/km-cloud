@@ -1,0 +1,40 @@
+{
+  "master_sha256": "4dc5f01479e93a7163dc314200099dee8b20a04c3e4ca1631ba640c75f7e51b3",
+  "cuts_sec": [
+    9.693041666666666,
+    19.27675
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "दुई अर्ब ३९ करोड रुपैयाँभन्दा बढीको अवैध हुण्डी कारोबारमा संलग्न अभियुक्तहरूलाई धरौटीमा कसरी उन्मुक्ति मिल्यो?",
+      "master_start_sec": 0.2,
+      "master_end_sec": 8.08,
+      "duration_sec": 7.88,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "प्रहरी र सरकारी वकिल कार्यालयले कमजोर अभियोग लगाउँदा प्रतिवादीहरू धरौटी बुझाएर छुट्न सफल भएका छन्।",
+      "master_start_sec": 11.373,
+      "master_end_sec": 17.633,
+      "duration_sec": 6.26,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "पर्सा जिल्ला अदालतले प्रतिवादीहरूलाई जनही ५ लाख रुपैयाँ धरौटीमा छाड्न आदेश दिएको थियो।",
+      "master_start_sec": 20.977,
+      "master_end_sec": 26.297,
+      "duration_sec": 5.32,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

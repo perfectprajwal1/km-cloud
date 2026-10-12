@@ -1,0 +1,610 @@
+REVIEW ID: RV_20261012_tbp4pf
+TOPIC: आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा
+MODEL: gemini-3.8-flash
+STORY ID: ST_eaf4590a38541a16
+DATE: 2026-10-12T15:36:34.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Ratopati
+CATEGORY: news
+SOURCE: https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए? सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ। सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ। घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ। रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्। यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Singha Durbar parliament building Kathmandu Nepal",
+   "shot_description": "Exterior wide shot of Nepal parliament building gate under daylight",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद विवादमा",
+  "big_hook_text": "खगेन्द्र सुनार किन विवादमा?",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "smartphone screen audio player waveform close up",
+   "shot_description": "Close-up of a mobile phone screen displaying playing audio waves",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "सोमबार"
+    }
+   ],
+   "data_source_quote": "सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"
+  },
+  "caption_text": "जनआस्था साप्ताहिकले अडियो बाहिर ल्याएको दाबी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Kathmandu street political discussion people gathering",
+   "shot_description": "People gathered in Kathmandu discussing current political developments",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "पदबाट राजीनामा र कानुनी कारबाहीको माग",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "takeaway",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "political party office Kathmandu Nepal building sign",
+   "shot_description": "Exterior shot of a political party headquarters building in Kathmandu",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "पार्टी प्रवक्ताद्वारा प्रतिक्रिया दिन अस्वीकार",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् । आफू काठमाडौँ बाहिर रहेको र उक्त विषयमा पूर्ण जानकारी नभएको बताउँदै उनले पछि बुझेर मात्रै प्रतिक्रिया दिन सक्ने भन्दै पन्छिए ।"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "mobile phone screen switched off dark display on desk",
+   "shot_description": "Turned-off smartphone resting quietly on an office desk",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "फोन स्वीच अफ र प्रवक्ताको प्रतिक्रिया अस्वीकार",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_eaf4590a38541a16","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","source_label":"Ratopati","source_credit":"Source: Ratopati","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"sharp_question","hook_claim":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","proof_asset":{"kind":"article_text","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","article_quote":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् । सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।","asset_ref":"","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"विवादास्पद अडियो सार्वजनिक भएपछि सांसद खगेन्द्र सुनार किन विवादमा परे?","closing_line":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","comment_prompt":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","pinned_comment":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Singha Durbar parliament building Kathmandu Nepal","shot_description":"Exterior wide shot of Nepal parliament building gate under daylight","depiction_scope":"generic_illustration"},"caption_text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद विवादमा","big_hook_text":"खगेन्द्र सुनार किन विवादमा?","pip_mode":"off","source_evidence":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"smartphone screen audio player waveform close up","shot_description":"Close-up of a mobile phone screen displaying playing audio waves","depiction_scope":"generic_illustration"},"caption_text":"पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा","big_hook_text":"","pip_mode":"off","source_evidence":"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"सोमबार"}],"data_source_quote":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"},"caption_text":"जनआस्था साप्ताहिकले अडियो बाहिर ल्याएको दाबी","big_hook_text":"","pip_mode":"off","source_evidence":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Kathmandu street political discussion people gathering","shot_description":"People gathered in Kathmandu discussing current political developments","depiction_scope":"generic_illustration"},"caption_text":"पदबाट राजीनामा र कानुनी कारबाहीको माग","big_hook_text":"","pip_mode":"off","source_evidence":"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"political party office Kathmandu Nepal building sign","shot_description":"Exterior shot of a political party headquarters building in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"पार्टी प्रवक्ताद्वारा प्रतिक्रिया दिन अस्वीकार","big_hook_text":"","pip_mode":"off","source_evidence":"राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् । आफू काठमाडौँ बाहिर रहेको र उक्त विषयमा पूर्ण जानकारी नभएको बताउँदै उनले पछि बुझेर मात्रै प्रतिक्रिया दिन सक्ने भन्दै पन्छिए ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"mobile phone screen switched off dark display on desk","shot_description":"Turned-off smartphone resting quietly on an office desk","depiction_scope":"generic_illustration"},"caption_text":"फोन स्वीच अफ र प्रवक्ताको प्रतिक्रिया अस्वीकार","big_hook_text":"","pip_mode":"off","source_evidence":"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा","youtube_description":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो बाहिरिएपछि उनी विवादमा तानिएका छन्। यस अडियोबारे पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","youtube_tags":["Khagendra Sunar","RSP","Raswapa","Nepal Parliament","Nepali Politics","Audio Leak","Ratopati","Khabar Minute"],"tiktok_caption":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो बाहिरिएपछि विवादमा परेका छन्।","instagram_caption":"आपत्तिजनक अडियो सार्वजनिक भएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा परेका छन्। अडियोमा धम्कीपूर्ण भाषा प्रयोग भएको आरोप लागेको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","facebook_post":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन्। सार्वजनिक अडियोमा एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक भाषा प्रयोग गरिएको बताइएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","threads_post":"विवादास्पद अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा तानिएका छन्। पार्टी प्रवक्ताले यसबारे प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","linkedin_post":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो सार्वजनिक भएपछि विवादमा परेका छन्। उक्त अडियोमा पूर्व सांसदलाई आपत्तिजनक भाषा प्रयोग गरिएको दाबी गरिएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","hashtags":["#NepalPolitics","#RSP","#KhagendraSunar","#KhabarMinute","#Ratopati"],"source_credit":"Source: Ratopati"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+Line 3: spoken number/date (सोमबार) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+Line 3: invalid transition replaced
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+NUMBER CONTEXT: Line 2: अडियोमा उनले एक महिला -> Words next to the number (उनले) are not next to it in the article: "छन् सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई". Copy the article wording.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All extracted claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?"); dropped line(s) 7; last line is now: "यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।".
+B-roll: only 1/6 lines show this story's own facts; line(s) 5 use general topic footage.
+Line 2: no different truthful card fits; previous card stays on screen.
+Line 3: text-only card used (no data card fits this line).
+Line 6: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+विवादास्पद अडियो सार्वजनिक भएपछि सांसद खगेन्द्र सुनार किन विवादमा परे?
+
+--- PINNED COMMENT (Nepali question) ---
+यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?",
+  "voice": "curious",
+  "pose": "curious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Exterior wide shot of Nepal parliament building gate under daylight",
+   "commons": null,
+   "map": null,
+   "motion_text": "अडियो बाहिरिएपछि",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अडियो बाहिरिएपछि",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L1 [full] QUOTE CARD via local_render: \"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Close-up of a mobile phone screen displaying playing audio waves",
+   "commons": null,
+   "map": null,
+   "motion_text": "आपत्तिजनक लाञ्छना",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "आपत्तिजनक लाञ्छना",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L2 [full] QUOTE CARD via local_render: \"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिज\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "calendar page showing Monday",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "calendar page showing Monday",
+   "alt_queries": [
+    "weekly calendar layout",
+    "date page closeup"
+   ],
+   "query_source": "director",
+   "shot_description": "Graphic of a calendar highlighting Monday",
+   "commons": null,
+   "map": null,
+   "motion_text": "सोमबार",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "सोमबार"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "सोमबार"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "calendar page showing Monday",
+     "search_url": "https://www.pexels.com/search/videos/calendar%20page%20showing%20Monday/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=calendar%20page%20showing%20Monday&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Graphic of a calendar highlighting Monday",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "calendar page showing Monday",
+     "search_url": "https://pixabay.com/videos/search/calendar%20page%20showing%20Monday/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=calendar%20page%20showing%20Monday&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "weekly calendar layout",
+     "search_url": "https://www.pexels.com/search/videos/weekly%20calendar%20layout/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=weekly%20calendar%20layout&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "date page closeup",
+     "search_url": "https://www.pexels.com/search/videos/date%20page%20closeup/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=date%20page%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "calendar page showing Monday",
+     "search_url": "https://openverse.org/search/image?q=calendar%20page%20showing%20Monday",
+     "api": "GET https://api.openverse.org/v1/images/?q=calendar%20page%20showing%20Monday&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सोमबार",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \" सोमबार\" | then stock video @pexels \"calendar page showing Monday\" [bg], stock video @pixabay \"calendar page showing Monday\", stock video @pexels \"weekly calendar layout\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "People gathered in Kathmandu discussing current political developments",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L4 [full] QUOTE CARD via local_render: \"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीम\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "party headquarters Kathmandu",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "takeaway",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "party headquarters Kathmandu",
+   "alt_queries": [],
+   "query_source": "director_alt",
+   "shot_description": "Exterior shot of a political party headquarters building in Kathmandu",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "party headquarters Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/party%20headquarters%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=party%20headquarters%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Exterior shot of a political party headquarters building in Kathmandu",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "party headquarters Kathmandu",
+     "search_url": "https://pixabay.com/videos/search/party%20headquarters%20Kathmandu/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=party%20headquarters%20Kathmandu&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "party headquarters Kathmandu",
+     "search_url": "https://openverse.org/search/image?q=party%20headquarters%20Kathmandu",
+     "api": "GET https://api.openverse.org/v1/images/?q=party%20headquarters%20Kathmandu&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 3
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 4
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 5
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"party headquarters Kathmandu\" | then stock video @pixabay \"party headquarters Kathmandu\", stock photo @openverse \"party headquarters Kathmandu\", quote card @local_render | quality: topic_stock"
+  }
+ },
+ {
+  "text": "यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Turned-off smartphone resting quietly on an office desk",
+   "commons": null,
+   "map": null,
+   "motion_text": "फोन स्वीच अफ",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "फोन स्वीच अफ",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L6 [full] QUOTE CARD via local_render: \"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्\" | then text plate @local_render | quality: quote_card"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 1/6 content lines; article quote cards 4; topic stock only 1; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] QUOTE CARD via local_render: "राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास" | then text plate @local_render | quality: quote_card
+L2 [full] QUOTE CARD via local_render: "सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिज" | then text plate @local_render | quality: quote_card
+L3 [plate] NUMBER CARD via local_render: " सोमबार" | then stock video @pexels "calendar page showing Monday" [bg], stock video @pixabay "calendar page showing Monday", stock video @pexels "weekly calendar layout" | quality: story_fact
+L4 [full] QUOTE CARD via local_render: "यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीम" | then text plate @local_render | quality: quote_card
+L5 [full] STOCK VIDEO via pexels_video: "party headquarters Kathmandu" | then stock video @pixabay "party headquarters Kathmandu", stock photo @openverse "party headquarters Kathmandu", quote card @local_render | quality: topic_stock
+   open: https://www.pexels.com/search/videos/party%20headquarters%20Kathmandu/?orientation=portrait
+L6 [full] QUOTE CARD via local_render: "विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्" | then text plate @local_render | quality: quote_card
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा",
+ "youtube_description": "रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो बाहिरिएपछि उनी विवादमा तानिएका छन्। यस अडियोबारे पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked",
+ "youtube_tags": [
+  "Khagendra Sunar",
+  "RSP",
+  "Raswapa",
+  "Nepal Parliament",
+  "Nepali Politics",
+  "Audio Leak",
+  "Ratopati",
+  "Khabar Minute"
+ ],
+ "tiktok_caption": "रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो बाहिरिएपछि विवादमा परेका छन्।\nSource: Ratopati",
+ "instagram_caption": "आपत्तिजनक अडियो सार्वजनिक भएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा परेका छन्। अडियोमा धम्कीपूर्ण भाषा प्रयोग भएको आरोप लागेको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked",
+ "facebook_post": "रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन्। सार्वजनिक अडियोमा एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक भाषा प्रयोग गरिएको बताइएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked",
+ "threads_post": "विवादास्पद अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा तानिएका छन्। पार्टी प्रवक्ताले यसबारे प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked",
+ "linkedin_post": "रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो सार्वजनिक भएपछि विवादमा परेका छन्। उक्त अडियोमा पूर्व सांसदलाई आपत्तिजनक भाषा प्रयोग गरिएको दाबी गरिएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked",
+ "hashtags": [
+  "#NepalPolitics",
+  "#RSP",
+  "#KhagendraSunar",
+  "#KhabarMinute",
+  "#Ratopati"
+ ],
+ "source_credit": "Source: Ratopati"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261012_tbp4pf","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261012_tbp4pf","review_date":"20261012","title":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा","chosen_topic":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा","category":"news","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","story_id":"ST_eaf4590a38541a16","risk_flag":"NORMAL","source_credit":"Source: Ratopati","full_script":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए? सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ। सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ। घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ। रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्। यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","hook":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","alternate_hook":"विवादास्पद अडियो सार्वजनिक भएपछि सांसद खगेन्द्र सुनार किन विवादमा परे?","hook_type":"sharp_question","closing_line":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","pinned_comment":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","lines":[{"text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","voice":"curious","pose":"curious","broll":"","broll_kind":"quote_card"},{"text":"सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।","voice":"neutral","pose":"neutral","broll":"calendar page showing Monday","broll_kind":"number_card"},{"text":"घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"party headquarters Kathmandu","broll_kind":"stock_video"},{"text":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"}],"word_count":88,"workbook":{"schema_version":"6.6.9","story_id":"ST_eaf4590a38541a16","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","source_label":"Ratopati","source_credit":"Source: Ratopati","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"sharp_question","hook_claim":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","proof_asset":{"kind":"article_text","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","article_quote":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् । सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।","asset_ref":"","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"विवादास्पद अडियो सार्वजनिक भएपछि सांसद खगेन्द्र सुनार किन विवादमा परे?","closing_line":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","comment_prompt":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","pinned_comment":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Singha Durbar parliament building Kathmandu Nepal","shot_description":"Exterior wide shot of Nepal parliament building gate under daylight","depiction_scope":"generic_illustration"},"caption_text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद विवादमा","big_hook_text":"खगेन्द्र सुनार किन विवादमा?","pip_mode":"off","source_evidence":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"smartphone screen audio player waveform close up","shot_description":"Close-up of a mobile phone screen displaying playing audio waves","depiction_scope":"generic_illustration"},"caption_text":"पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा","big_hook_text":"","pip_mode":"off","source_evidence":"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"सोमबार"}],"data_source_quote":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"},"caption_text":"जनआस्था साप्ताहिकले अडियो बाहिर ल्याएको दाबी","big_hook_text":"","pip_mode":"off","source_evidence":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Kathmandu street political discussion people gathering","shot_description":"People gathered in Kathmandu discussing current political developments","depiction_scope":"generic_illustration"},"caption_text":"पदबाट राजीनामा र कानुनी कारबाहीको माग","big_hook_text":"","pip_mode":"off","source_evidence":"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"political party office Kathmandu Nepal building sign","shot_description":"Exterior shot of a political party headquarters building in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"पार्टी प्रवक्ताद्वारा प्रतिक्रिया दिन अस्वीकार","big_hook_text":"","pip_mode":"off","source_evidence":"राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् । आफू काठमाडौँ बाहिर रहेको र उक्त विषयमा पूर्ण जानकारी नभएको बताउँदै उनले पछि बुझेर मात्रै प्रतिक्रिया दिन सक्ने भन्दै पन्छिए ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"mobile phone screen switched off dark display on desk","shot_description":"Turned-off smartphone resting quietly on an office desk","depiction_scope":"generic_illustration"},"caption_text":"फोन स्वीच अफ र प्रवक्ताको प्रतिक्रिया अस्वीकार","big_hook_text":"","pip_mode":"off","source_evidence":"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा","youtube_description":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो बाहिरिएपछि उनी विवादमा तानिएका छन्। यस अडियोबारे पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","youtube_tags":["Khagendra Sunar","RSP","Raswapa","Nepal Parliament","Nepali Politics","Audio Leak","Ratopati","Khabar Minute"],"tiktok_caption":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो बाहिरिएपछि विवादमा परेका छन्।","instagram_caption":"आपत्तिजनक अडियो सार्वजनिक भएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा परेका छन्। अडियोमा धम्कीपूर्ण भाषा प्रयोग भएको आरोप लागेको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","facebook_post":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन्। सार्वजनिक अडियोमा एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक भाषा प्रयोग गरिएको बताइएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","threads_post":"विवादास्पद अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा तानिएका छन्। पार्टी प्रवक्ताले यसबारे प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","linkedin_post":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो सार्वजनिक भएपछि विवादमा परेका छन्। उक्त अडियोमा पूर्व सांसदलाई आपत्तिजनक भाषा प्रयोग गरिएको दाबी गरिएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","hashtags":["#NepalPolitics","#RSP","#KhagendraSunar","#KhabarMinute","#Ratopati"],"source_credit":"Source: Ratopati"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"Singha Durbar parliament building Kathmandu Nepal","shot_description":"Exterior wide shot of Nepal parliament building gate under daylight","depiction_scope":"generic_illustration"},"caption_text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद विवादमा","big_hook_text":"खगेन्द्र सुनार किन विवादमा?","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"smartphone screen audio player waveform close up","shot_description":"Close-up of a mobile phone screen displaying playing audio waves","depiction_scope":"generic_illustration"},"caption_text":"पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"सोमबार"}],"data_source_quote":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"},"caption_text":"जनआस्था साप्ताहिकले अडियो बाहिर ल्याएको दाबी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।"},{"line_id":4,"beat":"pivot","visual":{"type":"BROLL","search_query":"Kathmandu street political discussion people gathering","shot_description":"People gathered in Kathmandu discussing current political developments","depiction_scope":"generic_illustration"},"caption_text":"पदबाट राजीनामा र कानुनी कारबाहीको माग","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।"},{"line_id":5,"beat":"takeaway","visual":{"type":"BROLL","search_query":"political party office Kathmandu Nepal building sign","shot_description":"Exterior shot of a political party headquarters building in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"पार्टी प्रवक्ताद्वारा प्रतिक्रिया दिन अस्वीकार","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् । आफू काठमाडौँ बाहिर रहेको र उक्त विषयमा पूर्ण जानकारी नभएको बताउँदै उनले पछि बुझेर मात्रै प्रतिक्रिया दिन सक्ने भन्दै पन्छिए ।"},{"line_id":6,"beat":"closing","visual":{"type":"BROLL","search_query":"mobile phone screen switched off dark display on desk","shot_description":"Turned-off smartphone resting quietly on an office desk","depiction_scope":"generic_illustration"},"caption_text":"फोन स्वीच अफ र प्रवक्ताको प्रतिक्रिया अस्वीकार","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।"}],"lines_legacy":[{"text":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?","voice":"curious","pose":"curious","broll":"","broll_kind":"quote_card"},{"text":"सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।","voice":"neutral","pose":"neutral","broll":"calendar page showing Monday","broll_kind":"number_card"},{"text":"घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"party headquarters Kathmandu","broll_kind":"stock_video"},{"text":"यस प्रकरणमा सांसद सुनारको फोन स्वीच अफ छ भने प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"}],"youtube_title":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा","youtube_description":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो बाहिरिएपछि उनी विवादमा तानिएका छन्। यस अडियोबारे पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","youtube_tags":["Khagendra Sunar","RSP","Raswapa","Nepal Parliament","Nepali Politics","Audio Leak","Ratopati","Khabar Minute"],"tiktok_caption":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो बाहिरिएपछि विवादमा परेका छन्।\nSource: Ratopati","instagram_caption":"आपत्तिजनक अडियो सार्वजनिक भएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा परेका छन्। अडियोमा धम्कीपूर्ण भाषा प्रयोग भएको आरोप लागेको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","facebook_post":"रास्वपाका सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन्। सार्वजनिक अडियोमा एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक भाषा प्रयोग गरिएको बताइएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","threads_post":"विवादास्पद अडियो बाहिरिएपछि रास्वपा सांसद खगेन्द्र सुनार विवादमा तानिएका छन्। पार्टी प्रवक्ताले यसबारे प्रतिक्रिया दिन अस्वीकार गरेका छन्। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","linkedin_post":"रास्वपाका सांसद खगेन्द्र सुनार विवादास्पद अडियो सार्वजनिक भएपछि विवादमा परेका छन्। उक्त अडियोमा पूर्व सांसदलाई आपत्तिजनक भाषा प्रयोग गरिएको दाबी गरिएको छ। Source: Ratopati https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","hashtags":["#NepalPolitics","#RSP","#KhagendraSunar","#KhabarMinute","#Ratopati"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.8-flash","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Exterior wide shot of Nepal parliament building gate under daylight","commons":null,"map":null,"motion_text":"अडियो बाहिरिएपछि","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"अडियो बाहिरिएपछि","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L1 [full] QUOTE CARD via local_render: \"राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास\" | then text plate @local_render | quality: quote_card"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Close-up of a mobile phone screen displaying playing audio waves","commons":null,"map":null,"motion_text":"आपत्तिजनक लाञ्छना","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"आपत्तिजनक लाञ्छना","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L2 [full] QUOTE CARD via local_render: \"सार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिज\" | then text plate @local_render | quality: quote_card"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"calendar page showing Monday","alt_queries":["weekly calendar layout","date page closeup"],"query_source":"director","shot_description":"Graphic of a calendar highlighting Monday","commons":null,"map":null,"motion_text":"सोमबार","on_screen_data":[{"label":"","value":"सोमबार"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"सोमबार"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"calendar page showing Monday","search_url":"https://www.pexels.com/search/videos/calendar%20page%20showing%20Monday/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=calendar%20page%20showing%20Monday&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Graphic of a calendar highlighting Monday","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"calendar page showing Monday","search_url":"https://pixabay.com/videos/search/calendar%20page%20showing%20Monday/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=calendar%20page%20showing%20Monday&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"weekly calendar layout","search_url":"https://www.pexels.com/search/videos/weekly%20calendar%20layout/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=weekly%20calendar%20layout&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"date page closeup","search_url":"https://www.pexels.com/search/videos/date%20page%20closeup/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=date%20page%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"calendar page showing Monday","search_url":"https://openverse.org/search/image?q=calendar%20page%20showing%20Monday","api":"GET https://api.openverse.org/v1/images/?q=calendar%20page%20showing%20Monday&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"सोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"सोमबार","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \" सोमबार\" | then stock video @pexels \"calendar page showing Monday\" [bg], stock video @pixabay \"calendar page showing Monday\", stock video @pexels \"weekly calendar layout\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"People gathered in Kathmandu discussing current political developments","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L4 [full] QUOTE CARD via local_render: \"यो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीम\" | then text plate @local_render | quality: quote_card"},{"line_id":5,"beat":"takeaway","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"party headquarters Kathmandu","alt_queries":[],"query_source":"director_alt","shot_description":"Exterior shot of a political party headquarters building in Kathmandu","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"party headquarters Kathmandu","search_url":"https://www.pexels.com/search/videos/party%20headquarters%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=party%20headquarters%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Exterior shot of a political party headquarters building in Kathmandu","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"party headquarters Kathmandu","search_url":"https://pixabay.com/videos/search/party%20headquarters%20Kathmandu/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=party%20headquarters%20Kathmandu&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_photo","source":"openverse","query":"party headquarters Kathmandu","search_url":"https://openverse.org/search/image?q=party%20headquarters%20Kathmandu","api":"GET https://api.openverse.org/v1/images/?q=party%20headquarters%20Kathmandu&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":3},{"kind":"quote_card","source":"local_render","text":"राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":4},{"kind":"text_plate","source":"local_render","text":"रास्वपाका प्रवक्ता जगदीश खरेलले आफू काठमाडौँ बाहिर रहेको भन्दै अहिले प्रतिक्रिया दिन अस्वीकार गरेका छन्।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":5}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"party headquarters Kathmandu\" | then stock video @pixabay \"party headquarters Kathmandu\", stock photo @openverse \"party headquarters Kathmandu\", quote card @local_render | quality: topic_stock"},{"line_id":6,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Turned-off smartphone resting quietly on an office desk","commons":null,"map":null,"motion_text":"फोन स्वीच अफ","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"फोन स्वीच अफ","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L6 [full] QUOTE CARD via local_render: \"विवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्\" | then text plate @local_render | quality: quote_card"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":1,"quote_card":4,"topic_stock":1,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":1,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 1/6 content lines; article quote cards 4; topic stock only 1; needs a pick 0","lines_with_stock_query":2,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"Singha Durbar parliament building Kathmandu Nepal","verdict":"person_line"},{"src":"director_alt","query":"parliament gate Nepal","verdict":"person_line"},{"src":"director_alt","query":"Kathmandu government building","verdict":"person_line"},{"src":"scriptwriter","query":"Singha Durbar parliament building Kathmandu Nepal","verdict":"person_line"}]},{"line_id":2,"tried":[{"src":"director","query":"smartphone screen audio player waveform close up","verdict":"person_line"},{"src":"director_alt","query":"mobile audio waveform","verdict":"person_line"},{"src":"director_alt","query":"phone screen closeup","verdict":"person_line"},{"src":"scriptwriter","query":"smartphone screen audio player waveform close up","verdict":"person_line"}]},{"line_id":4,"tried":[{"src":"director","query":"Kathmandu street political discussion people gathering","verdict":"person_line"},{"src":"director_alt","query":"crowd political debate Kathmandu","verdict":"person_line"},{"src":"director_alt","query":"street protest discussion","verdict":"person_line"},{"src":"scriptwriter","query":"Kathmandu street political discussion people gathering","verdict":"person_line"}]},{"line_id":6,"tried":[{"src":"director","query":"mobile phone screen switched off dark display on desk","verdict":"person_line"},{"src":"director_alt","query":"turned off smartphone desk","verdict":"person_line"},{"src":"director_alt","query":"phone off closeup","verdict":"person_line"},{"src":"scriptwriter","query":"mobile phone screen switched off dark display on desk","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["यस घटनामा पार्टीले कस्तो कदम चाल्नुपर्छ जस्तो लाग्छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा","sub":"","kicker":"आपत्तिजनक"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"बाहिरिएपछि"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Khadgendra Sunar","in_line":"खगेन्द्र सुनार","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Khadgendra Sunar portrait","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Khadgendra%20Sunar%20portrait&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Khadgendra%20Sunar%20portrait&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"politician speaking","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=politician%20speaking&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=politician%20speaking&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"Nepal parliament backdrop","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Nepal%20parliament%20backdrop&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Nepal%20parliament%20backdrop&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":3,"beat":"detail","card":{"type":"kicker","fields":{"text":"सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"साप्ताहिकले","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":4,"beat":"pivot","card":{"type":"points","fields":{"points":["राजीनामा माग","कानुनी कारबाहीको माग"],"title":"मागहरू","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"सार्वजनिक","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":5,"beat":"takeaway","card":{"type":"place","fields":{"place":"काठमाडौँ","area":"","headline":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"काठमाडौँ","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":6,"beat":"closing","card":{"type":"kicker","fields":{"text":"प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन्"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"प्रतिक्रिया","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":1,"types_used":{"hook":1,"kicker":2,"points":1,"place":1},"distinct_types":4,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":0,"no_picture_lines":4,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":5,"chosen_topic":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा","category":"news","reason":"स्कैंडल, अडियो लीक, र राजनैतिक विवादले GenZ को ध्यान तुरुन्तै आकर्षित गर्छ; सामाजिक सञ्जालमा तेज प्रतिक्रिया र ‘समाचार’ ट्रेन्डले भाइरलिटी बूस्ट गर्छ।","angle":"नेपाली युवा वर्गलाई सामाजिक मिडियामा फैलिएको विवादको प्रभाव, पारदर्शिता र राजनैतिक उत्तरदायित्वको बारेमा चेतना जगाउने दृष्टिकोण।","chosen_id_recovered":false,"chosen_headline_exact":"आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा","source_url":"https://www.ratopati.com/story/599176/rashtriya-swayamsevak-sangh-rss-mp-khagendra-sunar-in-controversy-after-objectionable-audio-leaked","source_feed":"Ratopati","rss_pub_date":"2026-10-12T15:36:34.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":169,"valid_headline_count":167,"source_counts":{"Kathmandu Post":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":26,"direct_headline_count":167,"google_stub_filtered_count":0,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_eaf4590a38541a16","source_credit":"Source: Ratopati","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.8999191666666667,"date_unknown":false,"article_text":"नेपाली\n\n[x]\n\nनेपाली\n\nLogin\n\nIf you are having trouble accessing your account, click Forgot Password;) below.\n\nलगइन\n\nSignin With\n\nUser Registration Form\n\nName\n\nEmail\n\nPassword\n\nConfirm Password\n\nSign Up\n\nSignin With\n\nForgot Password\n\nIf you remember your password Please GO BACK and Login !!\n\nSend Password Reset Link\n\nताजा\nलोकप्रिय\n\nसमाचार\nआपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार विवादमा\n\nसोमबार, २६ असोज २०८३, २१ : २१\n\n19.5K Shares\n\nसोमबार, २६ असोज २०८३\n\n19.5K Shares\n\nसारांश\n\nराष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको विवादास्पद अडियो सार्वजनिक भएपछि उनी विवादमा तानिएका छन् ।\nसार्वजनिक अडियोमा सांसद सुनारले एक पूर्व सांसदलाई लक्षित गर्दै आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ ।\nविवादपछि सांसद सुनारले फोन स्वीच अफ गरेका छन् भने पार्टी प्रवक्ताले प्रतिक्रिया दिन अस्वीकार गरेका छन् ।\n\nकाठमाडौँ। राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) का सांसद खगेन्द्र सुनारको दाबी गर्दै एक विवादास्पद अडियो सार्वजनिक भएपछि उनी आलोचित बनेका छन् ।\n\nसार्वजनिक भएको उक्त अडियोमा सांसद सुनारले एक महिला पूर्व सांसदलाई लक्षित गर्दै अत्यन्तै आपत्तिजनक लाञ्छना लगाउनुका साथै धम्कीपूर्ण भाषा प्रयोग गरेको सुनिएको छ।\n\nसोमबार जनआस्था साप्ताहिकले उक्त अडियो खगेन्द्रको भएको जिकिर सहित सार्वजनिक गरेको हो । केही वर्षअघि रेकर्ड गरिएको बताइएको यो अडियो सोमबार सार्वजनिक भएपछि सामाजिक सञ्जाल र राजनीतिक वृत्तमा तरङ्ग पैदा भएको छ।\n\nअडियोमा उनले प्रयोग गरेका शब्दहरूले मर्यादित भाषाको सीमा नाघेको सुनिन्छ । यससँगै सामाजिक उनको चौतर्फी आलोचना भइरहेको छ।\n\nयो घटना सार्वजनिक भएसँगै सांसद सुनारले पदबाट राजीनामा दिनुपर्ने र उनीमाथि तत्काल कानुनी कारबाही हुनुपर्ने आवाज समेत उठेको छ । विवादमा तानिएपछि सांसद सुनारले आफ्नो फोन ‘स्वीच अफ’ गरेका छन् भने सञ्चारकर्मीको सम्पर्कमा आउन चाहेका छैनन्। रातोपाटीले यस विषयमा बुझ्न उनलाई पटक पटक सम्पर्क गर्दा फोन स्वीच अफ भएको पाइयो ।\n\nयता, सुनार विवादमा तानिए विषयमा पार्टीको धारणा बुझ्न खोज्दा राष्ट्रिय स्वतन्त्र पार्टीका प्रवक्ता जगदीश खरेलले प्रतिक्रिया दिन अस्वीकार गरेका छन् । आफू काठमाडौँ बाहिर रहेको र उक्त विषयमा पूर्ण जानकारी नभएको बताउँदै उनले पछि बुझेर मात्रै प्रतिक्रिया दिन सक्ने भन्दै पन्छिए ।\n\nसांसद सुनार विवादमा परेको यो पहिलो पटक भने होइन। यसअघि पनि प्रहरी पोसाक खरिदमा अनियमितताको आरोप, प्रहरी महानिरीक्षक (आईजीपी) सँगको विवाद, प्रस्तावित राजदूत नियुक्ति प्रकरणमा नाम मुछिनु र गाईसम्बन्धी विवादित अभिव्यक्तिका कारण उनी पटक-पटक चर्चा र आलोचनाको केन्द्रमा रहँदै आएका छन्।\n\nरास्वपाले आफ्ना सांसदमाथि प्रश्न उठिसकेपछि अब कसरी कारबाही प्रक्रिया अघि बढाउँछ त्यो चासोको विषय बनेको छ।\n\nखबर पढेर तपाईलाई कस्तो महसुस भयो ?\n\n१ प्रतिक्रिया\n\nप्रतिक्रिया दिनुहोस\n\nप्रतिक्रिया दिनुहोस्\n\nSabin Rai\n\nसोमबार, २६ असोज २०८३, २१ : ४४\n\nNow it's becoming phenomenal in my perception that the person must be politically aware to a so called celebrity in like that of free for donkeys in wild social media to be a member of legislative body...\n\nलेखकको बारेमा\n\nरातोपाटी संवाददाता\n\n‘सबैको, सबैभन्दा राम्रो’रातोपाटी डटकम।\n\nसम्बन्धित खबर\n\nयो पनि पढौँ\n\nभर्खरै\n\nअसोज ३१, २०८३ - Oct 17, 2026 ४ दिन बाँकी\nअसोज ३१, २०८३ - Oct 17, 2026 ४ दिन बाँकी\nकात्तिक १, २०८३ - Oct 18, 2026 ५ दिन बाँकी\nकात्तिक ३, २०८३ - Oct 20, 2026 ७ दिन बाँकी\nकात्तिक ४, २०८३ - Oct 21, 2026 ८ दिन बाँकी\nकात्तिक ५, २०८३ - Oct 22, 2026 ९ दिन बाँकी\nकात्तिक २२, २०८३ - Nov 08, 2026 २६ दिन बाँकी\nकात्तिक २२, २०८३ - Nov 08, 2026 २६ दिन बाँकी\nकात्तिक २४, २०८३ - Nov 10, 2026 २८ दिन बाँकी\nकात्तिक २४, २०८३ - Nov 10, 2026 २८ दिन बाँकी\nकात्तिक २५, २०८३ - Nov 11, 2026 २९ दिन बाँकी\nकात्तिक २९, २०८३ - Nov 15, 2026 १ महिना बाँकी\n८ मङ्गलबार गुरु नानक जयन्ती (सिख धर्मावलम्बीहरुलाई मात्र)\nमङ्सिर ८, २०८३ - Nov 24, 2026 १ महिना बाँकी\nपुस ९, २०८३ - Dec 24, 2026 २ महिना बाँकी\nपुस १५, २०८३ - Dec 30, 2026 २ महिना बाँकी\nमाघ १, २०८३ - Jan 15, 2027 ३ महिना बाँकी\nमाघ २४, २०८३ - Feb 07, 2027 ३ महिना बाँकी\nमाघ २८, २०८३ - Feb 11, 2027 ४ महिना बाँकी\nमाघ २८, २०८३ - Feb 11, 2027 ४ महिना बाँकी\nफागुन २२, २०८३ - Mar 06, 2027 ४ महिना बाँकी\nफागुन २५, २०८३ - Mar 09, 2027 ४ महिना बाँकी\nचैत ७, २०८३ - Mar 21, 2027 ५ महिना बाँकी\nचैत ८, २०८३ - Mar 22, 2027 ५ महिना बाँकी\n२३ मङ्गलबार घोडेजात्रा (काठमाडौं उपत्यका बिदा)\nचैत २३, २०८३ - Apr 06, 2027 ५ महिना बाँकी\n\nट्रेन्डिङ\n\nछुटाउनुभयो कि ?\n\nसूचना विभाग दर्ता नं: १९७/०७३-७४\nEditor-in-Chief: Jiwendra Simkhada\nChairman: Bijaya Sharma\n\nसम्पर्क\n\nBakhundole, Lalitpur\n01-5010630, 01-5010671\nratopati@gmail.com\ninfo@ratopati.com\nmarketing.ratopati@gmail.com\narticle.ratopati@gmail.com\n\nउपयोगी लिंकहरु\n\n© 2026 Copyright Ratopati News Network All rights reserved. स्रोतहरू खुलाइएका बाहेक रातोपाटीमा प्रकाशित सम्पूर्ण सामग्रीहरू रातोपाटी न्युज नेटवर्कका सम्पत्ति हुन् ।\n\nSubscribe to notifications","article_char_count":4526,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_reader","article_block_reason":"Direct fetch failed (page looked like a bot wall, paywall or 404); article text via free reader fallback (r.jina.ai).","km_reader_tried":true,"risk_flag":"NORMAL","risk_reasons":[],"source_label":"Ratopati","assigned_hook_type":"sharp_question","review_id":"RV_20261012_tbp4pf","trust_gate_passed":true,"tiktok_caption_budget":133,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

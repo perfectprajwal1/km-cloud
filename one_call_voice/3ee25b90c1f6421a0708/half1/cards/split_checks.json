@@ -1,0 +1,51 @@
+{
+  "master_sha256": "6e992d7367d6c1931a0b0f53668f32a32a6bc66de3976623513dcbc2457e6998",
+  "cuts_sec": [
+    7.18,
+    17.73,
+    27.38
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "आपत्तिजनक अडियो बाहिरिएपछि रास्वपाका सांसद खगेन्द्र सुनार किन विवादमा तानिए?",
+      "master_start_sec": 0.18,
+      "master_end_sec": 5.56,
+      "duration_sec": 5.38,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "सार्वजनिक भएको अडियोमा उनले एक महिला पूर्व सांसदलाई आपत्तिजनक लाञ्छना र धम्कीपूर्ण भाषा बोलेको बताइएको छ।",
+      "master_start_sec": 8.84,
+      "master_end_sec": 16.18,
+      "duration_sec": 7.34,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "सोमबार जनआस्था साप्ताहिकले यो अडियो बाहिर ल्याएको थियो, जुन केही वर्षअघि रेकर्ड गरिएको दाबी गरिएको छ।",
+      "master_start_sec": 19.33,
+      "master_end_sec": 25.85,
+      "duration_sec": 6.52,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "घटना सार्वजनिक भएपछि सांसद पदबाट राजीनामा र कानुनी कारबाहीको माग समेत उठेको news रिपोर्टमा उल्लेख छ।",
+      "master_start_sec": 28.94,
+      "master_end_sec": 35.46,
+      "duration_sec": 6.52,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}
