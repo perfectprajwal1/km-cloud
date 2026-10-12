@@ -20,7 +20,7 @@ fs.writeFileSync('out/props.json', JSON.stringify({story, timing, lite}));
 // 3) video. Concurrency 2, jpeg frames, CRF 18. --scale=0.6667 renders 720x1280 if the laptop chokes.
 const tmp = `out/${story.id}.raw.mkv`;
 run('npx', ['remotion', 'render', 'src/index.ts', 'Reel', tmp, '--props=out/props.json', '--concurrency=2', '--image-format=jpeg',
-  '--jpeg-quality=92', '--crf=18', '--pixel-format=yuv420p', '--audio-codec=pcm-16', '--codec=h264', `--scale=${scale}`, '--gl=angle']);
+  '--jpeg-quality=92', '--crf=18', '--pixel-format=yuv420p', '--audio-codec=pcm-16', '--codec=h264', `--scale=${scale}`, '--gl=swangle']);
 // 4) loudness: two-pass loudnorm, linear mode, video stream copied untouched
 const p1 = run('ffmpeg', ['-hide_banner', '-i', tmp, '-af', 'loudnorm=I=-14:TP=-1.0:LRA=9:print_format=json', '-f', 'null', '-'], {capture: true});
 const m = JSON.parse((p1.stderr.match(/\{[\s\S]*?\}/g) || []).pop());
