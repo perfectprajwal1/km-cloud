@@ -1,0 +1,52 @@
+name: KM token renewal
+on:
+  workflow_dispatch:
+    inputs:
+      preflight_only:
+        description: "true = identity/public-key reads only; false = refresh and save"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      bootstrap_fb_page:
+        description: "Optional one-time FB_PAGE_TOKEN bootstrap (valid FB_USER_TOKEN required)"
+        required: true
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+  schedule:
+    # Monthly, off the top of the hour. GitHub schedules use UTC and may be delayed.
+    - cron: "17 3 15 * *"
+permissions:
+  contents: read
+concurrency:
+  group: km-reel
+  cancel-in-progress: false
+  queue: max
+jobs:
+  renew:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install sealed-box encryption library
+        run: python -m pip install --no-input 'PyNaCl==1.6.0'
+      - name: Refresh and privately persist tokens
+        env:
+          PREFLIGHT_ONLY: ${{ github.event_name == 'schedule' && 'false' || inputs.preflight_only }}
+          BOOTSTRAP_FB_PAGE: ${{ inputs.bootstrap_fb_page || 'false' }}
+          META_SECRETS_PAT: ${{ secrets.META_SECRETS_PAT }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          FB_USER_TOKEN: ${{ secrets.FB_USER_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_APP_ID: "2213813046222236"
+          FB_PAGE_ID: "1404139492777541"
+          WA_TOKEN: ${{ secrets.WA_TOKEN }}
+          WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
+          WA_TO: ${{ secrets.WA_TO }}
+        run: python3 scripts/km_token_renew.py
