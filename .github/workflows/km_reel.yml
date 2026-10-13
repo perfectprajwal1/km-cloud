@@ -1,3 +1,4 @@
+# v5.7: fresh-main checkout, isolated conflict-aware state commits, durable claims, one notification per reel.
 # v5.6: connected Buffer channels; durable per-platform receipts; dry-run is read-only.
 # v5.5 (2026-10-12): TikTok auto-post. After the Drive upload and done-marking, each new reel is copied to the public repo km-media (GitHub Pages), the run waits until its URL serves the mp4, then Buffer posts it to the TikTok channel (caption from the package with the source line removed, max 5 hashtags). Soft step: any failure only sends a WhatsApp notice, the render and the Drive copy are untouched. Needs secrets BUFFER_API_KEY and GH_PAT; without them the step is skipped. Nothing else changed.
 # v5.4.1 (2026-10-12): done-marking was silently lost - git pull --rebase died on unstaged changes and the push never happened, so uploaded reels were never marked done and every run re-rendered them (and the WhatsApp text was the only step that fired... into a Meta error). Fix: git add -u stages every tracked change before commit, rebase failures abort cleanly, push retries 3x then turns the run red instead of failing silently.
@@ -52,7 +53,17 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+      - name: Start from latest main after queue wait
+        run: |
+          set -euo pipefail
+          git fetch --quiet origin main
+          git checkout -B main origin/main
+          git config user.name "km-cloud"
+          git config user.email "km-cloud@users.noreply.github.com"
+          echo "Latest main: $(git rev-parse HEAD)"
+          test -f scripts/km_state.py || { echo "Install incomplete: state helper missing"; exit 1; }
 
       - uses: actions/setup-node@v4
         with:
@@ -117,43 +128,6 @@ jobs:
           printf '%s' "$GEMINI_KEY2" > gemini_key2.txt
           echo "key files written (not shown)"
 
-      - name: Restore saved voice files for this story
-        run: |
-          set +e
-          [ -n "$STORY" ] || { echo "no story id, nothing to restore"; exit 0; }
-          H=$(git log -1 --format=%H --grep="state after $STORY (")
-          [ -n "$H" ] || { echo "no saved voice state for $STORY"; exit 0; }
-          D=$(git show --name-only --format= "$H" | grep '^one_call_voice/' | cut -d/ -f2 | sort -u | head -1)
-          [ -n "$D" ] || { echo "saved state has no voice folder"; exit 0; }
-          echo "voice state folder: one_call_voice/$D"
-          python - "$D" <<'PY'
-          import hashlib, json, os, shutil, sys
-          from pathlib import Path
-          d = Path('one_call_voice') / sys.argv[1]
-          rec = d / 'installed_reviewed.json'
-          if not rec.exists():
-              print('no install receipt yet; nothing to restore')
-              sys.exit(0)
-          records = json.loads(rec.read_text(encoding='utf-8'))
-          dest = Path('public/voice_in')
-          dest.mkdir(parents=True, exist_ok=True)
-          ok = True
-          for r in records:
-              src = d / 'cards' / r['name']
-              if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest() != r['sha256']:
-                  ok = False
-                  break
-              shutil.copy2(src, dest / r['name'])
-          if ok:
-              print('restored', len(records), 'voice files from saved cards (hashes match the receipt)')
-          else:
-              rec.unlink()
-              for f in dest.glob('c*.wav'):
-                  f.unlink()
-              shutil.rmtree(d / 'previous_voice_in', ignore_errors=True)
-              print('saved cards do not match the receipt; receipt removed so the voice step re-checks from the saved audio')
-          PY
-
       - name: Run the reel (voice, render, loudness, outro)
         run: |
           set +e
@@ -203,6 +177,11 @@ jobs:
           /tmp/km_watch.sh & WPID=$!
           trap 'rc=$?; echo "MARK step-exit rc=$rc $(date -u +%H:%M:%S)" >> /tmp/km_watch.log; kill $WPID 2>/dev/null; wait $WPID 2>/dev/null' EXIT
           S=$(date +%s)
+          python scripts/km_state.py refresh-done || { echo 1 > /tmp/km_rc; exit 1; }
+          if [ -n "$STORY" ] && grep -qFx "$STORY" out/done.txt; then
+            echo "Already in Drive on latest main: $STORY. No render or repeated ready alert."
+            echo 0 > /tmp/km_rc; echo ok > /tmp/km_ok; echo "$STORY" > /tmp/km_already_done; exit 0
+          fi
           if [ "$MODE" = resume ]; then
             [ -d "inbox/$STORY" ] || { echo "STOP: inbox/$STORY is not in the repo, nothing to resume."; echo 2 > /tmp/km_rc; exit 0; }
             python resume_failed.py "$STORY" 2>&1 | tee /tmp/km_run.log
@@ -239,19 +218,12 @@ jobs:
         run: rm -f gemini_key.txt gemini_key2.txt pexels_key.txt
 
       - name: Save voice progress back to the repo
+        id: resume_state
         if: always()
         run: |
-          git config user.name "km-cloud"
-          git config user.email "km-cloud@users.noreply.github.com"
-          git add -u
-          git add one_call_voice stories inbox produced.json 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "nothing to save"
-          else
-            git commit -q -m "state after ${STORY:-sheet-check} ($MODE)"
-            git pull -q --rebase || git rebase --abort
-            git push -q || echo "push failed (step 20 retries and backstops this state)"
-          fi
+          set -euo pipefail
+          # Exact allowlist; no git add -u that could commit renderer edits.
+          python scripts/km_state.py progress
 
       - name: Save the mp4 as a download
         if: always()
@@ -308,62 +280,19 @@ jobs:
           done
           echo "MARK drive-upload-end $(date -u +%H:%M:%S)"
 
-      - name: Mark done after upload + WhatsApp per reel
-        if: ${{ !cancelled() }}
-        env:
-          WA_TOKEN: ${{ secrets.WA_TOKEN }}
-          WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
-          WA_TO: ${{ secrets.WA_TO }}
+      - name: Persist Drive completion before publishing
+        id: drive_state
+        if: ${{ !cancelled() && steps.resume_state.outcome == 'success' }}
         run: |
-          set +e
-          wa_send() {
-            if [ -z "$WA_TOKEN" ] || [ -z "$WA_PHONE_ID" ] || [ -z "$WA_TO" ]; then echo "WA secrets not set, WhatsApp skipped"; return 0; fi
-            PAYLOAD=$(WA_TEXT="$1" python3 -c "import json,os;print(json.dumps({'messaging_product':'whatsapp','to':os.environ['WA_TO'],'type':'text','text':{'body':os.environ['WA_TEXT']}}))")
-            curl -s --max-time 30 -X POST "https://graph.facebook.com/v21.0/$WA_PHONE_ID/messages" -H "Authorization: Bearer $WA_TOKEN" -H "Content-Type: application/json" --data "$PAYLOAD" | head -c 150
-            echo
-          }
-          git config user.name "km-cloud"
-          git config user.email "km-cloud@users.noreply.github.com"
-          mkdir -p out/done
+          set -euo pipefail
           touch /tmp/km_drive
-          UPLOADED=$(grep '^ok ' /tmp/km_drive | sed 's/^ok //' | sed 's/\.mp4$//')
-          [ -n "$UPLOADED" ] || echo "nothing uploaded this run"
-          ALL_OK=1
-          for f in out/*.mp4; do
-            [ -f "$f" ] || continue
-            id=$(basename "$f" .mp4)
-            if echo "$UPLOADED" | grep -qFx "$id"; then
-              grep -qFx "$id" out/done.txt 2>/dev/null || echo "$id" >> out/done.txt
-              python3 - "$id" <<'PY'
-          import json,os,sys,datetime
-          rid = sys.argv[1]
-          m = {"story_id": rid, "drive_name": rid + ".mp4", "completed_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"), "workflow_run_id": os.environ.get("GITHUB_RUN_ID", "")}
-          open(os.path.join("out", "done", rid + ".json"), "w").write(json.dumps(m, indent=2))
-          PY
-              TITLE=$(python3 -c "import json;print(json.load(open('inbox/$id/row.json')).get('headline',''))" 2>/dev/null)
-              wa_send "✅ Reel ready in Drive: $id - $TITLE"
-            else
-              echo "$id did not upload - NOT marked done, next run picks it up again"
-              ALL_OK=0
-            fi
-          done
-          if [ "$ALL_OK" = 1 ] && [ -f /tmp/km_ok ]; then
-            echo "everything uploaded, dropping the voice cache"
-            git rm -r -q --ignore-unmatch one_call_voice || true
-            rm -rf one_call_voice
-          fi
-          git add -u
-          git add -A out/done.txt out/done one_call_voice 2>/dev/null || true
-          if git diff --cached --quiet; then echo "nothing to mark"; else
-            git commit -q -m "done after upload ${STORY:-batch}"
-            git pull -q --rebase || git rebase --abort
-            PUSHED=0
-            for i in 1 2 3; do git push -q && { PUSHED=1; break; }; sleep 5; done
-            if [ "$PUSHED" = 1 ]; then echo "done-marking pushed"; else echo "PUSH FAILED 3x - done-marking NOT saved, marking the run red"; exit 1; fi
-          fi
+          while read -r kind name; do
+            [ "$kind" = ok ] || continue
+            python scripts/km_state.py done "${name%.mp4}"
+          done < /tmp/km_drive
 
       - name: Submit to connected channels through Buffer and Meta (soft - never fails the run)
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.resume_state.outcome == 'success' && steps.drive_state.outcome == 'success' }}
         continue-on-error: true
         env:
           META_ENABLE: ${{ vars.META_ENABLE || 'false' }}
@@ -383,52 +312,50 @@ jobs:
           WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
           WA_TO: ${{ secrets.WA_TO }}
         run: |
-          set +e
-          wa_send() {
-            if [ -z "$WA_TOKEN" ] || [ -z "$WA_PHONE_ID" ] || [ -z "$WA_TO" ]; then echo "WA secrets not set, WhatsApp skipped"; return 0; fi
-            PAYLOAD=$(WA_TEXT="$1" python3 -c "import json,os;print(json.dumps({'messaging_product':'whatsapp','to':os.environ['WA_TO'],'type':'text','text':{'body':os.environ['WA_TEXT']}}))")
-            curl -s --max-time 30 -X POST "https://graph.facebook.com/v21.0/$WA_PHONE_ID/messages" -H "Authorization: Bearer $WA_TOKEN" -H "Content-Type: application/json" --data "$PAYLOAD" | head -c 150
-            echo
-          }
+          set -euo pipefail
           rm -f /tmp/km_publish_result.txt
-          ls out/*.mp4 >/dev/null 2>&1 || { echo "no new mp4, nothing to publish"; exit 0; }
-          if [ -z "$GH_PAT" ]; then echo "Secret GH_PAT is empty - Buffer posting skipped. Reel is safe in Drive."; exit 0; fi
-          echo "::add-mask::$BUFFER_API_KEY"
-          echo "::add-mask::$GH_PAT"
-          git config user.name "km-cloud"
-          git config user.email "km-cloud@users.noreply.github.com"
-          for f in out/*.mp4; do
-            [ -s "$f" ] || continue
-            id=$(basename "$f" .mp4)
-            echo "=== publish $id ==="
-            python3 scripts/km_publish.py "$id"
-          done
-          touch /tmp/km_publish_result.txt
-          while read -r kind id platform rest; do
+          # Durable Drive-complete queue survives failure after upload. Accepted
+          # and pending receipts are never resubmitted. Legacy stories excluded.
+          python scripts/km_state.py candidates > /tmp/km_candidates
+          while read -r id; do
             [ -n "$id" ] || continue
-            case "$kind" in
-              accepted) wa_send "📱 Submission accepted for $platform: $id ($rest). Check the platform for final delivery.";;
-              failed) wa_send "⚠️ $platform submission issue: $id ($rest). Reel is safe in Drive. Inspect the recorded post/container before retrying.";;
-            esac
-          done < /tmp/km_publish_result.txt
-          exit 0
+            python scripts/km_publish.py "$id"
+          done < /tmp/km_candidates
 
-      - name: WhatsApp if the run failed
-        if: failure()
+      - name: One WhatsApp summary per reel (at most once)
+        if: ${{ !cancelled() }}
+        continue-on-error: true
         env:
           WA_TOKEN: ${{ secrets.WA_TOKEN }}
           WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
           WA_TO: ${{ secrets.WA_TO }}
-        run: |
-          set +e
-          if [ -z "$WA_TOKEN" ] || [ -z "$WA_PHONE_ID" ] || [ -z "$WA_TO" ]; then echo "WA secrets not set, WhatsApp skipped"; exit 0; fi
-          PAYLOAD=$(WA_TEXT="❌ Reel run FAILED (story: ${STORY:-Sheet batch}). Open GitHub > Actions > the newest red run, the Summary box says why. Nothing is lost - approve stays, next run resumes." python3 -c "import json,os;print(json.dumps({'messaging_product':'whatsapp','to':os.environ['WA_TO'],'type':'text','text':{'body':os.environ['WA_TEXT']}}))")
-          curl -s --max-time 30 -X POST "https://graph.facebook.com/v21.0/$WA_PHONE_ID/messages" -H "Authorization: Bearer $WA_TOKEN" -H "Content-Type: application/json" --data "$PAYLOAD" | head -c 150
-          echo
+          KM_JOB_STATUS: ${{ job.status }}
+        run: python scripts/km_notify.py
+
+      - name: Preserve state diagnostics (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: km-state-${{ github.run_id }}
+          path: |
+            out/state_attempts/*.json
+            out/done/*.json
+            out/buffer_receipts/*.json
+            one_call_voice/
+            stories/
+            inbox/
+            produced.json
+            /tmp/km_publish_result.txt
+            /tmp/km_drive
+            /tmp/km_candidates
+            out/notifications/*.json
+          retention-days: 7
+          if-no-files-found: warn
 
       - name: Summary
         if: always()
         run: |
+          [ -f /tmp/km_publish_result.txt ] && cat /tmp/km_publish_result.txt >> "$GITHUB_STEP_SUMMARY"
           RC=$(cat /tmp/km_rc 2>/dev/null || echo X)
           SECS=$(cat /tmp/km_secs 2>/dev/null || echo 0)
           SHOW="$STORY"
@@ -436,13 +363,18 @@ jobs:
           {
             echo "## KM reel summary"
             echo "story: ${SHOW:-(none - nothing rendered)} | mode: $MODE | cores: $(nproc)"
-            if [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; echo "Watchdog tail:"; tail -15 /tmp/km_watch.log 2>/dev/null; fi
+            if [ -f /tmp/km_already_done ]; then echo "SKIP: already in Drive on latest main; no new render or message."; elif [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; echo "Watchdog tail:"; tail -15 /tmp/km_watch.log 2>/dev/null; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Mark the run red if the reel was not made
         if: ${{ !cancelled() }}
         run: |
-          if [ -f /tmp/km_ok ]; then exit 0; fi
+          if [ -f /tmp/km_ok ]; then
+            RC=$(cat /tmp/km_rc 2>/dev/null || echo 1)
+            [ "$RC" = 0 ] && exit 0
+            echo "Some reels may be safe in Drive, but the batch did not finish (exit $RC)."
+            exit 1
+          fi
           if grep -q "No newly approved row found" /tmp/km_run.log 2>/dev/null; then echo "Nothing new in the Sheet: not an error."; exit 0; fi
           echo "Reel NOT made, see the summary above."
           exit 1
