@@ -34,7 +34,6 @@ def ensure_layout(rid,always=False):
     try:
         if r.returncode:raise ValueError('converter stopped; see output above')
         new=valid_story(rid)
-        if 'selection' in new:raise ValueError('converter still uses selection; install the yesterday restore first')
         if old is not None:
             identity=lambda s:[(c['vo'],c.get('voice_tone','neutral')) for c in s['cards']]
             if identity(new)!=identity(old):raise ValueError('conversion changed narration/tones; original JSON restored, voice not run')
@@ -94,6 +93,11 @@ def voice_and_render(rid,recover=False):
     out=ROOT/'out'/(rid+'.mp4')
     if not out.is_file() or out.stat().st_size==0:print('STOP: renderer output missing/empty.');return 2
     print('\nREADY: '+str(out),flush=True)
+    try:
+        # Variety history: counted only now, after a real, non-empty render. Never blocks or fails a reel.
+        r2=subprocess.run([PY,'scripts/km_selection.py','commit','stories/'+rid+'.json','out/'+rid+'.mp4'],cwd=str(ROOT),capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
+        print((r2.stdout or '').strip() or ('NOTE: variety history not updated: '+(r2.stderr or '').strip()[-200:]),flush=True)
+    except Exception as e:print('NOTE: variety history not updated ('+str(e)[:120]+'); reel is fine.',flush=True)
     if auto_path:print('Voice auto-accepted from acoustic checks only, not human-heard. Staged cards: '+str(auto_path),flush=True)
     return 0
 
