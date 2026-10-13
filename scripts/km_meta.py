@@ -188,15 +188,52 @@ def brand_topic_first(text):
     return ''.join(out).strip()
 
 
+def fit_threads_caption(pub, pack, text):
+    """Stay within a conservative 500 UTF-8-byte local budget.
+    Meta documents 500 characters and UTF-8 byte counting for emojis, not
+    all Nepali characters. Keeping 500 total bytes is intentionally stricter.
+    Prefer complete sentences or the supplied title, never cut a news claim
+    mid-word or manufacture a summary. Brand topic remains first.
+    """
+    if len(text.encode('utf-8')) <= 500:
+        return text
+    import re
+    tags = re.findall(r'(?<!\S)#[^\s]+', text)
+    body = re.sub(r'(?<!\S)#[^\s]+', '', text).strip()
+    candidates = []
+    # Whole first sentence is a factual excerpt, not a rewritten summary.
+    sentence = re.match(r'^.*?[।.!?](?:\s|$)', body, re.S)
+    if sentence:
+        candidates.append(sentence.group().strip())
+    for field in ('youtube_title', 'title', 'headline'):
+        value = pack.get(field)
+        if isinstance(value, str) and value.strip():
+            try:
+                candidates.append(pub.build_caption(dict(pack, tiktok_caption=value, hashtags=[])))
+            except pub.Soft:
+                pass
+    for candidate in candidates:
+        candidate = re.sub(r'(?<!\S)#[^\s]+', '', candidate).strip()
+        if not candidate or len(candidate.encode('utf-8')) > 500 - len(' #khabarminutenepal'.encode('utf-8')):
+            continue
+        output = candidate + ' #khabarminutenepal'
+        for tag in tags:
+            if tag.lower() == '#khabarminutenepal':
+                continue
+            if len((output + ' ' + tag).encode('utf-8')) <= 500:
+                output += ' ' + tag
+        output = brand_topic_first(output)
+        if len(output.encode('utf-8')) <= 500:
+            print('Threads caption used whole-sentence/title fallback to meet local length budget')
+            return output
+    raise MetaError('Threads caption needs a shorter reviewed title; no complete safe fallback fits local budget')
+
 def caption(pub, pack, network):
     copy = dict(pack)
     copy['tiktok_caption'] = pack.get({'facebook':'facebook_post','instagram':'instagram_caption','threads':'threads_post'}[network]) or pack.get('tiktok_caption')
     text = pub.build_caption(copy)
     if network == 'threads':
-        text = brand_topic_first(text)
-    if network == 'threads' and len(text.encode('utf-8')) > 500:
-        # Fail instead of chopping Nepali text or hashtags into malformed fragments.
-        raise MetaError('Threads caption exceeds conservative 500-byte limit; review a shorter caption')
+        text = fit_threads_caption(pub, pack, brand_topic_first(text))
     return text
 
 
