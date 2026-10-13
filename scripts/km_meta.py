@@ -292,6 +292,9 @@ def run(pub):
     if len(pub.sys.argv) != 2:
         return
     sid = pub.sys.argv[1]
+    if not pub.DRY and (not pub.PERSIST or pub.STATE_BLOCKED):
+        pub.result("failed", sid, "meta state storage blocked; no mutation")
+        return
     if not pub.re.fullmatch(r'[A-Za-z0-9_-]+', sid):
         return
     selected_raw = os.environ.get('PLATFORMS', '').strip()
@@ -322,10 +325,20 @@ def run(pub):
             old = pub.load_receipt(sid, network)
             if old.get('state') == 'accepted':
                 pub.result('skipped', sid, network + ' already accepted'); continue
-            if old.get('state') == 'pending':
+            if old.get('state') in ('pending','unknown'):
                 raise MetaError('previous submission uncertain; inspect recorded container/post, do not retry blindly')
             url = pub.upload_media(sid, os.environ.get('GH_PAT', ''))
             pid, status = submit(pub, sid, network, token, aid, text, url)
             pub.result('accepted', sid, network + ' Meta id=' + pid + ' status=' + status)
         except Exception as e:
-            pub.result('failed', sid, network + ' ' + clean(e))
+            uncertain = False
+            try:
+                old = pub.load_receipt(sid, network)
+                uncertain = old.get('state') in ('pending','unknown')
+                if uncertain and not pub.STATE_BLOCKED and (sid,network) in pub.ATTEMPTS:
+                    fields = {k:v for k,v in old.items() if k not in ('story_id','platform','attempt_id')}
+                    fields['state'] = 'unknown'
+                    pub.save_receipt(sid, network, **fields)
+            except Exception:
+                pass
+            pub.result('unknown' if uncertain else 'failed', sid, network + ' ' + clean(e))

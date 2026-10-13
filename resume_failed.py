@@ -44,7 +44,34 @@ def ensure_layout(rid,always=False):
         print('STOP: '+str(e),flush=True);return False
     return True
 
+
+def restore_cached_voice(rid):
+    from scripts.gemini_voice import MODEL,VOICE
+    import hashlib
+    story=valid_story(rid)
+    texts=[str(c.get('vo','')).strip() for c in story['cards']]
+    tones=[c.get('voice_tone','neutral') for c in story['cards']]
+    fingerprint=hashlib.sha256(json.dumps([texts,tones,MODEL,VOICE,'two_halves_v1'],ensure_ascii=False).encode()).hexdigest()[:20]
+    work=ROOT/'one_call_voice'/fingerprint
+    receipt=work/'installed_reviewed.json'
+    if not receipt.exists():return
+    records=json.loads(receipt.read_text(encoding='utf-8'))
+    if len(records)!=len(texts):raise ValueError('saved voice receipt card count mismatch; no voice request')
+    for item in records:
+        if not re.fullmatch(r'c[0-9]+\.wav',item.get('name','')):raise ValueError('invalid saved card name')
+        src=work/'cards'/item['name']
+        if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest()!=item['sha256']:
+            raise ValueError('saved voice card hash mismatch; no voice request')
+    dest=ROOT/'public'/'voice_in';dest.mkdir(parents=True,exist_ok=True)
+    for f in dest.glob('c*.wav'):f.unlink()
+    # Alignment is audio-specific. The renderer recomputes it from these cards.
+    for name in ('aligned_words.json','alignment_report.json'):
+        (ROOT/'public'/name).unlink(missing_ok=True)
+    for item in records:shutil.copy2(work/'cards'/item['name'],dest/item['name'])
+    print('Restored exact-script cached voice cards; hashes verified. No new voice request.',flush=True)
+
 def voice_and_render(rid,recover=False):
+    restore_cached_voice(rid)
     auto_path=None
     rel='stories/'+rid+'.json'
     r=run([PY,'scripts/gemini_voice.py',rel]+(['--recover-missing'] if recover else []))
@@ -73,6 +100,10 @@ def voice_and_render(rid,recover=False):
 def main():
     args=sys.argv[1:]
     if len(args)>1 or (args and not re.fullmatch(r'[A-Za-z0-9_-]+',args[0])):print('Use: py resume_failed.py [REVIEW_ID]');return 2
+    dp=ROOT/'out'/'done.txt'
+    done=set(dp.read_text(encoding='utf-8').split()) if dp.exists() else set()
+    if args and args[0] in done:
+        print('Already in Drive: '+args[0]+'. No render or voice request.');return 0
     inbox=ROOT/'inbox'
     if not inbox.is_dir():print('STOP: no inbox folder.');return 2
     if args:
@@ -80,7 +111,7 @@ def main():
         if not (inbox/rid).is_dir():print('STOP: review not in inbox.');return 2
         if (ROOT/'out'/(rid+'.mp4')).is_file():print('Already finished: '+rid);return 0
     else:
-        unfinished=[p for p in inbox.iterdir() if p.is_dir() and re.fullmatch(r'[A-Za-z0-9_-]+',p.name) and not (ROOT/'out'/(p.name+'.mp4')).is_file()]
+        unfinished=[p for p in inbox.iterdir() if p.name not in done and p.is_dir() and re.fullmatch(r'[A-Za-z0-9_-]+',p.name) and not (ROOT/'out'/(p.name+'.mp4')).is_file()]
         if not unfinished:print('Nothing unfinished. No voice request made.');return 0
         rid=max(unfinished,key=lambda p:(p.stat().st_mtime_ns,p.name)).name
         print('Default: newest unfinished inbox folder by modified time.')

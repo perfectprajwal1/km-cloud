@@ -12,6 +12,10 @@ Always exits 0: a publishing problem must never fail the render or lose the Driv
 """
 import base64, glob, json, os, re, shutil, subprocess, sys, tempfile, time, unicodedata
 import urllib.error, urllib.request
+import uuid
+import km_state
+STATE_BLOCKED = False
+ATTEMPTS = {}
 
 MEDIA_REPO = os.environ.get("MEDIA_REPO", "perfectprajwal1/km-media")
 MEDIA_BASE = os.environ.get("MEDIA_BASE", "https://perfectprajwal1.github.io/km-media").rstrip("/")
@@ -319,6 +323,8 @@ def receipt_path(sid, network):
 
 
 def load_receipt(sid, network):
+    if PERSIST:
+        return km_state.receipt(sid, network)
     path = receipt_path(sid, network)
     if os.path.isfile(path):
         with open(path, encoding="utf-8") as f:
@@ -331,25 +337,23 @@ def load_receipt(sid, network):
 
 
 def save_receipt(sid, network, **data):
-    os.makedirs(RECEIPTS, exist_ok=True)
-    path = receipt_path(sid, network)
-    data.update(story_id=sid, platform=network)
-    with open(path + ".tmp", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    os.replace(path + ".tmp", path)
-    if PERSIST:
-        # Persist BEFORE the mutation. A lost response must never cause an automatic retry.
-        # Both workflows share the km-reel concurrency group, including manual retries.
-        for args in (["git", "add", path], ["git", "commit", "-q", "-m", "buffer receipt " + sid + " " + network]):
-            r = subprocess.run(args, capture_output=True, text=True, timeout=60)
-            if r.returncode:
-                raise Soft("receipt checkpoint failed; no automatic retry")
-        for attempt in range(3):
-            if subprocess.run(["git", "push", "-q"], capture_output=True, timeout=90).returncode == 0:
-                return
-            # No rebase of receipt files: a conflicting ledger requires human review.
-            time.sleep(5)
-        raise Soft("receipt push failed; check Buffer before retrying")
+    global STATE_BLOCKED
+    if STATE_BLOCKED:
+        raise Soft("state storage blocked; no new mutation allowed")
+    if not PERSIST:
+        raise Soft("live publishing requires durable state; PERSIST_POST_STATE=true")
+    owner = ATTEMPTS.setdefault((sid,network), str(uuid.uuid4()))
+    # Preserve intended outcome separately even if its state push fails. The
+    # pending claim on main still blocks retries after accepted response loss.
+    audit = os.path.join("out", "state_attempts", owner + ".json")
+    os.makedirs(os.path.dirname(audit), exist_ok=True)
+    with open(audit, "w", encoding="utf-8") as f:
+        json.dump(dict(data,story_id=sid,platform=network,attempt_id=owner), f, ensure_ascii=False, indent=2)
+    try:
+        km_state.write_receipt(sid, network, data, owner)
+    except km_state.StateError as e:
+        STATE_BLOCKED = True
+        raise Soft(str(e) + "; inspect state artifact before retrying") from None
 
 
 def main():
@@ -357,6 +361,9 @@ def main():
         print("usage: km_publish.py <story_id>")
         return
     sid = sys.argv[1]
+    if not DRY and not PERSIST:
+        result("failed", sid, "state live posting disabled without durable ledger")
+        return
     key = os.environ.get("BUFFER_API_KEY", "").strip()
     pat = os.environ.get("GH_PAT", "").strip()
     try:
@@ -399,8 +406,8 @@ def main():
             rec = load_receipt(sid, network)
             if rec.get("state") == "accepted":
                 result("skipped", sid, network + " already accepted")
-            elif rec.get("state") == "pending":
-                result("failed", sid, network + " uncertain previous submission; inspect Buffer, do not blindly retry")
+            elif rec.get("state") in ("pending", "unknown"):
+                result("unknown", sid, network + " uncertain previous submission; inspect Buffer, do not blindly retry")
             elif not discovered[network]:
                 continue
             elif len(discovered[network]) != 1:
@@ -416,12 +423,15 @@ def main():
                 result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
             return
         for network in pending:
+            mutation_started = False
             try:
                 ch = discovered[network][0]
                 query = post_query(network, ch, pack, url)
                 save_receipt(sid, network, state="pending", channel_id=ch["id"], media_url=url)
+                mutation_started = True
                 response = gql(query, key)["createPost"]
                 if "message" in response:
+                    mutation_started = False  # definite refusal, safe to distinguish from uncertainty
                     save_receipt(sid, network, state="rejected", reason=secret_free(str(response["message"]), [key, pat]))
                     raise Soft("Buffer refused: " + str(response["message"]))
                 post = response["post"]
@@ -431,7 +441,15 @@ def main():
                 else:
                     result("accepted", sid, network + " Buffer id=" + str(post["id"]) + " status=" + str(post["status"]))
             except Exception as e:
-                result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
+                if mutation_started and not STATE_BLOCKED:
+                    # A durable pending/unknown receipt forbids blind replay.
+                    try:
+                        old = load_receipt(sid, network)
+                        if old.get("state") in ("pending", "unknown"):
+                            save_receipt(sid, network, **dict({k:v for k,v in old.items() if k not in ("story_id","platform","attempt_id")}, state="unknown"))
+                    except Exception:
+                        pass  # existing pending claim remains the safety barrier
+                result("unknown" if mutation_started else "failed", sid, network + " " + secret_free(str(e), [key, pat]))
     except Exception as e:
         for network in PLATFORMS:
             result("failed", sid, network + " " + secret_free(str(e), [key, pat]))
