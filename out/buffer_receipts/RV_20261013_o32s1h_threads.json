@@ -2,7 +2,7 @@
   "state": "pending",
   "channel_id": "28702519189375738",
   "container_id": "17885705715529659",
-  "stage": "processing",
+  "stage": "before_publish",
   "story_id": "RV_20261013_o32s1h",
   "platform": "threads"
 }
