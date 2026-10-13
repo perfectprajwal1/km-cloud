@@ -1,8 +1,9 @@
 {
-  "state": "pending",
+  "state": "accepted",
   "channel_id": "17841423978484959",
   "container_id": "18124314172799283",
-  "stage": "before_publish",
+  "post_id": "18108805937251697",
+  "status": "publish_returned_id",
   "story_id": "RV_20261013_o32s1h",
   "platform": "instagram"
 }
