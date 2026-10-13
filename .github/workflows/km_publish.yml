@@ -27,7 +27,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+      - name: Start from latest main after queue wait
+        run: |
+          set -euo pipefail
+          git fetch --quiet origin main
+          git checkout -B main origin/main
+          git config user.name "km-cloud"
+          git config user.email "km-cloud@users.noreply.github.com"
+          echo "Latest main: $(git rev-parse HEAD)"
+          test -f scripts/km_state.py || { echo "Install incomplete: state helper missing"; exit 1; }
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -57,4 +67,19 @@ jobs:
           git config user.email "km-cloud@users.noreply.github.com"
           python3 scripts/km_publish.py "$STORY"
           cat /tmp/km_publish_result.txt 2>/dev/null
-          if grep -q '^failed' /tmp/km_publish_result.txt 2>/dev/null; then exit 1; fi
+          if grep -qE '^(failed|unknown)' /tmp/km_publish_result.txt 2>/dev/null; then exit 1; fi
+
+      - name: Preserve publish diagnostics (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: km-publish-state-${{ github.run_id }}
+          path: |
+            out/state_attempts/*.json
+            out/buffer_receipts/*.json
+            /tmp/km_publish_result.txt
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Summary
+        if: always()
+        run: cat /tmp/km_publish_result.txt >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
