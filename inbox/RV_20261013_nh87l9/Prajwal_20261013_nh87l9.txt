@@ -1,0 +1,784 @@
+REVIEW ID: RV_20261013_nh87l9
+TOPIC: रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_d12441973ac07027
+DATE: 2026-10-13T13:26:27.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Desh Sanchar
+CATEGORY: tech
+SOURCE: https://deshsanchar.com/2026/10/13/1240280/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ। यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ। सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो। सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो। नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "medical laboratory research in Nepal",
+   "shot_description": "A modern laboratory setting showing scientific equipment used for medical research.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सरको उपचार गरिएको छ।",
+  "big_hook_text": "रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "medical research DNA structure",
+   "shot_description": "An animation showing DNA structure or cellular engineering.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर उपचार गरिन्छ।",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "international medical cooperation",
+   "shot_description": "Global map or handshake representing international collaboration.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "सीआरएम नेपालले अन्तर्राष्ट्रिय संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा नेपालमै विकास गरेको हो।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "स्वीकृति मिति",
+     "value": "२०२६ मार्च ७"
+    }
+   ],
+   "data_source_quote": "सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"
+  },
+  "caption_text": "२०२६ मार्च ७ मा औषधि व्यवस्था विभागले स्वीकृति दिएको थियो।",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "medical hospital building",
+   "shot_description": "Exterior view of a modern hospital building.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "क्यान्सर उपचारमा नयाँ सम्भावना।",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_d12441973ac07027","source_url":"https://deshsanchar.com/2026/10/13/1240280/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/13/1240280/","article_quote":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"रगतको क्यान्सर मार्ने 'जीवित औषधि' नेपालमै कसरी बन्यो र यसले कसरी काम गर्छ?","closing_line":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","comment_prompt":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","pinned_comment":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"medical laboratory research in Nepal","shot_description":"A modern laboratory setting showing scientific equipment used for medical research.","depiction_scope":"generic_illustration"},"caption_text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सरको उपचार गरिएको छ।","big_hook_text":"रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ","pip_mode":"off","source_evidence":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"medical research DNA structure","shot_description":"An animation showing DNA structure or cellular engineering.","depiction_scope":"generic_illustration"},"caption_text":"टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर उपचार गरिन्छ।","big_hook_text":"","pip_mode":"off","source_evidence":"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"international medical cooperation","shot_description":"Global map or handshake representing international collaboration.","depiction_scope":"generic_illustration"},"caption_text":"सीआरएम नेपालले अन्तर्राष्ट्रिय संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा नेपालमै विकास गरेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"स्वीकृति मिति","value":"२०२६ मार्च ७"}],"data_source_quote":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"},"caption_text":"२०२६ मार्च ७ मा औषधि व्यवस्था विभागले स्वीकृति दिएको थियो।","big_hook_text":"","pip_mode":"off","source_evidence":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"medical hospital building","shot_description":"Exterior view of a modern hospital building.","depiction_scope":"generic_illustration"},"caption_text":"क्यान्सर उपचारमा नयाँ सम्भावना।","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालमै बन्यो रगतको क्यान्सर मार्ने 'जीवित औषधि'!","youtube_description":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। यो प्रविधि र यसको विकासबारे थप जानकारी Desh Sanchar मा पढ्नुहोस्: https://deshsanchar.com/2026/10/13/1240280/","youtube_tags":["Nepal","CancerTreatment","CARTcell","HealthNews","MedicalInnovation","DeshSanchar","CancerResearch","NepalHealth","ClinicalTrial","Science"],"tiktok_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।","instagram_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","facebook_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","threads_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","linkedin_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","hashtags":["#Nepal","#CancerTreatment","#CART","#HealthNews","#MedicalInnovation","#DeshSanchar"],"source_credit":"Source: Desh Sanchar"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 4: मिति
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+SOFT-FAIL SHIPPED after 2 correction rounds. Waived soft check(s): DURATION. All hard checks (facts, quotes, grounding, sources, credits) PASSED. Review carefully before publishing.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: One claim lacks direct support in the article; all other claims are supported.
+Closing: removed question wording ("के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?"); dropped line(s) 6; last line is now: "नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।".
+B-roll: only 2/5 lines show this story's own facts; line(s) 1, 5 use general topic footage.
+Line 5: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 2: no different truthful card fits; previous card stays on screen.
+Line 3: text-only card used (no data card fits this line).
+Line 5: previous card shows a number this line does not say; held an earlier number-free card instead.
+
+--- ALTERNATE HOOK ---
+रगतको क्यान्सर मार्ने 'जीवित औषधि' नेपालमै कसरी बन्यो र यसले कसरी काम गर्छ?
+
+--- PINNED COMMENT (Nepali question) ---
+के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "modern medical laboratory Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "modern medical laboratory Nepal",
+   "alt_queries": [
+    "laboratory equipment closeup",
+    "scientists working with microscopes"
+   ],
+   "query_source": "director",
+   "shot_description": "A modern laboratory setting showing scientific equipment used for medical research.",
+   "commons": null,
+   "map": null,
+   "motion_text": "रगतको क्यान्सर",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "modern medical laboratory Nepal",
+     "search_url": "https://www.pexels.com/search/videos/modern%20medical%20laboratory%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=modern%20medical%20laboratory%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "A modern laboratory setting showing scientific equipment used for medical research.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "modern medical laboratory Nepal",
+     "search_url": "https://pixabay.com/videos/search/modern%20medical%20laboratory%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=modern%20medical%20laboratory%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "laboratory equipment closeup",
+     "search_url": "https://www.pexels.com/search/videos/laboratory%20equipment%20closeup/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=laboratory%20equipment%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "scientists working with microscopes",
+     "search_url": "https://www.pexels.com/search/videos/scientists%20working%20with%20microscopes/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=scientists%20working%20with%20microscopes&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "modern medical laboratory Nepal",
+     "search_url": "https://openverse.org/search/image?q=modern%20medical%20laboratory%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=modern%20medical%20laboratory%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "रगतको क्यान्सर",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L1 [full] STOCK VIDEO via pexels_video: \"modern medical laboratory Nepal\" | then stock video @pixabay \"modern medical laboratory Nepal\", stock video @pexels \"laboratory equipment closeup\", stock video @pexels \"scientists working with microscopes\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral",
+  "broll": "DNA engineering animation",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "DNA engineering animation",
+   "alt_queries": [
+    "cellular editing graphics",
+    "gene therapy illustration"
+   ],
+   "query_source": "director",
+   "shot_description": "An animation showing DNA structure or cellular engineering.",
+   "commons": null,
+   "map": null,
+   "motion_text": "जीन इन्जिनियरिङ",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "DNA engineering animation",
+     "search_url": "https://www.pexels.com/search/videos/DNA%20engineering%20animation/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=DNA%20engineering%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "An animation showing DNA structure or cellular engineering.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "DNA engineering animation",
+     "search_url": "https://pixabay.com/videos/search/DNA%20engineering%20animation/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=DNA%20engineering%20animation&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cellular editing graphics",
+     "search_url": "https://www.pexels.com/search/videos/cellular%20editing%20graphics/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cellular%20editing%20graphics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "gene therapy illustration",
+     "search_url": "https://www.pexels.com/search/videos/gene%20therapy%20illustration/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=gene%20therapy%20illustration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "DNA engineering animation",
+     "search_url": "https://openverse.org/search/image?q=DNA%20engineering%20animation",
+     "api": "GET https://api.openverse.org/v1/images/?q=DNA%20engineering%20animation&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "जीन इन्जिनियरिङ",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L2 [full] QUOTE CARD via local_render: \"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिका\" | then stock video @pexels \"DNA engineering animation\" [bg], stock video @pixabay \"DNA engineering animation\", stock video @pexels \"cellular editing graphics\" | quality: quote_card"
+  }
+ },
+ {
+  "text": "सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "international medical collaboration",
+  "broll_kind": "flag_row",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "flag_row",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "international medical collaboration",
+   "alt_queries": [
+    "global research partnership",
+    "international medical cooperation"
+   ],
+   "query_source": "director",
+   "shot_description": "Global map or handshake representing international collaboration.",
+   "commons": null,
+   "map": null,
+   "motion_text": "अमेरिकी, जर्मन",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      },
+      {
+       "name": "ब्राजिल",
+       "en": "Brazil",
+       "file": "Flag_of_Brazil.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "international medical collaboration",
+     "search_url": "https://www.pexels.com/search/videos/international%20medical%20collaboration/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=international%20medical%20collaboration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Global map or handshake representing international collaboration.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "international medical collaboration",
+     "search_url": "https://pixabay.com/videos/search/international%20medical%20collaboration/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=international%20medical%20collaboration&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "global research partnership",
+     "search_url": "https://www.pexels.com/search/videos/global%20research%20partnership/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=global%20research%20partnership&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "international medical cooperation",
+     "search_url": "https://www.pexels.com/search/videos/international%20medical%20cooperation/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=international%20medical%20cooperation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "international medical collaboration",
+     "search_url": "https://openverse.org/search/image?q=international%20medical%20collaboration",
+     "api": "GET https://api.openverse.org/v1/images/?q=international%20medical%20collaboration&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अमेरिकी, जर्मन",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L3 [full] FLAG ROW via wikimedia_commons: \"नेपाल, ब्राजिल\" | then stock video @pexels \"international medical collaboration\" [bg], stock video @pixabay \"international medical collaboration\", stock video @pexels \"global research partnership\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "government approval document",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "government approval document",
+   "alt_queries": [
+    "official seal closeup",
+    "date stamp graphic"
+   ],
+   "query_source": "director",
+   "shot_description": "Info graphic showing approval date.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "स्वीकृति मिति",
+     "value": "२०२६ मार्च ७"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "स्वीकृति मिति",
+       "value": "२०२६ मार्च ७"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "government approval document",
+     "search_url": "https://www.pexels.com/search/videos/government%20approval%20document/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=government%20approval%20document&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Info graphic showing approval date.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "government approval document",
+     "search_url": "https://pixabay.com/videos/search/government%20approval%20document/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=government%20approval%20document&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "official seal closeup",
+     "search_url": "https://www.pexels.com/search/videos/official%20seal%20closeup/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=official%20seal%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "date stamp graphic",
+     "search_url": "https://www.pexels.com/search/videos/date%20stamp%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=date%20stamp%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "government approval document",
+     "search_url": "https://openverse.org/search/image?q=government%20approval%20document",
+     "api": "GET https://api.openverse.org/v1/images/?q=government%20approval%20document&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"स्वीकृति मिति २०२६ मार्च ७\" | then stock video @pexels \"government approval document\" [bg], stock video @pixabay \"government approval document\", stock video @pexels \"official seal closeup\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "hospital exterior modern Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "hospital exterior modern Nepal",
+   "alt_queries": [
+    "medical center facade",
+    "healthcare building front"
+   ],
+   "query_source": "director",
+   "shot_description": "Exterior view of a modern hospital building.",
+   "commons": null,
+   "map": null,
+   "motion_text": "नयाँ सम्भावना",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "hospital exterior modern Nepal",
+     "search_url": "https://www.pexels.com/search/videos/hospital%20exterior%20modern%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=hospital%20exterior%20modern%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Exterior view of a modern hospital building.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "hospital exterior modern Nepal",
+     "search_url": "https://pixabay.com/videos/search/hospital%20exterior%20modern%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=hospital%20exterior%20modern%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "medical center facade",
+     "search_url": "https://www.pexels.com/search/videos/medical%20center%20facade/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=medical%20center%20facade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "healthcare building front",
+     "search_url": "https://www.pexels.com/search/videos/healthcare%20building%20front/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=healthcare%20building%20front&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "hospital exterior modern Nepal",
+     "search_url": "https://openverse.org/search/image?q=hospital%20exterior%20modern%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=hospital%20exterior%20modern%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नयाँ सम्भावना",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"hospital exterior modern Nepal\" | then stock video @pixabay \"hospital exterior modern Nepal\", stock video @pexels \"medical center facade\", stock video @pexels \"healthcare building front\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 2/5 content lines; article quote cards 1; topic stock only 2; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] STOCK VIDEO via pexels_video: "modern medical laboratory Nepal" | then stock video @pixabay "modern medical laboratory Nepal", stock video @pexels "laboratory equipment closeup", stock video @pexels "scientists working with microscopes" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/modern%20medical%20laboratory%20Nepal/?orientation=portrait
+L2 [full] QUOTE CARD via local_render: "सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिका" | then stock video @pexels "DNA engineering animation" [bg], stock video @pixabay "DNA engineering animation", stock video @pexels "cellular editing graphics" | quality: quote_card
+L3 [full] FLAG ROW via wikimedia_commons: "नेपाल, ब्राजिल" | then stock video @pexels "international medical collaboration" [bg], stock video @pixabay "international medical collaboration", stock video @pexels "global research partnership" | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "स्वीकृति मिति २०२६ मार्च ७" | then stock video @pexels "government approval document" [bg], stock video @pixabay "government approval document", stock video @pexels "official seal closeup" | quality: story_fact
+L5 [full] STOCK VIDEO via pexels_video: "hospital exterior modern Nepal" | then stock video @pixabay "hospital exterior modern Nepal", stock video @pexels "medical center facade", stock video @pexels "healthcare building front" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/hospital%20exterior%20modern%20Nepal/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "नेपालमै बन्यो रगतको क्यान्सर मार्ने 'जीवित औषधि'!",
+ "youtube_description": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। यो प्रविधि र यसको विकासबारे थप जानकारी Desh Sanchar मा पढ्नुहोस्: https://deshsanchar.com/2026/10/13/1240280/\nSource: Desh Sanchar",
+ "youtube_tags": [
+  "Nepal",
+  "CancerTreatment",
+  "CARTcell",
+  "HealthNews",
+  "MedicalInnovation",
+  "DeshSanchar",
+  "CancerResearch",
+  "NepalHealth",
+  "ClinicalTrial",
+  "Science"
+ ],
+ "tiktok_caption": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+ "instagram_caption": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/\nSource: Desh Sanchar",
+ "facebook_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/\nSource: Desh Sanchar",
+ "threads_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/\nSource: Desh Sanchar",
+ "linkedin_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/\nSource: Desh Sanchar",
+ "hashtags": [
+  "#Nepal",
+  "#CancerTreatment",
+  "#CART",
+  "#HealthNews",
+  "#MedicalInnovation",
+  "#DeshSanchar"
+ ],
+ "source_credit": "Source: Desh Sanchar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261013_nh87l9","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261013_nh87l9","review_date":"20261013","title":"रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?","chosen_topic":"रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?","category":"tech","source_url":"https://deshsanchar.com/2026/10/13/1240280/","story_id":"ST_d12441973ac07027","risk_flag":"NORMAL","source_credit":"Source: Desh Sanchar","full_script":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ। यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ। सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो। सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो। नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","hook":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","alternate_hook":"रगतको क्यान्सर मार्ने 'जीवित औषधि' नेपालमै कसरी बन्यो र यसले कसरी काम गर्छ?","hook_type":"stakes","closing_line":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","pinned_comment":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","lines":[{"text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","voice":"serious","pose":"serious","broll":"modern medical laboratory Nepal","broll_kind":"stock_video"},{"text":"यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ।","voice":"neutral_talking","pose":"neutral","broll":"DNA engineering animation","broll_kind":"quote_card"},{"text":"सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","voice":"neutral","pose":"neutral","broll":"international medical collaboration","broll_kind":"flag_row"},{"text":"सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।","voice":"neutral","pose":"neutral","broll":"government approval document","broll_kind":"number_card"},{"text":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","voice":"neutral","pose":"neutral","broll":"hospital exterior modern Nepal","broll_kind":"stock_video"}],"word_count":65,"workbook":{"schema_version":"6.6.9","story_id":"ST_d12441973ac07027","source_url":"https://deshsanchar.com/2026/10/13/1240280/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/13/1240280/","article_quote":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"रगतको क्यान्सर मार्ने 'जीवित औषधि' नेपालमै कसरी बन्यो र यसले कसरी काम गर्छ?","closing_line":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","comment_prompt":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","pinned_comment":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"medical laboratory research in Nepal","shot_description":"A modern laboratory setting showing scientific equipment used for medical research.","depiction_scope":"generic_illustration"},"caption_text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सरको उपचार गरिएको छ।","big_hook_text":"रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ","pip_mode":"off","source_evidence":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"medical research DNA structure","shot_description":"An animation showing DNA structure or cellular engineering.","depiction_scope":"generic_illustration"},"caption_text":"टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर उपचार गरिन्छ।","big_hook_text":"","pip_mode":"off","source_evidence":"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"international medical cooperation","shot_description":"Global map or handshake representing international collaboration.","depiction_scope":"generic_illustration"},"caption_text":"सीआरएम नेपालले अन्तर्राष्ट्रिय संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा नेपालमै विकास गरेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"स्वीकृति मिति","value":"२०२६ मार्च ७"}],"data_source_quote":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"},"caption_text":"२०२६ मार्च ७ मा औषधि व्यवस्था विभागले स्वीकृति दिएको थियो।","big_hook_text":"","pip_mode":"off","source_evidence":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"medical hospital building","shot_description":"Exterior view of a modern hospital building.","depiction_scope":"generic_illustration"},"caption_text":"क्यान्सर उपचारमा नयाँ सम्भावना।","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालमै बन्यो रगतको क्यान्सर मार्ने 'जीवित औषधि'!","youtube_description":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। यो प्रविधि र यसको विकासबारे थप जानकारी Desh Sanchar मा पढ्नुहोस्: https://deshsanchar.com/2026/10/13/1240280/","youtube_tags":["Nepal","CancerTreatment","CARTcell","HealthNews","MedicalInnovation","DeshSanchar","CancerResearch","NepalHealth","ClinicalTrial","Science"],"tiktok_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।","instagram_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","facebook_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","threads_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","linkedin_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","hashtags":["#Nepal","#CancerTreatment","#CART","#HealthNews","#MedicalInnovation","#DeshSanchar"],"source_credit":"Source: Desh Sanchar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"medical laboratory research in Nepal","shot_description":"A modern laboratory setting showing scientific equipment used for medical research.","depiction_scope":"generic_illustration"},"caption_text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सरको उपचार गरिएको छ।","big_hook_text":"रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"medical research DNA structure","shot_description":"An animation showing DNA structure or cellular engineering.","depiction_scope":"generic_illustration"},"caption_text":"टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर उपचार गरिन्छ।","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"international medical cooperation","shot_description":"Global map or handshake representing international collaboration.","depiction_scope":"generic_illustration"},"caption_text":"सीआरएम नेपालले अन्तर्राष्ट्रिय संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा नेपालमै विकास गरेको हो।"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"स्वीकृति मिति","value":"२०२६ मार्च ७"}],"data_source_quote":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"},"caption_text":"२०२६ मार्च ७ मा औषधि व्यवस्था विभागले स्वीकृति दिएको थियो।","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"medical hospital building","shot_description":"Exterior view of a modern hospital building.","depiction_scope":"generic_illustration"},"caption_text":"क्यान्सर उपचारमा नयाँ सम्भावना।","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।"}],"lines_legacy":[{"text":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","voice":"serious","pose":"serious","broll":"modern medical laboratory Nepal","broll_kind":"stock_video"},{"text":"यो प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरेर क्यान्सर कोशिकाहरूलाई लक्षित गर्दै उपचार गरिन्छ।","voice":"neutral_talking","pose":"neutral","broll":"DNA engineering animation","broll_kind":"quote_card"},{"text":"सीआरएम नेपालले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा यो प्रविधि विकास गरेको हो।","voice":"neutral","pose":"neutral","broll":"international medical collaboration","broll_kind":"flag_row"},{"text":"सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।","voice":"neutral","pose":"neutral","broll":"government approval document","broll_kind":"number_card"},{"text":"नेपालमा यो प्रविधिको विकास र प्रयोगले क्यान्सर उपचारमा नयाँ सम्भावना थपेको छ।","voice":"neutral","pose":"neutral","broll":"hospital exterior modern Nepal","broll_kind":"stock_video"}],"youtube_title":"नेपालमै बन्यो रगतको क्यान्सर मार्ने 'जीवित औषधि'!","youtube_description":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। यो प्रविधि र यसको विकासबारे थप जानकारी Desh Sanchar मा पढ्नुहोस्: https://deshsanchar.com/2026/10/13/1240280/","youtube_tags":["Nepal","CancerTreatment","CARTcell","HealthNews","MedicalInnovation","DeshSanchar","CancerResearch","NepalHealth","ClinicalTrial","Science"],"tiktok_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar","instagram_caption":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","facebook_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","threads_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","linkedin_post":"नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ। थप जानकारी Desh Sanchar मा: https://deshsanchar.com/2026/10/13/1240280/","hashtags":["#Nepal","#CancerTreatment","#CART","#HealthNews","#MedicalInnovation","#DeshSanchar"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"modern medical laboratory Nepal","alt_queries":["laboratory equipment closeup","scientists working with microscopes"],"query_source":"director","shot_description":"A modern laboratory setting showing scientific equipment used for medical research.","commons":null,"map":null,"motion_text":"रगतको क्यान्सर","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"modern medical laboratory Nepal","search_url":"https://www.pexels.com/search/videos/modern%20medical%20laboratory%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=modern%20medical%20laboratory%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"A modern laboratory setting showing scientific equipment used for medical research.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"modern medical laboratory Nepal","search_url":"https://pixabay.com/videos/search/modern%20medical%20laboratory%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=modern%20medical%20laboratory%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"laboratory equipment closeup","search_url":"https://www.pexels.com/search/videos/laboratory%20equipment%20closeup/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=laboratory%20equipment%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"scientists working with microscopes","search_url":"https://www.pexels.com/search/videos/scientists%20working%20with%20microscopes/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=scientists%20working%20with%20microscopes&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"modern medical laboratory Nepal","search_url":"https://openverse.org/search/image?q=modern%20medical%20laboratory%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=modern%20medical%20laboratory%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"गत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"रगतको क्यान्सर","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L1 [full] STOCK VIDEO via pexels_video: \"modern medical laboratory Nepal\" | then stock video @pixabay \"modern medical laboratory Nepal\", stock video @pexels \"laboratory equipment closeup\", stock video @pexels \"scientists working with microscopes\" | quality: topic_stock"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"DNA engineering animation","alt_queries":["cellular editing graphics","gene therapy illustration"],"query_source":"director","shot_description":"An animation showing DNA structure or cellular engineering.","commons":null,"map":null,"motion_text":"जीन इन्जिनियरिङ","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"DNA engineering animation","search_url":"https://www.pexels.com/search/videos/DNA%20engineering%20animation/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=DNA%20engineering%20animation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"An animation showing DNA structure or cellular engineering.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"DNA engineering animation","search_url":"https://pixabay.com/videos/search/DNA%20engineering%20animation/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=DNA%20engineering%20animation&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"cellular editing graphics","search_url":"https://www.pexels.com/search/videos/cellular%20editing%20graphics/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cellular%20editing%20graphics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"gene therapy illustration","search_url":"https://www.pexels.com/search/videos/gene%20therapy%20illustration/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=gene%20therapy%20illustration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"DNA engineering animation","search_url":"https://openverse.org/search/image?q=DNA%20engineering%20animation","api":"GET https://api.openverse.org/v1/images/?q=DNA%20engineering%20animation&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"जीन इन्जिनियरिङ","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L2 [full] QUOTE CARD via local_render: \"सीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिका\" | then stock video @pexels \"DNA engineering animation\" [bg], stock video @pixabay \"DNA engineering animation\", stock video @pexels \"cellular editing graphics\" | quality: quote_card"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"flag_row","quality":"story_fact","anchor":"","primary_query":"international medical collaboration","alt_queries":["global research partnership","international medical cooperation"],"query_source":"director","shot_description":"Global map or handshake representing international collaboration.","commons":null,"map":null,"motion_text":"अमेरिकी, जर्मन","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"},{"name":"ब्राजिल","en":"Brazil","file":"Flag_of_Brazil.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Brazil.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":1},{"kind":"stock_video","source":"pexels_video","query":"international medical collaboration","search_url":"https://www.pexels.com/search/videos/international%20medical%20collaboration/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=international%20medical%20collaboration&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Global map or handshake representing international collaboration.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"international medical collaboration","search_url":"https://pixabay.com/videos/search/international%20medical%20collaboration/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=international%20medical%20collaboration&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"global research partnership","search_url":"https://www.pexels.com/search/videos/global%20research%20partnership/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=global%20research%20partnership&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"international medical cooperation","search_url":"https://www.pexels.com/search/videos/international%20medical%20cooperation/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=international%20medical%20cooperation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"international medical collaboration","search_url":"https://openverse.org/search/image?q=international%20medical%20collaboration","api":"GET https://api.openverse.org/v1/images/?q=international%20medical%20collaboration&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"काठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"अमेरिकी, जर्मन","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L3 [full] FLAG ROW via wikimedia_commons: \"नेपाल, ब्राजिल\" | then stock video @pexels \"international medical collaboration\" [bg], stock video @pixabay \"international medical collaboration\", stock video @pexels \"global research partnership\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"government approval document","alt_queries":["official seal closeup","date stamp graphic"],"query_source":"director","shot_description":"Info graphic showing approval date.","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"स्वीकृति मिति","value":"२०२६ मार्च ७"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"स्वीकृति मिति","value":"२०२६ मार्च ७"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"government approval document","search_url":"https://www.pexels.com/search/videos/government%20approval%20document/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=government%20approval%20document&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Info graphic showing approval date.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"government approval document","search_url":"https://pixabay.com/videos/search/government%20approval%20document/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=government%20approval%20document&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"official seal closeup","search_url":"https://www.pexels.com/search/videos/official%20seal%20closeup/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=official%20seal%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"date stamp graphic","search_url":"https://www.pexels.com/search/videos/date%20stamp%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=date%20stamp%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"government approval document","search_url":"https://openverse.org/search/image?q=government%20approval%20document","api":"GET https://api.openverse.org/v1/images/?q=government%20approval%20document&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"सन् २०२६ को मार्च ७ मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो।","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"स्वीकृति मिति २०२६ मार्च ७\" | then stock video @pexels \"government approval document\" [bg], stock video @pixabay \"government approval document\", stock video @pexels \"official seal closeup\" | quality: story_fact"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"hospital exterior modern Nepal","alt_queries":["medical center facade","healthcare building front"],"query_source":"director","shot_description":"Exterior view of a modern hospital building.","commons":null,"map":null,"motion_text":"नयाँ सम्भावना","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"hospital exterior modern Nepal","search_url":"https://www.pexels.com/search/videos/hospital%20exterior%20modern%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=hospital%20exterior%20modern%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Exterior view of a modern hospital building.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"hospital exterior modern Nepal","search_url":"https://pixabay.com/videos/search/hospital%20exterior%20modern%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=hospital%20exterior%20modern%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"medical center facade","search_url":"https://www.pexels.com/search/videos/medical%20center%20facade/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=medical%20center%20facade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"healthcare building front","search_url":"https://www.pexels.com/search/videos/healthcare%20building%20front/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=healthcare%20building%20front&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"hospital exterior modern Nepal","search_url":"https://openverse.org/search/image?q=hospital%20exterior%20modern%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=hospital%20exterior%20modern%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"काठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"नयाँ सम्भावना","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"hospital exterior modern Nepal\" | then stock video @pixabay \"hospital exterior modern Nepal\", stock video @pexels \"medical center facade\", stock video @pexels \"healthcare building front\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":2,"quote_card":1,"topic_stock":2,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":2,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 2/5 content lines; article quote cards 1; topic stock only 2; needs a pick 0","lines_with_stock_query":5,"lines_with_commons":0,"lines_with_map":0,"rejected":[]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.89,"removed_text":["के तपाईंलाई नेपालमा यस्ता आधुनिक प्रविधिहरूको विकासले क्यान्सर उपचारमा ठूलो परिवर्तन ल्याउला जस्तो लाग्छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"त्रिवि शिक्षण अस्पतालमा रगतको क्यान्सर भएका बिरामीलाई 'सीएआर-टी' प्रविधिबाट उपचार गरिएको छ।","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"प्रविधिबाट"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Tribi Shikshan Hospital","in_line":"त्रिवि शिक्षण अस्पताल","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"laboratory research Nepal","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=laboratory%20research%20Nepal&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=laboratory%20research%20Nepal&ns6=1"},{"rank":2,"source":"openverse","query":"medical scientists Nepal","api":"https://api.openverse.org/v1/images/?q=medical%20scientists%20Nepal&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=medical%20scientists%20Nepal&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"clinical trial lab","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=clinical%20trial%20lab&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=clinical%20trial%20lab&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":3,"beat":"detail","card":{"type":"kicker","fields":{"text":"सहकार्यमा यो प्रविधि विकास गरेको हो"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"संस्थासँगको"}},"picture":{"status":"candidates","subject":{"kind":"entity","name_en":"CRME Nepal","in_line":"सीआरएम नेपाल","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"medical research partnership","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=medical%20research%20partnership&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=medical%20research%20partnership&ns6=1"},{"rank":2,"source":"openverse","query":"global health cooperation","api":"https://api.openverse.org/v1/images/?q=global%20health%20cooperation&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=global%20health%20cooperation&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"international science project","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=international%20science%20project&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=international%20science%20project&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":4,"beat":"pivot","card":{"type":"bignum","fields":{"value":"7","decimals":0,"unit":"","prefix":"","label":"सन् २०२६ को मार्च","sub":"मा औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई स्वीकृति दिएको थियो","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"dots","total":7,"hi":7,"label":"सन् २०२६ को मार्च","fallback_kind":"dots"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":5,"beat":"closing","card":{"type":"kicker","hold_from_line":3,"fields":null},"strip":{"hold_from_line":3},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":2,"types_used":{"hook":1,"kicker":1,"bignum":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":1,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":2,"chosen_topic":"रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?","category":"tech","reason":"A breakthrough medical innovation made locally taps GenZ curiosity for science, health, and national pride, offering a compelling, share‑worthy story that can spark discussions and inspire pride in Nepali ingenuity.","angle":"Highlight Nepal’s homegrown biotech breakthrough, the youthful scientists behind it, and its potential to save lives—positioning the story as a proud ‘Made in Nepal’ success that GenZ can rally behind.","chosen_id_recovered":false,"chosen_headline_exact":"रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?","source_url":"https://deshsanchar.com/2026/10/13/1240280/","source_feed":"Desh Sanchar","rss_pub_date":"2026-10-13T13:26:27.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":188,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":35,"direct_headline_count":168,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_d12441973ac07027","source_credit":"Source: Desh Sanchar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.5679725,"date_unknown":false,"article_text":"रगतको क्यान्सरलाई मार्ने 'जीवित औषधि' नेपालमै कसरी बन्यो?\nरगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?\nज्ञान मित्र\n२०८३ असोज २७ गते १९:११\nअ\n+\nअ\nअ\n-\nदेशसञ्चार AI सारांश\nकाठमाडौंमा ‘सीएआर-टी’ प्रौद्योगिकी विकास भएकाे, जसले रगतको क्यान्सर भएका बिरामीमा पहिलोपटक सफल क्लिनिकल प्रयोग गरिएकाे छ।\nसीएआर-टी प्रविधि अन्तर्गत टी-सेलमा जीन इन्जिनियरिङ गरी क्यान्सर कोशिकाहरूलाई लक्षित गर्दै प्रभावकारी उपचार गरिन्छ।\nयो प्रविधिमा महंगाे लागत, साइड इफेक्ट व्यवस्थापन र विस्तृत पूर्वाधारका चुनौतीहरू हुन सक्नेतथा एआई माध्यमबाट सुधार गर्ने सम्भावना छ।\nकाठमाडौंमा बनेको पहिलो ‘सीएआर-टी’ प्रविधि सेन्टर फर रिजेनेरेटिभ मेडिसिन नेपाल (सीआरएम नेपाल) ले अमेरिकी, जर्मन र ब्राजिलियन संस्थासँगको सहकार्यमा नेपालमै विकास गरेको हो। २०२२ देखि सुरु भएको अनुसन्धानपछि सन् २०२६ को मार्च ७ मा नेपालको औषधि व्यवस्था विभागले यसको क्लिनिकल प्रयोगलाई पहिलोपटक स्वीकृति दिएको थियो।\nगत असोज ११ गते त्रिवि शिक्षण अस्पतालमा एक्युट लिम्फोब्लास्टिक ल्युकेमिया (एएलएल) अर्थात रगतको क्यान्सर भएका बिरामीलाई यो सेल चढाइएको हो। हेमाटो-अङ्कोलोजिष्ट डा.अञ्जन श्रेष्ठ र डा. प्रशुन उपाध्यायको टिमले उपचार गरेको र अहिले बिरामी अवस्था स्थिर रहेको बताइएको छ।\nयसअघि २०२४ मै सीआरएम नेपालले ल्याबमा स्वस्थ दाताको टी-सेलमा ५०% सम्म सीएआर हालेर २४ घण्टामा ९०% बी -सेल क्यान्सर नष्ट गर्न सफल भएको प्रि-क्लिनिकल परीक्षण गरेको थियो।\nपहिला टी-सेलका बारेमा बुझौ-\nटी-सेल बुझ्नको लागि यसलाई हाम्रो शरीरको सबैभन्दा चलाख कमाण्डो फोर्स भनेर बुझ्नुहोस्।\nहाम्रो रगतमा दुई किसिमका सिपाही हुन्छन् – बी-सेल र टी-सेल। बी-सेलले टाढैबाट गोला (एन्टिबडी) हानेर शत्रुलाई मार्छ, भने टी-सेलले शत्रुको नजिक गएर, हातले समातेर, जाँचेर मार्छन्। त्यसैले यसलाई चलाख भनिएको हो।\nटी-सेल के हो र कहाँ बन्छ?\nटी-सेलको ‘टी’को अर्थ हो थाइमस। यो हाम्रो छातीको बीचमा हुने एउटा ग्रन्थी हो। सबै टी-सेलहरू हड्डीको मज्जा (बोन म्यारो) मा जन्मिन्छन्, तर तालिम लिन थाइमसमा जान्छन्। थाइमसमा तिनलाई दुई कडा प्रशिक्षण दिइन्छ।\n१. आफ्नै मान्छेलाई नमार्ने प्रशिक्षण: यदि कुनै टी-सेलले आफ्नै शरीरको कोषलाई शत्रु भनेर आक्रमण गर्‍यो भने, त्यो त्यहीँ मारिन्छ। यसले अटोइम्युन रोग हुनबाट जोगाउँछ।\n२. काम लाग्ने प्रशिक्षण: यदि कुनै टी-सेलले केही पनि चिन्न सकेन भने, त्यो पनि हटाइन्छ।\nयो कडा तालिम पास गरेर निस्किएका टी-सेलहरू मात्र हाम्रो रगतमा पठाइन्छन्। त्यसैले तिनीहरू यति स्मार्ट हुन्छन्।\nटी-सेलका ४ मुख्य प्रकार – एउटै परिवार, काम फरक-फरक\n१. किलर टी-सेल (Cytotoxic T-cell – CD8+):\nयो प्रत्यक्ष मार्ने कमाण्डो हो। यसले भाइरसले संक्रमित भएको कोष वा क्यान्सर भएको कोषलाई सिधै प्वाल पारेर मार्छ। ‘सीएआर-टी’मा यही किलर टी-सेललाई नै सुपर-पावर दिइन्छ।\n२. हेल्पर टी-सेल (Helper T-cell – CD4+):\nयो सेनाको जनरल हो। यसले आफैले मार्दैन, तर अरूलाई आदेश दिन्छ। “यहाँ शत्रु छ, सबै जना आऊ” भनेर साइटोकाइन (Cytokine) नामको सन्देश पठाउँछ। यसले बी-सेललाई एन्टिबडी बनाउन र किलर टी-सेललाई अझ सक्रिय हुन मद्दत गर्छ। एचआईभीको भाइरसले यही हेल्पर टी -सेललाई मारिदिन्छ, त्यसैले शरीर कमजोर हुन्छ। एचआईभीको पूरा नाम हो – ह्यूमन इम्मुनोडेफिशियेंसी भाइरस।\n३. मेमोरी टी-सेल (Memory T-cell):\nयो हाम्रो शरीरको इन्टेलिजेन्स विभाग हो। एकपटक कुनै भाइरससँग लडिसकेपछि, यो त्यसको फोटो (सूचना) जीवनभर याद गरेर राख्छ। फेरि त्यही भाइरस आयो भने, यसले तुरुन्तै सेनालाई बोलाउँछ। खोप (Vaccine) ले यही मेमोरी टी-सेल बनाउँछ।\n४. रेगुलेटरी टी-सेल (Regulatory T-cell):\nयो शान्ति सेना हो। लडाई सकिएपछि “अब धेरै भयो, लडाई बन्द गर” भनेर अरू टी-सेललाई रोक्छ। नत्र हाम्रै इम्युन सिस्टमले आफ्नै शरीरलाई नष्ट गरिदिन्थ्यो।\nटी-सेलले शत्रु कसरी चिन्छ?\nहरेक टी-सेलको सतहमा एउटा विशेष हात हुन्छ – टीसीआर (टी-सेल रिसेप्टर)।\nयो हात ताल्चा र साँचो जस्तै हो। क्यान्सरको कोष वा भाइरसको सतहमा भएका बेग्लै प्रोटिनहरूलाई यसले चिन्छ। जब टीसीआरले शत्रुको प्रोटिनसँग मिल्ने ताल्चा भेट्छ, टी-सेल सक्रिय हुन्छन्।\nसमस्या के भने, क्यान्सरका कोषहरू धेरै चलाख हुन्छन्। तिनीहरूले आफ्नो सतहको प्रोटिन लुकाउँछन् वा टी-सेललाई “म आफ्नै हुँ, मलाई नमार” भनेर झुक्याउँछन्।\n‘सीएआर-टी’ले के गर्छ भने, वैज्ञानिकहरूले प्रयोगशालामा टी-सेलको त्यो पुरानो हात ‘टीसीआर’ हटाएर, क्यान्सरलाई सजिलै चिन्ने नयाँ, शक्तिशाली हात ‘सीएआर’ जोडिदिन्छन् जसले गर्दा क्यान्सर लुक्न सक्दैन।\nटीसीआरमा सीएआर कसरी जोडिन्छ ?\nयहाँ धेरैलाई भ्रम हुन सक्छ। प्रयोगशालामा टीसीआरलाई काटेर फ्याँक्दैनन्, बरू त्यसमाथि अर्को सुपर-पावरफुल हात थपिदिन्छन्। त्यही नयाँ हातको नाम नै सीएआर हो।\nसीएआर भनेको के हो?\nसीएआर को पूरा नाम हो – काइमेरिक एंटीजेन रेसेप्टर (Chimeric Antigen Receptor)\nकाइमेरिक भनेको – दुई-तीन फरक जनावरको अंग जोडेर बनेको जीव जसको टाउको सिंहको, शरीर बाख्राको हुन्छ। सीएआर पनि ३-४ फरक-फरक प्रोटिनका टुक्रा जोडेर बनाइएको हुन्छ, त्यसैले यसलाई काइमेरिक भनिएको हो। काइमेरिक अर्थात मिश्रित, वर्णशंकर, वा धेरै टुक्रा जोडेर बनाइएको वस्तु।\nसीएआरमा पनि त्यस्तै ३ फरक ठाउँका टुक्रा जोडिएका हुन्छन्:\n१. बाहिरको हात (scFv) – यो मुसा वा मानिसको बी-सेलको एन्टिबडीबाट लिइएको टुक्रा हो।\n२. बीचको डन्ठी – यो मानिसको सीडी८ वा सीडी२८ नामक प्रोटिनबाट लिइएको टुक्रा हो।\n३. भित्रको इन्जिन (सीडी३ -जेटा) – यो टी-सेलको आफ्नै सिग्नल दिने प्रोटिनबाट लिइएको हो।\nतीन फरक-फरक प्रोटिनका टुक्रा जोडेर एउटै नयाँ एन्टेना बनाइएकाले यसलाई काइमेरिक एंटीजेन रिसेप्टर भनिएको हो। यसले तीन चरणमा काम गर्छ।\n१. बाहिरको हात – एससीएफभी (सिंगल चैन भेरिएबल फ्रेगमेंट):\nयो सीएआरको आँखा हो। यो वास्तवमा बी-सेलले बनाउने एन्टिबडीको सबैभन्दा अगाडिको भाग हो। यसले क्यान्सरको सतहमा भएको सीडी१९ भन्ने प्रोटिनलाई सिधै चिन्छ। टीसीआरले त क्यान्सरलाई एमएचसी (Major Histocompatibility Complex) नामको थालमा पस्किएपछि मात्र चिन्न सक्छ, तर सीएआरले त सिधै, थाल बिना नै चिन्छ। त्यसैले क्यान्सर लुक्न सक्दैन।\n२. बीचको डन्ठी – हिन्ज (Hinge) र ट्रान्समेम्ब्रेन (Transmembrane)\nयसले सीएआरको हातलाई टी-सेलको शरीरसँग जोड्छ।\n३. भित्रको इन्जिन – सिग्नलिंग डोमेन:\nयो सबैभन्दा महत्वपूर्ण हो। यसमा दुईवटा स्वीच हुन्छन्:\nसीडी३-जेटा: यो “मार!” भन्ने मुख्य स्वीच हो।\nसीडी२८ वा ४-१बीबी: यो “बाँचिरह, बढिरह, नथाक” भन्ने दोस्रो स्वीच हो। यसले गर्दा सीएआर-टी सेल लामो समयसम्म बाँचिरहन्छ।\nपुरानो टीसीआरमा एउटा मात्र स्वीच हुन्थ्यो, सीएआरमा दुईवटा स्वीच भएकाले यो धेरै शक्तिशाली हुन्छ।\nल्याबमा टीसीआर हटाएर सीएआर कसरी जोडिन्छ? – नेपालको ल्याबमा पनि यही भएको हो।\nचरण १ – टी-सेल निकाल्ने (Leukapheresis):\nबिरामीको रगत मेसिनमा घुमाएर टी-सेल मात्र निकालिन्छ, बाँकी रगत शरीरमै फर्काइन्छ।\nचरण २ – सक्रिय बनाउने (Activation):\nटी-सेललाई ल्याबमा सीडी३/सीडी२८ नामक चुम्बकीय गेडीहरूले छोवाएर सक्रिय बनाइन","article_char_count":6000,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Desh Sanchar","assigned_hook_type":"stakes","review_id":"RV_20261013_nh87l9","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===
