@@ -10,7 +10,7 @@ Result: lines in /tmp/km_publish_result.txt: accepted/failed/skipped/dry_run <id
 An accepted post is not proof of final delivery. Pending submissions are never automatically retried.
 Always exits 0: a publishing problem must never fail the render or lose the Drive copy.
 """
-import base64, glob, json, os, re, shutil, subprocess, sys, tempfile, time
+import base64, glob, json, os, re, shutil, subprocess, sys, tempfile, time, unicodedata
 import urllib.error, urllib.request
 
 MEDIA_REPO = os.environ.get("MEDIA_REPO", "perfectprajwal1/km-media")
@@ -72,28 +72,84 @@ def normalize_brand(text):
     return re.sub(r'(?i)(?<!\S)#(?:KhabarMinute|khabarminutenepal)(?=\s|$)', '#khabarminutenepal', text)
 
 
+def source_names(pack):
+    """Explicit source metadata only. Never infer identities from story prose."""
+    names = []
+    for field in ('source_credit', 'source_label', 'source_name'):
+        value = pack.get(field)
+        if not isinstance(value, str):
+            continue
+        value = re.sub(r'^\s*(?:source|src|स्रोत|श्रोत)\s*[:：-]\s*', '', value, flags=re.I)
+        value = URL_RE.sub('', value).strip(' \t\r\n|:：-')
+        if value and len(value) <= 100:
+            names.append(unicodedata.normalize('NFKC', value))
+    return names
+
+def compact_source(value):
+    return ''.join(c for c in unicodedata.normalize('NFKC', value).casefold() if c.isalnum() or unicodedata.category(c).startswith('M'))
+
+def source_hashtag(tag, pack):
+    key = compact_source(tag.lstrip('#'))
+    generic = {'news','source','src','समाचार','स्रोत','श्रोत'}
+    return bool(key) and key not in generic and any(key == compact_source(name) for name in source_names(pack))
+
+def clean_public_copy(base, pack, allow_fallback=True):
+    """Remove labeled credits and explicit read-more clauses, not news entities.
+    Unknown attribution wording falls back to a separately supplied clean title.
+    No API call or metadata mutation. Per-platform failure remains a soft result.
+    """
+    names = source_names(pack)
+    lines = []
+    uncertain = False
+    for ln in str(base).replace('\r', '').split('\n'):
+        if SRC_LINE.match(ln):
+            continue
+        ln = re.split(r'(?:source|src|स्रोत|श्रोत)\s*[:：-]', ln, maxsplit=1, flags=re.I)[0]
+        # These are publisher-reference calls to action, not factual clauses.
+        for name in names:
+            escaped = re.escape(name)
+            patterns = [
+                r'(?:थप\s+जानकारी(?:का|को)?\s*(?:लागि|लागी)|विस्तृत\s+(?:जानकारी|विवरण)(?:का|को)?\s*(?:लागि|लागी))\s+' + escaped + r'\s+को[^।.!?\n]*(?:[।.!?]|$)',
+                r'(?:for\s+(?:more|further)\s+(?:details|information)|read\s+(?:more|the\s+full\s+(?:story|report))|more\s+(?:at|on))\b[^।.!?\n]*?' + escaped + r'[^।.!?\n]*(?:[।.!?]|$)',
+            ]
+            # Remove URLs first within the attributed CTA, preventing dots in URLs
+            # from being treated as sentence boundaries. Keep URLs elsewhere until below.
+            for pattern in patterns:
+                ln = re.sub(pattern, '', URL_RE.sub('', ln), flags=re.I)
+        ln = URL_RE.sub('', ln)
+        ln = re.sub(r'(?<!\S)#[^\s]+', lambda mt: '' if source_hashtag(mt.group(), pack) else mt.group(), ln)
+        if re.search(r'(?:थप\s+जानकारी(?:का|को)?\s*(?:लागि|लागी)|read\s+(?:more|the\s+full)|for\s+(?:more|further)\s+(?:details|information))', ln, re.I):
+            uncertain = True
+        ln = ln.strip()
+        if ln:
+            lines.append(ln)
+    if uncertain:
+        if allow_fallback:
+            for field in ('youtube_title', 'title', 'headline'):
+                candidate = pack.get(field)
+                if isinstance(candidate, str) and candidate.strip():
+                    try:
+                        clean = clean_public_copy(candidate, pack, allow_fallback=False)
+                    except Soft:
+                        continue
+                    if clean:
+                        print('Caption used clean title fallback; attribution wording was uncertain')
+                        return clean
+        raise Soft('caption attribution needs review; no safe clean title fallback')
+    return re.sub(r'[ \t]{2,}', ' ', '\n'.join(lines)).strip()
+
 def build_caption(pack):
     """tiktok_caption without any source credit, plus hashtags, max 5 hashtags in total."""
     base = str(pack.get("tiktok_caption") or pack.get("instagram_caption") or "")
-    credit = str(pack.get("source_credit") or "").strip()
-    lines = []
-    for ln in base.replace("\r", "").split("\n"):
-        if SRC_LINE.match(ln):
-            continue
-        # Credits can occur inline, not just at the start of a line.
-        ln = re.split(r"(?:source|src|स्रोत|श्रोत)\s*[:：-]", ln, maxsplit=1, flags=re.I)[0]
-        if credit:
-            ln = ln.replace(credit, "")
-        ln = URL_RE.sub("", ln).strip()
-        if ln:
-            lines.append(ln)
-    text = normalize_brand("\n".join(lines).strip())
+    text = normalize_brand(clean_public_copy(base, pack))
     tags = [t for t in re.findall(r"#\S+", text)]
     for h in pack.get("hashtags") or []:
         h = str(h).strip()
         if h and not h.startswith("#"):
             h = "#" + h
         h = normalize_brand(h)
+        if source_hashtag(h, pack):
+            continue
         if h and h.lower() not in [t.lower() for t in tags]:
             tags.append(h)
             text = (text + " " + h).strip()
