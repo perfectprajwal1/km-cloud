@@ -1,0 +1,40 @@
+{
+  "master_sha256": "04f5cf4d1942a34d38bf32855e0b1a8e86fb31f683c61b4671c1dd3e2dc3f090",
+  "cuts_sec": [
+    10.693249999999999,
+    21.747041666666668
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।",
+      "master_start_sec": 0.06,
+      "master_end_sec": 9.76,
+      "duration_sec": 9.7,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।",
+      "master_start_sec": 11.653,
+      "master_end_sec": 20.853,
+      "duration_sec": 9.2,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।",
+      "master_start_sec": 22.747,
+      "master_end_sec": 30.427,
+      "duration_sec": 7.68,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

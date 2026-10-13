@@ -1,0 +1,73 @@
+{
+  "master_sha256": "8c649bde17cd8d299ab7508c434ba866d06ee158ec4104db1f881857b60a43cb",
+  "cuts_sec": [
+    10.693249999999999,
+    21.747041666666668,
+    32.89095833333333,
+    45.6885,
+    60.457833333333326
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।",
+      "master_start_sec": 0.06,
+      "master_end_sec": 9.76,
+      "duration_sec": 9.7,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।",
+      "master_start_sec": 11.653,
+      "master_end_sec": 20.853,
+      "duration_sec": 9.2,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।",
+      "master_start_sec": 22.747,
+      "master_end_sec": 30.427,
+      "duration_sec": 7.68,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।",
+      "master_start_sec": 34.071,
+      "master_end_sec": 42.871,
+      "duration_sec": 8.8,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।",
+      "master_start_sec": 48.529,
+      "master_end_sec": 57.648,
+      "duration_sec": 9.12,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 6,
+      "expected_text": "अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 63.378,
+      "master_end_sec": 69.258,
+      "duration_sec": 5.88,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

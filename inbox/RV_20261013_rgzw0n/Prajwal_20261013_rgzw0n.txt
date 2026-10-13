@@ -1,0 +1,695 @@
+REVIEW ID: RV_20261013_rgzw0n
+TOPIC: ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_d0980f31cd3c09a5
+DATE: 2026-10-13T08:51:32.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Desh Sanchar
+CATEGORY: news
+SOURCE: https://deshsanchar.com/2026/10/13/1240002/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ। श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ। अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो। यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ। यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "8"
+    }
+   ],
+   "data_source_quote": "अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"
+  },
+  "caption_text": "८ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन",
+  "big_hook_text": "लाग्न सक्ने देखिएको छ",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "8"
+    }
+   ],
+   "data_source_quote": "अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"
+  },
+  "caption_text": "८ कम्पनीको पर्म प्रक्रिया निलम्बन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "US technology workers",
+   "shot_description": "A group of tech workers in an office setting.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "विदेशी कामदारले रोजगारी खोसेको आरोप",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "अमेरिकी श्रममन्त्री किथ सन्डरलिङ र उपराष्ट्रपति जेडी भेन्सले ठूला आइटी कम्पनीहरूले विदेशी कामदार ल्याएर अमेरिकी प्राविधिकहरूको रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाएका छन्।"
+ },
+ {
+  "line_id": 4,
+  "beat": "impact",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepali IT office",
+   "shot_description": "A modern IT office in Nepal.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "नेपालमा नयाँ अवसरको सम्भावना",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "नेपालमा सञ्चालित आइटी सफ्टवेयर हाउस वा भेन्डर कम्पनीहरूका लागि यसले नयाँ अमेरिकी आयोजनाहरू भित्र्याउन सकेमा भने नेपालमै बसेर आउटसोर्सिङ गर्नेहरूलाई राम्रो हुन सक्ने छ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "US immigration document",
+   "shot_description": "An immigration document or green card application form.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "ग्रीनकार्ड प्रक्रिया अघि बढ्ने छैन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन। यस निलम्बनपछि ती आठ कम्पनीमा कार्यरत र पर्म आवेदनको पर्खाइमा रहेका वा प्रक्रियामा रहेका कर्मचारीको ग्रीनकार्ड फाइल अघि बढ्ने छैन।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_d0980f31cd3c09a5","source_url":"https://deshsanchar.com/2026/10/13/1240002/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/13/1240002/","article_quote":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ। अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","asset_ref":"ST_d0980f31cd3c09a5","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।","closing_line":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","comment_prompt":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","pinned_comment":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","lines":[{"line_id":1,"beat":"hook","narration_text":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन","big_hook_text":"लाग्न सक्ने देखिएको छ","pip_mode":"off","source_evidence":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ कम्पनीको पर्म प्रक्रिया निलम्बन","big_hook_text":"","pip_mode":"off","source_evidence":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"US technology workers","shot_description":"A group of tech workers in an office setting.","depiction_scope":"generic_illustration"},"caption_text":"विदेशी कामदारले रोजगारी खोसेको आरोप","big_hook_text":"","pip_mode":"off","source_evidence":"अमेरिकी श्रममन्त्री किथ सन्डरलिङ र उपराष्ट्रपति जेडी भेन्सले ठूला आइटी कम्पनीहरूले विदेशी कामदार ल्याएर अमेरिकी प्राविधिकहरूको रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"impact","narration_text":"यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"Nepali IT office","shot_description":"A modern IT office in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"नेपालमा नयाँ अवसरको सम्भावना","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालमा सञ्चालित आइटी सफ्टवेयर हाउस वा भेन्डर कम्पनीहरूका लागि यसले नयाँ अमेरिकी आयोजनाहरू भित्र्याउन सकेमा भने नेपालमै बसेर आउटसोर्सिङ गर्नेहरूलाई राम्रो हुन सक्ने छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"US immigration document","shot_description":"An immigration document or green card application form.","depiction_scope":"generic_illustration"},"caption_text":"ग्रीनकार्ड प्रक्रिया अघि बढ्ने छैन","big_hook_text":"","pip_mode":"off","source_evidence":"यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन। यस निलम्बनपछि ती आठ कम्पनीमा कार्यरत र पर्म आवेदनको पर्खाइमा रहेका वा प्रक्रियामा रहेका कर्मचारीको ग्रीनकार्ड फाइल अघि बढ्ने छैन।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?","youtube_description":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","youtube_tags":["Nepal","IT","Trump","GreenCard","H1B","Tech","News","DeshSanchar","NepalIT","USVisa"],"tiktok_caption":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?","instagram_caption":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","facebook_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","threads_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","linkedin_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","hashtags":["#Nepal","#IT","#Trump","#GreenCard","#TechNews"],"source_credit":"Source: Desh Sanchar"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+Line 1: spoken number/date (8) had no infographic; auto-built one from an article sentence with the same figures. Check the visual.
+Line 2: spoken number/date (8) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+NUMBER CONTEXT: Line 1: ट्रम्प प्रशासनले आठ ठूला -> Words next to the number (प्रशासनले) are not next to it in the article: "ट्रम्पले 8 ठूला आईटी". Copy the article wording.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All extracted claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?"); dropped line(s) 6; last line is now: "यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ".
+Possible opinion/advice wording on line(s) 1: check neutrality before approving.
+B-roll: only 2/5 lines show this story's own facts; line(s) 3, 4, 5 use general topic footage.
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 4: no different truthful card fits; previous card stays on screen.
+Line 5: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।
+
+--- PINNED COMMENT (Nepali question) ---
+अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Trump addressing crowd",
+   "commons": null,
+   "map": null,
+   "motion_text": "निलम्बन गर्दा",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "8"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "8"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "निलम्बन गर्दा",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \" 8\" | then text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "Microsoft office building",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "Microsoft office building",
+   "alt_queries": [
+    "Tech company headquarters",
+    "Corporate office exterior"
+   ],
+   "query_source": "director",
+   "shot_description": "Microsoft building facade",
+   "commons": null,
+   "map": null,
+   "motion_text": "निलम्बन गरिदिएको",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "8"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "8"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Microsoft office building",
+     "search_url": "https://www.pexels.com/search/videos/Microsoft%20office%20building/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Microsoft%20office%20building&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Microsoft building facade",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Microsoft office building",
+     "search_url": "https://pixabay.com/videos/search/Microsoft%20office%20building/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Microsoft%20office%20building&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Tech company headquarters",
+     "search_url": "https://www.pexels.com/search/videos/Tech%20company%20headquarters/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Tech%20company%20headquarters&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Corporate office exterior",
+     "search_url": "https://www.pexels.com/search/videos/Corporate%20office%20exterior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Corporate%20office%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Microsoft office building",
+     "search_url": "https://openverse.org/search/image?q=Microsoft%20office%20building",
+     "api": "GET https://api.openverse.org/v1/images/?q=Microsoft%20office%20building&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "निलम्बन गरिदिएको",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \" 8\" | then stock video @pexels \"Microsoft office building\" [bg], stock video @pixabay \"Microsoft office building\", stock video @pexels \"Tech company headquarters\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "Tech employees at desks",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "Tech employees at desks",
+   "alt_queries": [
+    "Corporate office interior",
+    "US technology workers"
+   ],
+   "query_source": "director_alt",
+   "shot_description": "Workers in office",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Tech employees at desks",
+     "search_url": "https://www.pexels.com/search/videos/Tech%20employees%20at%20desks/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Tech%20employees%20at%20desks&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Workers in office",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Tech employees at desks",
+     "search_url": "https://pixabay.com/videos/search/Tech%20employees%20at%20desks/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Tech%20employees%20at%20desks&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Corporate office interior",
+     "search_url": "https://www.pexels.com/search/videos/Corporate%20office%20interior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Corporate%20office%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "US technology workers",
+     "search_url": "https://www.pexels.com/search/videos/US%20technology%20workers/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=US%20technology%20workers&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Tech employees at desks",
+     "search_url": "https://openverse.org/search/image?q=Tech%20employees%20at%20desks",
+     "api": "GET https://api.openverse.org/v1/images/?q=Tech%20employees%20at%20desks&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L3 [full] STOCK VIDEO via pexels_video: \"Tech employees at desks\" | then stock video @pixabay \"Tech employees at desks\", stock video @pexels \"Corporate office interior\", stock video @pexels \"US technology workers\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "Modern IT office Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "impact",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "Modern IT office Nepal",
+   "alt_queries": [
+    "Tech startup workspace",
+    "Young developers coding"
+   ],
+   "query_source": "director",
+   "shot_description": "Modern Nepali IT office",
+   "commons": null,
+   "map": null,
+   "motion_text": "अवसर सिर्जना",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Modern IT office Nepal",
+     "search_url": "https://www.pexels.com/search/videos/Modern%20IT%20office%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Modern%20IT%20office%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Modern Nepali IT office",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Modern IT office Nepal",
+     "search_url": "https://pixabay.com/videos/search/Modern%20IT%20office%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Modern%20IT%20office%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Tech startup workspace",
+     "search_url": "https://www.pexels.com/search/videos/Tech%20startup%20workspace/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Tech%20startup%20workspace&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Young developers coding",
+     "search_url": "https://www.pexels.com/search/videos/Young%20developers%20coding/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Young%20developers%20coding&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Modern IT office Nepal",
+     "search_url": "https://openverse.org/search/image?q=Modern%20IT%20office%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=Modern%20IT%20office%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अवसर सिर्जना",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L4 [full] STOCK VIDEO via pexels_video: \"Modern IT office Nepal\" | then stock video @pixabay \"Modern IT office Nepal\", stock video @pexels \"Tech startup workspace\", stock video @pexels \"Young developers coding\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "Immigration form close-up",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "Immigration form close-up",
+   "alt_queries": [
+    "Green card application",
+    "US visa document"
+   ],
+   "query_source": "director",
+   "shot_description": "Immigration document",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Immigration form close-up",
+     "search_url": "https://www.pexels.com/search/videos/Immigration%20form%20close-up/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Immigration%20form%20close-up&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Immigration document",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Immigration form close-up",
+     "search_url": "https://pixabay.com/videos/search/Immigration%20form%20close-up/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Immigration%20form%20close-up&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Green card application",
+     "search_url": "https://www.pexels.com/search/videos/Green%20card%20application/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Green%20card%20application&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "US visa document",
+     "search_url": "https://www.pexels.com/search/videos/US%20visa%20document/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=US%20visa%20document&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Immigration form close-up",
+     "search_url": "https://openverse.org/search/image?q=Immigration%20form%20close-up",
+     "api": "GET https://api.openverse.org/v1/images/?q=Immigration%20form%20close-up&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।",
+     "credit": "Source: Desh Sanchar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"Immigration form close-up\" | then stock video @pixabay \"Immigration form close-up\", stock video @pexels \"Green card application\", stock video @pexels \"US visa document\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 2/5 content lines; article quote cards 0; topic stock only 3; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: " 8" | then text plate @local_render | quality: story_fact
+L2 [plate] NUMBER CARD via local_render: " 8" | then stock video @pexels "Microsoft office building" [bg], stock video @pixabay "Microsoft office building", stock video @pexels "Tech company headquarters" | quality: story_fact
+L3 [full] STOCK VIDEO via pexels_video: "Tech employees at desks" | then stock video @pixabay "Tech employees at desks", stock video @pexels "Corporate office interior", stock video @pexels "US technology workers" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/Tech%20employees%20at%20desks/?orientation=portrait
+L4 [full] STOCK VIDEO via pexels_video: "Modern IT office Nepal" | then stock video @pixabay "Modern IT office Nepal", stock video @pexels "Tech startup workspace", stock video @pexels "Young developers coding" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/Modern%20IT%20office%20Nepal/?orientation=portrait
+L5 [full] STOCK VIDEO via pexels_video: "Immigration form close-up" | then stock video @pixabay "Immigration form close-up", stock video @pexels "Green card application", stock video @pexels "US visa document" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/Immigration%20form%20close-up/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?",
+ "youtube_description": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/\nSource: Desh Sanchar",
+ "youtube_tags": [
+  "Nepal",
+  "IT",
+  "Trump",
+  "GreenCard",
+  "H1B",
+  "Tech",
+  "News",
+  "DeshSanchar",
+  "NepalIT",
+  "USVisa"
+ ],
+ "tiktok_caption": "ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?\nSource: Desh Sanchar",
+ "instagram_caption": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/\nSource: Desh Sanchar",
+ "facebook_post": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/\nSource: Desh Sanchar",
+ "threads_post": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/\nSource: Desh Sanchar",
+ "linkedin_post": "अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/\nSource: Desh Sanchar",
+ "hashtags": [
+  "#Nepal",
+  "#IT",
+  "#Trump",
+  "#GreenCard",
+  "#TechNews"
+ ],
+ "source_credit": "Source: Desh Sanchar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261013_rgzw0n","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261013_rgzw0n","review_date":"20261013","title":"ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)","chosen_topic":"ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)","category":"news","source_url":"https://deshsanchar.com/2026/10/13/1240002/","story_id":"ST_d0980f31cd3c09a5","risk_flag":"NORMAL","source_credit":"Source: Desh Sanchar","full_script":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ। श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ। अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो। यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ। यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","hook":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","alternate_hook":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।","hook_type":"stakes","closing_line":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","pinned_comment":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","lines":[{"text":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","voice":"neutral","pose":"neutral","broll":"Microsoft office building","broll_kind":"number_card"},{"text":"अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।","voice":"neutral_talking","pose":"neutral_talking","broll":"Tech employees at desks","broll_kind":"stock_video"},{"text":"यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।","voice":"thinking","pose":"thinking","broll":"Modern IT office Nepal","broll_kind":"stock_video"},{"text":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","voice":"neutral","pose":"neutral","broll":"Immigration form close-up","broll_kind":"stock_video"}],"word_count":87,"workbook":{"schema_version":"6.6.9","story_id":"ST_d0980f31cd3c09a5","source_url":"https://deshsanchar.com/2026/10/13/1240002/","source_label":"Desh Sanchar","source_credit":"Source: Desh Sanchar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।","proof_asset":{"kind":"article_text","source_url":"https://deshsanchar.com/2026/10/13/1240002/","article_quote":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ। अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","asset_ref":"ST_d0980f31cd3c09a5","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरू प्रभावित हुन सक्ने देखिएको छ।","closing_line":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","comment_prompt":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","pinned_comment":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","lines":[{"line_id":1,"beat":"hook","narration_text":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन","big_hook_text":"लाग्न सक्ने देखिएको छ","pip_mode":"off","source_evidence":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ कम्पनीको पर्म प्रक्रिया निलम्बन","big_hook_text":"","pip_mode":"off","source_evidence":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"US technology workers","shot_description":"A group of tech workers in an office setting.","depiction_scope":"generic_illustration"},"caption_text":"विदेशी कामदारले रोजगारी खोसेको आरोप","big_hook_text":"","pip_mode":"off","source_evidence":"अमेरिकी श्रममन्त्री किथ सन्डरलिङ र उपराष्ट्रपति जेडी भेन्सले ठूला आइटी कम्पनीहरूले विदेशी कामदार ल्याएर अमेरिकी प्राविधिकहरूको रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"impact","narration_text":"यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"Nepali IT office","shot_description":"A modern IT office in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"नेपालमा नयाँ अवसरको सम्भावना","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालमा सञ्चालित आइटी सफ्टवेयर हाउस वा भेन्डर कम्पनीहरूका लागि यसले नयाँ अमेरिकी आयोजनाहरू भित्र्याउन सकेमा भने नेपालमै बसेर आउटसोर्सिङ गर्नेहरूलाई राम्रो हुन सक्ने छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"US immigration document","shot_description":"An immigration document or green card application form.","depiction_scope":"generic_illustration"},"caption_text":"ग्रीनकार्ड प्रक्रिया अघि बढ्ने छैन","big_hook_text":"","pip_mode":"off","source_evidence":"यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन। यस निलम्बनपछि ती आठ कम्पनीमा कार्यरत र पर्म आवेदनको पर्खाइमा रहेका वा प्रक्रियामा रहेका कर्मचारीको ग्रीनकार्ड फाइल अघि बढ्ने छैन।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?","youtube_description":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","youtube_tags":["Nepal","IT","Trump","GreenCard","H1B","Tech","News","DeshSanchar","NepalIT","USVisa"],"tiktok_caption":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?","instagram_caption":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","facebook_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","threads_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","linkedin_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","hashtags":["#Nepal","#IT","#Trump","#GreenCard","#TechNews"],"source_credit":"Source: Desh Sanchar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन","big_hook_text":"लाग्न सक्ने देखिएको छ","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"अमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"8"}],"data_source_quote":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},"caption_text":"८ कम्पनीको पर्म प्रक्रिया निलम्बन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"US technology workers","shot_description":"A group of tech workers in an office setting.","depiction_scope":"generic_illustration"},"caption_text":"विदेशी कामदारले रोजगारी खोसेको आरोप","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"अमेरिकी श्रममन्त्री किथ सन्डरलिङ र उपराष्ट्रपति जेडी भेन्सले ठूला आइटी कम्पनीहरूले विदेशी कामदार ल्याएर अमेरिकी प्राविधिकहरूको रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाएका छन्।"},{"line_id":4,"beat":"impact","visual":{"type":"BROLL","search_query":"Nepali IT office","shot_description":"A modern IT office in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"नेपालमा नयाँ अवसरको सम्भावना","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"नेपालमा सञ्चालित आइटी सफ्टवेयर हाउस वा भेन्डर कम्पनीहरूका लागि यसले नयाँ अमेरिकी आयोजनाहरू भित्र्याउन सकेमा भने नेपालमै बसेर आउटसोर्सिङ गर्नेहरूलाई राम्रो हुन सक्ने छ।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"US immigration document","shot_description":"An immigration document or green card application form.","depiction_scope":"generic_illustration"},"caption_text":"ग्रीनकार्ड प्रक्रिया अघि बढ्ने छैन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन। यस निलम्बनपछि ती आठ कम्पनीमा कार्यरत र पर्म आवेदनको पर्खाइमा रहेका वा प्रक्रियामा रहेका कर्मचारीको ग्रीनकार्ड फाइल अघि बढ्ने छैन।"}],"lines_legacy":[{"text":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"श्रम विभागले माइक्रोसफ्ट, इन्फोसिस र विप्रो लगायतका कम्पनीको स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।","voice":"neutral","pose":"neutral","broll":"Microsoft office building","broll_kind":"number_card"},{"text":"अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।","voice":"neutral_talking","pose":"neutral_talking","broll":"Tech employees at desks","broll_kind":"stock_video"},{"text":"यो निर्णयले नेपालमा रहेका प्राविधिकहरू र आउटसोर्सिङ कम्पनीका लागि भने नयाँ अवसर सिर्जना हुन सक्ने अनुमान गरिएको छ।","voice":"thinking","pose":"thinking","broll":"Modern IT office Nepal","broll_kind":"stock_video"},{"text":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","voice":"neutral","pose":"neutral","broll":"Immigration form close-up","broll_kind":"stock_video"}],"youtube_title":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?","youtube_description":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","youtube_tags":["Nepal","IT","Trump","GreenCard","H1B","Tech","News","DeshSanchar","NepalIT","USVisa"],"tiktok_caption":"ट्रम्पको निर्णयले नेपाली प्राविधिकलाई कस्तो असर गर्छ?\nSource: Desh Sanchar","instagram_caption":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","facebook_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","threads_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","linkedin_post":"अमेरिकी राष्ट्रपति ट्रम्प प्रशासनले आठ ठूला आईटी कम्पनीको ग्रीनकार्ड प्रक्रिया निलम्बन गर्दा नेपाली प्राविधिकहरू प्रभावित हुन सक्ने देखिएको छ। थप जानकारीका लागि Desh Sanchar मा हेर्नुहोस्: https://deshsanchar.com/2026/10/13/1240002/","hashtags":["#Nepal","#IT","#Trump","#GreenCard","#TechNews"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Trump addressing crowd","commons":null,"map":null,"motion_text":"निलम्बन गर्दा","on_screen_data":[{"label":"","value":"8"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"8"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"निलम्बन गर्दा","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \" 8\" | then text plate @local_render | quality: story_fact"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"Microsoft office building","alt_queries":["Tech company headquarters","Corporate office exterior"],"query_source":"director","shot_description":"Microsoft building facade","commons":null,"map":null,"motion_text":"निलम्बन गरिदिएको","on_screen_data":[{"label":"","value":"8"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"8"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"Microsoft office building","search_url":"https://www.pexels.com/search/videos/Microsoft%20office%20building/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Microsoft%20office%20building&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Microsoft building facade","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"Microsoft office building","search_url":"https://pixabay.com/videos/search/Microsoft%20office%20building/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Microsoft%20office%20building&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"Tech company headquarters","search_url":"https://www.pexels.com/search/videos/Tech%20company%20headquarters/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Tech%20company%20headquarters&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"Corporate office exterior","search_url":"https://www.pexels.com/search/videos/Corporate%20office%20exterior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Corporate%20office%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"Microsoft office building","search_url":"https://openverse.org/search/image?q=Microsoft%20office%20building","api":"GET https://api.openverse.org/v1/images/?q=Microsoft%20office%20building&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"निलम्बन गरिदिएको","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \" 8\" | then stock video @pexels \"Microsoft office building\" [bg], stock video @pixabay \"Microsoft office building\", stock video @pexels \"Tech company headquarters\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"Tech employees at desks","alt_queries":["Corporate office interior","US technology workers"],"query_source":"director_alt","shot_description":"Workers in office","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"Tech employees at desks","search_url":"https://www.pexels.com/search/videos/Tech%20employees%20at%20desks/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Tech%20employees%20at%20desks&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Workers in office","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"Tech employees at desks","search_url":"https://pixabay.com/videos/search/Tech%20employees%20at%20desks/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Tech%20employees%20at%20desks&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"Corporate office interior","search_url":"https://www.pexels.com/search/videos/Corporate%20office%20interior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Corporate%20office%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"US technology workers","search_url":"https://www.pexels.com/search/videos/US%20technology%20workers/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=US%20technology%20workers&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"Tech employees at desks","search_url":"https://openverse.org/search/image?q=Tech%20employees%20at%20desks","api":"GET https://api.openverse.org/v1/images/?q=Tech%20employees%20at%20desks&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"text_plate","source":"local_render","text":"अमेरिकी सरकारले विदेशी कामदारले स्थानीय रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाउँदै यो कडाइ गरेको हो।","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L3 [full] STOCK VIDEO via pexels_video: \"Tech employees at desks\" | then stock video @pixabay \"Tech employees at desks\", stock video @pexels \"Corporate office interior\", stock video @pexels \"US technology workers\" | quality: topic_stock"},{"line_id":4,"beat":"impact","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"Modern IT office Nepal","alt_queries":["Tech startup workspace","Young developers coding"],"query_source":"director","shot_description":"Modern Nepali IT office","commons":null,"map":null,"motion_text":"अवसर सिर्जना","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"Modern IT office Nepal","search_url":"https://www.pexels.com/search/videos/Modern%20IT%20office%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Modern%20IT%20office%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Modern Nepali IT office","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"Modern IT office Nepal","search_url":"https://pixabay.com/videos/search/Modern%20IT%20office%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Modern%20IT%20office%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"Tech startup workspace","search_url":"https://www.pexels.com/search/videos/Tech%20startup%20workspace/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Tech%20startup%20workspace&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"Young developers coding","search_url":"https://www.pexels.com/search/videos/Young%20developers%20coding/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Young%20developers%20coding&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"Modern IT office Nepal","search_url":"https://openverse.org/search/image?q=Modern%20IT%20office%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=Modern%20IT%20office%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"text_plate","source":"local_render","text":"अवसर सिर्जना","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L4 [full] STOCK VIDEO via pexels_video: \"Modern IT office Nepal\" | then stock video @pixabay \"Modern IT office Nepal\", stock video @pexels \"Tech startup workspace\", stock video @pexels \"Young developers coding\" | quality: topic_stock"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"Immigration form close-up","alt_queries":["Green card application","US visa document"],"query_source":"director","shot_description":"Immigration document","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"Immigration form close-up","search_url":"https://www.pexels.com/search/videos/Immigration%20form%20close-up/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Immigration%20form%20close-up&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Immigration document","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"Immigration form close-up","search_url":"https://pixabay.com/videos/search/Immigration%20form%20close-up/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Immigration%20form%20close-up&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"Green card application","search_url":"https://www.pexels.com/search/videos/Green%20card%20application/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Green%20card%20application&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"US visa document","search_url":"https://www.pexels.com/search/videos/US%20visa%20document/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=US%20visa%20document&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"Immigration form close-up","search_url":"https://openverse.org/search/image?q=Immigration%20form%20close-up","api":"GET https://api.openverse.org/v1/images/?q=Immigration%20form%20close-up&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"यद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन।","credit":"Source: Desh Sanchar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"यो निर्णयले तत्काल एच-१बी भिसा रद्द नगरे पनि ग्रीनकार्ड प्रक्रियामा रहेका कर्मचारीको फाइल भने अघि बढ्ने छैन।","credit":"Source: Desh Sanchar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"Immigration form close-up\" | then stock video @pixabay \"Immigration form close-up\", stock video @pexels \"Green card application\", stock video @pexels \"US visa document\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":2,"quote_card":0,"topic_stock":3,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":2,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 2/5 content lines; article quote cards 0; topic stock only 3; needs a pick 0","lines_with_stock_query":4,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"Donald Trump speaking","verdict":"person_line"},{"src":"director_alt","query":"US president addressing","verdict":"person_line"},{"src":"director_alt","query":"political leader on stage","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[1],"removed_lines":[{"line_id":6,"beat":"comment","text":"अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.94,"removed_text":["अमेरिकाको यो कडाइले नेपालको आईटी क्षेत्रमा कस्तो प्रभाव पार्ला?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ","sub":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"नेपालीहरूमाथि"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Donald Trump","in_line":"अमेरिकी राष्ट्रपति ट्रम्प","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Donald Trump speech","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Donald%20Trump%20speech&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Donald%20Trump%20speech&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"US political news","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=US%20political%20news&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=US%20political%20news&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"government announcement","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=government%20announcement&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=government%20announcement&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"points","fields":{"points":["माइक्रोसफ्ट","इन्फोसिस","विप्रो"],"title":"स्थायी श्रम प्रमाणीकरण प्रक्रिया तत्कालका लागि निलम्बन","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"माइक्रोसफ्ट"}},"picture":{"status":"candidates","subject":{"kind":"entity","name_en":"Microsoft","in_line":"माइक्रोसफ्ट","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Microsoft campus","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Microsoft%20campus&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Microsoft%20campus&ns6=1"},{"rank":2,"source":"openverse","query":"technology company","api":"https://api.openverse.org/v1/images/?q=technology%20company&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=technology%20company&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"corporate building","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=corporate%20building&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=corporate%20building&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":3,"beat":"detail","card":{"type":"points","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"impact","card":{"type":"points","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"अघि बढ्ने छैन"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"प्रक्रियामा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":2,"types_used":{"hook":1,"points":1,"kicker":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":1,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":3,"chosen_topic":"ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)","category":"news","reason":"Immigration policy affecting Nepali tech aspirants is highly relatable to GenZ, video format boosts shareability, and US‑Nepal ties generate strong interest.","angle":"Highlight the potential impact on Nepali IT professionals and students, using a catchy video hook and practical advice.","chosen_id_recovered":false,"chosen_headline_exact":"ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)","source_url":"https://deshsanchar.com/2026/10/13/1240002/","source_feed":"Desh Sanchar","rss_pub_date":"2026-10-13T08:51:32.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":33,"direct_headline_count":168,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_d0980f31cd3c09a5","source_credit":"Source: Desh Sanchar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":4.916863333333334,"date_unknown":false,"article_text":"ट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)\nट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)\nदेश सञ्चार\n२०८३ असोज २७ गते १४:३६\nअ\n+\nअ\nअ\n-\nअमेरिकी राष्ट्रपति डोनाल्ड ट्रम्प प्रशासनले प्राविधिक क्षेत्रमा कार्यरत विदेशी कामदारहरूलाई लक्षित गर्दै गरेको एउटा निर्णयले भारतीय र नेपालीहरूमाथि ठूलो झट्का लाग्न सक्ने देखिएको छ। अमेरिकी श्रम विभागले विश्वका प्रतिष्ठित आठ ठूला प्रविधि तथा आइटी परामर्शदाता कम्पनीहरू टाटा कन्सल्टेन्सी सर्भिसेज, इन्फोसिस, विप्रो, एचसिएल, माइक्रोसफ्ट, एडोबी, कग्निजेन्ट र क्यापजेमिनीको स्थायी श्रम प्रमाणीकरण (PERM – पर्म) प्रक्रिया तत्कालका लागि निलम्बन गरिदिएको छ।\nअमेरिकी कामदारको हकहित संरक्षण गर्ने र आप्रवासन प्रणालीको दुरुपयोग रोक्ने तर्कसहित चालिएको यो कदमले भारतीय प्राविधिकहरूसँगै अमेरिकामा रहेका र नेपालमै कार्यरत नेपाली आइटी पेसाकर्मीहरूसमेत प्रभावित हुन सक्ने बताइएको छ।\nस्थायी श्रम प्रमाणीकरण अर्थात् पर्म (PERM) अमेरिकी श्रम विभागबाट प्राप्त गर्नुपर्ने एक प्रकारको सरकारी स्वीकृति हो। एच-१बी भिसामा कार्यरत विदेशी कर्मचारीलाई स्थायी बसोबास (ग्रीनकार्ड) को दिशामा लैजाने यो पहिलो र अनिवार्य खुड्किलो मानिन्छ। यस प्रक्रियाअन्तर्गत कम्पनीले सम्बन्धित पदका लागि योग्य अमेरिकी नागरिक उपलब्ध नभएको र विदेशी नागरिकलाई राख्दा स्थानीय ज्यालामा असर नपर्ने प्रमाणित गर्नुपर्छ।\nअमेरिकी श्रममन्त्री किथ सन्डरलिङ र उपराष्ट्रपति जेडी भेन्सले ठूला आइटी कम्पनीहरूले विदेशी कामदार ल्याएर अमेरिकी प्राविधिकहरूको रोजगारी खोसेको र ज्यालादर घटाएको आरोप लगाएका छन्। भेन्सका अनुसार माइक्रोसफ्टजस्ता कम्पनीहरूले एकातिर हजारौँ अमेरिकी कर्मचारी कटौती गर्ने र अर्कोतिर हजारौँ एच-१बी तथा ग्रीनकार्ड प्रक्रिया अघि बढाउने विरोधाभासपूर्ण नीति लिएकाले यो कडाइ आवश्यक भएको बताएका छन्। यस निलम्बनपछि ती आठ कम्पनीमा कार्यरत र पर्म आवेदनको पर्खाइमा रहेका वा प्रक्रियामा रहेका कर्मचारीको ग्रीनकार्ड फाइल अघि बढ्ने छैन।\nयद्यपि, यो निर्णयले अमेरिकामा रहेका नेपालीहरूको एच-१बी भिसा तत्काल रद्द गर्दैन र उनीहरूलाई तुरुन्तै देश छोड्नु पर्दैन। तर, दीर्घकालीन रूपमा यसले दुई मुख्य कानुनी र व्यावहारिक संकट निम्त्याउन सक्ने जनाइएको छ।\nएच-१बी भिसाको अधिकतम अवधि ६ वर्षको हुन्छ। यदि कुनै कर्मचारीको पर्म र त्यसपछिको प्रक्रिया ६ वर्षभित्र स्वीकृत भएन भने उसले अमेरिका छोड्नुपर्ने वा अन्य भिसामा सर्नुपर्ने बाध्यता हुन्छ। अर्कातिर, निलम्बनमा परेका माइक्रोसफ्ट वा इन्फोसिसजस्ता दिग्गज कम्पनी छोडेर अर्को गैरनिलम्बित कम्पनीमा सर्दा पुनः नयाँ सिराबाट पर्म प्रक्रिया सुरु गर्नुपर्छ, जसले समय र लागत दुवै बढाउँछ।\nअमेरिकी नीतिको कडाइले एकातिर अमेरिकामा कार्यरत नेपालीहरूको भविष्य अन्योलमा पारेको छ भने अर्कातिर नेपालको घरेलु आइटी बजारमा फरक तरङ्ग ल्याएको छ। अमेरिकाको यो आप्रवासन कडाइले नेपालभित्रै बसेर काम गरिरहेका नेपाली प्राविधिकहरू, आउटसोर्सिङ कम्पनीहरू र समग्र आइटी इकोसिस्टममा कस्तो असर पार्न सक्छ भन्ने बहस सुरु भएको देखिन्छ।\nविप्रो, टाटा, इन्फोसिस र माइक्रोसफ्टजस्ता कम्पनीहरूले अमेरिकामा विदेशी कामदार राख्न कठिन भएपछि आफ्ना धेरै प्राविधिक कामहरू भारत, नेपाल र भियतनामजस्ता देशहरूमा ‘आउटसोर्सिङ’ मार्फत पठाउने सम्भावना बढ्छ। नेपालमा सञ्चालित आइटी सफ्टवेयर हाउस वा भेन्डर कम्पनीहरूका लागि यसले नयाँ अमेरिकी आयोजनाहरू भित्र्याउन सकेमा भने नेपालमै बसेर आउटसोर्सिङ गर्नेहरूलाई राम्रो हुन सक्ने छ।\nतर, नेपालका अग्रणी इन्जिनियरिङ र प्रविधि कलेजहरूबाट पासआउट भएका धेरै प्रतिभाशाली युवाहरूको सपना अमेरिकी आइटी कम्पनीमा एच-१बी भिसा पाएर जाने र पछि ग्रीनकार्ड लिएर उतै बसोबास गर्ने रहँदै आएको छ। तर, यो नयाँ नीतिका कारण नेपालमै रहेका सिनियर डेभलपर तथा आर्किटेक्टहरू अमेरिका जाने सोच स्थगित गरी युरोप, क्यानाडा वा नेपालमै रहेर नै काम गर्नुपर्ने अवस्था आउन सक्छ।\nपछिल्लो समय नेपालबाट उच्च दक्ष प्राविधिकहरू विदेशिने क्रम तीव्र थियो। अमेरिकामा स्थायी बसोबासको बाटो झन् कठिन र अनिश्चित बन्दै जाँदा नेपालभित्रै प्रविधि स्टार्टअप सुरु गर्ने वा नेपाली कम्पनीहरूमा बसेर विश्वव्यापी ग्राहकका लागि काम गर्ने संस्कृतिको विकास भने हुन सक्ने छ। यसले नेपालको प्राविधिक क्षेत्रमा दक्ष जनशक्तिको अभावलाई केही हदसम्म कम गर्न सहयोग पुर्‍याउने छ।\nअमेरिकी सरकारको यो कदमले प्रविधि क्षेत्रमा अमेरिकाका ठूला कम्पनीमा गएर काम गर्ने विश्वभरका प्राविधिकहरूलाई तर्साएको छ। तर, यो योजना दीर्घकालीन रुपमा रहन्छ कि रहँदैन भन्ने प्रश्न कायम रहेकाले कति लामो समयसम्म टिक्छ त्यसले नै भविष्यमा आइटी क्षेत्रमा काम गर्ने युवाको चाहना प्रभावित बनाउने छ।\nसबै\nट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)\nमस्कले अम्बानीलाई किन भने ‘प्रधानमन्त्री’? स्टारलिंक भारतमा रोकिँदा बढ्यो अर्बपतिको टकराव (भिडियो)\nएन्फामा मौलाएको शृङ्खलाबद्ध भ्रष्टाचार, सीआइबीले खोलेको रहस्य (भिडियो)\nभारतीय सत्ताको घेराबन्दीमा युवा आन्दोलन: किन पक्राउ परे ध्रुव राठी र अभिजीत दिपके?\nअचाक्ली महँगीबीच ट्रम्पका लागि कसरी जनमत संग्रह बन्दै छ अमेरिकी निर्वाचन? (भिडियो)\nग्रासियास, लियो! मेसीको बिदाइसँगै एउटा युगको अन्त्य (भिडियो)\nट्रम्पले ८ ठूला आईटी कम्पनीको ग्रीनकार्ड रोकेपछि के नेपालीलाई पनि असर गर्छ? (भिडियो)\nप्राधिकरणको निर्देशन विपरीत इन्टरनेट सेवा बेच्ने १४ कम्पनीलाई ५० हजार जरिवाना\nहेलिकोप्टरको पर्खाइमा छन् आरुघाटमा अलपत्र परेका यात्रुहरू (तस्बिर)\nबुढीगण्डकी बाढीः जलवायु संकट र भूगर्भीय जोखिमको संगम\nअर्थमन्त्री स्वर्णिम वाग्ले थाइल्याण्ड प्रस्थान\nसुदूरपश्चिम प्रदेशको बजेट पारित गर्ने तयारी, कांग्रेसले बहिष्कार गर्ने\nविपद्पीडित नागरिको तत्काल ठोस, अनुमानयोग्य र समयबद्ध कार्यक्रम घोषणा गर्न माग\nकोशी प्रदेशमा पहिलोपटक सातै प्रदेशका मुख्यमन्त्रीहरूको जमघट\nसांसद सुनारमाथि उच्चस्तरीय छानबिन भइरहेको छ: रास्वपा\nराजधानीमा नेपथ्य साँझ : कीर्तिपुरको मैदानबाट भाषा र भाका बचाउन आह्वान\nप्रकृतिको रौद्र रुप: डेढ महिनामै ठूला नदी सभ्यता छियाछिया, अस्तित्वमाथि नै प्रश्न\nदशैंमा पनि तातेन किताबको बजार, ‘कहाँ गए किताब किन्नेहरू?’\n‘कार टी’ सेल प्रविधि: क्यान्सर उपचारमा नेपालको फड्को\nगैँडाकोटमा स्कुल बसको ठक्करबाट मोटरसाइकल चालकको मृत्यु\nजुत्ता खोलेर सुरक्षा जाँचमा सहभागी हुँदै गृहमन्त्री दिल्ली प्रस्थान (तस्बिरहरू)\nडा. पौडेलको निधन\nसुदूरपश्चिम प्रदेशको बजेट पारित गर्ने तयारी, कांग्रेसले बहिष्कार गर्ने\nउत्तरी गोरखाका पाँच हजार घरधुरी विद्युत्‌विहीन\nसांसद सुनारले भने- अडियो प्रकरणमा मेरो कुनै संलग्नता छैन, छानबिनमा सघाउछु\n‘बुवा मन्त्री हुँदैमा छोराछोरी नेपो बेबी हुँदैनन्’\nशून्य समय\nप्रहरी हैन, संसदीय समितिले गर्नुपर्छ चोलेन्द्र प्रकरणको छानबिन\nयो संविधानको हैसियत र पूर्वप्रधानन्यायाधीशको गिरफ्तारी\nबालेन्द्र सरकारविरुद्ध लहरको संकेत\nभरत दाहाल गिरफ्तारीले निम","article_char_count":6000,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Desh Sanchar","assigned_hook_type":"stakes","review_id":"RV_20261013_rgzw0n","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===
