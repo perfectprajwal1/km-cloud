@@ -1,27 +1,12 @@
 name: KM Buffer test
+# Retired unguarded mutation. Use KM publish (dry_run=true) instead.
 on:
   workflow_dispatch:
-    inputs:
-      dry_run:
-        description: "true = only check key, channel and media URL, post nothing"
-        default: "false"
-      mode:
-        description: "shareNow (post right away) or addToQueue"
-        default: "shareNow"
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Post one test reel through Buffer
-        env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          MEDIA_URL: https://perfectprajwal1.github.io/km-media/RV_20261011_d64xnr.mp4
-          DRY_RUN: ${{ inputs.dry_run }}
-          POST_MODE: ${{ inputs.mode }}
-          CAPTION_FILE: buffer_test/caption.txt
-        run: python buffer_test/buffer_test.py
+      - name: Safe read-only retirement notice
+        run: |
+          echo "Old Buffer test retired. It bypassed receipts and could repost cricket."
+          echo "Use KM publish with dry_run=true for checks. This workflow posts nothing."
