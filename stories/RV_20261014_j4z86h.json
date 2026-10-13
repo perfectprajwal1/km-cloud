@@ -1,0 +1,583 @@
+{
+ "id": "RV_20261014_j4z86h",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?",
+ "pinned_comment": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु",
+   "sub": "",
+   "km_default": true,
+   "vo": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।",
+   "dark": true,
+   "voice_tone": "curious",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_01_277f2c.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": null,
+      "numText": "पहिलोपटक",
+      "unit": "",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "",
+      "at": 0.092
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "त्रिपुरेश्वरस्थित राखेप कभर्डहलमा आयोजना",
+   "points": [
+    "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित"
+   ],
+   "km_default": true,
+   "vo": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_02_abb0ef.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम "
+       },
+       {
+        "t": "सुरु भएको हो",
+        "hl": true,
+        "at": 0.743
+       },
+       {
+        "t": "।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "bignum",
+   "dark": true,
+   "label": "सहभागी खेलाडी",
+   "prefix": "",
+   "value": 14,
+   "sub": "नेपालका १४ खेलाडी सहभागी",
+   "km_default": true,
+   "vo": "तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।",
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_03_83f01a.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 14,
+      "icon": "run",
+      "label": "सहभागी खेलाडी",
+      "at": 0.331,
+      "layout": {
+       "cols": 7,
+       "rows": 2,
+       "step": 128.57,
+       "size": 100,
+       "x0": 90.0,
+       "y0": 133,
+       "capY": 424
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "run": "<circle pathLength=\"1\" cx=\"15\" cy=\"4\" r=\"2\"/><path pathLength=\"1\" d=\"M8 21l3-6 3 2v5\"/><path pathLength=\"1\" d=\"M11 15l1.5-6.5L17 12l3 1\"/><path pathLength=\"1\" d=\"M12.5 8.5L9 8l-3 3\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "bignum",
+   "dark": true,
+   "label": "विदेशी टोली सदस्य",
+   "prefix": "",
+   "value": 5,
+   "sub": "अमेरिकी प्रशिक्षकको ५ सदस्यीय टोली",
+   "km_default": true,
+   "vo": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।",
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_04_bcaa18.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 5,
+      "icon": "pin",
+      "label": "विदेशी टोली सदस्य",
+      "at": 0.04,
+      "layout": {
+       "cols": 5,
+       "rows": 1,
+       "step": 180.0,
+       "size": 140,
+       "x0": 90.0,
+       "y0": 172,
+       "capY": 386
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "pin": "<path pathLength=\"1\" d=\"M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z\"/><circle pathLength=\"1\" cx=\"12\" cy=\"10\" r=\"2.5\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "अन्तर्राष्ट्रिय प्रतियोगिताको तयारी",
+   "points": [
+    "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय"
+   ],
+   "km_default": true,
+   "vo": "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।",
+   "dark": true,
+   "voice_tone": "thinking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_05_df80b1.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "अन्तर्राष्ट्रिय",
+        "key": true,
+        "at": 0.257
+       },
+       {
+        "t": "प्रतियोगिताको",
+        "key": false,
+        "at": 0.33
+       },
+       {
+        "t": "तयारी",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "globe",
+      "at": 0.257
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 94
+     },
+     "icons": {
+      "globe": "<circle pathLength=\"1\" cx=\"12\" cy=\"12\" r=\"9\"/><path pathLength=\"1\" d=\"M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "place": "काठमाडौं",
+   "headline": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+   "type": "place",
+   "vo": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261014_j4z86h_06_75cc1c.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": null,
+      "numText": "तीनदिने",
+      "unit": "",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "",
+      "at": 0.15
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1",
+  "version": "1.0",
+  "content_hash": "13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b",
+  "plan_hash": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:points_plain",
+   "strip:evidence",
+   "main:bignum",
+   "strip:units",
+   "main:bignum",
+   "strip:units",
+   "main:points_plain",
+   "strip:phrase",
+   "main:place",
+   "strip:stat",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:place",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 199.8,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 113.4,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "bignum",
+    "selected_strip": "units",
+    "score": 182.52,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "bignum",
+    "selected_strip": "units",
+    "score": 166.52,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition",
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "strip:evidence",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 113.4,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "place",
+    "selected_strip": "stat",
+    "score": 181.44,
+    "reason": [
+     "one explicit location",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:place",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:place",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "place",
+       "text": "काठमाडौं",
+       "start": 0,
+       "end": 8
+      },
+      {
+       "field": "headline",
+       "text": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+       "start": 0,
+       "end": 55
+      }
+     ],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:place": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "82211467bd934e5e96ef9719b72785e9df09251ee74c930d76006cd8b1c05483"
+ }
+}

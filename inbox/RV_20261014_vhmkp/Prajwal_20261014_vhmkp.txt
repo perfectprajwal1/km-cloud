@@ -1,0 +1,905 @@
+REVIEW ID: RV_20261014_vhmkp
+TOPIC: तीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग
+MODEL: gemini-3.5-flash-lite
+STORY ID: ST_07559bf18180ece9
+DATE: 2026-10-13T15:36:13.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Ratopati
+CATEGORY: sports
+SOURCE: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो? ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ। सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ। खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ। खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ। काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal women football training Kathmandu",
+   "shot_description": "Female football players training on the pitch in Nepal sportswear",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?",
+  "big_hook_text": "महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "तेह्रथुम"
+    }
+   ],
+   "data_source_quote": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"
+  },
+  "caption_text": "दक्षिण कोरियाको समाजद्वारा खेलाडीलाई सहयोग",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "१९"
+    },
+    {
+     "label": "",
+     "value": "१७"
+    }
+   ],
+   "data_source_quote": "नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"
+  },
+  "caption_text": "अनु बस्नेत, सेमिहाङ्मा पङ्धाक र साहारा तुम्बाहाम्फे",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "जनही सहयोग",
+     "value": "रु ५० हजार"
+    },
+    {
+     "label": "कूल सहयोग",
+     "value": "रु १,५०,०००"
+    }
+   ],
+   "data_source_quote": "जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"
+  },
+  "caption_text": "जनही रु ५० हजार, कूल रु १,५०,००० सहयोग",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"
+ },
+ {
+  "line_id": 5,
+  "beat": "impact",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "football players celebrating stadium Nepal",
+   "shot_description": "Female athletes smiling and supporting each other during sports",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "मनोबल उच्च बनाउने उद्देश्यले प्रोत्साहन सहयोग",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "खेलाडीको खेलप्रतिको लगाव, मेहनत र समर्पणलाई प्रोत्साहन गर्दै मनोबल उच्च बनाउने तथा आगामी दिनमा खेल क्षेत्रमा अझ उत्साहका साथ अघि बढ्न प्रेरित गर्ने उद्देश्यले सहयोग प्रदान गरिएको"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "formal presentation ceremony stage Kathmandu",
+   "shot_description": "Stage presentation and token handover in Kathmandu hall",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "काठमाडौँमा कार्यक्रम गरी रकम हस्तान्तरण",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "काठमाडौँमा आयोजित कार्यक्रममा तेह्रथुमबाट निर्वाचित प्रतिनिधिसभा सदस्य सन्तोष सुब्बाको प्रमुख आतिथ्यमा खेलाडीलाई सहयोग रकम हस्तान्तरण गरिएको अध्यक्ष चोङबाङले बताए।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_07559bf18180ece9","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","source_label":"Ratopati","source_credit":"Source: Ratopati","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ","proof_asset":{"kind":"article_text","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","article_quote":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"warm","alternate_hook":"राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ","closing_line":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","comment_prompt":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","pinned_comment":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","lines":[{"line_id":1,"beat":"hook","narration_text":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Nepal women football training Kathmandu","shot_description":"Female football players training on the pitch in Nepal sportswear","depiction_scope":"generic_illustration"},"caption_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","big_hook_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","pip_mode":"off","source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तेह्रथुम"}],"data_source_quote":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"},"caption_text":"दक्षिण कोरियाको समाजद्वारा खेलाडीलाई सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"१९"},{"label":"","value":"१७"}],"data_source_quote":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"},"caption_text":"अनु बस्नेत, सेमिहाङ्मा पङ्धाक र साहारा तुम्बाहाम्फे","big_hook_text":"","pip_mode":"off","source_evidence":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जनही सहयोग","value":"रु ५० हजार"},{"label":"कूल सहयोग","value":"रु १,५०,०००"}],"data_source_quote":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"},"caption_text":"जनही रु ५० हजार, कूल रु १,५०,००० सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"impact","narration_text":"खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।","voice":"warm","emotion":"warm","visual":{"type":"BROLL","search_query":"football players celebrating stadium Nepal","shot_description":"Female athletes smiling and supporting each other during sports","depiction_scope":"generic_illustration"},"caption_text":"मनोबल उच्च बनाउने उद्देश्यले प्रोत्साहन सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"खेलाडीको खेलप्रतिको लगाव, मेहनत र समर्पणलाई प्रोत्साहन गर्दै मनोबल उच्च बनाउने तथा आगामी दिनमा खेल क्षेत्रमा अझ उत्साहका साथ अघि बढ्न प्रेरित गर्ने उद्देश्यले सहयोग प्रदान गरिएको","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"formal presentation ceremony stage Kathmandu","shot_description":"Stage presentation and token handover in Kathmandu hall","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँमा कार्यक्रम गरी रकम हस्तान्तरण","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौँमा आयोजित कार्यक्रममा तेह्रथुमबाट निर्वाचित प्रतिनिधिसभा सदस्य सन्तोष सुब्बाको प्रमुख आतिथ्यमा खेलाडीलाई सहयोग रकम हस्तान्तरण गरिएको अध्यक्ष चोङबाङले बताए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग | Khabar Minute","youtube_description":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय टोलीका महिला फुटबल खेलाडीलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार सहयोग प्रदान गरेको छ। खेलाडीको मनोबल बढाउन काठमाडौँमा आयोजित कार्यक्रममा यो रकम हस्तान्तरण गरिएको हो। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","youtube_tags":["NepalFootball","WomensFootball","KhabarMinute","Ratopati","NepaliNews","FootballNepal","Tehrathum","SportsNepal"],"tiktok_caption":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट आर्थिक सहयोग।","instagram_caption":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई जनही रु ५० हजारका दरले सहयोग गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","facebook_post":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले कुल रु एक लाख ५० हजार आर्थिक सहयोग प्रदान गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","threads_post":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट जनही रु ५० हजार आर्थिक सहयोग प्रदान गरिएको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","linkedin_post":"राष्ट्रिय महिला फुटबल खेलाडीहरूको प्रोत्साहनका लागि ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाद्वारा आर्थिक सहयोग प्रदान गरिएको विवरण। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","hashtags":["#NepalFootball","#WomensFootball","#KhabarMinute","#SportsNews","#Nepal"],"source_credit":"Source: Ratopati"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+Line 2: spoken number/date (तेह्रथुम) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+Line 2: invalid transition replaced
+Line 3: spoken number/date (१९, १७) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+Line 4: invalid transition replaced
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+NUMBER CONTEXT: Line 4: कुल रु एक लाख -> Words next to the number (कुल) are not next to it in the article: "50 हजारका दरले कूल रु एक लाख 50". Copy the article wording.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All factual statements in the script are supported by the article; no unsupported or contradicted claims found.
+Closing: removed question wording ("महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?"); dropped line(s) 7; last line is now: "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।".
+Line 2: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ
+
+--- PINNED COMMENT (Nepali question) ---
+महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+  "voice": "curious",
+  "pose": "curious",
+  "broll": "female football players training",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "female football players training",
+   "alt_queries": [
+    "women soccer practice",
+    "Nepal women football training Kathmandu"
+   ],
+   "query_source": "director",
+   "shot_description": "Female football players training on the pitch in Nepal sportswear",
+   "commons": null,
+   "map": null,
+   "motion_text": "प्रदान भयो",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "female football players training",
+     "search_url": "https://www.pexels.com/search/videos/female%20football%20players%20training/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=female%20football%20players%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Female football players training on the pitch in Nepal sportswear",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "female football players training",
+     "search_url": "https://pixabay.com/videos/search/female%20football%20players%20training/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=female%20football%20players%20training&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "women soccer practice",
+     "search_url": "https://www.pexels.com/search/videos/women%20soccer%20practice/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=women%20soccer%20practice&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Nepal women football training Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/Nepal%20women%20football%20training%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Nepal%20women%20football%20training%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "female football players training",
+     "search_url": "https://openverse.org/search/image?q=female%20football%20players%20training",
+     "api": "GET https://api.openverse.org/v1/images/?q=female%20football%20players%20training&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "प्रदान भयो",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L1 [full] STOCK VIDEO via pexels_video: \"female football players training\" | then stock video @pixabay \"female football players training\", stock video @pexels \"women soccer practice\", stock video @pexels \"Nepal women football training Kathmandu\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "global tehrthum society office",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "global tehrthum society office",
+   "alt_queries": [
+    "south korea nonprofit",
+    "community organization"
+   ],
+   "query_source": "director",
+   "shot_description": "Logo or building of Global Tehrthum Service Society",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "तेह्रथुम"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "तेह्रथुम"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "कोरिया",
+       "en": "South Korea",
+       "file": "Flag_of_South_Korea.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "global tehrthum society office",
+     "search_url": "https://www.pexels.com/search/videos/global%20tehrthum%20society%20office/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=global%20tehrthum%20society%20office&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Logo or building of Global Tehrthum Service Society",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "global tehrthum society office",
+     "search_url": "https://pixabay.com/videos/search/global%20tehrthum%20society%20office/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=global%20tehrthum%20society%20office&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "south korea nonprofit",
+     "search_url": "https://www.pexels.com/search/videos/south%20korea%20nonprofit/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=south%20korea%20nonprofit&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "community organization",
+     "search_url": "https://www.pexels.com/search/videos/community%20organization/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=community%20organization&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "global tehrthum society office",
+     "search_url": "https://openverse.org/search/image?q=global%20tehrthum%20society%20office",
+     "api": "GET https://api.openverse.org/v1/images/?q=global%20tehrthum%20society%20office&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 8
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 9
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \" तेह्रथुम\" | then flag row @wikimedia_commons (1), stock video @pexels \"global tehrthum society office\" [bg], stock video @pixabay \"global tehrthum society office\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Portrait of Anu Basnet, a national team player",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "१९"
+    },
+    {
+     "label": "",
+     "value": "१७"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "१९"
+      },
+      {
+       "label": "",
+       "value": "१७"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 2
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 3
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \" १९,  १७\" | then quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "money handover ceremony",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "money handover ceremony",
+   "alt_queries": [
+    "cash donation Nepal",
+    "financial support event"
+   ],
+   "query_source": "director",
+   "shot_description": "Hands exchanging envelopes with money",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "जनही सहयोग",
+     "value": "रु ५० हजार"
+    },
+    {
+     "label": "कूल सहयोग",
+     "value": "रु १,५०,०००"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "जनही सहयोग",
+       "value": "रु ५० हजार"
+      },
+      {
+       "label": "कूल सहयोग",
+       "value": "रु १,५०,०००"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "money handover ceremony",
+     "search_url": "https://www.pexels.com/search/videos/money%20handover%20ceremony/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=money%20handover%20ceremony&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Hands exchanging envelopes with money",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "money handover ceremony",
+     "search_url": "https://pixabay.com/videos/search/money%20handover%20ceremony/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=money%20handover%20ceremony&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "cash donation Nepal",
+     "search_url": "https://www.pexels.com/search/videos/cash%20donation%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=cash%20donation%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "financial support event",
+     "search_url": "https://www.pexels.com/search/videos/financial%20support%20event/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=financial%20support%20event&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "money handover ceremony",
+     "search_url": "https://openverse.org/search/image?q=money%20handover%20ceremony",
+     "api": "GET https://api.openverse.org/v1/images/?q=money%20handover%20ceremony&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"जनही सहयोग रु ५० हजार, कूल सहयोग रु १,५०,०००\" | then stock video @pexels \"money handover ceremony\" [bg], stock video @pixabay \"money handover ceremony\", stock video @pexels \"cash donation Nepal\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+  "voice": "warm",
+  "pose": "warm",
+  "broll": "players celebrating victory",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "impact",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "players celebrating victory",
+   "alt_queries": [
+    "team morale boost",
+    "athletes cheering"
+   ],
+   "query_source": "director",
+   "shot_description": "Female athletes smiling and supporting each other",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "players celebrating victory",
+     "search_url": "https://www.pexels.com/search/videos/players%20celebrating%20victory/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=players%20celebrating%20victory&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Female athletes smiling and supporting each other",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "players celebrating victory",
+     "search_url": "https://pixabay.com/videos/search/players%20celebrating%20victory/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=players%20celebrating%20victory&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "team morale boost",
+     "search_url": "https://www.pexels.com/search/videos/team%20morale%20boost/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=team%20morale%20boost&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "athletes cheering",
+     "search_url": "https://www.pexels.com/search/videos/athletes%20cheering/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=athletes%20cheering&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "players celebrating victory",
+     "search_url": "https://openverse.org/search/image?q=players%20celebrating%20victory",
+     "api": "GET https://api.openverse.org/v1/images/?q=players%20celebrating%20victory&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "खेलाडीको खेलप्रतिको लगाव",
+     "credit": "Source: Ratopati",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"players celebrating victory\" | then stock video @pixabay \"players celebrating victory\", stock video @pexels \"team morale boost\", stock video @pexels \"athletes cheering\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "ceremony stage Kathmandu",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "ceremony stage Kathmandu",
+   "alt_queries": [
+    "formal handover event",
+    "public presentation"
+   ],
+   "query_source": "director",
+   "shot_description": "Stage presentation and token handover in Kathmandu hall",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "ceremony stage Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/ceremony%20stage%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=ceremony%20stage%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Stage presentation and token handover in Kathmandu hall",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "ceremony stage Kathmandu",
+     "search_url": "https://pixabay.com/videos/search/ceremony%20stage%20Kathmandu/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=ceremony%20stage%20Kathmandu&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "formal handover event",
+     "search_url": "https://www.pexels.com/search/videos/formal%20handover%20event/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=formal%20handover%20event&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "public presentation",
+     "search_url": "https://www.pexels.com/search/videos/public%20presentation/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=public%20presentation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "ceremony stage Kathmandu",
+     "search_url": "https://openverse.org/search/image?q=ceremony%20stage%20Kathmandu",
+     "api": "GET https://api.openverse.org/v1/images/?q=ceremony%20stage%20Kathmandu&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+     "credit": "Source: Ratopati",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L6 [full] STOCK VIDEO via pexels_video: \"ceremony stage Kathmandu\" | then stock video @pixabay \"ceremony stage Kathmandu\", stock video @pexels \"formal handover event\", stock video @pexels \"public presentation\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 3/6 content lines; article quote cards 0; topic stock only 3; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] STOCK VIDEO via pexels_video: "female football players training" | then stock video @pixabay "female football players training", stock video @pexels "women soccer practice", stock video @pexels "Nepal women football training Kathmandu" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/female%20football%20players%20training/?orientation=portrait
+L2 [plate] NUMBER CARD via local_render: " तेह्रथुम" | then flag row @wikimedia_commons (1), stock video @pexels "global tehrthum society office" [bg], stock video @pixabay "global tehrthum society office" | quality: story_fact
+L3 [plate] NUMBER CARD via local_render: " १९,  १७" | then quote card @local_render, text plate @local_render | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "जनही सहयोग रु ५० हजार, कूल सहयोग रु १,५०,०००" | then stock video @pexels "money handover ceremony" [bg], stock video @pixabay "money handover ceremony", stock video @pexels "cash donation Nepal" | quality: story_fact
+L5 [full] STOCK VIDEO via pexels_video: "players celebrating victory" | then stock video @pixabay "players celebrating victory", stock video @pexels "team morale boost", stock video @pexels "athletes cheering" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/players%20celebrating%20victory/?orientation=portrait
+L6 [full] STOCK VIDEO via pexels_video: "ceremony stage Kathmandu" | then stock video @pixabay "ceremony stage Kathmandu", stock video @pexels "formal handover event", stock video @pexels "public presentation" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/ceremony%20stage%20Kathmandu/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "महिला फुटबल खेलाडीलाई आर्थिक सहयोग | Khabar Minute",
+ "youtube_description": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय टोलीका महिला फुटबल खेलाडीलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार सहयोग प्रदान गरेको छ। खेलाडीको मनोबल बढाउन काठमाडौँमा आयोजित कार्यक्रममा यो रकम हस्तान्तरण गरिएको हो। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players\nSource: Ratopati",
+ "youtube_tags": [
+  "NepalFootball",
+  "WomensFootball",
+  "KhabarMinute",
+  "Ratopati",
+  "NepaliNews",
+  "FootballNepal",
+  "Tehrathum",
+  "SportsNepal"
+ ],
+ "tiktok_caption": "महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट आर्थिक सहयोग।\nSource: Ratopati",
+ "instagram_caption": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई जनही रु ५० हजारका दरले सहयोग गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players\nSource: Ratopati",
+ "facebook_post": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले कुल रु एक लाख ५० हजार आर्थिक सहयोग प्रदान गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players\nSource: Ratopati",
+ "threads_post": "महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट जनही रु ५० हजार आर्थिक सहयोग प्रदान गरिएको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players\nSource: Ratopati",
+ "linkedin_post": "राष्ट्रिय महिला फुटबल खेलाडीहरूको प्रोत्साहनका लागि ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाद्वारा आर्थिक सहयोग प्रदान गरिएको विवरण। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players\nSource: Ratopati",
+ "hashtags": [
+  "#NepalFootball",
+  "#WomensFootball",
+  "#KhabarMinute",
+  "#SportsNews",
+  "#Nepal"
+ ],
+ "source_credit": "Source: Ratopati"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261014_vhmkp","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261014_vhmkp","review_date":"20261014","title":"तीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग","chosen_topic":"तीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग","category":"sports","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","story_id":"ST_07559bf18180ece9","risk_flag":"NORMAL","source_credit":"Source: Ratopati","full_script":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो? ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ। सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ। खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ। खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ। काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","hook":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?","alternate_hook":"राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ","hook_type":"curiosity_gap","closing_line":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","pinned_comment":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","lines":[{"text":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?","voice":"curious","pose":"curious","broll":"female football players training","broll_kind":"stock_video"},{"text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"global tehrthum society office","broll_kind":"number_card"},{"text":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।","voice":"neutral","pose":"neutral","broll":"money handover ceremony","broll_kind":"number_card"},{"text":"खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।","voice":"warm","pose":"warm","broll":"players celebrating victory","broll_kind":"stock_video"},{"text":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","voice":"neutral","pose":"neutral","broll":"ceremony stage Kathmandu","broll_kind":"stock_video"}],"word_count":85,"workbook":{"schema_version":"6.6.9","story_id":"ST_07559bf18180ece9","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","source_label":"Ratopati","source_credit":"Source: Ratopati","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ","proof_asset":{"kind":"article_text","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","article_quote":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"warm","alternate_hook":"राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई दक्षिण कोरियामा रहेको समाजले आर्थिक सहयोग गरेको छ","closing_line":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","comment_prompt":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","pinned_comment":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","lines":[{"line_id":1,"beat":"hook","narration_text":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Nepal women football training Kathmandu","shot_description":"Female football players training on the pitch in Nepal sportswear","depiction_scope":"generic_illustration"},"caption_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","big_hook_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","pip_mode":"off","source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तेह्रथुम"}],"data_source_quote":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"},"caption_text":"दक्षिण कोरियाको समाजद्वारा खेलाडीलाई सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"१९"},{"label":"","value":"१७"}],"data_source_quote":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"},"caption_text":"अनु बस्नेत, सेमिहाङ्मा पङ्धाक र साहारा तुम्बाहाम्फे","big_hook_text":"","pip_mode":"off","source_evidence":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जनही सहयोग","value":"रु ५० हजार"},{"label":"कूल सहयोग","value":"रु १,५०,०००"}],"data_source_quote":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"},"caption_text":"जनही रु ५० हजार, कूल रु १,५०,००० सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"impact","narration_text":"खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।","voice":"warm","emotion":"warm","visual":{"type":"BROLL","search_query":"football players celebrating stadium Nepal","shot_description":"Female athletes smiling and supporting each other during sports","depiction_scope":"generic_illustration"},"caption_text":"मनोबल उच्च बनाउने उद्देश्यले प्रोत्साहन सहयोग","big_hook_text":"","pip_mode":"off","source_evidence":"खेलाडीको खेलप्रतिको लगाव, मेहनत र समर्पणलाई प्रोत्साहन गर्दै मनोबल उच्च बनाउने तथा आगामी दिनमा खेल क्षेत्रमा अझ उत्साहका साथ अघि बढ्न प्रेरित गर्ने उद्देश्यले सहयोग प्रदान गरिएको","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"formal presentation ceremony stage Kathmandu","shot_description":"Stage presentation and token handover in Kathmandu hall","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँमा कार्यक्रम गरी रकम हस्तान्तरण","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौँमा आयोजित कार्यक्रममा तेह्रथुमबाट निर्वाचित प्रतिनिधिसभा सदस्य सन्तोष सुब्बाको प्रमुख आतिथ्यमा खेलाडीलाई सहयोग रकम हस्तान्तरण गरिएको अध्यक्ष चोङबाङले बताए।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग | Khabar Minute","youtube_description":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय टोलीका महिला फुटबल खेलाडीलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार सहयोग प्रदान गरेको छ। खेलाडीको मनोबल बढाउन काठमाडौँमा आयोजित कार्यक्रममा यो रकम हस्तान्तरण गरिएको हो। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","youtube_tags":["NepalFootball","WomensFootball","KhabarMinute","Ratopati","NepaliNews","FootballNepal","Tehrathum","SportsNepal"],"tiktok_caption":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट आर्थिक सहयोग।","instagram_caption":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई जनही रु ५० हजारका दरले सहयोग गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","facebook_post":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले कुल रु एक लाख ५० हजार आर्थिक सहयोग प्रदान गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","threads_post":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट जनही रु ५० हजार आर्थिक सहयोग प्रदान गरिएको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","linkedin_post":"राष्ट्रिय महिला फुटबल खेलाडीहरूको प्रोत्साहनका लागि ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाद्वारा आर्थिक सहयोग प्रदान गरिएको विवरण। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","hashtags":["#NepalFootball","#WomensFootball","#KhabarMinute","#SportsNews","#Nepal"],"source_credit":"Source: Ratopati"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"Nepal women football training Kathmandu","shot_description":"Female football players training on the pitch in Nepal sportswear","depiction_scope":"generic_illustration"},"caption_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","big_hook_text":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग किन?","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तेह्रथुम"}],"data_source_quote":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"},"caption_text":"दक्षिण कोरियाको समाजद्वारा खेलाडीलाई सहयोग","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"१९"},{"label":"","value":"१७"}],"data_source_quote":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"},"caption_text":"अनु बस्नेत, सेमिहाङ्मा पङ्धाक र साहारा तुम्बाहाम्फे","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जनही सहयोग","value":"रु ५० हजार"},{"label":"कूल सहयोग","value":"रु १,५०,०००"}],"data_source_quote":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"},"caption_text":"जनही रु ५० हजार, कूल रु १,५०,००० सहयोग","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।"},{"line_id":5,"beat":"impact","visual":{"type":"BROLL","search_query":"football players celebrating stadium Nepal","shot_description":"Female athletes smiling and supporting each other during sports","depiction_scope":"generic_illustration"},"caption_text":"मनोबल उच्च बनाउने उद्देश्यले प्रोत्साहन सहयोग","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"खेलाडीको खेलप्रतिको लगाव, मेहनत र समर्पणलाई प्रोत्साहन गर्दै मनोबल उच्च बनाउने तथा आगामी दिनमा खेल क्षेत्रमा अझ उत्साहका साथ अघि बढ्न प्रेरित गर्ने उद्देश्यले सहयोग प्रदान गरिएको"},{"line_id":6,"beat":"closing","visual":{"type":"BROLL","search_query":"formal presentation ceremony stage Kathmandu","shot_description":"Stage presentation and token handover in Kathmandu hall","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँमा कार्यक्रम गरी रकम हस्तान्तरण","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"काठमाडौँमा आयोजित कार्यक्रममा तेह्रथुमबाट निर्वाचित प्रतिनिधिसभा सदस्य सन्तोष सुब्बाको प्रमुख आतिथ्यमा खेलाडीलाई सहयोग रकम हस्तान्तरण गरिएको अध्यक्ष चोङबाङले बताए।"}],"lines_legacy":[{"text":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?","voice":"curious","pose":"curious","broll":"female football players training","broll_kind":"stock_video"},{"text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"global tehrthum society office","broll_kind":"number_card"},{"text":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।","voice":"neutral","pose":"neutral","broll":"money handover ceremony","broll_kind":"number_card"},{"text":"खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।","voice":"warm","pose":"warm","broll":"players celebrating victory","broll_kind":"stock_video"},{"text":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","voice":"neutral","pose":"neutral","broll":"ceremony stage Kathmandu","broll_kind":"stock_video"}],"youtube_title":"महिला फुटबल खेलाडीलाई आर्थिक सहयोग | Khabar Minute","youtube_description":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय टोलीका महिला फुटबल खेलाडीलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार सहयोग प्रदान गरेको छ। खेलाडीको मनोबल बढाउन काठमाडौँमा आयोजित कार्यक्रममा यो रकम हस्तान्तरण गरिएको हो। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","youtube_tags":["NepalFootball","WomensFootball","KhabarMinute","Ratopati","NepaliNews","FootballNepal","Tehrathum","SportsNepal"],"tiktok_caption":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट आर्थिक सहयोग।\nSource: Ratopati","instagram_caption":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई जनही रु ५० हजारका दरले सहयोग गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","facebook_post":"तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीलाई ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले कुल रु एक लाख ५० हजार आर्थिक सहयोग प्रदान गरेको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","threads_post":"महिला फुटबल खेलाडीलाई दक्षिण कोरियाको समाजबाट जनही रु ५० हजार आर्थिक सहयोग प्रदान गरिएको छ। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","linkedin_post":"राष्ट्रिय महिला फुटबल खेलाडीहरूको प्रोत्साहनका लागि ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाद्वारा आर्थिक सहयोग प्रदान गरिएको विवरण। Ratopati: https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","hashtags":["#NepalFootball","#WomensFootball","#KhabarMinute","#SportsNews","#Nepal"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.5-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"female football players training","alt_queries":["women soccer practice","Nepal women football training Kathmandu"],"query_source":"director","shot_description":"Female football players training on the pitch in Nepal sportswear","commons":null,"map":null,"motion_text":"प्रदान भयो","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"female football players training","search_url":"https://www.pexels.com/search/videos/female%20football%20players%20training/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=female%20football%20players%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Female football players training on the pitch in Nepal sportswear","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"female football players training","search_url":"https://pixabay.com/videos/search/female%20football%20players%20training/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=female%20football%20players%20training&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"women soccer practice","search_url":"https://www.pexels.com/search/videos/women%20soccer%20practice/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=women%20soccer%20practice&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"Nepal women football training Kathmandu","search_url":"https://www.pexels.com/search/videos/Nepal%20women%20football%20training%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Nepal%20women%20football%20training%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"female football players training","search_url":"https://openverse.org/search/image?q=female%20football%20players%20training","api":"GET https://api.openverse.org/v1/images/?q=female%20football%20players%20training&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"प्रदान भयो","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L1 [full] STOCK VIDEO via pexels_video: \"female football players training\" | then stock video @pixabay \"female football players training\", stock video @pexels \"women soccer practice\", stock video @pexels \"Nepal women football training Kathmandu\" | quality: topic_stock"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"global tehrthum society office","alt_queries":["south korea nonprofit","community organization"],"query_source":"director","shot_description":"Logo or building of Global Tehrthum Service Society","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"","value":"तेह्रथुम"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"तेह्रथुम"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"कोरिया","en":"South Korea","file":"Flag_of_South_Korea.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"global tehrthum society office","search_url":"https://www.pexels.com/search/videos/global%20tehrthum%20society%20office/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=global%20tehrthum%20society%20office&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Logo or building of Global Tehrthum Service Society","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"global tehrthum society office","search_url":"https://pixabay.com/videos/search/global%20tehrthum%20society%20office/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=global%20tehrthum%20society%20office&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"south korea nonprofit","search_url":"https://www.pexels.com/search/videos/south%20korea%20nonprofit/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=south%20korea%20nonprofit&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"community organization","search_url":"https://www.pexels.com/search/videos/community%20organization/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=community%20organization&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"global tehrthum society office","search_url":"https://openverse.org/search/image?q=global%20tehrthum%20society%20office","api":"GET https://api.openverse.org/v1/images/?q=global%20tehrthum%20society%20office&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"quote_card","source":"local_render","text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":8},{"kind":"text_plate","source":"local_render","text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":9}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \" तेह्रथुम\" | then flag row @wikimedia_commons (1), stock video @pexels \"global tehrthum society office\" [bg], stock video @pixabay \"global tehrthum society office\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Portrait of Anu Basnet, a national team player","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"","value":"१९"},{"label":"","value":"१७"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"१९"},{"label":"","value":"१७"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"quote_card","source":"local_render","text":"नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":2},{"kind":"text_plate","source":"local_render","text":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":3}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \" १९,  १७\" | then quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"money handover ceremony","alt_queries":["cash donation Nepal","financial support event"],"query_source":"director","shot_description":"Hands exchanging envelopes with money","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"जनही सहयोग","value":"रु ५० हजार"},{"label":"कूल सहयोग","value":"रु १,५०,०००"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"जनही सहयोग","value":"रु ५० हजार"},{"label":"कूल सहयोग","value":"रु १,५०,०००"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"money handover ceremony","search_url":"https://www.pexels.com/search/videos/money%20handover%20ceremony/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=money%20handover%20ceremony&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Hands exchanging envelopes with money","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"money handover ceremony","search_url":"https://pixabay.com/videos/search/money%20handover%20ceremony/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=money%20handover%20ceremony&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"cash donation Nepal","search_url":"https://www.pexels.com/search/videos/cash%20donation%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=cash%20donation%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"financial support event","search_url":"https://www.pexels.com/search/videos/financial%20support%20event/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=financial%20support%20event&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"money handover ceremony","search_url":"https://openverse.org/search/image?q=money%20handover%20ceremony","api":"GET https://api.openverse.org/v1/images/?q=money%20handover%20ceremony&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"जनही सहयोग रु ५० हजार, कूल सहयोग रु १,५०,०००\" | then stock video @pexels \"money handover ceremony\" [bg], stock video @pixabay \"money handover ceremony\", stock video @pexels \"cash donation Nepal\" | quality: story_fact"},{"line_id":5,"beat":"impact","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"players celebrating victory","alt_queries":["team morale boost","athletes cheering"],"query_source":"director","shot_description":"Female athletes smiling and supporting each other","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"players celebrating victory","search_url":"https://www.pexels.com/search/videos/players%20celebrating%20victory/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=players%20celebrating%20victory&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Female athletes smiling and supporting each other","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"players celebrating victory","search_url":"https://pixabay.com/videos/search/players%20celebrating%20victory/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=players%20celebrating%20victory&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"team morale boost","search_url":"https://www.pexels.com/search/videos/team%20morale%20boost/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=team%20morale%20boost&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"athletes cheering","search_url":"https://www.pexels.com/search/videos/athletes%20cheering/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=athletes%20cheering&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"players celebrating victory","search_url":"https://openverse.org/search/image?q=players%20celebrating%20victory","api":"GET https://api.openverse.org/v1/images/?q=players%20celebrating%20victory&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"खेलाडीको खेलप्रतिको लगाव","credit":"Source: Ratopati","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"players celebrating victory\" | then stock video @pixabay \"players celebrating victory\", stock video @pexels \"team morale boost\", stock video @pexels \"athletes cheering\" | quality: topic_stock"},{"line_id":6,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"ceremony stage Kathmandu","alt_queries":["formal handover event","public presentation"],"query_source":"director","shot_description":"Stage presentation and token handover in Kathmandu hall","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"ceremony stage Kathmandu","search_url":"https://www.pexels.com/search/videos/ceremony%20stage%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=ceremony%20stage%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Stage presentation and token handover in Kathmandu hall","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"ceremony stage Kathmandu","search_url":"https://pixabay.com/videos/search/ceremony%20stage%20Kathmandu/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=ceremony%20stage%20Kathmandu&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"formal handover event","search_url":"https://www.pexels.com/search/videos/formal%20handover%20event/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=formal%20handover%20event&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"public presentation","search_url":"https://www.pexels.com/search/videos/public%20presentation/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=public%20presentation&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"ceremony stage Kathmandu","search_url":"https://openverse.org/search/image?q=ceremony%20stage%20Kathmandu","api":"GET https://api.openverse.org/v1/images/?q=ceremony%20stage%20Kathmandu&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"text_plate","source":"local_render","text":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।","credit":"Source: Ratopati","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L6 [full] STOCK VIDEO via pexels_video: \"ceremony stage Kathmandu\" | then stock video @pixabay \"ceremony stage Kathmandu\", stock video @pexels \"formal handover event\", stock video @pexels \"public presentation\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":3,"quote_card":0,"topic_stock":3,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":3,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 3/6 content lines; article quote cards 0; topic stock only 3; needs a pick 0","lines_with_stock_query":5,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":3,"tried":[{"src":"director","query":"young female football players","verdict":"person_line"},{"src":"director_alt","query":"teen athletes Nepal","verdict":"person_line"},{"src":"director_alt","query":"women soccer team","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.71,"removed_text":["महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान","sub":"","kicker":"तेह्रथुमबाट प्रतिनिधित्व"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"प्रतिनिधित्व"}},"picture":{"status":"candidates","subject":{"kind":"object","name_en":"football","in_line":"फुटबल","in_article":true},"depiction":"generic_illustration","note":"General picture of the football, not the people or event in this story. Never put a name on it.","queries":[{"rank":1,"source":"wikimedia_commons","query":"football match stadium","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=football%20match%20stadium&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=football%20match%20stadium&ns6=1"},{"rank":2,"source":"openverse","query":"football players","api":"https://api.openverse.org/v1/images/?q=football%20players&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=football%20players&aspect_ratio=wide"},{"rank":3,"source":"pexels_photo","query":"football on pitch","api":"https://api.pexels.com/v1/search?query=football%20on%20pitch&orientation=landscape&per_page=8","url":"https://www.pexels.com/search/football%20on%20pitch/?orientation=landscape"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"kicker","fields":{"text":"ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"खेलाडीहरूलाई"}},"picture":{"status":"candidates","subject":{"kind":"entity","name_en":"Global Tehrthum Service Society","in_line":"ग्लोबल तेह्रथुम सेवा समाज","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"nonprofit office","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=nonprofit%20office&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=nonprofit%20office&ns6=1"},{"rank":2,"source":"openverse","query":"community service building","api":"https://api.openverse.org/v1/images/?q=community%20service%20building&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=community%20service%20building&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"south korea organization","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=south%20korea%20organization&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=south%20korea%20organization&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"detail","card":{"type":"scale","fields":{"number":"१९ वर्ष","headline":"सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत","sub":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"१९ वर्ष"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Anu Basnet","in_line":"अनु बस्नेत","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"teen female athlete","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=teen%20female%20athlete&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=teen%20female%20athlete&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"nepal football player","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=nepal%20football%20player&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=nepal%20football%20player&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"sports portrait","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=sports%20portrait&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=sports%20portrait&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":4,"beat":"pivot","card":{"type":"bignum","fields":{"value":"150000","decimals":0,"unit":"रु","prefix":"","label":"कूल सहयोग","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"१५००००","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":5,"beat":"impact","card":{"type":"points","fields":{"points":["समर्पणलाई प्रोत्साहन","मनोलबल उच्च राख्न"],"title":"सहयोगको उद्देश्य","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"खेलाडीहरूको","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":6,"beat":"closing","card":{"type":"place","fields":{"place":"काठमाडौँ","area":"","headline":"काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ","kicker":"कहाँ"},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"काठमाडौँ"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Kathmandu","in_line":"काठमाडौँ","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"event stage","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=event%20stage&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=event%20stage&ns6=1"},{"rank":2,"source":"openverse","query":"public ceremony","api":"https://api.openverse.org/v1/images/?q=public%20ceremony&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=public%20ceremony&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"handing over","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=handing%20over&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=handing%20over&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":0,"types_used":{"hook":1,"kicker":1,"scale":1,"bignum":1,"points":1,"place":1},"distinct_types":6,"caps_relaxed":0,"picture_lines":4,"generic_picture_lines":1,"no_picture_lines":2,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":6,"chosen_topic":"तीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग","category":"sports","reason":"Matches the GenZ interest in football (aligned with current football match trends) and promotes women's empowerment, making it highly shareable and discussion‑worthy among young Nepali audiences.","angle":"Highlight the financial support for female footballers, tie it to the surge in football excitement from international matches, and frame it as a progressive step for Nepali sports culture.","chosen_id_recovered":false,"chosen_headline_exact":"तीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग","source_url":"https://www.ratopati.com/story/599440/financial-support-for-three-female-football-players","source_feed":"Ratopati","rss_pub_date":"2026-10-13T15:36:13.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":38,"direct_headline_count":168,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_07559bf18180ece9","source_credit":"Source: Ratopati","trust_eligible":true,"trust_skip_reason":"","article_age_hours":3.971292222222222,"date_unknown":false,"article_text":"नेपाली\n\n[x]\n\nनेपाली\n\nLogin\n\nIf you are having trouble accessing your account, click Forgot Password;) below.\n\nलगइन\n\nSignin With\n\nUser Registration Form\n\nName\n\nEmail\n\nPassword\n\nConfirm Password\n\nSign Up\n\nSignin With\n\nForgot Password\n\nIf you remember your password Please GO BACK and Login !!\n\nSend Password Reset Link\n\nताजा\nलोकप्रिय\n\nतीन महिला फुटबल खेलाडीलाई आर्थिक सहयोग\n\nमङ्गलबार, २७ असोज २०८३, २१ : २१\n\nसन्दर्भ तस्बिर\n\nमङ्गलबार, २७ असोज २०८३\n\nतेह्रथुम । ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका तीन खेलाडीलाई आर्थिक सहयोग गरेको छ।\n\nसमाजले नेपाली राष्ट्रिय महिला फुटबल टोलीकी खेलाडी अनु बस्नेत, राष्ट्रिय महिला फुटबल टोलीको १९ वर्षमुनिको टोलीकी खेलाडी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिको टोलीकी खेलाडी साहारा तुम्बाहाम्फेलाई जनही रु ५० हजारका दरले कूल रु एक लाख ५० हजार सहयोग गरेको हो।\n\nखेलाडीको खेलप्रतिको लगाव, मेहनत र समर्पणलाई प्रोत्साहन गर्दै मनोबल उच्च बनाउने तथा आगामी दिनमा खेल क्षेत्रमा अझ उत्साहका साथ अघि बढ्न प्रेरित गर्ने उद्देश्यले सहयोग प्रदान गरिएको संस्थाका अध्यक्ष सन्दीप हुक्पा चोङवाङले बताए।\n\nसमाजका विशिष्ट सल्लाहकार नवराज सिवाकोटी र सल्लाहकार रामप्रसाद उप्रेतीको पहलमा काठमाडौँमा आयोजित कार्यक्रममा तेह्रथुमबाट निर्वाचित प्रतिनिधिसभा सदस्य सन्तोष सुब्बाको प्रमुख आतिथ्यमा खेलाडीलाई सहयोग रकम हस्तान्तरण गरिएको अध्यक्ष चोङबाङले बताए।\n\nसन् २०१२ मा ‘दक्षिण कोरियामा छरिएर रहेका सम्पूर्ण तेह्रथुमेलीहरू एक हौँ’ भन्ने मूल नारासहित स्थापना भएको समाजले स्थापनाकालदेखि नै विभिन्न सामाजिक कार्य गर्दै आएको छ।\n\nकोरियामा कार्यरत तेह्रथुमेलीलाई आइपर्ने समस्या समाधान, हकअधिकार र न्यायका लागि आवश्यक पहल गर्नुका साथै नेपाल तथा कोरियामा दुर्घटनामा परेका र जटिल रोगबाट ग्रसित भई उपचार गर्न आर्थिक अवस्था कमजोर भएका व्यक्तिलाई सहयोग गर्दै आएको समाजले जनाएको छ। तेह्रथुममा बाढीपहिरो, आगलागी, महामारीलगायत प्राकृतिक तथा अन्य विपद्का समयमा पनि समाजले आर्थिक सहयोग गर्दै आएको छ।\n\nखबर पढेर तपाईलाई कस्तो महसुस भयो ?\n\nप्रतिक्रिया\n\nप्रतिक्रिया दिनुहोस\n\nप्रतिक्रिया दिनुहोस्\n\nलेखकको बारेमा\n\nरासस\n\nराष्ट्रिय समाचार समिति नेपालकाे सरकारी समाचार संस्था हाे ।\n\nभर्खरै\n\nट्रेन्डिङ\n\nछुटाउनुभयो कि ?\n\nसूचना विभाग दर्ता नं: १९७/०७३-७४\nEditor-in-Chief: Jiwendra Simkhada\nChairman: Bijaya Sharma\n\nसम्पर्क\n\nBakhundole, Lalitpur\n01-5010630, 01-5010671\nratopati@gmail.com\ninfo@ratopati.com\nmarketing.ratopati@gmail.com\narticle.ratopati@gmail.com\n\nउपयोगी लिंकहरु\n\n© 2026 Copyright Ratopati News Network All rights reserved. स्रोतहरू खुलाइएका बाहेक रातोपाटीमा प्रकाशित सम्पूर्ण सामग्रीहरू रातोपाटी न्युज नेटवर्कका सम्पत्ति हुन् ।","article_char_count":2472,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_reader","article_block_reason":"Direct fetch failed (page looked like a bot wall, paywall or 404); article text via free reader fallback (r.jina.ai).","km_reader_tried":true,"risk_flag":"NORMAL","risk_reasons":[],"source_label":"Ratopati","assigned_hook_type":"curiosity_gap","review_id":"RV_20261014_vhmkp","trust_gate_passed":true,"tiktok_caption_budget":133,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

@@ -1,0 +1,40 @@
+{
+  "master_sha256": "35626902831b115b9b247cb103b2b8da14b528a8fc031c7c56f1794a47d46815",
+  "cuts_sec": [
+    5.372625,
+    15.288041666666668
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।",
+      "master_start_sec": 0.12,
+      "master_end_sec": 5.2,
+      "duration_sec": 5.08,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+      "master_start_sec": 8.393,
+      "master_end_sec": 15.113,
+      "duration_sec": 6.72,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।",
+      "master_start_sec": 15.588,
+      "master_end_sec": 20.068,
+      "duration_sec": 4.48,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

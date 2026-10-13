@@ -1,0 +1,966 @@
+REVIEW ID: RV_20261014_j4z86h
+TOPIC: नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_7a6659d54ce93549
+DATE: 2026-10-13T16:15:17.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: OnlineKhabar
+CATEGORY: sports
+SOURCE: https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो। तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्। अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ। यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ। काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "पहिलोपटक"
+    }
+   ],
+   "data_source_quote": "नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"
+  },
+  "caption_text": "ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु",
+  "big_hook_text": "ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Tripureshwor Dasharath Rangasala covered hall Kathmandu exterior",
+   "shot_description": "Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "त्रिपुरेश्वरस्थित राखेप कभर्डहलमा आयोजना",
+  "big_hook_text": "",
+  "pip_mode": "listening_loop",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "ह्विलचेयर रग्बी संघ नेपालको आयोजना तथा बीआईए इन्स्टिच्युट र नेपाल रग्बी संघको सहकार्यमा मंगलबारदेखि त्रिपुरेश्वरस्थित राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको हो ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "सहभागी खेलाडी",
+     "value": "१४"
+    }
+   ],
+   "data_source_quote": "तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"
+  },
+  "caption_text": "नेपालका १४ खेलाडी सहभागी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "विदेशी टोली सदस्य",
+     "value": "५"
+    }
+   ],
+   "data_source_quote": "अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"
+  },
+  "caption_text": "अमेरिकी प्रशिक्षकको ५ सदस्यीय टोली",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "impact",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "para athlete wheelchair training court gym",
+   "shot_description": "Wheelchair sports training on an indoor wooden court with coaching drills.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अन्तर्राष्ट्रिय प्रतियोगिताको तयारी",
+  "big_hook_text": "",
+  "pip_mode": "listening_loop",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "नेपालमा ह्विलचेयर रग्बीको आधार बलियो बनाउने उद्देश्यले आयोजना गरिएको यस कार्यक्रमले खेलाडीको सीप र क्षमता विकास गर्नुका साथै नेपाली खेलाडीलाई क्षेत्रीय तथा अन्तर्राष्ट्रिय प्रतियोगितामा सहभागी हुने बाटो तयार गर्न सहयोग पुग्ने आयोजकको अपेक्षा छ।"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "तीनदिने"
+    }
+   ],
+   "data_source_quote": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा १४ नेपाली खेलाडी सहभागी छन्।"
+  },
+  "caption_text": "तीनदिने प्रशिक्षण जारी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_7a6659d54ce93549","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","article_quote":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"curious","alternate_hook":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण कसरी सुरु भयो?","closing_line":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","comment_prompt":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","pinned_comment":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","voice":"curious","emotion":"curious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलोपटक"}],"data_source_quote":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"},"caption_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","big_hook_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","pip_mode":"off","source_evidence":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Tripureshwor Dasharath Rangasala covered hall Kathmandu exterior","shot_description":"Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.","depiction_scope":"generic_illustration"},"caption_text":"त्रिपुरेश्वरस्थित राखेप कभर्डहलमा आयोजना","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"ह्विलचेयर रग्बी संघ नेपालको आयोजना तथा बीआईए इन्स्टिच्युट र नेपाल रग्बी संघको सहकार्यमा मंगलबारदेखि त्रिपुरेश्वरस्थित राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको हो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सहभागी खेलाडी","value":"१४"}],"data_source_quote":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"},"caption_text":"नेपालका १४ खेलाडी सहभागी","big_hook_text":"","pip_mode":"off","source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"विदेशी टोली सदस्य","value":"५"}],"data_source_quote":"अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"},"caption_text":"अमेरिकी प्रशिक्षकको ५ सदस्यीय टोली","big_hook_text":"","pip_mode":"off","source_evidence":"प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"impact","narration_text":"यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"para athlete wheelchair training court gym","shot_description":"Wheelchair sports training on an indoor wooden court with coaching drills.","depiction_scope":"generic_illustration"},"caption_text":"अन्तर्राष्ट्रिय प्रतियोगिताको तयारी","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"नेपालमा ह्विलचेयर रग्बीको आधार बलियो बनाउने उद्देश्यले आयोजना गरिएको यस कार्यक्रमले खेलाडीको सीप र क्षमता विकास गर्नुका साथै नेपाली खेलाडीलाई क्षेत्रीय तथा अन्तर्राष्ट्रिय प्रतियोगितामा सहभागी हुने बाटो तयार गर्न सहयोग पुग्ने आयोजकको अपेक्षा छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तीनदिने"}],"data_source_quote":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा १४ नेपाली खेलाडी सहभागी छन्।"},"caption_text":"तीनदिने प्रशिक्षण जारी","big_hook_text":"","pip_mode":"off","source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण सुरु","youtube_description":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित राखेप कभर्डहलमा १४ नेपाली खेलाडी सहभागी भई अमेरिकी टोलीबाट तालिम लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","youtube_tags":["Wheelchair Rugby","Nepal Rugby","Para Sports Nepal","OnlineKhabar","Khabar Minute","Nepali Sports","Tripureshwor","Nepal News"],"tiktok_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","instagram_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","facebook_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा अमेरिकी टोलीको नेतृत्वमा १४ नेपाली खेलाडीले प्रशिक्षण लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","threads_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","linkedin_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरमा सञ्चालित तीनदिने तालिममा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","hashtags":["#WheelchairRugby","#NepalSports","#OnlineKhabar","#ParaSports","#KhabarMinute"],"source_credit":"Source: OnlineKhabar"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+Line 1: spoken number/date (पहिलोपटक) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+unverified label line 4: विदेशी
+unverified label line 4: सदस्य
+Line 6: spoken number/date (तीनदिने) had no infographic; auto-built one from an article sentence with the same figures. Check the visual.
+Line 6: invalid transition replaced
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+SOFT-FAIL SHIPPED after 2 correction rounds. Waived soft check(s): DURATION. All hard checks (facts, quotes, grounding, sources, credits) PASSED. Review carefully before publishing.
+NUMBER CONTEXT: Line 3: सेसनमा नेपालका 14 खेलाडी -> Words next to the number (सेसनमा) are not next to it in the article: "कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा 14 नेपाली खेलाडी". Copy the article wording.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?"); dropped line(s) 7; last line is now: "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।".
+Line 3: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 6: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण कसरी सुरु भयो?
+
+--- PINNED COMMENT (Nepali question) ---
+नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।",
+  "voice": "curious",
+  "pose": "curious",
+  "broll": "wheelchair rugby training",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "wheelchair rugby training",
+   "alt_queries": [
+    "sports development Nepal",
+    "inclusive athletics"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "पहिलोपटक",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "पहिलोपटक"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "पहिलोपटक"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "wheelchair rugby training",
+     "search_url": "https://www.pexels.com/search/videos/wheelchair%20rugby%20training/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=wheelchair%20rugby%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "wheelchair rugby training",
+     "search_url": "https://pixabay.com/videos/search/wheelchair%20rugby%20training/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=wheelchair%20rugby%20training&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "sports development Nepal",
+     "search_url": "https://www.pexels.com/search/videos/sports%20development%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=sports%20development%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "inclusive athletics",
+     "search_url": "https://www.pexels.com/search/videos/inclusive%20athletics/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=inclusive%20athletics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "wheelchair rugby training",
+     "search_url": "https://openverse.org/search/image?q=wheelchair%20rugby%20training",
+     "api": "GET https://api.openverse.org/v1/images/?q=wheelchair%20rugby%20training&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 8
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "पहिलोपटक",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 9
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \" पहिलोपटक\" | then flag row @wikimedia_commons (1), stock video @pexels \"wheelchair rugby training\" [bg], stock video @pixabay \"wheelchair rugby training\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "covered sports hall",
+  "broll_kind": "flag_row",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "flag_row",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "covered sports hall",
+   "alt_queries": [
+    "Tripureshwor exterior",
+    "Kathmandu sports venue"
+   ],
+   "query_source": "director",
+   "shot_description": "Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 1
+    },
+    {
+     "kind": "map_pins",
+     "source": "openstreetmap",
+     "places": [
+      {
+       "name": "नेपाल",
+       "place_query": "Nepal",
+       "search_url": "https://www.openstreetmap.org/search?query=Nepal"
+      }
+     ],
+     "license": "ODbL map data; screenshot is fine for one video",
+     "credit": "Map: © OpenStreetMap contributors",
+     "mobile_data": "ok (screenshot)",
+     "note": "One map with a pin per place named on this line.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "covered sports hall",
+     "search_url": "https://www.pexels.com/search/videos/covered%20sports%20hall/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=covered%20sports%20hall&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "covered sports hall",
+     "search_url": "https://pixabay.com/videos/search/covered%20sports%20hall/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=covered%20sports%20hall&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Tripureshwor exterior",
+     "search_url": "https://www.pexels.com/search/videos/Tripureshwor%20exterior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Tripureshwor%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Kathmandu sports venue",
+     "search_url": "https://www.pexels.com/search/videos/Kathmandu%20sports%20venue/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Kathmandu%20sports%20venue&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "covered sports hall",
+     "search_url": "https://openverse.org/search/image?q=covered%20sports%20hall",
+     "api": "GET https://api.openverse.org/v1/images/?q=covered%20sports%20hall&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L2 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then map pins @openstreetmap, stock video @pexels \"covered sports hall\" [bg], stock video @pixabay \"covered sports hall\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "wheelchair rugby athletes",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "wheelchair rugby athletes",
+   "alt_queries": [
+    "team training Nepal",
+    "sports participants"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "१४",
+   "on_screen_data": [
+    {
+     "label": "सहभागी खेलाडी",
+     "value": "१४"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "सहभागी खेलाडी",
+       "value": "१४"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "wheelchair rugby athletes",
+     "search_url": "https://www.pexels.com/search/videos/wheelchair%20rugby%20athletes/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=wheelchair%20rugby%20athletes&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 3,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "wheelchair rugby athletes",
+     "search_url": "https://pixabay.com/videos/search/wheelchair%20rugby%20athletes/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=wheelchair%20rugby%20athletes&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "team training Nepal",
+     "search_url": "https://www.pexels.com/search/videos/team%20training%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=team%20training%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "sports participants",
+     "search_url": "https://www.pexels.com/search/videos/sports%20participants/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=sports%20participants&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 6
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "wheelchair rugby athletes",
+     "search_url": "https://openverse.org/search/image?q=wheelchair%20rugby%20athletes",
+     "api": "GET https://api.openverse.org/v1/images/?q=wheelchair%20rugby%20athletes&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 7
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 8
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "१४",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 9
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"सहभागी खेलाडी १४\" | then flag row @wikimedia_commons (1), stock video @pexels \"wheelchair rugby athletes\" [bg], stock video @pixabay \"wheelchair rugby athletes\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "पाँच",
+   "on_screen_data": [
+    {
+     "label": "विदेशी टोली सदस्य",
+     "value": "५"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "विदेशी टोली सदस्य",
+       "value": "५"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 2
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "पाँच",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 3
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"विदेशी टोली सदस्य ५\" | then quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "athlete development",
+  "broll_kind": "flag_row",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "impact",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "flag_row",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "athlete development",
+   "alt_queries": [
+    "regional competition",
+    "international sports"
+   ],
+   "query_source": "director",
+   "shot_description": "Wheelchair sports training on an indoor wooden court with coaching drills.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "flag_row",
+     "source": "wikimedia_commons",
+     "items": [
+      {
+       "name": "नेपाल",
+       "en": "Nepal",
+       "file": "Flag_of_Nepal.svg",
+       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"
+      }
+     ],
+     "license": "National flags on Commons are public domain (check the file page if unsure)",
+     "credit": "",
+     "mobile_data": "ok (small images)",
+     "note": "Row or grid of flags, each with its name label, pop in one by one in spoken order.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "athlete development",
+     "search_url": "https://www.pexels.com/search/videos/athlete%20development/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=athlete%20development&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Wheelchair sports training on an indoor wooden court with coaching drills.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "athlete development",
+     "search_url": "https://pixabay.com/videos/search/athlete%20development/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=athlete%20development&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "regional competition",
+     "search_url": "https://www.pexels.com/search/videos/regional%20competition/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=regional%20competition&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "international sports",
+     "search_url": "https://www.pexels.com/search/videos/international%20sports/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=international%20sports&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "athlete development",
+     "search_url": "https://openverse.org/search/image?q=athlete%20development",
+     "api": "GET https://api.openverse.org/v1/images/?q=athlete%20development&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"athlete development\" [bg], stock video @pixabay \"athlete development\", stock video @pexels \"regional competition\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "three day training",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "three day training",
+   "alt_queries": [
+    "sports workshop Nepal",
+    "training program"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "तीनदिने",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "तीनदिने"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "तीनदिने"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "three day training",
+     "search_url": "https://www.pexels.com/search/videos/three%20day%20training/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=three%20day%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "three day training",
+     "search_url": "https://pixabay.com/videos/search/three%20day%20training/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=three%20day%20training&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "sports workshop Nepal",
+     "search_url": "https://www.pexels.com/search/videos/sports%20workshop%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=sports%20workshop%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "training program",
+     "search_url": "https://www.pexels.com/search/videos/training%20program/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=training%20program&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "three day training",
+     "search_url": "https://openverse.org/search/image?q=three%20day%20training",
+     "api": "GET https://api.openverse.org/v1/images/?q=three%20day%20training&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "तीनदिने",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L6 [plate] NUMBER CARD via local_render: \" तीनदिने\" | then stock video @pexels \"three day training\" [bg], stock video @pixabay \"three day training\", stock video @pexels \"sports workshop Nepal\" | quality: story_fact"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 6/6 content lines; article quote cards 0; topic stock only 0; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: " पहिलोपटक" | then flag row @wikimedia_commons (1), stock video @pexels "wheelchair rugby training" [bg], stock video @pixabay "wheelchair rugby training" | quality: story_fact
+L2 [full] FLAG ROW via wikimedia_commons: "नेपाल" | then map pins @openstreetmap, stock video @pexels "covered sports hall" [bg], stock video @pixabay "covered sports hall" | quality: story_fact
+L3 [plate] NUMBER CARD via local_render: "सहभागी खेलाडी १४" | then flag row @wikimedia_commons (1), stock video @pexels "wheelchair rugby athletes" [bg], stock video @pixabay "wheelchair rugby athletes" | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "विदेशी टोली सदस्य ५" | then quote card @local_render, text plate @local_render | quality: story_fact
+L5 [full] FLAG ROW via wikimedia_commons: "नेपाल" | then stock video @pexels "athlete development" [bg], stock video @pixabay "athlete development", stock video @pexels "regional competition" | quality: story_fact
+L6 [plate] NUMBER CARD via local_render: " तीनदिने" | then stock video @pexels "three day training" [bg], stock video @pixabay "three day training", stock video @pexels "sports workshop Nepal" | quality: story_fact
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण सुरु",
+ "youtube_description": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित राखेप कभर्डहलमा १४ नेपाली खेलाडी सहभागी भई अमेरिकी टोलीबाट तालिम लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal",
+ "youtube_tags": [
+  "Wheelchair Rugby",
+  "Nepal Rugby",
+  "Para Sports Nepal",
+  "OnlineKhabar",
+  "Khabar Minute",
+  "Nepali Sports",
+  "Tripureshwor",
+  "Nepal News"
+ ],
+ "tiktok_caption": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।\nSource: OnlineKhabar",
+ "instagram_caption": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal",
+ "facebook_post": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा अमेरिकी टोलीको नेतृत्वमा १४ नेपाली खेलाडीले प्रशिक्षण लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal",
+ "threads_post": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal",
+ "linkedin_post": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरमा सञ्चालित तीनदिने तालिममा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal",
+ "hashtags": [
+  "#WheelchairRugby",
+  "#NepalSports",
+  "#OnlineKhabar",
+  "#ParaSports",
+  "#KhabarMinute"
+ ],
+ "source_credit": "Source: OnlineKhabar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261014_j4z86h","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261014_j4z86h","review_date":"20261014","title":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","chosen_topic":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","category":"sports","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","story_id":"ST_7a6659d54ce93549","risk_flag":"NORMAL","source_credit":"Source: OnlineKhabar","full_script":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो। तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्। अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ। यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ। काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","hook":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","alternate_hook":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण कसरी सुरु भयो?","hook_type":"curiosity_gap","closing_line":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","pinned_comment":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","lines":[{"text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","voice":"curious","pose":"curious","broll":"wheelchair rugby training","broll_kind":"number_card"},{"text":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।","voice":"neutral_talking","pose":"neutral_talking","broll":"covered sports hall","broll_kind":"flag_row"},{"text":"तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।","voice":"neutral","pose":"neutral","broll":"wheelchair rugby athletes","broll_kind":"number_card"},{"text":"अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।","voice":"thinking","pose":"thinking","broll":"athlete development","broll_kind":"flag_row"},{"text":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","voice":"neutral","pose":"neutral","broll":"three day training","broll_kind":"number_card"}],"word_count":62,"workbook":{"schema_version":"6.6.9","story_id":"ST_7a6659d54ce93549","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","article_quote":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"curious","alternate_hook":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण कसरी सुरु भयो?","closing_line":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","comment_prompt":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","pinned_comment":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","voice":"curious","emotion":"curious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलोपटक"}],"data_source_quote":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"},"caption_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","big_hook_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","pip_mode":"off","source_evidence":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Tripureshwor Dasharath Rangasala covered hall Kathmandu exterior","shot_description":"Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.","depiction_scope":"generic_illustration"},"caption_text":"त्रिपुरेश्वरस्थित राखेप कभर्डहलमा आयोजना","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"ह्विलचेयर रग्बी संघ नेपालको आयोजना तथा बीआईए इन्स्टिच्युट र नेपाल रग्बी संघको सहकार्यमा मंगलबारदेखि त्रिपुरेश्वरस्थित राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको हो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सहभागी खेलाडी","value":"१४"}],"data_source_quote":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"},"caption_text":"नेपालका १४ खेलाडी सहभागी","big_hook_text":"","pip_mode":"off","source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"विदेशी टोली सदस्य","value":"५"}],"data_source_quote":"अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"},"caption_text":"अमेरिकी प्रशिक्षकको ५ सदस्यीय टोली","big_hook_text":"","pip_mode":"off","source_evidence":"प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"impact","narration_text":"यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"para athlete wheelchair training court gym","shot_description":"Wheelchair sports training on an indoor wooden court with coaching drills.","depiction_scope":"generic_illustration"},"caption_text":"अन्तर्राष्ट्रिय प्रतियोगिताको तयारी","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"नेपालमा ह्विलचेयर रग्बीको आधार बलियो बनाउने उद्देश्यले आयोजना गरिएको यस कार्यक्रमले खेलाडीको सीप र क्षमता विकास गर्नुका साथै नेपाली खेलाडीलाई क्षेत्रीय तथा अन्तर्राष्ट्रिय प्रतियोगितामा सहभागी हुने बाटो तयार गर्न सहयोग पुग्ने आयोजकको अपेक्षा छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तीनदिने"}],"data_source_quote":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा १४ नेपाली खेलाडी सहभागी छन्।"},"caption_text":"तीनदिने प्रशिक्षण जारी","big_hook_text":"","pip_mode":"off","source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण सुरु","youtube_description":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित राखेप कभर्डहलमा १४ नेपाली खेलाडी सहभागी भई अमेरिकी टोलीबाट तालिम लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","youtube_tags":["Wheelchair Rugby","Nepal Rugby","Para Sports Nepal","OnlineKhabar","Khabar Minute","Nepali Sports","Tripureshwor","Nepal News"],"tiktok_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","instagram_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","facebook_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा अमेरिकी टोलीको नेतृत्वमा १४ नेपाली खेलाडीले प्रशिक्षण लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","threads_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","linkedin_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरमा सञ्चालित तीनदिने तालिममा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","hashtags":["#WheelchairRugby","#NepalSports","#OnlineKhabar","#ParaSports","#KhabarMinute"],"source_credit":"Source: OnlineKhabar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलोपटक"}],"data_source_quote":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"},"caption_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","big_hook_text":"ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"Tripureshwor Dasharath Rangasala covered hall Kathmandu exterior","shot_description":"Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.","depiction_scope":"generic_illustration"},"caption_text":"त्रिपुरेश्वरस्थित राखेप कभर्डहलमा आयोजना","big_hook_text":"","pip_mode":"listening_loop","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"ह्विलचेयर रग्बी संघ नेपालको आयोजना तथा बीआईए इन्स्टिच्युट र नेपाल रग्बी संघको सहकार्यमा मंगलबारदेखि त्रिपुरेश्वरस्थित राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको हो ।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सहभागी खेलाडी","value":"१४"}],"data_source_quote":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"},"caption_text":"नेपालका १४ खेलाडी सहभागी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"विदेशी टोली सदस्य","value":"५"}],"data_source_quote":"अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"},"caption_text":"अमेरिकी प्रशिक्षकको ५ सदस्यीय टोली","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।"},{"line_id":5,"beat":"impact","visual":{"type":"BROLL","search_query":"para athlete wheelchair training court gym","shot_description":"Wheelchair sports training on an indoor wooden court with coaching drills.","depiction_scope":"generic_illustration"},"caption_text":"अन्तर्राष्ट्रिय प्रतियोगिताको तयारी","big_hook_text":"","pip_mode":"listening_loop","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"नेपालमा ह्विलचेयर रग्बीको आधार बलियो बनाउने उद्देश्यले आयोजना गरिएको यस कार्यक्रमले खेलाडीको सीप र क्षमता विकास गर्नुका साथै नेपाली खेलाडीलाई क्षेत्रीय तथा अन्तर्राष्ट्रिय प्रतियोगितामा सहभागी हुने बाटो तयार गर्न सहयोग पुग्ने आयोजकको अपेक्षा छ।"},{"line_id":6,"beat":"closing","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"तीनदिने"}],"data_source_quote":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा १४ नेपाली खेलाडी सहभागी छन्।"},"caption_text":"तीनदिने प्रशिक्षण जारी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।"}],"lines_legacy":[{"text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।","voice":"curious","pose":"curious","broll":"wheelchair rugby training","broll_kind":"number_card"},{"text":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।","voice":"neutral_talking","pose":"neutral_talking","broll":"covered sports hall","broll_kind":"flag_row"},{"text":"तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।","voice":"neutral","pose":"neutral","broll":"wheelchair rugby athletes","broll_kind":"number_card"},{"text":"अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"number_card"},{"text":"यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।","voice":"thinking","pose":"thinking","broll":"athlete development","broll_kind":"flag_row"},{"text":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।","voice":"neutral","pose":"neutral","broll":"three day training","broll_kind":"number_card"}],"youtube_title":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी प्रशिक्षण सुरु","youtube_description":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित राखेप कभर्डहलमा १४ नेपाली खेलाडी सहभागी भई अमेरिकी टोलीबाट तालिम लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","youtube_tags":["Wheelchair Rugby","Nepal Rugby","Para Sports Nepal","OnlineKhabar","Khabar Minute","Nepali Sports","Tripureshwor","Nepal News"],"tiktok_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।\nSource: OnlineKhabar","instagram_caption":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","facebook_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा अमेरिकी टोलीको नेतृत्वमा १४ नेपाली खेलाडीले प्रशिक्षण लिइरहेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","threads_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरस्थित कभर्डहलमा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","linkedin_post":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ। त्रिपुरेश्वरमा सञ्चालित तीनदिने तालिममा १४ खेलाडी सहभागी छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","hashtags":["#WheelchairRugby","#NepalSports","#OnlineKhabar","#ParaSports","#KhabarMinute"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"wheelchair rugby training","alt_queries":["sports development Nepal","inclusive athletics"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"पहिलोपटक","on_screen_data":[{"label":"","value":"पहिलोपटक"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"पहिलोपटक"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"wheelchair rugby training","search_url":"https://www.pexels.com/search/videos/wheelchair%20rugby%20training/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=wheelchair%20rugby%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"wheelchair rugby training","search_url":"https://pixabay.com/videos/search/wheelchair%20rugby%20training/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=wheelchair%20rugby%20training&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"sports development Nepal","search_url":"https://www.pexels.com/search/videos/sports%20development%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=sports%20development%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"inclusive athletics","search_url":"https://www.pexels.com/search/videos/inclusive%20athletics/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=inclusive%20athletics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"wheelchair rugby training","search_url":"https://openverse.org/search/image?q=wheelchair%20rugby%20training","api":"GET https://api.openverse.org/v1/images/?q=wheelchair%20rugby%20training&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"quote_card","source":"local_render","text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":8},{"kind":"text_plate","source":"local_render","text":"पहिलोपटक","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":9}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \" पहिलोपटक\" | then flag row @wikimedia_commons (1), stock video @pexels \"wheelchair rugby training\" [bg], stock video @pixabay \"wheelchair rugby training\" | quality: story_fact"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"flag_row","quality":"story_fact","anchor":"","primary_query":"covered sports hall","alt_queries":["Tripureshwor exterior","Kathmandu sports venue"],"query_source":"director","shot_description":"Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":1},{"kind":"map_pins","source":"openstreetmap","places":[{"name":"नेपाल","place_query":"Nepal","search_url":"https://www.openstreetmap.org/search?query=Nepal"}],"license":"ODbL map data; screenshot is fine for one video","credit":"Map: © OpenStreetMap contributors","mobile_data":"ok (screenshot)","note":"One map with a pin per place named on this line.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"covered sports hall","search_url":"https://www.pexels.com/search/videos/covered%20sports%20hall/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=covered%20sports%20hall&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Exterior view of the covered hall sports complex in Tripureshwor Kathmandu.","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"covered sports hall","search_url":"https://pixabay.com/videos/search/covered%20sports%20hall/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=covered%20sports%20hall&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"Tripureshwor exterior","search_url":"https://www.pexels.com/search/videos/Tripureshwor%20exterior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Tripureshwor%20exterior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"Kathmandu sports venue","search_url":"https://www.pexels.com/search/videos/Kathmandu%20sports%20venue/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Kathmandu%20sports%20venue&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"covered sports hall","search_url":"https://openverse.org/search/image?q=covered%20sports%20hall","api":"GET https://api.openverse.org/v1/images/?q=covered%20sports%20hall&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"text_plate","source":"local_render","text":"ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L2 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then map pins @openstreetmap, stock video @pexels \"covered sports hall\" [bg], stock video @pixabay \"covered sports hall\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"wheelchair rugby athletes","alt_queries":["team training Nepal","sports participants"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"१४","on_screen_data":[{"label":"सहभागी खेलाडी","value":"१४"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"सहभागी खेलाडी","value":"१४"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":2},{"kind":"stock_video","source":"pexels_video","query":"wheelchair rugby athletes","search_url":"https://www.pexels.com/search/videos/wheelchair%20rugby%20athletes/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=wheelchair%20rugby%20athletes&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":3,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"wheelchair rugby athletes","search_url":"https://pixabay.com/videos/search/wheelchair%20rugby%20athletes/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=wheelchair%20rugby%20athletes&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":4},{"kind":"stock_video","source":"pexels_video","query":"team training Nepal","search_url":"https://www.pexels.com/search/videos/team%20training%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=team%20training%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_video","source":"pexels_video","query":"sports participants","search_url":"https://www.pexels.com/search/videos/sports%20participants/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=sports%20participants&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":6},{"kind":"stock_photo","source":"openverse","query":"wheelchair rugby athletes","search_url":"https://openverse.org/search/image?q=wheelchair%20rugby%20athletes","api":"GET https://api.openverse.org/v1/images/?q=wheelchair%20rugby%20athletes&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":7},{"kind":"quote_card","source":"local_render","text":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":8},{"kind":"text_plate","source":"local_render","text":"१४","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":9}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"सहभागी खेलाडी १४\" | then flag row @wikimedia_commons (1), stock video @pexels \"wheelchair rugby athletes\" [bg], stock video @pixabay \"wheelchair rugby athletes\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"पाँच","on_screen_data":[{"label":"विदेशी टोली सदस्य","value":"५"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"विदेशी टोली सदस्य","value":"५"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"quote_card","source":"local_render","text":"प्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":2},{"kind":"text_plate","source":"local_render","text":"पाँच","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":3}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"विदेशी टोली सदस्य ५\" | then quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":5,"beat":"impact","layer":"full","visual_type":"BROLL","asset_kind":"flag_row","quality":"story_fact","anchor":"","primary_query":"athlete development","alt_queries":["regional competition","international sports"],"query_source":"director","shot_description":"Wheelchair sports training on an indoor wooden court with coaching drills.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"flag_row","source":"wikimedia_commons","items":[{"name":"नेपाल","en":"Nepal","file":"Flag_of_Nepal.svg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Nepal.svg?width=320"}],"license":"National flags on Commons are public domain (check the file page if unsure)","credit":"","mobile_data":"ok (small images)","note":"Row or grid of flags, each with its name label, pop in one by one in spoken order.","rank":1},{"kind":"stock_video","source":"pexels_video","query":"athlete development","search_url":"https://www.pexels.com/search/videos/athlete%20development/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=athlete%20development&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Wheelchair sports training on an indoor wooden court with coaching drills.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"athlete development","search_url":"https://pixabay.com/videos/search/athlete%20development/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=athlete%20development&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"regional competition","search_url":"https://www.pexels.com/search/videos/regional%20competition/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=regional%20competition&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"international sports","search_url":"https://www.pexels.com/search/videos/international%20sports/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=international%20sports&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"athlete development","search_url":"https://openverse.org/search/image?q=athlete%20development","api":"GET https://api.openverse.org/v1/images/?q=athlete%20development&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] FLAG ROW via wikimedia_commons: \"नेपाल\" | then stock video @pexels \"athlete development\" [bg], stock video @pixabay \"athlete development\", stock video @pexels \"regional competition\" | quality: story_fact"},{"line_id":6,"beat":"closing","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"three day training","alt_queries":["sports workshop Nepal","training program"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"तीनदिने","on_screen_data":[{"label":"","value":"तीनदिने"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"तीनदिने"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"three day training","search_url":"https://www.pexels.com/search/videos/three%20day%20training/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=three%20day%20training&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"three day training","search_url":"https://pixabay.com/videos/search/three%20day%20training/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=three%20day%20training&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"sports workshop Nepal","search_url":"https://www.pexels.com/search/videos/sports%20workshop%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=sports%20workshop%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"training program","search_url":"https://www.pexels.com/search/videos/training%20program/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=training%20program&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"three day training","search_url":"https://openverse.org/search/image?q=three%20day%20training","api":"GET https://api.openverse.org/v1/images/?q=three%20day%20training&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"तीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"तीनदिने","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L6 [plate] NUMBER CARD via local_render: \" तीनदिने\" | then stock video @pexels \"three day training\" [bg], stock video @pixabay \"three day training\", stock video @pexels \"sports workshop Nepal\" | quality: story_fact"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":6,"quote_card":0,"topic_stock":0,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":6,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 6/6 content lines; article quote cards 0; topic stock only 0; needs a pick 0","lines_with_stock_query":5,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":4,"tried":[{"src":"director","query":"coach wheelchair rugby","verdict":"person_line"},{"src":"director_alt","query":"American sports trainer","verdict":"person_line"},{"src":"director_alt","query":"international coaching","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":0.8,"removed_text":["नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"ह्विलचेयर","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"place","fields":{"place":"त्रिपुरेश्वरस्थित","area":"","headline":"","kicker":"कहाँ"},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"त्रिपुरेश्वरस्थित"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Tripureshwor","in_line":"त्रिपुरेश्वरस्थित","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"covered sports hall","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=covered%20sports%20hall&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=covered%20sports%20hall&ns6=1"},{"rank":2,"source":"openverse","query":"Tripureshwor exterior","api":"https://api.openverse.org/v1/images/?q=Tripureshwor%20exterior&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=Tripureshwor%20exterior&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"Kathmandu sports venue","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Kathmandu%20sports%20venue&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Kathmandu%20sports%20venue&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":3,"beat":"detail","card":{"type":"place","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"pivot","card":{"type":"bignum","fields":{"value":"5","decimals":0,"unit":"सदस्यीय टोली","prefix":"","label":"अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा","sub":"सीप सिकाउँदैछ","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"dots","fallback":{"kind":"dots","total":5,"hi":5,"label":"सदस्यीय टोली"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Michael Stev Careyli","in_line":"माइकल स्टिभ केयरली","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"coach wheelchair rugby","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=coach%20wheelchair%20rugby&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=coach%20wheelchair%20rugby&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"American sports trainer","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=American%20sports%20trainer&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=American%20sports%20trainer&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"international coaching","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=international%20coaching&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=international%20coaching&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":5,"beat":"impact","card":{"type":"points","fields":{"points":["क्षेत्रीय प्रतिस्पर्धा","अन्तर्राष्ट्रिय प्रतिस्पर्धा"],"title":"प्रशिक्षणको प्रभाव","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"प्रतिस्पर्धामा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":6,"beat":"closing","card":{"type":"kicker","fields":{"text":"काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"काठमाडौंमा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":1,"types_used":{"hook":1,"place":1,"bignum":1,"points":1,"kicker":1},"distinct_types":5,"caps_relaxed":0,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":3,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":0,"chosen_topic":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","category":"sports","reason":"पहिलो पटक ह्विलचेयर रग्बी प्रशिक्षण सुरु भएकोले नयाँ, समावेशी खेलको कथा जनजागरणमा आकर्षक छ; GenZ ले सामाजिक प्रभाव र अनौठो खेलहरूमा चासो देखाउँछन्, जसले शेयर र चर्चा बढाउँछ।","angle":"नेपालमा भिन्न क्षमताका खेलाडीहरूलाई सशक्त बनाउने, नयाँ खेलको परिचय, भविष्यमा अन्तर्राष्ट्रिय प्रतिस्पर्धा र समुदाय निर्माणको सम्भावनामा केन्द्रित।","chosen_id_recovered":false,"chosen_headline_exact":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु","source_url":"https://www.onlinekhabar.com/2026/10/2038799/first-wheelchair-rugby-development-training-begins-in-nepal","source_feed":"OnlineKhabar","rss_pub_date":"2026-10-13T16:15:17.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":36,"direct_headline_count":168,"google_stub_filtered_count":19,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_7a6659d54ce93549","source_credit":"Source: OnlineKhabar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":2.8370966666666666,"date_unknown":false,"article_text":"नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु – Online Khabar\n+\nEnglish edition\nनेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु\n२०८३ असोज २७ गते २२:००\nअनलाइनखबर\nअनलाइनखबर\nNews Summary\nGenerated by OK AI. Editorially reviewed.\nनेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धिका लागि ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको छ।\nह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा सुरु भएको तीनदिने प्रशिक्षणमा १४ नेपाली खेलाडी सहभागी छन्।\nअमेरिकी प्रशिक्षक माइकल स्टिभ केयरली नेतृत्वको पाँच सदस्यीय टोलीले ह्विलचेयर सञ्चालन, खेल कौशल, रणनीति, चोटपटक रोकथाम र पुनःस्थापनाबारे प्रशिक्षण दिनेछ।\n२७ असोज, काठमाडौं । नेपालमा पहिलोपटक ह्विलचेयर रग्बीको विकास तथा खेलाडीको क्षमता अभिवृद्धि गर्ने उद्देश्यले अन्तर्राष्ट्रियस्तरको प्रशिक्षण कार्यक्रम सुरु भएको छ ।\nह्विलचेयर रग्बी संघ नेपालको आयोजना तथा बीआईए इन्स्टिच्युट र नेपाल रग्बी संघको सहकार्यमा मंगलबारदेखि त्रिपुरेश्वरस्थित राष्ट्रिय खेलकुद परिषद् (राखेप) को कभर्डहलमा ‘ह्विलचेयर रग्बी विकास प्रशिक्षण २०२६’ सुरु भएको हो ।\nतीन दिनसम्म सञ्चालन हुने प्रशिक्षणमा नेपालका १४ खेलाडी सहभागी छन् ।  प्रशिक्षण हरेक दिन दिउँसो २ देखि ५ बजेसम्म सञ्चालन हुनेछ।\nप्रशिक्षणका लागि अमेरिकी ह्विलचेयर रग्बी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोली नेपाल आएको छ। टोलीमा मेरुदण्डको चोट पुनःस्थापनासम्बन्धी विशेषज्ञ डा. जेफ्री क्रेग बर्लिनर र अमेरिकी ह्विलचेयर रग्बी खेलाडी लोगन डिन फुलर पनि छन्।\nप्रशिक्षणमा नेपालका कृष्ण थापा र श्रीराम श्रेष्ठ प्रशिक्षकका रूपमा सहभागी छन्। त्यस्तै, अन्तर्राष्ट्रिय रेफ्री प्रेम कोइरालाको पनि सहभागिता छ। कार्यक्रमका लागि नेपाल रग्बी संघले प्रशिक्षक तथा रेफ्री व्यवस्थापनमा सहयोग गरेको आयोजकले जनाएको छ।\nप्रशिक्षणमा ह्विलचेयर सञ्चालन, खेल कौशल, रणनीति, शारीरिक क्षमता विकास, चोटपटक रोकथाम तथा स्वास्थ्य र पुनःस्थापनासम्बन्धी विषयमा प्रशिक्षण दिइनेछ।\nनेपालमा ह्विलचेयर रग्बीको आधार बलियो बनाउने उद्देश्यले आयोजना गरिएको यस कार्यक्रमले खेलाडीको सीप र क्षमता विकास गर्नुका साथै नेपाली खेलाडीलाई क्षेत्रीय तथा अन्तर्राष्ट्रिय प्रतियोगितामा सहभागी हुने बाटो तयार गर्न सहयोग पुग्ने आयोजकको अपेक्षा छ।\nह्विलचेयर रग्बी\nटुर्नामेन्ट\nIndian Premier League 2026\nICC T20 World Cup 2026\nICC Cricket World Cup League 2\nIndian Premier League (IPL 2025)\nICC Women’s Under-19 T20 World Cup 2025\nU19 Women\\'s World Cup warmup\nICC Men T20 World Cup 2024\nIPL 2024\nUnder Lights T20I Series 2026\nICC Womens T20 World Cup Global Qualifier 2026\nNPL- Nepal Premier League 2025\nICC T20 World Cup Asia & East Asia-Pacific Qualifier\nICC T20 World Cup Asia-EAP Qaulifier 2025\nUnity Cup Nepal vs West Indies 2025\nICC Womens T20 World Cup Asia Qualifier\nICC U19 MENS CWC Asia Qualifier\nHongkong Quadrangular T20I Series\nAFGHANISTAN U19 TOUR OF NEPAL 2025\nNepal Super League 2025\nINTERNATIONAL WOMENS CHAMPIONSHIP 2025\nAAHA RARA Pokhara Gold Cup  2025\nNPL- NEPAL PREMIER LEAGUE (2024)\nWest Indies A Tour to Nepal 2024\nNepal Tri-Nation T20I Series (2024)\n2023–2027 ICC Cricket World Cup League 2\nNepal Vs Canada ODI Series\nAaha RARA Pokhara gold cup\nNepal Super League\nछुटाउनुभयो कि?\nखगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?\nछुटाउनुभयो कि?\nलेकबाट आएको खबर, जसले कैयौंको ज्यान जोगायो\nछुटाउनुभयो कि?\n११ अर्ब ७८ करोडको बीमा अनुदान, किसान भने जोखिममै\nछुटाउनुभयो कि?\nबूढीगण्डकीमा कसरी आयो विनाशकारी बाढी ?\nलेखक\nअनलाइनखबर\nयो खबर पढेर तपाईलाई कस्तो महसुस भयो ?\nखुसी\nदुःखी\nअचम्मित\nउत्साहित\nआक्रोशित\n+\nप्रतिक्रिया 4\nप्रतिक्रिया\nडब्लु–१५ इस्लामाबादमा अभिलाषा विष्ट विजयी\nनेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु\nसुदूरपश्चिम रोयल्सको स्टे पार्टनरमा रोयल ट्युलिप काठमाडौं\n१२औं नेपालगन्ज म्याराथन मंसिर १२ मा हुने\nनिसर्ग बाटिकाले जित्यो एनएसए कप पौडीको उपाधि\nबलर चम्किँदा ओमानमाथि नेपालको शानदार जित\nट्रेन्डिङ\nयू–१६ ब्वाइज टी–वान रग्बीमा जोसेफ स्कुल च्याम्पियन\n२\nएन्फा पदाधिकारीलाई सीआईबीको केरकार\n३\nब्रिक्स गेम्स ओपन हाप्किडोमा बन्दना बस्नेतलाई रजत\n४\nप्रोफेसनल क्रिकेटबाट कोलिन इन्ग्रामको सन्यास\n५\nविदेश घुम्न क्यान पदाधिकारीको हानथाप\n६\nएनपीएलमा डीआरएस प्रयोग हुने सम्भावना बलियो, परीक्षण सकियो\nयुरिक एसिड बढेको छ ? नवरात्रिमा व्रत बस्दा के ध्यान दिने ?\n6 Stories\nदसैं सपिङ : छुटको लोभमा नफस्ने ५ स्मार्ट तरिका\n7 Stories\nके छ जमराको महत्व ?\n5 Stories\nदसैं विशेष : जमरा कसरी राख्ने ?\n8 Stories\nनाना पाटेकरका जीवनका ७ किस्सा\n9 Stories\nफिचर\nसबै\nइराकको पोस्टमा सेनेगलको चौथो गोल\nविश्वकपमा क्यानडाको ऐतिहासिक जित\nफिफा विश्वकप : अस्ट्रेलियाले लियो अग्रता\nकुशल भुर्तेलको अर्धशतकमा नेपालले बराबरी गर्‍यो टी–२० शृंखला\nअन्योलमा दशौँ राष्ट्रिय खेलकुद : गण्डकीबाट पठाएको झण्डा कर्णाली पुगेन\nस्वार्थले गिजोलियो राष्ट्रिय खेलकुद\nLogin\n+\nकृपया ध्यान दिनुहोस्:\nअब तपाइले कमेन्ट गर्नका लागि अनिवार्य रजिस्ट्रेसन गर्नुपर्ने छ ।\nआफ्नो इमेल वा गुगल, फेसबुक र ट्वीटरमार्फत् पनि सजिलै लगइन गर्न सकिने छ ।\nयदि वास्तविक नामबाट कमेन्ट गर्न चाहनुहुन्न भने डिस्प्ले नेममा सुविधाअनुसारको निकनेम र प्रोफाइल फोटो परिवर्तन गर्नुहोस् अनि ढुक्कले कमेन्ट गर्नहोस्, तपाइको वास्तविक पहिचान गोप्य राखिने छ ।\nरजिस्ट्रेसनसँगै बन्ने प्रोफाइमा तपाइले गरेका कमेन्ट, रिप्लाई, लाइक/डिसलाइकको एकमुष्ठ बिबरण हेर्नुहोस् ।\nUser Registration Form\n+","article_char_count":4946,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"OnlineKhabar","assigned_hook_type":"curiosity_gap","review_id":"RV_20261014_j4z86h","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===
