@@ -155,6 +155,33 @@ def progress():
                 raise StateError('resume same-path conflict '+path+'; artifacts retained')
         return out
     transaction(build, 'KM resume state')
+    try: selection_history()
+    except Exception as e: print('NOTE: variety history not saved (' + str(e)[:150] + '); reels are unaffected.', flush=True)
+
+HISTORY = 'out/selection/history.json'
+
+def selection_history():
+    """Save variety history (written only after a successful render). Soft: caller ignores failures.
+    Merge with remote: reels unioned by (id, content_hash), counts = remote + local gain."""
+    local = ROOT / HISTORY
+    if not local.is_file(): return
+    mine = json.loads(local.read_text(encoding='utf-8'))
+    if not isinstance(mine.get('reels'), list) or not isinstance(mine.get('seen'), dict) or not isinstance(mine.get('used_total'), dict):
+        raise StateError('history file malformed; not saved')
+    def build(head):
+        remote = decode(read_at(head, HISTORY), {'version':mine.get('version','1.0'),'reels':[],'seen':{},'used_total':{}})
+        have = {(r['id'], r['content_hash']) for r in remote['reels']}
+        merged = dict(remote); merged['reels'] = list(remote['reels']); merged['seen'] = dict(remote['seen']); merged['used_total'] = dict(remote['used_total'])
+        for r in mine['reels']:
+            if (r['id'], r['content_hash']) not in have: merged['reels'].append(r)
+        for k, v in mine['seen'].items(): merged['seen'].setdefault(k, v)
+        # counts: add only for reels that were new to remote
+        for r in mine['reels']:
+            if (r['id'], r['content_hash']) in have: continue
+            for k in r['selected']: merged['used_total'][k] = merged['used_total'].get(k, 0) + 1
+        merged['reels'] = sorted(merged['reels'], key=lambda r: r.get('rendered_at', 0))[-20:]
+        return {HISTORY: encoded(merged)}
+    transaction(build, 'KM variety history')
 
 def notification_claim(sid, body):
     path = 'out/notifications/'+sid+'.json'
@@ -201,6 +228,7 @@ if __name__ == '__main__':
         op = sys.argv[1]
         if op == 'progress': progress()
         elif op == 'refresh-done': refresh_done()
+        elif op == 'selection-history': selection_history()
         elif op == 'done':
             for sid in sys.argv[2:]:
                 if not re.fullmatch(r'[A-Za-z0-9_-]+',sid): raise StateError('bad story ID')
