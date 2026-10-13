@@ -5,7 +5,7 @@ No network, credentials, voice calls or renderer changes. Python standard librar
 import collections, contextlib, hashlib, json, os, re, subprocess, sys, time
 from pathlib import Path
 VERSION = '1.0'
-EXTRACTOR_REVISION = 'festival-time-venue-2'
+EXTRACTOR_REVISION = 'festival-time-venue-2+default-pool-1'
 MAINS = ('hook','bignum','versus','date','group','place','quote','points','change','next','scale','engage')
 STRIPS = ('stat','concept','place','phrase','calendar','track','units','waffle','chain','who','evidence','voiceprint','compare','roster','schedule','rule','result','money','contrast','movement','lawstage','verdict','hook','quote','incident')
 LAT = str.maketrans('०१२३४५६७८९','0123456789')
@@ -194,7 +194,7 @@ def explicit_items(vo):
     items=[x.strip() for x in re.split(r'\s+र\s+|\s+तथा\s+|,',m.group(1))]
     return items if 2<=len(items)<=3 and all(span(x,vo) and 2<=len(x.split())<=7 for x in items) else []
 
-def candidates(vo, cap, idx, engine):
+def candidates(vo, cap, idx, engine, default=None):
     mains=[]; strips=[]; failures=[]
     title=excerpt(cap,vo); nums=[] if uncertain(vo) else numeric(vo,engine);ds=dates(vo,engine);pl=engine.find_places(vo)
     def main(kind,payload,score,reason):
@@ -356,13 +356,36 @@ def candidates(vo, cap, idx, engine):
     if len(title.split())<=8:
         strip({'kind':'phrase','text':title,'icon':engine.icon_for(title),'vo':vo},60,'literal short statement, no inferred relationship')
     strip(engine.plan_evidence(vo,title),60,'literal narration with emphasis')
+    if default:
+        # The converter's own card/strip for this line is always an allowed option, so a story
+        # never ends up worse than today's output. It is trusted converter output, not re-gated.
+        dm,dg=default
+        if dm:
+            sc=101 if idx==0 else 85 if dm['type'] in ('bignum','scale') else 45
+            mains.append({'kind':dm['type'],'payload':dict(dm,km_default=True,vo=vo),'score':sc,'reason':'converter default card','evidence':[],'default':True})
+        if dg:
+            try:
+                engine.MAKERS[dg['kind']](dg,True)
+                strips.append({'kind':dg['kind'],'payload':dg,'score':60 if dg['kind'] in ('phrase','evidence') else 84,'reason':'converter default strip','evidence':[],'default':True})
+            except Exception as e:failures.append({'design':'strip:default','reason':'default strip not drawable: '+str(e)})
     return mains,strips,failures
+
+
+def mainkey_of(c):
+    if c.get('plain_fallback') or (c.get('km_default') and c.get('type')=='points'):return 'main:points_plain'
+    return 'main:'+c['type']
 
 
 def choose(mains,strips,history,previous):
     last=history.get('reels',[])[-20:];counts=collections.Counter()
     for r in last:counts.update(r['selected'])
     pairs=[]
+    def nonrepeat(items,prefix):
+        # Avoid an immediate repeat only when a comparably good alternative exists (within 10 points).
+        alt=[x for x in items if previous.get(prefix)!=x['kind']]
+        if alt and max(x['score'] for x in alt)>=max(x['score'] for x in items)-10:return alt
+        return items
+    mains=nonrepeat(mains,'main');strips=nonrepeat(strips,'strip')
     for m in mains:
         for s in strips:
             score=m['score']+s['score']; penalties=[]
@@ -371,13 +394,13 @@ def choose(mains,strips,history,previous):
                 score-=22;penalties.append('duplicate emphasis')
             for prefix,c in (('main',m),('strip',s)):
                 key=prefix+':'+c['kind']
-                if m['payload'].get('plain_fallback') and prefix=='main':key='main:points_plain'
+                if mainkey_of(m['payload'])=='main:points_plain' and prefix=='main':key='main:points_plain'
                 # Max rarity bonus 8%, never stronger than a 10-point meaning gap on that side.
                 score+=c['score']*.08/(1+counts[key])
                 if previous.get(prefix)==c['kind']:score-=8;penalties.append('adjacent repetition')
-            pairs.append((score,m['kind'],s['kind'],m,s,penalties))
+            pairs.append((score,m['kind'],s['kind'],m,s,penalties,(1 if m.get('default') else 0)+(1 if s.get('default') else 0)))
     if not pairs:raise ValueError('No validated candidate pair')
-    best=max(pairs,key=lambda p:(round(p[0],6),p[1],p[2]))
+    best=max(pairs,key=lambda p:(round(p[0],6),p[6],p[1],p[2]))
     return best[3],best[4],round(best[0],3),best[5]
 
 
@@ -400,10 +423,10 @@ def select_story(story,pkg,engine,root):
         # Existing caption may be useful only if it is an exact narration span.
         cap=c.get('headline') or c.get('title') or c.get('sub') or ''
         cap=cap.replace('{{','').replace('}}','')
-        mains,strips,fail=candidates(vo,cap,idx,engine)
+        mains,strips,fail=candidates(vo,cap,idx,engine,(({k:v for k,v in c.items() if k not in ('strip','vo','voice_tone','km_default')}),(c.get('strip') or {}).get('_gen')))
         m,s,score,pen=choose(mains,strips,history,previous)
-        mainkey='main:points_plain' if m['payload'].get('plain_fallback') else 'main:'+m['kind']
-        lineelig=sorted(set(['main:points_plain' if a['payload'].get('plain_fallback') else 'main:'+a['kind'] for a in mains]+['strip:'+a['kind'] for a in strips]))
+        mainkey=mainkey_of(m['payload'])
+        lineelig=sorted(set([mainkey_of(a['payload']) for a in mains]+['strip:'+a['kind'] for a in strips]))
         if mainkey=='main:points_plain':fail.append({'design':'main:points_plain','reason':'extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected'})
         old=c.copy();c.clear();c.update(m['payload']);c['dark']=True;c['voice_tone']=old.get('voice_tone','neutral')
         c['strip']={'kind':'graphic','label':'','src':'','_gen':s['payload']}
@@ -445,7 +468,7 @@ def commit(story_path,video,root):
     if sel.get('render_seal')!=digest(story['cards']):raise ValueError('Story fields changed after conversion; history not committed')
     actual=[]
     for c in story['cards']:
-        actual.append('main:points_plain' if c.get('plain_fallback') else 'main:'+c['type'])
+        actual.append(mainkey_of(c))
         if c['type']!='engage':actual.append('strip:'+c['strip']['anim']['kind'])
     if actual!=sel['selected']:raise ValueError('Rendered layout differs from plan; history not committed')
     validate_media(video)
@@ -467,7 +490,9 @@ def commit(story_path,video,root):
 def main():
     if len(sys.argv)==4 and sys.argv[1]=='commit':
         root=Path(__file__).resolve().parent.parent
-        changed=commit(sys.argv[2],sys.argv[3],root)
+        try:changed=commit(sys.argv[2],sys.argv[3],root)
+        except Exception as e:
+            print('NOTE: variety history not updated: '+str(e)[:200]);return 0
         print('Selection coverage: '+('successful render recorded' if changed else 'already counted or legacy story; no duplicate usage'));return 0
     if len(sys.argv)==2 and sys.argv[1]=='report':
         print(json.dumps(coverage(read_history(Path(__file__).resolve().parent.parent)),ensure_ascii=False,indent=2));return 0
