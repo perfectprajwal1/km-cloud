@@ -1,0 +1,33 @@
+REVIEW ID: RV_20261013_nh87l9
+TOPIC: रगतको क्यान्सरलाई मार्ने ‘जीवित औषधि’ नेपालमै कसरी बन्यो?
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "नेपालमै बन्यो रगतको क्यान्सर मार्ने 'जीवित औषधि'!",
+  "youtube_description": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "youtube_tags": [
+    "Nepal",
+    "CancerTreatment",
+    "CARTcell",
+    "HealthNews",
+    "MedicalInnovation",
+    "CancerResearch",
+    "NepalHealth",
+    "ClinicalTrial",
+    "Science"
+  ],
+  "tiktok_caption": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "instagram_caption": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "facebook_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "threads_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "linkedin_post": "नेपालमा पहिलोपटक 'सीएआर-टी' प्रविधि प्रयोग गरी रगतको क्यान्सरको उपचार सुरु भएको छ।\nSource: Desh Sanchar",
+  "hashtags": [
+    "#khabarminutenepal",
+    "#Nepal",
+    "#CancerTreatment",
+    "#CART",
+    "#HealthNews",
+    "#MedicalInnovation"
+  ],
+  "source_credit": "Source: Desh Sanchar"
+}
