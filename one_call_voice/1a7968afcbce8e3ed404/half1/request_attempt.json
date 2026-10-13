@@ -1,0 +1,1 @@
+{"model": "gemini-2.5-flash-preview-tts", "voice": "Sadachbia", "status": "audio_saved", "automatic_retry": false, "attempts": [{"key_slot": 1, "key_file": "gemini_key.txt", "status": "response_received"}]}

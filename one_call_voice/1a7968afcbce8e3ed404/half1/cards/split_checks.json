@@ -1,0 +1,51 @@
+{
+  "master_sha256": "5aed5a415aac8d09e5da1b9f69393e8c100616f3b97e09d2c3c034cf6a746ce0",
+  "cuts_sec": [
+    7.556875,
+    18.035,
+    25.757291666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.6,
+      "duration_sec": 6.6,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।",
+      "master_start_sec": 8.577,
+      "master_end_sec": 17.117,
+      "duration_sec": 8.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।",
+      "master_start_sec": 19.075,
+      "master_end_sec": 24.875,
+      "duration_sec": 5.8,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।",
+      "master_start_sec": 26.797,
+      "master_end_sec": 34.897,
+      "duration_sec": 8.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

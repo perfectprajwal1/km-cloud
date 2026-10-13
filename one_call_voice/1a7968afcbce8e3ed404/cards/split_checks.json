@@ -1,0 +1,84 @@
+{
+  "master_sha256": "9e3b9298d0c20808bba53aeadd3124fa7f9d4e3a2605f1dd07080cac8c7143b0",
+  "cuts_sec": [
+    7.556875,
+    18.035,
+    25.757291666666667,
+    37.81095833333333,
+    47.4785,
+    56.827041666666666
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.6,
+      "duration_sec": 6.6,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।",
+      "master_start_sec": 8.577,
+      "master_end_sec": 17.117,
+      "duration_sec": 8.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।",
+      "master_start_sec": 19.075,
+      "master_end_sec": 24.875,
+      "duration_sec": 5.8,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।",
+      "master_start_sec": 26.797,
+      "master_end_sec": 34.897,
+      "duration_sec": 8.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।",
+      "master_start_sec": 39.011,
+      "master_end_sec": 45.931,
+      "duration_sec": 6.92,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 6,
+      "expected_text": "काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।",
+      "master_start_sec": 49.139,
+      "master_end_sec": 55.298,
+      "duration_sec": 6.16,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 7,
+      "expected_text": "इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 58.427,
+      "master_end_sec": 66.527,
+      "duration_sec": 8.1,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

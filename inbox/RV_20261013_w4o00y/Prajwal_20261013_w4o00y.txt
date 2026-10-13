@@ -1,0 +1,894 @@
+REVIEW ID: RV_20261013_w4o00y
+TOPIC: ‘हिमाल बचाउन इभीलाई फ्युचर बनाएका हौं, त्यही भएर नेपाल बीवाइडीको उच्च प्राथमिकतामा’
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_e830bf877d8b0b2f
+DATE: 2026-10-13T06:15:07.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Bizmandu
+CATEGORY: tech
+SOURCE: https://bizmandu.com/content/20261013120007.html
+ARTICLE GROUNDING: YES
+*** RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 ALT_GROUND: UNSUPPORTED_NUMBER 3; ALT_GROUND: UNSUPPORTED_NUMBER 4; ALT_GROUND: UNSUPPORTED_NUMBER 11; ALT_GROUND: UNSUPPORTED_RELATIVE_DATE पछिल्लो / R2 SCHEMA: [{"instancePath" || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 1 2025 ***
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो। नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्। तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ। कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ। नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ। काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "नयाँ कारमा इभी हिस्सा",
+     "value": "७३ प्रतिशत"
+    }
+   ],
+   "data_source_quote": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"
+  },
+  "caption_text": "नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो",
+  "source_evidence": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "सडकमा बीवाइडी गाडी",
+     "value": "११ हजारभन्दा बढी"
+    }
+   ],
+   "data_source_quote": "पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"
+  },
+  "caption_text": "बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा",
+  "source_evidence": "पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"
+ },
+ {
+  "line_id": 3,
+  "beat": "pivot",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "electric car spare parts warehouse",
+   "shot_description": "Warehouse interior showing organized automotive spare parts.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती",
+  "source_evidence": "पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।"
+ },
+ {
+  "line_id": 4,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "cargo shipping containers port logistics",
+   "shot_description": "Cargo shipping containers and maritime transport logistics.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "समुद्री र हवाई ढुवानीको विकल्प खोज्दै",
+  "source_evidence": "त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।"
+ },
+ {
+  "line_id": 5,
+  "beat": "takeaway",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "ट्रेनिङ सेन्टर तयारी",
+     "value": "तीन महिनाभित्र"
+    }
+   ],
+   "data_source_quote": "हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"
+  },
+  "caption_text": "तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर",
+  "source_evidence": "हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "गोदाम क्षेत्रफल",
+     "value": "५ हजार वर्गमिटरभन्दा बढी"
+    }
+   ],
+   "data_source_quote": "नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"
+  },
+  "caption_text": "काठमाडौंमा ५ हजार वर्गमिटरभन्दा बढीको गोदाम",
+  "source_evidence": "काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ। नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_e830bf877d8b0b2f","source_url":"https://bizmandu.com/content/20261013120007.html","source_label":"Bizmandu","source_credit":"Source: Bizmandu","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","proof_asset":{"kind":"article_text","source_url":"https://bizmandu.com/content/20261013120007.html","article_quote":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"सन् २०२५ मा नेपालमा बिक्री भएका नयाँ कारमा इभीको हिस्सा कति थियो?","closing_line":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","comment_prompt":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","pinned_comment":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","lines":[{"line_id":1,"beat":"hook","narration_text":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नयाँ कारमा इभी हिस्सा","value":"७३ प्रतिशत"}],"data_source_quote":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"},"caption_text":"नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो","big_hook_text":"नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत","pip_mode":"off","source_evidence":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सडकमा बीवाइडी गाडी","value":"११ हजारभन्दा बढी"}],"data_source_quote":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"},"caption_text":"बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा","big_hook_text":"","pip_mode":"off","source_evidence":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"pivot","narration_text":"तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"electric car spare parts warehouse","shot_description":"Warehouse interior showing organized automotive spare parts.","depiction_scope":"generic_illustration"},"caption_text":"स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"detail","narration_text":"कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"cargo shipping containers port logistics","shot_description":"Cargo shipping containers and maritime transport logistics.","depiction_scope":"generic_illustration"},"caption_text":"समुद्री र हवाई ढुवानीको विकल्प खोज्दै","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ट्रेनिङ सेन्टर तयारी","value":"तीन महिनाभित्र"}],"data_source_quote":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"},"caption_text":"तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर","big_hook_text":"","pip_mode":"off","source_evidence":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गोदाम क्षेत्रफल","value":"५ हजार वर्गमिटरभन्दा बढी"}],"data_source_quote":"नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"},"caption_text":"काठमाडौंमा ५ हजार वर्गमिटरभन्दा बढीको गोदाम","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ। नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"नेपालमा इभीको बजार र बीवाइडीको सर्भिस तयारी","youtube_description":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा विद्युतीय गाडीको हिस्सा ७३ प्रतिशत थियो। बढ्दो गाडी संख्यासँगै बीवाइडीले स्पेयर पार्ट्स र तालिम केन्द्र विस्तार गरिरहेको Bizmandu ले जनाएको छ। विस्तृत विवरण https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","youtube_tags":["नेपाल","इभी","बीवाइडी","BYD","अटोमोबाइल","विद्युतीय सवारी","काठमाडौं","Bizmandu"],"tiktok_caption":"नेपालमा इभीको हिस्सा ७३ प्रतिशत पुग्दा स्पेयर पार्ट्स र सर्भिस नेटवर्क विस्तार गरिँदै।","instagram_caption":"नेपालमा सन् २०२५ मा नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। बीवाइडीले काठमाडौंमा नयाँ वर्कसप र ट्रेनिङ सेन्टर विस्तार गर्दैछ। विस्तृत रिपोर्ट Bizmandu को https://bizmandu.com/content/20261013120007.html मा छ।","facebook_post":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। ११ हजारभन्दा बढी गाडी सडकमा गुडिरहँदा स्पेयर पार्ट्स आपूर्ति सहज बनाउन ५ हजार वर्गमिटरभन्दा ठूलो गोदाम तयार गरिएको छ। स्रोत: Bizmandu (https://bizmandu.com/content/20261013120007.html)","threads_post":"नेपालमा इभीको हिस्सा ७३ प्रतिशत थियो। बीवाइडीले स्पेयर पार्ट्स र मर्मत सेवा सुधार्न काठमाडौंमा नयाँ गोदाम र ट्रेनिङ सेन्टर बनाउँदैछ। स्रोत: Bizmandu https://bizmandu.com/content/20261013120007.html","linkedin_post":"नेपालको अटोमोबाइल बजारमा सन् २०२५ मा इभी हिस्सा ७३ प्रतिशत रहेको तथ्यांक छ। बीवाइडीले आफ्टर सेल्स सर्भिस, ठूलो गोदाम र नयाँ ट्रेनिङ सेन्टरमार्फत पूर्वाधार विकास गरिरहेको छ। पूरा विवरण Bizmandu को https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","hashtags":["#NepalEV","#BYDNepal","#AutomobileNepal"],"source_credit":"Source: Bizmandu"}}
+--- WARNINGS ---
+RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 ALT_GROUND: UNSUPPORTED_NUMBER 3; ALT_GROUND: UNSUPPORTED_NUMBER 4; ALT_GROUND: UNSUPPORTED_NUMBER 11; ALT_GROUND: UNSUPPORTED_RELATIVE_DATE पछिल्लो / R2 SCHEMA: [{"instancePath" || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 1 2025
+Fact-check did not run: validator/gate held this script. Verify all claims, names and numbers against the source.
+Closing: removed question wording ("इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?"); dropped line(s) 7; last line is now: "काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।".
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 4: text-only card used (no data card fits this line).
+Line 6: text-only card used (no data card fits this line).
+Line 3: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: a second text card in a row was skipped; the previous text card stays on screen.
+
+--- ALTERNATE HOOK ---
+सन् २०२५ मा नेपालमा बिक्री भएका नयाँ कारमा इभीको हिस्सा कति थियो?
+
+--- PINNED COMMENT (Nepali question) ---
+इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "electric car sales infographic",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "electric car sales infographic",
+   "alt_queries": [
+    "EV market chart",
+    "future vehicle graphic"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "इभीको हिस्सा",
+   "on_screen_data": [
+    {
+     "label": "नयाँ कारमा इभी हिस्सा",
+     "value": "७३ प्रतिशत"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "नयाँ कारमा इभी हिस्सा",
+       "value": "७३ प्रतिशत"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "electric car sales infographic",
+     "search_url": "https://www.pexels.com/search/videos/electric%20car%20sales%20infographic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=electric%20car%20sales%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "electric car sales infographic",
+     "search_url": "https://pixabay.com/videos/search/electric%20car%20sales%20infographic/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=electric%20car%20sales%20infographic&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "EV market chart",
+     "search_url": "https://www.pexels.com/search/videos/EV%20market%20chart/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=EV%20market%20chart&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "future vehicle graphic",
+     "search_url": "https://www.pexels.com/search/videos/future%20vehicle%20graphic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=future%20vehicle%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "electric car sales infographic",
+     "search_url": "https://openverse.org/search/image?q=electric%20car%20sales%20infographic",
+     "api": "GET https://api.openverse.org/v1/images/?q=electric%20car%20sales%20infographic&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "इभीको हिस्सा",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \"नयाँ कारमा इभी हिस्सा ७३ प्रतिशत\" | then stock video @pexels \"electric car sales infographic\" [bg], stock video @pixabay \"electric car sales infographic\", stock video @pexels \"EV market chart\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "BMW electric vehicles Nepal",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "BMW electric vehicles Nepal",
+   "alt_queries": [
+    "EV fleet Nepal",
+    "BMW cars street"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "सडकमा बीवाइडी गाडी",
+     "value": "११ हजारभन्दा बढी"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "सडकमा बीवाइडी गाडी",
+       "value": "११ हजारभन्दा बढी"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "BMW electric vehicles Nepal",
+     "search_url": "https://www.pexels.com/search/videos/BMW%20electric%20vehicles%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=BMW%20electric%20vehicles%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "BMW electric vehicles Nepal",
+     "search_url": "https://pixabay.com/videos/search/BMW%20electric%20vehicles%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=BMW%20electric%20vehicles%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "EV fleet Nepal",
+     "search_url": "https://www.pexels.com/search/videos/EV%20fleet%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=EV%20fleet%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "BMW cars street",
+     "search_url": "https://www.pexels.com/search/videos/BMW%20cars%20street/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=BMW%20cars%20street&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "BMW electric vehicles Nepal",
+     "search_url": "https://openverse.org/search/image?q=BMW%20electric%20vehicles%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=BMW%20electric%20vehicles%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \"सडकमा बीवाइडी गाडी ११ हजारभन्दा बढी\" | then stock video @pexels \"BMW electric vehicles Nepal\" [bg], stock video @pixabay \"BMW electric vehicles Nepal\", stock video @pexels \"EV fleet Nepal\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "spare parts warehouse interior",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "pivot",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "spare parts warehouse interior",
+   "alt_queries": [
+    "automotive parts storage",
+    "EV parts logistics"
+   ],
+   "query_source": "director",
+   "shot_description": "Warehouse interior showing organized automotive spare parts.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "spare parts warehouse interior",
+     "search_url": "https://www.pexels.com/search/videos/spare%20parts%20warehouse%20interior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=spare%20parts%20warehouse%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Warehouse interior showing organized automotive spare parts.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "spare parts warehouse interior",
+     "search_url": "https://pixabay.com/videos/search/spare%20parts%20warehouse%20interior/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=spare%20parts%20warehouse%20interior&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "automotive parts storage",
+     "search_url": "https://www.pexels.com/search/videos/automotive%20parts%20storage/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=automotive%20parts%20storage&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "EV parts logistics",
+     "search_url": "https://www.pexels.com/search/videos/EV%20parts%20logistics/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=EV%20parts%20logistics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "spare parts warehouse interior",
+     "search_url": "https://openverse.org/search/image?q=spare%20parts%20warehouse%20interior",
+     "api": "GET https://api.openverse.org/v1/images/?q=spare%20parts%20warehouse%20interior&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L3 [full] QUOTE CARD via local_render: \"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषग\" | then stock video @pexels \"spare parts warehouse interior\" [bg], stock video @pixabay \"spare parts warehouse interior\", stock video @pexels \"automotive parts storage\" | quality: quote_card"
+  }
+ },
+ {
+  "text": "कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "maritime cargo shipping Nepal",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "maritime cargo shipping Nepal",
+   "alt_queries": [
+    "port logistics Nepal",
+    "air freight EV parts"
+   ],
+   "query_source": "director",
+   "shot_description": "Cargo shipping containers and maritime transport logistics.",
+   "commons": null,
+   "map": null,
+   "motion_text": "ढुवानी लागत",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "maritime cargo shipping Nepal",
+     "search_url": "https://www.pexels.com/search/videos/maritime%20cargo%20shipping%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=maritime%20cargo%20shipping%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Cargo shipping containers and maritime transport logistics.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "maritime cargo shipping Nepal",
+     "search_url": "https://pixabay.com/videos/search/maritime%20cargo%20shipping%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=maritime%20cargo%20shipping%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "port logistics Nepal",
+     "search_url": "https://www.pexels.com/search/videos/port%20logistics%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=port%20logistics%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "air freight EV parts",
+     "search_url": "https://www.pexels.com/search/videos/air%20freight%20EV%20parts/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=air%20freight%20EV%20parts&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "maritime cargo shipping Nepal",
+     "search_url": "https://openverse.org/search/image?q=maritime%20cargo%20shipping%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=maritime%20cargo%20shipping%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "ढुवानी लागत",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L4 [full] QUOTE CARD via local_render: \"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्न\" | then stock video @pexels \"maritime cargo shipping Nepal\" [bg], stock video @pixabay \"maritime cargo shipping Nepal\", stock video @pexels \"port logistics Nepal\" | quality: quote_card"
+  }
+ },
+ {
+  "text": "नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "training centre three months",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "takeaway",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "training centre three months",
+   "alt_queries": [
+    "EV skill development",
+    "new training facility"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "तीन महिनाभित्र",
+   "on_screen_data": [
+    {
+     "label": "ट्रेनिङ सेन्टर तयारी",
+     "value": "तीन महिनाभित्र"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "ट्रेनिङ सेन्टर तयारी",
+       "value": "तीन महिनाभित्र"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "training centre three months",
+     "search_url": "https://www.pexels.com/search/videos/training%20centre%20three%20months/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=training%20centre%20three%20months&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "training centre three months",
+     "search_url": "https://pixabay.com/videos/search/training%20centre%20three%20months/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=training%20centre%20three%20months&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "EV skill development",
+     "search_url": "https://www.pexels.com/search/videos/EV%20skill%20development/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=EV%20skill%20development&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "new training facility",
+     "search_url": "https://www.pexels.com/search/videos/new%20training%20facility/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=new%20training%20facility&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "training centre three months",
+     "search_url": "https://openverse.org/search/image?q=training%20centre%20three%20months",
+     "api": "GET https://api.openverse.org/v1/images/?q=training%20centre%20three%20months&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "तीन महिनाभित्र",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L5 [plate] NUMBER CARD via local_render: \"ट्रेनिङ सेन्टर तयारी तीन महिनाभित्र\" | then stock video @pexels \"training centre three months\" [bg], stock video @pixabay \"training centre three months\", stock video @pexels \"EV skill development\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "Kathmandu warehouse interior",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "Kathmandu warehouse interior",
+   "alt_queries": [
+    "new workshop Kathmandu",
+    "large warehouse Nepal"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "५ हजार वर्गमिटरभन्दा बढी",
+   "on_screen_data": [
+    {
+     "label": "गोदाम क्षेत्रफल",
+     "value": "५ हजार वर्गमिटरभन्दा बढी"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "गोदाम क्षेत्रफल",
+       "value": "५ हजार वर्गमिटरभन्दा बढी"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Kathmandu warehouse interior",
+     "search_url": "https://www.pexels.com/search/videos/Kathmandu%20warehouse%20interior/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Kathmandu%20warehouse%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Kathmandu warehouse interior",
+     "search_url": "https://pixabay.com/videos/search/Kathmandu%20warehouse%20interior/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Kathmandu%20warehouse%20interior&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "new workshop Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/new%20workshop%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=new%20workshop%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "large warehouse Nepal",
+     "search_url": "https://www.pexels.com/search/videos/large%20warehouse%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=large%20warehouse%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Kathmandu warehouse interior",
+     "search_url": "https://openverse.org/search/image?q=Kathmandu%20warehouse%20interior",
+     "api": "GET https://api.openverse.org/v1/images/?q=Kathmandu%20warehouse%20interior&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ।",
+     "credit": "Source: Bizmandu",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "५ हजार वर्गमिटरभन्दा बढी",
+     "credit": "Source: Bizmandu",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L6 [plate] NUMBER CARD via local_render: \"गोदाम क्षेत्रफल ५ हजार वर्गमिटरभन्दा बढी\" | then stock video @pexels \"Kathmandu warehouse interior\" [bg], stock video @pixabay \"Kathmandu warehouse interior\", stock video @pexels \"new workshop Kathmandu\" | quality: story_fact"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 4/6 content lines; article quote cards 2; topic stock only 0; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: "नयाँ कारमा इभी हिस्सा ७३ प्रतिशत" | then stock video @pexels "electric car sales infographic" [bg], stock video @pixabay "electric car sales infographic", stock video @pexels "EV market chart" | quality: story_fact
+L2 [plate] NUMBER CARD via local_render: "सडकमा बीवाइडी गाडी ११ हजारभन्दा बढी" | then stock video @pexels "BMW electric vehicles Nepal" [bg], stock video @pixabay "BMW electric vehicles Nepal", stock video @pexels "EV fleet Nepal" | quality: story_fact
+L3 [full] QUOTE CARD via local_render: "पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषग" | then stock video @pexels "spare parts warehouse interior" [bg], stock video @pixabay "spare parts warehouse interior", stock video @pexels "automotive parts storage" | quality: quote_card
+L4 [full] QUOTE CARD via local_render: "त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्न" | then stock video @pexels "maritime cargo shipping Nepal" [bg], stock video @pixabay "maritime cargo shipping Nepal", stock video @pexels "port logistics Nepal" | quality: quote_card
+L5 [plate] NUMBER CARD via local_render: "ट्रेनिङ सेन्टर तयारी तीन महिनाभित्र" | then stock video @pexels "training centre three months" [bg], stock video @pixabay "training centre three months", stock video @pexels "EV skill development" | quality: story_fact
+L6 [plate] NUMBER CARD via local_render: "गोदाम क्षेत्रफल ५ हजार वर्गमिटरभन्दा बढी" | then stock video @pexels "Kathmandu warehouse interior" [bg], stock video @pixabay "Kathmandu warehouse interior", stock video @pexels "new workshop Kathmandu" | quality: story_fact
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "नेपालमा इभीको बजार र बीवाइडीको सर्भिस तयारी",
+ "youtube_description": "नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा विद्युतीय गाडीको हिस्सा ७३ प्रतिशत थियो। बढ्दो गाडी संख्यासँगै बीवाइडीले स्पेयर पार्ट्स र तालिम केन्द्र विस्तार गरिरहेको Bizmandu ले जनाएको छ। विस्तृत विवरण https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।\nSource: Bizmandu",
+ "youtube_tags": [
+  "नेपाल",
+  "इभी",
+  "बीवाइडी",
+  "BYD",
+  "अटोमोबाइल",
+  "विद्युतीय सवारी",
+  "काठमाडौं",
+  "Bizmandu"
+ ],
+ "tiktok_caption": "नेपालमा इभीको हिस्सा ७३ प्रतिशत पुग्दा स्पेयर पार्ट्स र सर्भिस नेटवर्क विस्तार गरिँदै। Source: Bizmandu",
+ "instagram_caption": "नेपालमा सन् २०२५ मा नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। बीवाइडीले काठमाडौंमा नयाँ वर्कसप र ट्रेनिङ सेन्टर विस्तार गर्दैछ। विस्तृत रिपोर्ट Bizmandu को https://bizmandu.com/content/20261013120007.html मा छ।\nSource: Bizmandu",
+ "facebook_post": "नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। ११ हजारभन्दा बढी गाडी सडकमा गुडिरहँदा स्पेयर पार्ट्स आपूर्ति सहज बनाउन ५ हजार वर्गमिटरभन्दा ठूलो गोदाम तयार गरिएको छ। स्रोत: Bizmandu (https://bizmandu.com/content/20261013120007.html)\nSource: Bizmandu",
+ "threads_post": "नेपालमा इभीको हिस्सा ७३ प्रतिशत थियो। बीवाइडीले स्पेयर पार्ट्स र मर्मत सेवा सुधार्न काठमाडौंमा नयाँ गोदाम र ट्रेनिङ सेन्टर बनाउँदैछ। स्रोत: Bizmandu https://bizmandu.com/content/20261013120007.html\nSource: Bizmandu",
+ "linkedin_post": "नेपालको अटोमोबाइल बजारमा सन् २०२५ मा इभी हिस्सा ७३ प्रतिशत रहेको तथ्यांक छ। बीवाइडीले आफ्टर सेल्स सर्भिस, ठूलो गोदाम र नयाँ ट्रेनिङ सेन्टरमार्फत पूर्वाधार विकास गरिरहेको छ। पूरा विवरण Bizmandu को https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।\nSource: Bizmandu",
+ "hashtags": [
+  "#NepalEV",
+  "#BYDNepal",
+  "#AutomobileNepal"
+ ],
+ "source_credit": "Source: Bizmandu"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261013_w4o00y","regen_round":0,"fact_check_failure_count":0,"checker_unavailable_count":0,"review":{"review_severity":"LOUD","held":true,"held_detail":"EARLIER ROUNDS: R1 ALT_GROUND: UNSUPPORTED_NUMBER 3; ALT_GROUND: UNSUPPORTED_NUMBER 4; ALT_GROUND: UNSUPPORTED_NUMBER 11; ALT_GROUND: UNSUPPORTED_RELATIVE_DATE पछिल्लो / R2 SCHEMA: [{\"instancePath\" || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 1 2025","held_reason_code":"INFO_VALUE","held_codes":["INFO_VALUE"],"hold_signature":"INFO_VALUE@1","hold_diagnostic_text":"Line 1: spoken “सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।”; on screen “नयाँ कारमा इभी हिस्सा: ७३ प्रतिशत”. Check the spoken words and screen value against the article: “सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।”."},"pkg":{"review_id":"RV_20261013_w4o00y","review_date":"20261013","title":"‘हिमाल बचाउन इभीलाई फ्युचर बनाएका हौं, त्यही भएर नेपाल बीवाइडीको उच्च प्राथमिकतामा’","chosen_topic":"‘हिमाल बचाउन इभीलाई फ्युचर बनाएका हौं, त्यही भएर नेपाल बीवाइडीको उच्च प्राथमिकतामा’","category":"tech","source_url":"https://bizmandu.com/content/20261013120007.html","story_id":"ST_e830bf877d8b0b2f","risk_flag":"NORMAL","source_credit":"Source: Bizmandu","full_script":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो। नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्। तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ। कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ। नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ। काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","alternate_hook":"सन् २०२५ मा नेपालमा बिक्री भएका नयाँ कारमा इभीको हिस्सा कति थियो?","closing_line":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","pinned_comment":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","lines":[{"text":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","voice":"serious","pose":"serious","broll":"electric car sales infographic","broll_kind":"number_card"},{"text":"नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","voice":"neutral","pose":"neutral","broll":"BMW electric vehicles Nepal","broll_kind":"number_card"},{"text":"तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।","voice":"serious","pose":"serious","broll":"spare parts warehouse interior","broll_kind":"quote_card"},{"text":"कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।","voice":"thinking","pose":"thinking","broll":"maritime cargo shipping Nepal","broll_kind":"quote_card"},{"text":"नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"training centre three months","broll_kind":"number_card"},{"text":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","voice":"neutral","pose":"neutral","broll":"Kathmandu warehouse interior","broll_kind":"number_card"}],"word_count":79,"workbook":{"schema_version":"6.6.9","story_id":"ST_e830bf877d8b0b2f","source_url":"https://bizmandu.com/content/20261013120007.html","source_label":"Bizmandu","source_credit":"Source: Bizmandu","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","proof_asset":{"kind":"article_text","source_url":"https://bizmandu.com/content/20261013120007.html","article_quote":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"सन् २०२५ मा नेपालमा बिक्री भएका नयाँ कारमा इभीको हिस्सा कति थियो?","closing_line":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","comment_prompt":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","pinned_comment":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","lines":[{"line_id":1,"beat":"hook","narration_text":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नयाँ कारमा इभी हिस्सा","value":"७३ प्रतिशत"}],"data_source_quote":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"},"caption_text":"नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो","big_hook_text":"नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत","pip_mode":"off","source_evidence":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सडकमा बीवाइडी गाडी","value":"११ हजारभन्दा बढी"}],"data_source_quote":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"},"caption_text":"बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा","big_hook_text":"","pip_mode":"off","source_evidence":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"pivot","narration_text":"तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"electric car spare parts warehouse","shot_description":"Warehouse interior showing organized automotive spare parts.","depiction_scope":"generic_illustration"},"caption_text":"स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"detail","narration_text":"कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"cargo shipping containers port logistics","shot_description":"Cargo shipping containers and maritime transport logistics.","depiction_scope":"generic_illustration"},"caption_text":"समुद्री र हवाई ढुवानीको विकल्प खोज्दै","big_hook_text":"","pip_mode":"listening_loop","source_evidence":"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ट्रेनिङ सेन्टर तयारी","value":"तीन महिनाभित्र"}],"data_source_quote":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"},"caption_text":"तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर","big_hook_text":"","pip_mode":"off","source_evidence":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गोदाम क्षेत्रफल","value":"५ हजार वर्गमिटरभन्दा बढी"}],"data_source_quote":"नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"},"caption_text":"काठमाडौंमा ५ हजार वर्गमिटरभन्दा बढीको गोदाम","big_hook_text":"","pip_mode":"off","source_evidence":"काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ। नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"नेपालमा इभीको बजार र बीवाइडीको सर्भिस तयारी","youtube_description":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा विद्युतीय गाडीको हिस्सा ७३ प्रतिशत थियो। बढ्दो गाडी संख्यासँगै बीवाइडीले स्पेयर पार्ट्स र तालिम केन्द्र विस्तार गरिरहेको Bizmandu ले जनाएको छ। विस्तृत विवरण https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","youtube_tags":["नेपाल","इभी","बीवाइडी","BYD","अटोमोबाइल","विद्युतीय सवारी","काठमाडौं","Bizmandu"],"tiktok_caption":"नेपालमा इभीको हिस्सा ७३ प्रतिशत पुग्दा स्पेयर पार्ट्स र सर्भिस नेटवर्क विस्तार गरिँदै।","instagram_caption":"नेपालमा सन् २०२५ मा नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। बीवाइडीले काठमाडौंमा नयाँ वर्कसप र ट्रेनिङ सेन्टर विस्तार गर्दैछ। विस्तृत रिपोर्ट Bizmandu को https://bizmandu.com/content/20261013120007.html मा छ।","facebook_post":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। ११ हजारभन्दा बढी गाडी सडकमा गुडिरहँदा स्पेयर पार्ट्स आपूर्ति सहज बनाउन ५ हजार वर्गमिटरभन्दा ठूलो गोदाम तयार गरिएको छ। स्रोत: Bizmandu (https://bizmandu.com/content/20261013120007.html)","threads_post":"नेपालमा इभीको हिस्सा ७३ प्रतिशत थियो। बीवाइडीले स्पेयर पार्ट्स र मर्मत सेवा सुधार्न काठमाडौंमा नयाँ गोदाम र ट्रेनिङ सेन्टर बनाउँदैछ। स्रोत: Bizmandu https://bizmandu.com/content/20261013120007.html","linkedin_post":"नेपालको अटोमोबाइल बजारमा सन् २०२५ मा इभी हिस्सा ७३ प्रतिशत रहेको तथ्यांक छ। बीवाइडीले आफ्टर सेल्स सर्भिस, ठूलो गोदाम र नयाँ ट्रेनिङ सेन्टरमार्फत पूर्वाधार विकास गरिरहेको छ। पूरा विवरण Bizmandu को https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","hashtags":["#NepalEV","#BYDNepal","#AutomobileNepal"],"source_credit":"Source: Bizmandu"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नयाँ कारमा इभी हिस्सा","value":"७३ प्रतिशत"}],"data_source_quote":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"},"caption_text":"नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो","source_evidence":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"सडकमा बीवाइडी गाडी","value":"११ हजारभन्दा बढी"}],"data_source_quote":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"},"caption_text":"बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा","source_evidence":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।"},{"line_id":3,"beat":"pivot","visual":{"type":"BROLL","search_query":"electric car spare parts warehouse","shot_description":"Warehouse interior showing organized automotive spare parts.","depiction_scope":"generic_illustration"},"caption_text":"स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती","source_evidence":"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।"},{"line_id":4,"beat":"detail","visual":{"type":"BROLL","search_query":"cargo shipping containers port logistics","shot_description":"Cargo shipping containers and maritime transport logistics.","depiction_scope":"generic_illustration"},"caption_text":"समुद्री र हवाई ढुवानीको विकल्प खोज्दै","source_evidence":"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।"},{"line_id":5,"beat":"takeaway","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"ट्रेनिङ सेन्टर तयारी","value":"तीन महिनाभित्र"}],"data_source_quote":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"},"caption_text":"तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर","source_evidence":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।"},{"line_id":6,"beat":"closing","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"गोदाम क्षेत्रफल","value":"५ हजार वर्गमिटरभन्दा बढी"}],"data_source_quote":"नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"},"caption_text":"काठमाडौंमा ५ हजार वर्गमिटरभन्दा बढीको गोदाम","source_evidence":"काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ। नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ।"}],"lines_legacy":[{"text":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","voice":"serious","pose":"serious","broll":"electric car sales infographic","broll_kind":"number_card"},{"text":"नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","voice":"neutral","pose":"neutral","broll":"BMW electric vehicles Nepal","broll_kind":"number_card"},{"text":"तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।","voice":"serious","pose":"serious","broll":"spare parts warehouse interior","broll_kind":"quote_card"},{"text":"कम्पनीले स्थलमार्गको विकल्पमा समुद्री र आपतकालीन हवाई मार्ग खोज्दै ढुवानी लागत घटाउने प्रयास गरेको छ।","voice":"thinking","pose":"thinking","broll":"maritime cargo shipping Nepal","broll_kind":"quote_card"},{"text":"नेपालमा दक्ष जनशक्ति तयार पार्न तीन महिनाभित्र नयाँ ट्रेनिङ सेन्टर सञ्चालनमा ल्याइने योजना छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"training centre three months","broll_kind":"number_card"},{"text":"काठमाडौंमा नयाँ वर्कसप र ५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ।","voice":"neutral","pose":"neutral","broll":"Kathmandu warehouse interior","broll_kind":"number_card"}],"youtube_title":"नेपालमा इभीको बजार र बीवाइडीको सर्भिस तयारी","youtube_description":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा विद्युतीय गाडीको हिस्सा ७३ प्रतिशत थियो। बढ्दो गाडी संख्यासँगै बीवाइडीले स्पेयर पार्ट्स र तालिम केन्द्र विस्तार गरिरहेको Bizmandu ले जनाएको छ। विस्तृत विवरण https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","youtube_tags":["नेपाल","इभी","बीवाइडी","BYD","अटोमोबाइल","विद्युतीय सवारी","काठमाडौं","Bizmandu"],"tiktok_caption":"नेपालमा इभीको हिस्सा ७३ प्रतिशत पुग्दा स्पेयर पार्ट्स र सर्भिस नेटवर्क विस्तार गरिँदै। Source: Bizmandu","instagram_caption":"नेपालमा सन् २०२५ मा नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। बीवाइडीले काठमाडौंमा नयाँ वर्कसप र ट्रेनिङ सेन्टर विस्तार गर्दैछ। विस्तृत रिपोर्ट Bizmandu को https://bizmandu.com/content/20261013120007.html मा छ।","facebook_post":"नेपालमा सन् २०२५ मा बिक्री भएका नयाँ कारमा इभी हिस्सा ७३ प्रतिशत थियो। ११ हजारभन्दा बढी गाडी सडकमा गुडिरहँदा स्पेयर पार्ट्स आपूर्ति सहज बनाउन ५ हजार वर्गमिटरभन्दा ठूलो गोदाम तयार गरिएको छ। स्रोत: Bizmandu (https://bizmandu.com/content/20261013120007.html)","threads_post":"नेपालमा इभीको हिस्सा ७३ प्रतिशत थियो। बीवाइडीले स्पेयर पार्ट्स र मर्मत सेवा सुधार्न काठमाडौंमा नयाँ गोदाम र ट्रेनिङ सेन्टर बनाउँदैछ। स्रोत: Bizmandu https://bizmandu.com/content/20261013120007.html","linkedin_post":"नेपालको अटोमोबाइल बजारमा सन् २०२५ मा इभी हिस्सा ७३ प्रतिशत रहेको तथ्यांक छ। बीवाइडीले आफ्टर सेल्स सर्भिस, ठूलो गोदाम र नयाँ ट्रेनिङ सेन्टरमार्फत पूर्वाधार विकास गरिरहेको छ। पूरा विवरण Bizmandu को https://bizmandu.com/content/20261013120007.html मा पढ्न सकिन्छ।","hashtags":["#NepalEV","#BYDNepal","#AutomobileNepal"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"electric car sales infographic","alt_queries":["EV market chart","future vehicle graphic"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"इभीको हिस्सा","on_screen_data":[{"label":"नयाँ कारमा इभी हिस्सा","value":"७३ प्रतिशत"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"नयाँ कारमा इभी हिस्सा","value":"७३ प्रतिशत"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"electric car sales infographic","search_url":"https://www.pexels.com/search/videos/electric%20car%20sales%20infographic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=electric%20car%20sales%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"electric car sales infographic","search_url":"https://pixabay.com/videos/search/electric%20car%20sales%20infographic/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=electric%20car%20sales%20infographic&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"EV market chart","search_url":"https://www.pexels.com/search/videos/EV%20market%20chart/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=EV%20market%20chart&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"future vehicle graphic","search_url":"https://www.pexels.com/search/videos/future%20vehicle%20graphic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=future%20vehicle%20graphic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"electric car sales infographic","search_url":"https://openverse.org/search/image?q=electric%20car%20sales%20infographic","api":"GET https://api.openverse.org/v1/images/?q=electric%20car%20sales%20infographic&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"इभीको हिस्सा","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \"नयाँ कारमा इभी हिस्सा ७३ प्रतिशत\" | then stock video @pexels \"electric car sales infographic\" [bg], stock video @pixabay \"electric car sales infographic\", stock video @pexels \"EV market chart\" | quality: story_fact"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"BMW electric vehicles Nepal","alt_queries":["EV fleet Nepal","BMW cars street"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"सडकमा बीवाइडी गाडी","value":"११ हजारभन्दा बढी"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"सडकमा बीवाइडी गाडी","value":"११ हजारभन्दा बढी"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"BMW electric vehicles Nepal","search_url":"https://www.pexels.com/search/videos/BMW%20electric%20vehicles%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=BMW%20electric%20vehicles%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"BMW electric vehicles Nepal","search_url":"https://pixabay.com/videos/search/BMW%20electric%20vehicles%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=BMW%20electric%20vehicles%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"EV fleet Nepal","search_url":"https://www.pexels.com/search/videos/EV%20fleet%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=EV%20fleet%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"BMW cars street","search_url":"https://www.pexels.com/search/videos/BMW%20cars%20street/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=BMW%20cars%20street&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"BMW electric vehicles Nepal","search_url":"https://openverse.org/search/image?q=BMW%20electric%20vehicles%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=BMW%20electric%20vehicles%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"नेपालमा सबैभन्दा धेरै प्यासेन्जर इभी बेचिरहेको बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्।","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \"सडकमा बीवाइडी गाडी ११ हजारभन्दा बढी\" | then stock video @pexels \"BMW electric vehicles Nepal\" [bg], stock video @pixabay \"BMW electric vehicles Nepal\", stock video @pexels \"EV fleet Nepal\" | quality: story_fact"},{"line_id":3,"beat":"pivot","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"spare parts warehouse interior","alt_queries":["automotive parts storage","EV parts logistics"],"query_source":"director","shot_description":"Warehouse interior showing organized automotive spare parts.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"spare parts warehouse interior","search_url":"https://www.pexels.com/search/videos/spare%20parts%20warehouse%20interior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=spare%20parts%20warehouse%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Warehouse interior showing organized automotive spare parts.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"spare parts warehouse interior","search_url":"https://pixabay.com/videos/search/spare%20parts%20warehouse%20interior/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=spare%20parts%20warehouse%20interior&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"automotive parts storage","search_url":"https://www.pexels.com/search/videos/automotive%20parts%20storage/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=automotive%20parts%20storage&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"EV parts logistics","search_url":"https://www.pexels.com/search/videos/EV%20parts%20logistics/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=EV%20parts%20logistics&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"spare parts warehouse interior","search_url":"https://openverse.org/search/image?q=spare%20parts%20warehouse%20interior","api":"GET https://api.openverse.org/v1/images/?q=spare%20parts%20warehouse%20interior&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"तर सडकमा गाडी बढेसँगै स्पेयर पार्ट्सको ढुवानी र मूल्यमा चुनौती देखिएको छ।","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L3 [full] QUOTE CARD via local_render: \"पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषग\" | then stock video @pexels \"spare parts warehouse interior\" [bg], stock video @pixabay \"spare parts warehouse interior\", stock video @pexels \"automotive parts storage\" | quality: quote_card"},{"line_id":4,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"maritime cargo shipping Nepal","alt_queries":["port logistics Nepal","air freight EV parts"],"query_source":"director","shot_description":"Cargo shipping containers and maritime transport logistics.","commons":null,"map":null,"motion_text":"ढुवानी लागत","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"maritime cargo shipping Nepal","search_url":"https://www.pexels.com/search/videos/maritime%20cargo%20shipping%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=maritime%20cargo%20shipping%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Cargo shipping containers and maritime transport logistics.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"maritime cargo shipping Nepal","search_url":"https://pixabay.com/videos/search/maritime%20cargo%20shipping%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=maritime%20cargo%20shipping%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"port logistics Nepal","search_url":"https://www.pexels.com/search/videos/port%20logistics%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=port%20logistics%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"air freight EV parts","search_url":"https://www.pexels.com/search/videos/air%20freight%20EV%20parts/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=air%20freight%20EV%20parts&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"maritime cargo shipping Nepal","search_url":"https://openverse.org/search/image?q=maritime%20cargo%20shipping%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=maritime%20cargo%20shipping%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"ढुवानी लागत","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L4 [full] QUOTE CARD via local_render: \"त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्न\" | then stock video @pexels \"maritime cargo shipping Nepal\" [bg], stock video @pixabay \"maritime cargo shipping Nepal\", stock video @pexels \"port logistics Nepal\" | quality: quote_card"},{"line_id":5,"beat":"takeaway","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"training centre three months","alt_queries":["EV skill development","new training facility"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"तीन महिनाभित्र","on_screen_data":[{"label":"ट्रेनिङ सेन्टर तयारी","value":"तीन महिनाभित्र"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"ट्रेनिङ सेन्टर तयारी","value":"तीन महिनाभित्र"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"training centre three months","search_url":"https://www.pexels.com/search/videos/training%20centre%20three%20months/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=training%20centre%20three%20months&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"training centre three months","search_url":"https://pixabay.com/videos/search/training%20centre%20three%20months/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=training%20centre%20three%20months&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"EV skill development","search_url":"https://www.pexels.com/search/videos/EV%20skill%20development/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=EV%20skill%20development&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"new training facility","search_url":"https://www.pexels.com/search/videos/new%20training%20facility/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=new%20training%20facility&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"training centre three months","search_url":"https://openverse.org/search/image?q=training%20centre%20three%20months","api":"GET https://api.openverse.org/v1/images/?q=training%20centre%20three%20months&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"तीन महिनाभित्र","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L5 [plate] NUMBER CARD via local_render: \"ट्रेनिङ सेन्टर तयारी तीन महिनाभित्र\" | then stock video @pexels \"training centre three months\" [bg], stock video @pixabay \"training centre three months\", stock video @pexels \"EV skill development\" | quality: story_fact"},{"line_id":6,"beat":"closing","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"Kathmandu warehouse interior","alt_queries":["new workshop Kathmandu","large warehouse Nepal"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"५ हजार वर्गमिटरभन्दा बढी","on_screen_data":[{"label":"गोदाम क्षेत्रफल","value":"५ हजार वर्गमिटरभन्दा बढी"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"गोदाम क्षेत्रफल","value":"५ हजार वर्गमिटरभन्दा बढी"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"Kathmandu warehouse interior","search_url":"https://www.pexels.com/search/videos/Kathmandu%20warehouse%20interior/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Kathmandu%20warehouse%20interior&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"Kathmandu warehouse interior","search_url":"https://pixabay.com/videos/search/Kathmandu%20warehouse%20interior/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Kathmandu%20warehouse%20interior&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"new workshop Kathmandu","search_url":"https://www.pexels.com/search/videos/new%20workshop%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=new%20workshop%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"large warehouse Nepal","search_url":"https://www.pexels.com/search/videos/large%20warehouse%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=large%20warehouse%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"Kathmandu warehouse interior","search_url":"https://openverse.org/search/image?q=Kathmandu%20warehouse%20interior","api":"GET https://api.openverse.org/v1/images/?q=Kathmandu%20warehouse%20interior&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ।","credit":"Source: Bizmandu","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"५ हजार वर्गमिटरभन्दा बढी","credit":"Source: Bizmandu","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L6 [plate] NUMBER CARD via local_render: \"गोदाम क्षेत्रफल ५ हजार वर्गमिटरभन्दा बढी\" | then stock video @pexels \"Kathmandu warehouse interior\" [bg], stock video @pixabay \"Kathmandu warehouse interior\", stock video @pexels \"new workshop Kathmandu\" | quality: story_fact"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":4,"quote_card":2,"topic_stock":0,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":4,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 4/6 content lines; article quote cards 2; topic stock only 0; needs a pick 0","lines_with_stock_query":6,"lines_with_commons":0,"lines_with_map":0,"rejected":[]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":null,"removed_text":["इभी किन्दा बिक्रीपछिको सर्भिस र स्पेयर पार्ट्सको उपलब्धता तपाईंका लागि कत्तिको मुख्य चासोको विषय हो?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो।","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"प्रतिशत","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"bignum","fields":{"value":"11","decimals":0,"unit":"हजार","prefix":"","label":"","sub":"भन्दा बढी गाडी सडकमा गुडिरहेका छन्","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"dots","total":11,"hi":11,"label":"हजार","fallback_kind":"dots"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"pivot","card":{"type":"kicker","fields":{"text":"मूल्यमा चुनौती देखिएको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"पार्ट्सको","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2,"number_guard":true}},{"line_id":4,"beat":"detail","card":{"type":"kicker","hold_from_line":3,"fields":null},"strip":{"hold_from_line":3},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"takeaway","card":{"type":"bignum","fields":{"value":"3","decimals":0,"unit":"months","prefix":"","label":"ट्रेनिङ सेन्टर सञ्चालन समय","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"dots","total":3,"hi":3,"label":"months","fallback_kind":"dots"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}},{"line_id":6,"beat":"closing","card":{"type":"kicker","fields":{"text":"५ हजार वर्गमिटरभन्दा बढीको गोदाम सञ्चालनमा आएको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"वर्गमिटरभन्दा","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":3,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":1,"types_used":{"hook":1,"bignum":2,"kicker":2},"distinct_types":3,"caps_relaxed":0,"picture_lines":0,"generic_picture_lines":0,"no_picture_lines":5,"blocked_claims":0,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":1,"chosen_topic":"‘हिमाल बचाउन इभीलाई फ्युचर बनाएका हौं, त्यही भएर नेपाल बीवाइडीको उच्च प्राथमिकतामा’","category":"tech","reason":"Electric vehicles combine climate concern, tech enthusiasm, and national pride, resonating strongly with Nepali GenZ who love futuristic, eco‑friendly stories, making it highly shareable and likely to go viral.","angle":"Showcase Nepal’s push for EV adoption as a youth‑driven, futuristic effort to protect the Himalayas, framing it as a bold, climate‑positive move that GenZ can rally behind.","chosen_id_recovered":false,"chosen_headline_exact":"‘हिमाल बचाउन इभीलाई फ्युचर बनाएका हौं, त्यही भएर नेपाल बीवाइडीको उच्च प्राथमिकतामा’","source_url":"https://bizmandu.com/content/20261013120007.html","source_feed":"Bizmandu","rss_pub_date":"2026-10-13T06:15:07.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":189,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":30,"direct_headline_count":169,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_e830bf877d8b0b2f","source_credit":"Source: Bizmandu","trust_eligible":true,"trust_skip_reason":"","article_age_hours":1.0094733333333332,"date_unknown":false,"article_text":"काठमाडौं। गत वर्षको फागुनमा विद्युतीय सवारीसाधनको एडप्टेसनमा नेपाल विश्वमा दोस्रो देश बनेको समाचार सार्वजनिक भयो। सन् २०२५ मा बिक्री भएका नयाँ कारमा इभीको हिस्सा ७३ प्रतिशत थियो। करमा सहुलियतदेखि चार्जिङ स्टेसनमा प्रोत्साहनले इभी गाडीमा आकर्षण बढेको हो। इभी आकर्षण बढ्नुमा आन्तरिक कारण यही हो। चीनले नेपाललाई प्राथमिकतामा राखेर गाडी बेच्नु अर्को मुख्य कारण हो। चीनले प्राथमिकतामा राखेकै कारण त्यहाँ उत्पादित धेरै ब्राण्ड नेपालमा बिक्री भइरहेका छन्। चीनका उम्दा ब्राण्डले आफ्ना प्रतिनिधिसहित बजारीकरणमा सहयोग गरिरहेका छन्। आफ्टर सेल्स सर्भिस सुदृढीकरणमा पनि उनीहरुले सघाइरहेका छन्। चीनबाट हरेक महिना कुनै न कुनै ब्राण्डका उच्च तहका व्यवस्थापक नेपाल आइरहेका हुन्छन्। नेपालमा सबैभन्दा बढी प्यासेन्जर इभी बिक्री गरिरहेको बीवाइडीले पनि आफ्टर सेल्स सर्भिस सुदृढ बनाउँदै लगेको छ। आफ्टर सेल्स सर्भिस विस्तारका लागि विश्वकै प्रमुख विद्युतीय गाडी उत्पादक बीवाइडीका एसिया-प्यासिफिकका सहायक महाप्रबन्धक हेड फेङ एरदोङ नेपाल आएका छन्। उनलाई बिजमाण्डू का शुक्र गिरी ले सोधे नेपाललाई बीवाइडीले उच्च प्राथमिकता दिएको छ। सानो बजारमा पनि यति धेरै महत्व किन? हामीले करिब पाँच वर्षअघि नै नेपालमा दीर्घकालीन रुपमा बजार विकास गर्ने योजना बनाएका थियौं। त्यसका लागि हामीले स्थानीय साझेदारसँग मिलेर काम गर्ने रणनीति अपनायौं। नेपालमा साझेदारका रुपमा साइमेक्स इंकसँग मिलेर राम्रो उपलब्धी समेत पाइरहेका छौं। नेपालको अटोमोबाइल बजार तुलनात्मक रुपमा सानो भए पनि यो हाम्रो लागि महत्त्वपूर्ण बजार हो। बजारको आकार सानो छ भन्दैमा हामीले यहाँका ग्राहकलाई कम महत्त्व दिने भन्ने हुँदैन। हामीले वातावरण संरक्षणमा योगदान दिनुपर्छ र नेपाली ग्राहकलाई उत्कृष्ट विद्युतीय सवारीसाधन तथा सेवा उपलब्ध गराउनुपर्छ भन्ने हाम्रो मान्यता छ। हामी विश्वभरका ग्राहकलाई उत्कृष्ट प्रविधि उपलब्ध गराउन चाहन्छौं। नेपाल हिमाल भएको देश हो। चीन र नेपालबीच हिमाली क्षेत्रको साझा सम्बन्ध पनि छ। हामी अहिलेका लागि मात्र होइन, भावी पुस्ताका लागि पनि हिमाल र वातावरण संरक्षण गर्न चाहन्छौं। विगतमा क्लाइमेट चेन्जको चपेटामा हामी सबै परेका छौं। भर्खरै नेपालमा आएको बाढी त्यो एउटा ठूलो उदाहरण हो। त्यसैले हामीले हिमाल बचाउनका लागि इभीलाई फ्युचर बनाइरहेका छौं। नेपालमा हिमालहरु धेरै छन्, त्यसलाई बचाउनु हाम्रो लक्ष्य हो। हाम्रो वातावरणीय मिसन र स्लोगन नै ‘कुल द अर्थ बाई १ डिग्री सेल्सियस’ भन्ने छ। यसलाई प्राप्त गर्न पनि हामीले इभीको इकोसिस्टम निर्माण गर्दै जानु छ। पछिल्लो ३-४ वर्षमा नेपालमा बीवाइडीका ११ हजारभन्दा बढी गाडी सडकमा गुडिरहेका छन्। नेपालमा अहिले भएको आफ्टर सेल्स सर्भिस सञ्जालप्रति बीवाइडी कति सन्तुष्ट छ? नेपालमा बीवाइडीका गाडीको संख्या बढ्दै गएको छ। त्यससँगै ग्राहकलाई राम्रो सेवा दिन आवश्यक पूर्वाधार तयार गर्नु हाम्रो प्राथमिकता हो। हामीले ग्राहकलाई सहज रुपमा गाडी मर्मत गराउन सक्ने वातावरण बनाउनुपर्छ। त्यसका लागि पर्याप्त उपकरण, दक्ष जनशक्ति र सर्भिस क्षमता आवश्यक हुन्छ। काठमाडौंमा नयाँ वर्कसप सञ्चालनमा ल्याइएको छ। साथै, स्पेयर पार्ट्सको उपलब्धता सहज बनाउन ठूलो गोदामको व्यवस्था गरिएको छ। नयाँ गोदाम ५ हजार वर्गमिटरभन्दा बढी क्षेत्रफलको छ। हामी बिक्री संख्या बढाउने कुरामा मात्र केन्द्रित छैनौं, बिक्रीपछि ग्राहकले पाउने सेवा पनि त्यत्तिकै महत्त्वपूर्ण छ। नेपालमा हाम्रो बिक्रीपछिको सेवा प्रणालीमा सुधार भइरहेको छ। तर, अझै केही चुनौती छन्। त्यसैले हामीले सर्भिस नेटवर्क विस्तार गर्न र सेवाको गुणस्तर सुधार गर्न निरन्तर काम गरिरहेका छौं। बीवाइडीको टोलीले स्थानीय साझेदारलाई कसरी राम्रो सेवा दिने, मर्मतको काम कसरी छिटो गर्ने र सेवाको प्रभावकारिता कसरी बढाउने भन्ने विषयमा मार्गदर्शन गरिरहेको छ। काठमाडौंमा ठूलो गोदामले सर्भिस नेटवर्कलाई आवश्यक स्पेयर पार्ट्स उपलब्ध गराउन सहयोग गर्नेछ। यसबाहेक, स्पेयर पार्ट्सका लागि अर्को गोदाम पनि निर्माण गर्ने काम भइरहेको छ। हाम्रो उद्देश्य ग्राहकले गाडी मर्मत गर्नुपर्दा आवश्यक पार्ट्स र प्राविधिक सहयोग सहजै पाउन सकुन् भन्ने हो। स्पेयर पार्ट्सको उपलब्धता र मूल्यमा देखिएका समस्या पनि छन्। नेपालमा विद्युतीय गाडीका ग्राहकको एउटा प्रमुख चिन्ता स्पेयर पार्ट्सको उपलब्धता र मूल्य हो। नेपालमा जेन्युइन स्पेयर पार्ट्स समयमै उपलब्ध गराउन र मर्मत खर्च प्रतिस्पर्धी बनाउन बीवाइडीले ठोस रुपमा के गरिरहेको छ? पछिल्लो दुई वर्षदेखि स्पेयर पार्ट्स आपूर्तिमा चुनौती देखिएको छ। विशेषगरी, स्थलमार्गबाट सामान ढुवानी गर्दा विभिन्न समस्या आउने गरेका छन्। यसले पार्ट्सको उपलब्धतामा ढिलाइ हुनुका साथै लागत पनि बढाएको छ। त्यसैले हामीले स्थलमार्गको विकल्पका रुपमा समुद्री मार्गबाट ढुवानी गर्ने र आपतकालीन अवस्थामा हवाई ढुवानीको सम्भावनासमेत खोजिरहेका छौं। साथै मुद्राको एक्सचेन्ज रेटमा हुने परिवर्तनले पनि स्पेयर पार्ट्स र गाडीको मूल्यमा फरक पार्छ। गाडी बिक्री मात्रै नभएर स्पेयर पार्ट्सको समस्यालाई पनि समाधान गर्ने चुनौती छ। स्पेयर पार्ट्सको मूल्यमा ढुवानी लागतले पनि प्रभाव पार्छ। हामीले ढुवानी कम्पनीहरुसँग लागत घटाउने विषयमा छलफल गरिरहेका छौं। ग्राहकलाई सक्दो किफायती मूल्यमा पार्ट्स उपलब्ध गराउने हाम्रो प्रयास छ। हामी ग्राहकलाई जेन्युइन स्पेयर पार्ट्स उपलब्ध गराउन प्रतिबद्ध छौं। बजारमा पाइने सबै पार्ट्स सक्कली वा उत्पादक कम्पनीले तोकेको मापदण्डअनुसार बनेका हुन्छन् भन्ने हुँदैन। गुणस्तरहीन पार्ट्सले गाडीको सुरक्षामा जोखिम निम्त्याउन सक्छ। त्यसैले हामी मूल्यलाई मात्र होइन, पार्ट्सको गुणस्तर र ग्राहकको सुरक्षालाई पनि प्राथमिकता दिन्छौं। नेपालमा इभी मर्मत गर्न सक्ने दक्ष जनशक्तिको अभाव नै छ। बीवाइडीका नयाँ जेनेरेसनका इभीलाई सेवा दिन आवश्यक जनशक्ति तयार पार्न कसरी काम गरिरहेको छ? विद्युतीय सवारीसाधनमा नयाँ प्रविधि प्रयोग हुँदै गएकाले प्राविधिक जनशक्तिलाई निरन्तर तालिम दिन आवश्यक छ। हामीले नेपालमा ट्रेनिङ सेन्टर निर्माण गरिरहेका छौं, जुन करिब तीन महिनाभित्र तयार हुने अपेक्षा छ। त्यसपछि डिलरका प्राविधिक कर्मचारी, रिसेप्सन टोली र अन्य सम्बन्धित जनशक्तिलाई तालिम दिन सकिनेछ। हामीले प्राविधिक कर्मचारीलाई सवारीसाधनको मर्मत, नयाँ प्रविधिको प्रयोग र समस्या पहिचान गर्ने विधिबारे व्यावहारिक तालिम दिनेछौं। यसका अतिरिक्त, एसिया-प्रशान्त क्षेत्रका विभिन्न देशका प्राविधिक टोलीबीच अनुभव आदानप्रदान र प्राविधिक प्रतिस्पर्धासमेत आयोजना गरिन्छ। थाइल्यान्ड र श्रीलंकामा रहेका तालिम केन्द्रमार्फत पनि नियमित रुपमा प्रशिक्षण दिइँदै आएको छ। हाम्रो लक्ष्य नेपालमा पनि नयाँ जेनेरेसनका इभी मर्मत गर्न सक्ने दक्ष जनशक्ति तयार गर्नु हो। बीवाइडीले सधैं सम्बन्धित बजारको आवश्यकताअनुसार उपयुक्त प्रविधि र उत्पादन उपलब्ध गराउने प्रयास गर्दै आएको छ। नेपालका ग्राहकको आवश्यकता र बजारको अवस्थालाई ध्यानमा राखेर हामी उत्पादन उपलब्ध गराउँछौं। नयाँ जेनेरेसनका विद्युतीय गाडीमा थप उन्नत प्रविधि प्रयोग हुने भएकाले बिक्रीपछिको सेवा र प्राविधिक दक्षता पनि ","article_char_count":6000,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_feed","article_block_reason":"Full article supplied in publisher RSS feed; HTML fetch bypassed.","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Bizmandu","assigned_hook_type":"stakes","review_id":"RV_20261013_w4o00y","trust_gate_passed":true,"tiktok_caption_budget":133,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

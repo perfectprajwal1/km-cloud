@@ -1,0 +1,162 @@
+{
+  "design": "ctc_missing_v1",
+  "half_ranges": [
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "cuts_sec": [
+    11.754083333333334,
+    26.410958333333333,
+    36.37566666666667
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "original_master_sha256": "b19af82e3ec47a975e3e47a44cd1cc74dc54ae6244c9f42b725bfb634d8032a2",
+      "used_master_sha256": "b19af82e3ec47a975e3e47a44cd1cc74dc54ae6244c9f42b725bfb634d8032a2",
+      "seconds": 25.410958333333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।",
+            "spoken": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।",
+            "spoken": "जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "b19af82e3ec47a975e3e47a44cd1cc74dc54ae6244c9f42b725bfb634d8032a2",
+        "greedy": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलभायु परिवर्तनको असर र प्राकृर्तिक विपध नेपालको पहिलो चुनौति भएको बताएका छन् जलभायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकरात्मक असर भने हामेलेनै बढि भोग्नु भरेको पाण्डेको भनाइ छ ",
+        "present_indices": [
+          0,
+          1
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9558823529411765,
+        "scores": [
+          -0.2469182228698628,
+          -0.6409297708479547
+        ],
+        "cuts_sec": [
+          11.754083333333334
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 9.564124475065617,
+            "right_anchor": 13.986031397637795,
+            "scores": [
+              -0.2469182228698628,
+              -0.6409297708479547
+            ],
+            "candidates": [
+              {
+                "cut": 11.754083333333334,
+                "valley_start": 9.664083333333332,
+                "valley_end": 13.844083333333334,
+                "quiet_sec": 4.18,
+                "rms": 6.721883353108433e-05,
+                "cost": -4.179580107939632
+              }
+            ],
+            "selected": {
+              "cut": 11.754083333333334,
+              "valley_start": 9.664083333333332,
+              "valley_end": 13.844083333333334,
+              "quiet_sec": 4.18,
+              "rms": 6.721883353108433e-05,
+              "cost": -4.179580107939632
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "original_master_sha256": "6cf1c805c489fe2d997bb14c2c8287213d4c72b399dd96ff9f95c92e21b75410",
+      "used_master_sha256": "6cf1c805c489fe2d997bb14c2c8287213d4c72b399dd96ff9f95c92e21b75410",
+      "seconds": 18.010958333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।",
+            "spoken": "भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ? कमेन्टमा भन्नुस्।",
+            "spoken": "तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "6cf1c805c489fe2d997bb14c2c8287213d4c72b399dd96ff9f95c92e21b75410",
+        "greedy": "भोर्टेकोशीबाँढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपतको जोखिम बढिरहेको सङ्केत गरेको उनले क्षताबनी दिएका छन् तपईँको क्षेत्रमा विपतको जोखिम कस्तो छ केहामी यसका लागि तयार छौ कमेन्टमा भन्नुस् ",
+        "present_indices": [
+          0,
+          1
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9300911854103343,
+        "scores": [
+          -1.0313818675925177,
+          -0.5696003693698003
+        ],
+        "cuts_sec": [
+          8.964708333333334
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 7.76472425925926,
+            "right_anchor": 10.166185370370371,
+            "scores": [
+              -1.0313818675925177,
+              -0.5696003693698003
+            ],
+            "candidates": [
+              {
+                "cut": 8.964708333333334,
+                "valley_start": 7.864708333333334,
+                "valley_end": 10.064708333333334,
+                "quiet_sec": 2.2,
+                "rms": 9.151512549475559e-05,
+                "cost": -2.1999850703703707
+              }
+            ],
+            "selected": {
+              "cut": 8.964708333333334,
+              "valley_start": 7.864708333333334,
+              "valley_end": 10.064708333333334,
+              "quiet_sec": 2.2,
+              "rms": 9.151512549475559e-05,
+              "cost": -2.1999850703703707
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "59c93a77163324a2cb5bf70f22b866d139e39ca36fb6f9796412dd7e91657f29",
+  "internal_word_completeness": "CTC provisional, listening review required"
+}

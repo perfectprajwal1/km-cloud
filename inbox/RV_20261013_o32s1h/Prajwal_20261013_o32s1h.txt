@@ -1,0 +1,356 @@
+REVIEW ID: RV_20261013_o32s1h
+TOPIC: जलवायु परिवर्तन र विपद् व्यवस्थापन नेपालको पहिलो चुनौती : मुख्यमन्त्री पाण्डे
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_d0263f37a3c6e633
+DATE: 2026-10-13T06:59:19.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: Nagarik News
+CATEGORY: news
+SOURCE: https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html
+ARTICLE GROUNDING: YES
+FACT CHECK: PASSED
+
+--- SCRIPT ---
+गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ। भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "पहिलो"
+    }
+   ],
+   "data_source_quote": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"
+  },
+  "caption_text": "जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती",
+  "big_hook_text": "जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Surendra Raj Pandey Chief Minister Gandaki Province",
+   "shot_description": "Chief Minister Surendra Raj Pandey speaking at a conference.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "नेपालको योगदान न्यून, असर बढी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal river flood disaster",
+   "shot_description": "Visual representation of river flooding in Nepal.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "बढ्दो विपद्को जोखिम",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_d0263f37a3c6e633","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","article_quote":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","closing_line":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","comment_prompt":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","pinned_comment":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","lines":[{"line_id":1,"beat":"hook","narration_text":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलो"}],"data_source_quote":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"},"caption_text":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती","big_hook_text":"जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्","pip_mode":"off","source_evidence":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Surendra Raj Pandey Chief Minister Gandaki Province","shot_description":"Chief Minister Surendra Raj Pandey speaking at a conference.","depiction_scope":"generic_illustration"},"caption_text":"नेपालको योगदान न्यून, असर बढी","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"closing","narration_text":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Nepal river flood disaster","shot_description":"Visual representation of river flooding in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"बढ्दो विपद्को जोखिम","big_hook_text":"","pip_mode":"off","source_evidence":"भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"जलवायु परिवर्तन र विपद्: नेपालको पहिलो चुनौती","youtube_description":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारीका लागि Nagarik News मा जानुहोस्: https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","youtube_tags":["Nepal","ClimateChange","DisasterManagement","SurendraRajPandey","GandakiProvince","Environment","NepalNews","KhabarMinute"],"tiktok_caption":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती, मुख्यमन्त्री पाण्डेको चेतावनी।","instagram_caption":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको Source: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","facebook_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","threads_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","linkedin_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","hashtags":["#Nepal","#ClimateChange","#DisasterManagement","#Gandaki","#News"],"source_credit":"Source: Nagarik News"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+Line 1: spoken number/date (पहिलो) had no infographic; auto-built one from this line's verified source quote. Check the visual.
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+Fact-check summary: All claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question/advice wording ("तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ? विपद् व्यवस्थापनका लागि प्रदेशहरूबीच साझा धारणा बना"); dropped line(s) 6, 5, 4; last line is now: "भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी ". Closing beat moved to line 3.
+B-roll: only 1/3 lines show this story's own facts; line(s) 3 use general topic footage.
+Line 2: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।
+
+--- PINNED COMMENT (Nepali question) ---
+तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "पहिलो",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "पहिलो"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "पहिलो"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "पहिलो",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \" पहिलो\" | then text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Chief Minister Surendra Raj Pandey speaking at a conference.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L2 [full] QUOTE CARD via local_render: \"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको \" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "Flooded river valley Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "Flooded river valley Nepal",
+   "alt_queries": [
+    "river flood disaster",
+    "mountain flood aftermath"
+   ],
+   "query_source": "director",
+   "shot_description": "Visual representation of river flooding in Nepal.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Flooded river valley Nepal",
+     "search_url": "https://www.pexels.com/search/videos/Flooded%20river%20valley%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Flooded%20river%20valley%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Visual representation of river flooding in Nepal.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Flooded river valley Nepal",
+     "search_url": "https://pixabay.com/videos/search/Flooded%20river%20valley%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Flooded%20river%20valley%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "river flood disaster",
+     "search_url": "https://www.pexels.com/search/videos/river%20flood%20disaster/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=river%20flood%20disaster&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "mountain flood aftermath",
+     "search_url": "https://www.pexels.com/search/videos/mountain%20flood%20aftermath/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=mountain%20flood%20aftermath&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Flooded river valley Nepal",
+     "search_url": "https://openverse.org/search/image?q=Flooded%20river%20valley%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=Flooded%20river%20valley%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।",
+     "credit": "Source: Nagarik News",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।",
+     "credit": "Source: Nagarik News",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L3 [full] STOCK VIDEO via pexels_video: \"Flooded river valley Nepal\" | then stock video @pixabay \"Flooded river valley Nepal\", stock video @pexels \"river flood disaster\", stock video @pexels \"mountain flood aftermath\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 1/3 content lines; article quote cards 1; topic stock only 1; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: " पहिलो" | then text plate @local_render | quality: story_fact
+L2 [full] QUOTE CARD via local_render: "नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको " | then text plate @local_render | quality: quote_card
+L3 [full] STOCK VIDEO via pexels_video: "Flooded river valley Nepal" | then stock video @pixabay "Flooded river valley Nepal", stock video @pexels "river flood disaster", stock video @pexels "mountain flood aftermath" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/Flooded%20river%20valley%20Nepal/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "जलवायु परिवर्तन र विपद्: नेपालको पहिलो चुनौती",
+ "youtube_description": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारीका लागि Nagarik News मा जानुहोस्: https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html\nSource: Nagarik News",
+ "youtube_tags": [
+  "Nepal",
+  "ClimateChange",
+  "DisasterManagement",
+  "SurendraRajPandey",
+  "GandakiProvince",
+  "Environment",
+  "NepalNews",
+  "KhabarMinute"
+ ],
+ "tiktok_caption": "जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती, मुख्यमन्त्री पाण्डेको चेतावनी।\nSource: Nagarik News",
+ "instagram_caption": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको Source: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html",
+ "facebook_post": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html\nSource: Nagarik News",
+ "threads_post": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html\nSource: Nagarik News",
+ "linkedin_post": "गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html\nSource: Nagarik News",
+ "hashtags": [
+  "#Nepal",
+  "#ClimateChange",
+  "#DisasterManagement",
+  "#Gandaki",
+  "#News"
+ ],
+ "source_credit": "Source: Nagarik News"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261013_o32s1h","regen_round":0,"fact_check_failure_count":0,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261013_o32s1h","review_date":"20261013","title":"जलवायु परिवर्तन र विपद् व्यवस्थापन नेपालको पहिलो चुनौती  : मुख्यमन्त्री पाण्डे ","chosen_topic":"जलवायु परिवर्तन र विपद् व्यवस्थापन नेपालको पहिलो चुनौती : मुख्यमन्त्री पाण्डे","category":"news","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","story_id":"ST_d0263f37a3c6e633","risk_flag":"NORMAL","source_credit":"Source: Nagarik News","full_script":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ। भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","hook":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","alternate_hook":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","hook_type":"stakes","closing_line":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","pinned_comment":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","lines":[{"text":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","voice":"serious","pose":"serious","broll":"Flooded river valley Nepal","broll_kind":"stock_video"}],"word_count":51,"workbook":{"schema_version":"6.6.9","story_id":"ST_d0263f37a3c6e633","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","source_label":"Nagarik News","source_credit":"Source: Nagarik News","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"stakes","hook_claim":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","proof_asset":{"kind":"article_text","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","article_quote":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","closing_line":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","comment_prompt":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","pinned_comment":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","lines":[{"line_id":1,"beat":"hook","narration_text":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलो"}],"data_source_quote":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"},"caption_text":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती","big_hook_text":"जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्","pip_mode":"off","source_evidence":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Surendra Raj Pandey Chief Minister Gandaki Province","shot_description":"Chief Minister Surendra Raj Pandey speaking at a conference.","depiction_scope":"generic_illustration"},"caption_text":"नेपालको योगदान न्यून, असर बढी","big_hook_text":"","pip_mode":"off","source_evidence":"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"closing","narration_text":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Nepal river flood disaster","shot_description":"Visual representation of river flooding in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"बढ्दो विपद्को जोखिम","big_hook_text":"","pip_mode":"off","source_evidence":"भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"जलवायु परिवर्तन र विपद्: नेपालको पहिलो चुनौती","youtube_description":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारीका लागि Nagarik News मा जानुहोस्: https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","youtube_tags":["Nepal","ClimateChange","DisasterManagement","SurendraRajPandey","GandakiProvince","Environment","NepalNews","KhabarMinute"],"tiktok_caption":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती, मुख्यमन्त्री पाण्डेको चेतावनी।","instagram_caption":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको Source: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","facebook_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","threads_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","linkedin_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","hashtags":["#Nepal","#ClimateChange","#DisasterManagement","#Gandaki","#News"],"source_credit":"Source: Nagarik News"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"पहिलो"}],"data_source_quote":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"},"caption_text":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती","big_hook_text":"जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"Surendra Raj Pandey Chief Minister Gandaki Province","shot_description":"Chief Minister Surendra Raj Pandey speaking at a conference.","depiction_scope":"generic_illustration"},"caption_text":"नेपालको योगदान न्यून, असर बढी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"Nepal river flood disaster","shot_description":"Visual representation of river flooding in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"बढ्दो विपद्को जोखिम","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।"}],"lines_legacy":[{"text":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","voice":"serious","pose":"serious","broll":"Flooded river valley Nepal","broll_kind":"stock_video"}],"youtube_title":"जलवायु परिवर्तन र विपद्: नेपालको पहिलो चुनौती","youtube_description":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारीका लागि Nagarik News मा जानुहोस्: https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","youtube_tags":["Nepal","ClimateChange","DisasterManagement","SurendraRajPandey","GandakiProvince","Environment","NepalNews","KhabarMinute"],"tiktok_caption":"जलवायु परिवर्तन र विपद् नेपालको पहिलो चुनौती, मुख्यमन्त्री पाण्डेको चेतावनी।\nSource: Nagarik News","instagram_caption":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको Source: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","facebook_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","threads_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","linkedin_post":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर र प्राकृतिक विपद् नेपालको पहिलो चुनौती भएको बताएका छन्। थप जानकारी: Nagarik News https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","hashtags":["#Nepal","#ClimateChange","#DisasterManagement","#Gandaki","#News"],"fact_check_status":"PASSED","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"पहिलो","on_screen_data":[{"label":"","value":"पहिलो"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"पहिलो"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"पहिलो","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \" पहिलो\" | then text plate @local_render | quality: story_fact"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Chief Minister Surendra Raj Pandey speaking at a conference.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि यसको नकारात्मक असर भने हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L2 [full] QUOTE CARD via local_render: \"नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको \" | then text plate @local_render | quality: quote_card"},{"line_id":3,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"Flooded river valley Nepal","alt_queries":["river flood disaster","mountain flood aftermath"],"query_source":"director","shot_description":"Visual representation of river flooding in Nepal.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"Flooded river valley Nepal","search_url":"https://www.pexels.com/search/videos/Flooded%20river%20valley%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Flooded%20river%20valley%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Visual representation of river flooding in Nepal.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"Flooded river valley Nepal","search_url":"https://pixabay.com/videos/search/Flooded%20river%20valley%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Flooded%20river%20valley%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"river flood disaster","search_url":"https://www.pexels.com/search/videos/river%20flood%20disaster/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=river%20flood%20disaster&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"mountain flood aftermath","search_url":"https://www.pexels.com/search/videos/mountain%20flood%20aftermath/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=mountain%20flood%20aftermath&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"Flooded river valley Nepal","search_url":"https://openverse.org/search/image?q=Flooded%20river%20valley%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=Flooded%20river%20valley%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।","credit":"Source: Nagarik News","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"भोटेकोशी बाढी र कालीगण्डकी क्षेत्रका पछिल्ला घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनले चेतावनी दिएका छन्।","credit":"Source: Nagarik News","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L3 [full] STOCK VIDEO via pexels_video: \"Flooded river valley Nepal\" | then stock video @pixabay \"Flooded river valley Nepal\", stock video @pexels \"river flood disaster\", stock video @pexels \"mountain flood aftermath\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":3,"content_lines":3,"story_fact":1,"quote_card":1,"topic_stock":1,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":1,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 1/3 content lines; article quote cards 1; topic stock only 1; needs a pick 0","lines_with_stock_query":1,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"Chief Minister speaking","verdict":"person_line"},{"src":"director_alt","query":"politician at conference","verdict":"person_line"},{"src":"director_alt","query":"government leader address","verdict":"person_line"}]},{"line_id":2,"tried":[{"src":"director","query":"Climate change impact Nepal","verdict":"person_line"},{"src":"director_alt","query":"environmental damage discussion","verdict":"person_line"},{"src":"director_alt","query":"government climate remarks","verdict":"person_line"},{"src":"scriptwriter","query":"Surendra Raj Pandey Chief Minister Gandaki Province","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","kinds":["question"]},{"line_id":5,"beat":"closing","text":"विपद् व्यवस्थापनका लागि प्रदेशहरूबीच साझा धारणा बनाउनुपर्नेमा मुख्यमन्त्री पाण्डेले जोड दिएका छन्।","kinds":["advice"]},{"line_id":4,"beat":"impact","text":"समयमै तयारी गर्न नसके आगामी दिनमा नेपालले थप ठूलो क्षति व्यहोर्नुपर्ने अवस्था आउन सक्ने उनको तर्क छ।","kinds":["advice"]}],"synced_fields":[],"caption_flags":[],"closing_beat_moved_to":3,"closing_article_support":0.93,"removed_text":["तपाईंको क्षेत्रमा विपद्को जोखिम कस्तो छ, के हामी यसका लागि तयार छौँ?","विपद् व्यवस्थापनका लागि प्रदेशहरूबीच साझा धारणा बनाउनुपर्नेमा मुख्यमन्त्री पाण्डेले जोड दिएका छन्।","समयमै तयारी गर्न नसके आगामी दिनमा नेपालले थप ठूलो क्षति व्यहोर्नुपर्ने अवस्था आउन सक्ने उनको तर्क छ।"],"removed_kinds":["question","advice","advice"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"जलवायु परिवर्तन र प्राकृतिक विपद् नेपालको पहिलो चुनौती","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"मुख्यमन्त्री"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Surendra Raj Pandey","in_line":"सुरेन्द्रराज पाण्डेले","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Surendra Raj Pandey speaking","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Surendra%20Raj%20Pandey%20speaking&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Surendra%20Raj%20Pandey%20speaking&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"climate policy speech","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=climate%20policy%20speech&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=climate%20policy%20speech&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"government official address","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=government%20official%20address&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=government%20official%20address&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"kicker","fields":{"text":"हामीले नै बढी भोग्नुपरेको पाण्डेको भनाइ छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"भोग्नुपरेको","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"closing","card":{"type":"points","fields":{"points":["भोटेकोशी बाढी","कालीगण्डकी क्षेत्रका घटनाहरू"],"title":"विपद्को जोखिम संकेत","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"कालीगण्डकी","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":3,"held_lines":0,"types_used":{"hook":1,"kicker":1,"points":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":0,"no_picture_lines":2,"blocked_claims":0,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":4,"chosen_topic":"जलवायु परिवर्तन र विपद् व्यवस्थापन नेपालको पहिलो चुनौती : मुख्यमन्त्री पाण्डे","category":"news","reason":"Matches the trending 'flash floods nepal' search, taps GenZ concern for climate impacts and government response, making it highly shareable.","angle":"Highlight Nepal's urgent climate‑change challenges and disaster‑management plans, using PM Pandey's statement to spark discussion among young viewers.","chosen_id_recovered":false,"chosen_headline_exact":"जलवायु परिवर्तन र विपद् व्यवस्थापन नेपालको पहिलो चुनौती  : मुख्यमन्त्री पाण्डे ","source_url":"https://nagariknews.nagariknetwork.com/politics/climate-change-and-disaster-management-are-nepal-s-first-challenges-chief-minister-pandey-br-78-78.html","source_feed":"Nagarik News","rss_pub_date":"2026-10-13T06:59:19.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":29,"direct_headline_count":167,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_d0263f37a3c6e633","source_credit":"Source: Nagarik News","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.10216833333333333,"date_unknown":false,"article_text":"गण्डकी प्रदेशका मुख्यमन्त्री सुरेन्द्रराज पाण्डेले जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण र बढ्दो प्राकृतिक विपद्को सामना गर्नु नेपाल सरकार र नेपाली जनताको पहिलो चुनौती भएको बताएका छन्।\nअन्तरप्रदेश मुख्यमन्त्री सम्मेलनमा बोल्दै पाण्डेले जलवायु परिवर्तनमा नेपालको योगदान न्यून भए पनि त्यसको असर भने नेपालले बढी भोग्नुपरेको बताए।\n‘नेपालको जलवायु परिवर्तनमा नकारात्मक योगदान असाध्यै न्यून छ, तर त्यसको मार सबैभन्दा बढी हामीले खेपिरहेका छौँ। त्यसकारण जलवायु परिवर्तनको नकारात्मक असर न्यूनीकरण गर्न र व्यापक रूपमा बढिरहेका मौसमजन्य तथा अन्य विपद्को सामना गर्नु नेपाल सरकार, नेपाली जनता र राष्ट्रको पहिलो चुनौती हो,’ उनले भने।\nविपद् व्यवस्थापनमा समयमै तयारी गर्न नसके आगामी दिनमा नेपालले थप ठूलो क्षति व्यहोर्नुपर्ने उनले चेतावनी दिए। भोटेकोशीको विनाशकारी बाढी, हिमशृंखलामा देखिएका जोखिम र कालीगण्डकी क्षेत्रमा हालै भएको घटनाले विपद्को जोखिम बढिरहेको संकेत गरेको उनको भनाइ थियो।\n‘गत वर्षका घटना बिर्सिए पनि भोटेकोशीको महाप्रलय, हिमशृंखलामा हिमनदी थुनिने वा हिमपहिरो जाने घटना र अहिले भर्खरै कालीगण्डकीमा भएको घटनाले अब वर्षमा यस्ता दर्जनौँ विपद्को सामना गर्नुपर्ने देखाउँछ,’ उनले भने।\nपाण्डेले विपद्को सामना गर्न प्रदेशहरूबीच साझा धारणा बन्नुपर्ने बताए। प्रदेशले आफ्नो धारणा बनाएपछि स्थानीय तहलाई सहजीकरण गर्ने तथा संघीय सरकारसँग समन्वय र सहकार्य गर्ने भूमिका प्रभावकारी बनाउन सकिने उनको भनाइ थियो।\nप्रकाशित: २७ आश्विन २०८३ १२:४४ मंगलबार","article_char_count":1334,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"Nagarik News","assigned_hook_type":"stakes","review_id":"RV_20261013_o32s1h","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===
