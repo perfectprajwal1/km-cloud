@@ -1684,6 +1684,42 @@ def render_strip(painter, gen, dst_dir, base, dark):
     anim.update({"v": 3, "dark": dark, "fit": fit or {}, "icons": icons_for_anim(icon_names)})
     return name, anim
 
+def render_strips(story, safe, sdir):
+    """Draw every strip that has a _gen spec (unchanged v9 behaviour)."""
+    gens = [(i, c) for i, c in enumerate(story["cards"]) if c["strip"].get("_gen")]
+    if gens:
+        with Painter() as painter:
+            for i, c in gens:
+                g = c["strip"].pop("_gen")
+                name, anim = render_strip(painter, g, sdir, "%s_%02d" % (safe, i + 1), bool(c.get("dark")))
+                c["strip"]["src"] = "../public/strips/" + name
+                c["strip"]["anim"] = anim
+                print("  strip", i + 1, "->", anim["kind"], name)
+
+def layout_with_fallback(story, safe, sdir):
+    """Optional render-only variety layer (km_selection.py).
+    It may only change cards/strips, never narration. Any problem -> today's default layout, never a stop.
+    Switch off with env KM_SELECTION=0."""
+    import copy, os
+    default = copy.deepcopy(story)
+    if os.environ.get("KM_SELECTION", "1") != "0":
+        try:
+            sys.path.insert(0, str(ROOT / "scripts"))
+            import km_selection
+            chosen = km_selection.select_story(copy.deepcopy(story), None, sys.modules[__name__], ROOT)
+            same = lambda a, b: [(c["vo"], c.get("voice_tone", "neutral"), c["type"] == "engage") for c in a["cards"]] == [(c["vo"], c.get("voice_tone", "neutral"), c["type"] == "engage") for c in b["cards"]]
+            if not same(chosen, default) or chosen.get("id") != default.get("id"):
+                raise ValueError("selection would change narration or card count")
+            render_strips(chosen, safe, sdir)
+            chosen["selection"]["render_seal"] = km_selection.digest(chosen["cards"])
+            print("  selection: variety layout used")
+            return chosen
+        except BaseException as e:
+            if isinstance(e, KeyboardInterrupt): raise
+            print("  NOTE: variety selection skipped (" + type(e).__name__ + ": " + str(e)[:160] + "); using the standard layout")
+    render_strips(default, safe, sdir)
+    return default
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     force = "--force" in sys.argv
@@ -1704,15 +1740,7 @@ def main():
     outdir = ROOT / "stories"; outdir.mkdir(exist_ok=True)
     sdir = ROOT / "public" / "strips"; sdir.mkdir(parents=True, exist_ok=True)
     safe = re.sub(r"[^A-Za-z0-9_-]", "_", rid)
-    gens = [(i, c) for i, c in enumerate(story["cards"]) if c["strip"].get("_gen")]
-    if gens:
-        with Painter() as painter:
-            for i, c in gens:
-                g = c["strip"].pop("_gen")
-                name, anim = render_strip(painter, g, sdir, "%s_%02d" % (safe, i + 1), bool(c.get("dark")))
-                c["strip"]["src"] = "../public/strips/" + name
-                c["strip"]["anim"] = anim
-                print("  strip", i + 1, "->", anim["kind"], name)
+    story = layout_with_fallback(story, safe, sdir)
     (outdir / (rid + ".json")).write_text(json.dumps(story, ensure_ascii=False, indent=1), encoding="utf-8")
     (outdir / (rid + ".clips.json")).write_text(json.dumps(clips, ensure_ascii=False, indent=1), encoding="utf-8")
     if problems: print("NOTE (built because you approved it):", "; ".join(problems))
