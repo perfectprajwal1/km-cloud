@@ -99,21 +99,31 @@ def source_hashtag(tag, pack):
 
 def clean_public_copy(base, pack, allow_fallback=True):
     """Remove labeled credits and explicit read-more clauses, not news entities.
-    Unknown attribution wording falls back to a separately supplied clean title.
+    Unknown attribution sentences are stripped; an empty copy uses a clean title.
     No API call or metadata mutation. Per-platform failure remains a soft result.
     """
     names = source_names(pack)
+    # A read-more prefix plus an explicitly declared publisher is attribution.
+    # The grammatical particles are optional: "थप जानकारी X मा" is as much
+    # a credit as "थप जानकारीको लागि X को ...". Do not erase bare names.
+    nepali_more = (
+        r'(?:थप\s+(?:जानकारी|विवरण)|विस्तृत\s+(?:जानकारी|विवरण)|पूरा\s+(?:समाचार|रिपोर्ट))'
+        r'(?:\s*(?:का|को))?(?:\s*(?:लागि|लागी))?'
+    )
     lines = []
     uncertain = False
+    stripped_attribution = False
     for ln in str(base).replace('\r', '').split('\n'):
         if SRC_LINE.match(ln):
             continue
-        ln = re.split(r'(?:source|src|स्रोत|श्रोत)\s*[:：-]', ln, maxsplit=1, flags=re.I)[0]
+        ln = re.split(r'(?<![\w\u0900-\u097f])(?:source|src|स्रोत|श्रोत)\s*[:：-]', ln, maxsplit=1, flags=re.I)[0]
         # These are publisher-reference calls to action, not factual clauses.
         for name in names:
             escaped = re.escape(name)
             patterns = [
-                r'(?:थप\s+जानकारी(?:का|को)?\s*(?:लागि|लागी)|विस्तृत\s+(?:जानकारी|विवरण)(?:का|को)?\s*(?:लागि|लागी))\s+' + escaped + r'\s+को[^।.!?\n]*(?:[।.!?]|$)',
+                nepali_more + r'\s+' + escaped +
+                r'(?:\s*(?:मा|मै|को|का|लागि|लागी)(?=\s|[।.!?;]|$)|(?=\s*[।.!?;]|$))'
+                r'[^।.!?;\n]*(?:[।.!?]+|(?=;)|$)',
                 r'(?:for\s+(?:more|further)\s+(?:details|information)|read\s+(?:more|the\s+full\s+(?:story|report))|more\s+(?:at|on))\b[^।.!?\n]*?' + escaped + r'[^।.!?\n]*(?:[।.!?]|$)',
             ]
             # Remove URLs first within the attributed CTA, preventing dots in URLs
@@ -122,12 +132,32 @@ def clean_public_copy(base, pack, allow_fallback=True):
                 ln = re.sub(pattern, '', URL_RE.sub('', ln), flags=re.I)
         ln = URL_RE.sub('', ln)
         ln = re.sub(r'(?<!\S)#[^\s]+', lambda mt: '' if source_hashtag(mt.group(), pack) else mt.group(), ln)
+        # Final sentence-level guard also covers undeclared publishers. Strip
+        # only attribution, keeping factual sentences before and after it.
+        suspect = (
+            nepali_more + r'\s+[^।.!?;\n]*?(?:पढ्नुहोस्|हेर्नुहोस्|पढ्नुस्|हेर्नुस्)'
+            r'|' + nepali_more + r'\s+[^।.!?;\n]+\s+(?:मा|मै|को|का|लागि|लागी)\s*(?:[।.!?;]|$)'
+        )
+        parts = re.split(r'(?<=[।.!?;])\s*', ln)
+        kept = [part for part in parts if not re.search(suspect, part, re.I)]
+        if len(kept) != len(parts):
+            print('Caption stripped an uncertain source-credit sentence; news copy kept')
+            summary = os.environ.get('GITHUB_STEP_SUMMARY')
+            if summary:
+                try:
+                    with open(summary, 'a', encoding='utf-8') as f:
+                        f.write('\nCaption cleanup: stripped a source-credit sentence; news copy kept.\n')
+                except OSError:
+                    pass  # A summary write must not stop publishing.
+            ln = ' '.join(kept)
+            stripped_attribution = True
+        # Preserve v5.7's existing uncertain-attribution fallback behavior.
         if re.search(r'(?:थप\s+जानकारी(?:का|को)?\s*(?:लागि|लागी)|read\s+(?:more|the\s+full)|for\s+(?:more|further)\s+(?:details|information))', ln, re.I):
             uncertain = True
         ln = ln.strip()
         if ln:
             lines.append(ln)
-    if uncertain:
+    if uncertain or (stripped_attribution and not lines):
         if allow_fallback:
             for field in ('youtube_title', 'title', 'headline'):
                 candidate = pack.get(field)
@@ -177,6 +207,9 @@ def build_caption(pack):
     text = re.sub(r"[ \t]+\n", "\n", "".join(out)).strip()
     if len(text) > MAX_LEN:
         text = text[:MAX_LEN].rstrip()
+    # Final shared pass after hashtags and length handling. Every caption,
+    # description and YouTube title reaches this path before submission.
+    text = clean_public_copy(text, pack)
     if not text:
         raise Soft("caption came out empty")
     return text
