@@ -1,8 +1,9 @@
 {
-  "state": "pending",
+  "state": "accepted",
   "channel_id": "28702519189375738",
   "container_id": "17885705715529659",
-  "stage": "before_publish",
+  "post_id": "18411609898082776",
+  "status": "publish_returned_id",
   "story_id": "RV_20261013_o32s1h",
   "platform": "threads"
 }
