@@ -159,7 +159,120 @@ def _valid_fit(fit,count):
     if len(cuts)!=max(0,len(present)-1):return False
     return all(isinstance(x,(int,float)) and math.isfinite(x) for x in cuts)
 
-def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note='',auto_soft=True):
+def cached_voice_sync_status(work,card_count):
+    """Tell launchers whether an installed voice receipt has a durable sync plan.
+
+    Old receipts from estimated/soft multi-line splits do not prove that each
+    clip belongs to the line on screen. Force those through the current sync
+    path once; known CTC cuts and separately requested one-line clips are safe
+    to restore without another provider call.
+    """
+    path=Path(work)/'two_half_join.json'
+    if not path.is_file():return False,'saved line-to-audio sync plan is missing'
+    try:
+        data=json.loads(path.read_text(encoding='utf-8'))
+        diagnostics=data.get('diagnostics') if isinstance(data,dict) else None
+        expected=1 if card_count<=1 else 2
+        if not isinstance(diagnostics,list) or len(diagnostics)!=expected:
+            return False,'saved line-to-audio sync plan is incomplete'
+        methods={'ctc_boundaries','ctc_missing_recovered','isolated_per_card','manual_cuts'}
+        for row in diagnostics:
+            if not isinstance(row,dict) or row.get('sync_method') not in methods:
+                return False,'saved voice used an unverified estimated split'
+            count=row.get('card_count')
+            if isinstance(count,bool) or not isinstance(count,int) or count<1:
+                return False,'saved sync plan has no card count'
+            half=row.get('half')
+            if isinstance(half,bool) or not isinstance(half,int) or half<1:
+                return False,'saved sync plan has no half identifier'
+            half_folder=Path(work)/('half%s'%half);source_master=half_folder/'master.wav'
+            if (not source_master.is_file() or
+                    hashlib.sha256(source_master.read_bytes()).hexdigest()!=row.get('original_master_sha256')):
+                return False,'saved source audio no longer matches its sync plan'
+            method=row['sync_method']
+            ctc=row.get('ctc')
+            if method=='isolated_per_card':
+                clips=row.get('recovered')
+                if not isinstance(clips,list) or len(clips)!=count:
+                    return False,'saved isolated-card audio list is incomplete'
+                for clip in clips:
+                    if not isinstance(clip,dict) or isinstance(clip.get('card'),bool) or not isinstance(clip.get('card'),int):
+                        return False,'saved isolated-card entry is malformed'
+                    if clip.get('source')=='single-line half':path=source_master
+                    else:path=half_folder/'isolated_cards'/('c%02d'%clip['card'])/'master.wav'
+                    if (not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=clip.get('master_sha256')):
+                        return False,'saved isolated-card audio no longer matches its sync plan'
+            elif method=='ctc_boundaries':
+                if (not isinstance(ctc,dict) or ctc.get('best_effort') is True or
+                        ctc.get('partial_missing_indices') or ctc.get('missing_indices') or
+                        len(ctc.get('present_indices',[]))!=count or
+                        len(ctc.get('cuts_sec',[]))!=count-1 or
+                        ctc.get('master_sha256')!=row.get('original_master_sha256')):
+                    return False,'saved CTC line mapping is incomplete or uncertain'
+            elif method=='ctc_missing_recovered':
+                if (not isinstance(ctc,dict) or ctc.get('best_effort') is True or
+                        len(ctc.get('present_indices',[]))+len(ctc.get('missing_indices',[]))!=count or
+                        len(row.get('recovered',[]))!=len(ctc.get('missing_indices',[])) or
+                        ctc.get('master_sha256')!=row.get('original_master_sha256')):
+                    return False,'saved missing-card repair plan is incomplete'
+                for clip in row['recovered']:
+                    if not isinstance(clip,dict) or isinstance(clip.get('card'),bool) or not isinstance(clip.get('card'),int):
+                        return False,'saved missing-card entry is malformed'
+                    path=half_folder/'missing_cards'/('c%02d'%clip['card'])/'master.wav'
+                    if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=clip.get('master_sha256'):
+                        return False,'saved recovered-card audio no longer matches its sync plan'
+            elif method=='manual_cuts' and row.get('manual_override') is not True:
+                return False,'manual cut receipt is incomplete'
+        return True,'saved sync plan is complete'
+    except Exception as exc:
+        return False,'saved sync plan could not be verified (%s)'%type(exc).__name__
+
+def _isolate_uncertain_half(story,texts,lo,hi,folder,rate,project,primary,backup,offline=False,retry_verified_no_audio=False):
+    """Make one durable voice response per line when a combined half is uncertain.
+
+    A line-specific response is inherently assigned to that line. Two seconds
+    of silence are inserted between responses, and cuts land at the midpoint
+    of those known silences. The approved text and existing voice settings are
+    passed through generate() unchanged.
+    """
+    if hi-lo==1:
+        audio=folder/'master.wav';single_rate,samples=read_wav(audio)
+        return audio,[],[{'card':lo+1,'master_sha256':hashlib.sha256(audio.read_bytes()).hexdigest(),
+                          'duration_sec':round(len(samples)/single_rate,3),'source':'single-line half'}]
+    cached=[folder/'isolated_cards'/('c%02d'%(idx+1))/'master.wav' for idx in range(lo,hi)]
+    if offline and not all(path.is_file() for path in cached):
+        print('NOTE: per-card voice recovery skipped in offline review mode; the retained half uses an unverified soft split.',flush=True)
+        audio=folder/'master.wav';_,values=read_wav(audio)
+        return audio,_soft_cuts(rate,values,texts[lo:hi]),[]
+    rows=[];cuts=[];combined=array.array('h')
+    silence=array.array('h',[0])*(rate*2)
+    for global_idx in range(lo,hi):
+        card_folder=folder/'isolated_cards'/('c%02d'%(global_idx+1));card_folder.mkdir(parents=True,exist_ok=True)
+        card_master=card_folder/'master.wav'
+        if not card_master.is_file() and not offline:
+            print('Requesting card %s separately because its combined-half boundary was uncertain.'%(global_idx+1),flush=True)
+            generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],card_master,card_folder,primary,backup,retry_verified_no_audio)
+        card_rate,samples=read_wav(card_master)
+        if card_rate!=rate:
+            print('NOTE: isolated card %s sample rate differs; converting it to the retained half rate.'%(global_idx+1),flush=True)
+            samples=_resample_pcm16(samples,card_rate,rate)
+        if global_idx>lo:
+            cuts.append((len(combined)+rate)/rate)
+            combined.extend(silence)
+        combined.extend(samples)
+        rows.append({'card':global_idx+1,'master_sha256':hashlib.sha256(card_master.read_bytes()).hexdigest(),
+                     'duration_sec':round(len(samples)/rate,3)})
+    if not combined:raise Stop('No valid isolated card audio is available for the uncertain half.')
+    audio=folder/'isolated_master.wav';temp=folder/'isolated_master.tmp.wav'
+    write_wav(temp,rate,combined);temp.replace(audio)
+    _write_json_atomic(folder/'isolated_recovery_receipt.json',{
+        'method':'one_request_per_approved_line','cards':rows,
+        'line_to_audio_isolation':'each output clip came from a request containing only its own approved line',
+        'cuts_sec':cuts,'master_sha256':hashlib.sha256(audio.read_bytes()).hexdigest()})
+    print('NOTE: uncertain combined audio was replaced for this half by separately cached, line-specific clips; no text was changed.',flush=True)
+    return audio,cuts,rows
+
+def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note='',auto_soft=True,preserve_samples=False):
     """Split an approved narration, turning every alignment doubt into a note.
 
     The production path preserves all source samples and replaces suspect cuts
@@ -167,17 +280,21 @@ def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,f
     the explicit offline --audio diagnostic command.
     """
     try:
-        return _split_audio_strict(master,texts,dest,cuts,asr_model,soft_fallback,fallback_note)
+        return _split_audio_strict(master,texts,dest,cuts,asr_model,soft_fallback,fallback_note,preserve_samples)
     except Exception as exc:
         if not auto_soft:raise
         detail=(str(exc).strip() or type(exc).__name__).replace('\n',' ')[:180]
         note='Strict split/alignment check was not conclusive ('+detail+'); all source samples retained in a soft split.'
         print('NOTE: '+note+' Word identity and exact card boundaries are unverified.',flush=True)
         rate,values=read_wav(master)
+        if preserve_samples:
+            # The cuts came from explicit per-line clips or a previously
+            # validated CTC plan. Do not replace them with duration estimates.
+            raise
         fallback_cuts=_soft_cuts(rate,values,texts)
         return _split_audio_strict(master,texts,dest,fallback_cuts,None,True,note)
 
-def _split_audio_strict(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note=''):
+def _split_audio_strict(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note='',preserve_samples=False):
     rate,values=read_wav(master);duration=len(values)/rate;gaps=pauses(rate,values)
     long=[(a,b) for a,b in gaps if a>0 and b<len(values) and (b-a)/rate>=1.2]
     if cuts is None:
@@ -191,7 +308,7 @@ def _split_audio_strict(master,texts,dest,cuts=None,asr_model=None,soft_fallback
     prepared=[]
     for i,(a,b,text) in enumerate(zip(edges,edges[1:],texts)):
         chunk=values[a:b];local=pauses(rate,chunk)
-        if soft_fallback:
+        if soft_fallback or preserve_samples:
             # Keep each source sample exactly once. A low-confidence cut may
             # cross speech; trimming here could silently remove part of a word.
             lo=0;hi=len(chunk);trim=chunk
@@ -200,20 +317,27 @@ def _split_audio_strict(master,texts,dest,cuts=None,asr_model=None,soft_fallback
             hi=local[-1][0] if local and local[-1][1]==len(chunk) else len(chunk)
             lo=max(0,lo-round(.06*rate));hi=min(len(chunk),hi+round(.1*rate));trim=chunk[lo:hi]
         seconds=len(trim)/rate
-        if seconds<.5 and not soft_fallback:raise Stop('Card %s is empty/too short; check cuts.'%(i+1))
+        quality_notes=[]
+        if seconds<.5:
+            if not soft_fallback and not preserve_samples:raise Stop('Card %s is empty/too short; check cuts.'%(i+1))
+            quality_notes.append('audio interval is shorter than 0.5 seconds')
         speech=sum(1 for v in trim if abs(v)>104)/rate
-        if speech<.1 and not soft_fallback:raise Stop('Card %s has no detectable speech.'%(i+1))
+        if speech<.1:
+            if not soft_fallback and not preserve_samples:raise Stop('Card %s has no detectable speech.'%(i+1))
+            quality_notes.append('speech energy was not detected')
         # Acoustic duration/energy checks are NOT transcript identity/repeat checks.
         midpoint=edges[i+1]
         boundary_ok=i==len(texts)-1 or any(g0<=midpoint<=g1 and (g1-g0)/rate>=.12 for g0,g1 in gaps)
-        if i<len(texts)-1 and not boundary_ok and not soft_fallback:
+        if i<len(texts)-1 and not boundary_ok and not soft_fallback and not preserve_samples:
             raise Stop('Boundary after card %s is not inside >=120ms silence; refusing likely cut-through-speech.'%(i+1))
+        if i<len(texts)-1 and not boundary_ok:quality_notes.append('boundary is not inside detected 120 ms silence')
+        if quality_notes:print('NOTE: Card %s: %s; mapped audio retained.'%(i+1,'; '.join(quality_notes)),flush=True)
         prepared.append(trim)
         tokens=[re.sub(r'[^\w]','',t.casefold()) for t in text.split()]
         repeated=[tokens[j] for j in range(1,len(tokens)) if tokens[j] and tokens[j]==tokens[j-1]]
-        report.append({'card':i+1,'expected_text':text,'master_start_sec':round((a+lo)/rate,3),'master_end_sec':round((a+hi)/rate,3),'duration_sec':round(seconds,3),'script_adjacent_repeats':repeated,'spoken_text_verified':False,'spoken_repeat_check':'NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.','soft_fallback':bool(soft_fallback),'boundary_in_silence':boundary_ok})
+        report.append({'card':i+1,'expected_text':text,'master_start_sec':round((a+lo)/rate,3),'master_end_sec':round((a+hi)/rate,3),'duration_sec':round(seconds,3),'script_adjacent_repeats':repeated,'spoken_text_verified':False,'spoken_repeat_check':'NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.','soft_fallback':bool(soft_fallback),'sample_preserving':bool(soft_fallback or preserve_samples),'boundary_in_silence':boundary_ok,'quality_notes':quality_notes})
     for i,trim in enumerate(prepared):write_wav(dest/f'c{i+1:02d}.wav',rate,trim)
-    summary={'master_sha256':hashlib.sha256(Path(master).read_bytes()).hexdigest(),'cuts_sec':cuts,'cards':report,'soft_fallback':bool(soft_fallback),'fallback_note':fallback_note if soft_fallback else '', 'check_result':('SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. '+fallback_note) if soft_fallback else 'Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening.'}
+    summary={'master_sha256':hashlib.sha256(Path(master).read_bytes()).hexdigest(),'cuts_sec':cuts,'cards':report,'soft_fallback':bool(soft_fallback),'sample_preserving':bool(soft_fallback or preserve_samples),'fallback_note':fallback_note if soft_fallback else '', 'check_result':(('SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. '+fallback_note) if soft_fallback else ('Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified.' if preserve_samples else 'Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening.'))}
     (dest/'split_checks.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     return summary
 
@@ -478,45 +602,39 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
     for number,((lo,hi),fit) in enumerate(zip(ranges,fits),1):
         folder=work/('half%s'%number);audio=folder/'master.wav';rate,values=read_wav(audio)
         primary=project/('gemini_key.txt' if number==1 else 'gemini_key2.txt');backup=project/('gemini_key2.txt' if number==1 else 'gemini_key.txt')
-        use_audio=audio;use_cuts=None;repair_rows=[]
+        use_audio=audio;use_cuts=None;repair_rows=[];sync_method='unknown'
         if fit is not None:
-            if fit['missing_indices']:
-                try:
+            if fit.get('best_effort') or fit.get('partial_missing_indices'):
+                use_audio,use_cuts,repair_rows=_isolate_uncertain_half(
+                    story,texts,lo,hi,folder,rate,project,primary,backup,
+                    offline=offline,retry_verified_no_audio=retry_verified_no_audio)
+                sync_method='isolated_per_card' if len(repair_rows)==hi-lo else 'uncertain_soft_split'
+            elif fit['missing_indices']:
+                if not recover_missing or offline:
+                    # The normal approved-reel command must not leave a known
+                    # missing line attached to a duration-estimated clip. The
+                    # offline install pass reuses these exact clips when cached.
+                    use_audio,use_cuts,repair_rows=_isolate_uncertain_half(
+                        story,texts,lo,hi,folder,rate,project,primary,backup,
+                        offline=offline,retry_verified_no_audio=retry_verified_no_audio)
+                    sync_method='isolated_per_card' if len(repair_rows)==hi-lo else 'uncertain_soft_split'
+                else:
                     print('MISSING ONLY:',', '.join(str(lo+i+1) for i in fit['missing_indices']))
                     present=fit['present_indices']
-                    split_audio(audio,[texts[lo+i] for i in present],folder/'present_cards',fit['cuts_sec'])
+                    split_audio(audio,[texts[lo+i] for i in present],folder/'present_cards',fit['cuts_sec'],preserve_samples=True)
                     card_paths={idx:folder/'present_cards'/('c%02d.wav'%(i+1)) for i,idx in enumerate(present)}
                     for idx in fit['missing_indices']:
                         global_idx=lo+idx
                         recovery=folder/'missing_cards'/('c%02d'% (global_idx+1));recovery.mkdir(parents=True,exist_ok=True)
                         recovered=recovery/'master.wav'
                         if not recovered.exists():
-                            if offline or not recover_missing:
-                                raise Stop('Card %s missing. Original halves retained. Run resume_failed.py for missing-card-only recovery; review/offline mode sends nothing.'%(global_idx+1))
                             print('Requesting ONLY missing card %s; original halves kept.'%(global_idx+1))
                             generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup,retry_verified_no_audio)
-                        mf=recovery/'response_metadata.json'
-                        try:
-                            metadata=json.loads(mf.read_text(encoding='utf-8')) if mf.is_file() else {}
-                            reasons=metadata.get('finish_reasons',[]) if isinstance(metadata,dict) else []
-                        except Exception as e:
-                            reasons=[]
-                            print('NOTE: recovered card %s metadata could not be read (%s); retained audio is used.'%(global_idx+1,type(e).__name__),flush=True)
-                        if not reasons or any(r!='STOP' for r in reasons):
-                            print('NOTE: recovered card %s has valid audio with finishReason %s; keeping the response.'%(global_idx+1,','.join(str(x) for x in reasons)[:120]),flush=True)
-                        try:
-                            check=engine.analyze(recovered,[texts[global_idx]],recovery/'ctc')
-                            if check.get('missing_indices'):raise AlignmentStop('recovered card did not align confidently')
-                            soft=bool(check.get('best_effort'))
-                            note=check.get('fallback_reason','')
-                        except Exception as e:
-                            from km_ctc import best_effort_alignment
-                            check=best_effort_alignment(recovered,[texts[global_idx]],recovery/'ctc',str(e));soft=True;note=str(e)
-                            print('NOTE: recovered card %s uses its complete response audio; %s'%(global_idx+1,str(e)[:200]),flush=True)
-                        split_audio(recovered,[texts[global_idx]],recovery/'cards',[],soft_fallback=soft,fallback_note=note)
+                        split_audio(recovered,[texts[global_idx]],recovery/'cards',[],preserve_samples=True)
                         card_paths[idx]=recovery/'cards'/'c01.wav'
                         repair_rows.append({'card':global_idx+1,'master_sha256':digest(recovered)})
-                    # Restore original STORY order even when omission was in the middle.
+                    # Restore original STORY order; exact cuts are centered in
+                    # two seconds of silence inserted between separate clips.
                     rebuilt=[];local=[]
                     for i in range(hi-lo):
                         r,v=read_wav(card_paths[i])
@@ -526,18 +644,15 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
                         if i:local.append((len(rebuilt)+rate)/rate);rebuilt.extend([0]*(rate*2))
                         rebuilt.extend(v)
                     use_audio=folder/'repaired_master.wav';temp=folder/'repaired_master.tmp.wav';write_wav(temp,rate,rebuilt);temp.replace(use_audio);use_cuts=local
-                    (folder/'recovery_receipt.json').write_text(json.dumps({'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local},indent=2),encoding='utf-8')
-                except Exception as e:
-                    note=('CTC classified card(s) as possibly missing and isolated-card recovery did not complete (%s); '%type(e).__name__+
-                          'the original half is retained and split softly.')
-                    print('NOTE: '+note+' No narration is invented and no original audio is discarded.',flush=True)
-                    fit={'best_effort':True,'fallback_reason':note,'missing_indices':[],
-                         'present_indices':list(range(hi-lo))}
-                    use_audio=audio;use_cuts=_soft_cuts(rate,values,texts[lo:hi]);repair_rows=[]
-            else:use_cuts=fit['cuts_sec']
-        else:use_cuts=[v-offset for v in cuts[lo:hi-1]]
+                    _write_json_atomic(folder/'recovery_receipt.json',{'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local})
+                    sync_method='ctc_missing_recovered'
+            else:
+                use_cuts=fit['cuts_sec'];sync_method='ctc_boundaries'
+        else:
+            use_cuts=[v-offset for v in cuts[lo:hi-1]];sync_method='manual_cuts'
         soft=bool(fit and fit.get('best_effort'))
-        result=split_audio(use_audio,texts[lo:hi],folder/'cards',use_cuts,soft_fallback=soft,fallback_note=fit.get('fallback_reason','') if fit else '')
+        preserve=sync_method in ('ctc_boundaries','ctc_missing_recovered','isolated_per_card','manual_cuts')
+        result=split_audio(use_audio,texts[lo:hi],folder/'cards',use_cuts,soft_fallback=soft,fallback_note=fit.get('fallback_reason','') if fit else '',preserve_samples=preserve)
         if asr_model:
             # Independent optional validator. It may annotate the reel, never gate it.
             try:
@@ -553,7 +668,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
             except Exception as e:
                 print('NOTE: optional Whisper check unavailable (%s); retained approved audio is unchanged.'%type(e).__name__,flush=True)
         rate,values=read_wav(use_audio);seconds=len(values)/rate
-        diagnostics.append({'half':number,'original_master_sha256':digest(audio),'used_master_sha256':digest(use_audio),'seconds':seconds,'ctc':fit,'recovered':repair_rows,'manual_override':cuts is not None,'word_identity_certified':False})
+        diagnostics.append({'half':number,'card_count':hi-lo,'sync_method':sync_method,'original_master_sha256':digest(audio),'used_master_sha256':digest(use_audio),'seconds':seconds,'ctc':fit,'recovered':repair_rows,'manual_override':cuts is not None,'word_identity_certified':False})
         all_cuts.extend(offset+c for c in result['cuts_sec']);pieces.append((rate,values));offset+=seconds
         if number<len(ranges):all_cuts.append(offset+1);offset+=2
     rate=pieces[0][0];joined=[]
@@ -568,7 +683,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         old=work/('retained_joined_'+digest(master)[:16]+'.wav')
         if not old.exists():shutil.copy2(master,old)
     tmp.replace(master)
-    (work/'two_half_join.json').write_text(json.dumps({'design':'ctc_missing_v1','half_ranges':ranges,'cuts_sec':all_cuts,'diagnostics':diagnostics,'master_sha256':digest(master),'internal_word_completeness':'CTC provisional, listening review required'},ensure_ascii=False,indent=2),encoding='utf-8')
+    _write_json_atomic(work/'two_half_join.json',{'design':'line_sync_v2','half_ranges':ranges,'cuts_sec':all_cuts,'diagnostics':diagnostics,'master_sha256':digest(master),'internal_word_completeness':'CTC provisional; line-to-audio mapping is recorded separately from word identity.'})
     return all_cuts
 
 def main():
@@ -612,9 +727,14 @@ def main():
         except Exception:
             valid=False
         if valid:
-            print('Reviewed voices already installed for this exact script/tones. ZERO Gemini calls. Ready to render.')
-            return
-        print('NOTE: reviewed voice receipt or installed-file check is uncertain; rebuilding from retained audio when available.',flush=True)
+            reusable,reason=cached_voice_sync_status(work,len(texts))
+            if reusable:
+                print('Reviewed voices already installed for this exact script/tones with a verified line-to-audio plan. ZERO Gemini calls. Ready to render.')
+                return
+            valid=False
+            print('NOTE: saved voice receipt is not reused (%s); rebuilding card timing from retained source audio when available.'%reason,flush=True)
+        else:
+            print('NOTE: reviewed voice receipt or installed-file check is uncertain; rebuilding from retained audio when available.',flush=True)
     if args.audio:
         src=Path(args.audio).resolve();read_wav(src)
         if master.exists() and master.read_bytes()!=src.read_bytes():raise Stop('Different offline master already cached. Use a separate test directory; refusing overwrite.')
@@ -633,11 +753,17 @@ def main():
         cuts=fit['cuts_sec']
     # Explicit fixture analysis stays strict; the approved build path always
     # converts uncertain cut checks to a note and sample-preserving fallback.
-    report=split_audio(master,texts,dest,cuts,args.asr_model,auto_soft=not bool(args.audio))
+    preserve=False
+    if not args.audio and cuts is not None:
+        preserve,_=cached_voice_sync_status(work,len(texts))
+    report=split_audio(master,texts,dest,cuts,args.asr_model,auto_soft=not bool(args.audio),preserve_samples=preserve,
+                       fallback_note='Cuts map to line-specific audio clips or validated CTC boundaries; preserving their samples.' if preserve else '')
     print('MASTER KEPT:',master);print('STAGED CARDS:',dest)
     for row in report['cards']:print('card %02d: %.2fs | text/repeats NOT VERIFIED'%(row['card'],row['duration_sec']))
     if report.get('soft_fallback'):
         print('NOTE: soft audio split used. Card word identity, omissions, order and exact boundaries are unverified; source samples were retained.')
+    elif report.get('sample_preserving'):
+        print('NOTE: line-to-audio cuts were preserved from the durable sync plan. Spoken word identity remains unverified.')
     else:
         print('Acoustic split checks passed. Completeness thresholds are provisional; listen to every staged card for words/repeats before installation. No caption word alignment produced.')
     if args.install_reviewed:

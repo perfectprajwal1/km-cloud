@@ -81,14 +81,24 @@ class VoiceFallbackTests(unittest.TestCase):
             self.assertEqual(result['partial_missing_indices'], [1])
             self.assertIn('unverified', result['gates'].lower())
 
-    def test_cached_halves_survive_alignment_stop_and_no_voice_request_is_made(self):
+    def test_uncertain_halves_use_durable_one_line_audio_instead_of_estimated_cuts(self):
         import scripts.gemini_voice as voice
         km_ctc = importlib.import_module('km_ctc')
         class FakeEngine:
             def __init__(self, _model): pass
             def check_texts(self, _texts): return True
             def load(self): return True
-            def analyze(self, *_args): raise km_ctc.AlignmentStop('mock partial overlap')
+            def analyze(self, audio, half_texts, _cache):
+                source_hash = hashlib.sha256(pathlib.Path(audio).read_bytes()).hexdigest()
+                if pathlib.Path(audio).parent.name == 'half1':
+                    # Match the vhmkp failure shape: all indices were reported
+                    # present even though the result contains a partial match.
+                    return {'present_indices':[0,1],'missing_indices':[],
+                            'partial_missing_indices':[1],'cuts_sec':[1.5],
+                            'best_effort':True,'master_sha256':source_hash}
+                return {'present_indices':[0,1],'missing_indices':[],
+                        'partial_missing_indices':[],'cuts_sec':[4.0],
+                        'best_effort':False,'master_sha256':source_hash}
 
         with tempfile.TemporaryDirectory() as tmp:
             root = pathlib.Path(tmp); work = root / 'one_call_voice' / 'fingerprint'
@@ -100,17 +110,34 @@ class VoiceFallbackTests(unittest.TestCase):
                 write_wav(folder / 'master.wav')
                 (folder / 'response_metadata.json').write_text(json.dumps({'finish_reasons': ['STOP']}), encoding='utf-8')
             master = work / 'joined.wav'
-            with mock.patch.object(km_ctc, 'Engine', FakeEngine), mock.patch.object(voice, 'generate', side_effect=lambda *a, **k: calls.append(a)):
+            def fake_generate(_story, card_texts, target, *_args, **_kwargs):
+                calls.extend(card_texts)
+                target = pathlib.Path(target); target.parent.mkdir(parents=True, exist_ok=True)
+                value = (texts.index(card_texts[0]) + 1) * 3000
+                samples = array.array('h', [value] * 8000)
+                with wave.open(str(target), 'wb') as out:
+                    out.setnchannels(1); out.setsampwidth(2); out.setframerate(8000); out.writeframes(samples.tobytes())
+            with mock.patch.object(km_ctc, 'Engine', FakeEngine), mock.patch.object(voice, 'generate', side_effect=fake_generate):
                 voice.build_two_halves(story, texts, master, work, root, recover_missing=True)
-            self.assertEqual(calls, [])
+            self.assertEqual(calls, texts[:2])
             self.assertTrue(master.is_file())
             for half in (1, 2):
                 folder = work / ('half%d' % half)
                 check = json.loads((folder / 'cards' / 'split_checks.json').read_text(encoding='utf-8'))
-                self.assertTrue(check['soft_fallback'])
+                self.assertEqual(check['soft_fallback'], half==1)
                 self.assertEqual(len(check['cards']), 2)
                 self.assertTrue((folder / 'cards' / 'c01.wav').is_file())
                 self.assertTrue((folder / 'cards' / 'c02.wav').is_file())
+                if half == 1:
+                    for local in (1, 2):
+                        with wave.open(str(folder / 'cards' / ('c%02d.wav' % local)), 'rb') as clip:
+                            values = array.array('h', clip.readframes(clip.getnframes()))
+                        expected = local
+                        self.assertEqual(max(values), expected * 3000)
+            joined = json.loads((work / 'two_half_join.json').read_text(encoding='utf-8'))
+            self.assertEqual([row['sync_method'] for row in joined['diagnostics']], ['isolated_per_card', 'ctc_boundaries'])
+            self.assertTrue(voice.cached_voice_sync_status(work, len(texts))[0])
+        print('CHECK PASS: uncertain combined audio is replaced by line-isolated clips with exact inter-card cuts')
 
 
 class DriveUploadTests(unittest.TestCase):

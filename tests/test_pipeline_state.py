@@ -217,6 +217,16 @@ class LauncherTests(unittest.TestCase):
             work=m.ROOT/'one_call_voice'/fp;(work/'cards').mkdir(parents=True)
             audio=b'offline cached bytes';(work/'cards/c01.wav').write_bytes(audio)
             (work/'installed_reviewed.json').write_text(json.dumps([{'name':'c01.wav','sha256':hashlib.sha256(audio).hexdigest()}]))
+            # A hash-matching old receipt is not enough: without the durable
+            # line-to-audio plan, restore must let the current sync path rebuild it.
+            m.restore_cached_voice('NEW');self.assertFalse((m.ROOT/'public/voice_in/c01.wav').exists())
+            source=b'cached one-line master';half=work/'half1';half.mkdir()
+            (half/'master.wav').write_bytes(source);source_hash=hashlib.sha256(source).hexdigest()
+            (work/'two_half_join.json').write_text(json.dumps({'diagnostics':[{
+                'half':1,'card_count':1,'sync_method':'ctc_boundaries','manual_override':False,
+                'original_master_sha256':source_hash,
+                'ctc':{'best_effort':False,'partial_missing_indices':[],'missing_indices':[],
+                       'present_indices':[0],'cuts_sec':[],'master_sha256':source_hash}}]}))
             m.restore_cached_voice('NEW');self.assertEqual((m.ROOT/'public/voice_in/c01.wav').read_bytes(),audio)
             (work/'cards/c01.wav').write_bytes(b'corrupt')
             # Receipt uncertainty is a note; gemini_voice can resplit the

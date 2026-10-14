@@ -52,7 +52,7 @@ def ensure_layout(rid,always=False):
 
 
 def restore_cached_voice(rid):
-    from scripts.gemini_voice import MODEL,VOICE
+    from scripts.gemini_voice import MODEL,VOICE,cached_voice_sync_status
     import hashlib
     story=valid_story(rid)
     texts=[str(c.get('vo','')).strip() for c in story['cards']]
@@ -61,6 +61,10 @@ def restore_cached_voice(rid):
     work=ROOT/'one_call_voice'/fingerprint
     receipt=work/'installed_reviewed.json'
     if not receipt.exists():return
+    reusable,reason=cached_voice_sync_status(work,len(texts))
+    if not reusable:
+        print('NOTE: cached voice clips not restored (%s); the normal voice path will rebuild line-to-card mapping.'%reason,flush=True)
+        return
     try:
         records=json.loads(receipt.read_text(encoding='utf-8'))
         if not isinstance(records,list) or len(records)!=len(texts):raise ValueError('saved voice receipt card count mismatch')

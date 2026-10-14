@@ -116,7 +116,7 @@ class SoftSplitTests(unittest.TestCase):
                 os.chdir(old_cwd); voice.__file__ = old_file
         print('CHECK PASS: production split call uses soft fallback; explicit offline audio remains strict')
 
-    def test_ctc_runtime_error_uses_best_effort_without_another_voice_request(self):
+    def test_ctc_runtime_error_keeps_single_line_half_without_another_voice_request(self):
         class FakeEngine:
             def __init__(self, _path): pass
             def check_texts(self, _texts): return True
@@ -140,9 +140,9 @@ class SoftSplitTests(unittest.TestCase):
             with mock.patch.object(km_ctc,'Engine',FakeEngine), mock.patch.object(voice,'generate',side_effect=lambda *a,**k:calls.append(a)):
                 cuts=voice.build_two_halves(story,texts,master,work,root)
             self.assertEqual(cuts,[]); self.assertEqual(calls,[]); self.assertTrue(master.is_file())
-        print('CHECK PASS: unexpected CTC errors soften to audio split without a voice request')
+        print('CHECK PASS: a one-line half stays line-mapped without another voice request')
 
-    def test_missing_card_recovery_failure_keeps_original_half_and_continues(self):
+    def test_missing_card_provider_failure_preserves_original_and_propagates(self):
         class FakeEngine:
             def __init__(self, _path): self.calls=0
             def check_texts(self, _texts): return True
@@ -164,19 +164,16 @@ class SoftSplitTests(unittest.TestCase):
                 samples=[int(6000*math.sin(2*math.pi*170*i/8000)) for i in range(16000)]
                 write_wav(folder/'master.wav',samples)
                 (folder/'response_metadata.json').write_text('{"finish_reasons":["STOP"]}',encoding='utf-8')
-            master=work/'joined.wav'; calls=[]
+            master=work/'joined.wav'
             with mock.patch.object(km_ctc,'Engine',FakeEngine), \
                  mock.patch.object(voice,'generate',side_effect=voice.Stop('synthetic verified no-audio response')), \
-                 contextlib.redirect_stdout(io.StringIO()) as output:
-                result=voice.build_two_halves(story,texts,master,work,root,recover_missing=True)
-            self.assertEqual(len(result),3)
-            self.assertTrue(master.is_file())
-            for half in (1,2):
-                cards=work/('half%d'%half)/'cards'
-                self.assertTrue((cards/'c01.wav').is_file())
-                self.assertTrue((cards/'c02.wav').is_file())
-            self.assertIn('isolated-card recovery did not complete',output.getvalue())
-        print('CHECK PASS: failed isolated-card recovery notes and keeps the original approved half')
+                 contextlib.redirect_stdout(io.StringIO()):
+                with self.assertRaisesRegex(voice.Stop,'synthetic verified no-audio response'):
+                    voice.build_two_halves(story,texts,master,work,root,recover_missing=True)
+            self.assertFalse(master.exists())
+            self.assertTrue((work/'half1'/'master.wav').is_file())
+            self.assertTrue((work/'half2'/'master.wav').is_file())
+        print('CHECK PASS: provider failure remains visible while both original cached halves are preserved')
 
     def test_valid_sample_rate_mismatch_can_be_resampled(self):
         source=array.array('h',[0,1000,2000,1000,0])
