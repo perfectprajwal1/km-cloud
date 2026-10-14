@@ -40,21 +40,62 @@
         "strip:stat",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "ed2a6d17ecf8ce9e6b3f74e3ee83888ea013ab63bbf058d334816566802a5d45",
+      "eligible": [
+        "main:bignum",
+        "main:engage",
+        "main:hook",
+        "main:place",
+        "main:points_plain",
+        "main:scale",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place",
+        "strip:stat",
+        "strip:units"
+      ],
+      "id": "RV_20261014_vhmkp",
+      "missed": {
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "9e7093d5d9bb4ba236b3c90cf1ddc87241507dea11da7c0f674c63734a95deb6",
+      "rendered_at": 1792004638.751797,
+      "selected": [
+        "main:hook",
+        "strip:place",
+        "main:scale",
+        "strip:stat",
+        "main:bignum",
+        "strip:units",
+        "main:scale",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:place",
+        "strip:place",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
-    "RV_20261014_j4z86h:13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3"
+    "RV_20261014_j4z86h:13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3",
+    "RV_20261014_vhmkp:ed2a6d17ecf8ce9e6b3f74e3ee83888ea013ab63bbf058d334816566802a5d45": "9e7093d5d9bb4ba236b3c90cf1ddc87241507dea11da7c0f674c63734a95deb6"
   },
   "used_total": {
-    "main:bignum": 2,
-    "main:engage": 1,
-    "main:hook": 1,
-    "main:place": 1,
-    "main:points_plain": 2,
-    "strip:evidence": 1,
-    "strip:phrase": 1,
-    "strip:stat": 2,
-    "strip:units": 2
+    "main:bignum": 3,
+    "main:engage": 2,
+    "main:hook": 2,
+    "main:place": 2,
+    "main:points_plain": 3,
+    "main:scale": 2,
+    "strip:evidence": 2,
+    "strip:phrase": 2,
+    "strip:place": 2,
+    "strip:stat": 3,
+    "strip:units": 3
   },
   "version": "1.0"
 }
