@@ -11,12 +11,19 @@ Offline fixture (never reads key):
 cuts.json is a JSON list of N-1 boundary seconds, e.g. [9.6, 19.2, ...].
 """
 import difflib,unicodedata,os
-import argparse,array,base64,hashlib,json,math,re,shutil,sys,urllib.error,urllib.request,wave
+import argparse,array,base64,hashlib,json,math,re,shutil,sys,time,urllib.error,urllib.request,wave
 from pathlib import Path
 MODEL='gemini-2.5-flash-preview-tts'
 VOICE='Sadachbia'
 TONE_MAP={'curious': 'Say this in a curious, intrigued tone, like a Nepali news presenter asking a question:', 'excited': 'Say this in an excited, energetic tone, like a Nepali news presenter sharing surprising news:', 'serious': 'Say this in a serious, steady tone, like a Nepali news presenter reporting important facts:', 'neutral': 'Say this in a calm, clear, neutral tone, like a Nepali news presenter:', 'warm': 'Say this in a warm, reassuring tone, like a Nepali news presenter giving helpful advice:', 'thinking': 'Say this in a thoughtful, measured tone, like a Nepali news presenter reflecting:', 'confused': 'Say this in a questioning, puzzled tone, like a Nepali news presenter:', 'sad': 'Say this in a subdued, somber tone, like a Nepali news presenter:', 'shocked': 'Say this in a shocked, startled tone, like a Nepali news presenter reporting a surprising event:', 'proud': 'Say this in a proud, uplifting tone, like a Nepali news presenter sharing a achievement:', 'urgent': 'Say this in an urgent, alert tone, like a Nepali news presenter:', 'neutral_talking': 'Say this in a relaxed, conversational, natural tone, like a friendly Nepali news presenter explaining something simply to a viewer:'}
 class Stop(RuntimeError):pass
+
+def _write_json_atomic(path,value):
+    path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
+    temp=path.with_name(path.name+'.'+str(os.getpid())+'.tmp')
+    with temp.open('w',encoding='utf-8') as f:
+        json.dump(value,f,ensure_ascii=False,indent=2);f.flush();os.fsync(f.fileno())
+    temp.replace(path)
 
 def read_wav(path):
     with wave.open(str(path),'rb') as w:
@@ -138,14 +145,96 @@ def definite_key_rejection(code,body):
     if code in (400,403) and ('api key not valid' in message or 'api key expired' in message or 'api key was reported as leaked' in message):return 'key invalid/blocked rejection'
     return None
 
-def generate(story,texts,master,work,key_file,backup_key=None):
+def _verified_no_audio_state(attempt,work,master):
+    """Recognize only a complete, persisted response known to contain no audio.
+
+    The legacy branch is deliberately narrow for the current marker format:
+    one parsed response, finishReason OTHER, and no persisted payload/output.
+    New markers carry the explicit audio_part_count/audio_payload_received facts.
+    """
+    attempt=Path(attempt);work=Path(work);master=Path(master);metadata_path=work/'response_metadata.json'
+    if (not attempt.is_file() or attempt.is_symlink() or not metadata_path.is_file() or
+            metadata_path.is_symlink() or (work/'response_audio.bin').exists() or
+            master.exists() or master.with_suffix('.tmp.wav').exists()):
+        return None
+    try:
+        state=json.loads(attempt.read_text(encoding='utf-8'))
+        metadata=json.loads(metadata_path.read_text(encoding='utf-8'))
+        if not isinstance(state,dict) or not isinstance(metadata,dict):return None
+        if state.get('model')!=MODEL or state.get('voice')!=VOICE:return None
+        attempts=state.get('attempts')
+        if not isinstance(attempts,list) or not attempts:return None
+        last=attempts[-1]
+        if not isinstance(last,dict) or state.get('automatic_retry') is not False:return None
+        marker_status=state.get('status');last_status=last.get('status')
+        if 'audio_part_count' in metadata or 'audio_payload_received' in metadata:
+            count=metadata.get('audio_part_count')
+            if (isinstance(count,bool) or count!=0 or metadata.get('audio_payload_received') is not False or
+                    last_status not in ('response_received','response_received_no_audio') or
+                    marker_status not in ('attempted_once','response_received','response_received_no_audio')):
+                return None
+            return state
+        # Compatibility for markers created before audio-part metadata existed.
+        if (marker_status=='attempted_once' and last_status=='response_received' and len(attempts)==1 and
+                metadata.get('finish_reasons')==['OTHER']):
+            return state
+    except Exception:
+        return None
+    return None
+
+def _prepare_verified_no_audio_retry(attempt,work,master):
+    state=_verified_no_audio_state(attempt,work,master)
+    if state is None:
+        raise Stop('Existing request marker is not a verified no-audio response. Unknown outcomes and responses with any audio payload stay blocked; do not delete the marker.')
+    metadata_path=Path(work)/'response_metadata.json'
+    try:
+        retries=state.get('manual_no_audio_retries',0)
+        if isinstance(retries,bool) or not isinstance(retries,int) or retries<0:
+            raise ValueError('invalid manual retry count')
+        history_root=Path(work)/'no_audio_attempt_history'
+        if history_root.is_symlink():raise ValueError('history path is a symlink')
+        history_root.mkdir(exist_ok=True)
+        history=history_root/('recovery-%04d-%s'%(retries+1,time.time_ns()))
+        history.mkdir()
+        shutil.copy2(attempt,history/'request_attempt.json')
+        shutil.copy2(metadata_path,history/'response_metadata.json')
+        armed={'model':state.get('model',MODEL),'voice':state.get('voice',VOICE),
+               'status':'manual_no_audio_retry_armed','automatic_retry':False,
+               'manual_no_audio_retries':retries+1,
+               'last_manual_recovery':{'type':'verified_no_audio','history':history.name},
+               'attempts':[]}
+        _write_json_atomic(attempt,armed)
+        # Prevent stale metadata from proving the outcome of this new request
+        # if execution stops before the response is recorded.
+        metadata_path.unlink()
+        return armed
+    except Stop:
+        raise
+    except Exception as e:
+        raise Stop('Could not safely archive the verified no-audio response; no retry was sent (%s).'%type(e).__name__) from None
+
+def generate(story,texts,master,work,key_file,backup_key=None,retry_verified_no_audio=False):
     # Exact same numeric facts, spoken words before any key/request.
     from km_ctc import spoken_form,AlignmentStop
     try:texts=[spoken_form(t)[0] for t in texts]
     except AlignmentStop as e:raise Stop(str(e)) from None
-    # Durable attempt marker BEFORE key/network. A timeout may consume quota: never retry automatically.
+    # Durable attempt marker BEFORE key/network. Unknown outcomes never retry.
     attempt=work/'request_attempt.json'
-    if attempt.exists():raise Stop('An earlier request marker blocks this audio. Do not delete it manually. Use the V5 installer --unblock-rejected STORY_ID only for recorded definite rejections; unknown outcomes stay blocked.')
+    candidates=list(dict.fromkeys((key_file,backup_key or key_file.with_name('gemini_key2.txt'))))
+    preloaded_keys={}
+    if attempt.exists():
+        if not retry_verified_no_audio:
+            if _verified_no_audio_state(attempt,work,master) is not None:
+                raise Stop('Gemini returned a response with no audio and no output bytes were saved. Run py resume_failed.py <REVIEW_ID> for one explicit recovery request; unknown outcomes remain blocked.')
+            raise Stop('An earlier request marker blocks this audio. Unknown outcomes and responses with audio stay blocked; do not delete the marker manually.')
+        if _verified_no_audio_state(attempt,work,master) is None:
+            raise Stop('Existing request marker is not a verified no-audio response. Unknown outcomes and responses with any audio payload stay blocked; do not delete the marker.')
+        if not key_file.is_file():raise Stop('Key file 1 missing. No request sent; verified no-audio marker retained.')
+        preloaded_keys[key_file]=key_file.read_text(encoding='utf-8').strip()
+        if not preloaded_keys[key_file]:raise Stop('Key file 1 empty. No request sent; verified no-audio marker retained.')
+        state=_prepare_verified_no_audio_retry(attempt,work,master)
+    else:
+        state={'model':MODEL,'voice':VOICE,'status':'attempted_once','automatic_retry':False,'manual_no_audio_retries':0,'attempts':[]}
 
     tone_tags=[str(c.get('voice_tone','neutral')).strip() for c in story['cards']]
     if any(t not in TONE_MAP for t in tone_tags):raise Stop('Unknown voice_tone tag; refusing to guess before quota use.')
@@ -159,18 +248,18 @@ def generate(story,texts,master,work,key_file,backup_key=None):
     payload={'contents':[{'parts':[{'text':prompt}]}],'generationConfig':{'responseModalities':['AUDIO'],'speechConfig':{'voiceConfig':{'prebuiltVoiceConfig':{'voiceName':VOICE}}}}}
     # At most one attempt per key. Only a definite HTTP auth/quota/rate
     # rejection allows fallback; timeout/unknown outcome never switches keys.
-    state={'model':MODEL,'voice':VOICE,'status':'attempted_once','automatic_retry':False,'attempts':[]}
     answer=None
-    candidates=list(dict.fromkeys((key_file,backup_key or key_file.with_name('gemini_key2.txt'))))
     for index,candidate in enumerate(candidates,1):
         slot=2 if candidate.name=='gemini_key2.txt' else 1
         print('Voice request using key file slot %s (%s).'%(slot,candidate.name),flush=True)
         if not candidate.is_file():
             raise Stop('Key file %s missing. No request sent on this key; existing attempt marker retained if a request already happened.'%index)
-        key=candidate.read_text(encoding='utf-8').strip()
+        key=preloaded_keys.pop(candidate,None)
+        if key is None:key=candidate.read_text(encoding='utf-8').strip()
         if not key:raise Stop('Key file %s empty; nothing sent on this key.'%index)
         state['attempts'].append({'key_slot':slot,'key_file':candidate.name,'status':'attempted'})
-        attempt.write_text(json.dumps(state),encoding='utf-8')
+        state['status']='attempted_once'
+        _write_json_atomic(attempt,state)
         req=urllib.request.Request('https://generativelanguage.googleapis.com/v1beta/models/'+MODEL+':generateContent',data=json.dumps(payload,ensure_ascii=False).encode(),headers={'Content-Type':'application/json','x-goog-api-key':key},method='POST')
         try:
             with urllib.request.urlopen(req,timeout=300) as r:answer=json.loads(r.read().decode())
@@ -179,7 +268,7 @@ def generate(story,texts,master,work,key_file,backup_key=None):
             except Exception:body=''
             reason=definite_key_rejection(e.code,body)
             state['attempts'][-1].update(status='http_rejected' if reason else 'http_failure_no_safe_failover',http_status=e.code,failover_reason=reason)
-            attempt.write_text(json.dumps(state),encoding='utf-8')
+            _write_json_atomic(attempt,state)
             if reason and index<len(candidates):
                 print('Key slot %s: %s (HTTP %s). Switching once to the other key file; no retry loop.'%(slot,reason,e.code),flush=True)
                 continue
@@ -191,17 +280,38 @@ def generate(story,texts,master,work,key_file,backup_key=None):
             raise Stop('Gemini HTTP %s on key slot %s. Outcome not allowlisted; marker kept. No fallback or retry; raw error hidden.'%(e.code,slot)) from None
         except Exception:
             state['attempts'][-1]['status']='unknown_outcome'
-            attempt.write_text(json.dumps(state),encoding='utf-8')
+            state['status']='unknown_outcome'
+            _write_json_atomic(attempt,state)
             raise Stop('Request failed/timeout on key slot %s. Quota outcome unknown; no fallback or retry. Attempt marker kept.'%slot) from None
         finally:key=None
         print('Voice response received using key slot %s (%s).'%(slot,candidate.name),flush=True)
         state['attempts'][-1]['status']='response_received'
-        attempt.write_text(json.dumps(state),encoding='utf-8')
+        state['status']='response_received'
+        _write_json_atomic(attempt,state)
         break
-    (work/'response_metadata.json').write_text(json.dumps({'finish_reasons':[c.get('finishReason') for c in answer.get('candidates',[])],'usage':answer.get('usageMetadata',{}),'response_model':answer.get('modelVersion')},indent=2),encoding='utf-8')
-    parts=answer.get('candidates',[{}])[0].get('content',{}).get('parts',[])
-    audio=[p['inlineData'] for p in parts if p.get('inlineData',{}).get('data')]
-    if not audio:raise Stop('Gemini returned no audio. No retry; attempt marker kept.')
+    candidates=answer.get('candidates',[]) if isinstance(answer,dict) else []
+    if not isinstance(candidates,list):candidates=[]
+    parts=[]
+    for candidate_data in candidates:
+        content=candidate_data.get('content',{}) if isinstance(candidate_data,dict) else {}
+        candidate_parts=content.get('parts',[]) if isinstance(content,dict) else []
+        if isinstance(candidate_parts,list):parts.extend(candidate_parts)
+    audio=[]
+    for part in parts:
+        inline=part.get('inlineData',{}) if isinstance(part,dict) else {}
+        if isinstance(inline,dict) and isinstance(inline.get('data'),str) and inline['data']:
+            audio.append(inline)
+    metadata={'finish_reasons':[c.get('finishReason') for c in candidates if isinstance(c,dict)],
+              'usage':answer.get('usageMetadata',{}) if isinstance(answer,dict) else {},
+              'response_model':answer.get('modelVersion') if isinstance(answer,dict) else None,
+              'audio_part_count':len(audio),'audio_payload_received':bool(audio)}
+    _write_json_atomic(work/'response_metadata.json',metadata)
+    if not audio:
+        state['attempts'][-1]['status']='response_received_no_audio'
+        state['attempts'][-1]['audio_part_count']=0
+        state['status']='response_received_no_audio'
+        _write_json_atomic(attempt,state)
+        raise Stop('Gemini returned no audio. No output bytes were saved. Run py resume_failed.py <REVIEW_ID> to retry this verified no-audio result; unknown outcomes remain blocked.')
     # Preserve decoded result even if unexpected format prevents splitting.
     raw=b''.join(base64.b64decode(p['data'],validate=True) for p in audio)
     (work/'response_audio.bin').write_bytes(raw)
@@ -214,9 +324,9 @@ def generate(story,texts,master,work,key_file,backup_key=None):
     else:raise Stop('Unexpected audio format. Raw response retained for offline recovery; no retry.')
     read_wav(temp);temp.replace(master)
     state['status']='audio_saved'
-    attempt.write_text(json.dumps(state),encoding='utf-8')
+    _write_json_atomic(attempt,state)
 
-def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,recover_missing=False,offline=False):
+def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,recover_missing=False,offline=False,retry_verified_no_audio=False):
     """Retain original halves; missing cards have independent durable requests."""
     from km_ctc import Engine,AlignmentStop,digest
     engine=None
@@ -236,7 +346,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         backup=project/('gemini_key2.txt' if number==1 else 'gemini_key.txt')
         if not audio.exists():
             if offline:raise Stop('Cached half %s missing. Review/offline mode makes ZERO requests.'%number)
-            generate({'cards':story['cards'][lo:hi]},texts[lo:hi],audio,folder,primary,backup)
+            generate({'cards':story['cards'][lo:hi]},texts[lo:hi],audio,folder,primary,backup,retry_verified_no_audio)
         metadata_file=folder/'response_metadata.json'
         if not metadata_file.is_file():raise Stop('Half %s metadata missing; cached audio retained.'%number)
         reasons=json.loads(metadata_file.read_text(encoding='utf-8')).get('finish_reasons',[])
@@ -271,7 +381,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
                         if offline or not recover_missing:
                             raise Stop('Card %s missing. Original halves retained. Run resume_failed.py for missing-card-only recovery; review/offline mode sends nothing.'%(global_idx+1))
                         print('Requesting ONLY missing card %s; original halves kept.'%(global_idx+1))
-                        generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup)
+                        generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup,retry_verified_no_audio)
                     mf=recovery/'response_metadata.json'
                     if not mf.is_file() or json.loads(mf.read_text(encoding='utf-8')).get('finish_reasons')!=['STOP']:
                         raise Stop('Recovered card %s finishReason not STOP. No retry.'%(global_idx+1))
@@ -322,7 +432,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
     return all_cuts
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('story');ap.add_argument('--audio',help='Offline master WAV; never reads key or calls Gemini');ap.add_argument('--cuts');ap.add_argument('--asr-model',help='Optional already-installed faster-whisper model directory, CPU offline only');ap.add_argument('--install-reviewed',action='store_true');ap.add_argument('--recover-missing',action='store_true',help='Recover only confidently absent cards, never unknown outcomes');args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('story');ap.add_argument('--audio',help='Offline master WAV; never reads key or calls Gemini');ap.add_argument('--cuts');ap.add_argument('--asr-model',help='Optional already-installed faster-whisper model directory, CPU offline only');ap.add_argument('--install-reviewed',action='store_true');ap.add_argument('--recover-missing',action='store_true',help='Recover only confidently absent cards, never unknown outcomes');ap.add_argument('--retry-verified-no-audio',action='store_true',help='Permit one explicit request for a prior response proven to contain no audio; unknown outcomes remain blocked');args=ap.parse_args()
     project=Path(__file__).resolve().parent.parent;story=json.loads(Path(args.story).read_text(encoding='utf-8'));texts=[str(c.get('vo','')).strip() for c in story.get('cards',[])]
     if not texts or any(not t for t in texts):raise Stop('Every card must have nonempty vo.')
     tags=[str(c.get('voice_tone','neutral')).strip() for c in story['cards']]
@@ -352,7 +462,7 @@ def main():
     if not args.audio and cuts is not None and master.exists():
         print('Reviewed manual cuts on retained joined master. ZERO requests; CTC semantic gates bypassed.')
     elif not args.audio:
-        cuts=build_two_halves(story,texts,master,work,project,args.asr_model,cuts,args.recover_missing,offline=args.install_reviewed)
+        cuts=build_two_halves(story,texts,master,work,project,args.asr_model,cuts,args.recover_missing,offline=args.install_reviewed,retry_verified_no_audio=args.retry_verified_no_audio)
     elif cuts is None:
         from km_ctc import Engine,AlignmentStop
         try:
