@@ -3,7 +3,7 @@
   "cuts_sec": [
     2.325,
     5.25,
-    6.345
+    7.35775
   ],
   "cards": [
     {
@@ -34,20 +34,20 @@
       "card": 3,
       "expected_text": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
       "master_start_sec": 5.25,
-      "master_end_sec": 6.345,
-      "duration_sec": 1.095,
+      "master_end_sec": 7.358,
+      "duration_sec": 2.108,
       "script_adjacent_repeats": [],
       "spoken_text_verified": false,
       "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
       "soft_fallback": true,
-      "boundary_in_silence": false
+      "boundary_in_silence": true
     },
     {
       "card": 4,
       "expected_text": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
-      "master_start_sec": 6.345,
+      "master_start_sec": 7.358,
       "master_end_sec": 7.611,
-      "duration_sec": 1.266,
+      "duration_sec": 0.253,
       "script_adjacent_repeats": [],
       "spoken_text_verified": false,
       "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",

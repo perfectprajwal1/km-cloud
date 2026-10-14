@@ -1,0 +1,100 @@
+{
+  "master_sha256": "67f6568184313c5e8a6ed040d34f15ff95c5ed79ae8b0f9921db5d661c64651e",
+  "cuts_sec": [
+    5.25,
+    8.44,
+    19.48,
+    23.88,
+    28.51,
+    33.3
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+      "master_start_sec": 0.0,
+      "master_end_sec": 5.25,
+      "duration_sec": 5.25,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 2,
+      "expected_text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+      "master_start_sec": 5.25,
+      "master_end_sec": 8.44,
+      "duration_sec": 3.19,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 3,
+      "expected_text": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+      "master_start_sec": 8.44,
+      "master_end_sec": 19.48,
+      "duration_sec": 11.04,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 4,
+      "expected_text": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+      "master_start_sec": 19.48,
+      "master_end_sec": 23.88,
+      "duration_sec": 4.4,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 5,
+      "expected_text": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+      "master_start_sec": 23.88,
+      "master_end_sec": 28.51,
+      "duration_sec": 4.63,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 6,
+      "expected_text": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+      "master_start_sec": 28.51,
+      "master_end_sec": 33.3,
+      "duration_sec": 4.79,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 7,
+      "expected_text": "महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 33.3,
+      "master_end_sec": 37.822,
+      "duration_sec": 4.522,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    }
+  ],
+  "soft_fallback": true,
+  "fallback_note": "Strict split/alignment check was not conclusive (Card 4 is empty/too short; check cuts.); all source samples retained in a soft split.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. Strict split/alignment check was not conclusive (Card 4 is empty/too short; check cuts.); all source samples retained in a soft split."
+}
