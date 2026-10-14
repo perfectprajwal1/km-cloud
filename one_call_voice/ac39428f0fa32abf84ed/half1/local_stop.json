@@ -1,0 +1,6 @@
+{
+  "stage": "cached_half_alignment",
+  "half": 1,
+  "reason": "Possible partial missing card 2: words may overlap existing audio. Stop, review; no recovery request.",
+  "originals_retained": true
+}
