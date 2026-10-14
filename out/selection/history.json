@@ -1,0 +1,60 @@
+{
+  "reels": [
+    {
+      "content_hash": "13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b",
+      "eligible": [
+        "main:bignum",
+        "main:engage",
+        "main:hook",
+        "main:place",
+        "main:points_plain",
+        "main:scale",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place",
+        "strip:stat",
+        "strip:units"
+      ],
+      "id": "RV_20261014_j4z86h",
+      "missed": {
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:place": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3",
+      "rendered_at": 1791985980.6834877,
+      "selected": [
+        "main:hook",
+        "strip:stat",
+        "main:points_plain",
+        "strip:evidence",
+        "main:bignum",
+        "strip:units",
+        "main:bignum",
+        "strip:units",
+        "main:points_plain",
+        "strip:phrase",
+        "main:place",
+        "strip:stat",
+        "main:engage"
+      ]
+    }
+  ],
+  "seen": {
+    "RV_20261014_j4z86h:13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3"
+  },
+  "used_total": {
+    "main:bignum": 2,
+    "main:engage": 1,
+    "main:hook": 1,
+    "main:place": 1,
+    "main:points_plain": 2,
+    "strip:evidence": 1,
+    "strip:phrase": 1,
+    "strip:stat": 2,
+    "strip:units": 2
+  },
+  "version": "1.0"
+}
