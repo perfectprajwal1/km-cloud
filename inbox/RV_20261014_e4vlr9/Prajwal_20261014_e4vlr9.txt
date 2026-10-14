@@ -1,0 +1,536 @@
+REVIEW ID: RV_20261014_e4vlr9
+TOPIC: खगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_06611a9e7c870ea2
+DATE: 2026-10-13T16:02:53.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: OnlineKhabar
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made
+ARTICLE GROUNDING: YES
+FACT CHECK: PASSED
+
+--- SCRIPT ---
+रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ? महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्। नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्। तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्। उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ। यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ। प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal parliament building Singha Durbar Kathmandu news headline",
+   "shot_description": "Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "खगेन्द्र सुनार मुछिएको अडियोमा सरकार किन मौन?",
+  "big_hook_text": "खगेन्द्र सुनार अडियो प्रकरण : सरकार किन मौन?",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्। सञ्चारमाध्यममा सार्वजनिक भएको उक्त अडियोपछि उनीमाथि गम्भीर छानबिनको माग भइरहेको छ । तर । एउटा महिलाको अस्मितासँग जोडिएको विषयमा बहालवाला सांसद मुछिँदा राज्यका अहिलेसम्म चुपचाप बसेका छन् ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "audio waveform sound analysis screen monitor microphone",
+   "shot_description": "Close-up of audio waveform on digital screen showing voice recording dispute",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अडियो विवादमा सांसद खगेन्द्र सुनार",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal Police headquarters gate Kathmandu officers on duty",
+   "shot_description": "Exterior of Nepal Police station premises in Kathmandu",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "प्रहरीमा हालसम्म कुनै उजुरी नआएको भनाइ",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Supreme Court of Nepal law books gavel legal documents Kathmandu",
+   "shot_description": "Law books and legal documents on desk representing criminal law inquiry",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "फौजदारी कसुरमा राज्यले छानबिन गर्नुपर्ने माग",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’, वरिष्ठ अधिवक्ता गान्धी पण्डितले भनेका छन् ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Rastriya Swatantra Party central office Kathmandu press meeting",
+   "shot_description": "Party meeting room setup and formal press conference microphones",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "रास्वपा अनुशासन आयोगद्वारा आन्तरिक छानबिन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ। पार्टीले सुनारलाई औपचारिक सार्वजनिक कार्यक्रममा सहभागी हुनसमेत रो क लगाएको छ।"
+ },
+ {
+  "line_id": 6,
+  "beat": "takeaway",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "digital forensic audio analysis laboratory audio wave verification",
+   "shot_description": "Computer screen analyzing voice frequencies and sound verification graphs",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अडियोको आवाज स्वतन्त्र रूपमा पुष्टि हुन बाँकी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।"
+ },
+ {
+  "line_id": 7,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "National Women Commission Nepal office board Kathmandu",
+   "shot_description": "National Women Commission office premises and official sign in Kathmandu",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "उजुरी आएपछि मात्र कानुनी कदम चाल्ने भनाइ",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने । घटनामा महिलाको सम्मान, सुरक्षा र सम्भावित दुर्व्यवहारको प्रश्न जोडिएपनि राष्ट्रिय महिला आयोगमा हालसम्म औपचारिक उजुरी नपरेको आयोगकी कार्यवाहक अध्यक्ष कृष्णकुमारी पौडेल खतिवडाले बताएकी छन्।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_06611a9e7c870ea2","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"medium","uncertainty_note":"सार्वजनिक अडियोको स्वतन्त्र पुष्टि र सरकारी निकायको औपचारिक छानबिन अझै सुरु भएको छैन।","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","article_quote":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।","asset_ref":"ST_06611a9e7c870ea2_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्","closing_line":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","comment_prompt":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","pinned_comment":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","lines":[{"line_id":1,"beat":"hook","narration_text":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Nepal parliament building Singha Durbar Kathmandu news headline","shot_description":"Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight","depiction_scope":"generic_illustration"},"caption_text":"खगेन्द्र सुनार मुछिएको अडियोमा सरकार किन मौन?","big_hook_text":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन मौन?","pip_mode":"off","source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्। सञ्चारमाध्यममा सार्वजनिक भएको उक्त अडियोपछि उनीमाथि गम्भीर छानबिनको माग भइरहेको छ । तर । एउटा महिलाको अस्मितासँग जोडिएको विषयमा बहालवाला सांसद मुछिँदा राज्यका अहिलेसम्म चुपचाप बसेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"audio waveform sound analysis screen monitor microphone","shot_description":"Close-up of audio waveform on digital screen showing voice recording dispute","depiction_scope":"generic_illustration"},"caption_text":"अडियो विवादमा सांसद खगेन्द्र सुनार","big_hook_text":"","pip_mode":"off","source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Nepal Police headquarters gate Kathmandu officers on duty","shot_description":"Exterior of Nepal Police station premises in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"प्रहरीमा हालसम्म कुनै उजुरी नआएको भनाइ","big_hook_text":"","pip_mode":"off","source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Supreme Court of Nepal law books gavel legal documents Kathmandu","shot_description":"Law books and legal documents on desk representing criminal law inquiry","depiction_scope":"generic_illustration"},"caption_text":"फौजदारी कसुरमा राज्यले छानबिन गर्नुपर्ने माग","big_hook_text":"","pip_mode":"off","source_evidence":"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’, वरिष्ठ अधिवक्ता गान्धी पण्डितले भनेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"detail","narration_text":"उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Rastriya Swatantra Party central office Kathmandu press meeting","shot_description":"Party meeting room setup and formal press conference microphones","depiction_scope":"generic_illustration"},"caption_text":"रास्वपा अनुशासन आयोगद्वारा आन्तरिक छानबिन","big_hook_text":"","pip_mode":"off","source_evidence":"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ। पार्टीले सुनारलाई औपचारिक सार्वजनिक कार्यक्रममा सहभागी हुनसमेत रो क लगाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"takeaway","narration_text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"digital forensic audio analysis laboratory audio wave verification","shot_description":"Computer screen analyzing voice frequencies and sound verification graphs","depiction_scope":"generic_illustration"},"caption_text":"अडियोको आवाज स्वतन्त्र रूपमा पुष्टि हुन बाँकी","big_hook_text":"","pip_mode":"off","source_evidence":"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":7,"beat":"closing","narration_text":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"National Women Commission Nepal office board Kathmandu","shot_description":"National Women Commission office premises and official sign in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"उजुरी आएपछि मात्र कानुनी कदम चाल्ने भनाइ","big_hook_text":"","pip_mode":"off","source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने । घटनामा महिलाको सम्मान, सुरक्षा र सम्भावित दुर्व्यवहारको प्रश्न जोडिएपनि राष्ट्रिय महिला आयोगमा हालसम्म औपचारिक उजुरी नपरेको आयोगकी कार्यवाहक अध्यक्ष कृष्णकुमारी पौडेल खतिवडाले बताएकी छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन चुपचाप? | OnlineKhabar","youtube_description":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको माग उठेको छ। प्रहरी र महिला आयोगले उजुरी नआएको बताए पनि कानुनविद्हरूले स्वतः छानबिन हुनुपर्ने माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","youtube_tags":["खगेन्द्र सुनार","रास्वपा","नेपाल प्रहरी","महिला आयोग","नेपाल राजनीति","अडियो विवाद","OnlineKhabar","काठमाडौँ","Khabar Minute"],"tiktok_caption":"खगेन्द्र सुनार मुछिएको अडियो प्रकरणमा सरकार किन मौन?","instagram_caption":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको विषयमा प्रश्न उठेको छ। प्रहरीले उजुरी नपरेको Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","facebook_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक भएपछि राज्यका निकाय किन मौन छन् भन्ने बहस सुरु भएको छ। प्रहरीले उजुरी नपरेको बताए पनि कानुनविद्हरूले फौजदारी कसुरमा स्वतः छानबिन हुनुपर्ने राय दिएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","threads_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्? कानुनविद्हरूले स्वतः छानबिनको माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","linkedin_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि कानुनी अनुसन्धानको दायराबारे बहस सुरु भएको छ। प्रहरीले उजुरी पर्खिरहँदा कानुनविद्हरूले स्वतः छानबिन आवश्यक रहेको बताएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","hashtags":["#KhagendraSunar","#RSP","#NepalNews","#KhabarMinute"],"source_credit":"Source: OnlineKhabar"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+Fact-check summary: All extracted claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?"); dropped line(s) 8; last line is now: "प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।".
+B-roll weak on line(s) 1(text_plate_only), 2(text_plate_only): pick a shot by hand or Regenerate.
+B-roll: only 0/7 lines show this story's own facts; line(s)  use general topic footage.
+Line 2: no different truthful card fits; previous card stays on screen.
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 4: no different truthful card fits; previous card stays on screen.
+Line 5: no different truthful card fits; previous card stays on screen.
+Line 6: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्
+
+--- PINNED COMMENT (Nepali question) ---
+उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?",
+  "voice": "curious",
+  "pose": "curious",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight",
+   "commons": null,
+   "map": null,
+   "motion_text": "सार्वजनिक हुँदा",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सार्वजनिक हुँदा",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L1 [full] TEXT PLATE via local_render: \"सार्वजनिक हुँदा\" | quality: text_plate_only"
+  }
+ },
+ {
+  "text": "महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Close-up of audio waveform on digital screen showing voice recording dispute",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L2 [full] TEXT PLATE via local_render: \"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि\" | quality: text_plate_only"
+  }
+ },
+ {
+  "text": "नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Exterior of Nepal Police station premises in Kathmandu",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L3 [full] QUOTE CARD via local_render: \"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Law books and legal documents on desk representing criminal law inquiry",
+   "commons": null,
+   "map": null,
+   "motion_text": "फौजदारी कसुर",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "फौजदारी कसुर",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L4 [full] QUOTE CARD via local_render: \"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Party meeting room setup and formal press conference microphones",
+   "commons": null,
+   "map": null,
+   "motion_text": "प्रमाण संकलन",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "प्रमाण संकलन",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L5 [full] QUOTE CARD via local_render: \"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन \" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "takeaway",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "Computer screen analyzing voice frequencies and sound verification graphs",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L6 [full] QUOTE CARD via local_render: \"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 7,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "National Women Commission office premises and official sign in Kathmandu",
+   "commons": null,
+   "map": null,
+   "motion_text": "कानुनी कदम",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "कानुनी कदम",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L7 [full] QUOTE CARD via local_render: \"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।\" | then text plate @local_render | quality: quote_card"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 0/7 content lines; article quote cards 5; topic stock only 0; needs a pick 2 | director groq (openai/gpt-oss-120b)
+L1 [full] TEXT PLATE via local_render: "सार्वजनिक हुँदा" | quality: text_plate_only
+L2 [full] TEXT PLATE via local_render: "महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि" | quality: text_plate_only
+L3 [full] QUOTE CARD via local_render: "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।" | then text plate @local_render | quality: quote_card
+L4 [full] QUOTE CARD via local_render: "‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल" | then text plate @local_render | quality: quote_card
+L5 [full] QUOTE CARD via local_render: "अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन " | then text plate @local_render | quality: quote_card
+L6 [full] QUOTE CARD via local_render: "यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स" | then text plate @local_render | quality: quote_card
+L7 [full] QUOTE CARD via local_render: "‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।" | then text plate @local_render | quality: quote_card
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "खगेन्द्र सुनार अडियो प्रकरण : सरकार किन चुपचाप? | OnlineKhabar",
+ "youtube_description": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको माग उठेको छ। प्रहरी र महिला आयोगले उजुरी नआएको बताए पनि कानुनविद्हरूले स्वतः छानबिन हुनुपर्ने माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made",
+ "youtube_tags": [
+  "खगेन्द्र सुनार",
+  "रास्वपा",
+  "नेपाल प्रहरी",
+  "महिला आयोग",
+  "नेपाल राजनीति",
+  "अडियो विवाद",
+  "OnlineKhabar",
+  "काठमाडौँ",
+  "Khabar Minute"
+ ],
+ "tiktok_caption": "खगेन्द्र सुनार मुछिएको अडियो प्रकरणमा सरकार किन मौन?\nSource: OnlineKhabar",
+ "instagram_caption": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको विषयमा प्रश्न उठेको छ। प्रहरीले उजुरी नपरेको Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made",
+ "facebook_post": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक भएपछि राज्यका निकाय किन मौन छन् भन्ने बहस सुरु भएको छ। प्रहरीले उजुरी नपरेको बताए पनि कानुनविद्हरूले फौजदारी कसुरमा स्वतः छानबिन हुनुपर्ने राय दिएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made",
+ "threads_post": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्? कानुनविद्हरूले स्वतः छानबिनको माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made",
+ "linkedin_post": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि कानुनी अनुसन्धानको दायराबारे बहस सुरु भएको छ। प्रहरीले उजुरी पर्खिरहँदा कानुनविद्हरूले स्वतः छानबिन आवश्यक रहेको बताएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made",
+ "hashtags": [
+  "#KhagendraSunar",
+  "#RSP",
+  "#NepalNews",
+  "#KhabarMinute"
+ ],
+ "source_credit": "Source: OnlineKhabar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261014_e4vlr9","regen_round":0,"fact_check_failure_count":0,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261014_e4vlr9","review_date":"20261014","title":"खगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?","chosen_topic":"खगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?","category":"news","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","story_id":"ST_06611a9e7c870ea2","risk_flag":"NORMAL","source_credit":"Source: OnlineKhabar","full_script":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ? महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्। नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्। तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्। उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ। यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ। प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","hook":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?","alternate_hook":"सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्","hook_type":"curiosity_gap","closing_line":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","pinned_comment":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","lines":[{"text":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?","voice":"curious","pose":"curious","broll":"","broll_kind":"text_plate"},{"text":"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"text_plate"},{"text":"नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"quote_card"},{"text":"तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"quote_card"},{"text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।","voice":"thinking","pose":"thinking","broll":"","broll_kind":"quote_card"},{"text":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"}],"word_count":100,"workbook":{"schema_version":"6.6.9","story_id":"ST_06611a9e7c870ea2","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"medium","uncertainty_note":"सार्वजनिक अडियोको स्वतन्त्र पुष्टि र सरकारी निकायको औपचारिक छानबिन अझै सुरु भएको छैन।","safe_to_publish":true,"hook_type":"curiosity_gap","hook_claim":"सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","article_quote":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।","asset_ref":"ST_06611a9e7c870ea2_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्","closing_line":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","comment_prompt":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","pinned_comment":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","lines":[{"line_id":1,"beat":"hook","narration_text":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?","voice":"curious","emotion":"curious","visual":{"type":"BROLL","search_query":"Nepal parliament building Singha Durbar Kathmandu news headline","shot_description":"Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight","depiction_scope":"generic_illustration"},"caption_text":"खगेन्द्र सुनार मुछिएको अडियोमा सरकार किन मौन?","big_hook_text":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन मौन?","pip_mode":"off","source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्। सञ्चारमाध्यममा सार्वजनिक भएको उक्त अडियोपछि उनीमाथि गम्भीर छानबिनको माग भइरहेको छ । तर । एउटा महिलाको अस्मितासँग जोडिएको विषयमा बहालवाला सांसद मुछिँदा राज्यका अहिलेसम्म चुपचाप बसेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"audio waveform sound analysis screen monitor microphone","shot_description":"Close-up of audio waveform on digital screen showing voice recording dispute","depiction_scope":"generic_illustration"},"caption_text":"अडियो विवादमा सांसद खगेन्द्र सुनार","big_hook_text":"","pip_mode":"off","source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Nepal Police headquarters gate Kathmandu officers on duty","shot_description":"Exterior of Nepal Police station premises in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"प्रहरीमा हालसम्म कुनै उजुरी नआएको भनाइ","big_hook_text":"","pip_mode":"off","source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"BROLL","search_query":"Supreme Court of Nepal law books gavel legal documents Kathmandu","shot_description":"Law books and legal documents on desk representing criminal law inquiry","depiction_scope":"generic_illustration"},"caption_text":"फौजदारी कसुरमा राज्यले छानबिन गर्नुपर्ने माग","big_hook_text":"","pip_mode":"off","source_evidence":"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’, वरिष्ठ अधिवक्ता गान्धी पण्डितले भनेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"detail","narration_text":"उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Rastriya Swatantra Party central office Kathmandu press meeting","shot_description":"Party meeting room setup and formal press conference microphones","depiction_scope":"generic_illustration"},"caption_text":"रास्वपा अनुशासन आयोगद्वारा आन्तरिक छानबिन","big_hook_text":"","pip_mode":"off","source_evidence":"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ। पार्टीले सुनारलाई औपचारिक सार्वजनिक कार्यक्रममा सहभागी हुनसमेत रो क लगाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"takeaway","narration_text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"digital forensic audio analysis laboratory audio wave verification","shot_description":"Computer screen analyzing voice frequencies and sound verification graphs","depiction_scope":"generic_illustration"},"caption_text":"अडियोको आवाज स्वतन्त्र रूपमा पुष्टि हुन बाँकी","big_hook_text":"","pip_mode":"off","source_evidence":"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":7,"beat":"closing","narration_text":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"National Women Commission Nepal office board Kathmandu","shot_description":"National Women Commission office premises and official sign in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"उजुरी आएपछि मात्र कानुनी कदम चाल्ने भनाइ","big_hook_text":"","pip_mode":"off","source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने । घटनामा महिलाको सम्मान, सुरक्षा र सम्भावित दुर्व्यवहारको प्रश्न जोडिएपनि राष्ट्रिय महिला आयोगमा हालसम्म औपचारिक उजुरी नपरेको आयोगकी कार्यवाहक अध्यक्ष कृष्णकुमारी पौडेल खतिवडाले बताएकी छन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन चुपचाप? | OnlineKhabar","youtube_description":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको माग उठेको छ। प्रहरी र महिला आयोगले उजुरी नआएको बताए पनि कानुनविद्हरूले स्वतः छानबिन हुनुपर्ने माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","youtube_tags":["खगेन्द्र सुनार","रास्वपा","नेपाल प्रहरी","महिला आयोग","नेपाल राजनीति","अडियो विवाद","OnlineKhabar","काठमाडौँ","Khabar Minute"],"tiktok_caption":"खगेन्द्र सुनार मुछिएको अडियो प्रकरणमा सरकार किन मौन?","instagram_caption":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको विषयमा प्रश्न उठेको छ। प्रहरीले उजुरी नपरेको Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","facebook_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक भएपछि राज्यका निकाय किन मौन छन् भन्ने बहस सुरु भएको छ। प्रहरीले उजुरी नपरेको बताए पनि कानुनविद्हरूले फौजदारी कसुरमा स्वतः छानबिन हुनुपर्ने राय दिएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","threads_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्? कानुनविद्हरूले स्वतः छानबिनको माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","linkedin_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि कानुनी अनुसन्धानको दायराबारे बहस सुरु भएको छ। प्रहरीले उजुरी पर्खिरहँदा कानुनविद्हरूले स्वतः छानबिन आवश्यक रहेको बताएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","hashtags":["#KhagendraSunar","#RSP","#NepalNews","#KhabarMinute"],"source_credit":"Source: OnlineKhabar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"Nepal parliament building Singha Durbar Kathmandu news headline","shot_description":"Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight","depiction_scope":"generic_illustration"},"caption_text":"खगेन्द्र सुनार मुछिएको अडियोमा सरकार किन मौन?","big_hook_text":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन मौन?","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्। सञ्चारमाध्यममा सार्वजनिक भएको उक्त अडियोपछि उनीमाथि गम्भीर छानबिनको माग भइरहेको छ । तर । एउटा महिलाको अस्मितासँग जोडिएको विषयमा बहालवाला सांसद मुछिँदा राज्यका अहिलेसम्म चुपचाप बसेका छन् ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"audio waveform sound analysis screen monitor microphone","shot_description":"Close-up of audio waveform on digital screen showing voice recording dispute","depiction_scope":"generic_illustration"},"caption_text":"अडियो विवादमा सांसद खगेन्द्र सुनार","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"Nepal Police headquarters gate Kathmandu officers on duty","shot_description":"Exterior of Nepal Police station premises in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"प्रहरीमा हालसम्म कुनै उजुरी नआएको भनाइ","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने ।"},{"line_id":4,"beat":"pivot","visual":{"type":"BROLL","search_query":"Supreme Court of Nepal law books gavel legal documents Kathmandu","shot_description":"Law books and legal documents on desk representing criminal law inquiry","depiction_scope":"generic_illustration"},"caption_text":"फौजदारी कसुरमा राज्यले छानबिन गर्नुपर्ने माग","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’, वरिष्ठ अधिवक्ता गान्धी पण्डितले भनेका छन् ।"},{"line_id":5,"beat":"detail","visual":{"type":"BROLL","search_query":"Rastriya Swatantra Party central office Kathmandu press meeting","shot_description":"Party meeting room setup and formal press conference microphones","depiction_scope":"generic_illustration"},"caption_text":"रास्वपा अनुशासन आयोगद्वारा आन्तरिक छानबिन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ। पार्टीले सुनारलाई औपचारिक सार्वजनिक कार्यक्रममा सहभागी हुनसमेत रो क लगाएको छ।"},{"line_id":6,"beat":"takeaway","visual":{"type":"BROLL","search_query":"digital forensic audio analysis laboratory audio wave verification","shot_description":"Computer screen analyzing voice frequencies and sound verification graphs","depiction_scope":"generic_illustration"},"caption_text":"अडियोको आवाज स्वतन्त्र रूपमा पुष्टि हुन बाँकी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।"},{"line_id":7,"beat":"closing","visual":{"type":"BROLL","search_query":"National Women Commission Nepal office board Kathmandu","shot_description":"National Women Commission office premises and official sign in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"उजुरी आएपछि मात्र कानुनी कदम चाल्ने भनाइ","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने । घटनामा महिलाको सम्मान, सुरक्षा र सम्भावित दुर्व्यवहारको प्रश्न जोडिएपनि राष्ट्रिय महिला आयोगमा हालसम्म औपचारिक उजुरी नपरेको आयोगकी कार्यवाहक अध्यक्ष कृष्णकुमारी पौडेल खतिवडाले बताएकी छन्।"}],"lines_legacy":[{"text":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?","voice":"curious","pose":"curious","broll":"","broll_kind":"text_plate"},{"text":"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"text_plate"},{"text":"नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"quote_card"},{"text":"तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।","voice":"serious","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।","voice":"neutral_talking","pose":"neutral_talking","broll":"","broll_kind":"quote_card"},{"text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।","voice":"thinking","pose":"thinking","broll":"","broll_kind":"quote_card"},{"text":"प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"}],"youtube_title":"खगेन्द्र सुनार अडियो प्रकरण : सरकार किन चुपचाप? | OnlineKhabar","youtube_description":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको माग उठेको छ। प्रहरी र महिला आयोगले उजुरी नआएको बताए पनि कानुनविद्हरूले स्वतः छानबिन हुनुपर्ने माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","youtube_tags":["खगेन्द्र सुनार","रास्वपा","नेपाल प्रहरी","महिला आयोग","नेपाल राजनीति","अडियो विवाद","OnlineKhabar","काठमाडौँ","Khabar Minute"],"tiktok_caption":"खगेन्द्र सुनार मुछिएको अडियो प्रकरणमा सरकार किन मौन?\nSource: OnlineKhabar","instagram_caption":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि अनुसन्धानको विषयमा प्रश्न उठेको छ। प्रहरीले उजुरी नपरेको Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","facebook_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक भएपछि राज्यका निकाय किन मौन छन् भन्ने बहस सुरु भएको छ। प्रहरीले उजुरी नपरेको बताए पनि कानुनविद्हरूले फौजदारी कसुरमा स्वतः छानबिन हुनुपर्ने राय दिएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","threads_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको अडियो सार्वजनिक हुँदा पनि सरकारी निकाय किन मौन छन्? कानुनविद्हरूले स्वतः छानबिनको माग गरेका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","linkedin_post":"रास्वपा सांसद खगेन्द्र सुनार मुछिएको भनिएको अडियो सार्वजनिक भएपछि कानुनी अनुसन्धानको दायराबारे बहस सुरु भएको छ। प्रहरीले उजुरी पर्खिरहँदा कानुनविद्हरूले स्वतः छानबिन आवश्यक रहेको बताएका छन्। Source: OnlineKhabar https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","hashtags":["#KhagendraSunar","#RSP","#NepalNews","#KhabarMinute"],"fact_check_status":"PASSED","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Singha Durbar and parliament building exterior in Kathmandu under cloudy daylight","commons":null,"map":null,"motion_text":"सार्वजनिक हुँदा","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"सार्वजनिक हुँदा","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L1 [full] TEXT PLATE via local_render: \"सार्वजनिक हुँदा\" | quality: text_plate_only"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Close-up of audio waveform on digital screen showing voice recording dispute","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L2 [full] TEXT PLATE via local_render: \"महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि\" | quality: text_plate_only"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Exterior of Nepal Police station premises in Kathmandu","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L3 [full] QUOTE CARD via local_render: \"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।\" | then text plate @local_render | quality: quote_card"},{"line_id":4,"beat":"pivot","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Law books and legal documents on desk representing criminal law inquiry","commons":null,"map":null,"motion_text":"फौजदारी कसुर","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"फौजदारी कसुर","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L4 [full] QUOTE CARD via local_render: \"‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल\" | then text plate @local_render | quality: quote_card"},{"line_id":5,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Party meeting room setup and formal press conference microphones","commons":null,"map":null,"motion_text":"प्रमाण संकलन","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"प्रमाण संकलन","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L5 [full] QUOTE CARD via local_render: \"अडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन \" | then text plate @local_render | quality: quote_card"},{"line_id":6,"beat":"takeaway","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"Computer screen analyzing voice frequencies and sound verification graphs","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L6 [full] QUOTE CARD via local_render: \"यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स\" | then text plate @local_render | quality: quote_card"},{"line_id":7,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"National Women Commission office premises and official sign in Kathmandu","commons":null,"map":null,"motion_text":"कानुनी कदम","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"कानुनी कदम","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L7 [full] QUOTE CARD via local_render: \"‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन ।\" | then text plate @local_render | quality: quote_card"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":7,"content_lines":7,"story_fact":0,"quote_card":5,"topic_stock":0,"derived_check":0,"text_plate_only":2,"end_card":0,"specific":0,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 0/7 content lines; article quote cards 5; topic stock only 0; needs a pick 2","lines_with_stock_query":0,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"Nepal parliament building Singha Durbar Kathmandu news headline","verdict":"person_line"},{"src":"scriptwriter","query":"Nepal parliament building Singha Durbar Kathmandu news headline","verdict":"person_line"}]},{"line_id":2,"tried":[{"src":"scriptwriter","query":"audio waveform sound analysis screen monitor microphone","verdict":"person_line"}]},{"line_id":3,"tried":[{"src":"director","query":"Nepal Police headquarters gate Kathmandu officers on duty","verdict":"person_line"},{"src":"scriptwriter","query":"Nepal Police headquarters gate Kathmandu officers on duty","verdict":"person_line"},{"src":"derived_line_gloss","query":"police checkpoint","verdict":"person_line"}]},{"line_id":4,"tried":[{"src":"director","query":"Supreme Court of Nepal law books gavel legal documents Kathmandu","verdict":"length"},{"src":"scriptwriter","query":"Supreme Court of Nepal law books gavel legal documents Kathmandu","verdict":"length"}]},{"line_id":5,"tried":[{"src":"director","query":"Rastriya Swatantra Party central office Kathmandu press meeting","verdict":"length"},{"src":"scriptwriter","query":"Rastriya Swatantra Party central office Kathmandu press meeting","verdict":"length"}]},{"line_id":6,"tried":[{"src":"scriptwriter","query":"digital forensic audio analysis laboratory audio wave verification","verdict":"length"}]},{"line_id":7,"tried":[{"src":"director","query":"National Women Commission Nepal office board Kathmandu","verdict":"proper_name"},{"src":"scriptwriter","query":"National Women Commission Nepal office board Kathmandu","verdict":"proper_name"},{"src":"derived_line_gloss","query":"police checkpoint","verdict":"person_name"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":8,"beat":"comment","text":"उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप","sub":"","kicker":"रास्वपा सांसद"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"सार्वजनिक"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Khagendra Sunar","in_line":"खगेन्द्र सुनार","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"parliament building exterior","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=parliament%20building%20exterior&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=parliament%20building%20exterior&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"government building Kathmandu","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=government%20building%20Kathmandu&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=government%20building%20Kathmandu&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"singha durbar skyline","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=singha%20durbar%20skyline&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=singha%20durbar%20skyline&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":3,"beat":"detail","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"pivot","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"detail","card":{"type":"hook","hold_from_line":1,"fields":null},"strip":{"hold_from_line":1},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":6,"beat":"takeaway","card":{"type":"kicker","fields":{"text":"यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"सार्वजनिक","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":7,"beat":"closing","card":{"type":"points","fields":{"points":["प्रहरी","महिला आयोग"],"title":"उजुरी आएपछि मात्र थप कानुनी कदम","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"प्रहरी","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":7,"held_lines":4,"types_used":{"hook":1,"kicker":1,"points":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":1,"generic_picture_lines":0,"no_picture_lines":2,"blocked_claims":0,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":0,"chosen_topic":"खगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?","category":"news","reason":"Women’s rights and government accountability resonate strongly with Nepali GenZ activism, making this social‑justice story highly shareable and discussion‑driving.","angle":"Highlight the gravity of the allegations, critique the government’s silence, and frame it as a rallying point for GenZ to demand justice and gender equality in Nepal.","chosen_id_recovered":false,"chosen_headline_exact":"खगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?","source_url":"https://www.onlinekhabar.com/2026/10/2038766/khagendra-sunar-case-why-is-the-government-silent-when-serious-allegations-of-violence-against-women-are-made","source_feed":"OnlineKhabar","rss_pub_date":"2026-10-13T16:02:53.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":170,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":39,"direct_headline_count":150,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_06611a9e7c870ea2","source_credit":"Source: OnlineKhabar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":8.217041666666667,"date_unknown":false,"article_text":"२७ असोज, काठमाडौं । सार्वजनिक अभिव्यक्ति र आचरणलाई लिएर पटकपटक प्रश्न उठ्दै आएका रास्वपा सांसद खगेन्द्र सुनार यतिबेला महिलालाई अश्लील गाली गर्दै धम्की दिएको भनिएको अडियो प्रकरणमा विवादमा परेका छन्।\nसञ्चारमाध्यममा सार्वजनिक भएको उक्त अडियोपछि उनीमाथि गम्भीर छानबिनको माग भइरहेको छ । तर । एउटा महिलाको अस्मितासँग जोडिएको विषयमा बहालवाला सांसद मुछिँदा राज्यका अहिलेसम्म चुपचाप बसेका छन् ।\nयो विषयमा रास्वपा पार्टीले मात्र नोटिसमा लिएको छ । त्यही पार्टी नेतृत्वको सरकारले भने कुनै अनुसन्धान अघि बढाएको छैन ।\nअडियोमा एक पुरुषले व्यक्तिले एक महिलालाई तथानाम गाली गरेका छन् । उनका छोरालाई मार्ने काट्ने धम्की दिएका छन् । परपुरुषसँग सम्बन्ध रहेको भन्दै आरोप लगाएका छन् । नेताहरूको नाम जोड्दै उनीहरूसँगको उठबस र लसपस गरेको भन्दै अश्लील शब्द मार्फत् गाली गरेको सुनिन्छ ।\n‘यो विषयमा हामीलाई कहिँबाट उजुरी आएको छैन । उजुरी आएको अवस्थामा प्रहरीले आफ्नो कानुनी प्रक्रिया अघि बढाउने हो’ नेपाल प्रहरीका प्रवक्ता अविनारायण काफ्लेले अनलाइनखबरसँग भने ।\nपीडितले उजुरी नै नदिएको भन्ने तर्कका आधारमा राज्यका निकायहरू यस्तो गम्भीर विषयमा मौन बस्न नमिल्ने कानुनविद्हरूको राय छ ।\nमहिला आयोगकी पूर्वअध्यक्ष समेत रहेकी अधिवक्ता मोहना अन्सारी सरकारले तत्कालै यो घटनालाई छानबिन गर्नुपर्ने बताउँछिन् ।\n‘सरकार रास्वपाको छ । सांसद पनि रास्वपाकै जोडिएका छन्। सार्वजनिक रूपमा यो विषय आएपछि चुप लागेर बस्न मिल्दैन’, अन्सारीले अनलाइनखबरसँग भनिन्, ‘यसलाई नोटिसमा लिएर सरकारले आफैं छानबिन अघि बढाउनुपर्छ ।’\nयस्ता विषयमा पीडितले उजुरी नदिएको आधारमा मौन बस्न नमिल्ने उनले बताइन् । ‘सांसद मुछिएको विषय भएकाले सभामुखले समेत यसबारेमा विचार पुर्‍याउनुपर्छ’ उनले भनिन्, ‘यदी यो घटनालाई छोडियो भने ठूला मान्छेले जे गर्दा पनि हुन्छ भन्ने सन्देश जान्छ र पीडकहरूको आत्मबल बढ्छ ।’\nघटनामा महिलाको सम्मान, सुरक्षा र सम्भावित दुर्व्यवहारको प्रश्न जोडिएपनि राष्ट्रिय महिला आयोगमा हालसम्म औपचारिक उजुरी नपरेको आयोगकी कार्यवाहक अध्यक्ष कृष्णकुमारी पौडेल खतिवडाले बताएकी छन्।\nउनले घटनालाई गम्भीर विषयका रूपमा लिएको जनाउँदै पीडितले आफ्नो पहिचान सार्वजनिक नगरी पनि उजुरी दिन सक्ने बताएकी छन्।\n‘यस्तो विषयमा गोप्य रूपमा पनि उजुरी दिन सकिन्छ,’ खतिवडाले भनिन्, ‘उजुरी आउने हो भने हामी मुद्दा अगाडि बढाउँछौं ।’\nआयोगमा उजुरी नपरेको अवस्थाले घटनाको अनुसन्धानका लागि अन्य कानुनी प्रक्रिया स्वतः बन्द हुन्छ भन्ने अर्थ लाग्दैन। आरोपको प्रकृति र उपलब्ध प्रमाणका आधारमा सम्बन्धित सरकारी निकायले आफ्नो क्षेत्राधिकारअनुसार के कदम चाल्न सक्छन् । तर यो काममा सरकारी निकाय चुपचाप छन् ।\nयो प्रकरणमा तत्काल स्पष्ट हुनुपर्ने तीन वटा विषय छन् । सार्वजनिक अडियो वास्तविक हो वा होइन, आरोपमा नाम जोडिएकी महिलाको भनाइ र सुरक्षासम्बन्धी पक्षलाई कसरी सम्बोधन गरिन्छ ? र, उपलब्ध तथ्यका आधारमा राज्यका निकायले कानुनी अनुसन्धान आवश्यक ठान्छन् कि ठान्दैनन् ? सांसदसमेत भएकाले उनीमाथि गम्भीर आरोप लगेको अवस्थामा संसद्ले के गर्ने ?\nप्रतिनिधिसभाका पूर्व सचिव गोपालनाथ योगीका अनुसार पीडितबाट उजुरी आएको अवस्थामा प्रहरीले थुनामा राखेर अनुसन्धान गर्‍यो भने सांसद पदीय जिम्मेवारीबाट काम गर्न पाउँदैनन् । तर राज्यका निकायले छनबिन नगर्दासम्म पार्टीले छानबिन गरेकै भरमा उनलाई कामबाट अलग गर्न मिल्ने अवस्था रहन्न । तर यही कारण अन्य प्रक्रिया अघि बढाउन नमिल्ने भन्ने हुँदैन ।\n‘महिला हिंसाको कुरा हो भने फौजदारी कसुर हो । सरकारले छानबिनको दायरता ल्याउनसक्छ । लैंगिक हिंसा गरेको विषयमा मुद्दा चल्न सक्छ’, वरिष्ठ अधिवक्ता गान्धी पण्डितले भनेका छन् ।\nप्रमाण संकलन गर्दै रास्वपा\nअडियो प्रकरणलाई रास्वपाले केन्द्रीय अनुशासन आयोगमार्फत आन्तरिक छानबिन अघि बढाएको छ। पार्टीले सुनारलाई औपचारिक सार्वजनिक कार्यक्रममा सहभागी हुनसमेत रो क लगाएको छ।\nअडियो सार्वजनिक भएपछि रास्वपाले घटनाबारे आधिकारिक धारणा सार्वजनिक गर्दै अनुसन्धान प्रक्रिया अघि बढाएको छ। यद्यपि, सार्वजनिक अडियोमा सुनिएको आवाज सुनारकै हो वा होइन भन्ने विषय स्वतन्त्र रूपमा पुष्टि हुन बाँकी छ। सुनारले भने अडियोमा आफ्नो संलग्नता अस्वीकार गरेका छन्।\nआयोगले आरोप लागेका सांसद सुनार र घटनामा नाम जोडिएकी महिलासँग पनि कुरा बुझ्ने जानकारी दिएको छ ।\nआयोगका उपप्रमुख हरिचन्द्र भट्टराईका अनुसार मंगलबार बिहानदेखि नै प्रमाण संकलनको काम सुरु गरिएको छ। उनले भने, ‘हामीले आज बिहानबाटै सबुत प्रमाण संकलन गरिरहेका छौं। तथ्यहरूको सत्यापन परीक्षण गरेपछि चाँडै निष्कर्ष दिन्छौं।’\nयो पनि पढ्नुहोस\n‘खगेन्द्र सुनार प्रकरणमा प्रमाण नबुझी निष्कर्ष सुनाउँदैनौँ’\nभट्टराईले अडियोमा आएका विषय गम्भीर प्रकृतिका भएकाले छानबिनलाई तीव्रता दिइने बताए। उनका अनुसार आयोगले सार्वजनिक सामग्रीको सत्यापन गर्नुका साथै सम्बन्धित पक्षका कुरा सुनेर निष्कर्षमा पुग्नेछ।\n‘पार्टीको धारणा आइसकेको छ। अनुशासन आयोग चाहिँ स्वतन्त्र हो। त्यसैले हामीले सबै प्रमाणहरू संकलन गरिरहेका छौं,’ भट्टराईले अनलाइनखबरसँग भने ।\nउनका अनुसार आयोगले सांसद सुनारसँग पनि कुरा गर्न खोजिरहेको छ। घटनामा नाम जोडिएकी महिला सँग भेटेर उनको भनाइ बुझ्ने प्रयाससमेत भइरहेको छ।\n‘सांसदसँग पनि हामी कुरा गर्न खोजिरहेका छौं। अनि जो महिलाको नाम जोडिएको छ, उहाँसँग पनि भेट्ने कोसिसमा छौं,’ भट्टराईले भने।\nआरोप लागेका व्यक्तिलाई आफ्नो पक्ष राख्ने अवसर दिनुपर्ने भएकाले सुनारको भनाइ पनि छानबिनको महत्वपूर्ण हिस्सा हुने आयोगको भनाइ छ। सुनार भने पार्टीको कामको सिलसिलामा काठमाडौं बाहिर, दाङमा रहेको बताइएको छ।\nएउटा व्यक्तिको पछि सती जाने ?\nरास्वपाले सुनारमाथि सार्वजनिक भएका आरोपलाई सामान्य रूपमा लिन नसकिने स्पष्ट पारेको छ। पार्टी महामन्त्री विपिन आचार्यले मंगलबार जारी गरेको विज्ञप्तिमा महिलाको मर्यादा र सम्मानमा आँच पुर्‍याउने कार्य, अनुचित दबाब, अवाञ्छित धम्की तथा शंकास्पद आर्थिक लेनदेनसम्बन्धी विषयलाई गम्भीर र संवेदनशील रूपमा लिइएको उल्लेख गरेका छन्।\nविज्ञप्तिमा विधिको शासन, सुशासन र नागरिक जवाफदेहिताको पक्षमा उभिएको पार्टीले आफ्ना सदस्य वा जनप्रतिनिधिमाथि लाग्ने यस्ता आरोपलाई सामान्य रूपमा लिन नसक्ने जनाइएको छ।\nमहिलामाथि हुने दुर्व्यवहार, पदीय मर्यादाको उल्लङ्घन तथा फौजदारी कसुरका विषयमा पार्टीले शून्य सहनशीलताको नीति अपनाउने पनि उल्लेख गरिएको छ। आरोपमाथि छानबिन गर्न राज्यका निकायलाई सहयोग गर्ने प्रतिबद्धतासमेत पार्टीले व्यक्त गरेको छ।\nसंसदीय दलले पनि प्रकरणलाई गम्भीरतापूर्वक लिएको जनाएको छ। रास्वपाका सचेतक प्रकाशचन्द्र परियारले छानबिनबाट आरोप पुष्टि भए पार्टीले सम्बन्धित व्यक्तिलाई संरक्षण नगर्ने बताएका छन्।\n‘अडियोमाथि छानबिन हुन्छ। यदि त्यो सम्बन्धित व्यक्तिको हो भन्ने प्रमाणित भयो भने पार्टी एउटा व्यक्तिको पछि सती जान सक्दैन,’ परियारले भने ।\nयो प्रकरणबाट रास्वपाले सार्वजनिक गरेको अनुशासन र जवाफदेहिताको प्रतिबद्धता व्यवहारमा कसरी कार्यान्वयन गर्छ भन्ने प्रश्न पनि उठेको छ ।\nसुनार भन्छन् : निष्पक्ष छानबिन ","article_char_count":6000,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"OnlineKhabar","assigned_hook_type":"curiosity_gap","review_id":"RV_20261014_e4vlr9","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

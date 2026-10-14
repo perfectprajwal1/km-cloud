@@ -1,0 +1,19 @@
+{
+  "original_sha256": "28cd294121d6541f84bdb3f46172882ba398d6cb4bb1275ca9df25efabb74c12",
+  "missing_cards": [
+    {
+      "card": 3,
+      "master_sha256": "44fe386187b727f2ecae3a5fa78cf494fef2404f85227f2d34e664c2ae1c6d4f"
+    },
+    {
+      "card": 4,
+      "master_sha256": "7d87b2471477aa1deba171bb5561507e47b8d921ab4344a6cecc69ee7abf98f7"
+    }
+  ],
+  "repaired_sha256": "9512c387f8b336b6ced03bf02f6ae8a3e2721598fdaccc64a19fa3ca379272c7",
+  "cuts_sec": [
+    8.938375,
+    21.290958333333332,
+    30.781916666666667
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "master_sha256": "28cd294121d6541f84bdb3f46172882ba398d6cb4bb1275ca9df25efabb74c12",
+  "cuts_sec": [
+    7.955,
+    17.29775,
+    17.305
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "रास्वपा सांसद खगेन्द्र सुनार मुछिएको गम्भीर अडियो सार्वजनिक हुँदा पनि सरकार किन चुपचाप छ?",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.955,
+      "duration_sec": 7.955,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "महिलालाई अश्लील शब्द प्रयोग गर्दै धम्की दिएको भनिएको अडियो भाइरल भएपछि सांसद सुनार विवादमा परेका हुन्।",
+      "master_start_sec": 7.955,
+      "master_end_sec": 17.298,
+      "duration_sec": 9.343,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।",
+      "master_start_sec": 17.298,
+      "master_end_sec": 17.305,
+      "duration_sec": 0.007,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": [
+        "audio interval is shorter than 0.5 seconds",
+        "speech energy was not detected"
+      ]
+    },
+    {
+      "card": 4,
+      "expected_text": "तर कानुनविद्हरूले महिला हिंसा फौजदारी कसुर भएकाले उजुरी नपरे पनि राज्यले छानबिन गर्नुपर्ने बताएका छन्।",
+      "master_start_sec": 17.305,
+      "master_end_sec": 18.291,
+      "duration_sec": 0.986,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": [
+        "speech energy was not detected"
+      ]
+    }
+  ],
+  "soft_fallback": true,
+  "sample_preserving": true,
+  "fallback_note": "Strict split/alignment check was not conclusive (Card 3 is empty/too short; check cuts.); all source samples retained in a soft split.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. Strict split/alignment check was not conclusive (Card 3 is empty/too short; check cuts.); all source samples retained in a soft split."
+}

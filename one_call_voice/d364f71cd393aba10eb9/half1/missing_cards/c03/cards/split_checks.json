@@ -1,0 +1,24 @@
+{
+  "master_sha256": "44fe386187b727f2ecae3a5fa78cf494fef2404f85227f2d34e664c2ae1c6d4f",
+  "cuts_sec": [],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नेपाल प्रहरीका प्रवक्ताले भने यो विषयमा हालसम्म कुनै औपचारिक उजुरी नआएको स्पष्ट पारेका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.491,
+      "duration_sec": 7.491,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

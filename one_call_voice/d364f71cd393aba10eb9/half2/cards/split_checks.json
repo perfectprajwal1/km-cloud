@@ -1,0 +1,70 @@
+{
+  "master_sha256": "455b5f0d01e710e453a366b199590631aefc69a60ff57d16da73ff3823d2e93e",
+  "cuts_sec": [
+    10.07,
+    17.285,
+    24.12
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "उता पार्टीको केन्द्रीय अनुशासन आयोगले प्रमाण संकलन थाल्दै सुनारलाई सार्वजनिक कार्यक्रममा जान रोकेको छ।",
+      "master_start_sec": 0.22,
+      "master_end_sec": 8.24,
+      "duration_sec": 8.02,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": false,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "यद्यपि सार्वजनिक अडियोको आवाज सुनारकै हो वा होइन भन्ने पुष्टि हुन अझै बाँकी छ।",
+      "master_start_sec": 11.91,
+      "master_end_sec": 17.285,
+      "duration_sec": 5.375,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": false,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "प्रहरी र महिला आयोगले उजुरी आएपछि मात्र थप कानुनी कदम चाल्ने बताएका छन्।",
+      "master_start_sec": 17.345,
+      "master_end_sec": 24.065,
+      "duration_sec": 6.72,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": false,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "उजुरी नपरेको अवस्थामा यस्ता गम्भीर अडियो प्रकरणमा सरकारी निकायले आफैं छानबिन सुरु गर्नुपर्छ कि पर्दैन? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 24.2,
+      "master_end_sec": 28.12,
+      "duration_sec": 3.92,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": false,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": false,
+  "fallback_note": "",
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}
