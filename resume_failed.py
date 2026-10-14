@@ -73,7 +73,10 @@ def voice_and_render(rid,recover=False):
     restore_cached_voice(rid)
     auto_path=None
     rel='stories/'+rid+'.json'
-    r=run([PY,'scripts/gemini_voice.py',rel]+(['--recover-missing'] if recover else []))
+    # This entry point is the owner's explicit recovery action. The voice
+    # script still retries only a marker with persisted proof of zero audio;
+    # timeouts, malformed audio and unknown outcomes remain blocked.
+    r=run([PY,'scripts/gemini_voice.py',rel]+(['--recover-missing'] if recover else [])+['--retry-verified-no-audio'])
     if r.returncode==3:
         matches=re.findall(r'^STAGED CARDS:\s*(.+)$',r.stdout,re.M)
         if not matches:
