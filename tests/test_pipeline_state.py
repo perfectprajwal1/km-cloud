@@ -100,6 +100,20 @@ class Tests(unittest.TestCase):
         self.s.notification_claim('NEW','one message')
         b=mod(self.b)
         with self.assertRaises(b.StateError):b.notification_claim('NEW','repeat message')
+    def test_published_success_has_an_independent_notification_claim(self):
+        self.s.notification_claim('NEW','early deferred note')
+        b=mod(self.b)
+        path,owner=b.notification_claim('NEW','published success',event='published')
+        self.assertTrue(path.endswith('NEW_published.json'))
+        with self.assertRaises(b.StateError):b.notification_claim('NEW','duplicate success',event='published')
+    def test_definitely_rejected_notification_can_retry_but_uncertain_cannot(self):
+        path,owner=self.s.notification_claim('NEW','uncertain event',event='uncertain')
+        self.s.notification_result(path,owner,'uncertain')
+        b=mod(self.b)
+        with self.assertRaises(b.StateError):b.notification_claim('NEW','uncertain retry',event='uncertain')
+        path,owner=self.s.notification_claim('NEW','published success',event='published')
+        self.s.notification_result(path,owner,'failed')
+        b.notification_claim('NEW','published success retry',event='published')
     def test_progress_merges_distinct_produced_and_preserves_remote_code(self):
         (self.a/'produced.json').write_text('{"produced":{"A":{"file":"a.txt"}}}')
         (self.b/'produced.json').write_text('{"produced":{"B":{"file":"b.txt"}}}')

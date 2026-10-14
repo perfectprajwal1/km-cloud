@@ -99,7 +99,7 @@ def local_asr_words(master,work,model_path):
     cache.write_text(json.dumps({'master_sha256':h,'model_path':str(model_path),'words':words},ensure_ascii=False,indent=2),encoding='utf-8')
     return words
 
-def split_audio(master,texts,dest,cuts=None,asr_model=None):
+def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note=''):
     rate,values=read_wav(master);duration=len(values)/rate;gaps=pauses(rate,values)
     long=[(a,b) for a,b in gaps if a>0 and b<len(values) and (b-a)/rate>=1.2]
     if cuts is None:
@@ -113,23 +113,29 @@ def split_audio(master,texts,dest,cuts=None,asr_model=None):
     prepared=[]
     for i,(a,b,text) in enumerate(zip(edges,edges[1:],texts)):
         chunk=values[a:b];local=pauses(rate,chunk)
-        lo=local[0][1] if local and local[0][0]==0 else 0
-        hi=local[-1][0] if local and local[-1][1]==len(chunk) else len(chunk)
-        lo=max(0,lo-round(.06*rate));hi=min(len(chunk),hi+round(.1*rate));trim=chunk[lo:hi]
+        if soft_fallback:
+            # Keep each source sample exactly once. A low-confidence cut may
+            # cross speech; trimming here could silently remove part of a word.
+            lo=0;hi=len(chunk);trim=chunk
+        else:
+            lo=local[0][1] if local and local[0][0]==0 else 0
+            hi=local[-1][0] if local and local[-1][1]==len(chunk) else len(chunk)
+            lo=max(0,lo-round(.06*rate));hi=min(len(chunk),hi+round(.1*rate));trim=chunk[lo:hi]
         seconds=len(trim)/rate
-        if seconds<.5:raise Stop('Card %s is empty/too short; check cuts.'%(i+1))
+        if seconds<.5 and not soft_fallback:raise Stop('Card %s is empty/too short; check cuts.'%(i+1))
         speech=sum(1 for v in trim if abs(v)>104)/rate
-        if speech<.1:raise Stop('Card %s has no detectable speech.'%(i+1))
+        if speech<.1 and not soft_fallback:raise Stop('Card %s has no detectable speech.'%(i+1))
         # Acoustic duration/energy checks are NOT transcript identity/repeat checks.
         midpoint=edges[i+1]
-        if i<len(texts)-1 and not any(g0<=midpoint<=g1 and (g1-g0)/rate>=.12 for g0,g1 in gaps):
+        boundary_ok=i==len(texts)-1 or any(g0<=midpoint<=g1 and (g1-g0)/rate>=.12 for g0,g1 in gaps)
+        if i<len(texts)-1 and not boundary_ok and not soft_fallback:
             raise Stop('Boundary after card %s is not inside >=120ms silence; refusing likely cut-through-speech.'%(i+1))
         prepared.append(trim)
         tokens=[re.sub(r'[^\w]','',t.casefold()) for t in text.split()]
         repeated=[tokens[j] for j in range(1,len(tokens)) if tokens[j] and tokens[j]==tokens[j-1]]
-        report.append({'card':i+1,'expected_text':text,'master_start_sec':round((a+lo)/rate,3),'master_end_sec':round((a+hi)/rate,3),'duration_sec':round(seconds,3),'script_adjacent_repeats':repeated,'spoken_text_verified':False,'spoken_repeat_check':'NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.'})
+        report.append({'card':i+1,'expected_text':text,'master_start_sec':round((a+lo)/rate,3),'master_end_sec':round((a+hi)/rate,3),'duration_sec':round(seconds,3),'script_adjacent_repeats':repeated,'spoken_text_verified':False,'spoken_repeat_check':'NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.','soft_fallback':bool(soft_fallback),'boundary_in_silence':boundary_ok})
     for i,trim in enumerate(prepared):write_wav(dest/f'c{i+1:02d}.wav',rate,trim)
-    summary={'master_sha256':hashlib.sha256(Path(master).read_bytes()).hexdigest(),'cuts_sec':cuts,'cards':report,'check_result':'Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening.'}
+    summary={'master_sha256':hashlib.sha256(Path(master).read_bytes()).hexdigest(),'cuts_sec':cuts,'cards':report,'soft_fallback':bool(soft_fallback),'fallback_note':fallback_note if soft_fallback else '', 'check_result':('SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. '+fallback_note) if soft_fallback else 'Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening.'}
     (dest/'split_checks.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     return summary
 
@@ -329,13 +335,18 @@ def generate(story,texts,master,work,key_file,backup_key=None,retry_verified_no_
 def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,recover_missing=False,offline=False,retry_verified_no_audio=False):
     """Retain original halves; missing cards have independent durable requests."""
     from km_ctc import Engine,AlignmentStop,digest
-    engine=None
+    engine=None;preflight_note=''
     if cuts is None:
-        engine=Engine(project/'models'/'km_nepali_ctc')
-        try:engine.check_texts(texts);engine.load()
+        try:
+            engine=Engine(project/'models'/'km_nepali_ctc')
+            engine.check_texts(texts);engine.load()
         except AlignmentStop as e:
-            (work/'local_stop.json').write_text(json.dumps({'stage':'preflight_before_requests','reason':str(e),'story_id':story.get('id'),'requests_made_by_this_stage':0},ensure_ascii=False,indent=2),encoding='utf-8')
-            raise Stop(str(e)) from None
+            # CTC is a quality check, not a gate on an approved reel. If the
+            # pinned local model is unavailable, use retained Gemini audio and
+            # split it softly after generation instead of stranding the story.
+            preflight_note=str(e)
+            engine=None
+            print('NOTE: CTC preflight unavailable; approved audio will use a soft split: '+preflight_note[:240],flush=True)
     middle=(len(texts)+1)//2;ranges=[(0,middle),(middle,len(texts))]
     if len(texts)==1:ranges=ranges[:1]
     pieces=[];all_cuts=[];offset=0.0;diagnostics=[]
@@ -350,17 +361,24 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         metadata_file=folder/'response_metadata.json'
         if not metadata_file.is_file():raise Stop('Half %s metadata missing; cached audio retained.'%number)
         reasons=json.loads(metadata_file.read_text(encoding='utf-8')).get('finish_reasons',[])
-        if not reasons or any(r!='STOP' for r in reasons):raise Stop('Half %s finishReason is not STOP. Audio kept; no recovery request.'%number)
+        if not reasons or any(r!='STOP' for r in reasons):
+            print('NOTE: half %s returned valid audio with finishReason %s; keeping the audio and using soft alignment if needed.'%(number,','.join(str(x) for x in reasons)[:120]),flush=True)
     # Analyze every original half before spending on any recovery: a later failed
     # boundary must not be discovered after earlier recovery already used quota.
     fits=[]
     for number,(lo,hi) in enumerate(ranges,1):
         folder=work/('half%s'%number);audio=folder/'master.wav';rate,values=read_wav(audio)
-        if cuts is None:
+        if cuts is None and engine is None:
+            from km_ctc import best_effort_alignment
+            fit=best_effort_alignment(audio,texts[lo:hi],folder/'ctc',preflight_note or 'CTC model unavailable')
+            print('NOTE: Half %s uses the audio-only soft split.'%number,flush=True)
+            fits.append(fit)
+        elif cuts is None:
             try:fit=engine.analyze(audio,texts[lo:hi],folder/'ctc')
             except AlignmentStop as e:
-                (folder/'local_stop.json').write_text(json.dumps({'stage':'cached_half_alignment','half':number,'reason':str(e),'originals_retained':True},ensure_ascii=False,indent=2),encoding='utf-8')
-                raise Stop('Half %s: %s'%(number,e)) from None
+                from km_ctc import best_effort_alignment
+                fit=best_effort_alignment(audio,texts[lo:hi],folder/'ctc',str(e))
+                print('NOTE: Half %s CTC check used a soft audio split: %s'%(number,str(e)[:240]),flush=True)
             fits.append(fit)
         else:fits.append(None)
     for number,((lo,hi),fit) in enumerate(zip(ranges,fits),1):
@@ -383,12 +401,19 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
                         print('Requesting ONLY missing card %s; original halves kept.'%(global_idx+1))
                         generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup,retry_verified_no_audio)
                     mf=recovery/'response_metadata.json'
-                    if not mf.is_file() or json.loads(mf.read_text(encoding='utf-8')).get('finish_reasons')!=['STOP']:
-                        raise Stop('Recovered card %s finishReason not STOP. No retry.'%(global_idx+1))
-                    try:check=engine.analyze(recovered,[texts[global_idx]],recovery/'ctc')
-                    except AlignmentStop as e:raise Stop('Recovered card %s uncertain: %s. No repeat request.'%(global_idx+1,e)) from None
-                    if check['missing_indices']:raise Stop('Recovered card still absent. No automatic repeat request.')
-                    split_audio(recovered,[texts[global_idx]],recovery/'cards',[])
+                    reasons=json.loads(mf.read_text(encoding='utf-8')).get('finish_reasons',[]) if mf.is_file() else []
+                    if not reasons or any(r!='STOP' for r in reasons):
+                        print('NOTE: recovered card %s has valid audio with finishReason %s; keeping the response.'%(global_idx+1,','.join(str(x) for x in reasons)[:120]),flush=True)
+                    try:
+                        check=engine.analyze(recovered,[texts[global_idx]],recovery/'ctc')
+                        if check.get('missing_indices'):raise AlignmentStop('recovered card did not align confidently')
+                        soft=bool(check.get('best_effort'))
+                        note=check.get('fallback_reason','')
+                    except AlignmentStop as e:
+                        from km_ctc import best_effort_alignment
+                        check=best_effort_alignment(recovered,[texts[global_idx]],recovery/'ctc',str(e));soft=True;note=str(e)
+                        print('NOTE: recovered card %s uses its complete response audio; %s'%(global_idx+1,str(e)[:200]),flush=True)
+                    split_audio(recovered,[texts[global_idx]],recovery/'cards',[],soft_fallback=soft,fallback_note=note)
                     card_paths[idx]=recovery/'cards'/'c01.wav'
                     repair_rows.append({'card':global_idx+1,'master_sha256':digest(recovered)})
                 # Restore original STORY order even when omission was in the middle.
@@ -402,7 +427,8 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
                 (folder/'recovery_receipt.json').write_text(json.dumps({'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local},indent=2),encoding='utf-8')
             else:use_cuts=fit['cuts_sec']
         else:use_cuts=[v-offset for v in cuts[lo:hi-1]]
-        result=split_audio(use_audio,texts[lo:hi],folder/'cards',use_cuts)
+        soft=bool(fit and fit.get('best_effort'))
+        result=split_audio(use_audio,texts[lo:hi],folder/'cards',use_cuts,soft_fallback=soft,fallback_note=fit.get('fallback_reason','') if fit else '')
         if asr_model:
             # Independent optional validator. Never downloads a model.
             words=local_asr_words(use_audio,folder,asr_model)

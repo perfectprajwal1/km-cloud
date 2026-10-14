@@ -1,132 +1,57 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""One-command reel launcher. Voice auto-accept uses acoustic checks only, not human listening."""
-import json,os,re,shutil,subprocess,sys,time
+"""Resume the oldest unfinished approved stories through the normal reel path."""
+import re
+import subprocess
+import sys
 from pathlib import Path
-ROOT=Path(__file__).resolve().parent
-PY=sys.executable
-NPM='npm.cmd' if sys.platform.startswith('win') else 'npm'
-def run(cmd):
-    print('> '+' '.join(str(x) for x in cmd),flush=True)
-    r=subprocess.run(cmd,cwd=str(ROOT),env={**os.environ,'KM_REQUIRE_VOICES':'1'},capture_output=True,text=True,encoding='utf-8',errors='replace')
-    if r.stdout:print(r.stdout,end='',flush=True)
-    if r.stderr:print(r.stderr,end='',flush=True)
-    return r
+import make_reel
 
-def valid_story(rid):
-    p=ROOT/'stories'/(rid+'.json')
-    data=json.loads(p.read_text(encoding='utf-8-sig'))
-    if data.get('id')!=rid or not isinstance(data.get('cards'),list) or not data['cards']:raise ValueError('story ID/cards mismatch')
-    if any(not isinstance(c.get('vo'),str) or not c['vo'].strip() for c in data['cards']):raise ValueError('empty narration')
-    return data
+ROOT = Path(__file__).resolve().parent
+NPM = make_reel.NPM
+run = make_reel.run
 
-def ensure_layout(rid,always=False):
-    p=ROOT/'stories'/(rid+'.json');old=valid_story(rid) if p.exists() else None
-    if old is not None and not always and 'selection' not in old:
-        print('Keeping existing pre-selector story unchanged.',flush=True);return True
-    backup=None
-    if old is not None:
-        backup=ROOT/'launcher_backups'/(rid+'_'+str(time.time_ns()));backup.mkdir(parents=True)
-        for f in (p,p.with_name(rid+'.clips.json')):
-            if f.exists():shutil.copy2(f,backup/f.name)
-        print('Story backup: '+str(backup),flush=True)
-    r=run([PY,'scripts/script_to_story.py','inbox/'+rid])
-    try:
-        if r.returncode:raise ValueError('converter stopped; see output above')
-        new=valid_story(rid)
-        if old is not None:
-            identity=lambda s:[(c['vo'],c.get('voice_tone','neutral')) for c in s['cards']]
-            if identity(new)!=identity(old):raise ValueError('conversion changed narration/tones; original JSON restored, voice not run')
-    except Exception as e:
-        if backup:
-            for f in backup.iterdir():shutil.copy2(f,ROOT/'stories'/f.name)
-        print('STOP: '+str(e),flush=True);return False
-    return True
+def voice_and_render(rid, recover=False):
+    make_reel.ROOT = ROOT
+    make_reel.run = run
+    return make_reel.voice_and_render(rid, recover=recover)
 
-
-def restore_cached_voice(rid):
-    from scripts.gemini_voice import MODEL,VOICE
-    import hashlib
-    story=valid_story(rid)
-    texts=[str(c.get('vo','')).strip() for c in story['cards']]
-    tones=[c.get('voice_tone','neutral') for c in story['cards']]
-    fingerprint=hashlib.sha256(json.dumps([texts,tones,MODEL,VOICE,'two_halves_v1'],ensure_ascii=False).encode()).hexdigest()[:20]
-    work=ROOT/'one_call_voice'/fingerprint
-    receipt=work/'installed_reviewed.json'
-    if not receipt.exists():return
-    records=json.loads(receipt.read_text(encoding='utf-8'))
-    if len(records)!=len(texts):raise ValueError('saved voice receipt card count mismatch; no voice request')
-    for item in records:
-        if not re.fullmatch(r'c[0-9]+\.wav',item.get('name','')):raise ValueError('invalid saved card name')
-        src=work/'cards'/item['name']
-        if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest()!=item['sha256']:
-            raise ValueError('saved voice card hash mismatch; no voice request')
-    dest=ROOT/'public'/'voice_in';dest.mkdir(parents=True,exist_ok=True)
-    for f in dest.glob('c*.wav'):f.unlink()
-    # Alignment is audio-specific. The renderer recomputes it from these cards.
-    for name in ('aligned_words.json','alignment_report.json'):
-        (ROOT/'public'/name).unlink(missing_ok=True)
-    for item in records:shutil.copy2(work/'cards'/item['name'],dest/item['name'])
-    print('Restored exact-script cached voice cards; hashes verified. No new voice request.',flush=True)
-
-def voice_and_render(rid,recover=False):
-    restore_cached_voice(rid)
-    auto_path=None
-    rel='stories/'+rid+'.json'
-    # This entry point is the owner's explicit recovery action. The voice
-    # script still retries only a marker with persisted proof of zero audio;
-    # timeouts, malformed audio and unknown outcomes remain blocked.
-    r=run([PY,'scripts/gemini_voice.py',rel]+(['--recover-missing'] if recover else [])+['--retry-verified-no-audio'])
-    if r.returncode==3:
-        matches=re.findall(r'^STAGED CARDS:\s*(.+)$',r.stdout,re.M)
-        if not matches:
-            print('STOP: review required but staged cards path was not reported. No install/render.',flush=True);return 3
-        path=Path(matches[-1].strip()).resolve()
-        base=(ROOT/'one_call_voice').resolve()
-        if not path.is_relative_to(base) or path.name!='cards' or not path.is_dir():
-            print('STOP: invalid staged cards folder. No install/render.',flush=True);return 3
-        # Exit 3 proves the voice script completed its acoustic split checks,
-        # not that a human heard or verified every word. No retry loop.
-        auto_path=path
-        r=run([PY,'scripts/gemini_voice.py',rel,'--install-reviewed'])
-    if r.returncode:
-        print('STOP: voice step stopped. Saved audio/attempt markers kept; no automatic retry or render.',flush=True);return r.returncode
-    r=run([NPM,'run','reel','--',rel])
-    if r.returncode:print('STOP: render stopped; saved voice kept.');return r.returncode
-    out=ROOT/'out'/(rid+'.mp4')
-    if not out.is_file() or out.stat().st_size==0:print('STOP: renderer output missing/empty.');return 2
-    print('\nREADY: '+str(out),flush=True)
-    try:
-        # Variety history: counted only now, after a real, non-empty render. Never blocks or fails a reel.
-        r2=subprocess.run([PY,'scripts/km_selection.py','commit','stories/'+rid+'.json','out/'+rid+'.mp4'],cwd=str(ROOT),capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
-        print((r2.stdout or '').strip() or ('NOTE: variety history not updated: '+(r2.stderr or '').strip()[-200:]),flush=True)
-    except Exception as e:print('NOTE: variety history not updated ('+str(e)[:120]+'); reel is fine.',flush=True)
-    if auto_path:print('Voice auto-accepted from acoustic checks only, not human-heard. Staged cards: '+str(auto_path),flush=True)
-    return 0
 
 def main():
-    args=sys.argv[1:]
-    if len(args)>1 or (args and not re.fullmatch(r'[A-Za-z0-9_-]+',args[0])):print('Use: py resume_failed.py [REVIEW_ID]');return 2
-    dp=ROOT/'out'/'done.txt'
-    done=set(dp.read_text(encoding='utf-8').split()) if dp.exists() else set()
-    if args and args[0] in done:
-        print('Already in Drive: '+args[0]+'. No render or voice request.');return 0
-    inbox=ROOT/'inbox'
-    if not inbox.is_dir():print('STOP: no inbox folder.');return 2
+    args = sys.argv[1:]
+    if len(args) > 1 or (args and not re.fullmatch(r'[A-Za-z0-9_-]+', args[0])):
+        print('Use: py resume_failed.py [REVIEW_ID]')
+        return 2
+    # Keep the one-command recovery interface while sharing the same
+    # per-story continuation and artifact-reuse path as make_reel.py.
+    make_reel.ROOT = ROOT
+    make_reel.run = run
     if args:
-        rid=args[0]
-        if not (inbox/rid).is_dir():print('STOP: review not in inbox.');return 2
-        if (ROOT/'out'/(rid+'.mp4')).is_file():print('Already finished: '+rid);return 0
+        rid = args[0]
+        dp = ROOT / 'out' / 'done.txt'
+        done = set(dp.read_text(encoding='utf-8').split()) if dp.exists() else set()
+        if rid in done:
+            print('Already in Drive: ' + rid + '. No voice request or render.')
+            return 0
+        if not (ROOT / 'inbox' / rid).is_dir():
+            print('No saved approved inbox folder for ' + rid + '.')
+            return 2
+        ids = [rid]
     else:
-        unfinished=[p for p in inbox.iterdir() if p.name not in done and p.is_dir() and re.fullmatch(r'[A-Za-z0-9_-]+',p.name) and not (ROOT/'out'/(p.name+'.mp4')).is_file()]
-        if not unfinished:print('Nothing unfinished. No voice request made.');return 0
-        rid=max(unfinished,key=lambda p:(p.stat().st_mtime_ns,p.name)).name
-        print('Default: newest unfinished inbox folder by modified time.')
-    print('SELECTED ONLY: '+rid,flush=True)
-    if not ensure_layout(rid):return 2
-    return voice_and_render(rid,recover=True)
+        ids = make_reel.pending_ids(limit=5)
+        if not ids:
+            print('Nothing unfinished. No voice request made.')
+            return 0
+        print('Default: oldest unfinished approved stories, up to five; each is attempted independently.', flush=True)
+    return make_reel.process_stories(ids, recover=True)
 
-if __name__=='__main__':
-    try:sys.exit(main())
-    except KeyboardInterrupt:print('Stopped. Saved audio and story backups kept.');sys.exit(3)
-    except Exception as e:print('STOP: '+str(e)+' Saved audio and attempt markers kept.');sys.exit(2)
+
+if __name__ == '__main__':
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        print('Stopped. Saved audio and attempt markers kept.')
+        sys.exit(3)
+    except Exception as exc:
+        print('Resume launcher error: ' + type(exc).__name__ + ': ' + str(exc)[:220])
+        sys.exit(2)

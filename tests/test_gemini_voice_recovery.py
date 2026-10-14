@@ -269,7 +269,8 @@ class ResumeLauncherTests(unittest.TestCase):
                 if command[0] == module.NPM:
                     out = module.ROOT / "out" / "RV_TEST.mp4"
                     out.parent.mkdir(exist_ok=True)
-                    out.write_bytes(b"synthetic mp4")
+                    box = lambda kind, body=b"12345678": (len(body) + 8).to_bytes(4, "big") + kind + body
+                    out.write_bytes(box(b"ftyp") + box(b"moov") + box(b"mdat", b"test audio"))
                 return Result()
 
             module.run = fake_run

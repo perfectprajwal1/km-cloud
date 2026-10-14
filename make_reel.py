@@ -9,7 +9,11 @@ PY=sys.executable
 NPM='npm.cmd' if sys.platform.startswith('win') else 'npm'
 def run(cmd):
     print('> '+' '.join(str(x) for x in cmd),flush=True)
-    r=subprocess.run(cmd,cwd=str(ROOT),env={**os.environ,'KM_REQUIRE_VOICES':'1'},capture_output=True,text=True,encoding='utf-8',errors='replace')
+    child_env={**os.environ,'KM_REQUIRE_VOICES':'1'}
+    # Artifact read permission is only needed by this launcher, never by the
+    # Gemini, converter, or renderer subprocesses.
+    child_env.pop('GH_TOKEN',None)
+    r=subprocess.run(cmd,cwd=str(ROOT),env=child_env,capture_output=True,text=True,encoding='utf-8',errors='replace')
     if r.stdout:print(r.stdout,end='',flush=True)
     if r.stderr:print(r.stderr,end='',flush=True)
     return r
@@ -70,11 +74,25 @@ def restore_cached_voice(rid):
     for item in records:shutil.copy2(work/'cards'/item['name'],dest/item['name'])
     print('Restored exact-script cached voice cards; hashes verified. No new voice request.',flush=True)
 
+def commit_selection_history(rid):
+    try:
+        r2=subprocess.run([PY,'scripts/km_selection.py','commit','stories/'+rid+'.json','out/'+rid+'.mp4'],cwd=str(ROOT),capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
+        print((r2.stdout or '').strip() or ('NOTE: variety history not updated: '+(r2.stderr or '').strip()[-200:]),flush=True)
+    except Exception as e:print('NOTE: variety history not updated ('+str(e)[:120]+'); reel is fine.',flush=True)
+
 def voice_and_render(rid,recover=False):
+    from scripts.km_artifacts import valid_mp4
+    out=ROOT/'out'/(rid+'.mp4')
+    if valid_mp4(out):
+        print('REUSING saved rendered mp4 for '+rid+'; skipping voice generation and render.',flush=True)
+        commit_selection_history(rid)
+        return 0
     restore_cached_voice(rid)
     auto_path=None
     rel='stories/'+rid+'.json'
-    r=run([PY,'scripts/gemini_voice.py',rel]+(['--recover-missing'] if recover else []))
+    voice_args=[PY,'scripts/gemini_voice.py',rel]
+    if recover:voice_args.extend(['--recover-missing','--retry-verified-no-audio'])
+    r=run(voice_args)
     if r.returncode==3:
         matches=re.findall(r'^STAGED CARDS:\s*(.+)$',r.stdout,re.M)
         if not matches:
@@ -91,20 +109,56 @@ def voice_and_render(rid,recover=False):
         print('STOP: voice step stopped. Saved audio/attempt markers kept; no automatic retry or render.',flush=True);return r.returncode
     r=run([NPM,'run','reel','--',rel])
     if r.returncode:print('STOP: render stopped; saved voice kept.');return r.returncode
-    out=ROOT/'out'/(rid+'.mp4')
-    if not out.is_file() or out.stat().st_size==0:print('STOP: renderer output missing/empty.');return 2
+    if not valid_mp4(out):print('STOP: renderer output is not a complete MP4.');return 2
     print('\nREADY: '+str(out),flush=True)
-    try:
-        # Variety history: counted only now, after a real, non-empty render. Never blocks or fails a reel.
-        r2=subprocess.run([PY,'scripts/km_selection.py','commit','stories/'+rid+'.json','out/'+rid+'.mp4'],cwd=str(ROOT),capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=120)
-        print((r2.stdout or '').strip() or ('NOTE: variety history not updated: '+(r2.stderr or '').strip()[-200:]),flush=True)
-    except Exception as e:print('NOTE: variety history not updated ('+str(e)[:120]+'); reel is fine.',flush=True)
+    # Variety history: counted only now, after a real, non-empty render.
+    commit_selection_history(rid)
     if auto_path:print('Voice auto-accepted from acoustic checks only, not human-heard. Staged cards: '+str(auto_path),flush=True)
     return 0
 
 def inbox_ids():
     p=ROOT/'inbox'
     return {d.name for d in p.iterdir() if d.is_dir() and re.fullmatch(r'[A-Za-z0-9_-]+',d.name)} if p.exists() else set()
+
+def pending_ids(limit=5):
+    dp=ROOT/'out'/'done.txt'
+    done=set(dp.read_text(encoding='utf-8').split()) if dp.exists() else set()
+    folders=[ROOT/'inbox'/sid for sid in inbox_ids() if sid not in done and not sid.startswith('SAMPLE-')]
+    folders.sort(key=lambda p:(p.stat().st_mtime_ns,p.name))
+    return [p.name for p in folders[:limit]]
+
+def process_stories(ids,recover=False):
+    """Try every selected approved story; one failure never exits the batch loop."""
+    prepared=[];failed=[]
+    for rid in ids:
+        print('SELECTED ONLY: '+rid,flush=True)
+        try:
+            if ensure_layout(rid,always=True):prepared.append(rid)
+            else:failed.append(rid)
+        except Exception as e:
+            failed.append(rid)
+            print('STORY FAILED (continuing queue): '+rid+' | layout '+type(e).__name__+': '+str(e)[:220],flush=True)
+    if prepared:
+        try:
+            from scripts.km_artifacts import restore_pending,valid_mp4
+            stories={rid:valid_story(rid) for rid in prepared if not valid_mp4(ROOT/'out'/(rid+'.mp4'))}
+            if stories:restore_pending(stories)
+        except Exception as e:
+            # Artifact lookup is an optimization. A normal render remains the fallback.
+            print('NOTE: reusable artifact lookup failed softly ('+type(e).__name__+'); rendering any missing mp4.',flush=True)
+    for rid in prepared:
+        try:
+            code=voice_and_render(rid,recover=recover)
+            if code:
+                failed.append(rid)
+                print('STORY FAILED (continuing queue): '+rid+' | pipeline exit '+str(code),flush=True)
+        except Exception as e:
+            failed.append(rid)
+            print('STORY FAILED (continuing queue): '+rid+' | '+type(e).__name__+': '+str(e)[:220],flush=True)
+    succeeded=[rid for rid in prepared if rid not in failed]
+    print('BATCH COMPLETE: %s succeeded; %s failed.'%(len(succeeded),len(failed)),flush=True)
+    if failed:print('FAILED STORY IDS: '+', '.join(dict.fromkeys(failed)),flush=True)
+    return 1 if failed else 0
 
 def main():
     args=sys.argv[1:]
@@ -116,19 +170,17 @@ def main():
     if args:ids=args
     else:
         r=run([PY,'producer.py','--once'])
-        if r.returncode:return r.returncode
-        dp=ROOT/'out'/'done.txt';done=set()
-        if dp.exists():done={l.strip() for l in dp.read_text(encoding='utf-8').splitlines() if l.strip()}
-        open_ids=[d for d in sorted(inbox_ids()) if d not in done and not d.startswith('SAMPLE-')]
+        producer_code=r.returncode
+        if producer_code:print('NOTE: approval fetch returned exit %s; queued inbox stories will still be processed.'%producer_code,flush=True)
+        open_ids=pending_ids(limit=100000)
         ids=open_ids[:5]
-        if not ids:print('No newly approved row found.');return 0
+        if not ids:
+            if producer_code:return producer_code
+            print('No newly approved row found.');return 0
         if len(open_ids)>5:print('Batch cap 5: '+str(len(open_ids)-5)+' more stories stay for the next run.',flush=True)
-    for rid in ids:
-        print('SELECTED ONLY: '+rid,flush=True)
-        if not ensure_layout(rid,always=True):return 2
-        code=voice_and_render(rid,recover=True)
-        if code:return code
-    return 0
+        batch_code=process_stories(ids,recover=True)
+        return batch_code or producer_code
+    return process_stories(ids,recover=True)
 
 if __name__=='__main__':
     try:sys.exit(main())

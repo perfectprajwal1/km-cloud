@@ -117,7 +117,7 @@ def write_receipt(sid, network, data, owner):
 def mark_done(sid):
     path = 'out/done/'+sid+'.json'
     data = dict(story_id=sid, drive_name=sid+'.mp4', workflow_run_id=os.environ.get('GITHUB_RUN_ID',''),
-                publisher_version='5.7', publish_pending=True)
+                publisher_version='5.8', publish_pending=True)
     def build(head):
         old = read_at(head,path)
         done = set((read_at(head,'out/done.txt') or b'').decode().split())
@@ -183,12 +183,17 @@ def selection_history():
         return {HISTORY: encoded(merged)}
     transaction(build, 'KM variety history')
 
-def notification_claim(sid, body):
-    path = 'out/notifications/'+sid+'.json'
+def notification_claim(sid, body, event='summary'):
+    if not re.fullmatch(r'[A-Za-z0-9_-]+', sid) or not re.fullmatch(r'[a-z0-9_-]+', event):
+        raise StateError('invalid notification identity')
+    # Keep the original summary claim path for compatibility. Each later event
+    # gets its own durable idempotency key, so an early deferred note cannot
+    # consume the eventual published-success notice.
+    path = 'out/notifications/'+sid+('.json' if event == 'summary' else '_'+event+'.json')
     owner = str(uuid.uuid4())
     def build(head):
         old = decode(read_at(head,path), {})
-        if old and old.get('attempt_id') != owner:
+        if old and old.get('state') != 'failed' and old.get('attempt_id') != owner:
             raise StateError('notification already claimed; suppressed')
         return {path:encoded(dict(story_id=sid,state='claimed',attempt_id=owner,body=body))}
     transaction(build, 'KM one notification '+sid)
@@ -216,11 +221,43 @@ def publish_candidates():
     for p in names:
         obj = decode(read_at(head,p), {})
         sid = obj.get('story_id','')
-        if obj.get('publisher_version') != '5.7' or not re.fullmatch(r'[A-Za-z0-9_-]+',sid): continue
+        if obj.get('publisher_version') not in ('5.7','5.8') or not re.fullmatch(r'[A-Za-z0-9_-]+',sid): continue
         enabled = ('tiktok','youtube','linkedin') + (('facebook','instagram','threads') if os.environ.get('META_ENABLE','false').lower() == 'true' else ())
         if any(decode(read_at(head,'out/buffer_receipts/'+sid+'_'+n+'.json'),{}).get('state') not in ('accepted','pending','unknown') for n in enabled):
             ids.append(sid)
     return sorted(ids)[:5]
+
+def published_candidates():
+    """Return proven fully accepted reels needing a success WhatsApp event.
+
+    New 5.8 reels are eligible. For the one legacy gap this also backfills a
+    reel whose old at-most-once message explicitly said posting was deferred.
+    All currently enabled platform receipts must be accepted before a success
+    message is claimed.
+    """
+    head = latest()
+    names = git('ls-tree','-r','--name-only',head,'--','out/done').stdout.decode().splitlines()
+    enabled = ('tiktok','youtube','linkedin')
+    if os.environ.get('META_ENABLE','false').lower() == 'true':
+        enabled += ('facebook','instagram','threads')
+    ids = []
+    for done_path in names:
+        obj = decode(read_at(head,done_path), {})
+        sid = obj.get('story_id','')
+        if not re.fullmatch(r'[A-Za-z0-9_-]+',sid):
+            continue
+        is_current = obj.get('publisher_version') == '5.8'
+        if not is_current:
+            old_notice = decode(read_at(head,'out/notifications/'+sid+'.json'), {})
+            body = str(old_notice.get('body',''))
+            is_legacy_gap = old_notice.get('state') == 'sent' and 'Posting deferred or reel incomplete.' in body
+            if not is_legacy_gap:
+                continue
+        notice = decode(read_at(head,'out/notifications/'+sid+'_published.json'),{})
+        if notice and notice.get('state') != 'failed': continue
+        if all(decode(read_at(head,'out/buffer_receipts/'+sid+'_'+network+'.json'),{}).get('state') == 'accepted' for network in enabled):
+            ids.append(sid)
+    return sorted(ids)
 
 if __name__ == '__main__':
     import sys
@@ -234,6 +271,7 @@ if __name__ == '__main__':
                 if not re.fullmatch(r'[A-Za-z0-9_-]+',sid): raise StateError('bad story ID')
                 mark_done(sid)
         elif op == 'candidates': print('\n'.join(publish_candidates()))
+        elif op == 'published-candidates': print('\n'.join(published_candidates()))
         else: raise StateError('unknown command')
     except Exception as e:
         print('STATE STOP:', str(e)); sys.exit(1)

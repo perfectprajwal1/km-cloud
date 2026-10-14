@@ -77,6 +77,61 @@ def normalize(text,vocab):
 def letters(s):return ''.join(ch for ch in unicodedata.normalize('NFC',s) if unicodedata.category(ch)[0] in ('L','M'))
 def similarity(a,b):return difflib.SequenceMatcher(None,letters(a),letters(b),autojunk=False).ratio()
 
+def soft_cut_points(samples,rate,texts):
+    """Return ordered best-effort cuts for an already-approved half.
+
+    Prefer quiet valleys close to narration-length estimates. If CTC cannot
+    certify a boundary, choose the quietest nearby sample window and keep the
+    complete original audio. This fallback is deliberately labeled unverified.
+    """
+    import numpy as np
+    if not texts or rate<=0 or len(samples)<2:raise AlignmentStop('No audio samples available for soft split.')
+    count=len(texts);duration=len(samples)/rate
+    if count==1:return []
+    if duration<=0:raise AlignmentStop('No audio duration available for soft split.')
+    scale=1.0 if float(np.max(np.abs(samples)))<=1.0 else 32768.0
+    weights=[max(1,len(letters(spoken_form(str(t))[0]))) for t in texts]
+    total=sum(weights);hop=max(1,round(rate*.01));rms=[];times=[]
+    for start in range(0,len(samples),hop):
+        block=np.asarray(samples[start:min(start+hop,len(samples))],dtype=np.float32)/scale
+        rms.append(float(np.sqrt(np.mean(block*block))) if len(block) else 0.0)
+        times.append((start+min(hop,len(samples)-start)/2)/rate)
+    # Collect pauses long enough to be useful, without requiring a pause to
+    # exist. Fallback candidates below still make a complete ordered split.
+    valleys=[];start=None
+    for i,silent in enumerate([v<.006 for v in rms]+[False]):
+        if silent and start is None:start=i
+        elif not silent and start is not None:
+            if (i-start)*.01>=.12:
+                valleys.append(((times[start]+times[i-1])/2,(i-start)*.01))
+            start=None
+    cuts=[];cumulative=0;previous=0.0
+    minimum=min(.4,duration/(count*2))
+    for index,weight in enumerate(weights[:-1]):
+        cumulative+=weight
+        ideal=duration*cumulative/total
+        remaining=count-index-1
+        low=previous+minimum;high=duration-remaining*minimum
+        if high<=low:
+            low=previous+1/rate;high=duration-(remaining-1)/rate
+        candidates=[(t,span) for t,span in valleys if low<t<high and t not in cuts]
+        if candidates:
+            cut=min(candidates,key=lambda x:abs(x[0]-ideal)-min(.20,x[1]*.25))[0]
+        else:
+            eligible=[i for i,t in enumerate(times) if low<t<high]
+            if eligible:
+                # Duration proximity has a small weight so a quiet valley near
+                # the intended line boundary beats a random global minimum.
+                near=[i for i in eligible if abs(times[i]-ideal)<=.35]
+                pool=near or eligible
+                cut=times[min(pool,key=lambda i:rms[i]+.08*abs(times[i]-ideal))]
+            else:cut=(low+high)/2
+        sample=max(round((previous+1/rate)*rate),min(round(cut*rate),round((duration-remaining/rate)*rate)))
+        cut=sample/rate
+        if cuts and cut<=cuts[-1]:cut=(round(cuts[-1]*rate)+1)/rate
+        cuts.append(cut);previous=cut
+    return cuts
+
 class Engine:
     def __init__(self,model_dir):
         self.path=Path(model_dir).resolve()
@@ -160,6 +215,7 @@ class Engine:
         if len(choices)>1 and best['quality']-choices[1]['quality']<.08:
             raise AlignmentStop('Ambiguous card set: multiple text subsets fit. Originals kept; no guessed cut or recovery request.')
         missing=[i for i in range(len(texts)) if i not in best['selected']]
+        partial=[]
         if missing:
             # A weak score alone is insufficient proof of absence. Require the
             # omitted text to have little match anywhere in the greedy transcript.
@@ -168,8 +224,12 @@ class Engine:
                 target=letters(texts[i]);width=max(1,len(target));matches=[]
                 for start in range(0,len(heard),max(1,width//8)):
                     matches.append(similarity(target,heard[start:start+width]))
-                if matches and max(matches)>.55:raise AlignmentStop('Possible partial missing card %s: words may overlap existing audio. Stop, review; no recovery request.'%(i+1))
-        return {**best,'missing':missing,'alternatives':len(choices)}
+                if matches and max(matches)>.55:partial.append(i)
+        # A partial text match is not proof that the card is absent. Keep it
+        # out of the isolated-card recovery path; analyze() will split the
+        # retained half softly so existing spoken words are never duplicated.
+        missing=[i for i in missing if i not in partial]
+        return {**best,'missing':missing,'partial_missing':partial,'alternatives':len(choices)}
     def joint_cuts(self,a,rate,brackets,segments):
         import numpy as np
         rows=[];duration=len(a)/rate
@@ -231,6 +291,12 @@ class Engine:
         original_texts=list(texts);spoken=[spoken_form(x) for x in texts]
         texts=self.check_texts(texts);a,rate,lp,greedy=self.infer(master,cache);duration=len(a)/rate
         fit=self.subset(lp,duration,texts,greedy)
+        if fit.get('partial_missing'):
+            cuts=soft_cut_points(a,rate,texts)
+            result={'spoken_form_version':SP_NUMBER_REVISION,'alignment_targets':[{'original':x,'spoken':y[0],'mapping':y[1]} for x,y in zip(original_texts,spoken)],'engine':VERSION,'model_revision':REVISION,'master_sha256':digest(master),'greedy':greedy,'present_indices':list(range(len(texts))),'missing_indices':[],'partial_missing_indices':fit['partial_missing'],'transcript_char_match':fit['ratio'],'scores':[float(x[2]) for x in fit['segments']],'cuts_sec':cuts,'boundaries':[],'best_effort':True,'fallback_reason':'CTC found a possible partial match; original half retained and divided without a duplicate voice request.','gates':'SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified.'}
+            Path(cache).mkdir(parents=True,exist_ok=True)
+            (Path(cache)/'ctc_alignment.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+            return result
         cuts,rows=self.joint_cuts(a,rate,fit['brackets'],fit['segments'])
         # Stability: keep the same present subset and compare alignment after
         # tiny time-origin perturbations. This is not a calibrated accuracy bound.
@@ -242,3 +308,18 @@ class Engine:
         result={'spoken_form_version':SP_NUMBER_REVISION,'alignment_targets':[{'original':x,'spoken':y[0],'mapping':y[1]} for x,y in zip(original_texts,spoken)],'engine':VERSION,'model_revision':REVISION,'master_sha256':digest(master),'greedy':greedy,'present_indices':fit['selected'],'missing_indices':fit['missing'],'transcript_char_match':fit['ratio'],'scores':[float(x[2]) for x in fit['segments']],'cuts_sec':cuts,'boundaries':rows,'gates':'provisional thresholds; card listening review still required'}
         (Path(cache)/'ctc_alignment.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
         return result
+
+def best_effort_alignment(master,texts,cache,reason):
+    """Split retained, valid audio when local alignment rejects the half.
+
+    This is a reliability fallback for an approved story. It does not request
+    or alter narration; reports clearly state that word identity is unverified.
+    """
+    from gemini_voice import read_wav
+    rate,values=read_wav(master)
+    if not texts:raise AlignmentStop('No story cards available for soft audio split.')
+    cuts=soft_cut_points(values,rate,texts)
+    result={'engine':VERSION,'model_revision':REVISION,'master_sha256':digest(master),'present_indices':list(range(len(texts))),'missing_indices':[],'partial_missing_indices':[],'cuts_sec':cuts,'boundaries':[],'best_effort':True,'fallback_reason':str(reason)[:500],'gates':'SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified.'}
+    target=Path(cache);target.mkdir(parents=True,exist_ok=True)
+    (target/'ctc_alignment.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+    return result
