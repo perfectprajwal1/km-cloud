@@ -1,0 +1,61 @@
+{
+  "master_sha256": "666911719622de2bf84c03d75518976643db102e0cb60662c78b570a6507617f",
+  "cuts_sec": [
+    2.325,
+    5.25,
+    6.345
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+      "master_start_sec": 0.0,
+      "master_end_sec": 2.325,
+      "duration_sec": 2.325,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 2,
+      "expected_text": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+      "master_start_sec": 2.325,
+      "master_end_sec": 5.25,
+      "duration_sec": 2.925,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 3,
+      "expected_text": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+      "master_start_sec": 5.25,
+      "master_end_sec": 6.345,
+      "duration_sec": 1.095,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": false
+    },
+    {
+      "card": 4,
+      "expected_text": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+      "master_start_sec": 6.345,
+      "master_end_sec": 7.611,
+      "duration_sec": 1.266,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "boundary_in_silence": true
+    }
+  ],
+  "soft_fallback": true,
+  "fallback_note": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. CTC found a possible partial match; original half retained and divided without a duplicate voice request."
+}

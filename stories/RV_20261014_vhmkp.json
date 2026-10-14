@@ -175,8 +175,8 @@
       "ph": 100
      },
      "icons": {
-      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
-      "medal": "<circle pathLength=\"1\" cx=\"12\" cy=\"15\" r=\"5\"/><path pathLength=\"1\" d=\"M8.5 3l3.5 7 3.5-7\"/>"
+      "medal": "<circle pathLength=\"1\" cx=\"12\" cy=\"15\" r=\"5\"/><path pathLength=\"1\" d=\"M8.5 3l3.5 7 3.5-7\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
      }
     }
    }

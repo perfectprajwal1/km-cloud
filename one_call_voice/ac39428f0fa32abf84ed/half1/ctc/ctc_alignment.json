@@ -1,0 +1,86 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "alignment_targets": [
+    {
+      "original": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+      "spoken": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+      "mapping": []
+    },
+    {
+      "original": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+      "spoken": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+      "mapping": []
+    },
+    {
+      "original": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+      "spoken": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, उन्नाइस वर्षमुनिकी सेमिहाङ्मा पङ्धाक र सत्र वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+      "mapping": [
+        {
+          "original": "१९",
+          "spoken": "उन्नाइस",
+          "start": 43,
+          "end": 45,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१७",
+          "spoken": "सत्र",
+          "start": 77,
+          "end": 79,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+      "spoken": "खेलाडीहरूलाई जनही रु पचास हजारका दरले कुल रु एक लाख पचास हजार रकम प्रदान गरिएको छ।",
+      "mapping": [
+        {
+          "original": "५०",
+          "spoken": "पचास",
+          "start": 21,
+          "end": 23,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "५०",
+          "spoken": "पचास",
+          "start": 50,
+          "end": 52,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "666911719622de2bf84c03d75518976643db102e0cb60662c78b570a6507617f",
+  "greedy": "तेह्र थुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलिका खेलाडीहरूलाई किन आर्थेक शहयोग प्रदान भयो ",
+  "present_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "missing_indices": [],
+  "partial_missing_indices": [
+    1
+  ],
+  "transcript_char_match": 0.9659090909090909,
+  "scores": [
+    -0.4373324182345641
+  ],
+  "cuts_sec": [
+    2.325,
+    5.25,
+    6.345
+  ],
+  "boundaries": [],
+  "best_effort": true,
+  "fallback_reason": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+}

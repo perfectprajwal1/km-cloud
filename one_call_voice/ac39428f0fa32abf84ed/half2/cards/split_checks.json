@@ -1,0 +1,48 @@
+{
+  "master_sha256": "c822584d73df063f38746803f31dc62908ff7c971e4452a3cb0f9e7d7f9553d9",
+  "cuts_sec": [
+    9.822916666666668,
+    18.881500000000003
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+      "master_start_sec": 0.1,
+      "master_end_sec": 7.9,
+      "duration_sec": 7.8,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 2,
+      "expected_text": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+      "master_start_sec": 11.863,
+      "master_end_sec": 17.043,
+      "duration_sec": 5.18,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "boundary_in_silence": true
+    },
+    {
+      "card": 3,
+      "expected_text": "महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 20.782,
+      "master_end_sec": 27.322,
+      "duration_sec": 6.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "boundary_in_silence": true
+    }
+  ],
+  "soft_fallback": false,
+  "fallback_note": "",
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

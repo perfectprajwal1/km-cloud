@@ -1,0 +1,224 @@
+{
+  "design": "ctc_missing_v1",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    2.325,
+    5.25,
+    6.345,
+    8.610958333333333,
+    19.433875,
+    28.492458333333335
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "original_master_sha256": "666911719622de2bf84c03d75518976643db102e0cb60662c78b570a6507617f",
+      "used_master_sha256": "666911719622de2bf84c03d75518976643db102e0cb60662c78b570a6507617f",
+      "seconds": 7.6109583333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+            "spoken": "तेह्रथुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलीका खेलाडीहरूलाई किन आर्थिक सहयोग प्रदान भयो?",
+            "mapping": []
+          },
+          {
+            "original": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+            "spoken": "ग्लोबल तेह्रथुम सेवा समाज दक्षिण कोरियाले राष्ट्रिय स्तरका यी महिला खेलाडीहरूलाई आर्थिक सहयोग प्रदान गरेको छ।",
+            "mapping": []
+          },
+          {
+            "original": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, १९ वर्षमुनिकी सेमिहाङ्मा पङ्धाक र १७ वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+            "spoken": "सहयोग पाउनेमा राष्ट्रिय टोलीकी अनु बस्नेत, उन्नाइस वर्षमुनिकी सेमिहाङ्मा पङ्धाक र सत्र वर्षमुनिकी साहारा तुम्बाहाम्फे हुनुहुन्छ।",
+            "mapping": [
+              {
+                "original": "१९",
+                "spoken": "उन्नाइस",
+                "start": 43,
+                "end": 45,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१७",
+                "spoken": "सत्र",
+                "start": 77,
+                "end": 79,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "खेलाडीहरूलाई जनही रु ५० हजारका दरले कुल रु एक लाख ५० हजार रकम प्रदान गरिएको छ।",
+            "spoken": "खेलाडीहरूलाई जनही रु पचास हजारका दरले कुल रु एक लाख पचास हजार रकम प्रदान गरिएको छ।",
+            "mapping": [
+              {
+                "original": "५०",
+                "spoken": "पचास",
+                "start": 21,
+                "end": 23,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "५०",
+                "spoken": "पचास",
+                "start": 50,
+                "end": 52,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "666911719622de2bf84c03d75518976643db102e0cb60662c78b570a6507617f",
+        "greedy": "तेह्र थुमबाट प्रतिनिधित्व गर्ने राष्ट्रिय महिला फुटबल टोलिका खेलाडीहरूलाई किन आर्थेक शहयोग प्रदान भयो ",
+        "present_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "missing_indices": [],
+        "partial_missing_indices": [
+          1
+        ],
+        "transcript_char_match": 0.9659090909090909,
+        "scores": [
+          -0.4373324182345641
+        ],
+        "cuts_sec": [
+          2.325,
+          5.25,
+          6.345
+        ],
+        "boundaries": [],
+        "best_effort": true,
+        "fallback_reason": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+        "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "original_master_sha256": "c822584d73df063f38746803f31dc62908ff7c971e4452a3cb0f9e7d7f9553d9",
+      "used_master_sha256": "c822584d73df063f38746803f31dc62908ff7c971e4452a3cb0f9e7d7f9553d9",
+      "seconds": 28.210958333333334,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+            "spoken": "खेलाडीहरूको खेलप्रतिको समर्पणलाई प्रोत्साहन गर्न र मनोबल उच्च राख्न यो सहयोग दिइएको संस्थाले बताएको छ।",
+            "mapping": []
+          },
+          {
+            "original": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+            "spoken": "काठमाडौँमा आयोजित कार्यक्रममार्फत खेलाडीहरूलाई यो रकम हस्तान्तरण भएको छ।",
+            "mapping": []
+          },
+          {
+            "original": "महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला? कमेन्टमा भन्नुस्।",
+            "spoken": "महिला फुटबल खेलाडीहरूलाई प्रोत्साहन गर्न यस्ता सहयोगले कस्तो प्रभाव पार्ला? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "c822584d73df063f38746803f31dc62908ff7c971e4452a3cb0f9e7d7f9553d9",
+        "greedy": "खेलाडीहरूको खेल प्रतीको समर्पणनलाई प्रोचशाहन गर्न र मनोबल उच्च राख्न यो सहयोग दिएको संस्थाले बताएको छकाठमाडौँमा आयोजित गार्यक र मार्फत खेलाडीहरूलाई यो रकम हस्धान्तरण भएको छमहिला फुटबल खेलाडीहरूलाई प्रोशशाहन गर्न यसता सहयोगले कस्तो प्रभाव पारला कमेन्टमा भन्नुस् ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9515418502202643,
+        "scores": [
+          -0.49390864252582106,
+          -0.8849190204047469,
+          -0.5815030899136218
+        ],
+        "cuts_sec": [
+          9.822916666666668,
+          18.881500000000003
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 7.602953309692672,
+            "right_anchor": 11.924632033096929,
+            "scores": [
+              -0.49390864252582106,
+              -0.8849190204047469
+            ],
+            "candidates": [
+              {
+                "cut": 9.822916666666668,
+                "valley_start": 7.822916666666667,
+                "valley_end": 11.822916666666668,
+                "quiet_sec": 4.0,
+                "rms": 4.030089551463334e-05,
+                "cost": -3.998817520094563
+              }
+            ],
+            "selected": {
+              "cut": 9.822916666666668,
+              "valley_start": 7.822916666666667,
+              "valley_end": 11.822916666666668,
+              "quiet_sec": 4.0,
+              "rms": 4.030089551463334e-05,
+              "cost": -3.998817520094563
+            }
+          },
+          {
+            "left_anchor": 16.74650505319149,
+            "right_anchor": 20.92812937352246,
+            "scores": [
+              -0.8849190204047469,
+              -0.5815030899136218
+            ],
+            "candidates": [
+              {
+                "cut": 18.881500000000003,
+                "valley_start": 16.936500000000002,
+                "valley_end": 20.8265,
+                "quiet_sec": 3.89,
+                "rms": 5.8124478952396184e-05,
+                "cost": -3.8891163442671397
+              }
+            ],
+            "selected": {
+              "cut": 18.881500000000003,
+              "valley_start": 16.936500000000002,
+              "valley_end": 20.8265,
+              "quiet_sec": 3.89,
+              "rms": 5.8124478952396184e-05,
+              "cost": -3.8891163442671397
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "67f6568184313c5e8a6ed040d34f15ff95c5ed79ae8b0f9921db5d661c64651e",
+  "internal_word_completeness": "CTC provisional, listening review required"
+}
