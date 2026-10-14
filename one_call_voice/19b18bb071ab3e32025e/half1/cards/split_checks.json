@@ -1,0 +1,51 @@
+{
+  "master_sha256": "a88c7bc397de8973be97ffcb700f5c84f74f13d88abb8e5d1dd77982e8d2a53b",
+  "cuts_sec": [
+    6.08,
+    14.8,
+    21.28
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 5.08,
+      "duration_sec": 5.08,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+      "master_start_sec": 7.08,
+      "master_end_sec": 13.8,
+      "duration_sec": 6.72,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।",
+      "master_start_sec": 15.8,
+      "master_end_sec": 20.28,
+      "duration_sec": 4.48,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।",
+      "master_start_sec": 22.28,
+      "master_end_sec": 28.791,
+      "duration_sec": 6.511,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

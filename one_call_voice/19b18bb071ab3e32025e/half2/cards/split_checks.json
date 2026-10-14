@@ -1,0 +1,40 @@
+{
+  "master_sha256": "0921687e8714f4eff9efa198afb3bc2621b235bc000e2da98ec6015e75d610b0",
+  "cuts_sec": [
+    7.039,
+    11.511875
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।",
+      "master_start_sec": 0.16,
+      "master_end_sec": 6.68,
+      "duration_sec": 6.52,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+      "master_start_sec": 7.499,
+      "master_end_sec": 11.199,
+      "duration_sec": 3.7,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 11.892,
+      "master_end_sec": 17.352,
+      "duration_sec": 5.46,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

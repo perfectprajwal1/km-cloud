@@ -1,0 +1,17 @@
+{
+  "master_sha256": "83afeb28af89d18ae19d6a0d935c033278852ad83be0931327020a0d8ed9b6f5",
+  "cuts_sec": [],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।",
+      "master_start_sec": 0.18,
+      "master_end_sec": 6.691,
+      "duration_sec": 6.511,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

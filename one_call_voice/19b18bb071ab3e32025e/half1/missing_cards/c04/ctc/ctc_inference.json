@@ -1,0 +1,8 @@
+{
+  "master_sha256": "83afeb28af89d18ae19d6a0d935c033278852ad83be0931327020a0d8ed9b6f5",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "engine": "km-onnx-int8-1",
+  "greedy": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयर्लीको नित्यत्वमा पाँच सदसीय टोलीले शिप सिकाउँदै छ ",
+  "duration": 6.690958333333334,
+  "logp_sha256": "ce0dd0b026b9a13d45fd4dafb6bda734da39f44e365468763f891d8c24ea30e9"
+}

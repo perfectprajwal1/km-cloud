@@ -1,0 +1,84 @@
+{
+  "master_sha256": "39e8b79ce9ff39bbaff4fbb51ccf1cffd65bd1c5f3d35c9b21716e82a9ee9073",
+  "cuts_sec": [
+    6.08,
+    14.8,
+    21.28,
+    29.790958333333332,
+    37.82995833333333,
+    42.30283333333333
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नेपालमा पहिलोपटक ह्विलचेयर रग्बी विकास प्रशिक्षण सुरु भएको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 5.08,
+      "duration_sec": 5.08,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 2,
+      "expected_text": "ह्विलचेयर रग्बी संघ नेपालको आयोजनामा त्रिपुरेश्वरस्थित राखेप कभर्डहलमा यो कार्यक्रम सुरु भएको हो।",
+      "master_start_sec": 7.08,
+      "master_end_sec": 13.8,
+      "duration_sec": 6.72,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 3,
+      "expected_text": "तीन दिनसम्म चल्ने यस सेसनमा नेपालका १४ खेलाडी सहभागी छन्।",
+      "master_start_sec": 15.8,
+      "master_end_sec": 20.28,
+      "duration_sec": 4.48,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 4,
+      "expected_text": "अमेरिकी प्रशिक्षक माइकल स्टिभ केयरलीको नेतृत्वमा पाँच सदस्यीय टोलीले सीप सिकाउँदैछ।",
+      "master_start_sec": 22.28,
+      "master_end_sec": 28.82,
+      "duration_sec": 6.54,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 5,
+      "expected_text": "यसले नेपाली खेलाडीलाई क्षेत्रीय र अन्तर्राष्ट्रिय प्रतिस्पर्धामा पुग्न बाटो खोल्ने अपेक्षा छ।",
+      "master_start_sec": 30.951,
+      "master_end_sec": 37.471,
+      "duration_sec": 6.52,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 6,
+      "expected_text": "काठमाडौंमा यो तीनदिने अन्तर्राष्ट्रिय प्रशिक्षण जारी छ।",
+      "master_start_sec": 38.29,
+      "master_end_sec": 41.99,
+      "duration_sec": 3.7,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    },
+    {
+      "card": 7,
+      "expected_text": "नेपालमा यस्तो पारा खेलकुद विकासबारे तपाईंको सोच के छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 42.683,
+      "master_end_sec": 48.143,
+      "duration_sec": 5.46,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words."
+    }
+  ],
+  "check_result": "Acoustic cuts/mono PCM/energy checks PASS. Word identity, omissions, order and spoken repeats REQUIRE listening."
+}

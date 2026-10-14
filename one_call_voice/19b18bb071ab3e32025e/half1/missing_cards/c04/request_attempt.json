@@ -1,1 +1,18 @@
-{"model": "gemini-2.5-flash-preview-tts", "voice": "Sadachbia", "status": "attempted_once", "automatic_retry": false, "attempts": [{"key_slot": 1, "key_file": "gemini_key.txt", "status": "response_received"}]}
+{
+  "model": "gemini-2.5-flash-preview-tts",
+  "voice": "Sadachbia",
+  "status": "audio_saved",
+  "automatic_retry": false,
+  "manual_no_audio_retries": 1,
+  "last_manual_recovery": {
+    "type": "verified_no_audio",
+    "history": "recovery-0001-1791984648406897931"
+  },
+  "attempts": [
+    {
+      "key_slot": 1,
+      "key_file": "gemini_key.txt",
+      "status": "response_received"
+    }
+  ]
+}

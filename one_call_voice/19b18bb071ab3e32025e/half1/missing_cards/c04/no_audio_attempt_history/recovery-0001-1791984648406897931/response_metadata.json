@@ -1,0 +1,17 @@
+{
+  "finish_reasons": [
+    "OTHER"
+  ],
+  "usage": {
+    "promptTokenCount": 162,
+    "totalTokenCount": 162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 162
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "response_model": "gemini-2.5-flash-preview-tts"
+}
