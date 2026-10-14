@@ -1,4 +1,5 @@
-# v5.7: fresh-main checkout, isolated conflict-aware state commits, durable claims, one notification per reel.
+# v5.8 (2026-10-14): reusable render artifacts, verified Drive retry, soft CTC fallback, and separate delivery events.
+# v5.7: fresh-main checkout, isolated conflict-aware state commits, durable claims, one summary notification per reel.
 # v5.6: connected Buffer channels; durable per-platform receipts; dry-run is read-only.
 # v5.5 (2026-10-12): TikTok auto-post. After the Drive upload and done-marking, each new reel is copied to the public repo km-media (GitHub Pages), the run waits until its URL serves the mp4, then Buffer posts it to the TikTok channel (caption from the package with the source line removed, max 5 hashtags). Soft step: any failure only sends a WhatsApp notice, the render and the Drive copy are untouched. Needs secrets BUFFER_API_KEY and GH_PAT; without them the step is skipped. Nothing else changed.
 # v5.4.1 (2026-10-12): done-marking was silently lost - git pull --rebase died on unstaged changes and the push never happened, so uploaded reels were never marked done and every run re-rendered them (and the WhatsApp text was the only step that fired... into a Meta error). Fix: git add -u stages every tracked change before commit, rebase failures abort cleanly, push retries 3x then turns the run red instead of failing silently.
@@ -28,6 +29,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: km-reel
@@ -129,6 +131,8 @@ jobs:
           echo "key files written (not shown)"
 
       - name: Run the reel (voice, render, loudness, outro)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set +e
           cat > /tmp/km_watch.sh <<'W'
@@ -225,13 +229,19 @@ jobs:
           # Exact allowlist; no git add -u that could commit renderer edits.
           python scripts/km_state.py progress
 
-      - name: Save the mp4 as a download
+      - name: Add reusable-render manifests
+        if: always()
+        run: python scripts/km_artifacts.py manifest
+
+      - name: Save rendered mp4s and manifests as reusable artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: reel-${{ github.event.inputs.story_id || 'new' }}
-          path: out/*.mp4
-          retention-days: 3
+          name: km-reels-${{ github.run_id }}
+          path: |
+            out/*.mp4
+            out/*.mp4.json
+          retention-days: 7
           if-no-files-found: warn
 
       - name: Upload the logs (always)
@@ -245,40 +255,15 @@ jobs:
           retention-days: 3
           if-no-files-found: warn
 
-      - name: Upload the mp4 to Google Drive
+      - name: Upload rendered mp4s to Google Drive (retry and verify)
+        id: drive_upload
         if: ${{ !cancelled() }}
         env:
           DRIVE_TOKEN_URL: ${{ secrets.DRIVE_TOKEN_URL }}
           DRIVE_TOKEN_SECRET: ${{ secrets.DRIVE_TOKEN_SECRET }}
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
-        run: |
-          set +e
-          [ -f /tmp/km_ok ] || { echo "no mp4 to upload"; exit 0; }
-          echo "MARK drive-upload-start $(date -u +%H:%M:%S)"
-          if [ -z "$DRIVE_TOKEN_URL" ] || [ -z "$DRIVE_TOKEN_SECRET" ] || [ -z "$DRIVE_FOLDER_ID" ]; then
-            echo "Drive secrets not set, skipping Drive upload. The mp4 is in Artifacts."; echo skipped > /tmp/km_drive; exit 0
-          fi
-          TOKLOC=$(curl -s -D - -o /dev/null --max-time 60 -X POST -H 'Content-Type: text/plain' --data "$DRIVE_TOKEN_SECRET" "$DRIVE_TOKEN_URL" | grep -i '^location:' | sed 's/^location: //I' | tr -d '\r')
-          if [ -z "$TOKLOC" ]; then echo "script gave no redirect, check the URL"; fi
-          sleep 2
-          RESP=$(curl -s --max-time 60 "$TOKLOC")
-          TOKEN=$(printf '%s' "$RESP" | python3 -c "import sys,json; print(json.load(sys.stdin).get('token',''))" 2>/dev/null)
-          if [ -z "$TOKEN" ]; then echo "Could not get a Drive token (wrong URL/secret, or the script is not deployed as Anyone)."; echo failed > /tmp/km_drive; exit 0; fi
-          echo "::add-mask::$TOKEN"
-          for f in out/*.mp4; do
-            [ -s "$f" ] || continue
-            NAME=$(basename "$f")
-            EXIST=$(curl -s --max-time 30 -H "Authorization: Bearer $TOKEN" "https://www.googleapis.com/drive/v3/files?q=name%3D%27$NAME%27+and+%27$DRIVE_FOLDER_ID%27+in+parents+and+trashed%3Dfalse&fields=files(id)" | python3 -c "import sys,json;d=json.load(sys.stdin);f=d.get('files') or [];print(f[0]['id'] if f else '')" 2>/dev/null)
-            if [ -n "$EXIST" ]; then echo "$NAME already in Drive (id $EXIST), skipping re-upload"; echo "ok $NAME" >> /tmp/km_drive; continue; fi
-            META=$(python3 -c "import json,sys; print(json.dumps({'name':sys.argv[1],'parents':[sys.argv[2]]}))" "$NAME" "$DRIVE_FOLDER_ID")
-            curl -s -D /tmp/hdr.txt -o /dev/null --max-time 60 -X POST "https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable&supportsAllDrives=true" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json; charset=UTF-8" -H "X-Upload-Content-Type: video/mp4" -d "$META"
-            LOC=$(grep -i '^location:' /tmp/hdr.txt | head -1 | cut -d' ' -f2- | tr -d '\r\n')
-            if [ -z "$LOC" ]; then echo "Drive refused to start the upload for $NAME:"; head -1 /tmp/hdr.txt; echo failed > /tmp/km_drive; continue; fi
-            OUT=$(curl -s --max-time 900 -X PUT --data-binary "@$f" -H "Content-Type: video/mp4" "$LOC")
-            ID=$(printf '%s' "$OUT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('id',''))" 2>/dev/null)
-            if [ -n "$ID" ]; then echo "Uploaded $NAME to Drive: https://drive.google.com/file/d/$ID/view"; echo "ok $NAME" >> /tmp/km_drive; else echo "Upload failed for $NAME"; printf '%s' "$OUT" | head -c 300; echo; echo failed > /tmp/km_drive; fi
-          done
-          echo "MARK drive-upload-end $(date -u +%H:%M:%S)"
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/km_drive_upload.py
 
       - name: Persist Drive completion before publishing
         id: drive_state
@@ -329,6 +314,7 @@ jobs:
           WA_TOKEN: ${{ secrets.WA_TOKEN }}
           WA_PHONE_ID: ${{ secrets.WA_PHONE_ID }}
           WA_TO: ${{ secrets.WA_TO }}
+          META_ENABLE: ${{ vars.META_ENABLE || 'false' }}
           KM_JOB_STATUS: ${{ job.status }}
         run: python scripts/km_notify.py
 
@@ -363,7 +349,12 @@ jobs:
           {
             echo "## KM reel summary"
             echo "story: ${SHOW:-(none - nothing rendered)} | mode: $MODE | cores: $(nproc)"
+            if grep -qEi 'FACT CHECK:|NOTE \(built because you approved it\):' /tmp/km_run.log 2>/dev/null; then
+              echo "### Approved-script notes"
+              grep -Ei 'FACT CHECK:|NOTE \(built because you approved it\):' /tmp/km_run.log || true
+            fi
             if [ -f /tmp/km_already_done ]; then echo "SKIP: already in Drive on latest main; no new render or message."; elif [ -f /tmp/km_ok ]; then echo "PASS: mp4 made in ${SECS}s. Download it from Artifacts at the bottom of this page."; echo "Drive upload: $(cat /tmp/km_drive 2>/dev/null | tr '\n' ' ' || echo not run)"; else echo "NOT DONE (exit $RC) after ${SECS}s. Voice progress is saved. Last lines:"; tail -25 /tmp/km_run.log 2>/dev/null; echo "Watchdog tail:"; tail -15 /tmp/km_watch.log 2>/dev/null; fi
+            if grep -q '^failed ' /tmp/km_drive 2>/dev/null; then echo "DELIVERY FAILED: Drive upload did not complete. The saved render is available for automatic retry."; fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Mark the run red if the reel was not made
@@ -371,9 +362,15 @@ jobs:
         run: |
           if [ -f /tmp/km_ok ]; then
             RC=$(cat /tmp/km_rc 2>/dev/null || echo 1)
-            [ "$RC" = 0 ] && exit 0
-            echo "Some reels may be safe in Drive, but the batch did not finish (exit $RC)."
-            exit 1
+            if [ "$RC" != 0 ]; then
+              echo "One or more stories did not render (batch exit $RC). Other stories continued independently."
+              exit 1
+            fi
+            if grep -q '^failed ' /tmp/km_drive 2>/dev/null; then
+              echo "One or more Drive uploads failed after automatic retries. The run is red; saved mp4 artifacts will be reused on a later run."
+              exit 1
+            fi
+            exit 0
           fi
           if grep -q "No newly approved row found" /tmp/km_run.log 2>/dev/null; then echo "Nothing new in the Sheet: not an error."; exit 0; fi
           echo "Reel NOT made, see the summary above."
