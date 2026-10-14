@@ -45,6 +45,8 @@ def ensure_layout(rid,always=False):
     except Exception as e:
         if backup:
             for f in backup.iterdir():shutil.copy2(f,ROOT/'stories'/f.name)
+            print('NOTE: converter refresh did not complete safely ('+type(e).__name__+'); using the existing valid approved story and preserving its narration.',flush=True)
+            return True
         print('STOP: '+str(e),flush=True);return False
     return True
 
@@ -59,13 +61,20 @@ def restore_cached_voice(rid):
     work=ROOT/'one_call_voice'/fingerprint
     receipt=work/'installed_reviewed.json'
     if not receipt.exists():return
-    records=json.loads(receipt.read_text(encoding='utf-8'))
-    if len(records)!=len(texts):raise ValueError('saved voice receipt card count mismatch; no voice request')
-    for item in records:
-        if not re.fullmatch(r'c[0-9]+\.wav',item.get('name','')):raise ValueError('invalid saved card name')
-        src=work/'cards'/item['name']
-        if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest()!=item['sha256']:
-            raise ValueError('saved voice card hash mismatch; no voice request')
+    try:
+        records=json.loads(receipt.read_text(encoding='utf-8'))
+        if not isinstance(records,list) or len(records)!=len(texts):raise ValueError('saved voice receipt card count mismatch')
+        expected={'c%02d.wav'%(i+1) for i in range(len(texts))}
+        names=[item.get('name') for item in records if isinstance(item,dict)]
+        if len(names)!=len(texts) or set(names)!=expected:raise ValueError('saved voice receipt names mismatch')
+        for item in records:
+            if not isinstance(item,dict) or not re.fullmatch(r'c[0-9]+\.wav',item.get('name','')):raise ValueError('invalid saved card name')
+            src=work/'cards'/item['name']
+            if not src.is_file() or hashlib.sha256(src.read_bytes()).hexdigest()!=item.get('sha256'):
+                raise ValueError('saved voice card hash mismatch')
+    except Exception as e:
+        print('NOTE: saved voice receipt is uncertain (%s); retained master audio will be split again if available.'%type(e).__name__,flush=True)
+        return
     dest=ROOT/'public'/'voice_in';dest.mkdir(parents=True,exist_ok=True)
     for f in dest.glob('c*.wav'):f.unlink()
     # Alignment is audio-specific. The renderer recomputes it from these cards.

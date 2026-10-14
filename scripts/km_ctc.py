@@ -82,20 +82,28 @@ def soft_cut_points(samples,rate,texts):
 
     Prefer quiet valleys close to narration-length estimates. If CTC cannot
     certify a boundary, choose the quietest nearby sample window and keep the
-    complete original audio. This fallback is deliberately labeled unverified.
+    complete original audio. This fallback is deliberately labeled unverified
+    and uses only the standard library so a missing CTC/NumPy install cannot
+    disable the fallback itself.
     """
-    import numpy as np
     if not texts or rate<=0 or len(samples)<2:raise AlignmentStop('No audio samples available for soft split.')
     count=len(texts);duration=len(samples)/rate
     if count==1:return []
     if duration<=0:raise AlignmentStop('No audio duration available for soft split.')
-    scale=1.0 if float(np.max(np.abs(samples)))<=1.0 else 32768.0
-    weights=[max(1,len(letters(spoken_form(str(t))[0]))) for t in texts]
-    total=sum(weights);hop=max(1,round(rate*.01));rms=[];times=[]
+    if len(samples)<count:raise AlignmentStop('Not enough source samples to give every card nonempty audio.')
+    scale=1.0 if max(abs(float(v)) for v in samples)<=1.0 else 32768.0
+    weights=[]
+    for text in texts:
+        try:weight=len(letters(spoken_form(str(text))[0]))
+        except Exception:weight=len(letters(str(text)))
+        weights.append(max(1,weight))
+    total=sum(weights);hop=max(1,round(rate*.01));rms=[];times=[];samples_at=[]
     for start in range(0,len(samples),hop):
-        block=np.asarray(samples[start:min(start+hop,len(samples))],dtype=np.float32)/scale
-        rms.append(float(np.sqrt(np.mean(block*block))) if len(block) else 0.0)
-        times.append((start+min(hop,len(samples)-start)/2)/rate)
+        end=min(start+hop,len(samples));block=samples[start:end]
+        energy=sum((float(v)/scale)**2 for v in block)/max(1,len(block))
+        rms.append(math.sqrt(energy) if len(block) else 0.0)
+        samples_at.append(start+len(block)/2)
+        times.append((start+len(block)/2)/rate)
     # Collect pauses long enough to be useful, without requiring a pause to
     # exist. Fallback candidates below still make a complete ordered split.
     valleys=[];start=None
@@ -105,31 +113,29 @@ def soft_cut_points(samples,rate,texts):
             if (i-start)*.01>=.12:
                 valleys.append(((times[start]+times[i-1])/2,(i-start)*.01))
             start=None
-    cuts=[];cumulative=0;previous=0.0
-    minimum=min(.4,duration/(count*2))
+    cuts=[];cumulative=0;previous_sample=0;sample_count=len(samples)
     for index,weight in enumerate(weights[:-1]):
         cumulative+=weight
-        ideal=duration*cumulative/total
+        ideal_sample=sample_count*cumulative/total;ideal=ideal_sample/rate
         remaining=count-index-1
-        low=previous+minimum;high=duration-remaining*minimum
-        if high<=low:
-            low=previous+1/rate;high=duration-(remaining-1)/rate
-        candidates=[(t,span) for t,span in valleys if low<t<high and t not in cuts]
+        low_sample=previous_sample+1;high_sample=sample_count-remaining
+        candidates=[(t,span) for t,span in valleys
+                    if low_sample/rate<t<high_sample/rate]
         if candidates:
             cut=min(candidates,key=lambda x:abs(x[0]-ideal)-min(.20,x[1]*.25))[0]
+            sample=round(cut*rate)
         else:
-            eligible=[i for i,t in enumerate(times) if low<t<high]
+            eligible=[i for i,sample in enumerate(samples_at)
+                      if low_sample<=sample<=high_sample]
             if eligible:
                 # Duration proximity has a small weight so a quiet valley near
                 # the intended line boundary beats a random global minimum.
                 near=[i for i in eligible if abs(times[i]-ideal)<=.35]
                 pool=near or eligible
-                cut=times[min(pool,key=lambda i:rms[i]+.08*abs(times[i]-ideal))]
-            else:cut=(low+high)/2
-        sample=max(round((previous+1/rate)*rate),min(round(cut*rate),round((duration-remaining/rate)*rate)))
-        cut=sample/rate
-        if cuts and cut<=cuts[-1]:cut=(round(cuts[-1]*rate)+1)/rate
-        cuts.append(cut);previous=cut
+                sample=round(samples_at[min(pool,key=lambda i:rms[i]+.08*abs(times[i]-ideal))])
+            else:sample=round(ideal_sample)
+        sample=max(low_sample,min(sample,high_sample))
+        cuts.append(sample/rate);previous_sample=sample
     return cuts
 
 class Engine:

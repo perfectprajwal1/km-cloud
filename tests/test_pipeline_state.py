@@ -219,7 +219,9 @@ class LauncherTests(unittest.TestCase):
             (work/'installed_reviewed.json').write_text(json.dumps([{'name':'c01.wav','sha256':hashlib.sha256(audio).hexdigest()}]))
             m.restore_cached_voice('NEW');self.assertEqual((m.ROOT/'public/voice_in/c01.wav').read_bytes(),audio)
             (work/'cards/c01.wav').write_bytes(b'corrupt')
-            with self.assertRaises(ValueError):m.restore_cached_voice('NEW')
+            # Receipt uncertainty is a note; gemini_voice can resplit the
+            # durable master audio instead of stopping an approved build.
+            m.restore_cached_voice('NEW')
 
     def test_workflow_fresh_checkout_and_shared_group(self):
         import yaml

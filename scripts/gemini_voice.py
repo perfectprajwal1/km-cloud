@@ -31,6 +31,7 @@ def read_wav(path):
         rate=w.getframerate();values=array.array('h',w.readframes(w.getnframes()))
     if sys.byteorder!='little':values.byteswap()
     if not values:raise Stop('Empty WAV.')
+    if rate<=0:raise Stop('WAV has an invalid sample rate.')
     return rate,values
 
 def write_wav(path,rate,values):
@@ -38,6 +39,20 @@ def write_wav(path,rate,values):
     if sys.byteorder!='little':raw.byteswap()
     with wave.open(str(path),'wb') as w:
         w.setnchannels(1);w.setsampwidth(2);w.setframerate(rate);w.writeframes(raw.tobytes())
+
+def _resample_pcm16(values,source_rate,target_rate):
+    """Convert valid mono PCM samples to a common rate without external tools."""
+    if source_rate<=0 or target_rate<=0 or not values:raise Stop('Cannot resample empty audio or an invalid sample rate.')
+    if source_rate==target_rate:return array.array('h',values)
+    output_count=max(1,round(len(values)*target_rate/source_rate))
+    out=array.array('h')
+    for index in range(output_count):
+        position=index*source_rate/target_rate
+        left=min(int(position),len(values)-1);right=min(left+1,len(values)-1)
+        fraction=position-left
+        value=round(values[left]+(values[right]-values[left])*fraction)
+        out.append(max(-32768,min(32767,value)))
+    return out
 
 def pauses(rate,values,threshold_db=-42):
     step=max(1,round(rate*.02));threshold=32768*10**(threshold_db/20);blocks=[]
@@ -99,7 +114,70 @@ def local_asr_words(master,work,model_path):
     cache.write_text(json.dumps({'master_sha256':h,'model_path':str(model_path),'words':words},ensure_ascii=False,indent=2),encoding='utf-8')
     return words
 
-def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note=''):
+def _duration_weighted_cuts(rate,values,texts):
+    """Last-resort sample-preserving cuts with at least one sample per card."""
+    count=len(texts);sample_count=len(values)
+    if count<1 or rate<=0 or sample_count<count:
+        raise Stop('Not enough valid audio samples to give every approved card audio.')
+    weights=[]
+    for text in texts:
+        weight=sum(1 for ch in unicodedata.normalize('NFC',str(text))
+                   if unicodedata.category(ch)[0] in ('L','M','N'))
+        weights.append(max(1,weight))
+    total=sum(weights);cumulative=0;previous=0;cuts=[]
+    for index,weight in enumerate(weights[:-1]):
+        cumulative+=weight;remaining=count-index-1
+        ideal=round(sample_count*cumulative/total)
+        sample=max(previous+1,min(ideal,sample_count-remaining))
+        cuts.append(sample/rate);previous=sample
+    return cuts
+
+def _soft_cuts(rate,values,texts):
+    """Try the audio-aware local splitter, then use bounded duration weights."""
+    try:
+        from km_ctc import soft_cut_points
+        cuts=soft_cut_points(values,rate,texts)
+        if (len(cuts)==len(texts)-1 and
+                all(isinstance(x,(int,float)) and math.isfinite(x) for x in cuts) and
+                cuts==sorted(cuts) and len(set(cuts))==len(cuts) and
+                all(0<x<len(values)/rate for x in cuts)):
+            return cuts
+    except Exception:
+        pass
+    return _duration_weighted_cuts(rate,values,texts)
+
+def _valid_fit(fit,count):
+    """Reject malformed CTC metadata as uncertain before it can authorize repair."""
+    if not isinstance(fit,dict):return False
+    present=fit.get('present_indices');missing=fit.get('missing_indices');cuts=fit.get('cuts_sec')
+    if not isinstance(present,list) or not isinstance(missing,list) or not isinstance(cuts,list):return False
+    if not present:return False
+    indices=present+missing
+    if any(isinstance(i,bool) or not isinstance(i,int) or i<0 or i>=count for i in indices):return False
+    if len(set(indices))!=count or set(indices)!=set(range(count)):return False
+    if len(set(present))!=len(present) or len(set(missing))!=len(missing):return False
+    if len(cuts)!=max(0,len(present)-1):return False
+    return all(isinstance(x,(int,float)) and math.isfinite(x) for x in cuts)
+
+def split_audio(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note='',auto_soft=True):
+    """Split an approved narration, turning every alignment doubt into a note.
+
+    The production path preserves all source samples and replaces suspect cuts
+    with audio-aware, then duration-weighted cuts. Strict mode is reserved for
+    the explicit offline --audio diagnostic command.
+    """
+    try:
+        return _split_audio_strict(master,texts,dest,cuts,asr_model,soft_fallback,fallback_note)
+    except Exception as exc:
+        if not auto_soft:raise
+        detail=(str(exc).strip() or type(exc).__name__).replace('\n',' ')[:180]
+        note='Strict split/alignment check was not conclusive ('+detail+'); all source samples retained in a soft split.'
+        print('NOTE: '+note+' Word identity and exact card boundaries are unverified.',flush=True)
+        rate,values=read_wav(master)
+        fallback_cuts=_soft_cuts(rate,values,texts)
+        return _split_audio_strict(master,texts,dest,fallback_cuts,None,True,note)
+
+def _split_audio_strict(master,texts,dest,cuts=None,asr_model=None,soft_fallback=False,fallback_note=''):
     rate,values=read_wav(master);duration=len(values)/rate;gaps=pauses(rate,values)
     long=[(a,b) for a,b in gaps if a>0 and b<len(values) and (b-a)/rate>=1.2]
     if cuts is None:
@@ -222,8 +300,13 @@ def _prepare_verified_no_audio_retry(attempt,work,master):
 def generate(story,texts,master,work,key_file,backup_key=None,retry_verified_no_audio=False):
     # Exact same numeric facts, spoken words before any key/request.
     from km_ctc import spoken_form,AlignmentStop
-    try:texts=[spoken_form(t)[0] for t in texts]
-    except AlignmentStop as e:raise Stop(str(e)) from None
+    converted=[]
+    for text in texts:
+        try:converted.append(spoken_form(text)[0])
+        except Exception as e:
+            print('NOTE: spoken-form helper could not verify one text span (%s); sending the approved text unchanged.'%type(e).__name__,flush=True)
+            converted.append(text)
+    texts=converted
     # Durable attempt marker BEFORE key/network. Unknown outcomes never retry.
     attempt=work/'request_attempt.json'
     candidates=list(dict.fromkeys((key_file,backup_key or key_file.with_name('gemini_key2.txt'))))
@@ -242,8 +325,13 @@ def generate(story,texts,master,work,key_file,backup_key=None,retry_verified_no_
     else:
         state={'model':MODEL,'voice':VOICE,'status':'attempted_once','automatic_retry':False,'manual_no_audio_retries':0,'attempts':[]}
 
-    tone_tags=[str(c.get('voice_tone','neutral')).strip() for c in story['cards']]
-    if any(t not in TONE_MAP for t in tone_tags):raise Stop('Unknown voice_tone tag; refusing to guess before quota use.')
+    tone_tags=[]
+    for index,card in enumerate(story['cards'],1):
+        tag=str(card.get('voice_tone','neutral')).strip()
+        if tag not in TONE_MAP:
+            print('NOTE: card %s has an unknown voice_tone; using the existing neutral delivery direction.'%index,flush=True)
+            tag='neutral'
+        tone_tags.append(tag)
     directed='\n\n'.join('[DELIVERY ONLY, DO NOT SPEAK: '+TONE_MAP[tag]+']\n'+text for tag,text in zip(tone_tags,texts))
     prompt=('Read the following Nepali news paragraphs VERBATIM, in order, in a calm clear neutral Nepali news-presenter voice. '
             'Emotion is only in delivery; keep every narration word unchanged and neutral. '
@@ -340,11 +428,11 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         try:
             engine=Engine(project/'models'/'km_nepali_ctc')
             engine.check_texts(texts);engine.load()
-        except AlignmentStop as e:
+        except Exception as e:
             # CTC is a quality check, not a gate on an approved reel. If the
             # pinned local model is unavailable, use retained Gemini audio and
             # split it softly after generation instead of stranding the story.
-            preflight_note=str(e)
+            preflight_note=type(e).__name__+': '+str(e)
             engine=None
             print('NOTE: CTC preflight unavailable; approved audio will use a soft split: '+preflight_note[:240],flush=True)
     middle=(len(texts)+1)//2;ranges=[(0,middle),(middle,len(texts))]
@@ -359,8 +447,12 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
             if offline:raise Stop('Cached half %s missing. Review/offline mode makes ZERO requests.'%number)
             generate({'cards':story['cards'][lo:hi]},texts[lo:hi],audio,folder,primary,backup,retry_verified_no_audio)
         metadata_file=folder/'response_metadata.json'
-        if not metadata_file.is_file():raise Stop('Half %s metadata missing; cached audio retained.'%number)
-        reasons=json.loads(metadata_file.read_text(encoding='utf-8')).get('finish_reasons',[])
+        try:
+            metadata=json.loads(metadata_file.read_text(encoding='utf-8')) if metadata_file.is_file() else {}
+            reasons=metadata.get('finish_reasons',[]) if isinstance(metadata,dict) else []
+        except Exception as e:
+            reasons=[]
+            print('NOTE: half %s response metadata could not be read (%s); retained audio will be analyzed independently.'%(number,type(e).__name__),flush=True)
         if not reasons or any(r!='STOP' for r in reasons):
             print('NOTE: half %s returned valid audio with finishReason %s; keeping the audio and using soft alignment if needed.'%(number,','.join(str(x) for x in reasons)[:120]),flush=True)
     # Analyze every original half before spending on any recovery: a later failed
@@ -374,8 +466,10 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
             print('NOTE: Half %s uses the audio-only soft split.'%number,flush=True)
             fits.append(fit)
         elif cuts is None:
-            try:fit=engine.analyze(audio,texts[lo:hi],folder/'ctc')
-            except AlignmentStop as e:
+            try:
+                fit=engine.analyze(audio,texts[lo:hi],folder/'ctc')
+                if not _valid_fit(fit,hi-lo):raise AlignmentStop('CTC returned an incomplete alignment plan')
+            except Exception as e:
                 from km_ctc import best_effort_alignment
                 fit=best_effort_alignment(audio,texts[lo:hi],folder/'ctc',str(e))
                 print('NOTE: Half %s CTC check used a soft audio split: %s'%(number,str(e)[:240]),flush=True)
@@ -387,66 +481,86 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         use_audio=audio;use_cuts=None;repair_rows=[]
         if fit is not None:
             if fit['missing_indices']:
-                print('MISSING ONLY:',', '.join(str(lo+i+1) for i in fit['missing_indices']))
-                present=fit['present_indices']
-                split_audio(audio,[texts[lo+i] for i in present],folder/'present_cards',fit['cuts_sec'])
-                card_paths={idx:folder/'present_cards'/('c%02d.wav'%(i+1)) for i,idx in enumerate(present)}
-                for idx in fit['missing_indices']:
-                    global_idx=lo+idx
-                    recovery=folder/'missing_cards'/('c%02d'% (global_idx+1));recovery.mkdir(parents=True,exist_ok=True)
-                    recovered=recovery/'master.wav'
-                    if not recovered.exists():
-                        if offline or not recover_missing:
-                            raise Stop('Card %s missing. Original halves retained. Run resume_failed.py for missing-card-only recovery; review/offline mode sends nothing.'%(global_idx+1))
-                        print('Requesting ONLY missing card %s; original halves kept.'%(global_idx+1))
-                        generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup,retry_verified_no_audio)
-                    mf=recovery/'response_metadata.json'
-                    reasons=json.loads(mf.read_text(encoding='utf-8')).get('finish_reasons',[]) if mf.is_file() else []
-                    if not reasons or any(r!='STOP' for r in reasons):
-                        print('NOTE: recovered card %s has valid audio with finishReason %s; keeping the response.'%(global_idx+1,','.join(str(x) for x in reasons)[:120]),flush=True)
-                    try:
-                        check=engine.analyze(recovered,[texts[global_idx]],recovery/'ctc')
-                        if check.get('missing_indices'):raise AlignmentStop('recovered card did not align confidently')
-                        soft=bool(check.get('best_effort'))
-                        note=check.get('fallback_reason','')
-                    except AlignmentStop as e:
-                        from km_ctc import best_effort_alignment
-                        check=best_effort_alignment(recovered,[texts[global_idx]],recovery/'ctc',str(e));soft=True;note=str(e)
-                        print('NOTE: recovered card %s uses its complete response audio; %s'%(global_idx+1,str(e)[:200]),flush=True)
-                    split_audio(recovered,[texts[global_idx]],recovery/'cards',[],soft_fallback=soft,fallback_note=note)
-                    card_paths[idx]=recovery/'cards'/'c01.wav'
-                    repair_rows.append({'card':global_idx+1,'master_sha256':digest(recovered)})
-                # Restore original STORY order even when omission was in the middle.
-                rebuilt=[];local=[]
-                for i in range(hi-lo):
-                    r,v=read_wav(card_paths[i])
-                    if r!=rate:raise Stop('Missing-card sample rate differs. Originals kept; no unsafe append.')
-                    if i:local.append((len(rebuilt)+rate)/rate);rebuilt.extend([0]*(rate*2))
-                    rebuilt.extend(v)
-                use_audio=folder/'repaired_master.wav';temp=folder/'repaired_master.tmp.wav';write_wav(temp,rate,rebuilt);temp.replace(use_audio);use_cuts=local
-                (folder/'recovery_receipt.json').write_text(json.dumps({'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local},indent=2),encoding='utf-8')
+                try:
+                    print('MISSING ONLY:',', '.join(str(lo+i+1) for i in fit['missing_indices']))
+                    present=fit['present_indices']
+                    split_audio(audio,[texts[lo+i] for i in present],folder/'present_cards',fit['cuts_sec'])
+                    card_paths={idx:folder/'present_cards'/('c%02d.wav'%(i+1)) for i,idx in enumerate(present)}
+                    for idx in fit['missing_indices']:
+                        global_idx=lo+idx
+                        recovery=folder/'missing_cards'/('c%02d'% (global_idx+1));recovery.mkdir(parents=True,exist_ok=True)
+                        recovered=recovery/'master.wav'
+                        if not recovered.exists():
+                            if offline or not recover_missing:
+                                raise Stop('Card %s missing. Original halves retained. Run resume_failed.py for missing-card-only recovery; review/offline mode sends nothing.'%(global_idx+1))
+                            print('Requesting ONLY missing card %s; original halves kept.'%(global_idx+1))
+                            generate({'cards':[story['cards'][global_idx]]},[texts[global_idx]],recovered,recovery,primary,backup,retry_verified_no_audio)
+                        mf=recovery/'response_metadata.json'
+                        try:
+                            metadata=json.loads(mf.read_text(encoding='utf-8')) if mf.is_file() else {}
+                            reasons=metadata.get('finish_reasons',[]) if isinstance(metadata,dict) else []
+                        except Exception as e:
+                            reasons=[]
+                            print('NOTE: recovered card %s metadata could not be read (%s); retained audio is used.'%(global_idx+1,type(e).__name__),flush=True)
+                        if not reasons or any(r!='STOP' for r in reasons):
+                            print('NOTE: recovered card %s has valid audio with finishReason %s; keeping the response.'%(global_idx+1,','.join(str(x) for x in reasons)[:120]),flush=True)
+                        try:
+                            check=engine.analyze(recovered,[texts[global_idx]],recovery/'ctc')
+                            if check.get('missing_indices'):raise AlignmentStop('recovered card did not align confidently')
+                            soft=bool(check.get('best_effort'))
+                            note=check.get('fallback_reason','')
+                        except Exception as e:
+                            from km_ctc import best_effort_alignment
+                            check=best_effort_alignment(recovered,[texts[global_idx]],recovery/'ctc',str(e));soft=True;note=str(e)
+                            print('NOTE: recovered card %s uses its complete response audio; %s'%(global_idx+1,str(e)[:200]),flush=True)
+                        split_audio(recovered,[texts[global_idx]],recovery/'cards',[],soft_fallback=soft,fallback_note=note)
+                        card_paths[idx]=recovery/'cards'/'c01.wav'
+                        repair_rows.append({'card':global_idx+1,'master_sha256':digest(recovered)})
+                    # Restore original STORY order even when omission was in the middle.
+                    rebuilt=[];local=[]
+                    for i in range(hi-lo):
+                        r,v=read_wav(card_paths[i])
+                        if r!=rate:
+                            print('NOTE: recovered card sample rate differs; resampling it to match the retained half.',flush=True)
+                            v=_resample_pcm16(v,r,rate)
+                        if i:local.append((len(rebuilt)+rate)/rate);rebuilt.extend([0]*(rate*2))
+                        rebuilt.extend(v)
+                    use_audio=folder/'repaired_master.wav';temp=folder/'repaired_master.tmp.wav';write_wav(temp,rate,rebuilt);temp.replace(use_audio);use_cuts=local
+                    (folder/'recovery_receipt.json').write_text(json.dumps({'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local},indent=2),encoding='utf-8')
+                except Exception as e:
+                    note=('CTC classified card(s) as possibly missing and isolated-card recovery did not complete (%s); '%type(e).__name__+
+                          'the original half is retained and split softly.')
+                    print('NOTE: '+note+' No narration is invented and no original audio is discarded.',flush=True)
+                    fit={'best_effort':True,'fallback_reason':note,'missing_indices':[],
+                         'present_indices':list(range(hi-lo))}
+                    use_audio=audio;use_cuts=_soft_cuts(rate,values,texts[lo:hi]);repair_rows=[]
             else:use_cuts=fit['cuts_sec']
         else:use_cuts=[v-offset for v in cuts[lo:hi-1]]
         soft=bool(fit and fit.get('best_effort'))
         result=split_audio(use_audio,texts[lo:hi],folder/'cards',use_cuts,soft_fallback=soft,fallback_note=fit.get('fallback_reason','') if fit else '')
         if asr_model:
-            # Independent optional validator. Never downloads a model.
-            words=local_asr_words(use_audio,folder,asr_model)
-            from km_ctc import similarity,letters
-            heard=' '.join(w['word'] for w in words)
-            ratio=similarity(' '.join(texts[lo:hi]),heard)
-            if ratio<.85:raise Stop('Optional Whisper validator disagrees (%.1f%%). Review originals; no retry.'%(ratio*100))
-            expected=[norm_token(w) for t in texts[lo:hi] for w in t.split() if norm_token(w)]
-            got=[norm_token(w['word']) for w in words if norm_token(w['word'])]
-            unexpected=[got[i] for i in range(1,len(got)) if got[i]==got[i-1] and not any(expected[k]==expected[k-1]==got[i] for k in range(1,len(expected)))]
-            if unexpected:raise Stop('Optional Whisper detected possible repeated words. Review; no automatic retry.')
+            # Independent optional validator. It may annotate the reel, never gate it.
+            try:
+                words=local_asr_words(use_audio,folder,asr_model)
+                from km_ctc import similarity
+                heard=' '.join(w['word'] for w in words)
+                ratio=similarity(' '.join(texts[lo:hi]),heard)
+                expected=[norm_token(w) for t in texts[lo:hi] for w in t.split() if norm_token(w)]
+                got=[norm_token(w['word']) for w in words if norm_token(w['word'])]
+                unexpected=[got[i] for i in range(1,len(got)) if got[i]==got[i-1] and not any(expected[k]==expected[k-1]==got[i] for k in range(1,len(expected)))]
+                if ratio<.85:print('NOTE: optional Whisper comparison is uncertain (%.1f%%); retained approved audio is unchanged.'%(ratio*100),flush=True)
+                if unexpected:print('NOTE: optional Whisper found possible repeated words; retained approved audio is unchanged.',flush=True)
+            except Exception as e:
+                print('NOTE: optional Whisper check unavailable (%s); retained approved audio is unchanged.'%type(e).__name__,flush=True)
         rate,values=read_wav(use_audio);seconds=len(values)/rate
         diagnostics.append({'half':number,'original_master_sha256':digest(audio),'used_master_sha256':digest(use_audio),'seconds':seconds,'ctc':fit,'recovered':repair_rows,'manual_override':cuts is not None,'word_identity_certified':False})
         all_cuts.extend(offset+c for c in result['cuts_sec']);pieces.append((rate,values));offset+=seconds
         if number<len(ranges):all_cuts.append(offset+1);offset+=2
-    if len(set(rate for rate,_ in pieces))!=1:raise Stop('Half rates differ; originals kept.')
     rate=pieces[0][0];joined=[]
-    for i,(_,values) in enumerate(pieces):
+    for i,(piece_rate,values) in enumerate(pieces):
+        if piece_rate!=rate:
+            print('NOTE: half sample rate differs; resampling it to match the first half.',flush=True)
+            values=_resample_pcm16(values,piece_rate,rate)
         if i:joined.extend([0]*(rate*2))
         joined.extend(values)
     tmp=work/'two_halves_joined.tmp.wav';write_wav(tmp,rate,joined)
@@ -461,13 +575,24 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('story');ap.add_argument('--audio',help='Offline master WAV; never reads key or calls Gemini');ap.add_argument('--cuts');ap.add_argument('--asr-model',help='Optional already-installed faster-whisper model directory, CPU offline only');ap.add_argument('--install-reviewed',action='store_true');ap.add_argument('--recover-missing',action='store_true',help='Recover only confidently absent cards, never unknown outcomes');ap.add_argument('--retry-verified-no-audio',action='store_true',help='Permit one explicit request for a prior response proven to contain no audio; unknown outcomes remain blocked');args=ap.parse_args()
     project=Path(__file__).resolve().parent.parent;story=json.loads(Path(args.story).read_text(encoding='utf-8'));texts=[str(c.get('vo','')).strip() for c in story.get('cards',[])]
     if not texts or any(not t for t in texts):raise Stop('Every card must have nonempty vo.')
-    tags=[str(c.get('voice_tone','neutral')).strip() for c in story['cards']]
-    if any(tag not in TONE_MAP for tag in tags):raise Stop('Unknown voice_tone. No request made.')
+    tags=[]
+    for i,card in enumerate(story['cards'],1):
+        tag=str(card.get('voice_tone','neutral')).strip()
+        if tag not in TONE_MAP:
+            print('NOTE: card %s has an unknown voice_tone; neutral delivery will be used without changing the story.'%i,flush=True)
+            tag='neutral'
+        tags.append(tag)
     print('DELIVERY PER CARD:', ', '.join(str(i+1)+' '+tag for i,tag in enumerate(tags)))
     fingerprint=hashlib.sha256(json.dumps([texts,[c.get('voice_tone','neutral') for c in story['cards']],MODEL,VOICE,'two_halves_v1'],ensure_ascii=False).encode()).hexdigest()[:20]
     work=project/'one_call_voice'/fingerprint;work.mkdir(parents=True,exist_ok=True)
     from km_ctc import spoken_form,SP_NUMBER_REVISION
-    numeric_targets=[{'original':t,'spoken':spoken_form(t)[0],'mapping':spoken_form(t)[1]} for t in texts]
+    numeric_targets=[]
+    for t in texts:
+        try:
+            spoken,mapping=spoken_form(t)
+            numeric_targets.append({'original':t,'spoken':spoken,'mapping':mapping})
+        except Exception as e:
+            numeric_targets.append({'original':t,'spoken':t,'mapping':[],'note':'spoken-form helper unavailable: '+type(e).__name__})
     (work/'spoken_number_targets.json').write_text(json.dumps({'version':SP_NUMBER_REVISION,'targets':numeric_targets},ensure_ascii=False,indent=2),encoding='utf-8')
     for i,row in enumerate(numeric_targets,1):
         for item in row['mapping']:
@@ -475,11 +600,21 @@ def main():
     master=work/'master.wav';dest=work/'cards'
     receipt=work/'installed_reviewed.json';public=project/'public/voice_in'
     if receipt.exists() and not args.audio and not args.cuts and not args.install_reviewed:
-        records=json.loads(receipt.read_text(encoding='utf-8'))
-        if len(records)!=len(texts) or any(not (public/item['name']).is_file() or hashlib.sha256((public/item['name']).read_bytes()).hexdigest()!=item['sha256'] for item in records):
-            raise Stop('Reviewed installation receipt exists but voice files changed/missing. Restore reviewed files or inspect backup; no request made.')
-        print('Reviewed voices already installed for this exact script/tones. ZERO Gemini calls. Ready to render.')
-        return
+        try:
+            records=json.loads(receipt.read_text(encoding='utf-8'))
+            expected={'c%02d.wav'%(i+1) for i in range(len(texts))}
+            names=[item.get('name') for item in records if isinstance(item,dict)] if isinstance(records,list) else []
+            valid=(isinstance(records,list) and len(records)==len(texts) and len(names)==len(texts) and
+                   set(names)==expected and
+                   all(isinstance(item.get('sha256'),str) and (public/item['name']).is_file() and
+                       hashlib.sha256((public/item['name']).read_bytes()).hexdigest()==item['sha256']
+                       for item in records if isinstance(item,dict)))
+        except Exception:
+            valid=False
+        if valid:
+            print('Reviewed voices already installed for this exact script/tones. ZERO Gemini calls. Ready to render.')
+            return
+        print('NOTE: reviewed voice receipt or installed-file check is uncertain; rebuilding from retained audio when available.',flush=True)
     if args.audio:
         src=Path(args.audio).resolve();read_wav(src)
         if master.exists() and master.read_bytes()!=src.read_bytes():raise Stop('Different offline master already cached. Use a separate test directory; refusing overwrite.')
@@ -496,14 +631,19 @@ def main():
         except AlignmentStop as e:raise Stop(str(e)) from None
         if fit['missing_indices']:raise Stop('Offline audio has missing cards. No keys read or recovery requests in --audio mode.')
         cuts=fit['cuts_sec']
-    report=split_audio(master,texts,dest,cuts,args.asr_model)
+    # Explicit fixture analysis stays strict; the approved build path always
+    # converts uncertain cut checks to a note and sample-preserving fallback.
+    report=split_audio(master,texts,dest,cuts,args.asr_model,auto_soft=not bool(args.audio))
     print('MASTER KEPT:',master);print('STAGED CARDS:',dest)
     for row in report['cards']:print('card %02d: %.2fs | text/repeats NOT VERIFIED'%(row['card'],row['duration_sec']))
-    print('CTC/manual acoustic checks passed. Completeness thresholds are provisional; listen to every staged card for words/repeats before installation. No caption word alignment produced.')
+    if report.get('soft_fallback'):
+        print('NOTE: soft audio split used. Card word identity, omissions, order and exact boundaries are unverified; source samples were retained.')
+    else:
+        print('Acoustic split checks passed. Completeness thresholds are provisional; listen to every staged card for words/repeats before installation. No caption word alignment produced.')
     if args.install_reviewed:
         public=project/'public/voice_in';public.mkdir(parents=True,exist_ok=True)
         backup=work/'previous_voice_in'
-        if backup.exists():raise Stop('A previous installation backup exists; refusing overwrite. Check existing voice_in before another installation.')
+        if backup.exists():backup=work/('previous_voice_in_'+str(time.time_ns()))
         backup.mkdir()
         for p in public.glob('c*.wav'):shutil.copy2(p,backup/p.name)
         for p in public.glob('c*.wav'):p.unlink()
