@@ -1,0 +1,153 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "alignment_targets": [
+    {
+      "original": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।",
+      "spoken": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो तीन मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।",
+      "mapping": [
+        {
+          "original": "३",
+          "spoken": "तीन",
+          "start": 46,
+          "end": 47,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।",
+      "spoken": "टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।",
+      "mapping": []
+    },
+    {
+      "original": "यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।",
+      "spoken": "यो फोन नेपाली बजारमा एक्काइस हजार नौ सय उनान्सय र पच्चिस हजार नौ सय उनान्सय रुपैयाँका विकल्पमा उपलब्ध छ।",
+      "mapping": [
+        {
+          "original": "२१",
+          "spoken": "एक्काइस",
+          "start": 21,
+          "end": 23,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "९",
+          "spoken": "नौ",
+          "start": 29,
+          "end": 30,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "९९",
+          "spoken": "उनान्सय",
+          "start": 34,
+          "end": 36,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "२५",
+          "spoken": "पच्चिस",
+          "start": 39,
+          "end": 41,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "९",
+          "spoken": "नौ",
+          "start": 47,
+          "end": 48,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "९९",
+          "spoken": "उनान्सय",
+          "start": 52,
+          "end": 54,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "904a4bf1699ad24d8166cdd5046943b96e577ffaa1168788971477e6ac0614e9",
+  "greedy": "न्यू रोडकी उर्मिला शर्माले टेक्नुकोस पार्क गो तीन मोबाइल खरित गरेर चाँदिको चङ्गा जीतेखि छिन्टेक्नोले दसै तिहार र छटका अवसरमा स्मटफोन खिन्दा चाँधीको सिकका र चङगाचित्ने योजना ल्याएको छयो फोन नेपाली बजारमा एक्काइस हजार नौसय उनान्सय र पच्चिस हजार नौसय उनान्सय रूपयाका विकल्पम उपरब्ध छ ",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "transcript_char_match": 0.9166666666666666,
+  "scores": [
+    -0.9141528619206838,
+    -1.0756473812684513,
+    -0.8992498616655819
+  ],
+  "cuts_sec": [
+    8.10275,
+    17.38641666666667
+  ],
+  "boundaries": [
+    {
+      "left_anchor": 6.98279157542579,
+      "right_anchor": 9.22368743917275,
+      "scores": [
+        -0.9141528619206838,
+        -1.0756473812684513
+      ],
+      "candidates": [
+        {
+          "cut": 8.10275,
+          "valley_start": 7.08275,
+          "valley_end": 9.12275,
+          "quiet_sec": 2.04,
+          "rms": 1.334604409445698e-05,
+          "cost": -2.0399902098540146
+        }
+      ],
+      "selected": {
+        "cut": 8.10275,
+        "valley_start": 7.08275,
+        "valley_end": 9.12275,
+        "quiet_sec": 2.04,
+        "rms": 1.334604409445698e-05,
+        "cost": -2.0399902098540146
+      }
+    },
+    {
+      "left_anchor": 16.12644701946472,
+      "right_anchor": 18.587430869829685,
+      "scores": [
+        -1.0756473812684513,
+        -0.8992498616655819
+      ],
+      "candidates": [
+        {
+          "cut": 17.38641666666667,
+          "valley_start": 16.31641666666667,
+          "valley_end": 18.456416666666666,
+          "quiet_sec": 2.14,
+          "rms": 7.77489253820685e-05,
+          "cost": -2.139410445559611
+        }
+      ],
+      "selected": {
+        "cut": 17.38641666666667,
+        "valley_start": 16.31641666666667,
+        "valley_end": 18.456416666666666,
+        "quiet_sec": 2.14,
+        "rms": 7.77489253820685e-05,
+        "cost": -2.139410445559611
+      }
+    }
+  ],
+  "gates": "provisional thresholds; card listening review still required"
+}

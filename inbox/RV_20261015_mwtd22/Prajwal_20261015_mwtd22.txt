@@ -1,0 +1,651 @@
+REVIEW ID: RV_20261015_mwtd22
+TOPIC: स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_49b7100dffa8e409
+DATE: 2026-10-15T02:26:09.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: OnlineKhabar
+CATEGORY: tech
+SOURCE: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno
+ARTICLE GROUNDING: YES
+*** RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 / R2 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 21 (+6 more hard failures: INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 25 | INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 3) ***
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ। यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ। कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ। चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "smartphone shop in Kathmandu",
+   "shot_description": "A customer buying a smartphone at a store in New Road.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।",
+  "source_evidence": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "festive shopping in Nepal",
+   "shot_description": "People shopping during festive season in Nepal.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "चाडपर्वका अवसरमा टेक्नोको उपहार योजना",
+  "source_evidence": "दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "मूल्य (४/६४ जीबी)",
+     "value": "२१९९९ रुपैयाँ"
+    },
+    {
+     "label": "मूल्य (४/१२८ जीबी)",
+     "value": "२५९९९ रुपैयाँ"
+    }
+   ],
+   "data_source_quote": "४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"
+  },
+  "caption_text": "टेक्नो स्पार्क गो ३ को मूल्य",
+  "source_evidence": "४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "smartphone warranty card",
+   "shot_description": "A warranty card for a smartphone.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "१०० दिनको रिप्लेसमेन्ट नीति",
+  "source_evidence": "ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "festive decoration in Nepal",
+   "shot_description": "Festive decorations in a Nepali market.",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "टेक्नोको उपहार योजना",
+  "source_evidence": "दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_49b7100dffa8e409","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","article_quote":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","asset_ref":"ST_49b7100dffa8e409","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","closing_line":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","comment_prompt":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","pinned_comment":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"smartphone shop in Kathmandu","shot_description":"A customer buying a smartphone at a store in New Road.","depiction_scope":"generic_illustration"},"caption_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","big_hook_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","pip_mode":"off","source_evidence":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"festive shopping in Nepal","shot_description":"People shopping during festive season in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"चाडपर्वका अवसरमा टेक्नोको उपहार योजना","big_hook_text":"","pip_mode":"off","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मूल्य (४/६४ जीबी)","value":"२१९९९ रुपैयाँ"},{"label":"मूल्य (४/१२८ जीबी)","value":"२५९९९ रुपैयाँ"}],"data_source_quote":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"},"caption_text":"टेक्नो स्पार्क गो ३ को मूल्य","big_hook_text":"","pip_mode":"off","source_evidence":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"smartphone warranty card","shot_description":"A warranty card for a smartphone.","depiction_scope":"generic_illustration"},"caption_text":"१०० दिनको रिप्लेसमेन्ट नीति","big_hook_text":"","pip_mode":"off","source_evidence":"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"festive decoration in Nepal","shot_description":"Festive decorations in a Nepali market.","depiction_scope":"generic_illustration"},"caption_text":"टेक्नोको उपहार योजना","big_hook_text":"","pip_mode":"off","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","youtube_description":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","youtube_tags":["Tecno","Spark Go 3","Nepal","Smartphone","New Road","Gift Scheme","OnlineKhabar","Technology","Festive Offer"],"tiktok_caption":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा!","instagram_caption":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","facebook_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","threads_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","linkedin_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","hashtags":["#TecnoNepal","#SparkGo3","#NewRoad","#SmartphoneOffer","#OnlineKhabar","#NepalNews"],"source_credit":"Source: OnlineKhabar"}}
+--- WARNINGS ---
+RED HOLD (INFO_VALUE): EARLIER ROUNDS: R1 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 / R2 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 21 (+6 more hard failures: INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 25 | INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 3)
+Fact-check did not run: validator/gate held this script. Verify all claims, names and numbers against the source.
+Closing: removed question wording ("तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?"); dropped line(s) 6; last line is now: "चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।".
+B-roll: only 1/5 lines show this story's own facts; line(s) 2, 5 use general topic footage.
+Line 2: no different truthful card fits; previous card stays on screen.
+Line 4: no different truthful card fits; previous card stays on screen.
+Line 5: text-only card used (no data card fits this line).
+Line 2: previous card shows a number this line does not say; text card from this line used instead.
+Line 4: previous card shows a number this line does not say; held an earlier number-free card instead.
+
+--- ALTERNATE HOOK ---
+न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।
+
+--- PINNED COMMENT (Nepali question) ---
+तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "A customer buying a smartphone at a store in New Road.",
+   "commons": null,
+   "map": null,
+   "motion_text": "खरिद गरेर",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "खरिद गरेर",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L1 [full] QUOTE CARD via local_render: \"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदी\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "festive shopping Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "festive shopping Nepal",
+   "alt_queries": [
+    "people with shopping bags",
+    "market stalls decorated"
+   ],
+   "query_source": "director",
+   "shot_description": "People shopping during festive season in Nepal.",
+   "commons": null,
+   "map": null,
+   "motion_text": "योजना ल्याएको",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "festive shopping Nepal",
+     "search_url": "https://www.pexels.com/search/videos/festive%20shopping%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=festive%20shopping%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "People shopping during festive season in Nepal.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "festive shopping Nepal",
+     "search_url": "https://pixabay.com/videos/search/festive%20shopping%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=festive%20shopping%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "people with shopping bags",
+     "search_url": "https://www.pexels.com/search/videos/people%20with%20shopping%20bags/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=people%20with%20shopping%20bags&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "market stalls decorated",
+     "search_url": "https://www.pexels.com/search/videos/market%20stalls%20decorated/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=market%20stalls%20decorated&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "festive shopping Nepal",
+     "search_url": "https://openverse.org/search/image?q=festive%20shopping%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=festive%20shopping%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "योजना ल्याएको",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L2 [full] STOCK VIDEO via pexels_video: \"festive shopping Nepal\" | then stock video @pixabay \"festive shopping Nepal\", stock video @pexels \"people with shopping bags\", stock video @pexels \"market stalls decorated\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "smartphone price tag Nepal",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "smartphone price tag Nepal",
+   "alt_queries": [
+    "price label on phone",
+    "store display price"
+   ],
+   "query_source": "director",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "उपलब्ध छ",
+   "on_screen_data": [
+    {
+     "label": "मूल्य (४/६४ जीबी)",
+     "value": "२१९९९ रुपैयाँ"
+    },
+    {
+     "label": "मूल्य (४/१२८ जीबी)",
+     "value": "२५९९९ रुपैयाँ"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "मूल्य (४/६४ जीबी)",
+       "value": "२१९९९ रुपैयाँ"
+      },
+      {
+       "label": "मूल्य (४/१२८ जीबी)",
+       "value": "२५९९९ रुपैयाँ"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "smartphone price tag Nepal",
+     "search_url": "https://www.pexels.com/search/videos/smartphone%20price%20tag%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=smartphone%20price%20tag%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "smartphone price tag Nepal",
+     "search_url": "https://pixabay.com/videos/search/smartphone%20price%20tag%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=smartphone%20price%20tag%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "price label on phone",
+     "search_url": "https://www.pexels.com/search/videos/price%20label%20on%20phone/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=price%20label%20on%20phone&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "store display price",
+     "search_url": "https://www.pexels.com/search/videos/store%20display%20price/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=store%20display%20price&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "smartphone price tag Nepal",
+     "search_url": "https://openverse.org/search/image?q=smartphone%20price%20tag%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=smartphone%20price%20tag%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "उपलब्ध छ",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"मूल्य (४/६४ जीबी) २१९९९ रुपैयाँ, मूल्य (४/१२८ जीबी) २५९९९ रुपैयाँ\" | then stock video @pexels \"smartphone price tag Nepal\" [bg], stock video @pixabay \"smartphone price tag Nepal\", stock video @pexels \"price label on phone\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।",
+  "voice": "neutral_talking",
+  "pose": "neutral",
+  "broll": "smartphone warranty card",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "smartphone warranty card",
+   "alt_queries": [
+    "warranty document closeup",
+    "customer reading warranty"
+   ],
+   "query_source": "director",
+   "shot_description": "A warranty card for a smartphone.",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "smartphone warranty card",
+     "search_url": "https://www.pexels.com/search/videos/smartphone%20warranty%20card/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=smartphone%20warranty%20card&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "A warranty card for a smartphone.",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "smartphone warranty card",
+     "search_url": "https://pixabay.com/videos/search/smartphone%20warranty%20card/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=smartphone%20warranty%20card&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "warranty document closeup",
+     "search_url": "https://www.pexels.com/search/videos/warranty%20document%20closeup/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=warranty%20document%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "customer reading warranty",
+     "search_url": "https://www.pexels.com/search/videos/customer%20reading%20warranty/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=customer%20reading%20warranty&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "smartphone warranty card",
+     "search_url": "https://openverse.org/search/image?q=smartphone%20warranty%20card",
+     "api": "GET https://api.openverse.org/v1/images/?q=smartphone%20warranty%20card&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L4 [full] QUOTE CARD via local_render: \"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रि\" | then stock video @pexels \"smartphone warranty card\" [bg], stock video @pixabay \"smartphone warranty card\", stock video @pexels \"warranty document closeup\" | quality: quote_card"
+  }
+ },
+ {
+  "text": "चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "festive decoration market Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "festive decoration market Nepal",
+   "alt_queries": [
+    "lights and banners",
+    "people celebrating market"
+   ],
+   "query_source": "director",
+   "shot_description": "Festive decorations in a Nepali market.",
+   "commons": null,
+   "map": null,
+   "motion_text": "सञ्चालन गरिरहेको",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "festive decoration market Nepal",
+     "search_url": "https://www.pexels.com/search/videos/festive%20decoration%20market%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=festive%20decoration%20market%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Festive decorations in a Nepali market.",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "festive decoration market Nepal",
+     "search_url": "https://pixabay.com/videos/search/festive%20decoration%20market%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=festive%20decoration%20market%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "lights and banners",
+     "search_url": "https://www.pexels.com/search/videos/lights%20and%20banners/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=lights%20and%20banners&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "people celebrating market",
+     "search_url": "https://www.pexels.com/search/videos/people%20celebrating%20market/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=people%20celebrating%20market&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "festive decoration market Nepal",
+     "search_url": "https://openverse.org/search/image?q=festive%20decoration%20market%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=festive%20decoration%20market%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।",
+     "credit": "Source: OnlineKhabar",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सञ्चालन गरिरहेको",
+     "credit": "Source: OnlineKhabar",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L5 [full] STOCK VIDEO via pexels_video: \"festive decoration market Nepal\" | then stock video @pixabay \"festive decoration market Nepal\", stock video @pexels \"lights and banners\", stock video @pexels \"people celebrating market\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 1/5 content lines; article quote cards 2; topic stock only 2; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] QUOTE CARD via local_render: "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदी" | then text plate @local_render | quality: quote_card
+L2 [full] STOCK VIDEO via pexels_video: "festive shopping Nepal" | then stock video @pixabay "festive shopping Nepal", stock video @pexels "people with shopping bags", stock video @pexels "market stalls decorated" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/festive%20shopping%20Nepal/?orientation=portrait
+L3 [plate] NUMBER CARD via local_render: "मूल्य (४/६४ जीबी) २१९९९ रुपैयाँ, मूल्य (४/१२८ जीबी) २५९९९ रुपैयाँ" | then stock video @pexels "smartphone price tag Nepal" [bg], stock video @pixabay "smartphone price tag Nepal", stock video @pexels "price label on phone" | quality: story_fact
+L4 [full] QUOTE CARD via local_render: "ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रि" | then stock video @pexels "smartphone warranty card" [bg], stock video @pixabay "smartphone warranty card", stock video @pexels "warranty document closeup" | quality: quote_card
+L5 [full] STOCK VIDEO via pexels_video: "festive decoration market Nepal" | then stock video @pixabay "festive decoration market Nepal", stock video @pexels "lights and banners", stock video @pexels "people celebrating market" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/festive%20decoration%20market%20Nepal/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा",
+ "youtube_description": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno\nSource: OnlineKhabar",
+ "youtube_tags": [
+  "Tecno",
+  "Spark Go 3",
+  "Nepal",
+  "Smartphone",
+  "New Road",
+  "Gift Scheme",
+  "OnlineKhabar",
+  "Technology",
+  "Festive Offer"
+ ],
+ "tiktok_caption": "टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा! Source: OnlineKhabar",
+ "instagram_caption": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno\nSource: OnlineKhabar",
+ "facebook_post": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno\nSource: OnlineKhabar",
+ "threads_post": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno\nSource: OnlineKhabar",
+ "linkedin_post": "न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno\nSource: OnlineKhabar",
+ "hashtags": [
+  "#TecnoNepal",
+  "#SparkGo3",
+  "#NewRoad",
+  "#SmartphoneOffer",
+  "#OnlineKhabar",
+  "#NepalNews"
+ ],
+ "source_credit": "Source: OnlineKhabar"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261015_mwtd22","regen_round":0,"fact_check_failure_count":0,"checker_unavailable_count":0,"review":{"review_severity":"LOUD","held":true,"held_detail":"EARLIER ROUNDS: R1 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 / R2 INFO_VALUE: line 3 21; INFO_VALUE: line 3 9; INFO_VALUE: line 3 99; INFO_VALUE: line 3 25 || LAST ROUND: WORKBOOK_INVALID INFO_VALUE: line 3 21 (+6 more hard failures: INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 25 | INFO_VALUE: line 3 9 | INFO_VALUE: line 3 99 | INFO_VALUE: line 3 3)","held_reason_code":"INFO_VALUE","held_codes":["INFO_VALUE"],"hold_signature":"INFO_VALUE@3","hold_diagnostic_text":"Line 3: spoken “यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पम”; on screen “मूल्य (४/६४ जीबी): २१९९९ रुपैयाँ / मूल्य (४/१२८ जीबी): २५९९९ रुपैयाँ”. Check the spoken words and screen value against the article: “४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फ”."},"pkg":{"review_id":"RV_20261015_mwtd22","review_date":"20261015","title":"स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","chosen_topic":"स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","category":"tech","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","story_id":"ST_49b7100dffa8e409","risk_flag":"NORMAL","source_credit":"Source: OnlineKhabar","full_script":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ। यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ। कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ। चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","alternate_hook":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","closing_line":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","pinned_comment":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","lines":[{"text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","voice":"neutral_talking","pose":"neutral","broll":"","broll_kind":"quote_card"},{"text":"टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।","voice":"neutral","pose":"neutral","broll":"festive shopping Nepal","broll_kind":"stock_video"},{"text":"यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।","voice":"neutral","pose":"neutral","broll":"smartphone price tag Nepal","broll_kind":"number_card"},{"text":"कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।","voice":"neutral_talking","pose":"neutral","broll":"smartphone warranty card","broll_kind":"quote_card"},{"text":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","voice":"neutral","pose":"neutral","broll":"festive decoration market Nepal","broll_kind":"stock_video"}],"word_count":74,"workbook":{"schema_version":"6.6.9","story_id":"ST_49b7100dffa8e409","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","source_label":"OnlineKhabar","source_credit":"Source: OnlineKhabar","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","proof_asset":{"kind":"article_text","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","article_quote":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","asset_ref":"ST_49b7100dffa8e409","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","closing_line":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","comment_prompt":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","pinned_comment":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"smartphone shop in Kathmandu","shot_description":"A customer buying a smartphone at a store in New Road.","depiction_scope":"generic_illustration"},"caption_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","big_hook_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","pip_mode":"off","source_evidence":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"festive shopping in Nepal","shot_description":"People shopping during festive season in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"चाडपर्वका अवसरमा टेक्नोको उपहार योजना","big_hook_text":"","pip_mode":"off","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मूल्य (४/६४ जीबी)","value":"२१९९९ रुपैयाँ"},{"label":"मूल्य (४/१२८ जीबी)","value":"२५९९९ रुपैयाँ"}],"data_source_quote":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"},"caption_text":"टेक्नो स्पार्क गो ३ को मूल्य","big_hook_text":"","pip_mode":"off","source_evidence":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"pivot","narration_text":"कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"smartphone warranty card","shot_description":"A warranty card for a smartphone.","depiction_scope":"generic_illustration"},"caption_text":"१०० दिनको रिप्लेसमेन्ट नीति","big_hook_text":"","pip_mode":"off","source_evidence":"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"festive decoration in Nepal","shot_description":"Festive decorations in a Nepali market.","depiction_scope":"generic_illustration"},"caption_text":"टेक्नोको उपहार योजना","big_hook_text":"","pip_mode":"off","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","youtube_description":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","youtube_tags":["Tecno","Spark Go 3","Nepal","Smartphone","New Road","Gift Scheme","OnlineKhabar","Technology","Festive Offer"],"tiktok_caption":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा!","instagram_caption":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","facebook_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","threads_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","linkedin_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","hashtags":["#TecnoNepal","#SparkGo3","#NewRoad","#SmartphoneOffer","#OnlineKhabar","#NepalNews"],"source_credit":"Source: OnlineKhabar"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"smartphone shop in Kathmandu","shot_description":"A customer buying a smartphone at a store in New Road.","depiction_scope":"generic_illustration"},"caption_text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","source_evidence":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"festive shopping in Nepal","shot_description":"People shopping during festive season in Nepal.","depiction_scope":"generic_illustration"},"caption_text":"चाडपर्वका अवसरमा टेक्नोको उपहार योजना","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"मूल्य (४/६४ जीबी)","value":"२१९९९ रुपैयाँ"},{"label":"मूल्य (४/१२८ जीबी)","value":"२५९९९ रुपैयाँ"}],"data_source_quote":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"},"caption_text":"टेक्नो स्पार्क गो ३ को मूल्य","source_evidence":"४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।"},{"line_id":4,"beat":"pivot","visual":{"type":"BROLL","search_query":"smartphone warranty card","shot_description":"A warranty card for a smartphone.","depiction_scope":"generic_illustration"},"caption_text":"१०० दिनको रिप्लेसमेन्ट नीति","source_evidence":"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"festive decoration in Nepal","shot_description":"Festive decorations in a Nepali market.","depiction_scope":"generic_illustration"},"caption_text":"टेक्नोको उपहार योजना","source_evidence":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।"}],"lines_legacy":[{"text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","voice":"neutral_talking","pose":"neutral","broll":"","broll_kind":"quote_card"},{"text":"टेक्नोले दसैं, तिहार र छठका अवसरमा स्मार्टफोन किन्दा चाँदीको सिक्का र चंगा जित्ने योजना ल्याएको छ।","voice":"neutral","pose":"neutral","broll":"festive shopping Nepal","broll_kind":"stock_video"},{"text":"यो फोन नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका विकल्पमा उपलब्ध छ।","voice":"neutral","pose":"neutral","broll":"smartphone price tag Nepal","broll_kind":"number_card"},{"text":"कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।","voice":"neutral_talking","pose":"neutral","broll":"smartphone warranty card","broll_kind":"quote_card"},{"text":"चाडपर्वको अवसरमा टेक्नोले यो उपहार योजना सञ्चालन गरिरहेको छ।","voice":"neutral","pose":"neutral","broll":"festive decoration market Nepal","broll_kind":"stock_video"}],"youtube_title":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","youtube_description":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","youtube_tags":["Tecno","Spark Go 3","Nepal","Smartphone","New Road","Gift Scheme","OnlineKhabar","Technology","Festive Offer"],"tiktok_caption":"टेक्नोको स्मार्टफोन किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा! Source: OnlineKhabar","instagram_caption":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","facebook_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","threads_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","linkedin_post":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्। थप जानकारीका लागि OnlineKhabar को वेबसाइट हेर्नुहोस्: https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","hashtags":["#TecnoNepal","#SparkGo3","#NewRoad","#SmartphoneOffer","#OnlineKhabar","#NepalNews"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"A customer buying a smartphone at a store in New Road.","commons":null,"map":null,"motion_text":"खरिद गरेर","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"खरिद गरेर","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L1 [full] QUOTE CARD via local_render: \"न्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदी\" | then text plate @local_render | quality: quote_card"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"festive shopping Nepal","alt_queries":["people with shopping bags","market stalls decorated"],"query_source":"director","shot_description":"People shopping during festive season in Nepal.","commons":null,"map":null,"motion_text":"योजना ल्याएको","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"festive shopping Nepal","search_url":"https://www.pexels.com/search/videos/festive%20shopping%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=festive%20shopping%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"People shopping during festive season in Nepal.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"festive shopping Nepal","search_url":"https://pixabay.com/videos/search/festive%20shopping%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=festive%20shopping%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"people with shopping bags","search_url":"https://www.pexels.com/search/videos/people%20with%20shopping%20bags/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=people%20with%20shopping%20bags&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"market stalls decorated","search_url":"https://www.pexels.com/search/videos/market%20stalls%20decorated/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=market%20stalls%20decorated&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"festive shopping Nepal","search_url":"https://openverse.org/search/image?q=festive%20shopping%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=festive%20shopping%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"योजना ल्याएको","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L2 [full] STOCK VIDEO via pexels_video: \"festive shopping Nepal\" | then stock video @pixabay \"festive shopping Nepal\", stock video @pexels \"people with shopping bags\", stock video @pexels \"market stalls decorated\" | quality: topic_stock"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"smartphone price tag Nepal","alt_queries":["price label on phone","store display price"],"query_source":"director","shot_description":"","commons":null,"map":null,"motion_text":"उपलब्ध छ","on_screen_data":[{"label":"मूल्य (४/६४ जीबी)","value":"२१९९९ रुपैयाँ"},{"label":"मूल्य (४/१२८ जीबी)","value":"२५९९९ रुपैयाँ"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"मूल्य (४/६४ जीबी)","value":"२१९९९ रुपैयाँ"},{"label":"मूल्य (४/१२८ जीबी)","value":"२५९९९ रुपैयाँ"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"smartphone price tag Nepal","search_url":"https://www.pexels.com/search/videos/smartphone%20price%20tag%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=smartphone%20price%20tag%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"smartphone price tag Nepal","search_url":"https://pixabay.com/videos/search/smartphone%20price%20tag%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=smartphone%20price%20tag%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"price label on phone","search_url":"https://www.pexels.com/search/videos/price%20label%20on%20phone/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=price%20label%20on%20phone&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"store display price","search_url":"https://www.pexels.com/search/videos/store%20display%20price/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=store%20display%20price&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"smartphone price tag Nepal","search_url":"https://openverse.org/search/image?q=smartphone%20price%20tag%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=smartphone%20price%20tag%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"उपलब्ध छ","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"मूल्य (४/६४ जीबी) २१९९९ रुपैयाँ, मूल्य (४/१२८ जीबी) २५९९९ रुपैयाँ\" | then stock video @pexels \"smartphone price tag Nepal\" [bg], stock video @pixabay \"smartphone price tag Nepal\", stock video @pexels \"price label on phone\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"smartphone warranty card","alt_queries":["warranty document closeup","customer reading warranty"],"query_source":"director","shot_description":"A warranty card for a smartphone.","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"smartphone warranty card","search_url":"https://www.pexels.com/search/videos/smartphone%20warranty%20card/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=smartphone%20warranty%20card&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"A warranty card for a smartphone.","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"smartphone warranty card","search_url":"https://pixabay.com/videos/search/smartphone%20warranty%20card/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=smartphone%20warranty%20card&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"warranty document closeup","search_url":"https://www.pexels.com/search/videos/warranty%20document%20closeup/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=warranty%20document%20closeup&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"customer reading warranty","search_url":"https://www.pexels.com/search/videos/customer%20reading%20warranty/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=customer%20reading%20warranty&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"smartphone warranty card","search_url":"https://openverse.org/search/image?q=smartphone%20warranty%20card","api":"GET https://api.openverse.org/v1/images/?q=smartphone%20warranty%20card&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"text_plate","source":"local_render","text":"कम्पनीका अनुसार यो फोनमा १ सय दिनको साट्ने सुविधा र १३ महिनाको वारेन्टी पनि उपलब्ध छ।","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L4 [full] QUOTE CARD via local_render: \"ग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रि\" | then stock video @pexels \"smartphone warranty card\" [bg], stock video @pixabay \"smartphone warranty card\", stock video @pexels \"warranty document closeup\" | quality: quote_card"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"festive decoration market Nepal","alt_queries":["lights and banners","people celebrating market"],"query_source":"director","shot_description":"Festive decorations in a Nepali market.","commons":null,"map":null,"motion_text":"सञ्चालन गरिरहेको","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"festive decoration market Nepal","search_url":"https://www.pexels.com/search/videos/festive%20decoration%20market%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=festive%20decoration%20market%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Festive decorations in a Nepali market.","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"festive decoration market Nepal","search_url":"https://pixabay.com/videos/search/festive%20decoration%20market%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=festive%20decoration%20market%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"lights and banners","search_url":"https://www.pexels.com/search/videos/lights%20and%20banners/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=lights%20and%20banners&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"people celebrating market","search_url":"https://www.pexels.com/search/videos/people%20celebrating%20market/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=people%20celebrating%20market&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"festive decoration market Nepal","search_url":"https://openverse.org/search/image?q=festive%20decoration%20market%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=festive%20decoration%20market%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"दसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।","credit":"Source: OnlineKhabar","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"सञ्चालन गरिरहेको","credit":"Source: OnlineKhabar","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L5 [full] STOCK VIDEO via pexels_video: \"festive decoration market Nepal\" | then stock video @pixabay \"festive decoration market Nepal\", stock video @pexels \"lights and banners\", stock video @pexels \"people celebrating market\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":1,"quote_card":2,"topic_stock":2,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":1,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 1/5 content lines; article quote cards 2; topic stock only 2; needs a pick 0","lines_with_stock_query":4,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"person buying smartphone in Kathmandu market","verdict":"person_line"},{"src":"director_alt","query":"customer selecting phone","verdict":"person_line"},{"src":"director_alt","query":"store interior with phones","verdict":"person_line"},{"src":"scriptwriter","query":"smartphone shop in Kathmandu","verdict":"person_line"},{"src":"derived_line_gloss","query":"smartphone in hand","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":null,"removed_text":["तपाईंले कुनै स्मार्टफोन किन्दा यस्तो उपहार पाउनुभएको छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"न्युरोडकी","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"kicker","fields":{"text":"चंगा जित्ने योजना ल्याएको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"स्मार्टफोन","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2,"number_guard":true}},{"line_id":3,"beat":"detail","card":{"type":"bignum","fields":{"value":"21999","decimals":0,"unit":"रुपैयाँ","prefix":"","label":"मूल्य (४/६४ जीबी)","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"२१९९९","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":4,"beat":"pivot","card":{"type":"kicker","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"उपहार योजना सञ्चालन गरिरहेको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":0}},"strip":{"kind":"echo","text":"चाडपर्वको","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":1,"types_used":{"hook":1,"kicker":2,"bignum":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":0,"generic_picture_lines":0,"no_picture_lines":4,"blocked_claims":0,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":4,"chosen_topic":"स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","category":"tech","reason":"Smartphone giveaways and new device launches resonate strongly with Nepali GenZ, driving high engagement and shareability.","angle":"Showcase the Tecno Spark Go 3’s features, the contest win story, and how Nepali youth can snag similar deals, tying it to local tech trends.","chosen_id_recovered":false,"chosen_headline_exact":"स्मार्टफोन ब्रान्ड टेक्नोको ‘स्पार्क गो ३’ किन्दा न्युरोडकी शर्माले जितिन् चाँदीको चंगा","source_url":"https://www.onlinekhabar.com/2026/10/2039468/sharma-from-new-road-won-a-silver-kite-when-she-bought-a-spark-go-3-from-smartphone-brand-tecno","source_feed":"OnlineKhabar","rss_pub_date":"2026-10-15T02:26:09.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":184,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":42,"direct_headline_count":164,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_49b7100dffa8e409","source_credit":"Source: OnlineKhabar","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.1444025,"date_unknown":false,"article_text":"News Summary\nGenerated by OK AI. Editorially reviewed.\nन्युरोडकी उर्मिला शर्माले टेक्नोको स्पार्क गो ३ मोबाइल खरिद गरेर चाँदीको चंगा जितेकी छिन्।\nटेक्नोको स्पार्क गो ३ नेपाली बजारमा २१ हजार ९ सय ९९ र २५ हजार ९ सय ९९ रुपैयाँका दुई विकल्पमा उपलब्ध छ।\nदसैं, तिहार र छठका अवसरमा टेक्नोले ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना चलाइरहेको छ।\n२९ असोज, काठमाडौं । स्मार्टफोन ब्रान्ड टेक्नोको  ‘स्पार्क गो ३’ मोबाइल खरिद गरेकी न्युरोडकी उर्मिला शर्माले चाँदीको चंगा जितेकी छिन् ।\nकम्पनीका अनुसार सुपथ मूल्य, उत्कृष्ट सुविधा र भरपर्दो टिकाउपनका कारण टेक्नोको स्पार्क गो ३ नेपाली उपभोक्तामाझ लोकप्रिय बन्दै गएको छ । दैनिक प्रयोगका लागि आवश्यक आधुनिक सुविधा र चाडपर्वमा उपहार दिन उपयुक्त मूल्य दायरा भएका कारण यो फोन बजारमा पहिलो रोजाइ बन्न सफल भएको छ ।\nनेपाली बजारमा टेक्नो स्पार्क गो ३ दुई विकल्पमा उपलब्ध छ । जसअन्तर्गत ४ जीबी र्‍याम र ६४ जीबी भण्डारण क्षमता भएको फोनको मूल्य २१ हजार ९ सय ९९ रुपैयाँ तथा ४ जीबी र्‍याम र १२८ जीबी भण्डारण क्षमता भएको फोनको मूल्य २५ हजार ९ सय ९९ रुपैयाँ तोकिएको छ ।\nयस स्मार्टफोनमा ६.७४ इन्चको १२० हर्जको स्मुथ डिस्प्ले, ५००० एमएएच क्षमताको टिकाउ ब्याट्री, १३ मेगापिक्सेलको मुख्य क्यामरा र ८ मेगापिक्सेलको अगाडिको क्यामेरा छ।\nदैनिक प्रयोग सहज बनाउन फोनमा ‘टेक्नो कृत्रिम बौद्धिकता (एआई) आवाज सहयोगी’ तथा ‘इन्टरनेट र नेटवर्कविना सञ्चार हुने २.०’ जस्ता स्मार्ट सुविधा यसमा छ । धुलो र पानीका छिटाबाट बचाउन यसमा ‘आईपी ६४’ सुरक्षा मापदण्डका साथै सामान्य खसाइबाट जोगाउने बलियो बनावट समेत छ ।\nग्राहकको विश्वास मध्यनजर गर्दै कम्पनीले यस फोनमा १ सय दिनको साट्ने (रिप्लेसमेन्ट) नीति र १३ महिनाको आधिकारिक वारेन्टी सुविधा उपलब्ध गराएको छ । जसअन्तर्गत खरिद गरेको १ सय दिनभित्र कुनै प्राविधिक समस्या आए तोकिएका सर्तहरूको अधीनमा रही नयाँ फोन साट्न सकिने छ ।\nदसैं, तिहार तथा छठ पर्वका अवसरमा सञ्चालित ‘टेक्नो स्मार्टफोन किन्दा सुनको चंगा उपहार’ योजना अन्तर्गत देशका विभिन्न स्थानका ग्राहकले उपहार जित्ने क्रम जारी छ ।\nयसै क्रममा काठमाडौ न्युरोडस्थित मोबाइल प्वाइन्टबाट टेक्नो क्यामोन ४० प्रो स्मार्टफोन खरिद गर्दा ग्राहक उर्मिला शर्माले आकर्षक ‘चाँदीको चंगा’ जितेकी छिन् ।\nयस योजना अन्तर्गत टेक्नो स्मार्टफोन खरिद गर्दा हरेक दिन चाँदीका सिक्का र हरेक हप्ता २ जना ग्राहकले चाँदीका चंगा जित्ने अवसर पाउनेछन् ।\nत्यस्तै योजना अन्त्यमा हुने बम्पर लक्की ड्रमार्फत एक जना भाग्यशाली विजेताले ५ लाख बराबरको ‘सुनको चंगा’ प्राप्त गर्नेछन् ।\nविश्व बजारमा चिपसेट र र्‍यामजस्ता पार्टपुर्जाको लागत बढिरहेकाले आगामी दिनमा नेपाली बजारमा पनि फोनको मूल्य वृद्धि हुन सक्ने भन्दै कम्पनीले हाल तोकिएकै सुपथ मूल्यमा फोन खरिद गरी आकर्षक उपहार जित्ने अवसर सदुपयोग गर्न आग्रह गरेको छ ।\nचाँदीको चंगा\nस्पार्क गो ३\nस्मार्टफोन ब्रान्ड टेक्नो\nयो खबर पढेर तपाईलाई कस्तो महसुस भयो ?\nखुसी\nदुःखी\nअचम्मित\nउत्साहित\nआक्रोशित\nप्रतिक्रिया\nभर्खरै\nपुराना\nलोकप्रिय\n+\nप्रतिक्रिया 4\nप्रतिक्रिया\nSatungal\nHouse for Sale in Satungal\nRs. 4.15 Cr Total Amount\nShital Height\nHouse for Sale at Shital Height\nRs. 3.25 Cr Total Amount\nDhapasi\nHouse for Sale at Dhapasi\nRs. 4 Cr Total Amount\nBhaisepati\nHouse for Sale at Bhaisepati\nRs. 4.25 Cr Total Amount\nJalpa Chowk\nHouse for Sale at Jalpa Chowk\nRs. 4 Cr Total Amount\nSiddhipur\nHouse for Sale at Siddhipur\nRs. 3.4 Cr Total Amount\nGanesh Chowk\nHouse for Sale at Ganesh Chowk\nRs. 4.89 Cr Total Amount\nImadol\nHouse for Sale at Cozy Homes, Imadol\nRs. 3.4 Cr Total Amount\nBalkot\nResidential Land for Sale at Balkot\nRs. 45 Lac Per Aana\nBhandari Marg\nBungalow House for Sale at Bhandari Marg\nRs. 9.5 Cr Total Amount\nTikathali\nHouse for Sale at Tikathali\nRs. 3.95 Cr Total Amount\nImadol\nHouse for Sale at Imadol\nRs. 2.25 Cr Total Amount\nSanothimi\nResidential Land for Sale at Sanothimi\nRs. 50 Lac Per Aana\nLubhu\nHouse for Sale at Lubhu\nRs. 1.55 Cr Total Amount\nDholahiti\nBungalow House for Sale at Dholahiti\nRs. 4.5 Cr Total Amount\nTikathali\nHouse for Sale at Tikathali\nRs. 2.75 Cr Total Amount\nTikathali\nHouse for Sale at Tikathali\nRs. 3.2 Cr Total Amount\nHattiban\nHouse for Sale at Hattiban\nRs. 6.9 Cr Total Amount\nBansbari\nBungalow House for Rent at Bansbari\nRs. 2.5 Lac Per Month\nBudhanilkantha\nBungalow House for Rent at Budhanilkantha\nRs. 2 Lac Per Month\nलद्दाखको नयाँ नक्सा विवाद : भारत–चीन आमनेसामने\nगुल्मीमा देवरको कुटपिटबाट घाइते भएकी महिलाको मृत्यु\nभरतपुर विमानस्थल परिसर सुधार गर्न निर्देशन\n१४ लाख बढीको अवैध मदिरा बरामद\nजाजरकोटमा जिप दुर्घटना हुँदा दुई जनाको मृत्यु, तीन घाइते\nकर्णालीका धनी अर्थमन्त्री : ३१ ठाउँमा जग्गा, करोडौंको शेयर\nAdvertisment\nखगेन्द्र सुनार प्रकरण : महिला हिंसाको गम्भीर आरोप लाग्दा सरकार किन चुपचाप ?\nलेकबाट आएको खबर, जसले कैयौंको ज्यान जोगायो\n११ अर्ब ७८ करोडको बीमा अनुदान, किसान भने जोखिममै\nबूढीगण्डकीमा कसरी आयो विनाशकारी बाढी ?\n२६ गते जमरा राख्ने हल्ला किन चल्यो ? २५ गते नै जमरा राख्ने सजिलो तरिका के छ ?\nगगनको विद्रोह, विश्वको विश्वास\nमनसुनमा सरदर वर्षा, हिमाली क्षेत्रमा धेरै","article_char_count":4628,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article","article_block_reason":"","risk_flag":"NORMAL","risk_reasons":[],"source_label":"OnlineKhabar","assigned_hook_type":"direct_callout","review_id":"RV_20261015_mwtd22","trust_gate_passed":true,"tiktok_caption_budget":129,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===
