@@ -1,0 +1,55 @@
+{
+  "master_sha256": "a7745253523d1aa9f8ad3373a6da7f9208ce4c610223a1e738ad6fb552d59420",
+  "cuts_sec": [
+    9.170958333333333,
+    19.74191666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.171,
+      "duration_sec": 9.171,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+      "master_start_sec": 9.171,
+      "master_end_sec": 19.742,
+      "duration_sec": 10.571,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+      "master_start_sec": 19.742,
+      "master_end_sec": 32.433,
+      "duration_sec": 12.691,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": true,
+  "sample_preserving": true,
+  "fallback_note": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. CTC found a possible partial match; original half retained and divided without a duplicate voice request."
+}

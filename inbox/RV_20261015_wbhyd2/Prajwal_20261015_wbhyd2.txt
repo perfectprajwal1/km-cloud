@@ -1,0 +1,381 @@
+REVIEW ID: RV_20261015_wbhyd2
+TOPIC: बाढीपछिको पुनर्निर्माणमा एसियाली विकास बैंकलाई अर्थमन्त्रीको आग्रह
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_bf98e4b3765b4a2b
+DATE: 2026-10-15T07:02:17.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: RONB Post
+CATEGORY: news
+SOURCE: https://www.ronbpost.com/2026/10/20869/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्। भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे। मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्। अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal flood relief reconstruction meeting",
+   "shot_description": "अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "पुनर्निर्माणमा एसियाली विकास बैंकलाई आग्रह",
+  "big_hook_text": "बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Bangkok city skyline",
+   "shot_description": "थाइल्यान्डको बैङ्कक सहरको दृश्य",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "बैङ्ककमा जारी वार्षिक बैठक",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Asian Development Bank office building",
+   "shot_description": "एसियाली विकास बैंकको लोगो वा भवन",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "स्रोत परिचालनका लागि आग्रह",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान, जलवायु-उत्थानशील पुनर्निर्माण र नेपालका दीर्घकालीन आर्थिक प्राथमिकताहरू अगाडि बढाउनका लागि स्रोत परिचालन गर्न बैंकका अध्यक्ष मासातो कान्दालाई आग्रह गरे ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "impact",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal flood relief work",
+   "shot_description": "बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अनुदानका लागि कृतज्ञता",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "विनाशकारी बाढीपछि उद्धार कार्यमा सहयोग गर्न आपतकालीन अनुदानको छिटो स्वीकृति र हार्दिक ऐक्यबद्धताका लागि मन्त्री वाग्लेले एसियाली विकास बैंकप्रति नेपालको तर्फबाट कृतज्ञता व्यक्त गरे ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Bangkok city meeting hall",
+   "shot_description": "बैङ्ककको सम्मेलन स्थलको दृश्य",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "बैङ्ककमा भेटवार्ता",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": false
+  },
+  "source_evidence": "थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_bf98e4b3765b4a2b","source_url":"https://www.ronbpost.com/2026/10/20869/","source_label":"RONB Post","source_credit":"Source: RONB Post","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","proof_asset":{"kind":"article_text","source_url":"https://www.ronbpost.com/2026/10/20869/","article_quote":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"बाढीपछिको पुनर्निर्माणमा सघाउन अर्थमन्त्री डा.स्वर्णिम वाग्लेले एसियाली विकास बैंकसँग आग्रह गरेका छन्।","closing_line":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","comment_prompt":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","pinned_comment":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal flood relief reconstruction meeting","shot_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"पुनर्निर्माणमा एसियाली विकास बैंकलाई आग्रह","big_hook_text":"बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्","pip_mode":"off","source_evidence":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Bangkok city skyline","shot_description":"थाइल्यान्डको बैङ्कक सहरको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा जारी वार्षिक बैठक","big_hook_text":"","pip_mode":"off","source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Asian Development Bank office building","shot_description":"एसियाली विकास बैंकको लोगो वा भवन","depiction_scope":"generic_illustration"},"caption_text":"स्रोत परिचालनका लागि आग्रह","big_hook_text":"","pip_mode":"off","source_evidence":"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान, जलवायु-उत्थानशील पुनर्निर्माण र नेपालका दीर्घकालीन आर्थिक प्राथमिकताहरू अगाडि बढाउनका लागि स्रोत परिचालन गर्न बैंकका अध्यक्ष मासातो कान्दालाई आग्रह गरे ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"impact","narration_text":"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal flood relief work","shot_description":"बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य","depiction_scope":"generic_illustration"},"caption_text":"अनुदानका लागि कृतज्ञता","big_hook_text":"","pip_mode":"off","source_evidence":"विनाशकारी बाढीपछि उद्धार कार्यमा सहयोग गर्न आपतकालीन अनुदानको छिटो स्वीकृति र हार्दिक ऐक्यबद्धताका लागि मन्त्री वाग्लेले एसियाली विकास बैंकप्रति नेपालको तर्फबाट कृतज्ञता व्यक्त गरे ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Bangkok city meeting hall","shot_description":"बैङ्ककको सम्मेलन स्थलको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा भेटवार्ता","big_hook_text":"","pip_mode":"off","source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह","youtube_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","youtube_tags":["Nepal","Finance","Reconstruction","ADB","Swarnim Wagle","Flood","ClimateChange","Economy","News"],"tiktok_caption":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह","instagram_caption":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","facebook_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","threads_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","linkedin_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","hashtags":["#Nepal","#Reconstruction","#ADB","#News"],"source_credit":"Source: RONB Post"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: One claim is unsupported: the script says the minister gave an emergency grant, which the article does not state.
+Closing: removed question wording ("बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?"); dropped line(s) 6; last line is now: "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।".
+B-roll weak on line(s) 1(text_plate_only), 2(text_plate_only), 4(text_plate_only), 5(text_plate_only): pick a shot by hand or Regenerate.
+B-roll: only 0/5 lines show this story's own facts; line(s)  use general topic footage.
+Line 4: no card could be built from its own words; previous card stays (nothing invented). Edit the line or add a director hint.
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 5: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+बाढीपछिको पुनर्निर्माणमा सघाउन अर्थमन्त्री डा.स्वर्णिम वाग्लेले एसियाली विकास बैंकसँग आग्रह गरेका छन्।
+
+--- PINNED COMMENT (Nepali question) ---
+बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य",
+   "commons": null,
+   "map": null,
+   "motion_text": "आग्रह गरेका",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "आग्रह गरेका",
+     "credit": "Source: RONB Post",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L1 [full] TEXT PLATE via local_render: \"आग्रह गरेका\" | quality: text_plate_only"
+  }
+ },
+ {
+  "text": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "थाइल्यान्डको बैङ्कक सहरको दृश्य",
+   "commons": null,
+   "map": null,
+   "motion_text": "सहभागी छन्",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "सहभागी छन्",
+     "credit": "Source: RONB Post",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L2 [full] TEXT PLATE via local_render: \"सहभागी छन्\" | quality: text_plate_only"
+  }
+ },
+ {
+  "text": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "एसियाली विकास बैंकको लोगो वा भवन",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान",
+     "credit": "Source: RONB Post",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+     "credit": "Source: RONB Post",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L3 [full] QUOTE CARD via local_render: \"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "impact",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+     "credit": "Source: RONB Post",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L4 [full] TEXT PLATE via local_render: \"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा ब\" | quality: text_plate_only"
+  }
+ },
+ {
+  "text": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "",
+  "broll_kind": "text_plate",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "text_plate",
+   "quality": "text_plate_only",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "बैङ्ककको सम्मेलन स्थलको दृश्य",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+     "credit": "Source: RONB Post",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 1
+    }
+   ],
+   "human_brief": "L5 [full] TEXT PLATE via local_render: \"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्\" | quality: text_plate_only"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 0/5 content lines; article quote cards 1; topic stock only 0; needs a pick 4 | director groq (openai/gpt-oss-120b)
+L1 [full] TEXT PLATE via local_render: "आग्रह गरेका" | quality: text_plate_only
+L2 [full] TEXT PLATE via local_render: "सहभागी छन्" | quality: text_plate_only
+L3 [full] QUOTE CARD via local_render: "सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान" | then text plate @local_render | quality: quote_card
+L4 [full] TEXT PLATE via local_render: "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा ब" | quality: text_plate_only
+L5 [full] TEXT PLATE via local_render: "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्" | quality: text_plate_only
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह",
+ "youtube_description": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/",
+ "youtube_tags": [
+  "Nepal",
+  "Finance",
+  "Reconstruction",
+  "ADB",
+  "Swarnim Wagle",
+  "Flood",
+  "ClimateChange",
+  "Economy",
+  "News"
+ ],
+ "tiktok_caption": "बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह\nSource: RONB Post",
+ "instagram_caption": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/",
+ "facebook_post": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/",
+ "threads_post": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/",
+ "linkedin_post": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/",
+ "hashtags": [
+  "#Nepal",
+  "#Reconstruction",
+  "#ADB",
+  "#News"
+ ],
+ "source_credit": "Source: RONB Post"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261015_wbhyd2","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261015_wbhyd2","review_date":"20261015","title":"बाढीपछिको पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई अर्थमन्त्रीको आग्रह","chosen_topic":"बाढीपछिको पुनर्निर्माणमा एसियाली विकास बैंकलाई अर्थमन्त्रीको आग्रह","category":"news","source_url":"https://www.ronbpost.com/2026/10/20869/","story_id":"ST_bf98e4b3765b4a2b","risk_flag":"NORMAL","source_credit":"Source: RONB Post","full_script":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्। भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे। मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्। अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","hook":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","alternate_hook":"बाढीपछिको पुनर्निर्माणमा सघाउन अर्थमन्त्री डा.स्वर्णिम वाग्लेले एसियाली विकास बैंकसँग आग्रह गरेका छन्।","hook_type":"direct_callout","closing_line":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","pinned_comment":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","lines":[{"text":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","voice":"neutral_talking","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"},{"text":"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"}],"word_count":73,"workbook":{"schema_version":"6.6.9","story_id":"ST_bf98e4b3765b4a2b","source_url":"https://www.ronbpost.com/2026/10/20869/","source_label":"RONB Post","source_credit":"Source: RONB Post","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","proof_asset":{"kind":"article_text","source_url":"https://www.ronbpost.com/2026/10/20869/","article_quote":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"neutral","alternate_hook":"बाढीपछिको पुनर्निर्माणमा सघाउन अर्थमन्त्री डा.स्वर्णिम वाग्लेले एसियाली विकास बैंकसँग आग्रह गरेका छन्।","closing_line":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","comment_prompt":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","pinned_comment":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","voice":"neutral_talking","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal flood relief reconstruction meeting","shot_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"पुनर्निर्माणमा एसियाली विकास बैंकलाई आग्रह","big_hook_text":"बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्","pip_mode":"off","source_evidence":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false}},{"line_id":2,"beat":"context","narration_text":"थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Bangkok city skyline","shot_description":"थाइल्यान्डको बैङ्कक सहरको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा जारी वार्षिक बैठक","big_hook_text":"","pip_mode":"off","source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":3,"beat":"detail","narration_text":"भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Asian Development Bank office building","shot_description":"एसियाली विकास बैंकको लोगो वा भवन","depiction_scope":"generic_illustration"},"caption_text":"स्रोत परिचालनका लागि आग्रह","big_hook_text":"","pip_mode":"off","source_evidence":"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान, जलवायु-उत्थानशील पुनर्निर्माण र नेपालका दीर्घकालीन आर्थिक प्राथमिकताहरू अगाडि बढाउनका लागि स्रोत परिचालन गर्न बैंकका अध्यक्ष मासातो कान्दालाई आग्रह गरे ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":4,"beat":"impact","narration_text":"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal flood relief work","shot_description":"बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य","depiction_scope":"generic_illustration"},"caption_text":"अनुदानका लागि कृतज्ञता","big_hook_text":"","pip_mode":"off","source_evidence":"विनाशकारी बाढीपछि उद्धार कार्यमा सहयोग गर्न आपतकालीन अनुदानको छिटो स्वीकृति र हार्दिक ऐक्यबद्धताका लागि मन्त्री वाग्लेले एसियाली विकास बैंकप्रति नेपालको तर्फबाट कृतज्ञता व्यक्त गरे ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}},{"line_id":5,"beat":"closing","narration_text":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Bangkok city meeting hall","shot_description":"बैङ्ककको सम्मेलन स्थलको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा भेटवार्ता","big_hook_text":"","pip_mode":"off","source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false}}],"platform_pack":{"youtube_title":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह","youtube_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","youtube_tags":["Nepal","Finance","Reconstruction","ADB","Swarnim Wagle","Flood","ClimateChange","Economy","News"],"tiktok_caption":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह","instagram_caption":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","facebook_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","threads_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","linkedin_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","hashtags":["#Nepal","#Reconstruction","#ADB","#News"],"source_credit":"Source: RONB Post"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"Nepal flood relief reconstruction meeting","shot_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"पुनर्निर्माणमा एसियाली विकास बैंकलाई आग्रह","big_hook_text":"बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":false},"source_evidence":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"Bangkok city skyline","shot_description":"थाइल्यान्डको बैङ्कक सहरको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा जारी वार्षिक बैठक","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"Asian Development Bank office building","shot_description":"एसियाली विकास बैंकको लोगो वा भवन","depiction_scope":"generic_illustration"},"caption_text":"स्रोत परिचालनका लागि आग्रह","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान, जलवायु-उत्थानशील पुनर्निर्माण र नेपालका दीर्घकालीन आर्थिक प्राथमिकताहरू अगाडि बढाउनका लागि स्रोत परिचालन गर्न बैंकका अध्यक्ष मासातो कान्दालाई आग्रह गरे ।"},{"line_id":4,"beat":"impact","visual":{"type":"BROLL","search_query":"Nepal flood relief work","shot_description":"बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य","depiction_scope":"generic_illustration"},"caption_text":"अनुदानका लागि कृतज्ञता","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"विनाशकारी बाढीपछि उद्धार कार्यमा सहयोग गर्न आपतकालीन अनुदानको छिटो स्वीकृति र हार्दिक ऐक्यबद्धताका लागि मन्त्री वाग्लेले एसियाली विकास बैंकप्रति नेपालको तर्फबाट कृतज्ञता व्यक्त गरे ।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"Bangkok city meeting hall","shot_description":"बैङ्ककको सम्मेलन स्थलको दृश्य","depiction_scope":"generic_illustration"},"caption_text":"बैङ्ककमा भेटवार्ता","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":false},"source_evidence":"थाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।"}],"lines_legacy":[{"text":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","voice":"neutral_talking","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"quote_card"},{"text":"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"},{"text":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","voice":"neutral","pose":"neutral","broll":"","broll_kind":"text_plate"}],"youtube_title":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह","youtube_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","youtube_tags":["Nepal","Finance","Reconstruction","ADB","Swarnim Wagle","Flood","ClimateChange","Economy","News"],"tiktok_caption":"बाढीपछिको पुनर्निर्माणमा नेपालको आग्रह\nSource: RONB Post","instagram_caption":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","facebook_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","threads_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","linkedin_post":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्। Source: RONB Post https://www.ronbpost.com/2026/10/20869/","hashtags":["#Nepal","#Reconstruction","#ADB","#News"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"अर्थमन्त्री डा.स्वर्णिम वाग्लेको तस्बिर वा सम्बन्धित बैठकको दृश्य","commons":null,"map":null,"motion_text":"आग्रह गरेका","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"आग्रह गरेका","credit":"Source: RONB Post","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L1 [full] TEXT PLATE via local_render: \"आग्रह गरेका\" | quality: text_plate_only"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"थाइल्यान्डको बैङ्कक सहरको दृश्य","commons":null,"map":null,"motion_text":"सहभागी छन्","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"सहभागी छन्","credit":"Source: RONB Post","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L2 [full] TEXT PLATE via local_render: \"सहभागी छन्\" | quality: text_plate_only"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"एसियाली विकास बैंकको लोगो वा भवन","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान","credit":"Source: RONB Post","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।","credit":"Source: RONB Post","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L3 [full] QUOTE CARD via local_render: \"सो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान\" | then text plate @local_render | quality: quote_card"},{"line_id":4,"beat":"impact","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"बाढीपछिको उद्धार कार्यको प्रतीकात्मक दृश्य","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।","credit":"Source: RONB Post","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L4 [full] TEXT PLATE via local_render: \"मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा ब\" | quality: text_plate_only"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"text_plate","quality":"text_plate_only","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"बैङ्ककको सम्मेलन स्थलको दृश्य","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"text_plate","source":"local_render","text":"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।","credit":"Source: RONB Post","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":1}],"human_brief":"L5 [full] TEXT PLATE via local_render: \"अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्\" | quality: text_plate_only"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":0,"quote_card":1,"topic_stock":0,"derived_check":0,"text_plate_only":4,"end_card":0,"specific":0,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 0/5 content lines; article quote cards 1; topic stock only 0; needs a pick 4","lines_with_stock_query":0,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[{"src":"director","query":"Nepal flood relief reconstruction meeting","verdict":"person_line"},{"src":"director_alt","query":"minister meeting Bangkok","verdict":"person_line"},{"src":"director_alt","query":"Asian Development Bank discussion","verdict":"person_line"},{"src":"scriptwriter","query":"Nepal flood relief reconstruction meeting","verdict":"person_line"},{"src":"derived_line_gloss","query":"bank counter","verdict":"person_line"}]},{"line_id":2,"tried":[{"src":"director","query":"Bangkok city skyline","verdict":"person_line"},{"src":"director_alt","query":"Bangkok aerial view","verdict":"person_line"},{"src":"director_alt","query":"Thai capital panorama","verdict":"person_line"},{"src":"scriptwriter","query":"Bangkok city skyline","verdict":"person_line"},{"src":"derived_line_gloss","query":"bank counter","verdict":"person_line"}]},{"line_id":3,"tried":[{"src":"director","query":"Asian Development Bank office building","verdict":"person_line"},{"src":"director_alt","query":"ADB headquarters","verdict":"person_line"},{"src":"director_alt","query":"development bank building","verdict":"person_line"},{"src":"scriptwriter","query":"Asian Development Bank office building","verdict":"person_line"}]},{"line_id":4,"tried":[{"src":"director","query":"Nepal flood relief work","verdict":"person_line"},{"src":"director_alt","query":"relief operations Nepal","verdict":"person_line"},{"src":"director_alt","query":"post‑flood aid","verdict":"person_line"},{"src":"scriptwriter","query":"Nepal flood relief work","verdict":"person_line"}]},{"line_id":5,"tried":[{"src":"director","query":"Bangkok city meeting hall","verdict":"person_line"},{"src":"director_alt","query":"conference venue Bangkok","verdict":"person_line"},{"src":"director_alt","query":"meeting room Thailand","verdict":"person_line"},{"src":"scriptwriter","query":"Bangkok city meeting hall","verdict":"person_line"},{"src":"derived_line_gloss","query":"bank counter","verdict":"person_line"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"पुनर्निर्माणमा"}},"picture":{"status":"candidates","subject":{"kind":"person","name_en":"Swarnim Wagley","in_line":"डा.स्वर्णिम वाग्ले","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"minister meeting","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=minister%20meeting&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=minister%20meeting&ns6=1"},{"rank":2,"source":"wikimedia_commons","query":"flood reconstruction discussion","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=flood%20reconstruction%20discussion&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=flood%20reconstruction%20discussion&ns6=1"},{"rank":3,"source":"wikimedia_commons","query":"development bank negotiation","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=development%20bank%20negotiation&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=development%20bank%20negotiation&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"place","fields":{"place":"बैङ्कक","area":"Thailand","headline":"बैङ्कक","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"बैङ्कक"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Bangkok","in_line":"बैङ्कक","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Bangkok skyline","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Bangkok%20skyline&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Bangkok%20skyline&ns6=1"},{"rank":2,"source":"openverse","query":"cityscape Bangkok","api":"https://api.openverse.org/v1/images/?q=cityscape%20Bangkok&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=cityscape%20Bangkok&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"urban Bangkok view","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=urban%20Bangkok%20view&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=urban%20Bangkok%20view&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":3,"beat":"detail","card":{"type":"place","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"impact","card":{"type":"place","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"थाइल्यान्डको","fallback_kind":"echo"},"picture":{"status":"none","reason":"line names a person; only a verified photo of them would be true (none supplied)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":2,"types_used":{"hook":1,"place":1,"kicker":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":1,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":0,"chosen_topic":"बाढीपछिको पुनर्निर्माणमा एसियाली विकास बैंकलाई अर्थमन्त्रीको आग्रह","category":"news","reason":"Floods have devastated many communities, and GenZ audiences are highly responsive to humanitarian stories and calls for action, especially when tied to national recovery and international support, aligning with trending \"nepal\" and \"समाचार\" searches.","angle":"Present the story with emotive visuals of affected areas, spotlight youth voices urging accountability, and frame it as a rallying point for Nepali GenZ to support reconstruction efforts.","chosen_id_recovered":false,"chosen_headline_exact":"बाढीपछिको पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई अर्थमन्त्रीको आग्रह","source_url":"https://www.ronbpost.com/2026/10/20869/","source_feed":"RONB Post","rss_pub_date":"2026-10-15T07:02:17.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":184,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":43,"direct_headline_count":164,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_bf98e4b3765b4a2b","source_credit":"Source: RONB Post","trust_eligible":true,"trust_skip_reason":"","article_age_hours":1.1632066666666667,"date_unknown":false,"article_text":"काठमाडौं । अर्थमन्त्री डा.स्वर्णिम वाग्लेले नेपालले भोगेको प्राकृति विपत्तिपछिको पुनरुत्थान र जलवायु-उत्थानशील पुनर्निर्माणमा नेपाललाई सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन् ।\n\nथाइल्यान्डको राजधानी बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा सहभागी हुन थाइल्यान्डको राजधानी बैङ्ककमा रहेका अर्थमन्त्री डा.स्वर्णिम वाग्ले र एसियाली विकास बैंकका अध्यक्ष मासातो कान्दाबीच बिहीबार भेटवार्ता भएको थियो ।\n\nसो भेटवार्तामा अर्थमन्त्री डा.वाग्लेले विपद्पश्चातको पुनरुत्थान, जलवायु-उत्थानशील पुनर्निर्माण र नेपालका दीर्घकालीन आर्थिक प्राथमिकताहरू अगाडि बढाउनका लागि स्रोत परिचालन गर्न बैंकका अध्यक्ष मासातो कान्दालाई आग्रह गरे ।\n\nविनाशकारी बाढीपछि उद्धार कार्यमा सहयोग गर्न आपतकालीन अनुदानको छिटो स्वीकृति र हार्दिक ऐक्यबद्धताका लागि मन्त्री वाग्लेले एसियाली विकास बैंकप्रति नेपालको तर्फबाट कृतज्ञता व्यक्त गरे ।\n\nअर्थमन्त्री डा.वाग्लेसँगको भेटमा अध्यक्ष कान्दाले नेपालको विकासका लागि सहकार्य आफूहरूको उच्च प्राथमिकतामा रहेको बताए । छलफलमा भ्रमण दलमा रहेका अर्थसचिव डा.घनश्याम उपाध्याय र मन्त्रालयका सहसचिव अमृत लम्साल पनि सहभागी थिए ।","article_char_count":1056,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_reader","article_block_reason":"Direct fetch failed (extracted text too short (0 chars)); article text via free reader fallback (r.jina.ai).","km_reader_tried":true,"risk_flag":"NORMAL","risk_reasons":[],"source_label":"RONB Post","assigned_hook_type":"direct_callout","review_id":"RV_20261015_wbhyd2","trust_gate_passed":true,"tiktok_caption_budget":132,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

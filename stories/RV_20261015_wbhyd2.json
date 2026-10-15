@@ -1,0 +1,517 @@
+{
+ "id": "RV_20261015_wbhyd2",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?",
+ "pinned_comment": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "पुनर्निर्माणमा एसियाली विकास बैंकलाई आग्रह",
+   "sub": "",
+   "km_default": true,
+   "vo": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_wbhyd2_01_4fa92a.png",
+    "anim": {
+     "kind": "voiceprint",
+     "voiceprint": {
+      "name": "डा.स्वर्णिम वाग्ले",
+      "role": "अर्थमन्त्री",
+      "parts": [
+       {
+        "t": "बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली "
+       },
+       {
+        "t": "विकास बैंकलाई",
+        "hl": true
+       },
+       {
+        "t": " आग्रह गरेका छन्।"
+       }
+      ],
+      "at": 0.615
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "बैङ्ककमा जारी वार्षिक बैठक",
+   "points": [
+    "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय"
+   ],
+   "km_default": true,
+   "vo": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_wbhyd2_02_afbe4f.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "थाइल्यान्डको "
+       },
+       {
+        "t": "बैङ्ककमा जारी",
+        "hl": true,
+        "at": 0.141
+       },
+       {
+        "t": " विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको "
+       },
+       {
+        "t": "वार्षिक बैठकमा",
+        "hl": true,
+        "at": 0.534
+       },
+       {
+        "t": " अर्थमन्त्री वाग्ले सहभागी छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "स्रोत परिचालनका लागि आग्रह",
+   "points": [
+    "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका"
+   ],
+   "km_default": true,
+   "vo": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_wbhyd2_03_c8d7de.png",
+    "anim": {
+     "kind": "voiceprint",
+     "voiceprint": {
+      "name": "वाग्ले",
+      "role": "मन्त्री",
+      "parts": [
+       {
+        "t": "विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष "
+       },
+       {
+        "t": "मासातो कान्दालाई",
+        "hl": true
+       },
+       {
+        "t": " आग्रह गरे।"
+       }
+      ],
+      "at": 0.704
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "अनुदानका लागि कृतज्ञता",
+   "points": [
+    "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन"
+   ],
+   "km_default": true,
+   "vo": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_wbhyd2_04_210522.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका "
+       },
+       {
+        "t": "लागि",
+        "hl": true,
+        "at": 0.344
+       },
+       {
+        "t": " आपतकालीन "
+       },
+       {
+        "t": "अनुदान",
+        "hl": true,
+        "at": 0.446
+       },
+       {
+        "t": " दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "बैङ्ककमा भेटवार्ता",
+   "points": [
+    "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच"
+   ],
+   "km_default": true,
+   "vo": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_wbhyd2_05_51bbbb.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "बैङ्ककमा",
+        "key": false,
+        "at": 0.443
+       },
+       {
+        "t": "भेटवार्ता",
+        "key": true,
+        "at": 0.495
+       }
+      ],
+      "icon": "coin",
+      "at": 0.443
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "coin": "<circle pathLength=\"1\" cx=\"12\" cy=\"12\" r=\"9\"/><path pathLength=\"1\" d=\"M12 7v10\"/><path pathLength=\"1\" d=\"M9.5 9.5c0-1 1-2 2.5-2s2.5 1 2.5 2-1 1.8-2.5 2-2.5 1-2.5 2 1 2 2.5 2 2.5-1 2.5-2\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20",
+  "plan_hash": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352",
+  "selected": [
+   "main:hook",
+   "strip:voiceprint",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:voiceprint",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:voiceprint",
+   "strip:who"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "voiceprint",
+    "score": 193.067,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:voiceprint",
+     "strip:who"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:who": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.694,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "voiceprint",
+    "score": 127.977,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:voiceprint"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.694,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 98.057,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "1b123ee426907588aae20f30f7a98a835b0a926c743b2e2d14e0f7cf1e39cb34"
+ }
+}

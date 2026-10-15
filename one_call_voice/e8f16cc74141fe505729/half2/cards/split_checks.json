@@ -1,0 +1,55 @@
+{
+  "master_sha256": "43dd5c9458a0c0c1f3c2510f5f49b9ad0c4b083b12ac82f404321a151ef426ed",
+  "cuts_sec": [
+    10.218208333333333,
+    20.137458333333335
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 10.218,
+      "duration_sec": 10.218,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+      "master_start_sec": 10.218,
+      "master_end_sec": 20.137,
+      "duration_sec": 9.919,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 20.137,
+      "master_end_sec": 27.411,
+      "duration_sec": 7.274,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

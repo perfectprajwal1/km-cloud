@@ -1,0 +1,203 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "cuts_sec": [
+    9.170958333333333,
+    19.74191666666667,
+    33.432875,
+    44.65108333333333,
+    54.57033333333334
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 3,
+      "sync_method": "isolated_per_card",
+      "original_master_sha256": "8c8df82ac05f77de1e92039e6fce2199dd591cc71e9338506af5d2e2e4c20940",
+      "used_master_sha256": "a7745253523d1aa9f8ad3373a6da7f9208ce4c610223a1e738ad6fb552d59420",
+      "seconds": 32.432875,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+            "spoken": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+            "spoken": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+            "mapping": []
+          },
+          {
+            "original": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+            "spoken": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "8c8df82ac05f77de1e92039e6fce2199dd591cc71e9338506af5d2e2e4c20940",
+        "greedy": "अर्थमन्त्री डक्टर श्वर्णी म्वाग्लेले बार्णी पछिको पुनर निर्माणम सघाउन एसियाली विकास बैङ्कलाई आग्रह गरेका छन्थाइल्यान्डको बैङ्ककमा झारी विश्व बैङ्क र अन्तर्राष्ट्रिय मुद्राकोषको वार्षिक वैठकमा अर्थमन्त्री वागले सहभागिछन्भेटमा मन्त्री वागलेले विपत्पश्चातहको पुनरउत्थान र नेपालका दीर्घकालीन आर्थिक प्रा्थमिकताक लागि श्रोठ परिचालन गर्न अध्यक्ष मासातौ गन्दालाई आगरह गरे ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "partial_missing_indices": [
+          0
+        ],
+        "transcript_char_match": 0.7773722627737226,
+        "scores": [
+          -0.5052110787542006,
+          -0.43386304617112426
+        ],
+        "cuts_sec": [
+          8.475,
+          17.79
+        ],
+        "boundaries": [],
+        "best_effort": true,
+        "fallback_reason": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+        "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+      },
+      "recovered": [
+        {
+          "card": 1,
+          "master_sha256": "5f3c650c3b24d221e7658322891f0233f2c93e1eac6cd569eefbe3100d25789f",
+          "duration_sec": 8.171
+        },
+        {
+          "card": 2,
+          "master_sha256": "1cce072e126b34e7be03e96ee1ff3645192451f168024c2a37eb2e66ff096c69",
+          "duration_sec": 8.571
+        },
+        {
+          "card": 3,
+          "master_sha256": "93ed6854c36e9db9912d7c46887b9ce477cf5523cd741cb3bf26dae41d096578",
+          "duration_sec": 11.691
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "43dd5c9458a0c0c1f3c2510f5f49b9ad0c4b083b12ac82f404321a151ef426ed",
+      "used_master_sha256": "43dd5c9458a0c0c1f3c2510f5f49b9ad0c4b083b12ac82f404321a151ef426ed",
+      "seconds": 27.410958333333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+            "spoken": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+            "spoken": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+            "mapping": []
+          },
+          {
+            "original": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+            "spoken": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "43dd5c9458a0c0c1f3c2510f5f49b9ad0c4b083b12ac82f404321a151ef426ed",
+        "greedy": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैङ्क प्रति करतज्ञता पनि व्यक्त गरेका छन् अर्थामन्त्री वागले र बै्कका अध्यक्ष माशातो कान्दा बिच थाइल्याण्डको बैङ्ककमा भेटवार्ता भएको हो बाँडीपछिको पुनर्निर्माणमा कस्ता प्रार्थमिकताहरू हुनु पर्छ जस्तो लाग्छ कमेण्टमा भन्नुस् ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9561752988047809,
+        "scores": [
+          -0.9185564087464324,
+          -0.5136175500081663,
+          -0.3371893107799527
+        ],
+        "cuts_sec": [
+          10.218208333333333,
+          20.137458333333335
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 8.06322350973236,
+            "right_anchor": 12.364943248175182,
+            "scores": [
+              -0.9185564087464324,
+              -0.5136175500081663
+            ],
+            "candidates": [
+              {
+                "cut": 10.218208333333333,
+                "valley_start": 8.173208333333333,
+                "valley_end": 12.263208333333335,
+                "quiet_sec": 4.09,
+                "rms": 7.502380622055262e-05,
+                "cost": -4.089917500912408
+              }
+            ],
+            "selected": {
+              "cut": 10.218208333333333,
+              "valley_start": 8.173208333333333,
+              "valley_end": 12.263208333333335,
+              "quiet_sec": 4.09,
+              "rms": 7.502380622055262e-05,
+              "cost": -4.089917500912408
+            }
+          },
+          {
+            "left_anchor": 18.747494860097323,
+            "right_anchor": 21.4685826946472,
+            "scores": [
+              -0.5136175500081663,
+              -0.3371893107799527
+            ],
+            "candidates": [
+              {
+                "cut": 20.137458333333335,
+                "valley_start": 18.917458333333336,
+                "valley_end": 21.357458333333334,
+                "quiet_sec": 2.44,
+                "rms": 0.00020233133581627283,
+                "cost": -2.4394116088807785
+              }
+            ],
+            "selected": {
+              "cut": 20.137458333333335,
+              "valley_start": 18.917458333333336,
+              "valley_end": 21.357458333333334,
+              "quiet_sec": 2.44,
+              "rms": 0.00020233133581627283,
+              "cost": -2.4394116088807785
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "df9c00353cad9a9d629a8806b7f85a6cc7fac853fef440e8874f26ecb1e0281b",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

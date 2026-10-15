@@ -1,0 +1,100 @@
+{
+  "master_sha256": "df9c00353cad9a9d629a8806b7f85a6cc7fac853fef440e8874f26ecb1e0281b",
+  "cuts_sec": [
+    9.170958333333333,
+    19.74191666666667,
+    33.432875,
+    44.65108333333333,
+    54.57033333333334
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "अर्थमन्त्री डा.स्वर्णिम वाग्लेले बाढीपछिको पुनर्निर्माणमा सघाउन एसियाली विकास बैंकलाई आग्रह गरेका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.171,
+      "duration_sec": 9.171,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "थाइल्यान्डको बैङ्ककमा जारी विश्व बैंक र अन्तर्राष्ट्रिय मुद्रा कोषको वार्षिक बैठकमा अर्थमन्त्री वाग्ले सहभागी छन्।",
+      "master_start_sec": 9.171,
+      "master_end_sec": 19.742,
+      "duration_sec": 10.571,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "भेटमा मन्त्री वाग्लेले विपद्पश्चातको पुनरुत्थान र नेपालका दीर्घकालीन आर्थिक प्राथमिकताका लागि स्रोत परिचालन गर्न अध्यक्ष मासातो कान्दालाई आग्रह गरे।",
+      "master_start_sec": 19.742,
+      "master_end_sec": 33.433,
+      "duration_sec": 13.691,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "मन्त्री वाग्लेले उद्धार कार्यमा सहयोगका लागि आपतकालीन अनुदान दिएकोमा बैंकप्रति कृतज्ञता पनि व्यक्त गरेका छन्।",
+      "master_start_sec": 33.433,
+      "master_end_sec": 44.651,
+      "duration_sec": 11.218,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 5,
+      "expected_text": "अर्थमन्त्री वाग्ले र बैंकका अध्यक्ष मासातो कान्दाबीच थाइल्यान्डको बैङ्ककमा भेटवार्ता भएको हो।",
+      "master_start_sec": 44.651,
+      "master_end_sec": 54.57,
+      "duration_sec": 9.919,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 6,
+      "expected_text": "बाढीपछिको पुनर्निर्माणमा कस्ता प्राथमिकताहरू हुनुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 54.57,
+      "master_end_sec": 61.844,
+      "duration_sec": 7.274,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
