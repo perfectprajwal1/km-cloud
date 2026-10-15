@@ -5,7 +5,7 @@ No network, credentials, voice calls or renderer changes. Python standard librar
 import collections, contextlib, hashlib, json, os, re, subprocess, sys, time
 from pathlib import Path
 VERSION = '1.0'
-EXTRACTOR_REVISION = 'festival-time-venue-2+default-pool-1'
+EXTRACTOR_REVISION = 'festival-time-venue-2+default-pool-1+decimal-1'
 MAINS = ('hook','bignum','versus','date','group','place','quote','points','change','next','scale','engage')
 STRIPS = ('stat','concept','place','phrase','calendar','track','units','waffle','chain','who','evidence','voiceprint','compare','roster','schedule','rule','result','money','contrast','movement','lawstage','verdict','hook','quote','incident')
 LAT = str.maketrans('०१२३४५६७८९','0123456789')
@@ -63,11 +63,10 @@ def uncertain(vo): return bool(UNCERTAIN.search(vo)) or '?' in vo or '？' in vo
 
 def numeric(vo, engine):
     # Only complete number+unit spans in narration qualify. Planner data cannot override narration.
-    unit='|'.join(sorted(map(re.escape,engine.UNITS+('साता','हप्ता','जिल्ला','मत','अंक')),key=len,reverse=True))
-    pat=re.compile(r'(?<![०-९0-9])'+NUM+r'\s*(?:'+unit+r')(?:\s*(?:रुपैयाँ|रुपियाँ|डलर))?')
+    units=engine.UNITS+('साता','हप्ता','जिल्ला','मत','अंक')
     out=[]
     if re.search(NUM+r'\s*(?:रुपैयाँ|प्रतिशत|जना|वटा)बाट\s*'+NUM,vo):return []
-    for m in pat.finditer(vo):
+    for m in engine.quantity_spans(vo,units):
         value=m.group().strip(); pv=engine.parse_value(value)
         if m.start() and vo[m.start()-1] in '-−–—.':continue
         if re.search(r'(?:देखि|बीच|बाट)\s*$',vo[:m.start()]) or re.match(r'\s*(?:देखि|सम्म|बीच)',vo[m.end():]):continue
@@ -120,10 +119,13 @@ def explicit_law(vo):
     return {'kind':'lawstage','stages':stages,'vo':vo}
 
 
-def change_fact(vo):
-    m=re.search(r'(?P<old>'+NUM+r'\s*(?:रुपैयाँ|प्रतिशत|जना|वटा))बाट\s*(?P<new>'+NUM+r'\s*(?:रुपैयाँ|प्रतिशत|जना|वटा))\s*(?:पुगेको|पुग्यो|बढ्यो|घट्यो|भएको)',vo)
+def change_fact(vo, engine=None):
+    if engine is not None and "दशमलव" in engine._display_decimal(vo):return None
+    number=engine.NUMBER_PATTERN if engine is not None else NUM
+    m=re.search(r'(?<![०-९0-9A-Za-z\u0900-\u097f.])(?P<old>'+number+r'\s*(?:रुपैयाँ|प्रतिशत|जना|वटा))बाट\s*(?P<new>'+number+r'\s*(?:रुपैयाँ|प्रतिशत|जना|वटा))\s*(?:पुगेको|पुग्यो|बढ्यो|घट्यो|भएको)',vo)
     if not m or uncertain(vo):return None
-    if re.sub(NUM,'',m['old']).strip()!=re.sub(NUM,'',m['new']).strip():return None
+    if engine is not None and re.search(r'दशमलव\s*$',vo[:m.start()]):return None
+    if re.sub(number,'',m['old']).strip()!=re.sub(number,'',m['new']).strip():return None
     return m['old'],m['new']
 
 
@@ -231,11 +233,11 @@ def candidates(vo, cap, idx, engine, default=None):
         if len(pl)==1 and re.search(re.escape(pl[0]['ne'])+r'(?:मा|स्थित|बाट|सम्म|का\s+विभिन्न\s+स्थानमा)',vo):main('place',{'place':pl[0]['ne'],'headline':title},84,'one explicit location')
         q=direct_quote(vo)
         if q:main('quote',{'quote':q['claim'],'name':q['name'],'role':''},94,'verbatim quotation with explicit speaker')
-        ch=change_fact(vo)
+        ch=change_fact(vo,engine)
         if ch:main('change',{'old':ch[0],'new':ch[1],'label':title},94,'explicit same-unit old-to-new change')
         comp=engine.plan_compare(vo)
         if comp and not uncertain(vo):
-            if re.sub(NUM,'',comp['left']).strip()==re.sub(NUM,'',comp['right']).strip():
+            if re.sub(engine.NUMBER_PATTERN,'',comp['left']).strip()==re.sub(engine.NUMBER_PATTERN,'',comp['right']).strip():
                 main('versus',{'left':{'label':comp['leftMeta'],'value':comp['left']},'right':{'label':comp['rightMeta'],'value':comp['right']}},92,'explicit comparable quantities')
                 main('group',{'headline':'','rows':[{'label':comp['leftMeta'],'value':comp['left']},{'label':comp['rightMeta'],'value':comp['right']}]},92,'named quantitative ledger')
         roster=engine.plan_roster(vo)
