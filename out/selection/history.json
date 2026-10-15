@@ -220,6 +220,41 @@
         "strip:phrase",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "9d5ff98ec484ebf08b407cf9eff96278140c6b48a79e664cf79d5f30d4123d3c",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "main:scale",
+        "strip:evidence",
+        "strip:incident",
+        "strip:phrase",
+        "strip:place",
+        "strip:stat"
+      ],
+      "id": "RV_20261015_y7uk66",
+      "missed": {
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "59e77ac1152ba1a091dd07f395390c4a1ec3aba2a7a7058e7b6b08ea5c584129",
+      "rendered_at": 1792071483.260993,
+      "selected": [
+        "main:hook",
+        "strip:stat",
+        "main:scale",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:place",
+        "main:points_plain",
+        "strip:incident",
+        "main:points_plain",
+        "strip:phrase",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -228,19 +263,21 @@
     "RV_20261014_vhmkp:ed2a6d17ecf8ce9e6b3f74e3ee83888ea013ab63bbf058d334816566802a5d45": "9e7093d5d9bb4ba236b3c90cf1ddc87241507dea11da7c0f674c63734a95deb6",
     "RV_20261015_jkjjx8:a0a4076675a3c84ef8768c7643111493cb04c4724d6796f66c5fd2760888432b": "73a5dba45b2d0de3a187f1454a0c42dc2ec757b5a1a61f9a943b56e5e7082412",
     "RV_20261015_mwtd22:e29ab1b13f9c85e829d624eea57cc9772024f58ffc3a34c511b633c6f68c9bcc": "22d7ff5080a2502f7f350a0f30a8f1bb6fc66e9073f17597b403b21c6e99fbb8",
-    "RV_20261015_wbhyd2:e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352"
+    "RV_20261015_wbhyd2:e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352",
+    "RV_20261015_y7uk66:9d5ff98ec484ebf08b407cf9eff96278140c6b48a79e664cf79d5f30d4123d3c": "59e77ac1152ba1a091dd07f395390c4a1ec3aba2a7a7058e7b6b08ea5c584129"
   },
   "used_total": {
     "main:bignum": 5,
-    "main:engage": 6,
-    "main:hook": 6,
+    "main:engage": 7,
+    "main:hook": 7,
     "main:place": 2,
-    "main:points_plain": 17,
-    "main:scale": 5,
-    "strip:evidence": 12,
-    "strip:phrase": 6,
-    "strip:place": 3,
-    "strip:stat": 5,
+    "main:points_plain": 20,
+    "main:scale": 6,
+    "strip:evidence": 13,
+    "strip:incident": 1,
+    "strip:phrase": 7,
+    "strip:place": 4,
+    "strip:stat": 6,
     "strip:units": 3,
     "strip:voiceprint": 2,
     "strip:waffle": 1,
