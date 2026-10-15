@@ -1,0 +1,616 @@
+{
+ "id": "RV_20261015_d7e3cb",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?",
+ "pinned_comment": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "{{४७}} ब्रान्ड: रोक कहाँ?",
+   "sub": "ब्रान्ड",
+   "km_default": true,
+   "vo": "औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_01_6f13dc.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 47,
+      "icon": "star",
+      "label": "ब्रान्ड",
+      "at": 0.04,
+      "layout": {
+       "cols": 12,
+       "rows": 4,
+       "step": 75.0,
+       "size": 58,
+       "x0": 90.0,
+       "y0": 112,
+       "capY": 446
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नयाँ उत्पादन र आयातमा रोक",
+   "points": [
+    "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा"
+   ],
+   "km_default": true,
+   "vo": "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाइएको विभागको भनाइ छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_02_0bc71b.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको "
+       },
+       {
+        "t": "नयाँ उत्पादन र आयातमा",
+        "hl": true,
+        "at": 0.366
+       },
+       {
+        "t": " मात्र रोक लगाइएको विभागको भनाइ छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "कागजात र मापदण्डको प्रश्न",
+   "points": [
+    "तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड"
+   ],
+   "km_default": true,
+   "vo": "तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड पूरा नगरेका ब्रान्डका प्रमाणपत्र खारेज गरिएको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_03_deba38.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "कागजात",
+        "key": false,
+        "at": 0.223
+       },
+       {
+        "t": "र",
+        "key": false,
+        "at": 0.367
+       },
+       {
+        "t": "मापदण्डको",
+        "key": true,
+        "at": 0.42
+       },
+       {
+        "t": "प्रश्न",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.223
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "बजारको मौज्दातमा बिक्री रोक छैन",
+   "points": [
+    "पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने"
+   ],
+   "km_default": true,
+   "vo": "पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_04_71345b.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "पहिले नै "
+       },
+       {
+        "t": "बजारमा",
+        "hl": true,
+        "at": 0.127
+       },
+       {
+        "t": " रहेका औषधिको प्रयोग र "
+       },
+       {
+        "t": "बिक्री",
+        "hl": true,
+        "at": 0.373
+       },
+       {
+        "t": " वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नियमित आपूर्तिका लागि समन्वय",
+   "points": [
+    "अङ्ग प्रत्यारोपण गरेका र दीर्घकालीन बिरामीलाई आवश्यक औषधिको"
+   ],
+   "km_default": true,
+   "vo": "अङ्ग प्रत्यारोपण गरेका र दीर्घकालीन बिरामीलाई आवश्यक औषधिको अभाव हुन नदिन समन्वय भइरहेको विभागले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_05_ad18e9.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "नियमित",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "आपूर्तिका",
+        "key": true,
+        "at": 0.24
+       },
+       {
+        "t": "लागि",
+        "key": false,
+        "at": 0.42
+       },
+       {
+        "t": "समन्वय",
+        "key": false,
+        "at": 0.455
+       }
+      ],
+      "icon": "star",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 98
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "चिकित्सकको परामर्शअनुसार नियमित सेवन",
+   "points": [
+    "बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न"
+   ],
+   "km_default": true,
+   "vo": "बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_d7e3cb_06_c6b3b9.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "बिरामीलाई "
+       },
+       {
+        "t": "चिकित्सकको परामर्शअनुसार नियमित",
+        "hl": true,
+        "at": 0.112
+       },
+       {
+        "t": " औषधि "
+       },
+       {
+        "t": "सेवन",
+        "hl": true,
+        "at": 0.341
+       },
+       {
+        "t": " गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "8adf366f29f35491b8fbd595f5af42a058355a8d81ecc4ea9a4819124bb399be",
+  "plan_hash": "de4cecfdd642ba1c1221644c1749a29a4cfb4646f076a71b9ee779309f57a2f7",
+  "selected": [
+   "main:hook",
+   "strip:units",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "units",
+    "score": 187.69,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.514,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.771,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.514,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.771,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.514,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "5a1666276041b69571e8e5c543754c14f88ce48528951dfd15b9429f51b3022f"
+ }
+}

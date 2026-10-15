@@ -1,0 +1,471 @@
+REVIEW ID: RV_20261015_d7e3cb
+TOPIC: ४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन
+MODEL: assistant_draft
+STORY ID: ST_b4e47ad4e3ebb035
+DATE: 2026-10-15T21:00:00+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://www.ratopati.com/story/599866/easy-supply-of-immunosuppressant-drugs-will-continue-only-new-production-and-imports-will-be-banned
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ। इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाइएको विभागको भनाइ छ। तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड पूरा नगरेका ब्रान्डका प्रमाणपत्र खारेज गरिएको हो। पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ। अङ्ग प्रत्यारोपण गरेका र दीर्घकालीन बिरामीलाई आवश्यक औषधिको अभाव हुन नदिन समन्वय भइरहेको विभागले जनाएको छ। बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "ब्रान्ड",
+          "value": "४७"
+        }
+      ],
+      "data_source_quote": "बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।"
+    },
+    "caption_text": "४७ ब्रान्ड: रोक कहाँ?",
+    "big_hook_text": "४७ ब्रान्ड: रोक कहाँ?",
+    "pip_mode": "off",
+    "source_evidence": "बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नयाँ उत्पादन र आयातमा रोक"
+    },
+    "caption_text": "नयाँ उत्पादन र आयातमा रोक",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "४७ थरी ब्रान्डका औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाई तिनका प्रमाणपत्र खारेज गरिएको हो।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कागजात र मापदण्डको प्रश्न"
+    },
+    "caption_text": "कागजात र मापदण्डको प्रश्न",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "तोकिएको समयभित्र जोखिम मूल्याङ्कन कागजात पेस नगरेका वा मापदण्ड पूरा नगरेका ४७ थरी ब्रान्डका औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाई तिनका प्रमाणपत्र खारेज गरिएको हो।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "बजारको मौज्दातमा बिक्री रोक छैन"
+    },
+    "caption_text": "बजारको मौज्दातमा बिक्री रोक छैन",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "यद्यपि, बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नियमित आपूर्तिका लागि समन्वय"
+    },
+    "caption_text": "नियमित आपूर्तिका लागि समन्वय",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "विभागले नेपाल औषधि उत्पादक सङ्घ, नेपाल औषधि आयातकर्ता सङ्घ र नेपाल औषधि व्यवसायी सङ्घसँग निरन्तर समन्वय गरी बजारमा औषधिको सहज उपलब्धता सुनिश्चित गराइरहेको बताएको छ।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "चिकित्सकको परामर्शअनुसार नियमित सेवन"
+    },
+    "caption_text": "चिकित्सकको परामर्शअनुसार नियमित सेवन",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "बिरामीहरूलाई चिकित्सकको परामर्श अनुसार नियमित रूपमा औषधि सेवन गर्न आग्रह गरेको छ।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_b4e47ad4e3ebb035",
+  "source_url": "https://www.ratopati.com/story/599866/easy-supply-of-immunosuppressant-drugs-will-continue-only-new-production-and-imports-will-be-banned",
+  "source_label": "Ratopati",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "medium",
+  "uncertainty_note": "Human review required; n8n validation and fact-check engine not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.ratopati.com/story/599866/easy-supply-of-immunosuppressant-drugs-will-continue-only-new-production-and-imports-will-be-banned",
+    "article_quote": "बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।",
+    "asset_ref": "none",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन",
+  "closing_line": "बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।",
+  "comment_prompt": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?",
+  "pinned_comment": "औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "ब्रान्ड",
+            "value": "४७"
+          }
+        ],
+        "data_source_quote": "बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।"
+      },
+      "caption_text": "४७ ब्रान्ड: रोक कहाँ?",
+      "big_hook_text": "४७ ब्रान्ड: रोक कहाँ?",
+      "pip_mode": "off",
+      "source_evidence": "बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाइएको विभागको भनाइ छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नयाँ उत्पादन र आयातमा रोक"
+      },
+      "caption_text": "नयाँ उत्पादन र आयातमा रोक",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "४७ थरी ब्रान्डका औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाई तिनका प्रमाणपत्र खारेज गरिएको हो।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड पूरा नगरेका ब्रान्डका प्रमाणपत्र खारेज गरिएको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कागजात र मापदण्डको प्रश्न"
+      },
+      "caption_text": "कागजात र मापदण्डको प्रश्न",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "तोकिएको समयभित्र जोखिम मूल्याङ्कन कागजात पेस नगरेका वा मापदण्ड पूरा नगरेका ४७ थरी ब्रान्डका औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाई तिनका प्रमाणपत्र खारेज गरिएको हो।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "बजारको मौज्दातमा बिक्री रोक छैन"
+      },
+      "caption_text": "बजारको मौज्दातमा बिक्री रोक छैन",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "यद्यपि, बजारमा पहिले नै भित्रिसकेका वा बिक्री-वितरणमा रहेका ती औषधिको प्रयोग र बिक्री-वितरणमा भने कुनै रोक लगाइएको छैन।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "अङ्ग प्रत्यारोपण गरेका र दीर्घकालीन बिरामीलाई आवश्यक औषधिको अभाव हुन नदिन समन्वय भइरहेको विभागले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नियमित आपूर्तिका लागि समन्वय"
+      },
+      "caption_text": "नियमित आपूर्तिका लागि समन्वय",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "विभागले नेपाल औषधि उत्पादक सङ्घ, नेपाल औषधि आयातकर्ता सङ्घ र नेपाल औषधि व्यवसायी सङ्घसँग निरन्तर समन्वय गरी बजारमा औषधिको सहज उपलब्धता सुनिश्चित गराइरहेको बताएको छ।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "चिकित्सकको परामर्शअनुसार नियमित सेवन"
+      },
+      "caption_text": "चिकित्सकको परामर्शअनुसार नियमित सेवन",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "बिरामीहरूलाई चिकित्सकको परामर्श अनुसार नियमित रूपमा औषधि सेवन गर्न आग्रह गरेको छ।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन",
+    "youtube_description": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute"
+    ],
+    "tiktok_caption": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+    "instagram_caption": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+    "facebook_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+    "threads_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+    "linkedin_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+    "hashtags": [
+      "#NepalNews",
+      "#khabarminutenepal"
+    ],
+    "source_credit": ""
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Manual source cross-check completed; original n8n fact checker/schema validator NOT RUN. safe_to_publish=false. No live write or approval. Source freshness must be rechecked before publication. Health-sensitive; preserve medical-advice attribution.
+
+--- ALTERNATE HOOK ---
+४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन
+
+--- PINNED COMMENT (Nepali question) ---
+औषधिसम्बन्धी सूचनामा कुन कुरा अझ स्पष्ट हुनुपर्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "४७ ब्रान्ड: रोक कहाँ?",
+      "on_screen_data": [
+        {
+          "label": "ब्रान्ड",
+          "value": "४७"
+        }
+      ]
+    }
+  },
+  {
+    "text": "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाइएको विभागको भनाइ छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नयाँ उत्पादन र आयातमा रोक",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड पूरा नगरेका ब्रान्डका प्रमाणपत्र खारेज गरिएको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कागजात र मापदण्डको प्रश्न",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "बजारको मौज्दातमा बिक्री रोक छैन",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "अङ्ग प्रत्यारोपण गरेका र दीर्घकालीन बिरामीलाई आवश्यक औषधिको अभाव हुन नदिन समन्वय भइरहेको विभागले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नियमित आपूर्तिका लागि समन्वय",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "बिरामीलाई चिकित्सकको परामर्शअनुसार नियमित औषधि सेवन गर्न विभागले आग्रह गरेको छ। बिक्री रोक र नयाँ उत्पादनको रोक एउटै कुरा होइनन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "चिकित्सकको परामर्शअनुसार नियमित सेवन",
+      "on_screen_data": []
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन",
+  "youtube_description": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute"
+  ],
+  "tiktok_caption": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+  "instagram_caption": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+  "facebook_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+  "threads_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+  "linkedin_post": "४७ ब्रान्डमा नयाँ उत्पादन र आयात रोक, बजारको बिक्रीमा होइन। #NepalNews #khabarminutenepal",
+  "hashtags": [
+    "#NepalNews",
+    "#khabarminutenepal"
+  ],
+  "source_credit": ""
+}

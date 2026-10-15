@@ -1,0 +1,70 @@
+{
+  "master_sha256": "2a502ad83613456e78891f508616a5c734f06653b9a3c1328455967671cc85f2",
+  "cuts_sec": [
+    12.172666666666668,
+    22.585250000000002,
+    33.74304166666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "औषधिका सैंतालीस ब्रान्डमा रोक, तर बजारमा भएका औषधिको बिक्री बन्द होइन। औषधि व्यवस्था विभागले यो फरक स्पष्ट पारेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 12.173,
+      "duration_sec": 12.173,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "इम्युनोस्प्रेसेन्ट वर्गका यी औषधिको नयाँ उत्पादन र आयातमा मात्र रोक लगाइएको विभागको भनाइ छ।",
+      "master_start_sec": 12.173,
+      "master_end_sec": 22.585,
+      "duration_sec": 10.413,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "तोकिएको समयमा जोखिम मूल्याङ्कनका कागजात नबुझाएका वा मापदण्ड पूरा नगरेका ब्रान्डका प्रमाणपत्र खारेज गरिएको हो।",
+      "master_start_sec": 22.585,
+      "master_end_sec": 33.743,
+      "duration_sec": 11.158,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "पहिले नै बजारमा रहेका औषधिको प्रयोग र बिक्री वितरणमा भने रोक छैन भनेर विभागले स्पष्ट पारेको छ।",
+      "master_start_sec": 33.743,
+      "master_end_sec": 44.131,
+      "duration_sec": 10.388,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
