@@ -1,0 +1,253 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    8.581666666666667,
+    20.329541666666664,
+    31.542375,
+    45.330958333333335,
+    55.980958333333334,
+    63.06095833333333
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "0b06521108caec2cee8c3b69fb767c5bb3961b56659082b8642f4d2c911ea4b5",
+      "used_master_sha256": "0b06521108caec2cee8c3b69fb767c5bb3961b56659082b8642f4d2c911ea4b5",
+      "seconds": 44.330958333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।",
+            "spoken": "काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।",
+            "spoken": "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।",
+            "mapping": []
+          },
+          {
+            "original": "उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।",
+            "spoken": "उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।",
+            "mapping": []
+          },
+          {
+            "original": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।",
+            "spoken": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "0b06521108caec2cee8c3b69fb767c5bb3961b56659082b8642f4d2c911ea4b5",
+        "greedy": "काठमाडुँ उपत्यकाका मुख्य बजारमा दशैको किनमेल गर्ने उपभोक्ताहरू महङ्गीको मार्खेपीरहेका छन्असन इन्द्रचोक र बानेश्वर जस्ता बजारमा चहल पहल बणे पनि शीमित बजेटकाकारण सामान किन्न कठिन भेको भुना छो उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रूपयाँ र खसीकोमा सुप्रति किलो चार सय रूपयासम्म बणेको छचीनतर्फका र सुवा र तातो पनि नाका अवुरुद्ध हुँदा गरिब पाँच अर्वरू पैयाँ बराबरका सामान नाकामा रोकिएका छन् ",
+        "present_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9422222222222222,
+        "scores": [
+          -0.740201602584754,
+          -0.6925853629043862,
+          -0.7144174583148925,
+          -0.617711912181888
+        ],
+        "cuts_sec": [
+          8.581666666666667,
+          20.329541666666664,
+          31.542375
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 6.8416912229241875,
+            "right_anchor": 10.32255166967509,
+            "scores": [
+              -0.740201602584754,
+              -0.6925853629043862
+            ],
+            "candidates": [
+              {
+                "cut": 8.581666666666667,
+                "valley_start": 6.941666666666666,
+                "valley_end": 10.221666666666668,
+                "quiet_sec": 3.2800000000000002,
+                "rms": 4.5362811962183135e-05,
+                "cost": -3.2799909044073408
+              }
+            ],
+            "selected": {
+              "cut": 8.581666666666667,
+              "valley_start": 6.941666666666666,
+              "valley_end": 10.221666666666668,
+              "quiet_sec": 3.2800000000000002,
+              "rms": 4.5362811962183135e-05,
+              "cost": -3.2799909044073408
+            }
+          },
+          {
+            "left_anchor": 18.48456926895307,
+            "right_anchor": 22.105464331377856,
+            "scores": [
+              -0.6925853629043862,
+              -0.7144174583148925
+            ],
+            "candidates": [
+              {
+                "cut": 20.329541666666664,
+                "valley_start": 18.654541666666667,
+                "valley_end": 22.004541666666665,
+                "quiet_sec": 3.35,
+                "rms": 5.3925043380671135e-05,
+                "cost": -3.349309502669976
+              }
+            ],
+            "selected": {
+              "cut": 20.329541666666664,
+              "valley_start": 18.654541666666667,
+              "valley_end": 22.004541666666665,
+              "quiet_sec": 3.35,
+              "rms": 5.3925043380671135e-05,
+              "cost": -3.349309502669976
+            }
+          },
+          {
+            "left_anchor": 29.96740775421179,
+            "right_anchor": 33.02816435394104,
+            "scores": [
+              -0.7144174583148925,
+              -0.617711912181888
+            ],
+            "candidates": [
+              {
+                "cut": 31.542375,
+                "valley_start": 30.157375000000002,
+                "valley_end": 32.927375000000005,
+                "quiet_sec": 2.77,
+                "rms": 6.602082985918574e-05,
+                "cost": -2.7691082210815283
+              }
+            ],
+            "selected": {
+              "cut": 31.542375,
+              "valley_start": 30.157375000000002,
+              "valley_end": 32.927375000000005,
+              "quiet_sec": 2.77,
+              "rms": 6.602082985918574e-05,
+              "cost": -2.7691082210815283
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "c8d8065dcbd41a639014fccd4bdb6ead08f7108d040be19f85c47371e559b340",
+      "used_master_sha256": "c8d8065dcbd41a639014fccd4bdb6ead08f7108d040be19f85c47371e559b340",
+      "seconds": 25.610958333333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "engine": "km-onnx-int8-1",
+        "master_sha256": "c8d8065dcbd41a639014fccd4bdb6ead08f7108d040be19f85c47371e559b340",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "cuts_sec": [
+          9.65,
+          16.73
+        ],
+        "scores": [],
+        "transcript_char_match": null,
+        "boundaries": [
+          {
+            "quiet_sec": 2.14,
+            "selected": {
+              "cut": 9.65
+            }
+          },
+          {
+            "quiet_sec": 2.1,
+            "selected": {
+              "cut": 16.73
+            }
+          }
+        ],
+        "latin_spans_unverified": true,
+        "entire_half_word_identity_unverified": true,
+        "gates": "mixed-language acoustic pause split only; no transcript identity/absence certification",
+        "alignment_targets": [
+          {
+            "original": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।",
+            "spoken": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति पाँच दशमलव चौध प्रतिशत पुगेको छ।",
+            "mapping": [
+              {
+                "original": "५",
+                "spoken": "पाँच",
+                "start": 86,
+                "end": 87,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१४",
+                "spoken": "चौध",
+                "start": 94,
+                "end": 96,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "report",
+                "spoken": "report",
+                "start": 15,
+                "end": 21,
+                "stage": "after_numeric_expansion",
+                "rule": "numbers-english-unverified-v4",
+                "note": "English preserved for voice; Latin span unverified by Nepali-only CTC."
+              }
+            ]
+          },
+          {
+            "original": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+            "spoken": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+            "mapping": []
+          },
+          {
+            "original": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+            "spoken": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ]
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "0302817b003102ee97f4699ed99496b500cf9fef50d90916248fb1e67658ee4c",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

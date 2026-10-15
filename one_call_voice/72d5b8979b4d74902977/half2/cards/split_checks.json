@@ -1,0 +1,55 @@
+{
+  "master_sha256": "c8d8065dcbd41a639014fccd4bdb6ead08f7108d040be19f85c47371e559b340",
+  "cuts_sec": [
+    9.65,
+    16.73
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.65,
+      "duration_sec": 9.65,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+      "master_start_sec": 9.65,
+      "master_end_sec": 16.73,
+      "duration_sec": 7.08,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 16.73,
+      "master_end_sec": 25.611,
+      "duration_sec": 8.881,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

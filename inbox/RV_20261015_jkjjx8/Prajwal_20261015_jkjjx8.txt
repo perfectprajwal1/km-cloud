@@ -1,0 +1,923 @@
+REVIEW ID: RV_20261015_jkjjx8
+TOPIC: सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप
+MODEL: gemini-3.8-flash
+STORY ID: ST_a5df89161fd57f7a
+DATE: 2026-10-15T00:21:29.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: News of Nepal
+CATEGORY: news
+SOURCE: https://newsofnepal.com/2026/10/15/791465/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्। असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ। उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ। चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्। राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ। वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Kathmandu Asan Indra Chowk crowded festival market shopping Nepal",
+   "shot_description": "Crowded market in Asan Indra Chowk Kathmandu with shoppers buying festival goods",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "काठमाडौँका बजारमा किनमेल गर्ने उपभोक्ता महँगीको मारमा",
+  "big_hook_text": "दशैँको किनमेलमा महँगीको मार",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Kathmandu Baneshwor retail clothing food market Nepal",
+   "shot_description": "Shoppers browsing clothes and daily groceries in Kathmandu shopping streets",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "सीमित बजेटका कारण किनमेल गर्न कठिन",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर र पुतलीसडकजस्ता व्यापारिक क्षेत्रमा दशैँको किनमेल गर्नेको चहलपहल बाक्लिएको छ । लत्ताकपडा, खाद्यान्न, फलफूल, तरकारी र मासुजन्य वस्तुको खरिद बढिरहेका बेला उपभोक्ताले भने आफ्नो बजेटअनुसार सामान किन्नसमेत कठिन भइरहेको बताएका छन् ।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "जिरा मसिनो चामल वृद्धि",
+     "value": "तीन सय रुपैयाँ"
+    },
+    {
+     "label": "खसीको मासु वृद्धि",
+     "value": "तीनदेखि चार सय रुपैयाँ"
+    }
+   ],
+   "data_source_quote": "जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"
+  },
+  "caption_text": "चामल बोरामा तीन सय र मासु प्रतिकिलो चार सय रुपैयाँसम्म वृद्धि",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "broll_to_infographic_soft_boom",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"
+ },
+ {
+  "line_id": 4,
+  "beat": "pivot",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "नाकामा रोकिएका सामान",
+     "value": "करिब पाँच अर्ब रुपैयाँ"
+    }
+   ],
+   "data_source_quote": "दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।"
+  },
+  "caption_text": "चीन सीमा नाकामा पाँच अर्ब बराबरका सामान रोकिए",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् । यसले विशेषगरी चीनबाट आयात हुने लत्ताकपडा तथा अन्य व्यापारिक सामानको आपूर्तिमा असर पार्न सक्ने देखिन्छ ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "takeaway",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "उपभोक्ता मुद्रास्फीति",
+     "value": "५ दशमलव १४ प्रतिशत"
+    }
+   ],
+   "data_source_quote": "राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।"
+  },
+  "caption_text": "उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ । अघिल्लो वर्षको सोही अवधिमा यस्तो दर २ दशमलव २० प्रतिशत थियो ।"
+ },
+ {
+  "line_id": 6,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "Nepal government market monitoring commerce department inspection",
+   "shot_description": "Commerce department market inspection officers monitoring retail stores in Kathmandu",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "वाणिज्य विभागद्वारा बजार अनुगमन तीव्र",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_a5df89161fd57f7a","source_url":"https://newsofnepal.com/2026/10/15/791465/","source_label":"News of Nepal","source_credit":"Source: News of Nepal","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू महँगीको मार खेपिरहेका छन्","proof_asset":{"kind":"article_text","source_url":"https://newsofnepal.com/2026/10/15/791465/","article_quote":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ","closing_line":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","comment_prompt":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","pinned_comment":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Kathmandu Asan Indra Chowk crowded festival market shopping Nepal","shot_description":"Crowded market in Asan Indra Chowk Kathmandu with shoppers buying festival goods","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँका बजारमा किनमेल गर्ने उपभोक्ता महँगीको मारमा","big_hook_text":"दशैँको किनमेलमा महँगीको मार","pip_mode":"off","source_evidence":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"Kathmandu Baneshwor retail clothing food market Nepal","shot_description":"Shoppers browsing clothes and daily groceries in Kathmandu shopping streets","depiction_scope":"generic_illustration"},"caption_text":"सीमित बजेटका कारण किनमेल गर्न कठिन","big_hook_text":"","pip_mode":"off","source_evidence":"भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर र पुतलीसडकजस्ता व्यापारिक क्षेत्रमा दशैँको किनमेल गर्नेको चहलपहल बाक्लिएको छ । लत्ताकपडा, खाद्यान्न, फलफूल, तरकारी र मासुजन्य वस्तुको खरिद बढिरहेका बेला उपभोक्ताले भने आफ्नो बजेटअनुसार सामान किन्नसमेत कठिन भइरहेको बताएका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जिरा मसिनो चामल वृद्धि","value":"तीन सय रुपैयाँ"},{"label":"खसीको मासु वृद्धि","value":"तीनदेखि चार सय रुपैयाँ"}],"data_source_quote":"जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"},"caption_text":"चामल बोरामा तीन सय र मासु प्रतिकिलो चार सय रुपैयाँसम्म वृद्धि","big_hook_text":"","pip_mode":"off","source_evidence":"‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नाकामा रोकिएका सामान","value":"करिब पाँच अर्ब रुपैयाँ"}],"data_source_quote":"दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।"},"caption_text":"चीन सीमा नाकामा पाँच अर्ब बराबरका सामान रोकिए","big_hook_text":"","pip_mode":"off","source_evidence":"उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् । यसले विशेषगरी चीनबाट आयात हुने लत्ताकपडा तथा अन्य व्यापारिक सामानको आपूर्तिमा असर पार्न सक्ने देखिन्छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"उपभोक्ता मुद्रास्फीति","value":"५ दशमलव १४ प्रतिशत"}],"data_source_quote":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।"},"caption_text":"उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत","big_hook_text":"","pip_mode":"off","source_evidence":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ । अघिल्लो वर्षको सोही अवधिमा यस्तो दर २ दशमलव २० प्रतिशत थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal government market monitoring commerce department inspection","shot_description":"Commerce department market inspection officers monitoring retail stores in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"वाणिज्य विभागद्वारा बजार अनुगमन तीव्र","big_hook_text":"","pip_mode":"off","source_evidence":"वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"दशैँको बजारमा महँगीको मार: चामलदेखि मासुसम्म मूल्यवृद्धि","youtube_description":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले उपभोक्ता मारमा परेका छन्। चीनतर्फका नाका अवरुद्ध हुँदा आयात प्रभावित भएको व्यवसायीहरूले बताएका छन्। News of Nepal: https://newsofnepal.com/2026/10/15/791465/","youtube_tags":["Khabar Minute","Nepal News","Dashain Price Hike","Kathmandu Market","Nepal Economy","Inflation Nepal","Nepal Rastra Bank","News of Nepal"],"tiktok_caption":"दशैँ नजिकिँदै गर्दा बजारमा महँगीको मार, किनमेल गर्नै कठिन।","instagram_caption":"दशैँको किनमेल सुरु भएसँगै बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले सर्वसाधारण चिन्तित बनेका छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","facebook_post":"दशैँ नजिकिएसँगै काठमाडौँका बजारमा किनमेल गर्ने भीड बढे पनि मूल्यवृद्धिका कारण उपभोक्ता चिन्तित छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","threads_post":"दशैँको मुखमा चामल र मासुको भाउ बढ्दा बजारमा सर्वसाधारणलाई किनमेल गर्न कठिन भएको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","linkedin_post":"दशैँको समयमा आपूर्ति शृंखला र नाका अवरोधले गर्दा बजार मूल्यवृद्धिमा चाप परेको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","hashtags":["#KhabarMinute","#NepalNews","#Dashain","#Inflation","#NewsOfNepal"],"source_credit":"Source: News of Nepal"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 3: वृद्धि
+unverified label line 3: वृद्धि
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+NUMBER CONTEXT: Line 3: चामल प्रतिबोरा तीन सय -> Words next to the number (प्रतिबोरा) are not next to it in the article: "चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ". Copy the article wording. | Line 4: हुँदा करिब पाँच अर्ब -> Words next to the number (हुँदा) are not next to it in the article: "गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ". Copy the article wording.
+FACT CHECK: 2 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All extracted claims are directly supported by the article; no unsupported or contradicted statements found.
+Closing: removed question wording ("तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?"); dropped line(s) 7; last line is now: "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।".
+Line 3: no different truthful card fits; previous card stays on screen.
+Line 5: no different truthful card fits; previous card stays on screen.
+Line 2: text-only card used (no data card fits this line).
+Line 6: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ
+
+--- PINNED COMMENT (Nepali question) ---
+तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।",
+  "voice": "neutral_talking",
+  "pose": "neutral_talking",
+  "broll": "crowded market festival Kathmandu",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "crowded market festival Kathmandu",
+   "alt_queries": [
+    "festival shoppers Nepal",
+    "busy street market Nepal"
+   ],
+   "query_source": "director",
+   "shot_description": "Crowded market in Asan and Indra Chowk during Dashain shopping",
+   "commons": null,
+   "map": null,
+   "motion_text": "किनमेल गर्ने उपभोक्ताहरू",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "crowded market festival Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/crowded%20market%20festival%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=crowded%20market%20festival%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Crowded market in Asan and Indra Chowk during Dashain shopping",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "crowded market festival Kathmandu",
+     "search_url": "https://pixabay.com/videos/search/crowded%20market%20festival%20Kathmandu/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=crowded%20market%20festival%20Kathmandu&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "festival shoppers Nepal",
+     "search_url": "https://www.pexels.com/search/videos/festival%20shoppers%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=festival%20shoppers%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "busy street market Nepal",
+     "search_url": "https://www.pexels.com/search/videos/busy%20street%20market%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=busy%20street%20market%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "crowded market festival Kathmandu",
+     "search_url": "https://openverse.org/search/image?q=crowded%20market%20festival%20Kathmandu",
+     "api": "GET https://api.openverse.org/v1/images/?q=crowded%20market%20festival%20Kathmandu&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "किनमेल गर्ने उपभोक्ताहरू",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L1 [full] STOCK VIDEO via pexels_video: \"crowded market festival Kathmandu\" | then stock video @pixabay \"crowded market festival Kathmandu\", stock video @pexels \"festival shoppers Nepal\", stock video @pexels \"busy street market Nepal\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।",
+  "voice": "thinking",
+  "pose": "thinking",
+  "broll": "Baneshwor retail Nepal",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "Baneshwor retail Nepal",
+   "alt_queries": [
+    "budget documents"
+   ],
+   "query_source": "director_alt",
+   "shot_description": "Shoppers in Asan, Indra Chowk and Baneshwor streets",
+   "commons": null,
+   "map": null,
+   "motion_text": "चहलपहल बढे",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "Baneshwor retail Nepal",
+     "search_url": "https://www.pexels.com/search/videos/Baneshwor%20retail%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=Baneshwor%20retail%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Shoppers in Asan, Indra Chowk and Baneshwor streets",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "Baneshwor retail Nepal",
+     "search_url": "https://pixabay.com/videos/search/Baneshwor%20retail%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Baneshwor%20retail%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "budget documents",
+     "search_url": "https://www.pexels.com/search/videos/budget%20documents/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=budget%20documents&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "Baneshwor retail Nepal",
+     "search_url": "https://openverse.org/search/image?q=Baneshwor%20retail%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=Baneshwor%20retail%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 4
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "चहलपहल बढे",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L2 [full] STOCK VIDEO via pexels_video: \"Baneshwor retail Nepal\" | then stock video @pixabay \"Baneshwor retail Nepal\", stock video @pexels \"budget documents\", stock photo @openverse \"Baneshwor retail Nepal\" | quality: topic_stock"
+  }
+ },
+ {
+  "text": "उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "infographic rice price increase",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "infographic rice price increase",
+   "alt_queries": [
+    "rice price chart Nepal",
+    "food price infographic"
+   ],
+   "query_source": "director",
+   "shot_description": "Graphic showing rice price rise",
+   "commons": null,
+   "map": null,
+   "motion_text": "तीन सय रुपैयाँ",
+   "on_screen_data": [
+    {
+     "label": "जिरा मसिनो चामल वृद्धि",
+     "value": "तीन सय रुपैयाँ"
+    },
+    {
+     "label": "खसीको मासु वृद्धि",
+     "value": "तीनदेखि चार सय रुपैयाँ"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "जिरा मसिनो चामल वृद्धि",
+       "value": "तीन सय रुपैयाँ"
+      },
+      {
+       "label": "खसीको मासु वृद्धि",
+       "value": "तीनदेखि चार सय रुपैयाँ"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "infographic rice price increase",
+     "search_url": "https://www.pexels.com/search/videos/infographic%20rice%20price%20increase/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=infographic%20rice%20price%20increase&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Graphic showing rice price rise",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "infographic rice price increase",
+     "search_url": "https://pixabay.com/videos/search/infographic%20rice%20price%20increase/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20rice%20price%20increase&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "rice price chart Nepal",
+     "search_url": "https://www.pexels.com/search/videos/rice%20price%20chart%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=rice%20price%20chart%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "food price infographic",
+     "search_url": "https://www.pexels.com/search/videos/food%20price%20infographic/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=food%20price%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "infographic rice price increase",
+     "search_url": "https://openverse.org/search/image?q=infographic%20rice%20price%20increase",
+     "api": "GET https://api.openverse.org/v1/images/?q=infographic%20rice%20price%20increase&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "तीन सय रुपैयाँ",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L3 [plate] NUMBER CARD via local_render: \"जिरा मसिनो चामल वृद्धि तीन सय रुपैयाँ, खसीको मासु वृद्धि तीनदेखि चार स\" | then stock video @pexels \"infographic rice price increase\" [bg], stock video @pixabay \"infographic rice price increase\", stock video @pexels \"rice price chart Nepal\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।",
+  "voice": "serious",
+  "pose": "serious",
+  "broll": "infographic border closure trade",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "pivot",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "infographic border closure trade",
+   "alt_queries": [
+    "border goods halt"
+   ],
+   "query_source": "director",
+   "shot_description": "Graphic of blocked border goods worth five billion",
+   "commons": null,
+   "map": null,
+   "motion_text": "पाँच अर्ब रुपैयाँ",
+   "on_screen_data": [
+    {
+     "label": "नाकामा रोकिएका सामान",
+     "value": "करिब पाँच अर्ब रुपैयाँ"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "नाकामा रोकिएका सामान",
+       "value": "करिब पाँच अर्ब रुपैयाँ"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "infographic border closure trade",
+     "search_url": "https://www.pexels.com/search/videos/infographic%20border%20closure%20trade/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=infographic%20border%20closure%20trade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Graphic of blocked border goods worth five billion",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "infographic border closure trade",
+     "search_url": "https://pixabay.com/videos/search/infographic%20border%20closure%20trade/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20border%20closure%20trade&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "border goods halt",
+     "search_url": "https://www.pexels.com/search/videos/border%20goods%20halt/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=border%20goods%20halt&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "infographic border closure trade",
+     "search_url": "https://openverse.org/search/image?q=infographic%20border%20closure%20trade",
+     "api": "GET https://api.openverse.org/v1/images/?q=infographic%20border%20closure%20trade&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "पाँच अर्ब रुपैयाँ",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L4 [plate] NUMBER CARD via local_render: \"नाकामा रोकिएका सामान करिब पाँच अर्ब रुपैयाँ\" | then stock video @pexels \"infographic border closure trade\" [bg], stock video @pixabay \"infographic border closure trade\", stock video @pexels \"border goods halt\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "infographic inflation chart Nepal",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "takeaway",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "infographic inflation chart Nepal",
+   "alt_queries": [
+    "consumer price rise Nepal",
+    "inflation graph Nepal"
+   ],
+   "query_source": "director",
+   "shot_description": "Chart showing 5.14% annual consumer inflation",
+   "commons": null,
+   "map": null,
+   "motion_text": "५ दशमलव १४ प्रतिशत",
+   "on_screen_data": [
+    {
+     "label": "उपभोक्ता मुद्रास्फीति",
+     "value": "५ दशमलव १४ प्रतिशत"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "उपभोक्ता मुद्रास्फीति",
+       "value": "५ दशमलव १४ प्रतिशत"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "infographic inflation chart Nepal",
+     "search_url": "https://www.pexels.com/search/videos/infographic%20inflation%20chart%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=infographic%20inflation%20chart%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Chart showing 5.14% annual consumer inflation",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "infographic inflation chart Nepal",
+     "search_url": "https://pixabay.com/videos/search/infographic%20inflation%20chart%20Nepal/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20inflation%20chart%20Nepal&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "consumer price rise Nepal",
+     "search_url": "https://www.pexels.com/search/videos/consumer%20price%20rise%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=consumer%20price%20rise%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "inflation graph Nepal",
+     "search_url": "https://www.pexels.com/search/videos/inflation%20graph%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=inflation%20graph%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 5
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "infographic inflation chart Nepal",
+     "search_url": "https://openverse.org/search/image?q=infographic%20inflation%20chart%20Nepal",
+     "api": "GET https://api.openverse.org/v1/images/?q=infographic%20inflation%20chart%20Nepal&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 6
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 7
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "५ दशमलव १४ प्रतिशत",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 8
+    }
+   ],
+   "human_brief": "L5 [plate] NUMBER CARD via local_render: \"उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत\" | then stock video @pexels \"infographic inflation chart Nepal\" [bg], stock video @pixabay \"infographic inflation chart Nepal\", stock video @pexels \"consumer price rise Nepal\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+  "voice": "neutral",
+  "pose": "neutral",
+  "broll": "government market inspection Kathmandu",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 6,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "topic_stock",
+   "anchor": "",
+   "primary_query": "government market inspection Kathmandu",
+   "alt_queries": [
+    "commerce department monitoring",
+    "market surveillance Nepal"
+   ],
+   "query_source": "director",
+   "shot_description": "Officials inspecting market stalls",
+   "commons": null,
+   "map": null,
+   "motion_text": "अनुगमन तीव्र",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "government market inspection Kathmandu",
+     "search_url": "https://www.pexels.com/search/videos/government%20market%20inspection%20Kathmandu/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=government%20market%20inspection%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "Officials inspecting market stalls",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "government market inspection Kathmandu",
+     "search_url": "https://pixabay.com/videos/search/government%20market%20inspection%20Kathmandu/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=government%20market%20inspection%20Kathmandu&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "commerce department monitoring",
+     "search_url": "https://www.pexels.com/search/videos/commerce%20department%20monitoring/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=commerce%20department%20monitoring&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 3
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "market surveillance Nepal",
+     "search_url": "https://www.pexels.com/search/videos/market%20surveillance%20Nepal/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=market%20surveillance%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "alternate",
+     "rank": 4
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "government market inspection Kathmandu",
+     "search_url": "https://openverse.org/search/image?q=government%20market%20inspection%20Kathmandu",
+     "api": "GET https://api.openverse.org/v1/images/?q=government%20market%20inspection%20Kathmandu&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 5
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 6
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अनुगमन तीव्र",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 7
+    }
+   ],
+   "human_brief": "L6 [full] STOCK VIDEO via pexels_video: \"government market inspection Kathmandu\" | then stock video @pixabay \"government market inspection Kathmandu\", stock video @pexels \"commerce department monitoring\", stock video @pexels \"market surveillance Nepal\" | quality: topic_stock"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 3/6 content lines; article quote cards 0; topic stock only 3; needs a pick 0 | director groq (openai/gpt-oss-120b)
+L1 [full] STOCK VIDEO via pexels_video: "crowded market festival Kathmandu" | then stock video @pixabay "crowded market festival Kathmandu", stock video @pexels "festival shoppers Nepal", stock video @pexels "busy street market Nepal" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/crowded%20market%20festival%20Kathmandu/?orientation=portrait
+L2 [full] STOCK VIDEO via pexels_video: "Baneshwor retail Nepal" | then stock video @pixabay "Baneshwor retail Nepal", stock video @pexels "budget documents", stock photo @openverse "Baneshwor retail Nepal" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/Baneshwor%20retail%20Nepal/?orientation=portrait
+L3 [plate] NUMBER CARD via local_render: "जिरा मसिनो चामल वृद्धि तीन सय रुपैयाँ, खसीको मासु वृद्धि तीनदेखि चार स" | then stock video @pexels "infographic rice price increase" [bg], stock video @pixabay "infographic rice price increase", stock video @pexels "rice price chart Nepal" | quality: story_fact
+L4 [plate] NUMBER CARD via local_render: "नाकामा रोकिएका सामान करिब पाँच अर्ब रुपैयाँ" | then stock video @pexels "infographic border closure trade" [bg], stock video @pixabay "infographic border closure trade", stock video @pexels "border goods halt" | quality: story_fact
+L5 [plate] NUMBER CARD via local_render: "उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत" | then stock video @pexels "infographic inflation chart Nepal" [bg], stock video @pixabay "infographic inflation chart Nepal", stock video @pexels "consumer price rise Nepal" | quality: story_fact
+L6 [full] STOCK VIDEO via pexels_video: "government market inspection Kathmandu" | then stock video @pixabay "government market inspection Kathmandu", stock video @pexels "commerce department monitoring", stock video @pexels "market surveillance Nepal" | quality: topic_stock
+   open: https://www.pexels.com/search/videos/government%20market%20inspection%20Kathmandu/?orientation=portrait
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "दशैँको बजारमा महँगीको मार: चामलदेखि मासुसम्म मूल्यवृद्धि",
+ "youtube_description": "दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले उपभोक्ता मारमा परेका छन्। चीनतर्फका नाका अवरुद्ध हुँदा आयात प्रभावित भएको व्यवसायीहरूले बताएका छन्। News of Nepal: https://newsofnepal.com/2026/10/15/791465/\nSource: News of Nepal",
+ "youtube_tags": [
+  "Khabar Minute",
+  "Nepal News",
+  "Dashain Price Hike",
+  "Kathmandu Market",
+  "Nepal Economy",
+  "Inflation Nepal",
+  "Nepal Rastra Bank",
+  "News of Nepal"
+ ],
+ "tiktok_caption": "दशैँ नजिकिँदै गर्दा बजारमा महँगीको मार, किनमेल गर्नै कठिन।\nSource: News of Nepal",
+ "instagram_caption": "दशैँको किनमेल सुरु भएसँगै बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले सर्वसाधारण चिन्तित बनेका छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/",
+ "facebook_post": "दशैँ नजिकिएसँगै काठमाडौँका बजारमा किनमेल गर्ने भीड बढे पनि मूल्यवृद्धिका कारण उपभोक्ता चिन्तित छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/",
+ "threads_post": "दशैँको मुखमा चामल र मासुको भाउ बढ्दा बजारमा सर्वसाधारणलाई किनमेल गर्न कठिन भएको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/",
+ "linkedin_post": "दशैँको समयमा आपूर्ति शृंखला र नाका अवरोधले गर्दा बजार मूल्यवृद्धिमा चाप परेको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/",
+ "hashtags": [
+  "#KhabarMinute",
+  "#NepalNews",
+  "#Dashain",
+  "#Inflation",
+  "#NewsOfNepal"
+ ],
+ "source_credit": "Source: News of Nepal"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261015_jkjjx8","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261015_jkjjx8","review_date":"20261015","title":"सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप","chosen_topic":"सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप","category":"news","source_url":"https://newsofnepal.com/2026/10/15/791465/","story_id":"ST_a5df89161fd57f7a","risk_flag":"NORMAL","source_credit":"Source: News of Nepal","full_script":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्। असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ। उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ। चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्। राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ। वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","hook":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।","alternate_hook":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ","hook_type":"direct_callout","closing_line":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","pinned_comment":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","lines":[{"text":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"crowded market festival Kathmandu","broll_kind":"stock_video"},{"text":"असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।","voice":"thinking","pose":"thinking","broll":"Baneshwor retail Nepal","broll_kind":"stock_video"},{"text":"उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।","voice":"neutral","pose":"neutral","broll":"infographic rice price increase","broll_kind":"number_card"},{"text":"चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।","voice":"serious","pose":"serious","broll":"infographic border closure trade","broll_kind":"number_card"},{"text":"राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।","voice":"neutral","pose":"neutral","broll":"infographic inflation chart Nepal","broll_kind":"number_card"},{"text":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","voice":"neutral","pose":"neutral","broll":"government market inspection Kathmandu","broll_kind":"stock_video"}],"word_count":89,"workbook":{"schema_version":"6.6.9","story_id":"ST_a5df89161fd57f7a","source_url":"https://newsofnepal.com/2026/10/15/791465/","source_label":"News of Nepal","source_credit":"Source: News of Nepal","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू महँगीको मार खेपिरहेका छन्","proof_asset":{"kind":"article_text","source_url":"https://newsofnepal.com/2026/10/15/791465/","article_quote":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।","asset_ref":"verified_article_text","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ","closing_line":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","comment_prompt":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","pinned_comment":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।","voice":"neutral_talking","emotion":"neutral_talking","visual":{"type":"BROLL","search_query":"Kathmandu Asan Indra Chowk crowded festival market shopping Nepal","shot_description":"Crowded market in Asan Indra Chowk Kathmandu with shoppers buying festival goods","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँका बजारमा किनमेल गर्ने उपभोक्ता महँगीको मारमा","big_hook_text":"दशैँको किनमेलमा महँगीको मार","pip_mode":"off","source_evidence":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।","voice":"thinking","emotion":"thinking","visual":{"type":"BROLL","search_query":"Kathmandu Baneshwor retail clothing food market Nepal","shot_description":"Shoppers browsing clothes and daily groceries in Kathmandu shopping streets","depiction_scope":"generic_illustration"},"caption_text":"सीमित बजेटका कारण किनमेल गर्न कठिन","big_hook_text":"","pip_mode":"off","source_evidence":"भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर र पुतलीसडकजस्ता व्यापारिक क्षेत्रमा दशैँको किनमेल गर्नेको चहलपहल बाक्लिएको छ । लत्ताकपडा, खाद्यान्न, फलफूल, तरकारी र मासुजन्य वस्तुको खरिद बढिरहेका बेला उपभोक्ताले भने आफ्नो बजेटअनुसार सामान किन्नसमेत कठिन भइरहेको बताएका छन् ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जिरा मसिनो चामल वृद्धि","value":"तीन सय रुपैयाँ"},{"label":"खसीको मासु वृद्धि","value":"तीनदेखि चार सय रुपैयाँ"}],"data_source_quote":"जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"},"caption_text":"चामल बोरामा तीन सय र मासु प्रतिकिलो चार सय रुपैयाँसम्म वृद्धि","big_hook_text":"","pip_mode":"off","source_evidence":"‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"pivot","narration_text":"चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।","voice":"serious","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नाकामा रोकिएका सामान","value":"करिब पाँच अर्ब रुपैयाँ"}],"data_source_quote":"दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।"},"caption_text":"चीन सीमा नाकामा पाँच अर्ब बराबरका सामान रोकिए","big_hook_text":"","pip_mode":"off","source_evidence":"उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् । यसले विशेषगरी चीनबाट आयात हुने लत्ताकपडा तथा अन्य व्यापारिक सामानको आपूर्तिमा असर पार्न सक्ने देखिन्छ ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"takeaway","narration_text":"राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"उपभोक्ता मुद्रास्फीति","value":"५ दशमलव १४ प्रतिशत"}],"data_source_quote":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।"},"caption_text":"उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत","big_hook_text":"","pip_mode":"off","source_evidence":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ । अघिल्लो वर्षको सोही अवधिमा यस्तो दर २ दशमलव २० प्रतिशत थियो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":6,"beat":"closing","narration_text":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","voice":"neutral","emotion":"neutral","visual":{"type":"BROLL","search_query":"Nepal government market monitoring commerce department inspection","shot_description":"Commerce department market inspection officers monitoring retail stores in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"वाणिज्य विभागद्वारा बजार अनुगमन तीव्र","big_hook_text":"","pip_mode":"off","source_evidence":"वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"दशैँको बजारमा महँगीको मार: चामलदेखि मासुसम्म मूल्यवृद्धि","youtube_description":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले उपभोक्ता मारमा परेका छन्। चीनतर्फका नाका अवरुद्ध हुँदा आयात प्रभावित भएको व्यवसायीहरूले बताएका छन्। News of Nepal: https://newsofnepal.com/2026/10/15/791465/","youtube_tags":["Khabar Minute","Nepal News","Dashain Price Hike","Kathmandu Market","Nepal Economy","Inflation Nepal","Nepal Rastra Bank","News of Nepal"],"tiktok_caption":"दशैँ नजिकिँदै गर्दा बजारमा महँगीको मार, किनमेल गर्नै कठिन।","instagram_caption":"दशैँको किनमेल सुरु भएसँगै बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले सर्वसाधारण चिन्तित बनेका छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","facebook_post":"दशैँ नजिकिएसँगै काठमाडौँका बजारमा किनमेल गर्ने भीड बढे पनि मूल्यवृद्धिका कारण उपभोक्ता चिन्तित छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","threads_post":"दशैँको मुखमा चामल र मासुको भाउ बढ्दा बजारमा सर्वसाधारणलाई किनमेल गर्न कठिन भएको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","linkedin_post":"दशैँको समयमा आपूर्ति शृंखला र नाका अवरोधले गर्दा बजार मूल्यवृद्धिमा चाप परेको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","hashtags":["#KhabarMinute","#NepalNews","#Dashain","#Inflation","#NewsOfNepal"],"source_credit":"Source: News of Nepal"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"BROLL","search_query":"Kathmandu Asan Indra Chowk crowded festival market shopping Nepal","shot_description":"Crowded market in Asan Indra Chowk Kathmandu with shoppers buying festival goods","depiction_scope":"generic_illustration"},"caption_text":"काठमाडौँका बजारमा किनमेल गर्ने उपभोक्ता महँगीको मारमा","big_hook_text":"दशैँको किनमेलमा महँगीको मार","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।"},{"line_id":2,"beat":"context","visual":{"type":"BROLL","search_query":"Kathmandu Baneshwor retail clothing food market Nepal","shot_description":"Shoppers browsing clothes and daily groceries in Kathmandu shopping streets","depiction_scope":"generic_illustration"},"caption_text":"सीमित बजेटका कारण किनमेल गर्न कठिन","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर र पुतलीसडकजस्ता व्यापारिक क्षेत्रमा दशैँको किनमेल गर्नेको चहलपहल बाक्लिएको छ । लत्ताकपडा, खाद्यान्न, फलफूल, तरकारी र मासुजन्य वस्तुको खरिद बढिरहेका बेला उपभोक्ताले भने आफ्नो बजेटअनुसार सामान किन्नसमेत कठिन भइरहेको बताएका छन् ।"},{"line_id":3,"beat":"detail","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"जिरा मसिनो चामल वृद्धि","value":"तीन सय रुपैयाँ"},{"label":"खसीको मासु वृद्धि","value":"तीनदेखि चार सय रुपैयाँ"}],"data_source_quote":"जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"},"caption_text":"चामल बोरामा तीन सय र मासु प्रतिकिलो चार सय रुपैयाँसम्म वृद्धि","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"broll_to_infographic_soft_boom","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।"},{"line_id":4,"beat":"pivot","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"नाकामा रोकिएका सामान","value":"करिब पाँच अर्ब रुपैयाँ"}],"data_source_quote":"दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।"},"caption_text":"चीन सीमा नाकामा पाँच अर्ब बराबरका सामान रोकिए","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् । यसले विशेषगरी चीनबाट आयात हुने लत्ताकपडा तथा अन्य व्यापारिक सामानको आपूर्तिमा असर पार्न सक्ने देखिन्छ ।"},{"line_id":5,"beat":"takeaway","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"उपभोक्ता मुद्रास्फीति","value":"५ दशमलव १४ प्रतिशत"}],"data_source_quote":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।"},"caption_text":"उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ । अघिल्लो वर्षको सोही अवधिमा यस्तो दर २ दशमलव २० प्रतिशत थियो ।"},{"line_id":6,"beat":"closing","visual":{"type":"BROLL","search_query":"Nepal government market monitoring commerce department inspection","shot_description":"Commerce department market inspection officers monitoring retail stores in Kathmandu","depiction_scope":"generic_illustration"},"caption_text":"वाणिज्य विभागद्वारा बजार अनुगमन तीव्र","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।"}],"lines_legacy":[{"text":"काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।","voice":"neutral_talking","pose":"neutral_talking","broll":"crowded market festival Kathmandu","broll_kind":"stock_video"},{"text":"असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।","voice":"thinking","pose":"thinking","broll":"Baneshwor retail Nepal","broll_kind":"stock_video"},{"text":"उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।","voice":"neutral","pose":"neutral","broll":"infographic rice price increase","broll_kind":"number_card"},{"text":"चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।","voice":"serious","pose":"serious","broll":"infographic border closure trade","broll_kind":"number_card"},{"text":"राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।","voice":"neutral","pose":"neutral","broll":"infographic inflation chart Nepal","broll_kind":"number_card"},{"text":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।","voice":"neutral","pose":"neutral","broll":"government market inspection Kathmandu","broll_kind":"stock_video"}],"youtube_title":"दशैँको बजारमा महँगीको मार: चामलदेखि मासुसम्म मूल्यवृद्धि","youtube_description":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले उपभोक्ता मारमा परेका छन्। चीनतर्फका नाका अवरुद्ध हुँदा आयात प्रभावित भएको व्यवसायीहरूले बताएका छन्। News of Nepal: https://newsofnepal.com/2026/10/15/791465/","youtube_tags":["Khabar Minute","Nepal News","Dashain Price Hike","Kathmandu Market","Nepal Economy","Inflation Nepal","Nepal Rastra Bank","News of Nepal"],"tiktok_caption":"दशैँ नजिकिँदै गर्दा बजारमा महँगीको मार, किनमेल गर्नै कठिन।\nSource: News of Nepal","instagram_caption":"दशैँको किनमेल सुरु भएसँगै बजारमा दैनिक उपभोग्य वस्तुको मूल्यवृद्धिले सर्वसाधारण चिन्तित बनेका छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","facebook_post":"दशैँ नजिकिएसँगै काठमाडौँका बजारमा किनमेल गर्ने भीड बढे पनि मूल्यवृद्धिका कारण उपभोक्ता चिन्तित छन्। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","threads_post":"दशैँको मुखमा चामल र मासुको भाउ बढ्दा बजारमा सर्वसाधारणलाई किनमेल गर्न कठिन भएको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","linkedin_post":"दशैँको समयमा आपूर्ति शृंखला र नाका अवरोधले गर्दा बजार मूल्यवृद्धिमा चाप परेको छ। Source: News of Nepal https://newsofnepal.com/2026/10/15/791465/","hashtags":["#KhabarMinute","#NepalNews","#Dashain","#Inflation","#NewsOfNepal"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.8-flash","broll_plan":[{"line_id":1,"beat":"hook","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"crowded market festival Kathmandu","alt_queries":["festival shoppers Nepal","busy street market Nepal"],"query_source":"director","shot_description":"Crowded market in Asan and Indra Chowk during Dashain shopping","commons":null,"map":null,"motion_text":"किनमेल गर्ने उपभोक्ताहरू","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"crowded market festival Kathmandu","search_url":"https://www.pexels.com/search/videos/crowded%20market%20festival%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=crowded%20market%20festival%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Crowded market in Asan and Indra Chowk during Dashain shopping","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"crowded market festival Kathmandu","search_url":"https://pixabay.com/videos/search/crowded%20market%20festival%20Kathmandu/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=crowded%20market%20festival%20Kathmandu&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"festival shoppers Nepal","search_url":"https://www.pexels.com/search/videos/festival%20shoppers%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=festival%20shoppers%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"busy street market Nepal","search_url":"https://www.pexels.com/search/videos/busy%20street%20market%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=busy%20street%20market%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"crowded market festival Kathmandu","search_url":"https://openverse.org/search/image?q=crowded%20market%20festival%20Kathmandu","api":"GET https://api.openverse.org/v1/images/?q=crowded%20market%20festival%20Kathmandu&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"किनमेल गर्ने उपभोक्ताहरू","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L1 [full] STOCK VIDEO via pexels_video: \"crowded market festival Kathmandu\" | then stock video @pixabay \"crowded market festival Kathmandu\", stock video @pexels \"festival shoppers Nepal\", stock video @pexels \"busy street market Nepal\" | quality: topic_stock"},{"line_id":2,"beat":"context","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"Baneshwor retail Nepal","alt_queries":["budget documents"],"query_source":"director_alt","shot_description":"Shoppers in Asan, Indra Chowk and Baneshwor streets","commons":null,"map":null,"motion_text":"चहलपहल बढे","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"Baneshwor retail Nepal","search_url":"https://www.pexels.com/search/videos/Baneshwor%20retail%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=Baneshwor%20retail%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Shoppers in Asan, Indra Chowk and Baneshwor streets","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"Baneshwor retail Nepal","search_url":"https://pixabay.com/videos/search/Baneshwor%20retail%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=Baneshwor%20retail%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"budget documents","search_url":"https://www.pexels.com/search/videos/budget%20documents/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=budget%20documents&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_photo","source":"openverse","query":"Baneshwor retail Nepal","search_url":"https://openverse.org/search/image?q=Baneshwor%20retail%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=Baneshwor%20retail%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":4},{"kind":"quote_card","source":"local_render","text":"भोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":5},{"kind":"text_plate","source":"local_render","text":"चहलपहल बढे","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L2 [full] STOCK VIDEO via pexels_video: \"Baneshwor retail Nepal\" | then stock video @pixabay \"Baneshwor retail Nepal\", stock video @pexels \"budget documents\", stock photo @openverse \"Baneshwor retail Nepal\" | quality: topic_stock"},{"line_id":3,"beat":"detail","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"infographic rice price increase","alt_queries":["rice price chart Nepal","food price infographic"],"query_source":"director","shot_description":"Graphic showing rice price rise","commons":null,"map":null,"motion_text":"तीन सय रुपैयाँ","on_screen_data":[{"label":"जिरा मसिनो चामल वृद्धि","value":"तीन सय रुपैयाँ"},{"label":"खसीको मासु वृद्धि","value":"तीनदेखि चार सय रुपैयाँ"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"जिरा मसिनो चामल वृद्धि","value":"तीन सय रुपैयाँ"},{"label":"खसीको मासु वृद्धि","value":"तीनदेखि चार सय रुपैयाँ"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"infographic rice price increase","search_url":"https://www.pexels.com/search/videos/infographic%20rice%20price%20increase/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=infographic%20rice%20price%20increase&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Graphic showing rice price rise","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"infographic rice price increase","search_url":"https://pixabay.com/videos/search/infographic%20rice%20price%20increase/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20rice%20price%20increase&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"rice price chart Nepal","search_url":"https://www.pexels.com/search/videos/rice%20price%20chart%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=rice%20price%20chart%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"food price infographic","search_url":"https://www.pexels.com/search/videos/food%20price%20infographic/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=food%20price%20infographic&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"infographic rice price increase","search_url":"https://openverse.org/search/image?q=infographic%20rice%20price%20increase","api":"GET https://api.openverse.org/v1/images/?q=infographic%20rice%20price%20increase&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"तीन सय रुपैयाँ","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L3 [plate] NUMBER CARD via local_render: \"जिरा मसिनो चामल वृद्धि तीन सय रुपैयाँ, खसीको मासु वृद्धि तीनदेखि चार स\" | then stock video @pexels \"infographic rice price increase\" [bg], stock video @pixabay \"infographic rice price increase\", stock video @pexels \"rice price chart Nepal\" | quality: story_fact"},{"line_id":4,"beat":"pivot","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"infographic border closure trade","alt_queries":["border goods halt"],"query_source":"director","shot_description":"Graphic of blocked border goods worth five billion","commons":null,"map":null,"motion_text":"पाँच अर्ब रुपैयाँ","on_screen_data":[{"label":"नाकामा रोकिएका सामान","value":"करिब पाँच अर्ब रुपैयाँ"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"नाकामा रोकिएका सामान","value":"करिब पाँच अर्ब रुपैयाँ"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"infographic border closure trade","search_url":"https://www.pexels.com/search/videos/infographic%20border%20closure%20trade/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=infographic%20border%20closure%20trade&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Graphic of blocked border goods worth five billion","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"infographic border closure trade","search_url":"https://pixabay.com/videos/search/infographic%20border%20closure%20trade/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20border%20closure%20trade&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"border goods halt","search_url":"https://www.pexels.com/search/videos/border%20goods%20halt/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=border%20goods%20halt&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"infographic border closure trade","search_url":"https://openverse.org/search/image?q=infographic%20border%20closure%20trade","api":"GET https://api.openverse.org/v1/images/?q=infographic%20border%20closure%20trade&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"उहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"पाँच अर्ब रुपैयाँ","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L4 [plate] NUMBER CARD via local_render: \"नाकामा रोकिएका सामान करिब पाँच अर्ब रुपैयाँ\" | then stock video @pexels \"infographic border closure trade\" [bg], stock video @pixabay \"infographic border closure trade\", stock video @pexels \"border goods halt\" | quality: story_fact"},{"line_id":5,"beat":"takeaway","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"infographic inflation chart Nepal","alt_queries":["consumer price rise Nepal","inflation graph Nepal"],"query_source":"director","shot_description":"Chart showing 5.14% annual consumer inflation","commons":null,"map":null,"motion_text":"५ दशमलव १४ प्रतिशत","on_screen_data":[{"label":"उपभोक्ता मुद्रास्फीति","value":"५ दशमलव १४ प्रतिशत"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"उपभोक्ता मुद्रास्फीति","value":"५ दशमलव १४ प्रतिशत"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"infographic inflation chart Nepal","search_url":"https://www.pexels.com/search/videos/infographic%20inflation%20chart%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=infographic%20inflation%20chart%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Chart showing 5.14% annual consumer inflation","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"infographic inflation chart Nepal","search_url":"https://pixabay.com/videos/search/infographic%20inflation%20chart%20Nepal/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=infographic%20inflation%20chart%20Nepal&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_video","source":"pexels_video","query":"consumer price rise Nepal","search_url":"https://www.pexels.com/search/videos/consumer%20price%20rise%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=consumer%20price%20rise%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_video","source":"pexels_video","query":"inflation graph Nepal","search_url":"https://www.pexels.com/search/videos/inflation%20graph%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=inflation%20graph%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":5},{"kind":"stock_photo","source":"openverse","query":"infographic inflation chart Nepal","search_url":"https://openverse.org/search/image?q=infographic%20inflation%20chart%20Nepal","api":"GET https://api.openverse.org/v1/images/?q=infographic%20inflation%20chart%20Nepal&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":6},{"kind":"quote_card","source":"local_render","text":"राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":7},{"kind":"text_plate","source":"local_render","text":"५ दशमलव १४ प्रतिशत","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":8}],"human_brief":"L5 [plate] NUMBER CARD via local_render: \"उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत\" | then stock video @pexels \"infographic inflation chart Nepal\" [bg], stock video @pixabay \"infographic inflation chart Nepal\", stock video @pexels \"consumer price rise Nepal\" | quality: story_fact"},{"line_id":6,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"topic_stock","anchor":"","primary_query":"government market inspection Kathmandu","alt_queries":["commerce department monitoring","market surveillance Nepal"],"query_source":"director","shot_description":"Officials inspecting market stalls","commons":null,"map":null,"motion_text":"अनुगमन तीव्र","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"government market inspection Kathmandu","search_url":"https://www.pexels.com/search/videos/government%20market%20inspection%20Kathmandu/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=government%20market%20inspection%20Kathmandu&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"Officials inspecting market stalls","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"government market inspection Kathmandu","search_url":"https://pixabay.com/videos/search/government%20market%20inspection%20Kathmandu/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=government%20market%20inspection%20Kathmandu&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_video","source":"pexels_video","query":"commerce department monitoring","search_url":"https://www.pexels.com/search/videos/commerce%20department%20monitoring/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=commerce%20department%20monitoring&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":3},{"kind":"stock_video","source":"pexels_video","query":"market surveillance Nepal","search_url":"https://www.pexels.com/search/videos/market%20surveillance%20Nepal/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=market%20surveillance%20Nepal&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"alternate","rank":4},{"kind":"stock_photo","source":"openverse","query":"government market inspection Kathmandu","search_url":"https://openverse.org/search/image?q=government%20market%20inspection%20Kathmandu","api":"GET https://api.openverse.org/v1/images/?q=government%20market%20inspection%20Kathmandu&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":5},{"kind":"quote_card","source":"local_render","text":"वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":6},{"kind":"text_plate","source":"local_render","text":"अनुगमन तीव्र","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":7}],"human_brief":"L6 [full] STOCK VIDEO via pexels_video: \"government market inspection Kathmandu\" | then stock video @pixabay \"government market inspection Kathmandu\", stock video @pexels \"commerce department monitoring\", stock video @pexels \"market surveillance Nepal\" | quality: topic_stock"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":6,"content_lines":6,"story_fact":3,"quote_card":0,"topic_stock":3,"derived_check":0,"text_plate_only":0,"end_card":0,"specific":3,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 3/6 content lines; article quote cards 0; topic stock only 3; needs a pick 0","lines_with_stock_query":6,"lines_with_commons":0,"lines_with_map":0,"rejected":[]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":7,"beat":"comment","text":"तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"hook","fields":{"headline":"दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्","sub":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"उपभोक्ताहरू","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"kicker","fields":{"text":"बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"बानेश्वरजस्ता"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Asan, Kathmandu","in_line":"असन","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Asan market street","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Asan%20market%20street&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Asan%20market%20street&ns6=1"},{"rank":2,"source":"openverse","query":"Indra Chowk shoppers","api":"https://api.openverse.org/v1/images/?q=Indra%20Chowk%20shoppers&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=Indra%20Chowk%20shoppers&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"Baneshwor market Nepal","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Baneshwor%20market%20Nepal&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Baneshwor%20market%20Nepal&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"detail","card":{"type":"kicker","hold_from_line":2,"fields":null},"strip":{"hold_from_line":2},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":4,"beat":"pivot","card":{"type":"place","fields":{"place":"रसुवा","area":"","headline":"चीनतर्फका रसुवा","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"रसुवा"}},"picture":{"status":"candidates","subject":{"kind":"object","name_en":"Goods","in_line":"सामान","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"border closure impact","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=border%20closure%20impact&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=border%20closure%20impact&ns6=1"},{"rank":2,"source":"openverse","query":"trade blockage Nepal","api":"https://api.openverse.org/v1/images/?q=trade%20blockage%20Nepal&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=trade%20blockage%20Nepal&aspect_ratio=wide"},{"rank":3,"source":"pexels_photo","query":"goods stopped infographic","api":"https://api.pexels.com/v1/search?query=goods%20stopped%20infographic&orientation=landscape&per_page=8","url":"https://www.pexels.com/search/goods%20stopped%20infographic/?orientation=landscape"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":5,"beat":"takeaway","card":{"type":"place","hold_from_line":4,"fields":null},"strip":{"hold_from_line":4},"picture":{"status":"hold"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"held":true}},{"line_id":6,"beat":"closing","card":{"type":"kicker","fields":{"text":"वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":2}},"strip":{"kind":"echo","text":"वाणिज्य","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":6,"held_lines":2,"types_used":{"hook":1,"kicker":2,"place":1},"distinct_types":3,"caps_relaxed":0,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":2,"blocked_claims":2,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":7,"chosen_topic":"सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप","category":"news","reason":"Inflation hitting everyday life during the major festival of Dashain resonates strongly with Nepali GenZ, offering relatable content for memes, discussions, and practical tips on budgeting during celebrations.","angle":"Highlight the clash between government promises and rising prices, using humor and real‑life examples to show how GenZ can navigate and critique the cost of celebrating Dashain in today’s economy.","chosen_id_recovered":false,"chosen_headline_exact":"सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप","source_url":"https://newsofnepal.com/2026/10/15/791465/","source_feed":"News of Nepal","rss_pub_date":"2026-10-15T00:21:29.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":189,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":41,"direct_headline_count":169,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_a5df89161fd57f7a","source_credit":"Source: News of Nepal","trust_eligible":true,"trust_skip_reason":"","article_age_hours":0.15445777777777778,"date_unknown":false,"article_text":"सरकारको सुशासनको नाराबीच महँगीको मार: दशैँ मनाउनै मुस्किल, बजारमा मूल्यवृद्धिको चाप\n\nकाठमाडौँ\n\nसुशासन, जनतालाई सहज सेवा र आर्थिक सुधारको नारासहित अघि बढेको राष्ट्रिय स्वतन्त्र पार्टी (रास्वपा) नेतृत्वको सरकारका सामु महँगी नियन्त्रण चुनौतीका रूपमा देखिएको छ । दशैँ नजिकिँदै गर्दा काठमाडौँ उपत्यकाका मुख्य बजारमा किनमेल गर्ने सर्वसाधारणको भीड बढेको छ । तर बजारमा बढेको मूल्यले उपभोक्ताको खुसीभन्दा चिन्ता थपेको छ । सीमित आम्दानी, दैनिक उपभोग्य वस्तुको महँगो मूल्य र चाडपर्वको अतिरिक्त खर्चले गर्दा सर्वसाधारणलाई दशैँ मनाउनै कठिन हुन थालेको गुनासो बढेको छ ।\n\nभोटाहिटी, असन, इन्द्रचोक, ठमेल, जमल, विशालबजार, सुन्धारा, खिचापोखरी, नयाँसडक, बागबजार, डिल्लीबजार, बानेश्वर र पुतलीसडकजस्ता व्यापारिक क्षेत्रमा दशैँको किनमेल गर्नेको चहलपहल बाक्लिएको छ । लत्ताकपडा, खाद्यान्न, फलफूल, तरकारी र मासुजन्य वस्तुको खरिद बढिरहेका बेला उपभोक्ताले भने आफ्नो बजेटअनुसार सामान किन्नसमेत कठिन भइरहेको बताएका छन् ।\n\nसरकारले सुशासन र जनतालाई राहत दिने प्रतिबद्धता व्यक्त गरिरहँदा बजारमा महँगीको मार खेपिरहेका उपभोक्ताले त्यसको प्रत्यक्ष अनुभूति गर्न सकेका छैनन् । बजारमा बढ्दो मूल्य, कमजोर अनुगमन र आम्दानीअनुसार खर्च धान्न नसक्ने अवस्थाले सरकारको आर्थिक व्यवस्थापन तथा उपभोक्ता संरक्षणसम्बन्धी नीतिको प्रभावकारितामाथि प्रश्न उठाएको छ ।\n\nचामलदेखि खसीको मासुसम्म महँगो\n\nकाठमाडौँ महानगरपालिका–३२ का मणिराम शर्मा दैनिक उपभोग्य वस्तुको मूल्य बढ्दा चाडपर्व मनाउनसमेत कठिन भएको बताउनुहुन्छ । ‘जिरा मसिनो चामलको भाउ एक बोरामा नै तीन सय रुपैयाँ बढेको छ’, उहाँले भन्नुभयो–दशैँमा खानुपर्ने खसीको मासुको भाउ पनि प्रतिकिलो तीनदेखि चार सय रुपैयाँले बढेको छ । न्यून आय हुनेका लागि त दशैँ मनाउन पनि मुस्किल हुने देखिएको छ ।’\n\nत्यस्तै, तीन सन्तानलाई नयाँ लुगा किनिदिनुपरेको बानेश्वरकी अनिमा बस्नेतको अनुभव पनि उस्तै छ । लत्ताकपडाको मूल्य बढे पनि दशैँमा बालबालिकालाई नयाँ लुगा लगाइदिनैपर्ने बाध्यताले जेनतेन किनमेल गरेको बताउनुहुन्छ । यी दुई उपभोक्ताका अनुभवले बजारको मूल्यवृद्धि केवल आर्थिक तथ्यांकमा सीमित नरहेको देखाउँछ । चाडपर्वमा परिवारका सदस्यलाई आवश्यक सामान जुटाउनुपर्ने सामाजिक र पारिवारिक दायित्वसँगै बढ्दो खर्चले सर्वसाधारणलाई दबाबमा पारेको छ ।\n\nचीनतर्फका नाका अवरुद्ध हुँदा आपूर्तिमा असर\n\nनेपाल हिमालयन सीमापार वाणिज्य संघका महासचिव रामचन्द्र पराजुलीका अनुसार चीनसँग जोडिएका रसुवा र तातोपानी नाका अवरुद्ध हुँदा व्यापार तथा सामान आयातमा कठिनाइ उत्पन्न भएको छ ।\n\nउहाँका अनुसार दशैँलगायत चाडपर्वलाई लक्षित गरी चीनबाट ल्याउन लागिएका करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन् । यसले विशेषगरी चीनबाट आयात हुने लत्ताकपडा तथा अन्य व्यापारिक सामानको आपूर्तिमा असर पार्न सक्ने देखिन्छ ।\n\nगत भदौ १० गते भोटेकोशी क्षेत्रमा आएको बाढीपछि चीनतर्फका नाका प्रभावित भएको सन्दर्भमा व्यवसायीले सामान ल्याउन कठिनाइ भइरहेको बताएका छन् । आयातमा अवरोध हुँदा ढुवानी खर्च, उपलब्धता र बजारको प्रतिस्पर्धामा असर पर्न सक्छ । यद्यपि बजारमा देखिएको सबै मूल्यवृद्धिको कारण नाका अवरुद्ध हुनु मात्रै होइन । उत्पादन लागत, ढुवानी, बिचौलियाको भूमिका, माग र आपूर्तिको अवस्था तथा बजार अनुगमन पनि मूल्य निर्धारणका महत्वपूर्ण पक्ष हुने बिज्ञहरू बताउँछन् । वाणिज्य, आपूर्ति तथा उपभोक्ता संरक्षण विभागका महानिर्देशक रितेशकुमार शाक्यले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताउनुभयो ।\n\nउहाँका अनुसार विभागले दैनिक २५ देखि ५० वटा विभिन्न फर्म तथा कम्पनीको अनुगमन गरिरहेको छ । अधिकतम खुद्रा मूल्यभन्दा बढी मूल्य लिने व्यापारी तथा व्यवसायीलाई कानुनी दायरामा ल्याउने काम भइरहेको उहाँको भनाइ छ । तर अनुगमनको संख्या बढ्नु मात्रै पर्याप्त हुँदैन । अनुगमनपछि मूल्य घट्यो कि घटेन, कृत्रिम अभाव सिर्जना गर्ने र उपभोक्तालाई बढी मूल्यमा सामान बेच्ने व्यवसायीमाथि कस्तो कारबाही भयो तथा कारबाहीबाट बजारमा कति सुधार आयो भन्ने विषय पनि महत्वपूर्ण हुन्छ ।\n\nउपभोक्ता अधिकार अनुसन्धान मञ्चका अध्यक्ष माधव तिमल्सिनाले खाद्यान्न, ताजा तरकारी, फलफूल तथा मासुजन्य वस्तुको मूल्य बढेको भन्दै सरकारका सम्बन्धित निकायले नियमित बजार अनुगमन गर्नुपर्ने बताउनुभयो । उहाँका अनुसार आपूर्ति शृंखला नियमित बनाउने र मूल्यवृद्धि नियन्त्रणका लागि आवश्यक हस्तक्षेप गर्ने काममा सरकार सक्रिय हुनुपर्छ ।\n\nरास्वपा नेतृत्वको सरकार बनेपछि महँगी अत्यधिक बढेको भन्ने जनगुनासोलाई गम्भीरतापूर्वक लिन आवश्यक छ । तर सरकार परिवर्तनकै कारण मूल्यवृद्धि भएको निष्कर्ष निकाल्नुअघि अघिल्लो र वर्तमान सरकारको अवधिका तुलनात्मक आर्थिक तथ्यांक, वस्तुगत मूल्य सूची तथा आपूर्ति अवस्थाको विश्लेषण गर्नुपर्ने सरकारी अधिकारीहरू बताउँछन् ।\n\nसरकारको जिम्मेवारी भने मूल्यवृद्धि नियन्त्रण गर्न प्रभावकारी नीति बनाउने, बजारमा प्रतिस्पर्धा कायम राख्ने, आपूर्ति सहज बनाउने र उपभोक्तालाई ठगीबाट जोगाउने हो तर सरकार मूकदर्शक भएको आरोप उपभोक्ताहरूले लगाउँदै आएका छन् । मूल्यवृद्धिमा बाह्य कारणको भूमिका भए पनि त्यसको प्रभाव न्यूनीकरण गर्न सरकारले के ग¥यो ? भन्ने प्रश्नबाट सरकार उम्कन नमिल्ने उपभोक्ताहरू बताउँछन् ।\n\nसरकारले तत्काल खाद्यान्न तथा अत्यावश्यक वस्तुको आपूर्ति सहज बनाउन, नाकामा रोकिएका सामान ल्याउन कूटनीतिक र प्रशासनिक पहल गर्न, ढुवानी तथा वितरण प्रणाली व्यवस्थित गर्न र बजारमा नियमित अनुगमन गर्न आवश्यक छ । साथै, मूल्य सूची सार्वजनिक गर्ने, बिलबिजक अनिवार्य गराउने र कृत्रिम अभाव तथा कालोबजारी गर्नेमाथि कानुनी कारबाही प्रभावकारी बनाउनुर्दछ ।\n\nदशैँजस्तो महत्वपूर्ण चाडपर्वमा सर्वसाधारणले आफ्नो आयको ठूलो हिस्सा खाद्यान्न, लत्ताकपडा र पारिवारिक आवश्यकतामा खर्च गर्छन् । यस्तो समयमा महँगी नियन्त्रण गर्नु केवल आर्थिक व्यवस्थापनको विषय होइन, जनताको जीवनस्तर र सरकारप्रतिको विश्वाससँग जोडिएको विषय भएको भोटाहिटीका नम्रता शाक्य बताउनुहुन्छ । रास्वपा सरकारले सुशासनको नारालाई व्यवहारमा उतार्ने हो भने बजारको अवस्था सुधारिएको अनुभूति सर्वसाधारणले गर्न सक्नुपर्ने शाक्य बताउनुहुन्छ ।\n\nचाडपर्वको मुखमा उपभोक्ता महँगीको मारमा परिरहने र सरकारी अनुगमन कागजमा सीमित हुने हो भने सरकारको कार्यसम्पादनमाथि उठेका प्रश्न अझ गम्भीर बन्नेछन् । अन्ततः सरकारको सफलता नाराले होइन, जनताको भान्सामा परेको खर्चको भार घटाउन र बजारलाई व्यवस्थित बनाउन उसले हासिल गरेको परिणामले मापन हुने छ ।\n\nआर्थिक सूचकले के देखाउँछ ?\n\nनेपाल राष्ट्र बैंकको तथ्यांकले पनि मूल्यवृद्धिको दबाब कायम रहेको देखाउँछ । राष्ट्र बैंकका अनुसार आर्थिक वर्ष २०८२÷८३ को पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ । अघिल्लो वर्षको सोही अवधिमा यस्तो दर २ दशमलव २० प्रतिशत थियो । अर्थात् अघिल्लो वर्षको तुलनामा उपभोक्ता मूल्यवृद्धिको वार्षिक दर उल्लेख्य रूपमा बढेको देखिन्छ ।\n\nत्यस्तै, राष्ट्र बैंकले सार्वजनिक गरेको आर्थिक वर्ष २०८३÷८४","article_char_count":6000,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_reader","article_block_reason":"Direct fetch failed (extracted text too short (83 chars)); article text via free reader fallback (r.jina.ai).","km_reader_tried":true,"risk_flag":"NORMAL","risk_reasons":[],"source_label":"News of Nepal","assigned_hook_type":"direct_callout","review_id":"RV_20261015_jkjjx8","trust_gate_passed":true,"tiktok_caption_budget":128,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

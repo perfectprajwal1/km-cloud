@@ -1,0 +1,608 @@
+{
+ "id": "RV_20261015_jkjjx8",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?",
+ "pinned_comment": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "काठमाडौँका बजारमा किनमेल गर्ने उपभोक्ता महँगीको मारमा",
+   "sub": "",
+   "km_default": true,
+   "vo": "काठमाडौँ उपत्यकाका मुख्य बजारमा दशैँको किनमेल गर्ने उपभोक्ताहरू, महँगीको मार खेपिरहेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_01_55170e.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "काठमाडौँ",
+        "sub": "",
+        "focus": true,
+        "at": 0.05
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "सीमित बजेटका कारण किनमेल गर्न कठिन",
+   "points": [
+    "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित"
+   ],
+   "km_default": true,
+   "vo": "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि सीमित बजेटका कारण सामान किन्न कठिन भएको गुनासो छ।",
+   "dark": true,
+   "voice_tone": "thinking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_02_116b76.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "असन, इन्द्रचोक र बानेश्वरजस्ता बजारमा चहलपहल बढे पनि "
+       },
+       {
+        "t": "सीमित बजेटका कारण",
+        "hl": true,
+        "at": 0.466
+       },
+       {
+        "t": " सामान किन्न "
+       },
+       {
+        "t": "कठिन",
+        "hl": true,
+        "at": 0.701
+       },
+       {
+        "t": " भएको गुनासो छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "तीन सय रुपैयाँ",
+   "headline": "चामल बोरामा तीन सय र मासु प्रतिकिलो चार सय रुपैयाँसम्म वृद्धि",
+   "sub": "जिरा मसिनो चामल वृद्धि",
+   "km_default": true,
+   "vo": "उपभोक्ताका अनुसार जिरा मसिनो चामल प्रतिबोरा तीन सय रुपैयाँ र खसीको मासु प्रतिकिलो चार सय रुपैयाँसम्म बढेको छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_03_fbe996.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": null,
+      "numText": "तीन सय रुपैयाँ",
+      "unit": "",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "जिरा मसिनो चामल वृद्धि",
+      "at": 0.22
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 172,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "करिब पाँच अर्ब रुपैयाँ",
+   "headline": "चीन सीमा नाकामा पाँच अर्ब बराबरका सामान रोकिए",
+   "sub": "नाकामा रोकिएका सामान",
+   "km_default": true,
+   "vo": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान नाकामा रोकिएका छन्।",
+   "dark": true,
+   "voice_tone": "serious",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_04_fe5122.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान "
+       },
+       {
+        "t": "नाकामा रोकिएका छन्",
+        "hl": true,
+        "at": 0.701
+       },
+       {
+        "t": "।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 14.0,
+   "unit": "प्रतिशत",
+   "prefix": "",
+   "decimals": 0,
+   "label": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ",
+   "sub": "",
+   "type": "bignum",
+   "vo": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_05_e42026.png",
+    "anim": {
+     "kind": "waffle",
+     "waffle": {
+      "pct": 14.0,
+      "label": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ",
+      "at": 0.419,
+      "layout": {
+       "x0": 110,
+       "y0": 115,
+       "cell": 36,
+       "gap": 6
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "वाणिज्य विभागद्वारा बजार अनुगमन तीव्र",
+   "points": [
+    "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको"
+   ],
+   "km_default": true,
+   "vo": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_jkjjx8_06_f3c2a7.png",
+    "anim": {
+     "kind": "who",
+     "who": {
+      "actor": "वाणिज्य विभाग",
+      "verb": "बताएको",
+      "target": "चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको",
+      "at": 0.05
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1",
+  "version": "1.0",
+  "content_hash": "a0a4076675a3c84ef8768c7643111493cb04c4724d6796f66c5fd2760888432b",
+  "plan_hash": "73a5dba45b2d0de3a187f1454a0c42dc2ec757b5a1a61f9a943b56e5e7082412",
+  "selected": [
+   "main:hook",
+   "strip:place",
+   "main:points_plain",
+   "strip:evidence",
+   "main:scale",
+   "strip:stat",
+   "main:scale",
+   "strip:evidence",
+   "main:bignum",
+   "strip:waffle",
+   "main:points_plain",
+   "strip:who",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat",
+   "strip:waffle",
+   "strip:who"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "place",
+    "score": 189.26,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 106.16,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "scale",
+    "selected_strip": "stat",
+    "score": 150.947,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "scale",
+    "selected_strip": "evidence",
+    "score": 140.067,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "चीनतर्फका रसुवा र तातोपानी नाका अवरुद्ध हुँदा करिब पाँच अर्ब रुपैयाँ बराबरका सामान",
+       "start": 0,
+       "end": 82
+      },
+      {
+       "field": "t",
+       "text": "नाकामा रोकिएका छन्",
+       "start": 83,
+       "end": 101
+      },
+      {
+       "field": "t",
+       "text": "।",
+       "start": 101,
+       "end": 102
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "bignum",
+    "selected_strip": "waffle",
+    "score": 180.6,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit percentage share"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat",
+     "strip:waffle"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ",
+       "start": 0,
+       "end": 113
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१४ प्रतिशत",
+       "start": 94,
+       "end": 104
+      },
+      {
+       "field": "label",
+       "text": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ",
+       "start": 0,
+       "end": 113
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "who",
+    "score": 135.707,
+    "reason": [
+     "converter default card",
+     "explicit who relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:who"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "actor",
+       "text": "वाणिज्य विभाग",
+       "start": 0,
+       "end": 13
+      },
+      {
+       "field": "verb",
+       "text": "बताएको",
+       "start": 57,
+       "end": 63
+      },
+      {
+       "field": "target",
+       "text": "चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको",
+       "start": 16,
+       "end": 56
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "c85c8116a55f51a3fa7437d6b9d5a85216251bb212cb2ad0c25e5a5d615d9d32"
+ }
+}

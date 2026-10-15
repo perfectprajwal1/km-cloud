@@ -1,0 +1,77 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "engine": "km-onnx-int8-1",
+  "master_sha256": "c8d8065dcbd41a639014fccd4bdb6ead08f7108d040be19f85c47371e559b340",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "cuts_sec": [
+    9.65,
+    16.73
+  ],
+  "scores": [],
+  "transcript_char_match": null,
+  "boundaries": [
+    {
+      "quiet_sec": 2.14,
+      "selected": {
+        "cut": 9.65
+      }
+    },
+    {
+      "quiet_sec": 2.1,
+      "selected": {
+        "cut": 16.73
+      }
+    }
+  ],
+  "latin_spans_unverified": true,
+  "entire_half_word_identity_unverified": true,
+  "gates": "mixed-language acoustic pause split only; no transcript identity/absence certification",
+  "alignment_targets": [
+    {
+      "original": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति ५ दशमलव १४ प्रतिशत पुगेको छ।",
+      "spoken": "राष्ट्र बैंकको report अनुसार पहिलो त्रैमासिकमा वार्षिक बिन्दुगत उपभोक्ता मुद्रास्फीति पाँच दशमलव चौध प्रतिशत पुगेको छ।",
+      "mapping": [
+        {
+          "original": "५",
+          "spoken": "पाँच",
+          "start": 86,
+          "end": 87,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१४",
+          "spoken": "चौध",
+          "start": 94,
+          "end": 96,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "report",
+          "spoken": "report",
+          "start": 15,
+          "end": 21,
+          "stage": "after_numeric_expansion",
+          "rule": "numbers-english-unverified-v4",
+          "note": "English preserved for voice; Latin span unverified by Nepali-only CTC."
+        }
+      ]
+    },
+    {
+      "original": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+      "spoken": "वाणिज्य विभागले चाडपर्व लक्षित बजार अनुगमन तीव्र बनाइएको बताएको छ।",
+      "mapping": []
+    },
+    {
+      "original": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+      "spoken": "तपाईंको क्षेत्रको बजारमा यो दशैँमा खाद्यान्न र सामानको भाउ कत्तिको बढेको छ? कमेन्टमा भन्नुस्।",
+      "mapping": []
+    }
+  ]
+}
