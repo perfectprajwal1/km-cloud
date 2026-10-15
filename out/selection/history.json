@@ -255,12 +255,45 @@
         "strip:phrase",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "8adf366f29f35491b8fbd595f5af42a058355a8d81ecc4ea9a4819124bb399be",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:units"
+      ],
+      "id": "RV_20261015_d7e3cb",
+      "missed": {
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "de4cecfdd642ba1c1221644c1749a29a4cfb4646f076a71b9ee779309f57a2f7",
+      "rendered_at": 1792092495.298197,
+      "selected": [
+        "main:hook",
+        "strip:units",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
     "RV_20261014_e4vlr9:dd5dddaa9012ee413199ddc775dfe1532ff2fe433e02fe4930e357ec0aa23834": "c7303dd93d605acc1a599f10b9481840d20888a113cf0047329392770d18d0a0",
     "RV_20261014_j4z86h:13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3",
     "RV_20261014_vhmkp:ed2a6d17ecf8ce9e6b3f74e3ee83888ea013ab63bbf058d334816566802a5d45": "9e7093d5d9bb4ba236b3c90cf1ddc87241507dea11da7c0f674c63734a95deb6",
+    "RV_20261015_d7e3cb:8adf366f29f35491b8fbd595f5af42a058355a8d81ecc4ea9a4819124bb399be": "de4cecfdd642ba1c1221644c1749a29a4cfb4646f076a71b9ee779309f57a2f7",
     "RV_20261015_jkjjx8:a0a4076675a3c84ef8768c7643111493cb04c4724d6796f66c5fd2760888432b": "73a5dba45b2d0de3a187f1454a0c42dc2ec757b5a1a61f9a943b56e5e7082412",
     "RV_20261015_mwtd22:e29ab1b13f9c85e829d624eea57cc9772024f58ffc3a34c511b633c6f68c9bcc": "22d7ff5080a2502f7f350a0f30a8f1bb6fc66e9073f17597b403b21c6e99fbb8",
     "RV_20261015_wbhyd2:e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352",
@@ -268,17 +301,17 @@
   },
   "used_total": {
     "main:bignum": 5,
-    "main:engage": 7,
-    "main:hook": 7,
+    "main:engage": 8,
+    "main:hook": 8,
     "main:place": 2,
-    "main:points_plain": 20,
+    "main:points_plain": 25,
     "main:scale": 6,
-    "strip:evidence": 13,
+    "strip:evidence": 16,
     "strip:incident": 1,
-    "strip:phrase": 7,
+    "strip:phrase": 9,
     "strip:place": 4,
     "strip:stat": 6,
-    "strip:units": 3,
+    "strip:units": 4,
     "strip:voiceprint": 2,
     "strip:waffle": 1,
     "strip:who": 3
