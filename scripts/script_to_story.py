@@ -51,6 +51,49 @@ def load_json(s, what):
     try: return json.loads(s)
     except Exception as e: sys.exit("Cannot read " + what + ": " + str(e))
 
+# One grammar for display values and narrated quantity extraction. Keep the raw
+# script/voice text untouched; normalize only the local numeric representation.
+_DIGITS = r"[०-९0-9]+"
+_GROUPED = _DIGITS + r"(?:,[०-९0-9]+)*"
+_DECIMAL_DIGIT_WORDS = {"शून्य": "0", "सुन्ना": "0", "एक": "1", "दुई": "2",
+                        "तीन": "3", "चार": "4", "पाँच": "5", "पांच": "5",
+                        "छ": "6", "सात": "7", "आठ": "8", "नौ": "9"}
+_DIGIT_WORD = "(?:" + "|".join(sorted(_DECIMAL_DIGIT_WORDS, key=len, reverse=True)) + ")"
+_DECIMAL_PART = "(?:" + _DIGITS + "|" + _DIGIT_WORD + ")"
+_SPOKEN_DECIMAL = "(?:" + _GROUPED + "|" + _DIGIT_WORD + r")\s*दशमलव\s*" + _DECIMAL_PART + r"(?:\s+" + _DIGIT_WORD + ")*"
+NUMBER_PATTERN = "(?:" + _SPOKEN_DECIMAL + "|" + _GROUPED + r"(?:\.[०-९0-9]+)?)"
+
+def _display_decimal(text):
+    """Known decimal forms only. Unsupported wording stays text, never a guessed number."""
+    def replace(m):
+        left, right = re.split(r"\s*दशमलव\s*", m.group(), maxsplit=1)
+        left = _DECIMAL_DIGIT_WORDS.get(left, left.translate(LAT))
+        right = "".join(_DECIMAL_DIGIT_WORDS.get(t, t.translate(LAT)) for t in right.split())
+        return left + "." + right
+    return re.sub(_SPOKEN_DECIMAL, replace, text)
+
+def quantity_spans(vo, units=None):
+    """Whole number+unit spans, shared by auto strips and all selection card types.
+    Never accept the fraction as a separate quantity after an unsupported decimal.
+    Raw spans and positions are preserved for provenance and timing.
+    """
+    if "दशमलव" in _display_decimal(vo):
+        return  # unsupported decimal wording: keep full text, not a partial count
+    units = units or UNITS
+    unit = "|".join(sorted(map(re.escape, units), key=len, reverse=True))
+    pattern = re.compile(r"(?<![०-९0-9A-Za-z\u0900-\u097f.,])" + NUMBER_PATTERN +
+                         r"\s*(?:" + unit + r")(?:\s*(?:रुपैयाँ|रुपियाँ|डलर))?")
+    for m in pattern.finditer(vo):
+        before = vo[:m.start()]
+        # A numeric suffix is not a new quantity (malformed/unsupported decimal,
+        # sign, point, or a compound fractional expression).
+        tail = re.split(r"[।,]", before)[-1].rsplit("दशमलव", 1)
+        if len(tail) == 2 and not re.search(r"(?:" + unit + ")", tail[1]):
+            continue
+        if m.start() and vo[m.start()-1] in "-−–—+.":
+            continue
+        yield m
+
 def num_of(v):
     """'१८' -> 18 ; '८ किलोमिटर' -> None (has unit)"""
     s = v.translate(LAT).replace(",", "").strip()
@@ -97,23 +140,18 @@ def find_places(vo):
 
 def find_number(vo):
     """first real number in the line that has a unit after it -> '१८ प्रतिशत' / '५ करोड रुपैयाँ'"""
-    toks = _tokens(vo)
-    for k, t in enumerate(toks):
-        m = re.fullmatch(r"([०-९\d][०-९\d,\.]*)(%?)", t)
-        if not m: continue
-        lat = m.group(1).translate(LAT).replace(",", "")
-        if re.fullmatch(r"(19|20)\d\d", lat): continue           # a year, not a stat
-        unit = [m.group(2)] if m.group(2) else []
-        for u in toks[k + 1:k + 3]:
-            b = _base(u, UNITS)
-            if not b: break
-            unit.append(b)
-        if unit: return (m.group(1) + ("" if unit[0] == "%" else " ") + " ".join(unit)).replace(" %", "%").strip()
+    for m in quantity_spans(vo):
+        value = m.group().strip()
+        if parse_value(value)["num"] is not None:
+            return value
     return None
 
 def parse_value(value):
     """'१,२००' / '७२%' / '८ किलोमिटर' / 'रु ५ करोड' -> parts the animation can count."""
-    v = value.strip()
+    raw = value.strip()
+    v = _display_decimal(raw)
+    if "दशमलव" in v:
+        return {"prefix": "", "num": None, "numText": raw, "unit": "", "decimals": 0, "comma": False, "percent": None}
     m = re.match(r"^(\D*?)([०-९\d][०-९\d,\.]*)\s*(.*)$", v)
     if not m: return {"prefix": "", "num": None, "numText": v, "unit": "", "decimals": 0, "comma": False, "percent": None}
     pre, n, unit = m.group(1), m.group(2), m.group(3).strip()
@@ -277,7 +315,7 @@ def strip_voiceprint(g, dark):
 # Rule-based detectors for the 13 line kinds the old strips could not show.
 # Same discipline: every string returned is an exact span of the line; a detector
 # returns None unless everything it needs is really there (evidence stays the fallback).
-NUM_RE = r"[०-९0-9]+(?:[.,][०-९0-9]+)*"
+NUM_RE = NUMBER_PATTERN
 MONTH_NAMES = ['जनवरी', 'फेब्रुअरी', 'मार्च', 'अप्रिल', 'मे', 'जुन', 'जुलाई', 'अगस्ट', 'सेप्टेम्बर', 'अक्टोबर', 'नोभेम्बर', 'डिसेम्बर', 'बैशाख', 'वैशाख', 'जेठ', 'असार', 'साउन', 'श्रावण', 'भदौ', 'असोज', 'आश्विन', 'कात्तिक', 'कार्तिक', 'मंसिर', 'मङ्सिर', 'पुस', 'पौष', 'माघ', 'फागुन', 'चैत', 'चैत्र']
 # whole-token month names (v9.4): "मे" must not match inside उम्मेदवारी / सदस्य, "पुस" not inside पुस्तक
 DATE_RE = None  # set below, after tb() exists
@@ -755,7 +793,17 @@ def _is_listy(T, toks, a, b):
 
 def plan_compare(vo):
     """'<label> N unit  र  <label> M unit' -> left/right = the numbers, leftMeta/rightMeta = what each number counts"""
-    T = _tp(vo); toks = [x[0] for x in T]
+    if "दशमलव" in _display_decimal(vo):
+        return None
+    T = _tp(vo)
+    # Treat the complete spoken decimal as one token; labels and comparison
+    # values must never start at the digits after the decimal separator.
+    for m in reversed(list(re.finditer(_SPOKEN_DECIMAL, vo))):
+        covered = [i for i, t in enumerate(T) if t[1] >= m.start() and t[2] <= m.end()]
+        if covered and T[covered[0]][1] == m.start() and T[covered[-1]][2] == m.end():
+            a, b = covered[0], covered[-1]
+            T[a:b + 1] = [(m.group(), m.start(), m.end(), T[b][3])]
+    toks = [x[0] for x in T]
     for k, t in enumerate(toks):
         if t not in ("र", "जुन", "मात्र", "तर") or k < 2 or k > len(T) - 3: continue
         li = k - 1
@@ -1126,6 +1174,9 @@ def build(pkg_txt, force=False, overrides=None):
             n = num_of(d["value"])
             if n is not None:
                 c = {"type": "bignum", "dark": True, "label": d["label"], "prefix": "", "value": n, "sub": cap, "vo": vo}
+            elif ("दशमलव" in d["value"] or "." in d["value"]) and parse_value(d["value"])["num"] is not None:
+                pv = parse_value(d["value"])
+                c = {"type": "bignum", "dark": True, "label": d["label"], "prefix": pv["prefix"], "value": pv["num"], "decimals": pv["decimals"], "unit": pv["unit"], "sub": cap, "vo": vo}
             else:
                 c = {"type": "scale", "number": d["value"], "headline": pill(cap or d["label"], d["value"]), "sub": d["label"], "vo": vo}
         else:
