@@ -227,6 +227,35 @@ def cached_voice_sync_status(work,card_count):
     except Exception as exc:
         return False,'saved sync plan could not be verified (%s)'%type(exc).__name__
 
+def _recovered_clip(folder,card):
+    return Path(folder)/'missing_cards'/('c%02d'%card)/'master.wav'
+
+def _load_saved_recovery(folder,audio,count):
+    """Return a verified saved missing-card repair for this half, else None.
+
+    The receipt written by the recovery pass names the original half hash, the
+    repaired master hash, the per-line cuts and every recovered clip hash.
+    Everything must still match; otherwise nothing is reused. This lets offline
+    install, resume and normal re-runs install the recovered audio instead of
+    recomputing an estimate from the original incomplete half.
+    """
+    try:
+        folder=Path(folder);rp=folder/'recovery_receipt.json';rm=folder/'repaired_master.wav'
+        if not rp.is_file() or not rm.is_file():return None
+        data=json.loads(rp.read_text(encoding='utf-8'))
+        h=lambda q:hashlib.sha256(Path(q).read_bytes()).hexdigest()
+        cuts=data.get('cuts_sec');rows=data.get('missing_cards');ctc=data.get('ctc')
+        if (not isinstance(cuts,list) or len(cuts)!=count-1
+                or not all(isinstance(x,(int,float)) and math.isfinite(x) for x in cuts)
+                or not isinstance(rows,list) or not rows or not isinstance(ctc,dict)):return None
+        if data.get('original_sha256')!=h(audio) or data.get('repaired_sha256')!=h(rm):return None
+        for row in rows:
+            clip=_recovered_clip(folder,row['card'])
+            if not clip.is_file() or h(clip)!=row.get('master_sha256'):return None
+        return {'audio':rm,'cuts':cuts,'rows':rows,'ctc':ctc}
+    except Exception:
+        return None
+
 def _isolate_uncertain_half(story,texts,lo,hi,folder,rate,project,primary,backup,offline=False,retry_verified_no_audio=False):
     """Make one durable voice response per line when a combined half is uncertain.
 
@@ -581,10 +610,14 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
             print('NOTE: half %s returned valid audio with finishReason %s; keeping the audio and using soft alignment if needed.'%(number,','.join(str(x) for x in reasons)[:120]),flush=True)
     # Analyze every original half before spending on any recovery: a later failed
     # boundary must not be discovered after earlier recovery already used quota.
-    fits=[]
+    fits=[];saved_recovery={}
     for number,(lo,hi) in enumerate(ranges,1):
         folder=work/('half%s'%number);audio=folder/'master.wav';rate,values=read_wav(audio)
-        if cuts is None and engine is None:
+        saved=_load_saved_recovery(folder,audio,hi-lo) if cuts is None else None
+        if saved:
+            saved_recovery[number]=saved;fits.append(saved['ctc'])
+            print('NOTE: half %s reuses its verified recovered-card audio; recovered lines are kept.'%number,flush=True)
+        elif cuts is None and engine is None:
             from km_ctc import best_effort_alignment
             fit=best_effort_alignment(audio,texts[lo:hi],folder/'ctc',preflight_note or 'CTC model unavailable')
             print('NOTE: Half %s uses the audio-only soft split.'%number,flush=True)
@@ -603,14 +636,17 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
         folder=work/('half%s'%number);audio=folder/'master.wav';rate,values=read_wav(audio)
         primary=project/('gemini_key.txt' if number==1 else 'gemini_key2.txt');backup=project/('gemini_key2.txt' if number==1 else 'gemini_key.txt')
         use_audio=audio;use_cuts=None;repair_rows=[];sync_method='unknown'
-        if fit is not None:
+        if number in saved_recovery:
+            sr=saved_recovery[number];use_audio=sr['audio'];use_cuts=sr['cuts'];repair_rows=sr['rows'];sync_method='ctc_missing_recovered'
+        elif fit is not None:
             if fit.get('best_effort') or fit.get('partial_missing_indices'):
                 use_audio,use_cuts,repair_rows=_isolate_uncertain_half(
                     story,texts,lo,hi,folder,rate,project,primary,backup,
                     offline=offline,retry_verified_no_audio=retry_verified_no_audio)
                 sync_method='isolated_per_card' if len(repair_rows)==hi-lo else 'uncertain_soft_split'
             elif fit['missing_indices']:
-                if not recover_missing or offline:
+                have_recovered=all(_recovered_clip(folder,lo+i+1).is_file() for i in fit['missing_indices'])
+                if (not recover_missing or offline) and not have_recovered:
                     # The normal approved-reel command must not leave a known
                     # missing line attached to a duration-estimated clip. The
                     # offline install pass reuses these exact clips when cached.
@@ -644,7 +680,7 @@ def build_two_halves(story,texts,master,work,project,asr_model=None,cuts=None,re
                         if i:local.append((len(rebuilt)+rate)/rate);rebuilt.extend([0]*(rate*2))
                         rebuilt.extend(v)
                     use_audio=folder/'repaired_master.wav';temp=folder/'repaired_master.tmp.wav';write_wav(temp,rate,rebuilt);temp.replace(use_audio);use_cuts=local
-                    _write_json_atomic(folder/'recovery_receipt.json',{'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local})
+                    _write_json_atomic(folder/'recovery_receipt.json',{'original_sha256':digest(audio),'missing_cards':repair_rows,'repaired_sha256':digest(use_audio),'cuts_sec':local,'ctc':fit})
                     sync_method='ctc_missing_recovered'
             else:
                 use_cuts=fit['cuts_sec'];sync_method='ctc_boundaries'
