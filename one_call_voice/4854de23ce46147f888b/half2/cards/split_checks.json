@@ -1,0 +1,55 @@
+{
+  "master_sha256": "5bcae50d85803401b5f9de0b93a5715191318ae9a081dcca3659150ab4747972",
+  "cuts_sec": [
+    8.410958333333333,
+    18.301916666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.411,
+      "duration_sec": 8.411,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+      "master_start_sec": 8.411,
+      "master_end_sec": 18.302,
+      "duration_sec": 9.891,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "यस घटनाबारे तपाईँको केही जानकारी छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 18.302,
+      "master_end_sec": 23.673,
+      "duration_sec": 5.371,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": true,
+  "sample_preserving": true,
+  "fallback_note": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. CTC found a possible partial match; original half retained and divided without a duplicate voice request."
+}

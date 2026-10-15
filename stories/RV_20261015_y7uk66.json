@@ -1,0 +1,531 @@
+{
+ "id": "RV_20261015_y7uk66",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "यस घटनाबारे तपाईँको केही जानकारी छ?",
+ "pinned_comment": "यस घटनाबारे तपाईँको केही जानकारी छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "रानीपोखरीमा पुरुषको शव फेला",
+   "sub": "अनुमानित उमेर",
+   "km_default": true,
+   "vo": "काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_y7uk66_01_3b9e4b.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 35.0,
+      "numText": "३५",
+      "unit": "-४० वर्ष",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "अनुमानित उमेर",
+      "at": 0.03
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "बिहीबार",
+   "headline": "प्रहरीद्वारा शव बाहिर निकालियो",
+   "sub": "",
+   "km_default": true,
+   "vo": "बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_y7uk66_02_d2e6f0.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "बिहीबार पोखरीमा तैरिरहेको अवस्थामा",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "मृतकको पहिचान खुल्न बाँकी",
+   "points": [
+    "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै"
+   ],
+   "km_default": true,
+   "vo": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_y7uk66_03_c859eb.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "काठमाडौँ",
+        "sub": "",
+        "focus": true,
+        "at": 0.203
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पोस्टमार्टमका लागि अस्पताल पठाइयो",
+   "points": [
+    "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र"
+   ],
+   "km_default": true,
+   "vo": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_y7uk66_04_2d416c.png",
+    "anim": {
+     "kind": "incident",
+     "incident": {
+      "headline": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र",
+      "at": 0.05,
+      "state": "जारी छ"
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "अनुसन्धान जारी",
+   "points": [
+    "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ"
+   ],
+   "km_default": true,
+   "vo": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261015_y7uk66_05_e8fbc8.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "घटनाको",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "थप",
+        "key": false,
+        "at": 0.142
+       },
+       {
+        "t": "अनुसन्धान",
+        "key": false,
+        "at": 0.177
+       },
+       {
+        "t": "भइरहेको",
+        "key": false,
+        "at": 0.295
+       },
+       {
+        "t": "प्रहरीले",
+        "key": true,
+        "at": 0.389
+       },
+       {
+        "t": "जनाएको",
+        "key": false,
+        "at": 0.494
+       },
+       {
+        "t": "छ।",
+        "key": false,
+        "at": 0.577
+       }
+      ],
+      "icon": "shield",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 78
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "shield": "<path pathLength=\"1\" d=\"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "यस घटनाबारे तपाईँको केही जानकारी छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "यस घटनाबारे तपाईँको केही जानकारी छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "9d5ff98ec484ebf08b407cf9eff96278140c6b48a79e664cf79d5f30d4123d3c",
+  "plan_hash": "59e77ac1152ba1a091dd07f395390c4a1ec3aba2a7a7058e7b6b08ea5c584129",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:scale",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:place",
+   "main:points_plain",
+   "strip:incident",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:incident",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 187.274,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "scale",
+    "selected_strip": "evidence",
+    "score": 146.503,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "बिहीबार पोखरीमा तैरिरहेको अवस्थामा",
+       "start": 0,
+       "end": 34
+      },
+      {
+       "field": "t",
+       "text": "शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।",
+       "start": 35,
+       "end": 80
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 130.88,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "incident",
+    "score": 132.24,
+    "reason": [
+     "converter default card",
+     "explicit incident relation"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:incident"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "headline",
+       "text": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र",
+       "start": 0,
+       "end": 51
+      },
+      {
+       "field": "state",
+       "text": "जारी छ",
+       "start": 74,
+       "end": 80
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": true,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.886,
+    "reason": [
+     "converter default card",
+     "literal short statement, no inferred relationship"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "text",
+       "text": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+       "start": 0,
+       "end": 46
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "810026dd00a69e2e4a56d134133da93eca4a6692c7b37256ebf45f45cf540034"
+ }
+}

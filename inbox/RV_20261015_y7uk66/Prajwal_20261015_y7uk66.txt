@@ -1,0 +1,540 @@
+REVIEW ID: RV_20261015_y7uk66
+TOPIC: काठमाडौँको रानीपोखरीमा पुरुषको शव फेला
+MODEL: gemini-3.1-flash-lite
+STORY ID: ST_e7fad724e18e91d0
+DATE: 2026-10-15T09:51:06.000Z
+RISK: NORMAL
+SOURCE CREDIT (video + descriptions): Source: News of Nepal
+CATEGORY: news
+SOURCE: https://newsofnepal.com/2026/10/15/791532/
+ARTICLE GROUNDING: YES
+FACT CHECK: FAILED - see warnings
+
+--- SCRIPT ---
+काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ। बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो। जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन। शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ। घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+ {
+  "line_id": 1,
+  "beat": "hook",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "अनुमानित उमेर",
+     "value": "३५-४० वर्ष"
+    }
+   ],
+   "data_source_quote": "बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"
+  },
+  "caption_text": "रानीपोखरीमा पुरुषको शव फेला",
+  "big_hook_text": "काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": true,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"
+ },
+ {
+  "line_id": 2,
+  "beat": "context",
+  "visual": {
+   "type": "INFOGRAPHIC",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "बिहीबार"
+    }
+   ],
+   "data_source_quote": "बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"
+  },
+  "caption_text": "प्रहरीद्वारा शव बाहिर निकालियो",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [
+    "number_tick_pop"
+   ],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।"
+ },
+ {
+  "line_id": 3,
+  "beat": "detail",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+   "shot_description": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "मृतकको पहिचान खुल्न बाँकी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।"
+ },
+ {
+  "line_id": 4,
+  "beat": "takeaway",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+   "shot_description": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "पोस्टमार्टमका लागि अस्पताल पठाइयो",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।"
+ },
+ {
+  "line_id": 5,
+  "beat": "closing",
+  "visual": {
+   "type": "BROLL",
+   "search_query": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+   "shot_description": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+   "depiction_scope": "generic_illustration"
+  },
+  "caption_text": "अनुसन्धान जारी",
+  "big_hook_text": "",
+  "pip_mode": "off",
+  "sfx": {
+   "bed": "dark_news_pulse",
+   "transition": "none",
+   "pops": [],
+   "hook_impact": false,
+   "serious_clock_motif": true
+  },
+  "source_evidence": "घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।"
+ }
+]
+--- FULL WORKBOOK JSON ---
+{"schema_version":"6.6.9","story_id":"ST_e7fad724e18e91d0","source_url":"https://newsofnepal.com/2026/10/15/791532/","source_label":"News of Nepal","source_credit":"Source: News of Nepal","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","proof_asset":{"kind":"article_text","source_url":"https://newsofnepal.com/2026/10/15/791532/","article_quote":"काठमाडौँस्थित रानीपोखरीमा एक पुरुषको शव फेला परेको छ। बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव तैरिरहेको अवस्थामा फेला परेको छ।","closing_line":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","comment_prompt":"यस घटनाबारे तपाईँको केही जानकारी छ?","pinned_comment":"यस घटनाबारे तपाईँको केही जानकारी छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","voice":"neutral_talking","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अनुमानित उमेर","value":"३५-४० वर्ष"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"रानीपोखरीमा पुरुषको शव फेला","big_hook_text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","pip_mode":"off","source_evidence":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","voice":"neutral","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"बिहीबार"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"प्रहरीद्वारा शव बाहिर निकालियो","big_hook_text":"","pip_mode":"off","source_evidence":"पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","shot_description":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","depiction_scope":"generic_illustration"},"caption_text":"मृतकको पहिचान खुल्न बाँकी","big_hook_text":"","pip_mode":"off","source_evidence":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"takeaway","narration_text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","shot_description":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","depiction_scope":"generic_illustration"},"caption_text":"पोस्टमार्टमका लागि अस्पताल पठाइयो","big_hook_text":"","pip_mode":"off","source_evidence":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"closing","narration_text":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","shot_description":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","depiction_scope":"generic_illustration"},"caption_text":"अनुसन्धान जारी","big_hook_text":"","pip_mode":"off","source_evidence":"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","youtube_description":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव फेला परेको छ। घटनाबारे थप अनुसन्धान भइरहेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","youtube_tags":["Kathmandu","Ranipokhari","News","Nepal","Incident","Police","Update","News of Nepal"],"tiktok_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ।","instagram_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","facebook_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","threads_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","linkedin_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","hashtags":["#Kathmandu","#Ranipokhari","#NepalNews"],"source_credit":"Source: News of Nepal"}}
+--- WARNINGS ---
+face library not built; all face lines use validated fallback
+unverified label line 1: अनुमानित
+Line 2: spoken number/date (बिहीबार) had no infographic; auto-built one from an article sentence with the same figures. Check the visual.
+Line 2: invalid transition replaced
+This is PRE-fact-check only. Downstream fact checker must AND its result before review/publish.
+SOFT-FAIL SHIPPED after 2 correction rounds. Waived soft check(s): DURATION. All hard checks (facts, quotes, grounding, sources, credits) PASSED. Review carefully before publishing.
+NUMBER CONTEXT: Line 1: काठमाडौँको रानीपोखरीमा 35 देखि -> Words next to the number (काठमाडौँको, रानीपोखरीमा) are not next to it in the article: "शव फेला परेको छ बिहीबार 35 देखि 40". Copy the article wording.
+FACT CHECK: 1 claim(s) NOT supported by the source article. Verify or remove before posting.
+Fact-check summary: All factual statements in the script are directly supported by the article; no unsupported or contradicted claims found.
+Closing: removed question wording ("यस घटनाबारे तपाईँको केही जानकारी छ?"); dropped line(s) 6; last line is now: "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।".
+B-roll weak on line(s) 4(derived_check): pick a shot by hand or Regenerate.
+B-roll: only 2/5 lines show this story's own facts; line(s)  use general topic footage.
+Card variety caps were relaxed by 1 for this story; check the card mix.
+Line 2: text-only card used (no data card fits this line).
+Line 5: text-only card used (no data card fits this line).
+
+--- ALTERNATE HOOK ---
+काठमाडौँको रानीपोखरीमा एक पुरुषको शव तैरिरहेको अवस्थामा फेला परेको छ।
+
+--- PINNED COMMENT (Nepali question) ---
+यस घटनाबारे तपाईँको केही जानकारी छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+ {
+  "text": "काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।",
+  "voice": "neutral_talking",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 1,
+   "beat": "hook",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "शव फेला",
+   "on_screen_data": [
+    {
+     "label": "अनुमानित उमेर",
+     "value": "३५-४० वर्ष"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "अनुमानित उमेर",
+       "value": "३५-४० वर्ष"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 2
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "शव फेला",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 3
+    }
+   ],
+   "human_brief": "L1 [plate] NUMBER CARD via local_render: \"अनुमानित उमेर ३५-४० वर्ष\" | then quote card @local_render, text plate @local_render | quality: story_fact"
+  }
+ },
+ {
+  "text": "बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।",
+  "voice": "neutral",
+  "pose": "serious",
+  "broll": "police checkpoint",
+  "broll_kind": "number_card",
+  "broll_plan": {
+   "line_id": 2,
+   "beat": "context",
+   "layer": "plate",
+   "visual_type": "INFOGRAPHIC",
+   "asset_kind": "number_card",
+   "quality": "story_fact",
+   "anchor": "",
+   "primary_query": "police checkpoint",
+   "alt_queries": [],
+   "query_source": "derived_line_gloss",
+   "shot_description": "",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [
+    {
+     "label": "",
+     "value": "बिहीबार"
+    }
+   ],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "number_card",
+     "source": "local_render",
+     "data": [
+      {
+       "label": "",
+       "value": "बिहीबार"
+      }
+     ],
+     "note": "Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "police checkpoint",
+     "search_url": "https://www.pexels.com/search/videos/police%20checkpoint/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=police%20checkpoint&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "",
+     "rank": 2,
+     "role": "background plate behind the card (blur/dim)"
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "police checkpoint",
+     "search_url": "https://pixabay.com/videos/search/police%20checkpoint/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=police%20checkpoint&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 3
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "police checkpoint",
+     "search_url": "https://openverse.org/search/image?q=police%20checkpoint",
+     "api": "GET https://api.openverse.org/v1/images/?q=police%20checkpoint&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 4
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 5
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 6
+    }
+   ],
+   "human_brief": "L2 [plate] NUMBER CARD via local_render: \" बिहीबार\" | then stock video @pexels \"police checkpoint\" [bg], stock video @pixabay \"police checkpoint\", stock photo @openverse \"police checkpoint\" | quality: story_fact"
+  }
+ },
+ {
+  "text": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+  "voice": "neutral",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 3,
+   "beat": "detail",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L3 [full] QUOTE CARD via local_render: \"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।\" | then text plate @local_render | quality: quote_card"
+  }
+ },
+ {
+  "text": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+  "voice": "neutral",
+  "pose": "serious",
+  "broll": "hospital corridor",
+  "broll_kind": "stock_video",
+  "broll_plan": {
+   "line_id": 4,
+   "beat": "takeaway",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "stock_video",
+   "quality": "derived_check",
+   "anchor": "",
+   "primary_query": "hospital corridor",
+   "alt_queries": [],
+   "query_source": "scriptwriter_translated",
+   "shot_description": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+   "commons": null,
+   "map": null,
+   "motion_text": "",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "stock_video",
+     "source": "pexels_video",
+     "query": "hospital corridor",
+     "search_url": "https://www.pexels.com/search/videos/hospital%20corridor/?orientation=portrait",
+     "api": "GET https://api.pexels.com/videos/search?query=hospital%20corridor&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)",
+     "license": "Pexels licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, pick the smallest file at least 720 px wide)",
+     "note": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+     "rank": 1
+    },
+    {
+     "kind": "stock_video",
+     "source": "pixabay_video",
+     "query": "hospital corridor",
+     "search_url": "https://pixabay.com/videos/search/hospital%20corridor/",
+     "api": "GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=hospital%20corridor&safesearch=true&per_page=8",
+     "license": "Pixabay Content Licence, free, no credit required",
+     "credit": "",
+     "mobile_data": "wifi (video, choose \"tiny\" or \"small\")",
+     "rank": 2
+    },
+    {
+     "kind": "stock_photo",
+     "source": "openverse",
+     "query": "hospital corridor",
+     "search_url": "https://openverse.org/search/image?q=hospital%20corridor",
+     "api": "GET https://api.openverse.org/v1/images/?q=hospital%20corridor&page_size=8",
+     "license": "Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows",
+     "credit": "as shown by Openverse",
+     "mobile_data": "ok (image)",
+     "note": "CC photo fallback if no video fits",
+     "rank": 3
+    },
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 4
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 5
+    }
+   ],
+   "human_brief": "L4 [full] STOCK VIDEO via pexels_video: \"hospital corridor\" | then stock video @pixabay \"hospital corridor\", stock photo @openverse \"hospital corridor\", quote card @local_render | quality: derived_check"
+  }
+ },
+ {
+  "text": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+  "voice": "neutral",
+  "pose": "serious",
+  "broll": "",
+  "broll_kind": "quote_card",
+  "broll_plan": {
+   "line_id": 5,
+   "beat": "closing",
+   "layer": "full",
+   "visual_type": "BROLL",
+   "asset_kind": "quote_card",
+   "quality": "quote_card",
+   "anchor": "",
+   "primary_query": "",
+   "alt_queries": [],
+   "query_source": "none",
+   "shot_description": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+   "commons": null,
+   "map": null,
+   "motion_text": "अनुसन्धान भइरहेको",
+   "on_screen_data": [],
+   "match_reason": "",
+   "asset_steps": [
+    {
+     "kind": "quote_card",
+     "source": "local_render",
+     "text": "घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।",
+     "credit": "Source: News of Nepal",
+     "note": "Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.",
+     "mobile_data": "none",
+     "rank": 1
+    },
+    {
+     "kind": "text_plate",
+     "source": "local_render",
+     "text": "अनुसन्धान भइरहेको",
+     "credit": "Source: News of Nepal",
+     "note": "Always available last resort: story text card, slow push-in.",
+     "mobile_data": "none",
+     "rank": 2
+    }
+   ],
+   "human_brief": "L5 [full] QUOTE CARD via local_render: \"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।\" | then text plate @local_render | quality: quote_card"
+  }
+ }
+]
+
+--- B-ROLL PLAN (per line) ---
+Story-fact visuals 2/5 content lines; article quote cards 2; topic stock only 0; needs a pick 1 | director groq (openai/gpt-oss-120b)
+L1 [plate] NUMBER CARD via local_render: "अनुमानित उमेर ३५-४० वर्ष" | then quote card @local_render, text plate @local_render | quality: story_fact
+L2 [plate] NUMBER CARD via local_render: " बिहीबार" | then stock video @pexels "police checkpoint" [bg], stock video @pixabay "police checkpoint", stock photo @openverse "police checkpoint" | quality: story_fact
+L3 [full] QUOTE CARD via local_render: "जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।" | then text plate @local_render | quality: quote_card
+L4 [full] STOCK VIDEO via pexels_video: "hospital corridor" | then stock video @pixabay "hospital corridor", stock photo @openverse "hospital corridor", quote card @local_render | quality: derived_check
+   open: https://www.pexels.com/search/videos/hospital%20corridor/?orientation=portrait
+L5 [full] QUOTE CARD via local_render: "घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।" | then text plate @local_render | quality: quote_card
+
+--- PLATFORM PACK (JSON) ---
+{
+ "youtube_title": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला",
+ "youtube_description": "काठमाडौँको रानीपोखरीमा एक पुरुषको शव फेला परेको छ। घटनाबारे थप अनुसन्धान भइरहेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/\nSource: News of Nepal",
+ "youtube_tags": [
+  "Kathmandu",
+  "Ranipokhari",
+  "News",
+  "Nepal",
+  "Incident",
+  "Police",
+  "Update",
+  "News of Nepal"
+ ],
+ "tiktok_caption": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ।\nSource: News of Nepal",
+ "instagram_caption": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/\nSource: News of Nepal",
+ "facebook_post": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/\nSource: News of Nepal",
+ "threads_post": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/\nSource: News of Nepal",
+ "linkedin_post": "काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/\nSource: News of Nepal",
+ "hashtags": [
+  "#Kathmandu",
+  "#Ranipokhari",
+  "#NepalNews"
+ ],
+ "source_credit": "Source: News of Nepal"
+}
+
+=== KM_STATE_JSON_BEGIN (machine state, do not edit) ===
+{"km_state_version":1,"review_id":"RV_20261015_y7uk66","regen_round":0,"fact_check_failure_count":1,"checker_unavailable_count":0,"review":{"review_severity":"CLEAN","held":false,"held_detail":"","held_reason_code":"","held_codes":[],"hold_signature":"","hold_diagnostic_text":""},"pkg":{"review_id":"RV_20261015_y7uk66","review_date":"20261015","title":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","chosen_topic":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","category":"news","source_url":"https://newsofnepal.com/2026/10/15/791532/","story_id":"ST_e7fad724e18e91d0","risk_flag":"NORMAL","source_credit":"Source: News of Nepal","full_script":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ। बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो। जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन। शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ। घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","hook":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","alternate_hook":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव तैरिरहेको अवस्थामा फेला परेको छ।","hook_type":"direct_callout","closing_line":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","pinned_comment":"यस घटनाबारे तपाईँको केही जानकारी छ?","lines":[{"text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","voice":"neutral_talking","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","voice":"neutral","pose":"serious","broll":"police checkpoint","broll_kind":"number_card"},{"text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","voice":"neutral","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","voice":"neutral","pose":"serious","broll":"hospital corridor","broll_kind":"stock_video"},{"text":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","voice":"neutral","pose":"serious","broll":"","broll_kind":"quote_card"}],"word_count":53,"workbook":{"schema_version":"6.6.9","story_id":"ST_e7fad724e18e91d0","source_url":"https://newsofnepal.com/2026/10/15/791532/","source_label":"News of Nepal","source_credit":"Source: News of Nepal","risk_flag":"NORMAL","uncertainty_level":"low","uncertainty_note":"","safe_to_publish":true,"hook_type":"direct_callout","hook_claim":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","proof_asset":{"kind":"article_text","source_url":"https://newsofnepal.com/2026/10/15/791532/","article_quote":"काठमाडौँस्थित रानीपोखरीमा एक पुरुषको शव फेला परेको छ। बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।","asset_ref":"none","status":"verified_article_text"},"story_emotion":"serious","alternate_hook":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव तैरिरहेको अवस्थामा फेला परेको छ।","closing_line":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","comment_prompt":"यस घटनाबारे तपाईँको केही जानकारी छ?","pinned_comment":"यस घटनाबारे तपाईँको केही जानकारी छ?","lines":[{"line_id":1,"beat":"hook","narration_text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","voice":"neutral_talking","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अनुमानित उमेर","value":"३५-४० वर्ष"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"रानीपोखरीमा पुरुषको शव फेला","big_hook_text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","pip_mode":"off","source_evidence":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true}},{"line_id":2,"beat":"context","narration_text":"बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","voice":"neutral","emotion":"serious","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"बिहीबार"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"प्रहरीद्वारा शव बाहिर निकालियो","big_hook_text":"","pip_mode":"off","source_evidence":"पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true}},{"line_id":3,"beat":"detail","narration_text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","shot_description":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","depiction_scope":"generic_illustration"},"caption_text":"मृतकको पहिचान खुल्न बाँकी","big_hook_text":"","pip_mode":"off","source_evidence":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":4,"beat":"takeaway","narration_text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","shot_description":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","depiction_scope":"generic_illustration"},"caption_text":"पोस्टमार्टमका लागि अस्पताल पठाइयो","big_hook_text":"","pip_mode":"off","source_evidence":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}},{"line_id":5,"beat":"closing","narration_text":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","voice":"neutral","emotion":"serious","visual":{"type":"BROLL","search_query":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","shot_description":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","depiction_scope":"generic_illustration"},"caption_text":"अनुसन्धान जारी","big_hook_text":"","pip_mode":"off","source_evidence":"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true}}],"platform_pack":{"youtube_title":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","youtube_description":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव फेला परेको छ। घटनाबारे थप अनुसन्धान भइरहेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","youtube_tags":["Kathmandu","Ranipokhari","News","Nepal","Incident","Police","Update","News of Nepal"],"tiktok_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ।","instagram_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","facebook_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","threads_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","linkedin_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","hashtags":["#Kathmandu","#Ranipokhari","#NepalNews"],"source_credit":"Source: News of Nepal"}},"shot_workbook":[{"line_id":1,"beat":"hook","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"अनुमानित उमेर","value":"३५-४० वर्ष"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"रानीपोखरीमा पुरुषको शव फेला","big_hook_text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":true,"serious_clock_motif":true},"source_evidence":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},{"line_id":2,"beat":"context","visual":{"type":"INFOGRAPHIC","on_screen_data":[{"label":"","value":"बिहीबार"}],"data_source_quote":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।"},"caption_text":"प्रहरीद्वारा शव बाहिर निकालियो","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":["number_tick_pop"],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।"},{"line_id":3,"beat":"detail","visual":{"type":"BROLL","search_query":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","shot_description":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","depiction_scope":"generic_illustration"},"caption_text":"मृतकको पहिचान खुल्न बाँकी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।"},{"line_id":4,"beat":"takeaway","visual":{"type":"BROLL","search_query":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","shot_description":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","depiction_scope":"generic_illustration"},"caption_text":"पोस्टमार्टमका लागि अस्पताल पठाइयो","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।"},{"line_id":5,"beat":"closing","visual":{"type":"BROLL","search_query":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","shot_description":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","depiction_scope":"generic_illustration"},"caption_text":"अनुसन्धान जारी","big_hook_text":"","pip_mode":"off","sfx":{"bed":"dark_news_pulse","transition":"none","pops":[],"hook_impact":false,"serious_clock_motif":true},"source_evidence":"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।"}],"lines_legacy":[{"text":"काठमाडौँको रानीपोखरीमा ३५ देखि ४० वर्षका पुरुषको शव फेला परेको छ।","voice":"neutral_talking","pose":"serious","broll":"","broll_kind":"number_card"},{"text":"बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","voice":"neutral","pose":"serious","broll":"police checkpoint","broll_kind":"number_card"},{"text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","voice":"neutral","pose":"serious","broll":"","broll_kind":"quote_card"},{"text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","voice":"neutral","pose":"serious","broll":"hospital corridor","broll_kind":"stock_video"},{"text":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","voice":"neutral","pose":"serious","broll":"","broll_kind":"quote_card"}],"youtube_title":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","youtube_description":"काठमाडौँको रानीपोखरीमा एक पुरुषको शव फेला परेको छ। घटनाबारे थप अनुसन्धान भइरहेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","youtube_tags":["Kathmandu","Ranipokhari","News","Nepal","Incident","Police","Update","News of Nepal"],"tiktok_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ।\nSource: News of Nepal","instagram_caption":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","facebook_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","threads_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","linkedin_post":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला परेको छ। News of Nepal https://newsofnepal.com/2026/10/15/791532/","hashtags":["#Kathmandu","#Ranipokhari","#NepalNews"],"fact_check_status":"FAILED - see warnings","scriptwriter_model":"gemini-3.1-flash-lite","broll_plan":[{"line_id":1,"beat":"hook","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"","commons":null,"map":null,"motion_text":"शव फेला","on_screen_data":[{"label":"अनुमानित उमेर","value":"३५-४० वर्ष"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"अनुमानित उमेर","value":"३५-४० वर्ष"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"quote_card","source":"local_render","text":"बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":2},{"kind":"text_plate","source":"local_render","text":"शव फेला","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":3}],"human_brief":"L1 [plate] NUMBER CARD via local_render: \"अनुमानित उमेर ३५-४० वर्ष\" | then quote card @local_render, text plate @local_render | quality: story_fact"},{"line_id":2,"beat":"context","layer":"plate","visual_type":"INFOGRAPHIC","asset_kind":"number_card","quality":"story_fact","anchor":"","primary_query":"police checkpoint","alt_queries":[],"query_source":"derived_line_gloss","shot_description":"","commons":null,"map":null,"motion_text":"","on_screen_data":[{"label":"","value":"बिहीबार"}],"match_reason":"","asset_steps":[{"kind":"number_card","source":"local_render","data":[{"label":"","value":"बिहीबार"}],"note":"Draw these exact values on screen (already fact-checked). Background plate = next step, dimmed and blurred.","mobile_data":"none","rank":1},{"kind":"stock_video","source":"pexels_video","query":"police checkpoint","search_url":"https://www.pexels.com/search/videos/police%20checkpoint/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=police%20checkpoint&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"","rank":2,"role":"background plate behind the card (blur/dim)"},{"kind":"stock_video","source":"pixabay_video","query":"police checkpoint","search_url":"https://pixabay.com/videos/search/police%20checkpoint/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=police%20checkpoint&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":3},{"kind":"stock_photo","source":"openverse","query":"police checkpoint","search_url":"https://openverse.org/search/image?q=police%20checkpoint","api":"GET https://api.openverse.org/v1/images/?q=police%20checkpoint&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":4},{"kind":"quote_card","source":"local_render","text":"पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":5},{"kind":"text_plate","source":"local_render","text":"बिहीबार पोखरीमा तैरिरहेको अवस्थामा शव देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":6}],"human_brief":"L2 [plate] NUMBER CARD via local_render: \" बिहीबार\" | then stock video @pexels \"police checkpoint\" [bg], stock video @pixabay \"police checkpoint\", stock photo @openverse \"police checkpoint\" | quality: story_fact"},{"line_id":3,"beat":"detail","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L3 [full] QUOTE CARD via local_render: \"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन।\" | then text plate @local_render | quality: quote_card"},{"line_id":4,"beat":"takeaway","layer":"full","visual_type":"BROLL","asset_kind":"stock_video","quality":"derived_check","anchor":"","primary_query":"hospital corridor","alt_queries":[],"query_source":"scriptwriter_translated","shot_description":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","commons":null,"map":null,"motion_text":"","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"stock_video","source":"pexels_video","query":"hospital corridor","search_url":"https://www.pexels.com/search/videos/hospital%20corridor/?orientation=portrait","api":"GET https://api.pexels.com/videos/search?query=hospital%20corridor&orientation=portrait&size=medium&per_page=8 (header Authorization: PEXELS_API_KEY)","license":"Pexels licence, free, no credit required","credit":"","mobile_data":"wifi (video, pick the smallest file at least 720 px wide)","note":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","rank":1},{"kind":"stock_video","source":"pixabay_video","query":"hospital corridor","search_url":"https://pixabay.com/videos/search/hospital%20corridor/","api":"GET https://pixabay.com/api/videos/?key=PIXABAY_API_KEY&q=hospital%20corridor&safesearch=true&per_page=8","license":"Pixabay Content Licence, free, no credit required","credit":"","mobile_data":"wifi (video, choose \"tiny\" or \"small\")","rank":2},{"kind":"stock_photo","source":"openverse","query":"hospital corridor","search_url":"https://openverse.org/search/image?q=hospital%20corridor","api":"GET https://api.openverse.org/v1/images/?q=hospital%20corridor&page_size=8","license":"Per image: use only CC0, PDM, CC BY, CC BY-SA; follow the attribution text Openverse shows","credit":"as shown by Openverse","mobile_data":"ok (image)","note":"CC photo fallback if no video fits","rank":3},{"kind":"quote_card","source":"local_render","text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":4},{"kind":"text_plate","source":"local_render","text":"शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":5}],"human_brief":"L4 [full] STOCK VIDEO via pexels_video: \"hospital corridor\" | then stock video @pixabay \"hospital corridor\", stock photo @openverse \"hospital corridor\", quote card @local_render | quality: derived_check"},{"line_id":5,"beat":"closing","layer":"full","visual_type":"BROLL","asset_kind":"quote_card","quality":"quote_card","anchor":"","primary_query":"","alt_queries":[],"query_source":"none","shot_description":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","commons":null,"map":null,"motion_text":"अनुसन्धान भइरहेको","on_screen_data":[],"match_reason":"","asset_steps":[{"kind":"quote_card","source":"local_render","text":"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।","credit":"Source: News of Nepal","note":"Article sentence on a paper-texture card, highlight the key words, source credit corner. Verbatim from the article.","mobile_data":"none","rank":1},{"kind":"text_plate","source":"local_render","text":"अनुसन्धान भइरहेको","credit":"Source: News of Nepal","note":"Always available last resort: story text card, slow push-in.","mobile_data":"none","rank":2}],"human_brief":"L5 [full] QUOTE CARD via local_render: \"घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।\" | then text plate @local_render | quality: quote_card"}],"broll_report":{"director":"groq","director_model":"openai/gpt-oss-120b","retry_used":false,"director_first_error":"","lines_total":5,"content_lines":5,"story_fact":2,"quote_card":2,"topic_stock":0,"derived_check":1,"text_plate_only":0,"end_card":0,"specific":2,"spec_cards":0,"product_refs":0,"score_text":"Story-fact visuals 2/5 content lines; article quote cards 2; topic stock only 0; needs a pick 1","lines_with_stock_query":2,"lines_with_commons":0,"lines_with_map":0,"rejected":[{"line_id":1,"tried":[]},{"line_id":3,"tried":[{"src":"scriptwriter","query":"जिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान अझै खुल्न सकेको छैन।","verdict":"non_english"},{"src":"scriptwriter_translated","query":"police checkpoint","verdict":"duplicate"},{"src":"derived_line_gloss","query":"police checkpoint","verdict":"duplicate"}]},{"line_id":5,"tried":[{"src":"scriptwriter","query":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।","verdict":"non_english"},{"src":"scriptwriter_translated","query":"police checkpoint","verdict":"duplicate"},{"src":"derived_line_gloss","query":"police checkpoint","verdict":"duplicate"}]}]},"broll_sources":{"order":["pexels_video","pixabay_video","wikimedia_commons","openverse","openstreetmap","local_render"],"notes":"Pexels and Pixabay: free API keys, no card. Commons, Openverse, OpenStreetMap: no key. Local renders need no download."},"broll_manifest":{"schema":"km-broll/4","readme":"For each line use broll_plan[i].asset_steps in rank order; take the first step you can fetch. kinds: data_card (draw the list/groups/table in data, local), flag_row (Commons flag images via Special:FilePath, public domain), map_pins (one map, pin per place), date_card (local), stock_video (Pexels/Pixabay; role=background plate when it sits behind a card), commons_photo (real named entity, Wikimedia Commons), stock_photo (Openverse CC), map (OpenStreetMap screenshot), quote_card / number_card / text_plate / end_card (render locally, no download), source_screenshot (publisher page), ai_illustration (any free AI image tool, must show the on-screen label). fix24: data_card with style 'spec' = spec card (figures from the line, list layout works in old renderers); product_photo = Commons/Openverse search for the named model/maker. lines[i].broll is only a plain English stock query or empty (old renderers: empty = use your text card).","quality_levels":{"story_fact":"shows this story's own facts: data card, flags, map, number/date card, verified real photo, publisher page","quote_card":"article sentence card","topic_stock":"stock footage of the topic (support only, not proof of this story)","derived_check":"built from the script or word list: check it fits","text_plate_only":"no fitting asset found","end_card":"sign-off line"},"download_policy":"Videos: wifi only, smallest file >= 720 px wide. Images, maps and local renders are fine on mobile data. Render 720x1280 on a 4 GB GPU.","credits_rule":"Collect every non-empty step.credit actually used and add them to the video end card and description."},"neutral_close_report":{"guard_version":"fix24","closing_checked":true,"closing_replaced":true,"closing_action":"trailing_lines_removed","closing_compliant":true,"flagged_lines":[],"removed_lines":[{"line_id":6,"beat":"comment","text":"यस घटनाबारे तपाईँको केही जानकारी छ?","kinds":["question"]}],"synced_fields":[],"caption_flags":[],"closing_article_support":1,"removed_text":["यस घटनाबारे तपाईँको केही जानकारी छ?"],"removed_kinds":["question"]},"render_plan":[{"line_id":1,"beat":"hook","card":{"type":"place","fields":{"place":"काठमाडौँ","area":"","headline":"","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"काठमाडौँ"}},"picture":{"status":"candidates","subject":{"kind":"place","name_en":"Rani Pokhari","in_line":"रानीपोखरी","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Rani Pokhari Nepal","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Rani%20Pokhari%20Nepal&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Rani%20Pokhari%20Nepal&ns6=1"},{"rank":2,"source":"openverse","query":"urban pond water","api":"https://api.openverse.org/v1/images/?q=urban%20pond%20water&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=urban%20pond%20water&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"historic Kathmandu fountain","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=historic%20Kathmandu%20fountain&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=historic%20Kathmandu%20fountain&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":2,"beat":"context","card":{"type":"kicker","fields":{"text":"देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"तैरिरहेको","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":2}},{"line_id":3,"beat":"detail","card":{"type":"place","fields":{"place":"जिल्ला प्रहरी परिसर काठमाडौँ","area":"","headline":"","kicker":""},"text_source":"director","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"photo","fallback_kind":"echo","fallback":{"kind":"echo","text":"जिल्ला प्रहरी परिसर काठमाडौँ"}},"picture":{"status":"candidates","subject":{"kind":"entity","name_en":"Kathmandu District Police Headquarters","in_line":"जिल्ला प्रहरी परिसर काठमाडौँ","in_article":true},"depiction":"named_subject","queries":[{"rank":1,"source":"wikimedia_commons","query":"Police headquarters Kathmandu","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=Police%20headquarters%20Kathmandu&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=Police%20headquarters%20Kathmandu&ns6=1"},{"rank":2,"source":"openverse","query":"law enforcement building","api":"https://api.openverse.org/v1/images/?q=law%20enforcement%20building&aspect_ratio=wide&page_size=8&license_type=commercial","url":"https://openverse.org/search/image?q=law%20enforcement%20building&aspect_ratio=wide"},{"rank":3,"source":"wikimedia_commons","query":"district police office","api":"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=district%20police%20office&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=1600&format=json","url":"https://commons.wikimedia.org/w/index.php?search=district%20police%20office&ns6=1"}],"filters":{"min_aspect":1.55,"max_aspect":2.2,"min_width":1280,"per_query":8},"licence_allow":["CC0","PDM","CC BY","CC BY-SA","Pexels","Pixabay"],"sheet_option_0":"no photo (clean card)"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":1}},{"line_id":4,"beat":"takeaway","card":{"type":"points","fields":{"points":["शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ","घटनाबारे थप अनुसन्धान जारी छ"],"title":"मुख्य कुरा","kicker":""},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"पोस्टमार्टमका","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":1,"cap":1}},{"line_id":5,"beat":"closing","card":{"type":"kicker","fields":{"text":"घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ"},"text_source":"line_words","grounding":{"digits":"line_or_on_screen_data","text":"line_plus_article","blocked_claims_checked":1}},"strip":{"kind":"echo","text":"अनुसन्धान","fallback_kind":"echo"},"picture":{"status":"none","reason":"no verified or illustrative subject left for this line"},"layout":{"base":"card","photo_slot":"strip","fullscreen_footage":false},"variety":{"use_no":2,"cap":2}}],"render_report":{"version":"fix33","director_hints_used":true,"lines":5,"held_lines":0,"types_used":{"place":2,"kicker":2,"points":1},"distinct_types":3,"caps_relaxed":1,"picture_lines":2,"generic_picture_lines":0,"no_picture_lines":3,"blocked_claims":1,"credits_for_description":[],"note":"CC BY credits go in the description, never on screen. Generic photos are illustrations, never labelled with a name."}},"km_dedup_keys":["lines","lines_legacy"],"ctx":{"chosen_id":4,"chosen_topic":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","category":"news","reason":"Sensational local crime story in the capital’s iconic Ranipokhari will grab GenZ attention and spark discussions on safety, making it highly shareable.","angle":"Focus on the shocking discovery, public reaction on social media, and implications for urban security in Kathmandu.","chosen_id_recovered":false,"chosen_headline_exact":"काठमाडौँको रानीपोखरीमा पुरुषको शव फेला","source_url":"https://newsofnepal.com/2026/10/15/791532/","source_feed":"News of Nepal","rss_pub_date":"2026-10-15T09:51:06.000Z","is_google_news_link":false,"source_matched":true,"topic_match_warning":false,"feed_item_count":189,"valid_headline_count":187,"source_counts":{"Kathmandu Post":20,"Google News Nepal":20,"OnlineKhabar":20,"Himalayan Times":20,"Bizmandu":15,"Ratopati":20,"Nagarik News":20,"Desh Sanchar":12,"News of Nepal":12,"Annapurna Post":20,"RONB Post":10},"failed_feeds":[],"used_topic_count":44,"direct_headline_count":167,"google_stub_filtered_count":20,"diversity_offset":{"top_pool_size":8,"guaranteed_top_count":5,"random_extra_count":3,"candidate_limit":8},"history_exhausted":false,"story_id":"ST_e7fad724e18e91d0","source_credit":"Source: News of Nepal","trust_eligible":true,"trust_skip_reason":"","article_age_hours":3.1140880555555555,"date_unknown":false,"article_text":"न्युज अफ नेपाल सर्च गर्नुहोस्\n\nकाठमाडौँको रानीपोखरीमा पुरुषको शव फेला\n\n२९ आश्विन २०८३, बिहीबार १५:३६\n\n36.85k\n\nShares\n\nकाठमाडौं।\n\nकाठमाडौँस्थित रानीपोखरीमा एक पुरुषको शव फेला परेको छ। बिहीबार ३५ देखि ४० वर्ष उमेरका देखिने पुरुषको शव पोखरीमा तैरिरहेको अवस्थामा फेला परेको हो।\n\nजिल्ला प्रहरी परिसर काठमाडौँका अनुसार मृतकको पहिचान खुल्न सकेको छैन। पोखरीमा शव तैरिरहेको देखेपछि प्रहरी टोलीले बाहिर निकालेको थियो।\n\nशवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको प्रहरीले जनाएको छ। घटनाबारे थप अनुसन्धान भइरहेको प्रहरीको भनाइ छ।\n\n१.\n\n२.\n\n३.\n\n४.\n\n५.\n\n६.\n\n७.\n\n१.\n\n२.\n\n३.\n\n४.\n\n५.\n\n६.\n\n७.\n\n८.\n\nSkip This\n\nKamana News Publications Pvt. Ltd.\n\nDepartment of Information Registration\nNo:: 626/074-075\nAddress: Bhimsensthan-20, Kathmandu\n\nसोसल मिडिया\n\nयुटिलिटि\n\nप्रकाशनहरु\n\nसम्पादक\n\nदिरेकलाल श्रेष्ठ\n\n© 2002-2026 Kamana News Publications Private Limited\n\nSkip This","article_char_count":849,"article_fetched":true,"rss_snippet_used":false,"article_quality":"full_article_reader","article_block_reason":"Direct fetch failed (extracted text too short (38 chars)); article text via free reader fallback (r.jina.ai).","km_reader_tried":true,"risk_flag":"NORMAL","risk_reasons":[],"source_label":"News of Nepal","assigned_hook_type":"direct_callout","review_id":"RV_20261015_y7uk66","trust_gate_passed":true,"tiktok_caption_budget":128,"manifest_exists":false,"manifest_current":false,"eligible_manifest":[],"source_assets":[]}}
+=== KM_STATE_JSON_END ===

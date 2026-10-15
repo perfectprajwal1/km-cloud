@@ -1,0 +1,45 @@
+{
+  "spoken_form_version": "numbers-english-unverified-v4",
+  "alignment_targets": [
+    {
+      "original": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+      "spoken": "शवलाई पोस्टमार्टमका लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ।",
+      "mapping": []
+    },
+    {
+      "original": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+      "spoken": "घटनाको थप अनुसन्धान भइरहेको प्रहरीले जनाएको छ।",
+      "mapping": []
+    },
+    {
+      "original": "यस घटनाबारे तपाईँको केही जानकारी छ? कमेन्टमा भन्नुस्।",
+      "spoken": "यस घटनाबारे तपाईँको केही जानकारी छ? कमेन्टमा भन्नुस्।",
+      "mapping": []
+    }
+  ],
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "08864c03878a20792c65925d7e7e133e32d605b3c5e27ace09d1e0ceec354be2",
+  "greedy": "श्रवलाई पोस्टमार्टमक लागि शिक्षण अस्पताल पठाइएको छ र घटनाबारे थप अनुसन्धान जारी छ ",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "partial_missing_indices": [
+    1
+  ],
+  "transcript_char_match": 0.9781021897810219,
+  "scores": [
+    -0.2925259123202826
+  ],
+  "cuts_sec": [
+    4.065,
+    4.56
+  ],
+  "boundaries": [],
+  "best_effort": true,
+  "fallback_reason": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+}
