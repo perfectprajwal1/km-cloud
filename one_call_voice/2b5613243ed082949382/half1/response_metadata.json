@@ -1,0 +1,26 @@
+{
+  "finish_reasons": [
+    "STOP"
+  ],
+  "usage": {
+    "promptTokenCount": 400,
+    "candidatesTokenCount": 998,
+    "totalTokenCount": 1398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 400
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 998
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "response_model": "gemini-2.5-flash-preview-tts",
+  "audio_part_count": 1,
+  "audio_payload_received": true
+}
