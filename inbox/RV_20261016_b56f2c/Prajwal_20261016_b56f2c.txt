@@ -1,0 +1,471 @@
+REVIEW ID: RV_20261016_b56f2c
+TOPIC: पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा
+MODEL: assistant_draft
+STORY ID: ST_63afba4257e3b3b7
+DATE: 2026-10-16T09:00:00+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://english.nepalnews.com/s/business/fuel-prices-remain-unchanged-as-noc-faces-fortnightly-loss/
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई इन्धन र एलपी ग्यासको मूल्य यथावत् राखेको छ। निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो। त्यही खरिद मूल्यअनुसार मूल्य समायोजन गर्नुपर्ने अवस्था भए पनि निगमले हालको बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो। निगमका अनुसार आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा राखेर सञ्चालक समितिले यो निर्णय गरेको हो। मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ। निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "इन्धनको मूल्य यथावत्"
+    },
+    "caption_text": "इन्धनको मूल्य यथावत्",
+    "big_hook_text": "इन्धनको मूल्य यथावत्",
+    "pip_mode": "off",
+    "source_evidence": "The prices for petrol, diesel, kerosene, aviation fuel, and LP gas remain at their previous levels.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "असोज २९: नयाँ खरिद मूल्य प्राप्त"
+    },
+    "caption_text": "असोज २९: नयाँ खरिद मूल्य प्राप्त",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "the decision was made despite receiving new purchase prices from the Indian Oil Corporation on Oct. 15, 2026",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "समायोजन हुनसक्थ्यो, यथावत् राखियो"
+    },
+    "caption_text": "समायोजन हुनसक्थ्यो, यथावत् राखियो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "which would have necessitated a price adjustment",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "चाडपर्व र उपभोक्ताको हित"
+    },
+    "caption_text": "चाडपर्व र उपभोक्ताको हित",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Despite fluctuations in the international market, the state-owned enterprise maintained current rates to provide relief to consumers.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "पाक्षिक घाटा",
+          "value": "३ अर्ब ४५ करोड"
+        }
+      ],
+      "data_source_quote": "The corporation estimates that maintaining these prices will result in a fortnightly loss of approximately Rs 3.45 billion."
+    },
+    "caption_text": "पाक्षिक घाटा ३ अर्ब ४५ करोड",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "The corporation estimates that maintaining these prices will result in a fortnightly loss of approximately Rs 3.45 billion.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "हालको खुद्रा मूल्य लागू"
+    },
+    "caption_text": "हालको खुद्रा मूल्य लागू",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "keep the retail prices of petroleum products unchanged.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_63afba4257e3b3b7",
+  "source_url": "https://english.nepalnews.com/s/business/fuel-prices-remain-unchanged-as-noc-faces-fortnightly-loss/",
+  "source_label": "Nepal News",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Manual multi-source cross-check done; n8n validation and fact-check engine not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई इन्धन र एलपी ग्यासको मूल्य यथावत् राखेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://english.nepalnews.com/s/business/fuel-prices-remain-unchanged-as-noc-faces-fortnightly-loss/",
+    "article_quote": "Nepal Oil Corporation has decided to keep the retail prices of petroleum products unchanged.",
+    "asset_ref": "none",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा",
+  "closing_line": "निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ।",
+  "comment_prompt": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?",
+  "pinned_comment": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई इन्धन र एलपी ग्यासको मूल्य यथावत् राखेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "इन्धनको मूल्य यथावत्"
+      },
+      "caption_text": "इन्धनको मूल्य यथावत्",
+      "big_hook_text": "इन्धनको मूल्य यथावत्",
+      "pip_mode": "off",
+      "source_evidence": "The prices for petrol, diesel, kerosene, aviation fuel, and LP gas remain at their previous levels.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "असोज २९: नयाँ खरिद मूल्य प्राप्त"
+      },
+      "caption_text": "असोज २९: नयाँ खरिद मूल्य प्राप्त",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "the decision was made despite receiving new purchase prices from the Indian Oil Corporation on Oct. 15, 2026",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "त्यही खरिद मूल्यअनुसार मूल्य समायोजन गर्नुपर्ने अवस्था भए पनि निगमले हालको बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "समायोजन हुनसक्थ्यो, यथावत् राखियो"
+      },
+      "caption_text": "समायोजन हुनसक्थ्यो, यथावत् राखियो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "which would have necessitated a price adjustment",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "निगमका अनुसार आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा राखेर सञ्चालक समितिले यो निर्णय गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "चाडपर्व र उपभोक्ताको हित"
+      },
+      "caption_text": "चाडपर्व र उपभोक्ताको हित",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Despite fluctuations in the international market, the state-owned enterprise maintained current rates to provide relief to consumers.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "पाक्षिक घाटा",
+            "value": "३ अर्ब ४५ करोड"
+          }
+        ],
+        "data_source_quote": "The corporation estimates that maintaining these prices will result in a fortnightly loss of approximately Rs 3.45 billion."
+      },
+      "caption_text": "पाक्षिक घाटा ३ अर्ब ४५ करोड",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "The corporation estimates that maintaining these prices will result in a fortnightly loss of approximately Rs 3.45 billion.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "हालको खुद्रा मूल्य लागू"
+      },
+      "caption_text": "हालको खुद्रा मूल्य लागू",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "keep the retail prices of petroleum products unchanged.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "चाडपर्वअघि पेट्रोल, डिजेल र एलपी ग्यासको मूल्य यथावत्",
+    "youtube_description": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute"
+    ],
+    "tiktok_caption": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+    "instagram_caption": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+    "facebook_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+    "threads_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+    "linkedin_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+    "hashtags": [
+      "#NepalNews",
+      "#khabarminutenepal"
+    ],
+    "source_credit": ""
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Manual multi-source cross-check completed; original n8n fact checker/schema validator NOT RUN. safe_to_publish=false. Not approved; approve cell blank. Figures are as of Oct 15 2026 reports; recheck before publication.
+
+--- ALTERNATE HOOK ---
+पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा
+
+--- PINNED COMMENT (Nepali question) ---
+सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई इन्धन र एलपी ग्यासको मूल्य यथावत् राखेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "इन्धनको मूल्य यथावत्",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "असोज २९: नयाँ खरिद मूल्य प्राप्त",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "त्यही खरिद मूल्यअनुसार मूल्य समायोजन गर्नुपर्ने अवस्था भए पनि निगमले हालको बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "समायोजन हुनसक्थ्यो, यथावत् राखियो",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "निगमका अनुसार आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा राखेर सञ्चालक समितिले यो निर्णय गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "चाडपर्व र उपभोक्ताको हित",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पाक्षिक घाटा ३ अर्ब ४५ करोड",
+      "on_screen_data": [
+        {
+          "label": "पाक्षिक घाटा",
+          "value": "३ अर्ब ४५ करोड"
+        }
+      ]
+    }
+  },
+  {
+    "text": "निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "हालको खुद्रा मूल्य लागू",
+      "on_screen_data": []
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "चाडपर्वअघि पेट्रोल, डिजेल र एलपी ग्यासको मूल्य यथावत्",
+  "youtube_description": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute"
+  ],
+  "tiktok_caption": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+  "instagram_caption": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+  "facebook_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+  "threads_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+  "linkedin_post": "पेट्रोलियम पदार्थको मूल्य यथावत्, आयल निगमलाई पाक्षिक ३ अर्ब ४५ करोड घाटा। #NepalNews #khabarminutenepal",
+  "hashtags": [
+    "#NepalNews",
+    "#khabarminutenepal"
+  ],
+  "source_credit": ""
+}

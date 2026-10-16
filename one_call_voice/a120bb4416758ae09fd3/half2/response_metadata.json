@@ -1,0 +1,19 @@
+{
+  "finish_reasons": [
+    "OTHER"
+  ],
+  "usage": {
+    "promptTokenCount": 281,
+    "totalTokenCount": 281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 281
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "response_model": "gemini-2.5-flash-preview-tts",
+  "audio_part_count": 0,
+  "audio_payload_received": false
+}

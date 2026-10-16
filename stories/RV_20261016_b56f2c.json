@@ -1,0 +1,586 @@
+{
+ "id": "RV_20261016_b56f2c",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?",
+ "pinned_comment": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "इन्धनको मूल्य यथावत्",
+   "sub": "",
+   "km_default": true,
+   "vo": "नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई इन्धन र एलपी ग्यासको मूल्य यथावत् राखेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_01_c869dc.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नेपाल आयल निगमले पेट्रोल, डिजेल, मट्टितेल, हवाई "
+       },
+       {
+        "t": "इन्धन",
+        "hl": true,
+        "at": 0.472
+       },
+       {
+        "t": " र एलपी ग्यासको "
+       },
+       {
+        "t": "मूल्य यथावत्",
+        "hl": true,
+        "at": 0.657
+       },
+       {
+        "t": " राखेको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "month": "असोज",
+   "day": 29,
+   "headline": "निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो।",
+   "weekday": "",
+   "type": "date",
+   "vo": "निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_02_defd9b.png",
+    "anim": {
+     "kind": "schedule",
+     "schedule": {
+      "start": "असोज २९ गते",
+      "startAt": 0.122,
+      "at": 0.122
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "समायोजन हुनसक्थ्यो, यथावत् राखियो",
+   "points": [
+    "त्यही खरिद मूल्यअनुसार मूल्य समायोजन गर्नुपर्ने अवस्था भए"
+   ],
+   "km_default": true,
+   "vo": "त्यही खरिद मूल्यअनुसार मूल्य समायोजन गर्नुपर्ने अवस्था भए पनि निगमले हालको बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_03_501cda.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "त्यही खरिद मूल्यअनुसार मूल्य "
+       },
+       {
+        "t": "समायोजन",
+        "hl": true,
+        "at": 0.24
+       },
+       {
+        "t": " गर्नुपर्ने अवस्था भए पनि निगमले हालको बिक्री मूल्यलाई निरन्तरता दिने निर्णय गरेको हो।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "चाडपर्व र उपभोक्ताको हित",
+   "points": [
+    "निगमका अनुसार आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा"
+   ],
+   "km_default": true,
+   "vo": "निगमका अनुसार आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा राखेर सञ्चालक समितिले यो निर्णय गरेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_04_22eb88.png",
+    "anim": {
+     "kind": "quote",
+     "quote": {
+      "speaker": "निगम",
+      "claim": "आसन्न चाडपर्व र उपभोक्ताको हितलाई ध्यानमा राखेर सञ्चालक समितिले यो निर्णय गरेको हो",
+      "at": 0.05
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 45.0,
+   "unit": "करोड रुपैयाँ",
+   "prefix": "",
+   "decimals": 0,
+   "label": "मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ",
+   "sub": "",
+   "type": "bignum",
+   "vo": "मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_05_1729d8.png",
+    "anim": {
+     "kind": "money",
+     "money": {
+      "amount": "४५ करोड रुपैयाँ",
+      "context": "घाटा हुने निगमले जनाएको छ",
+      "at": 0.5
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "हालको खुद्रा मूल्य लागू",
+   "points": [
+    "निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ"
+   ],
+   "km_default": true,
+   "vo": "निगमको निर्णयअनुसार हाल कायम खुद्रा मूल्य नै लागू रहनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_b56f2c_06_a79c71.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "निगमको निर्णयअनुसार हाल कायम "
+       },
+       {
+        "t": "खुद्रा मूल्य",
+        "hl": true,
+        "at": 0.464
+       },
+       {
+        "t": " नै "
+       },
+       {
+        "t": "लागू",
+        "hl": true,
+        "at": 0.693
+       },
+       {
+        "t": " रहनेछ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "सरकारले घाटा सहेर इन्धनको मूल्य यथावत् राख्नु ठिक हो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "caa169ac2fcd6efd0cf6ede5712d3cc8cc3ba2f41c2352ed75dfc123c75c31a8",
+  "plan_hash": "dca205f57e034b5d37716de5351097ace8cbe5f1774d063cdbd47cad109682df",
+  "selected": [
+   "main:hook",
+   "strip:evidence",
+   "main:date",
+   "strip:schedule",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:quote",
+   "main:bignum",
+   "strip:money",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:date",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:money",
+   "strip:phrase",
+   "strip:quote",
+   "strip:schedule",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "evidence",
+    "score": 162.017,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 2,
+    "selected_main": "date",
+    "selected_strip": "schedule",
+    "score": 194.4,
+    "reason": [
+     "explicit month/day, no inferred weekday/year",
+     "explicit schedule relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:date",
+     "main:points_plain",
+     "strip:evidence",
+     "strip:schedule"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "month",
+       "text": "असोज",
+       "start": 7,
+       "end": 11
+      },
+      {
+       "field": "headline",
+       "text": "निगमले असोज २९ गते भारतीय आयल कर्पोरेसनबाट नयाँ खरिद मूल्य प्राप्त गरेको थियो।",
+       "start": 0,
+       "end": 78
+      }
+     ],
+     "strip": [
+      {
+       "field": "start",
+       "text": "असोज २९ गते",
+       "start": 7,
+       "end": 18
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.398,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "quote",
+    "score": 124.476,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:quote"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "bignum",
+    "selected_strip": "money",
+    "score": 184.06,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit amount and financial context, no inferred cash-flow direction"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:money",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "मूल्य यथावत् राख्दा निगमलाई पाक्षिक रूपमा करिब ३ अर्ब ४५ करोड रुपैयाँ घाटा हुने निगमले जनाएको छ",
+       "start": 0,
+       "end": 95
+      }
+     ],
+     "strip": [
+      {
+       "field": "amount",
+       "text": "४५ करोड रुपैयाँ",
+       "start": 54,
+       "end": 69
+      },
+      {
+       "field": "context",
+       "text": "घाटा हुने निगमले जनाएको छ",
+       "start": 70,
+       "end": 95
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.398,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "487a7676ea88ef1fb5581c17c3afa70ec1fc82468d7fa5f51fa5a940dff92e0b"
+ }
+}
