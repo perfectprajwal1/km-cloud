@@ -370,6 +370,48 @@
         "strip:quote",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "caa169ac2fcd6efd0cf6ede5712d3cc8cc3ba2f41c2352ed75dfc123c75c31a8",
+      "eligible": [
+        "main:bignum",
+        "main:date",
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "main:scale",
+        "strip:evidence",
+        "strip:money",
+        "strip:phrase",
+        "strip:quote",
+        "strip:schedule",
+        "strip:stat"
+      ],
+      "id": "RV_20261016_b56f2c",
+      "missed": {
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "dca205f57e034b5d37716de5351097ace8cbe5f1774d063cdbd47cad109682df",
+      "rendered_at": 1792159128.5351913,
+      "selected": [
+        "main:hook",
+        "strip:evidence",
+        "main:date",
+        "strip:schedule",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:quote",
+        "main:bignum",
+        "strip:money",
+        "main:points_plain",
+        "strip:evidence",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -382,22 +424,26 @@
     "RV_20261015_wbhyd2:e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352",
     "RV_20261015_y7uk66:9d5ff98ec484ebf08b407cf9eff96278140c6b48a79e664cf79d5f30d4123d3c": "59e77ac1152ba1a091dd07f395390c4a1ec3aba2a7a7058e7b6b08ea5c584129",
     "RV_20261016_8e25da:83995d3e622bae1deb3e469e2b11ec499a31571e8a246eb03746e22dc8ddd967": "efb2d9673037ad6f8392dcd4cd547673ba3185b0c5a085d030f6c0beed154802",
-    "RV_20261016_ac0832:4871c1df3094e3faa0c2cfd6cd594a04ef1074009b8933042b19b1ebc094b183": "642cddd8ea73c12e1464d05c532e774efe044984fb1926b14bc88a7a7be48cc3"
+    "RV_20261016_ac0832:4871c1df3094e3faa0c2cfd6cd594a04ef1074009b8933042b19b1ebc094b183": "642cddd8ea73c12e1464d05c532e774efe044984fb1926b14bc88a7a7be48cc3",
+    "RV_20261016_b56f2c:caa169ac2fcd6efd0cf6ede5712d3cc8cc3ba2f41c2352ed75dfc123c75c31a8": "dca205f57e034b5d37716de5351097ace8cbe5f1774d063cdbd47cad109682df"
   },
   "used_total": {
-    "main:bignum": 7,
-    "main:engage": 10,
-    "main:hook": 10,
+    "main:bignum": 8,
+    "main:date": 1,
+    "main:engage": 11,
+    "main:hook": 11,
     "main:place": 2,
-    "main:points_plain": 30,
+    "main:points_plain": 33,
     "main:scale": 8,
     "main:versus": 1,
     "strip:compare": 1,
-    "strip:evidence": 16,
+    "strip:evidence": 19,
     "strip:incident": 1,
+    "strip:money": 1,
     "strip:phrase": 10,
     "strip:place": 5,
-    "strip:quote": 1,
+    "strip:quote": 2,
+    "strip:schedule": 1,
     "strip:stat": 12,
     "strip:units": 4,
     "strip:voiceprint": 2,
