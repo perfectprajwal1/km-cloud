@@ -1,0 +1,501 @@
+REVIEW ID: RV_20261016_ea43c8
+TOPIC: दशैंमा मोरङमा खसीको मासु: अधिकतम मूल्य १,२०० रुपैयाँ
+MODEL: assistant_draft
+STORY ID: ST_efa7c62c5750c834
+DATE: 2026-10-16T22:01:39.257238+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://nagariknews.nagariknetwork.com/social-affairs/administration-gives-traders-a-break-for-increasing-meat-prices-during-dashain-limit-is-rs-1-200-per-kg-11-97.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ। जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै अर्को व्यवस्था नभएसम्म जिल्लाभर यो मूल्य लागू गरेको हो। विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो। तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ। तोकिएको मूल्यभन्दा बढी रकम लिएको पाइए कानुनअनुसार कारबाही गरिने प्रशासनले जनाएको छ। यो मूल्य सीमा मोरङका लागि हो, देशभरका लागि होइन।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "मोरङ: अधिकतम प्रति किलो",
+          "value": "रु १,२००"
+        }
+      ],
+      "data_source_quote": "Official DAO Morang notice dated 2083/06/30: खसी/बोकाको मासुको अधिकतम उपभोक्ता खुद्रा मूल्य रु १२००/- प्रति के.जी.; Nagarik 20:51 confirms Rs 1,200 cap."
+    },
+    "caption_text": "मोरङ: मासु १,२०० सम्म",
+    "big_hook_text": "मोरङ: मासु १,२०० सम्म",
+    "pip_mode": "off",
+    "source_evidence": "Official DAO Morang notice dated 2083/06/30: खसी/बोकाको मासुको अधिकतम उपभोक्ता खुद्रा मूल्य रु १२००/- प्रति के.जी.; Nagarik 20:51 confirms Rs 1,200 cap.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "शुक्रबारदेखि मूल्य सीमा"
+    },
+    "caption_text": "शुक्रबारदेखि मूल्य सीमा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Official notice: आज मिति २०८३/०६/३० ... अर्को व्यवस्था नभएसम्मका लागि मोरङ जिल्लाभर लागू हुने गरी; Nagarik confirms Friday notice, district scope.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "विराटनगरका केही ठाउँमा",
+          "value": "रु १,४०० सम्म"
+        }
+      ],
+      "data_source_quote": "Nagarik reports Biratnagar Rs 1,400/kg; Udghosh independently reports Kanchanbari up to Rs 1,400/kg. Udghosh predates Friday intervention and is not used for current cap."
+    },
+    "caption_text": "कतै १,४०० सम्म पुगेको",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik reports Biratnagar Rs 1,400/kg; Udghosh independently reports Kanchanbari up to Rs 1,400/kg. Udghosh predates Friday intervention and is not used for current cap.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "छानेको विशेष मासुमा छुट्टै मूल्य"
+    },
+    "caption_text": "छानेको विशेष मासुमा छुट्टै मूल्य",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Official notice: उपभोक्ताले छनौट गरेको विशेष प्रकृतिको मासुको हकमा आपसी समझदारीमा ... मूल्य निर्धारण हुन सक्नेछ; Nagarik confirms selected fat-free/boneless cuts may differ.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "बढी लिए कानुनी कारबाही"
+    },
+    "caption_text": "बढी लिए कानुनी कारबाही",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Official notice warns prevailing-law action for collection above cap/unfair profit/black marketing; Nagarik confirms warning of action above set price.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "मोरङमा लागू, देशभर होइन"
+    },
+    "caption_text": "मोरङमा लागू, देशभर होइन",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both DAO notice and Nagarik explicitly limit application to Morang district, not a national price order.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_efa7c62c5750c834",
+  "source_url": "https://nagariknews.nagariknetwork.com/social-affairs/administration-gives-traders-a-break-for-increasing-meat-prices-during-dashain-limit-is-rs-1-200-per-kg-11-97.html",
+  "source_label": "Nagarik / DAO Morang",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Official notice image visually read; Nagarik cross-check and Udghosh corroboration for prior Rs 1,400 price. Original n8n validator/checker not run. Special selected meat exception retained. Local scope only.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://daomorang.moha.gov.np/post/khasa-b-ka-ka-ma-sa-ka-upabha-ka-ta-kha-tha-ra-ma-l-ya-sama-bna-thha-sa-ra",
+    "article_quote": "मोरङ जिल्लाभर लागू हुने गरी खसी/बोकाको मासुको अधिकतम उपभोक्ता खुद्रा मूल्य रु १२००/- प्रति के.जी.",
+    "asset_ref": "https://daomorang.moha.gov.np/post/khasa-b-ka-ka-ma-sa-ka-upabha-ka-ta-kha-tha-ra-ma-l-ya-sama-bna-thha-sa-ra",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "दशैंमा मोरङ प्रशासनको मूल्य सीमा: खसीको मासु किलोको १,२००",
+  "closing_line": "यो मूल्य सीमा मोरङका लागि हो, देशभरका लागि होइन।",
+  "comment_prompt": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ?",
+  "pinned_comment": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "मोरङ: अधिकतम प्रति किलो",
+            "value": "रु १,२००"
+          }
+        ],
+        "data_source_quote": "Official DAO Morang notice dated 2083/06/30: खसी/बोकाको मासुको अधिकतम उपभोक्ता खुद्रा मूल्य रु १२००/- प्रति के.जी.; Nagarik 20:51 confirms Rs 1,200 cap."
+      },
+      "caption_text": "मोरङ: मासु १,२०० सम्म",
+      "big_hook_text": "मोरङ: मासु १,२०० सम्म",
+      "pip_mode": "off",
+      "source_evidence": "Official DAO Morang notice dated 2083/06/30: खसी/बोकाको मासुको अधिकतम उपभोक्ता खुद्रा मूल्य रु १२००/- प्रति के.जी.; Nagarik 20:51 confirms Rs 1,200 cap.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै अर्को व्यवस्था नभएसम्म जिल्लाभर यो मूल्य लागू गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "शुक्रबारदेखि मूल्य सीमा"
+      },
+      "caption_text": "शुक्रबारदेखि मूल्य सीमा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Official notice: आज मिति २०८३/०६/३० ... अर्को व्यवस्था नभएसम्मका लागि मोरङ जिल्लाभर लागू हुने गरी; Nagarik confirms Friday notice, district scope.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "विराटनगरका केही ठाउँमा",
+            "value": "रु १,४०० सम्म"
+          }
+        ],
+        "data_source_quote": "Nagarik reports Biratnagar Rs 1,400/kg; Udghosh independently reports Kanchanbari up to Rs 1,400/kg. Udghosh predates Friday intervention and is not used for current cap."
+      },
+      "caption_text": "कतै १,४०० सम्म पुगेको",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik reports Biratnagar Rs 1,400/kg; Udghosh independently reports Kanchanbari up to Rs 1,400/kg. Udghosh predates Friday intervention and is not used for current cap.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "छानेको विशेष मासुमा छुट्टै मूल्य"
+      },
+      "caption_text": "छानेको विशेष मासुमा छुट्टै मूल्य",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Official notice: उपभोक्ताले छनौट गरेको विशेष प्रकृतिको मासुको हकमा आपसी समझदारीमा ... मूल्य निर्धारण हुन सक्नेछ; Nagarik confirms selected fat-free/boneless cuts may differ.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "तोकिएको मूल्यभन्दा बढी रकम लिएको पाइए कानुनअनुसार कारबाही गरिने प्रशासनले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "बढी लिए कानुनी कारबाही"
+      },
+      "caption_text": "बढी लिए कानुनी कारबाही",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Official notice warns prevailing-law action for collection above cap/unfair profit/black marketing; Nagarik confirms warning of action above set price.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "यो मूल्य सीमा मोरङका लागि हो, देशभरका लागि होइन।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "मोरङमा लागू, देशभर होइन"
+      },
+      "caption_text": "मोरङमा लागू, देशभर होइन",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both DAO notice and Nagarik explicitly limit application to Morang district, not a national price order.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "दशैंमा मोरङमा खसीको मासु: अधिकतम मूल्य १,२०० रुपैयाँ",
+    "youtube_description": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Dashain",
+      "Morang"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Dashain",
+      "#Morang",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+    "instagram_caption": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+    "facebook_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+    "threads_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+    "linkedin_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Official notice visually read and cross-checked with Nagarik; prior Rs 1,400 price independently corroborated by Udghosh. Oct 16, 2026, 22:01 NPT. Morang only; special selected cuts may differ. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+दशैंमा मोरङ प्रशासनको मूल्य सीमा: खसीको मासु किलोको १,२००
+
+--- PINNED COMMENT (Nepali question) ---
+तपाईंको ठाउँमा खसीको मासु किलोको कति छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मोरङ: मासु १,२०० सम्म",
+      "on_screen_data": [
+        {
+          "label": "मोरङ: अधिकतम प्रति किलो",
+          "value": "रु १,२००"
+        }
+      ]
+    }
+  },
+  {
+    "text": "जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै अर्को व्यवस्था नभएसम्म जिल्लाभर यो मूल्य लागू गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "शुक्रबारदेखि मूल्य सीमा",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कतै १,४०० सम्म पुगेको",
+      "on_screen_data": [
+        {
+          "label": "विराटनगरका केही ठाउँमा",
+          "value": "रु १,४०० सम्म"
+        }
+      ]
+    }
+  },
+  {
+    "text": "तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "छानेको विशेष मासुमा छुट्टै मूल्य",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "तोकिएको मूल्यभन्दा बढी रकम लिएको पाइए कानुनअनुसार कारबाही गरिने प्रशासनले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "बढी लिए कानुनी कारबाही",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "यो मूल्य सीमा मोरङका लागि हो, देशभरका लागि होइन।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मोरङमा लागू, देशभर होइन",
+      "on_screen_data": []
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "दशैंमा मोरङमा खसीको मासु: अधिकतम मूल्य १,२०० रुपैयाँ",
+  "youtube_description": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Dashain",
+    "Morang"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Dashain",
+    "#Morang",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+  "instagram_caption": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+  "facebook_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+  "threads_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal",
+  "linkedin_post": "मोरङमा सामान्य खसी/बोकाको मासुको अधिकतम मूल्य प्रतिकिलो १,२०० रुपैयाँ। छानेको विशेष मासुमा आपसी समझदारीमा फरक मूल्य हुन सक्छ। #NepalNews #Dashain #Morang #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Nagarik: Oct 16, 2026 20:51 NPT. https://nagariknews.nagariknetwork.com/social-affairs/administration-gives-traders-a-break-for-increasing-meat-prices-during-dashain-limit-is-rs-1-200-per-kg-11-97.html
+Official DAO Morang: dated 2083/06/30; exact publication time not exposed, relative page label is not a reliable timestamp. https://daomorang.moha.gov.np/post/khasa-b-ka-ka-ma-sa-ka-upabha-ka-ta-kha-tha-ra-ma-l-ya-sama-bna-thha-sa-ra
+Udghosh: Oct 16, 2026; exact time not exposed. Earlier report covers Thursday evening, before Friday cap. Used only to corroborate Rs 1,400 prior price. https://udghoshdaily.com/news/165249-261016080930/detail

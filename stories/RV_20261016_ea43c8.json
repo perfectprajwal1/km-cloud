@@ -1,0 +1,618 @@
+{
+ "id": "RV_20261016_ea43c8",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ?",
+ "pinned_comment": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "मोरङ: मासु १,२०० सम्म",
+   "sub": "मोरङ: अधिकतम प्रति किलो",
+   "km_default": true,
+   "vo": "दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_01_7b538a.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "मोरङ",
+        "sub": "",
+        "focus": true,
+        "at": 0.085
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "शुक्रबारदेखि मूल्य सीमा",
+   "points": [
+    "जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै"
+   ],
+   "km_default": true,
+   "vo": "जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै अर्को व्यवस्था नभएसम्म जिल्लाभर यो मूल्य लागू गरेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_02_cace59.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "मोरङ",
+        "sub": "",
+        "focus": true,
+        "at": 0.168
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "number": "१ हजार",
+   "headline": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो",
+   "sub": "",
+   "type": "scale",
+   "vo": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_03_c54227.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 1.0,
+      "numText": "१",
+      "unit": "हजार",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो",
+      "at": 0.311
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "छानेको विशेष मासुमा छुट्टै मूल्य",
+   "points": [
+    "तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी"
+   ],
+   "km_default": true,
+   "vo": "तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_04_aacf6e.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "तर उपभोक्ताले "
+       },
+       {
+        "t": "छानेको विशेष",
+        "hl": true,
+        "at": 0.183
+       },
+       {
+        "t": " प्रकारको "
+       },
+       {
+        "t": "मासुमा",
+        "hl": true,
+        "at": 0.393
+       },
+       {
+        "t": " भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "बढी लिए कानुनी कारबाही",
+   "points": [
+    "तोकिएको मूल्यभन्दा बढी रकम लिएको पाइए कानुनअनुसार कारबाही"
+   ],
+   "km_default": true,
+   "vo": "तोकिएको मूल्यभन्दा बढी रकम लिएको पाइए कानुनअनुसार कारबाही गरिने प्रशासनले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_05_c067c0.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "बढी",
+        "key": false,
+        "at": 0.184
+       },
+       {
+        "t": "लिए",
+        "key": false,
+        "at": 0.236
+       },
+       {
+        "t": "कानुनी",
+        "key": true,
+        "at": 0.42
+       },
+       {
+        "t": "कारबाही",
+        "key": false,
+        "at": 0.455
+       }
+      ],
+      "icon": "law",
+      "at": 0.184
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "law": "<path pathLength=\"1\" d=\"M12 3v18M7 21h10M5 7h14\"/><path pathLength=\"1\" d=\"M5 7l-3 6a3 3 0 006 0z\"/><path pathLength=\"1\" d=\"M19 7l-3 6a3 3 0 006 0z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "मोरङमा लागू, देशभर होइन",
+   "points": [
+    "यो मूल्य सीमा मोरङका लागि हो"
+   ],
+   "km_default": true,
+   "vo": "यो मूल्य सीमा मोरङका लागि हो, देशभरका लागि होइन।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ea43c8_06_54ffe8.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "मोरङ",
+        "sub": "",
+        "focus": true,
+        "at": 0.21
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "तपाईंको ठाउँमा खसीको मासु किलोको कति छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "43bf11db925f760c1ba202a0cf097df8a5591dffc3aca974f53e9ec8bdcca65e",
+  "plan_hash": "6d0219a1afb1bba3e94a21c7e4fba4105bd2b1011c7688912751299682fe383e",
+  "selected": [
+   "main:hook",
+   "strip:place",
+   "main:points_plain",
+   "strip:place",
+   "main:scale",
+   "strip:stat",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:place",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "place",
+    "score": 184.767,
+    "reason": [
+     "converter default card",
+     "explicit location; linked pair only with route words"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "ne",
+       "text": "मोरङ",
+       "start": 7,
+       "end": 11
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 122.226,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "scale",
+    "selected_strip": "stat",
+    "score": 147.269,
+    "reason": [
+     "narrated quantity, non-counting",
+     "narrated quantity"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "number",
+       "text": "१ हजार",
+       "start": 52,
+       "end": 58
+      },
+      {
+       "field": "headline",
+       "text": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो",
+       "start": 0,
+       "end": 86
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१ हजार",
+       "start": 52,
+       "end": 58
+      },
+      {
+       "field": "label",
+       "text": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो",
+       "start": 0,
+       "end": 86
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.346,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.542,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 122.226,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "f5ca74f166470025ca1ba628c46960ccb1f81e75c463a5ada1e02d8c9c529404"
+ }
+}

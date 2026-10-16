@@ -1,0 +1,70 @@
+{
+  "master_sha256": "109f87ebd761f9a05821054636e4e3f8bb27d1bd4a45ae03982030b6e2c8ddc1",
+  "cuts_sec": [
+    9.717541666666666,
+    19.485458333333334,
+    27.768
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "दशैंमा मोरङमा खसीको मासु किन्दै हुनुहुन्छ? सामान्य मासुको अधिकतम मूल्य प्रतिकिलो १ हजार २०० रुपैयाँ तोकिएको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.718,
+      "duration_sec": 9.718,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "जिल्ला प्रशासन कार्यालय मोरङले शुक्रबार सूचना जारी गर्दै अर्को व्यवस्था नभएसम्म जिल्लाभर यो मूल्य लागू गरेको हो।",
+      "master_start_sec": 9.718,
+      "master_end_sec": 19.485,
+      "duration_sec": 9.768,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "विराटनगरका केही ठाउँमा खसीको मासुको मूल्य प्रतिकिलो १ हजार ४०० रुपैयाँसम्म पुगेको थियो।",
+      "master_start_sec": 19.485,
+      "master_end_sec": 27.768,
+      "duration_sec": 8.283,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "तर उपभोक्ताले छानेको विशेष प्रकारको मासुमा भने आपसी समझदारीमा फरक मूल्य तय हुन सक्छ।",
+      "master_start_sec": 27.768,
+      "master_end_sec": 36.691,
+      "duration_sec": 8.923,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
