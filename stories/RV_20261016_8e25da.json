@@ -95,13 +95,10 @@
    }
   },
   {
-   "value": 37.0,
-   "unit": "हजार",
-   "prefix": "",
-   "decimals": 0,
-   "label": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
+   "number": "३७ हजार",
+   "headline": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
    "sub": "",
-   "type": "bignum",
+   "type": "scale",
    "vo": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए।",
    "dark": true,
    "voice_tone": "neutral_talking",
@@ -172,13 +169,10 @@
    }
   },
   {
-   "value": 24.0,
-   "unit": "घण्टा",
-   "prefix": "",
-   "decimals": 0,
-   "label": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
+   "number": "२४ घण्टा",
+   "headline": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
    "sub": "",
-   "type": "bignum",
+   "type": "scale",
    "vo": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्।",
    "dark": true,
    "voice_tone": "neutral_talking",
@@ -262,17 +256,17 @@
   "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
   "version": "1.0",
   "content_hash": "83995d3e622bae1deb3e469e2b11ec499a31571e8a246eb03746e22dc8ddd967",
-  "plan_hash": "61ee251d8a18a406a9c368779a6b56ee0bf10f566ce54aee055994c79ddc2f68",
+  "plan_hash": "efb2d9673037ad6f8392dcd4cd547673ba3185b0c5a085d030f6c0beed154802",
   "selected": [
    "main:hook",
    "strip:stat",
    "main:points_plain",
    "strip:phrase",
-   "main:bignum",
+   "main:scale",
    "strip:stat",
    "main:points_plain",
    "strip:place",
-   "main:bignum",
+   "main:scale",
    "strip:stat",
    "main:points_plain",
    "strip:quote",
@@ -295,7 +289,7 @@
     "line": 1,
     "selected_main": "hook",
     "selected_strip": "stat",
-    "score": 184.835,
+    "score": 184.464,
     "reason": [
      "converter default card",
      "narrated quantity"
@@ -340,7 +334,7 @@
     "line": 2,
     "selected_main": "points_plain",
     "selected_strip": "phrase",
-    "score": 105.618,
+    "score": 105.609,
     "reason": [
      "converter default card",
      "converter default strip"
@@ -373,11 +367,11 @@
    },
    {
     "line": 3,
-    "selected_main": "bignum",
+    "selected_main": "scale",
     "selected_strip": "stat",
-    "score": 148.084,
+    "score": 147.639,
     "reason": [
-     "narrated quantity with exact unit",
+     "narrated quantity, non-counting",
      "narrated quantity"
     ],
     "penalties": [
@@ -394,7 +388,13 @@
     "evidence": {
      "main": [
       {
-       "field": "label",
+       "field": "number",
+       "text": "३७ हजार",
+       "start": 12,
+       "end": 19
+      },
+      {
+       "field": "headline",
        "text": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
        "start": 0,
        "end": 52
@@ -423,8 +423,8 @@
      "shared_role_markers": false
     },
     "missed_reasons": {
+     "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
      "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
-     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
      "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
      "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
     }
@@ -433,7 +433,7 @@
     "line": 4,
     "selected_main": "points_plain",
     "selected_strip": "place",
-    "score": 130.482,
+    "score": 130.473,
     "reason": [
      "converter default card",
      "converter default strip"
@@ -466,11 +466,11 @@
    },
    {
     "line": 5,
-    "selected_main": "bignum",
+    "selected_main": "scale",
     "selected_strip": "stat",
-    "score": 148.084,
+    "score": 147.639,
     "reason": [
-     "narrated quantity with exact unit",
+     "narrated quantity, non-counting",
      "narrated quantity"
     ],
     "penalties": [
@@ -487,7 +487,13 @@
     "evidence": {
      "main": [
       {
-       "field": "label",
+       "field": "number",
+       "text": "२४ घण्टा",
+       "start": 64,
+       "end": 72
+      },
+      {
+       "field": "headline",
        "text": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
        "start": 0,
        "end": 93
@@ -516,8 +522,8 @@
      "shared_role_markers": false
     },
     "missed_reasons": {
+     "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
      "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
-     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
      "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
      "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
     }
@@ -526,7 +532,7 @@
     "line": 6,
     "selected_main": "points_plain",
     "selected_strip": "quote",
-    "score": 135.858,
+    "score": 135.849,
     "reason": [
      "converter default card",
      "converter default strip"
@@ -613,6 +619,6 @@
    "strip:hook": "source structure absent or extractor could not prove required meaning",
    "strip:incident": "source structure absent or extractor could not prove required meaning"
   },
-  "render_seal": "9ca15bccdc4e237e39c20e5aeed8c9d18bb7f1e0c686d9dbff6965aeaab9e5de"
+  "render_seal": "fd7df60728710497b78f18456d7664200075a0278f99f05e784519e485433e62"
  }
 }
