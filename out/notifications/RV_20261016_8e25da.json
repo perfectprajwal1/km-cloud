@@ -1,6 +1,7 @@
 {
   "attempt_id": "b7b589b1-7398-411d-a277-e57e8ea6aa62",
   "body": "Reel RV_20261016_8e25da - Over 262,000 passengers depart Kathmandu Valley ahead of Dashain\nPosting deferred or reel incomplete. Check the saved run/state logs first.\nDetails: GitHub Actions summary and km-state artifact.",
-  "state": "claimed",
+  "message_id": "wamid.HBgNOTc3OTg0NTc4NjU4MBUCABEYEkMxNDZEOTQ0NTM2MjQzRkMzNwA=",
+  "state": "sent",
   "story_id": "RV_20261016_8e25da"
 }
