@@ -1,0 +1,637 @@
+{
+ "id": "RV_20261016_ac0832",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?",
+ "pinned_comment": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "मुद्रास्फीति {{६.३४%}}",
+   "sub": "मुद्रास्फीति",
+   "km_default": true,
+   "vo": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_01_0d9c33.png",
+    "anim": {
+     "kind": "waffle",
+     "waffle": {
+      "pct": 6.34,
+      "label": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ",
+      "at": 0.399,
+      "layout": {
+       "x0": 110,
+       "y0": 115,
+       "cell": 36,
+       "gap": 6
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 46
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 1.87,
+   "unit": "प्रतिशत",
+   "prefix": "",
+   "decimals": 2,
+   "label": "गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो",
+   "sub": "",
+   "type": "bignum",
+   "vo": "गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_02_6b93ff.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 1.87,
+      "numText": "१.८७",
+      "unit": "प्रतिशत",
+      "decimals": 2,
+      "comma": false,
+      "percent": 1.87,
+      "label": "गत वर्ष १.८७%",
+      "at": 0.283
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 108,
+      "label": 72
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "घिउ-तेल १६.६८%, फलफूल १५.९९%",
+   "points": [
+    "खाद्यतर्फ घिउ र खाद्य तेलको मूल्य १६.६८ प्रतिशत"
+   ],
+   "km_default": true,
+   "vo": "खाद्यतर्फ घिउ र खाद्य तेलको मूल्य १६.६८ प्रतिशत, फलफूलको १५.९९ प्रतिशत र चिनी तथा चिनीजन्य वस्तुको १२.१४ प्रतिशतले बढेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_03_5817a7.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 16.68,
+      "numText": "१६.६८",
+      "unit": "प्रतिशत",
+      "decimals": 2,
+      "comma": false,
+      "percent": 16.68,
+      "label": "घिउ-तेल १६.६८%, फलफूल १५.९९%",
+      "at": 0.16
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 108,
+      "label": 64
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 12.77,
+   "unit": "प्रतिशत",
+   "prefix": "",
+   "decimals": 2,
+   "label": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ",
+   "sub": "",
+   "type": "bignum",
+   "vo": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_04_50bbc9.png",
+    "anim": {
+     "kind": "waffle",
+     "waffle": {
+      "pct": 12.77,
+      "label": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ",
+      "at": 0.344,
+      "layout": {
+       "x0": 110,
+       "y0": 115,
+       "cell": 36,
+       "gap": 6
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 54
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "खाद्य ७.५४% | गैरखाद्य ५.६९%",
+   "points": [
+    "खाद्य तथा पेयपदार्थ समूहको मुद्रास्फीति ७.५४ प्रतिशत र"
+   ],
+   "km_default": true,
+   "vo": "खाद्य तथा पेयपदार्थ समूहको मुद्रास्फीति ७.५४ प्रतिशत र गैरखाद्य तथा सेवा समूहको ५.६९ प्रतिशत छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_05_3ee791.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 7.54,
+      "numText": "७.५४",
+      "unit": "प्रतिशत",
+      "decimals": 2,
+      "comma": false,
+      "percent": 7.54,
+      "label": "खाद्य ७.५४% | गैरखाद्य ५.६९%",
+      "at": 0.228
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 108,
+      "label": 72
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "left": {
+    "label": "काठमाडौं उपत्यका",
+    "value": "५.२८ प्रतिशत"
+   },
+   "right": {
+    "label": "तराई",
+    "value": "६.८९ प्रतिशत"
+   },
+   "type": "versus",
+   "vo": "क्षेत्रअनुसार भदौमा मुद्रास्फीति काठमाडौं उपत्यकामा ५.२८ प्रतिशत र तराईमा ६.८९ प्रतिशत छ। प्रदेशमा मधेशमा सबैभन्दा बढी ७.४८ प्रतिशत छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_ac0832_06_5e7326.png",
+    "anim": {
+     "kind": "compare",
+     "compare": {
+      "left": "५.२८ प्रतिशत",
+      "right": "६.८९ प्रतिशत",
+      "at": 0.36,
+      "leftMeta": "काठमाडौं उपत्यका",
+      "rightMeta": "तराई"
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "4871c1df3094e3faa0c2cfd6cd594a04ef1074009b8933042b19b1ebc094b183",
+  "plan_hash": "642cddd8ea73c12e1464d05c532e774efe044984fb1926b14bc88a7a7be48cc3",
+  "selected": [
+   "main:hook",
+   "strip:waffle",
+   "main:bignum",
+   "strip:stat",
+   "main:points_plain",
+   "strip:stat",
+   "main:bignum",
+   "strip:waffle",
+   "main:points_plain",
+   "strip:stat",
+   "main:versus",
+   "strip:compare",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:group",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "main:versus",
+   "strip:compare",
+   "strip:evidence",
+   "strip:place",
+   "strip:stat",
+   "strip:waffle"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "waffle",
+    "score": 191.338,
+    "reason": [
+     "converter default card",
+     "explicit percentage share"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:stat",
+     "strip:waffle"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "value",
+       "text": "६.३४ प्रतिशत",
+       "start": 78,
+       "end": 90
+      },
+      {
+       "field": "label",
+       "text": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ",
+       "start": 0,
+       "end": 99
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "bignum",
+    "selected_strip": "stat",
+    "score": 150.107,
+    "reason": [
+     "narrated quantity with exact unit",
+     "converter default strip"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat",
+     "strip:waffle"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो",
+       "start": 0,
+       "end": 51
+      }
+     ],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:waffle": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "stat",
+    "score": 122.098,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "bignum",
+    "selected_strip": "waffle",
+    "score": 176.587,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit percentage share"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat",
+     "strip:waffle"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ",
+       "start": 0,
+       "end": 64
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१२.७७ प्रतिशत",
+       "start": 43,
+       "end": 56
+      },
+      {
+       "field": "label",
+       "text": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ",
+       "start": 0,
+       "end": 64
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "stat",
+    "score": 130.098,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "versus",
+    "selected_strip": "compare",
+    "score": 194.4,
+    "reason": [
+     "explicit comparable quantities",
+     "explicit compare relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:group",
+     "main:points_plain",
+     "main:versus",
+     "strip:compare",
+     "strip:evidence",
+     "strip:place",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "काठमाडौं उपत्यका",
+       "start": 33,
+       "end": 49
+      },
+      {
+       "field": "label",
+       "text": "तराई",
+       "start": 67,
+       "end": 71
+      }
+     ],
+     "strip": [
+      {
+       "field": "left",
+       "text": "५.२८ प्रतिशत",
+       "start": 52,
+       "end": 64
+      },
+      {
+       "field": "leftMeta",
+       "text": "काठमाडौं उपत्यका",
+       "start": 33,
+       "end": 49
+      },
+      {
+       "field": "right",
+       "text": "६.८९ प्रतिशत",
+       "start": 74,
+       "end": 86
+      },
+      {
+       "field": "rightMeta",
+       "text": "तराई",
+       "start": 67,
+       "end": 71
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:group": "fit/repetition/rarity: another legal pair scored higher",
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:place": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:phrase": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "c99c3b6ac9e25e04cc6017a31756445d5e026bcd74a4b8fece19ebef98929abd"
+ }
+}

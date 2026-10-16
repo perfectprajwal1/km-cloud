@@ -1,0 +1,488 @@
+REVIEW ID: RV_20261016_8e25da
+TOPIC: बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे
+MODEL: assistant_draft
+STORY ID: ST_59f2e17238730d6c
+DATE: 2026-10-16T09:00:00+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://radionepalonline.com/en/2026/10/15/437842.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्। काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका अनुसार कुल २ लाख ६२ हजार ७५३ यात्रु बाहिरिएका हुन्। यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए। नागढुंगा, फर्पिङ, थानकोट, भीमढुंगा, टिनपिपल, साँखु, भक्तपुर र भट्टेडाँडा जस्ता नाकामा लामो दूरीका यात्रु र सवारीको चाप बढेको छ। सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्। सडक विभागका अनुसार नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "उपत्यका छाड्ने यात्रु",
+          "value": "२,६२,७५३"
+        }
+      ],
+      "data_source_quote": "262,753 travelers departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday."
+    },
+    "caption_text": "२,६२,७५३ यात्रु उपत्यका बाहिरिए",
+    "big_hook_text": "२,६२,७५३ यात्रु उपत्यका बाहिरिए",
+    "pip_mode": "off",
+    "source_evidence": "262,753 travelers departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "ट्राफिक प्रहरीको तथ्यांक"
+    },
+    "caption_text": "ट्राफिक प्रहरीको तथ्यांक",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Senior Superintendent of Police (SSP) Suresh Prasad Kaphle, Chief of the Kathmandu Valley Traffic Police, reported that 262,753 travelers",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "सवारीसाधन",
+          "value": "३७,९६४"
+        }
+      ],
+      "data_source_quote": "departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday."
+    },
+    "caption_text": "३७,९६४ सवारीसाधन",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नाकाहरूमा बढ्यो चाप"
+    },
+    "caption_text": "नाकाहरूमा बढ्यो चाप",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Major transit checkpoints across the valley, including Nagdhunga, Pharping, Thankot, Bhimdhunga, Tinpiple, Sankhu, Bhaktapur, and Bhattedanda, have experienced significant surges in long-distance passenger and vehicle traffic.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "२४ घण्टा ट्राफिक निगरानी"
+    },
+    "caption_text": "२४ घण्टा ट्राफिक निगरानी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "traffic personnel have been deployed on 24-hour monitoring detail across key departure routes.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "मुख्य राजमार्ग सञ्चालनमा"
+    },
+    "caption_text": "मुख्य राजमार्ग सञ्चालनमा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "the Department of Roads confirmed that primary transport arteries—including the Nagdhunga–Naubise road section, Mugling–Narayanghat corridor, Kanti Highway, and BP Highway—remain operational for two-way vehicular movement.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_59f2e17238730d6c",
+  "source_url": "https://radionepalonline.com/en/2026/10/15/437842.html",
+  "source_label": "Radio Nepal",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Manual multi-source cross-check done; n8n validation and fact-check engine not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://radionepalonline.com/en/2026/10/15/437842.html",
+    "article_quote": "More than 262,000 passengers have left the Kathmandu Valley to return to their home districts to celebrate the major festival of Bada Dashain, according to the Kathmandu Valley Traffic Police Office.",
+    "asset_ref": "none",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे",
+  "closing_line": "सडक विभागका अनुसार नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्।",
+  "comment_prompt": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?",
+  "pinned_comment": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "उपत्यका छाड्ने यात्रु",
+            "value": "२,६२,७५३"
+          }
+        ],
+        "data_source_quote": "262,753 travelers departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday."
+      },
+      "caption_text": "२,६२,७५३ यात्रु उपत्यका बाहिरिए",
+      "big_hook_text": "२,६२,७५३ यात्रु उपत्यका बाहिरिए",
+      "pip_mode": "off",
+      "source_evidence": "262,753 travelers departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका अनुसार कुल २ लाख ६२ हजार ७५३ यात्रु बाहिरिएका हुन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "ट्राफिक प्रहरीको तथ्यांक"
+      },
+      "caption_text": "ट्राफिक प्रहरीको तथ्यांक",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Senior Superintendent of Police (SSP) Suresh Prasad Kaphle, Chief of the Kathmandu Valley Traffic Police, reported that 262,753 travelers",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "सवारीसाधन",
+            "value": "३७,९६४"
+          }
+        ],
+        "data_source_quote": "departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday."
+      },
+      "caption_text": "३७,९६४ सवारीसाधन",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "departed the capital aboard 37,964 vehicles between Ghatasthapana and Thursday.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "नागढुंगा, फर्पिङ, थानकोट, भीमढुंगा, टिनपिपल, साँखु, भक्तपुर र भट्टेडाँडा जस्ता नाकामा लामो दूरीका यात्रु र सवारीको चाप बढेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नाकाहरूमा बढ्यो चाप"
+      },
+      "caption_text": "नाकाहरूमा बढ्यो चाप",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Major transit checkpoints across the valley, including Nagdhunga, Pharping, Thankot, Bhimdhunga, Tinpiple, Sankhu, Bhaktapur, and Bhattedanda, have experienced significant surges in long-distance passenger and vehicle traffic.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "२४ घण्टा ट्राफिक निगरानी"
+      },
+      "caption_text": "२४ घण्टा ट्राफिक निगरानी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "traffic personnel have been deployed on 24-hour monitoring detail across key departure routes.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "सडक विभागका अनुसार नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "मुख्य राजमार्ग सञ्चालनमा"
+      },
+      "caption_text": "मुख्य राजमार्ग सञ्चालनमा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "the Department of Roads confirmed that primary transport arteries—including the Nagdhunga–Naubise road section, Mugling–Narayanghat corridor, Kanti Highway, and BP Highway—remain operational for two-way vehicular movement.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "दसैँमा घटस्थापनादेखि २.६२ लाखभन्दा बढी यात्रु उपत्यका बाहिरिए",
+    "youtube_description": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute"
+    ],
+    "tiktok_caption": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+    "instagram_caption": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+    "facebook_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+    "threads_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+    "linkedin_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+    "hashtags": [
+      "#NepalNews",
+      "#khabarminutenepal"
+    ],
+    "source_credit": ""
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Manual multi-source cross-check completed; original n8n fact checker/schema validator NOT RUN. safe_to_publish=false. Not approved; approve cell blank. Figures are as of Oct 15 2026 reports; recheck before publication.
+
+--- ALTERNATE HOOK ---
+बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे
+
+--- PINNED COMMENT (Nepali question) ---
+यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "२,६२,७५३ यात्रु उपत्यका बाहिरिए",
+      "on_screen_data": [
+        {
+          "label": "उपत्यका छाड्ने यात्रु",
+          "value": "२,६२,७५३"
+        }
+      ]
+    }
+  },
+  {
+    "text": "काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका अनुसार कुल २ लाख ६२ हजार ७५३ यात्रु बाहिरिएका हुन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "ट्राफिक प्रहरीको तथ्यांक",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "३७,९६४ सवारीसाधन",
+      "on_screen_data": [
+        {
+          "label": "सवारीसाधन",
+          "value": "३७,९६४"
+        }
+      ]
+    }
+  },
+  {
+    "text": "नागढुंगा, फर्पिङ, थानकोट, भीमढुंगा, टिनपिपल, साँखु, भक्तपुर र भट्टेडाँडा जस्ता नाकामा लामो दूरीका यात्रु र सवारीको चाप बढेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नाकाहरूमा बढ्यो चाप",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "२४ घण्टा ट्राफिक निगरानी",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "सडक विभागका अनुसार नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मुख्य राजमार्ग सञ्चालनमा",
+      "on_screen_data": []
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "दसैँमा घटस्थापनादेखि २.६२ लाखभन्दा बढी यात्रु उपत्यका बाहिरिए",
+  "youtube_description": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute"
+  ],
+  "tiktok_caption": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+  "instagram_caption": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+  "facebook_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+  "threads_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+  "linkedin_post": "बडादशैँमा घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रु उपत्यका छाडे। #NepalNews #khabarminutenepal",
+  "hashtags": [
+    "#NepalNews",
+    "#khabarminutenepal"
+  ],
+  "source_credit": ""
+}

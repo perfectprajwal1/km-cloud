@@ -1,0 +1,471 @@
+REVIEW ID: RV_20261016_ac0832
+TOPIC: भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो
+MODEL: assistant_draft
+STORY ID: ST_dd345d1c790b5504
+DATE: 2026-10-16T09:00:00+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://english.onlinekhabar.com/annual-inflation-rises.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ। गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो। खाद्यतर्फ घिउ र खाद्य तेलको मूल्य १६.६८ प्रतिशत, फलफूलको १५.९९ प्रतिशत र चिनी तथा चिनीजन्य वस्तुको १२.१४ प्रतिशतले बढेको छ। गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ। खाद्य तथा पेयपदार्थ समूहको मुद्रास्फीति ७.५४ प्रतिशत र गैरखाद्य तथा सेवा समूहको ५.६९ प्रतिशत छ। क्षेत्रअनुसार भदौमा मुद्रास्फीति काठमाडौं उपत्यकामा ५.२८ प्रतिशत र तराईमा ६.८९ प्रतिशत छ। प्रदेशमा मधेशमा सबैभन्दा बढी ७.४८ प्रतिशत छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "मुद्रास्फीति",
+          "value": "६.३४%"
+        }
+      ],
+      "data_source_quote": "Nepal’s annual consumer inflation rose to 6.34 per cent in the second month of the current fiscal year, according to Nepal Rastra Bank."
+    },
+    "caption_text": "मुद्रास्फीति ६.३४%",
+    "big_hook_text": "मुद्रास्फीति ६.३४%",
+    "pip_mode": "off",
+    "source_evidence": "Nepal’s annual consumer inflation rose to 6.34 per cent in the second month of the current fiscal year, according to Nepal Rastra Bank.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "गत वर्ष १.८७%"
+    },
+    "caption_text": "गत वर्ष १.८७%",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Consumer inflation stood at 1.87 per cent in the same month of the previous fiscal year.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "घिउ-तेल १६.६८%, फलफूल १५.९९%"
+    },
+    "caption_text": "घिउ-तेल १६.६८%, फलफूल १५.९९%",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "the annual consumer price index in the month of Bhadra rose by 16.68 per cent for ghee and edible oils, 15.99 per cent for fruits, 12.14 per cent for sugar and sugar products",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "यातायात १२.७७%"
+    },
+    "caption_text": "यातायात १२.७७%",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "In the non-food and services category, the annual consumer price index increased by 12.77 per cent for transportation",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "खाद्य ७.५४% | गैरखाद्य ५.६९%"
+    },
+    "caption_text": "खाद्य ७.५४% | गैरखाद्य ५.६९%",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "prices in the food and beverage group increased by 7.54 per cent, while inflation in the non-food and services group stood at 5.69 per cent.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "मधेशमा सबैभन्दा बढी ७.४८%"
+    },
+    "caption_text": "मधेशमा सबैभन्दा बढी ७.४८%",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "annual consumer inflation in Bhadra stood at 5.28 per cent in the Kathmandu Valley, 6.89 per cent in the Tarai. Madhesh recorded the highest annual consumer inflation at 7.48 per cent",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_dd345d1c790b5504",
+  "source_url": "https://english.onlinekhabar.com/annual-inflation-rises.html",
+  "source_label": "Onlinekhabar",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Manual multi-source cross-check done; n8n validation and fact-check engine not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://english.onlinekhabar.com/annual-inflation-rises.html",
+    "article_quote": "Nepal’s annual consumer inflation rose to 6.34 per cent in the second month of the current fiscal year, up from 5.96 per cent in the previous month, according to Nepal Rastra Bank.",
+    "asset_ref": "none",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो",
+  "closing_line": "क्षेत्रअनुसार भदौमा मुद्रास्फीति काठमाडौं उपत्यकामा ५.२८ प्रतिशत र तराईमा ६.८९ प्रतिशत छ। प्रदेशमा मधेशमा सबैभन्दा बढी ७.४८ प्रतिशत छ।",
+  "comment_prompt": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?",
+  "pinned_comment": "दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "मुद्रास्फीति",
+            "value": "६.३४%"
+          }
+        ],
+        "data_source_quote": "Nepal’s annual consumer inflation rose to 6.34 per cent in the second month of the current fiscal year, according to Nepal Rastra Bank."
+      },
+      "caption_text": "मुद्रास्फीति ६.३४%",
+      "big_hook_text": "मुद्रास्फीति ६.३४%",
+      "pip_mode": "off",
+      "source_evidence": "Nepal’s annual consumer inflation rose to 6.34 per cent in the second month of the current fiscal year, according to Nepal Rastra Bank.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "गत वर्ष १.८७%"
+      },
+      "caption_text": "गत वर्ष १.८७%",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Consumer inflation stood at 1.87 per cent in the same month of the previous fiscal year.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "खाद्यतर्फ घिउ र खाद्य तेलको मूल्य १६.६८ प्रतिशत, फलफूलको १५.९९ प्रतिशत र चिनी तथा चिनीजन्य वस्तुको १२.१४ प्रतिशतले बढेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "घिउ-तेल १६.६८%, फलफूल १५.९९%"
+      },
+      "caption_text": "घिउ-तेल १६.६८%, फलफूल १५.९९%",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "the annual consumer price index in the month of Bhadra rose by 16.68 per cent for ghee and edible oils, 15.99 per cent for fruits, 12.14 per cent for sugar and sugar products",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "यातायात १२.७७%"
+      },
+      "caption_text": "यातायात १२.७७%",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "In the non-food and services category, the annual consumer price index increased by 12.77 per cent for transportation",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "खाद्य तथा पेयपदार्थ समूहको मुद्रास्फीति ७.५४ प्रतिशत र गैरखाद्य तथा सेवा समूहको ५.६९ प्रतिशत छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "खाद्य ७.५४% | गैरखाद्य ५.६९%"
+      },
+      "caption_text": "खाद्य ७.५४% | गैरखाद्य ५.६९%",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "prices in the food and beverage group increased by 7.54 per cent, while inflation in the non-food and services group stood at 5.69 per cent.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "क्षेत्रअनुसार भदौमा मुद्रास्फीति काठमाडौं उपत्यकामा ५.२८ प्रतिशत र तराईमा ६.८९ प्रतिशत छ। प्रदेशमा मधेशमा सबैभन्दा बढी ७.४८ प्रतिशत छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "मधेशमा सबैभन्दा बढी ७.४८%"
+      },
+      "caption_text": "मधेशमा सबैभन्दा बढी ७.४८%",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "annual consumer inflation in Bhadra stood at 5.28 per cent in the Kathmandu Valley, 6.89 per cent in the Tarai. Madhesh recorded the highest annual consumer inflation at 7.48 per cent",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "भदौमा मुद्रास्फीति ६.३४ प्रतिशत, गत वर्ष १.८७ प्रतिशत",
+    "youtube_description": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute"
+    ],
+    "tiktok_caption": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+    "instagram_caption": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+    "facebook_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+    "threads_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+    "linkedin_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+    "hashtags": [
+      "#NepalNews",
+      "#khabarminutenepal"
+    ],
+    "source_credit": ""
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Manual multi-source cross-check completed; original n8n fact checker/schema validator NOT RUN. safe_to_publish=false. Not approved; approve cell blank. Figures are as of Oct 15 2026 reports; recheck before publication.
+
+--- ALTERNATE HOOK ---
+भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो
+
+--- PINNED COMMENT (Nepali question) ---
+दसैँ बजारमा कुन वस्तुको मूल्यवृद्धि तपाईंले सबैभन्दा बढी महसुस गर्नुभयो?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "राष्ट्र बैंकका अनुसार भदौ महिनामा नेपालको वार्षिक उपभोक्ता मूल्य मुद्रास्फीति ६.३४ प्रतिशत पुगेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मुद्रास्फीति ६.३४%",
+      "on_screen_data": [
+        {
+          "label": "मुद्रास्फीति",
+          "value": "६.३४%"
+        }
+      ]
+    }
+  },
+  {
+    "text": "गत वर्षको सोही अवधिमा यो दर १.८७ प्रतिशत मात्र थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "गत वर्ष १.८७%",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "खाद्यतर्फ घिउ र खाद्य तेलको मूल्य १६.६८ प्रतिशत, फलफूलको १५.९९ प्रतिशत र चिनी तथा चिनीजन्य वस्तुको १२.१४ प्रतिशतले बढेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "घिउ-तेल १६.६८%, फलफूल १५.९९%",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "गैरखाद्य र सेवातर्फ यातायातको मुद्रास्फीति १२.७७ प्रतिशत रहेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "यातायात १२.७७%",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "खाद्य तथा पेयपदार्थ समूहको मुद्रास्फीति ७.५४ प्रतिशत र गैरखाद्य तथा सेवा समूहको ५.६९ प्रतिशत छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "खाद्य ७.५४% | गैरखाद्य ५.६९%",
+      "on_screen_data": []
+    }
+  },
+  {
+    "text": "क्षेत्रअनुसार भदौमा मुद्रास्फीति काठमाडौं उपत्यकामा ५.२८ प्रतिशत र तराईमा ६.८९ प्रतिशत छ। प्रदेशमा मधेशमा सबैभन्दा बढी ७.४८ प्रतिशत छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मधेशमा सबैभन्दा बढी ७.४८%",
+      "on_screen_data": []
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "भदौमा मुद्रास्फीति ६.३४ प्रतिशत, गत वर्ष १.८७ प्रतिशत",
+  "youtube_description": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute"
+  ],
+  "tiktok_caption": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+  "instagram_caption": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+  "facebook_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+  "threads_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+  "linkedin_post": "भदौमा नेपालको वार्षिक मुद्रास्फीति ६.३४ प्रतिशत पुग्यो। #NepalNews #khabarminutenepal",
+  "hashtags": [
+    "#NepalNews",
+    "#khabarminutenepal"
+  ],
+  "source_credit": ""
+}

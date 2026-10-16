@@ -1,0 +1,618 @@
+{
+ "id": "RV_20261016_8e25da",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?",
+ "pinned_comment": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "{{२,६२,७५३}} यात्रु उपत्यका बाहिरिए",
+   "sub": "उपत्यका छाड्ने यात्रु",
+   "km_default": true,
+   "vo": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_01_4da693.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 62.0,
+      "numText": "६२",
+      "unit": "हजार",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्",
+      "at": 0.251
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "ट्राफिक प्रहरीको तथ्यांक",
+   "points": [
+    "काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका अनुसार कुल २ लाख"
+   ],
+   "km_default": true,
+   "vo": "काठमाडौं उपत्यका ट्राफिक प्रहरी कार्यालयका अनुसार कुल २ लाख ६२ हजार ७५३ यात्रु बाहिरिएका हुन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_02_c235ae.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "ट्राफिक",
+        "key": false,
+        "at": 0.158
+       },
+       {
+        "t": "प्रहरीको",
+        "key": true,
+        "at": 0.33
+       },
+       {
+        "t": "तथ्यांक",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "shield",
+      "at": 0.158
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "shield": "<path pathLength=\"1\" d=\"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 37.0,
+   "unit": "हजार",
+   "prefix": "",
+   "decimals": 0,
+   "label": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
+   "sub": "",
+   "type": "bignum",
+   "vo": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_03_7d4bbc.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 37.0,
+      "numText": "३७",
+      "unit": "हजार",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
+      "at": 0.136
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नाकाहरूमा बढ्यो चाप",
+   "points": [
+    "नागढुंगा"
+   ],
+   "km_default": true,
+   "vo": "नागढुंगा, फर्पिङ, थानकोट, भीमढुंगा, टिनपिपल, साँखु, भक्तपुर र भट्टेडाँडा जस्ता नाकामा लामो दूरीका यात्रु र सवारीको चाप बढेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_04_99bf95.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "भक्तपुर",
+        "sub": "",
+        "focus": true,
+        "at": 0.275
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 24.0,
+   "unit": "घण्टा",
+   "prefix": "",
+   "decimals": 0,
+   "label": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
+   "sub": "",
+   "type": "bignum",
+   "vo": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_05_f822af.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 24.0,
+      "numText": "२४",
+      "unit": "घण्टा",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
+      "at": 0.35
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "मुख्य राजमार्ग सञ्चालनमा",
+   "points": [
+    "सडक विभागका अनुसार नागढुंगा–नौबिसे"
+   ],
+   "km_default": true,
+   "vo": "सडक विभागका अनुसार नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261016_8e25da_06_c312ea.png",
+    "anim": {
+     "kind": "quote",
+     "quote": {
+      "speaker": "सडक विभाग",
+      "claim": "नागढुंगा–नौबिसे, मुग्लिन–नारायणगढ, कान्ती राजमार्ग र बीपी राजमार्ग दुवैतर्फ सञ्चालनमा छन्",
+      "at": 0.05
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "यो दसैँमा तपाईं घर जानुभयो कि काठमाडौंमै रहनुभयो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "83995d3e622bae1deb3e469e2b11ec499a31571e8a246eb03746e22dc8ddd967",
+  "plan_hash": "61ee251d8a18a406a9c368779a6b56ee0bf10f566ce54aee055994c79ddc2f68",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:points_plain",
+   "strip:phrase",
+   "main:bignum",
+   "strip:stat",
+   "main:points_plain",
+   "strip:place",
+   "main:bignum",
+   "strip:stat",
+   "main:points_plain",
+   "strip:quote",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:quote",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 184.835,
+    "reason": [
+     "converter default card",
+     "narrated quantity"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "value",
+       "text": "६२ हजार",
+       "start": 48,
+       "end": 55
+      },
+      {
+       "field": "label",
+       "text": "बडादशैँ मनाउन घटस्थापनादेखि बिहीबारसम्म दुई लाख ६२ हजारभन्दा बढी यात्रुले काठमाडौं उपत्यका छाडेका छन्",
+       "start": 0,
+       "end": 101
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": true,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.618,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "bignum",
+    "selected_strip": "stat",
+    "score": 148.084,
+    "reason": [
+     "narrated quantity with exact unit",
+     "narrated quantity"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
+       "start": 0,
+       "end": 52
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "३७ हजार",
+       "start": 12,
+       "end": 19
+      },
+      {
+       "field": "label",
+       "text": "यी यात्रुले ३७ हजार ९६४ सवारीसाधनमा यात्रा गरेका थिए",
+       "start": 0,
+       "end": 52
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 130.482,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "bignum",
+    "selected_strip": "stat",
+    "score": 148.084,
+    "reason": [
+     "narrated quantity with exact unit",
+     "narrated quantity"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
+       "start": 0,
+       "end": 93
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "२४ घण्टा",
+       "start": 64,
+       "end": 72
+      },
+      {
+       "field": "label",
+       "text": "सुरक्षा र ट्राफिक व्यवस्थापनका लागि मुख्य बाटोमा ट्राफिक प्रहरी २४ घण्टा निगरानीमा खटिएका छन्",
+       "start": 0,
+       "end": 93
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "quote",
+    "score": 135.858,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:quote"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "9ca15bccdc4e237e39c20e5aeed8c9d18bb7f1e0c686d9dbff6965aeaab9e5de"
+ }
+}
