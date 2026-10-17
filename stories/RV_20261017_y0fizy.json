@@ -1,0 +1,617 @@
+{
+ "id": "RV_20261017_y0fizy",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "कांग्रेसको नयाँ नेतृत्वबाट तपाईंले के अपेक्षा गर्नुभएको छ?",
+ "pinned_comment": "कांग्रेसको नयाँ नेतृत्वबाट तपाईंले के अपेक्षा गर्नुभएको छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "गगन थापाको सभापति शपथ",
+   "sub": "कांग्रेस सभापति शपथ",
+   "km_default": true,
+   "vo": "नेपाली कांग्रेसका नवनिर्वाचित सभापति गगनकुमार थापाले शनिबार पद तथा गोपनियताको शपथ लिएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_01_4a1d17.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": null,
+      "numText": "गगनकुमार थापा",
+      "unit": "",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "कांग्रेस सभापति शपथ",
+      "at": 0.219
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 156,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "सानेपामा शपथ र प्रमाणपत्र",
+   "points": [
+    "पार्टीको केन्द्रीय कार्यालय सानेपामा आयोजित एक समारोहमा"
+   ],
+   "km_default": true,
+   "vo": "पार्टीको केन्द्रीय कार्यालय सानेपामा आयोजित एक समारोहमा शपथपछि उनले प्रमाणपत्र पनि ग्रहण गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_02_440d01.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "पार्टीको केन्द्रीय कार्यालय "
+       },
+       {
+        "t": "सानेपामा",
+        "hl": true,
+        "at": 0.276
+       },
+       {
+        "t": " आयोजित एक समारोहमा शपथपछि उनले "
+       },
+       {
+        "t": "प्रमाणपत्र",
+        "hl": true,
+        "at": 0.599
+       },
+       {
+        "t": " पनि ग्रहण गरेका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "६,५८४ मत",
+   "headline": "थापा {{६,५८४ मत}}",
+   "sub": "सभापतिमा थापाको मत",
+   "km_default": true,
+   "vo": "कांग्रेसको १५औँ महाधिवेशनअन्तर्गत भएको निर्वाचनमा थापाले ६,५८४ मत प्राप्त गर्दा प्रतिस्पर्धी श्यामकृष्ण खड्गीले ३७५ मतमा सीमित भएका थिए।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_03_10c11a.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "कांग्रेसको",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "महाधिवेशनअन्तर्गत",
+        "key": false,
+        "at": 0.124
+       },
+       {
+        "t": "भएको",
+        "key": false,
+        "at": 0.195
+       },
+       {
+        "t": "निर्वाचनमा",
+        "key": true,
+        "at": 0.23
+       },
+       {
+        "t": "थापाले",
+        "key": false,
+        "at": 0.265
+       }
+      ],
+      "icon": "vote",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 70
+     },
+     "icons": {
+      "vote": "<rect pathLength=\"1\" x=\"4\" y=\"10\" width=\"16\" height=\"11\" rx=\"1\"/><path pathLength=\"1\" d=\"M9 10V4h6v6\"/><path pathLength=\"1\" d=\"M8 15h8\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 94.0,
+   "unit": "प्रतिशत",
+   "prefix": "",
+   "decimals": 0,
+   "label": "महाधिवेशनको मतगणना शनिबार दिउँसो सकिएको थियो र थापाले कुल मतको ९४ प्रतिशतभन्दा बढी मत ल्याएका हुन्",
+   "sub": "",
+   "type": "bignum",
+   "vo": "महाधिवेशनको मतगणना शनिबार दिउँसो सकिएको थियो र थापाले कुल मतको ९४ प्रतिशतभन्दा बढी मत ल्याएका हुन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_04_c953db.png",
+    "anim": {
+     "kind": "waffle",
+     "waffle": {
+      "pct": 94.0,
+      "label": "महाधिवेशनको मतगणना शनिबार दिउँसो सकिएको थियो र थापाले कुल मतको ९४ प्रतिशतभन्दा बढी मत ल्याएका हुन्",
+      "at": 0.333,
+      "layout": {
+       "x0": 110,
+       "y0": 115,
+       "cell": 36,
+       "gap": 6
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "५,३३० मत",
+   "headline": "महर्जन दोस्रो, {{५,३३० मत}}",
+   "sub": "दोस्रो: चिरीबाबु महर्जन",
+   "km_default": true,
+   "vo": "सर्वाधिक मत ल्याउनेहरूमा ललितपुरका मेयर चिरीबाबु महर्जन ५,३३० मतसहित दोस्रो र बसना थापा ५,१९३ मतसहित तेस्रो स्थानमा रहेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_05_8668a0.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "महर्जन",
+        "key": true,
+        "at": 0.27
+       },
+       {
+        "t": "दोस्रो",
+        "key": false,
+        "at": 0.356
+       }
+      ],
+      "icon": "star",
+      "at": 0.27
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "छिट्टै कार्यभार सम्हाल्ने",
+   "points": [
+    "शपथसँगै थापाले छिट्टै पार्टी कार्यालय पुगेर नयाँ नेतृत्वको"
+   ],
+   "km_default": true,
+   "vo": "शपथसँगै थापाले छिट्टै पार्टी कार्यालय पुगेर नयाँ नेतृत्वको कार्यभार औपचारिक रूपमा सम्हाल्ने कार्यक्रम रहेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_y0fizy_06_cb413a.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "शपथसँगै थापाले छिट्टै पार्टी कार्यालय पुगेर नयाँ नेतृत्वको कार्यभार औपचारिक रूपमा सम्हाल्ने "
+       },
+       {
+        "t": "कार्यक्रम रहेको छ",
+        "hl": true,
+        "at": 0.719
+       },
+       {
+        "t": "।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "कांग्रेसको नयाँ नेतृत्वबाट तपाईंले के अपेक्षा गर्नुभएको छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "कांग्रेसको नयाँ नेतृत्वबाट तपाईंले के अपेक्षा गर्नुभएको छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "bbe4adadb197bf5a9e005a38f36c71717bef0b321e5f7cd1229c9dc5cee6ea61",
+  "plan_hash": "9c9bb791f70d0a8e0d8652dd23f1019352cea8e8db34e83995b8a03eb57a6fed",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:points_plain",
+   "strip:evidence",
+   "main:scale",
+   "strip:phrase",
+   "main:bignum",
+   "strip:waffle",
+   "main:scale",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:stat",
+   "strip:waffle"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 186.025,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.308,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "scale",
+    "selected_strip": "phrase",
+    "score": 145.91,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "bignum",
+    "selected_strip": "waffle",
+    "score": 174.484,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit percentage share"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat",
+     "strip:waffle"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "महाधिवेशनको मतगणना शनिबार दिउँसो सकिएको थियो र थापाले कुल मतको ९४ प्रतिशतभन्दा बढी मत ल्याएका हुन्",
+       "start": 0,
+       "end": 98
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "९४ प्रतिशत",
+       "start": 63,
+       "end": 73
+      },
+      {
+       "field": "label",
+       "text": "महाधिवेशनको मतगणना शनिबार दिउँसो सकिएको थियो र थापाले कुल मतको ९४ प्रतिशतभन्दा बढी मत ल्याएका हुन्",
+       "start": 0,
+       "end": 98
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "scale",
+    "selected_strip": "phrase",
+    "score": 145.91,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.308,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "शपथसँगै थापाले छिट्टै पार्टी कार्यालय पुगेर नयाँ नेतृत्वको कार्यभार औपचारिक रूपमा सम्हाल्ने",
+       "start": 0,
+       "end": 91
+      },
+      {
+       "field": "t",
+       "text": "कार्यक्रम रहेको छ",
+       "start": 92,
+       "end": 109
+      },
+      {
+       "field": "t",
+       "text": "।",
+       "start": 109,
+       "end": 110
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "0fd282cde06ece9a993401dc117729eecad905077b856cc6826d4ec98f5745b3"
+ }
+}
