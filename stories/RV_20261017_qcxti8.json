@@ -1,0 +1,614 @@
+{
+ "id": "RV_20261017_qcxti8",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?",
+ "pinned_comment": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "रोनाल्डो मृत्यु: दुर्घटना",
+   "sub": "रोनाल्डो मृत्यु प्रकरण",
+   "km_default": true,
+   "vo": "चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_01_54e1d5.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": null,
+      "numText": "दुर्घटना — अध्ययन समिति",
+      "unit": "",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "रोनाल्डो मृत्यु प्रकरण",
+      "at": 0.03
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 98,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "month": "असोज",
+   "day": 3,
+   "headline": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+   "weekday": "",
+   "type": "date",
+   "vo": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_02_ecbe92.png",
+    "anim": {
+     "kind": "calendar",
+     "calendar": {
+      "month": "असोज",
+      "head": "असोज",
+      "weekday": "",
+      "days": [
+       "१",
+       "२",
+       "३",
+       "४",
+       "५",
+       "६",
+       "७"
+      ],
+      "wds": null,
+      "hi": 2,
+      "icon": "calendar",
+      "at": 0.116,
+      "layout": {
+       "x0": 80,
+       "cw": 120,
+       "gap": 13.33,
+       "top": 216,
+       "ch": 300,
+       "headY": 100
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "head": 62
+     },
+     "icons": {
+      "calendar": "<rect pathLength=\"1\" x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path pathLength=\"1\" d=\"M3 10h18M8 3v4M16 3v4\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "५८ मध्ये ३९ पोस्ट",
+   "headline": "{{५८ मध्ये ३९ पोस्ट}}मा केबल",
+   "sub": "केबलबाट विद्युत्",
+   "km_default": true,
+   "vo": "डाक्टर गणेश पन्तको नेतृत्वको समितिले निकुञ्जका ५८ पोस्टमध्ये ३९ मा केबलबाट विद्युत् पुर्याइएको र केही तार जोखिमपूर्ण रहेको फेला पारेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_03_518925.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "मा",
+        "key": false,
+        "at": 0.312
+       },
+       {
+        "t": "केबल",
+        "key": true,
+        "at": 0.347
+       }
+      ],
+      "icon": "bolt",
+      "at": 0.312
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "bolt": "<path pathLength=\"1\" d=\"M13 2L5 14h6l-1 8 8-12h-6z\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "तार भूमिगत वा २५–३० फिट माथि",
+   "points": [
+    "समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने"
+   ],
+   "km_default": true,
+   "vo": "समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_04_d48d36.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "समितिले निकुञ्जभित्र विद्युत् तार "
+       },
+       {
+        "t": "भूमिगत",
+        "hl": true,
+        "at": 0.243
+       },
+       {
+        "t": " गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "२ हात्ती, ५ गैँडा, १ चितुवा",
+   "headline": "२००७ देखि ८ वन्यजन्तु मरे",
+   "sub": "सन् २००७ देखि करेन्टबाट",
+   "km_default": true,
+   "vo": "सन् २००७ देखि संरक्षित क्षेत्रभित्र करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_05_d5bb97.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 2,
+      "icon": "star",
+      "label": "सन् देखि करेन्टबाट",
+      "at": 0.04,
+      "layout": {
+       "cols": 2,
+       "rows": 1,
+       "step": 190,
+       "size": 148,
+       "x0": 350.0,
+       "y0": 167,
+       "capY": 391
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "कार्यान्वयन जिम्मा विभागको",
+   "points": [
+    "प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज"
+   ],
+   "km_default": true,
+   "vo": "प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण विभागकै रहेको समितिले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261017_qcxti8_06_4490a4.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "कार्यान्वयन",
+        "key": true,
+        "at": 0.108
+       },
+       {
+        "t": "जिम्मा",
+        "key": false,
+        "at": 0.33
+       },
+       {
+        "t": "विभागको",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "doc",
+      "at": 0.108
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "doc": "<path pathLength=\"1\" d=\"M6 2h9l4 4v16H6z\"/><path pathLength=\"1\" d=\"M15 2v4h4M9 11h7M9 15h7M9 19h4\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "4d3c2676458c3484d9c3f7d49d2423b2244ee1010c27ba5d7606a5daf105ada3",
+  "plan_hash": "cd99683a01d1a73b72bf3248f98c92fb7441672557cab30280985a25982979d2",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:date",
+   "strip:calendar",
+   "main:scale",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:scale",
+   "strip:units",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:date",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:calendar",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:schedule",
+   "strip:stat",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 186.102,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "date",
+    "selected_strip": "calendar",
+    "score": 188.56,
+    "reason": [
+     "explicit month/day, no inferred weekday/year",
+     "explicit date; neighboring day tiles are diagram context"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:date",
+     "main:points_plain",
+     "main:scale",
+     "strip:calendar",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:schedule",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "month",
+       "text": "असोज",
+       "start": 21,
+       "end": 25
+      },
+      {
+       "field": "headline",
+       "text": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+       "start": 0,
+       "end": 143
+      }
+     ],
+     "strip": [
+      {
+       "field": "month",
+       "text": "असोज",
+       "start": 21,
+       "end": 25
+      },
+      {
+       "field": "value",
+       "text": "असोज ३ गते",
+       "start": 21,
+       "end": 31
+      },
+      {
+       "field": "label",
+       "text": "असोज ३ गते",
+       "start": 21,
+       "end": 31
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:schedule": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "scale",
+    "selected_strip": "phrase",
+    "score": 146.08,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.323,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "scale",
+    "selected_strip": "units",
+    "score": 171.024,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.495,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "b43d661af9dd1bd27367f651503920fc6b12baf39ee0a23ff3b3abca1ac4f51e"
+ }
+}

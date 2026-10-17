@@ -1,0 +1,70 @@
+{
+  "master_sha256": "270d1e08b37dc8415d14845f12f5a31550cf2461a721a623d465f6475f0759d4",
+  "cuts_sec": [
+    7.4864999999999995,
+    19.9045,
+    32.6325
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.487,
+      "duration_sec": 7.487,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+      "master_start_sec": 7.487,
+      "master_end_sec": 19.904,
+      "duration_sec": 12.418,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "डाक्टर गणेश पन्तको नेतृत्वको समितिले निकुञ्जका ५८ पोस्टमध्ये ३९ मा केबलबाट विद्युत् पुर्याइएको र केही तार जोखिमपूर्ण रहेको फेला पारेको छ।",
+      "master_start_sec": 19.904,
+      "master_end_sec": 32.633,
+      "duration_sec": 12.728,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ।",
+      "master_start_sec": 32.633,
+      "master_end_sec": 45.891,
+      "duration_sec": 13.258,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

@@ -1,0 +1,514 @@
+REVIEW ID: RV_20261017_qcxti8
+TOPIC: रोनाल्डो हात्ती मृत्यु दुर्घटना: निकुञ्जमा विद्युत् तार भूमिगत गर्न सुझाव
+MODEL: assistant_draft
+STORY ID: ST_126f5891bf2d
+DATE: 2026-10-17T08:25:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://english.onlinekhabar.com/ronaldo-elephants-death-accident.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ। ४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो। डाक्टर गणेश पन्तको नेतृत्वको समितिले निकुञ्जका ५८ पोस्टमध्ये ३९ मा केबलबाट विद्युत् पुर्याइएको र केही तार जोखिमपूर्ण रहेको फेला पारेको छ। समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ। सन् २००७ देखि संरक्षित क्षेत्रभित्र करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्। प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण विभागकै रहेको समितिले जनाएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "रोनाल्डो मृत्यु प्रकरण",
+          "value": "दुर्घटना — अध्ययन समिति"
+        }
+      ],
+      "data_source_quote": "Onlinekhabar: The committee concluded that Ronaldo's death was an accident rather than negligence."
+    },
+    "caption_text": "रोनाल्डो मृत्यु: दुर्घटना",
+    "big_hook_text": "रोनाल्डो मृत्यु: दुर्घटना",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar Oct 16: committee concluded Ronaldo's death was an accident rather than negligence; Pant said the wire was not weak and was at a height.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "असोज ३ मा तारको सम्पर्क"
+    },
+    "caption_text": "असोज ३ मा तारको सम्पर्क",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: 45-year-old bull, died September 19 at a Nepali Army post near Bishhazari Tal, Barandabhar; Gorkhapatra: असोज ३ गते विद्युत् तारको सम्पर्कमा आएर मृत्यु.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "केबलबाट विद्युत्",
+          "value": "५८ मध्ये ३९ पोस्ट"
+        }
+      ],
+      "data_source_quote": "Onlinekhabar: 39 of the 58 posts in the park, including army posts, are supplied by cable; some wiring is old and unsafe for animals."
+    },
+    "caption_text": "५८ मध्ये ३९ पोस्टमा केबल",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: committee led by senior research officer Dr Ganesh Pant found 39 of 58 posts supplied by cable, some wiring old and unsafe.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "तार भूमिगत वा २५–३० फिट माथि"
+    },
+    "caption_text": "तार भूमिगत वा २५–३० फिट माथि",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Gorkhapatra: कम्तीमा डेढ मिटर गहिरो खाडलमा भूमिगत, नसकिने ठाउँमा इन्सुलेटेड तार जमिनबाट २५ देखि ३० फिट उचाइमा, सौर्य मिनी ग्रिड सुझाव.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "सन् २००७ देखि करेन्टबाट",
+          "value": "२ हात्ती, ५ गैँडा, १ चितुवा"
+        }
+      ],
+      "data_source_quote": "Gorkhapatra: विसं २०६४ देखि हालसम्म करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्।"
+    },
+    "caption_text": "२००७ देखि ८ वन्यजन्तु मरे",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Gorkhapatra (विसं २०६४ = 2007 AD): electrocution killed 2 elephants, 5 rhinos, 1 leopard in protected areas.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कार्यान्वयन जिम्मा विभागको"
+    },
+    "caption_text": "कार्यान्वयन जिम्मा विभागको",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Gorkhapatra: संयोजक डा. पन्त — प्रतिवेदन कार्यान्वयन गर्ने र सार्वजनिक गर्ने जिम्मेवारी विभागको।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_126f5891bf2d",
+  "source_url": "https://english.onlinekhabar.com/ronaldo-elephants-death-accident.html",
+  "source_label": "Onlinekhabar / Gorkhapatra",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Report findings cross-checked between Onlinekhabar English (Oct 16) and Gorkhapatra (Asoj 30). Committee conclusion of accidental death per coordinator Dr Ganesh Pant. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.gorkhapatraonline.com/news/226900",
+    "article_quote": "गत असोज ३ गते विद्युत् तारको सम्पर्कमा आएर रोनाल्डो नामको जङ्गली भाले हात्ती मरेपछि विभागले अध्ययन समिति गठन गरेको थियो",
+    "asset_ref": "https://www.gorkhapatraonline.com/news/226900",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "रोनाल्डो हात्ती मृत्यु प्रकरण: निकुञ्जमा विद्युत् तार भूमिगत गर्न सुझाव",
+  "closing_line": "प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण विभागकै रहेको समितिले जनाएको छ।",
+  "comment_prompt": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?",
+  "pinned_comment": "वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "रोनाल्डो मृत्यु प्रकरण",
+            "value": "दुर्घटना — अध्ययन समिति"
+          }
+        ],
+        "data_source_quote": "Onlinekhabar: The committee concluded that Ronaldo's death was an accident rather than negligence."
+      },
+      "caption_text": "रोनाल्डो मृत्यु: दुर्घटना",
+      "big_hook_text": "रोनाल्डो मृत्यु: दुर्घटना",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar Oct 16: committee concluded Ronaldo's death was an accident rather than negligence; Pant said the wire was not weak and was at a height.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "असोज ३ मा तारको सम्पर्क"
+      },
+      "caption_text": "असोज ३ मा तारको सम्पर्क",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: 45-year-old bull, died September 19 at a Nepali Army post near Bishhazari Tal, Barandabhar; Gorkhapatra: असोज ३ गते विद्युत् तारको सम्पर्कमा आएर मृत्यु.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "डाक्टर गणेश पन्तको नेतृत्वको समितिले निकुञ्जका ५८ पोस्टमध्ये ३९ मा केबलबाट विद्युत् पुर्याइएको र केही तार जोखिमपूर्ण रहेको फेला पारेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "केबलबाट विद्युत्",
+            "value": "५८ मध्ये ३९ पोस्ट"
+          }
+        ],
+        "data_source_quote": "Onlinekhabar: 39 of the 58 posts in the park, including army posts, are supplied by cable; some wiring is old and unsafe for animals."
+      },
+      "caption_text": "५८ मध्ये ३९ पोस्टमा केबल",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: committee led by senior research officer Dr Ganesh Pant found 39 of 58 posts supplied by cable, some wiring old and unsafe.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "तार भूमिगत वा २५–३० फिट माथि"
+      },
+      "caption_text": "तार भूमिगत वा २५–३० फिट माथि",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Gorkhapatra: कम्तीमा डेढ मिटर गहिरो खाडलमा भूमिगत, नसकिने ठाउँमा इन्सुलेटेड तार जमिनबाट २५ देखि ३० फिट उचाइमा, सौर्य मिनी ग्रिड सुझाव.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "सन् २००७ देखि संरक्षित क्षेत्रभित्र करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "सन् २००७ देखि करेन्टबाट",
+            "value": "२ हात्ती, ५ गैँडा, १ चितुवा"
+          }
+        ],
+        "data_source_quote": "Gorkhapatra: विसं २०६४ देखि हालसम्म करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्।"
+      },
+      "caption_text": "२००७ देखि ८ वन्यजन्तु मरे",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Gorkhapatra (विसं २०६४ = 2007 AD): electrocution killed 2 elephants, 5 rhinos, 1 leopard in protected areas.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण विभागकै रहेको समितिले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कार्यान्वयन जिम्मा विभागको"
+      },
+      "caption_text": "कार्यान्वयन जिम्मा विभागको",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Gorkhapatra: संयोजक डा. पन्त — प्रतिवेदन कार्यान्वयन गर्ने र सार्वजनिक गर्ने जिम्मेवारी विभागको।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "रोनाल्डो हात्ती मृत्यु दुर्घटना: निकुञ्जमा विद्युत् तार भूमिगत गर्न सुझाव",
+    "youtube_description": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Chitwan",
+      "Ronaldo elephant"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Chitwan",
+      "#Ronaldo",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+    "instagram_caption": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+    "facebook_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+    "threads_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+    "linkedin_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Report findings cross-checked between Onlinekhabar English (Oct 16) and Gorkhapatra (Asoj 30/Oct 16): accidental-death conclusion, 39/58 cable posts, underground/insulated-wire and solar recommendations, 2007-since toll (2 elephants, 5 rhinos, 1 leopard). Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+रोनाल्डो हात्ती मृत्यु प्रकरण: निकुञ्जमा विद्युत् तार भूमिगत गर्न सुझाव
+
+--- PINNED COMMENT (Nepali question) ---
+वन्यजन्तुको सुरक्षाका लागि निकुञ्जभित्रका विद्युत् तार भूमिगत गर्नुपर्ने तपाईंलाई कस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "चितवनका चर्चित जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिले निष्कर्ष निकालेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "रोनाल्डो मृत्यु: दुर्घटना",
+      "on_screen_data": [
+        {
+          "label": "रोनाल्डो मृत्यु प्रकरण",
+          "value": "दुर्घटना — अध्ययन समिति"
+        }
+      ]
+    }
+  },
+  {
+    "text": "४५ वर्षीय रोनाल्डोको असोज ३ गते निकुञ्जको बारण्डाभार क्षेत्रमा नेपाली सेनाको पोस्टमा जडान गरिएको विद्युत् तारको सम्पर्कमा आएर मृत्यु भएको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "असोज ३ मा तारको सम्पर्क"
+    }
+  },
+  {
+    "text": "डाक्टर गणेश पन्तको नेतृत्वको समितिले निकुञ्जका ५८ पोस्टमध्ये ३९ मा केबलबाट विद्युत् पुर्याइएको र केही तार जोखिमपूर्ण रहेको फेला पारेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "५८ मध्ये ३९ पोस्टमा केबल",
+      "on_screen_data": [
+        {
+          "label": "केबलबाट विद्युत्",
+          "value": "५८ मध्ये ३९ पोस्ट"
+        }
+      ]
+    }
+  },
+  {
+    "text": "समितिले निकुञ्जभित्र विद्युत् तार भूमिगत गर्ने, नसकिएमा इन्सुलेटेड तार २५ देखि ३० फिट उचाइमा राख्ने र सौर्य ऊर्जा प्रयोग गर्ने सुझाव दिएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "तार भूमिगत वा २५–३० फिट माथि"
+    }
+  },
+  {
+    "text": "सन् २००७ देखि संरक्षित क्षेत्रभित्र करेन्ट लागेर दुई हात्ती, पाँच गैँडा र एक चितुवा मरेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "२००७ देखि ८ वन्यजन्तु मरे",
+      "on_screen_data": [
+        {
+          "label": "सन् २००७ देखि करेन्टबाट",
+          "value": "२ हात्ती, ५ गैँडा, १ चितुवा"
+        }
+      ]
+    }
+  },
+  {
+    "text": "प्रतिवेदन कार्यान्वयन गर्ने जिम्मेवारी अब राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण विभागकै रहेको समितिले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कार्यान्वयन जिम्मा विभागको"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "रोनाल्डो हात्ती मृत्यु दुर्घटना: निकुञ्जमा विद्युत् तार भूमिगत गर्न सुझाव",
+  "youtube_description": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Chitwan",
+    "Ronaldo elephant"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Chitwan",
+    "#Ronaldo",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+  "instagram_caption": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+  "facebook_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+  "threads_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal",
+  "linkedin_post": "चितवनका जंगली हात्ती रोनाल्डोको मृत्यु दुर्घटना भएको अध्ययन समितिको निष्कर्ष। निकुञ्जभित्रका विद्युत् तार भूमिगत गर्न सुझाव। #NepalNews #Chitwan #Ronaldo #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar English: Oct 16, 2026. https://english.onlinekhabar.com/ronaldo-elephants-death-accident.html
+Gorkhapatra: Asoj 30, 2083 (Oct 16, 2026). https://www.gorkhapatraonline.com/news/226900
