@@ -1,0 +1,496 @@
+REVIEW ID: RV_20261018_myz49k
+TOPIC: सिन्धुलीमा जिप सुनकोशीमा खस्दा ३ को मृत्यु, ३ बेपत्ता
+MODEL: assistant_draft
+STORY ID: ST_6a40c303a071
+DATE: 2026-10-18T08:30:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://www.annapurnapost.com/story/509757/
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+सिन्धुलीमा यात्रुवाहक जिप सुनकोशी नदीमा खस्दा तीन जनाको मृत्यु भएको छ, तीन जना बेपत्ता छन्। आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो। दुर्घटनामा तीन महिलाको घटनास्थलमै मृत्यु भएको र चालकसहित चार जना घाइते भएका प्रहरीले जनाएको छ। घाइतेहरूलाई उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको छ। बेपत्ता तीन यात्रीको खोजीमा गोताखोरसहित प्रहरी र सशस्त्र प्रहरीको संयुक्त टोली परिचालन छ। मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "सुनकोशी दुर्घटना",
+          "value": "३ मृत्यु, ३ बेपत्ता"
+        }
+      ],
+      "data_source_quote": "Annapurna Post: तीन जनाको घटनास्थलमै मृत्यु, चार घाइते, तीन बेपत्ता; Hamro Patro same."
+    },
+    "caption_text": "सुनकोशीमा जिप: ३ मृत्यु",
+    "big_hook_text": "सुनकोशीमा जिप: ३ मृत्यु",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post Oct 18: 3 dead at scene, 4 injured, 3 missing; Hamro Patro Oct 18 confirms same figures.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "बिहान साढे २ बजे, २०० मिटर तल"
+    },
+    "caption_text": "बिहान साढे २ बजे",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post: आज आइतबार बिहान करिब २:३० बजे, को १ ज २९७६, करिब २०० मिटर तल सुनकोशीमा; location Fikkal-6 Nagathan, Mid-hill highway.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "घाइते",
+          "value": "४ जना"
+        }
+      ],
+      "data_source_quote": "Annapurna Post: उद्धारका क्रममा घटनास्थलबाट तीन महिलाको शव फेला; चालकसहित चार घाइते।"
+    },
+    "caption_text": "३ महिलाको घटनास्थलमै मृत्यु",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post: three women's bodies recovered at scene; driver among 4 injured; police statement.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "घाइते घुर्मी पठाइए"
+    },
+    "caption_text": "घाइते घुर्मी पठाइए",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post: घाइते चार जनालाई प्राथमिक उपचारका लागि उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको थियो।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "गोताखोर खटिए, खोजी जारी"
+    },
+    "caption_text": "गोताखोर खटिए",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post: इलाका प्रहरी खुर्कोट र सशस्त्र प्रहरी विपद् व्यवस्थापन बेस खुर्कोटको गोताखोर टोलीसहित संयुक्त टोली खटिएको।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पहिचान र कारण खुल्न बाँकी"
+    },
+    "caption_text": "पहिचान र कारण खुल्न बाँकी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Annapurna Post: मृतकहरूको पहिचान र दुर्घटनाको स्पष्ट कारण खुल्न बाँकी; थप अनुसन्धान जारी।",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_6a40c303a071",
+  "source_url": "https://www.annapurnapost.com/story/509757/",
+  "source_label": "Annapurna Post / Hamro Patro",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Casualty figures (3 dead at scene, 4 injured, 3 missing), location (Fikkal-6 Nagathan, Sindhuli), time (~2:30 AM Sunday) and vehicle (Kathmandu-Khotang jeep) match Annapurna Post and Hamro Patro (both Oct 18). Deceased identities and cause not yet known; script says so. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "सिन्धुलीमा यात्रुवाहक जिप सुनकोशी नदीमा खस्दा तीन जनाको मृत्यु भएको छ, तीन जना बेपत्ता छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.hamropatro.com/news/detail/4480522091060582-sunakosi-nadima-yatruvahak-jip-khasda-3-janako-mrityu-4-ghaite",
+    "article_quote": "सुनकोशी नदीमा यात्रुवाहक जिप खस्दा ३ जनाको मृत्यु, ४ घाइते ३ बेपत्ता",
+    "asset_ref": "https://www.hamropatro.com/news/detail/4480522091060582-sunakosi-nadima-yatruvahak-jip-khasda-3-janako-mrityu-4-ghaite",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "सिन्धुली जिप दुर्घटना: ३ मृत्यु, ३ बेपत्ता",
+  "closing_line": "मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ।",
+  "comment_prompt": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?",
+  "pinned_comment": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "सिन्धुलीमा यात्रुवाहक जिप सुनकोशी नदीमा खस्दा तीन जनाको मृत्यु भएको छ, तीन जना बेपत्ता छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "सुनकोशी दुर्घटना",
+            "value": "३ मृत्यु, ३ बेपत्ता"
+          }
+        ],
+        "data_source_quote": "Annapurna Post: तीन जनाको घटनास्थलमै मृत्यु, चार घाइते, तीन बेपत्ता; Hamro Patro same."
+      },
+      "caption_text": "सुनकोशीमा जिप: ३ मृत्यु",
+      "big_hook_text": "सुनकोशीमा जिप: ३ मृत्यु",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post Oct 18: 3 dead at scene, 4 injured, 3 missing; Hamro Patro Oct 18 confirms same figures.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "बिहान साढे २ बजे, २०० मिटर तल"
+      },
+      "caption_text": "बिहान साढे २ बजे",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post: आज आइतबार बिहान करिब २:३० बजे, को १ ज २९७६, करिब २०० मिटर तल सुनकोशीमा; location Fikkal-6 Nagathan, Mid-hill highway.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "दुर्घटनामा तीन महिलाको घटनास्थलमै मृत्यु भएको र चालकसहित चार जना घाइते भएका प्रहरीले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "घाइते",
+            "value": "४ जना"
+          }
+        ],
+        "data_source_quote": "Annapurna Post: उद्धारका क्रममा घटनास्थलबाट तीन महिलाको शव फेला; चालकसहित चार घाइते।"
+      },
+      "caption_text": "३ महिलाको घटनास्थलमै मृत्यु",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post: three women's bodies recovered at scene; driver among 4 injured; police statement.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "घाइतेहरूलाई उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "घाइते घुर्मी पठाइए"
+      },
+      "caption_text": "घाइते घुर्मी पठाइए",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post: घाइते चार जनालाई प्राथमिक उपचारका लागि उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको थियो।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "बेपत्ता तीन यात्रीको खोजीमा गोताखोरसहित प्रहरी र सशस्त्र प्रहरीको संयुक्त टोली परिचालन छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "गोताखोर खटिए, खोजी जारी"
+      },
+      "caption_text": "गोताखोर खटिए",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post: इलाका प्रहरी खुर्कोट र सशस्त्र प्रहरी विपद् व्यवस्थापन बेस खुर्कोटको गोताखोर टोलीसहित संयुक्त टोली खटिएको।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पहिचान र कारण खुल्न बाँकी"
+      },
+      "caption_text": "पहिचान र कारण खुल्न बाँकी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Annapurna Post: मृतकहरूको पहिचान र दुर्घटनाको स्पष्ट कारण खुल्न बाँकी; थप अनुसन्धान जारी।",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "सिन्धुलीमा जिप सुनकोशीमा खस्दा ३ को मृत्यु, ३ बेपत्ता",
+    "youtube_description": "सिन्धुलीको फिक्कलमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा तीनको मृत्यु, चार घाइते, तीन बेपत्ता। खोजी कार्य जारी।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Sindhuli",
+      "Sunkoshi"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Sindhuli",
+      "#Sunkoshi",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+    "instagram_caption": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+    "facebook_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+    "threads_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+    "linkedin_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Casualty figures (3 dead at scene, 4 injured, 3 missing), location, time and vehicle cross-checked between Annapurna Post and Hamro Patro (both Oct 18). Deceased identities and cause unknown per police; script states that. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+सिन्धुली जिप दुर्घटना: ३ मृत्यु, ३ बेपत्ता
+
+--- PINNED COMMENT (Nepali question) ---
+यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "सिन्धुलीमा यात्रुवाहक जिप सुनकोशी नदीमा खस्दा तीन जनाको मृत्यु भएको छ, तीन जना बेपत्ता छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "सुनकोशीमा जिप: ३ मृत्यु",
+      "on_screen_data": [
+        {
+          "label": "सुनकोशी दुर्घटना",
+          "value": "३ मृत्यु, ३ बेपत्ता"
+        }
+      ]
+    }
+  },
+  {
+    "text": "आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "बिहान साढे २ बजे"
+    }
+  },
+  {
+    "text": "दुर्घटनामा तीन महिलाको घटनास्थलमै मृत्यु भएको र चालकसहित चार जना घाइते भएका प्रहरीले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "३ महिलाको घटनास्थलमै मृत्यु",
+      "on_screen_data": [
+        {
+          "label": "घाइते",
+          "value": "४ जना"
+        }
+      ]
+    }
+  },
+  {
+    "text": "घाइतेहरूलाई उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "घाइते घुर्मी पठाइए"
+    }
+  },
+  {
+    "text": "बेपत्ता तीन यात्रीको खोजीमा गोताखोरसहित प्रहरी र सशस्त्र प्रहरीको संयुक्त टोली परिचालन छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "गोताखोर खटिए"
+    }
+  },
+  {
+    "text": "मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पहिचान र कारण खुल्न बाँकी"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "सिन्धुलीमा जिप सुनकोशीमा खस्दा ३ को मृत्यु, ३ बेपत्ता",
+  "youtube_description": "सिन्धुलीको फिक्कलमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा तीनको मृत्यु, चार घाइते, तीन बेपत्ता। खोजी कार्य जारी।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Sindhuli",
+    "Sunkoshi"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Sindhuli",
+    "#Sunkoshi",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+  "instagram_caption": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+  "facebook_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+  "threads_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal",
+  "linkedin_post": "सिन्धुलीमा काठमाडौं-खोटाङ जिप सुनकोशीमा खस्दा ३ को मृत्यु, ४ घाइते, ३ बेपत्ता। #NepalNews #Sindhuli #Sunkoshi #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Annapurna Post: Oct 18, 2026 (Kartik 1). https://www.annapurnapost.com/story/509757/
+Hamro Patro: Oct 18, 2026. https://www.hamropatro.com/news/detail/4480522091060582-sunakosi-nadima-yatruvahak-jip-khasda-3-janako-mrityu-4-ghaite

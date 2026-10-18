@@ -1,0 +1,515 @@
+REVIEW ID: RV_20261018_dne6p8
+TOPIC: दशैं सुरक्षामा ५० हजार ४५८ प्रहरी परिचालन, उपत्यकामा ७ हजार ६६८
+MODEL: assistant_draft
+STORY ID: ST_9a625d7276fd
+DATE: 2026-10-18T08:30:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2040825/which-is-dashain-and-which-is-tihar-for-the-military
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+तपाईं दशैं मनाउन घर जाँदै हुनुहुन्छ? तपाईंकै सुरक्षाका लागि देशभर ५० हजार ४५८ प्रहरी चाडपर्वमै ड्युटीमा छन्। नेपाल प्रहरीले दशैं, तिहार र छठलाई लक्षित गरी विशेष सुरक्षा योजना लागू गरेको हो। काठमाडौं उपत्यकामा ७ हजार ६६८ प्रहरी खटिएका छन् भने निगरानीका लागि ड्रोन र तालिमप्राप्त कुकुरसमेत प्रयोग गरिनेछ। देशभर ४०८ वटा यात्रु सहायता कक्ष छन् भने १०८ वटा अन्तर्राष्ट्रिय सीमा नाकामा ७०५ जना सहायता डेस्कमा तैनाथ छन्। घटस्थापनामा जमरा राखेदेखि एकादशीमा आईजीपीबाट टीका थाप्ने चलन भए पनि अधिकांश प्रहरीको दशैं ब्यारेकमै बित्छ। चाडपर्वमा अपराध बढ्न सक्ने भएकाले प्रहरी यो बेला अझ सक्रिय हुने जनाइएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "दशैं ड्युटीमा",
+          "value": "५०,४५८ प्रहरी"
+        }
+      ],
+      "data_source_quote": "Onlinekhabar English: mobilised 50,458 personnel; Peoples' Review: 50,458 via Valley office and all seven provinces."
+    },
+    "caption_text": "दशैंमा ५०,४५८ प्रहरी ड्युटीमा",
+    "big_hook_text": "दशैंमा ५०,४५८ प्रहरी ड्युटीमा",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar English Oct 13 + Peoples' Review Oct 14 + Onlinekhabar feature Asoj 31: 50,458 deployed nationwide for Dashain-Tihar-Chhath.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दशैं-तिहार-छठ विशेष योजना"
+    },
+    "caption_text": "दशैं-तिहार-छठ विशेष योजना",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review: special security plan for Dashain, Tihar, Chhath and other festivals; Onlinekhabar English same.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "उपत्यकामा",
+          "value": "७,६६८ प्रहरी"
+        }
+      ],
+      "data_source_quote": "Peoples' Review: 7,668 personnel in Kathmandu Valley; drones and trained dogs for surveillance."
+    },
+    "caption_text": "उपत्यकामा ७,६६८, ड्रोन-कुकुर निगरानी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review Oct 14: 7,668 in Valley; CCTV, drones, trained dogs; Onlinekhabar English confirms Valley figure.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "INFOGRAPHIC",
+      "on_screen_data": [
+        {
+          "label": "यात्रु सहायता कक्ष",
+          "value": "४०८ वटा"
+        }
+      ],
+      "data_source_quote": "Peoples' Review: 408 passenger assistance desks nationwide; 705 personnel at help desks at 108 international border locations."
+    },
+    "caption_text": "४०८ सहायता कक्ष, सीमामा ७०५",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review Oct 14: 408 passenger assistance desks; 705 personnel at 108 border help desks.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "अधिकांशको दशैं ब्यारेकमै"
+    },
+    "caption_text": "अधिकांशको दशैं ब्यारेकमै",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar feature (single source, attributed to Police HQ): most personnel spend Dashain in barracks; jamara on Ghatasthapana, tika from IGP on Ekadashi.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "चाडपर्वमा अझ सक्रिय"
+    },
+    "caption_text": "चाडपर्वमा अझ सक्रिय",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "SSP Dilip Ghimire ( Kathmandu Valley Police) in Onlinekhabar feature: criminals treat festivals as opportunity, police stay extra alert.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_9a625d7276fd",
+  "source_url": "https://www.onlinekhabar.com/2026/10/2040825/which-is-dashain-and-which-is-tihar-for-the-military",
+  "source_label": "Onlinekhabar / Peoples' Review",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Deployment figures (50,458 nationwide, 7,668 Kathmandu Valley, province split) match Onlinekhabar English (Oct 13), Peoples' Review (Oct 14) and the Onlinekhabar Nepali feature (Asoj 31). 408 help desks and 705 border-desk personnel from Peoples' Review. Barracks-Dashain and Ekadashi-tika color from the Onlinekhabar feature only (single source, attributed to police officials). Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "तपाईं दशैं मनाउन घर जाँदै हुनुहुन्छ? तपाईंकै सुरक्षाका लागि देशभर ५० हजार ४५८ प्रहरी चाडपर्वमै ड्युटीमा छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://peoplesreview.com.np/2026/10/14/over-50000-police-deployed-nationwide-for-festival-security/",
+    "article_quote": "50,458 personnel will be deployed through the Kathmandu Valley Police Office in Ranipokhari and police offices in all seven provinces",
+    "asset_ref": "https://peoplesreview.com.np/2026/10/14/over-50000-police-deployed-nationwide-for-festival-security/",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "दशैं सुरक्षामा ५० हजार ४५८ प्रहरी, उपत्यकामा ७ हजार ६६८",
+  "closing_line": "चाडपर्वमा अपराध बढ्न सक्ने भएकाले प्रहरी यो बेला अझ सक्रिय हुने जनाइएको छ।",
+  "comment_prompt": "दशैंमा पनि ड्युटीमा रहने प्रहरीप्रति तपाईंलाई के लाग्छ?",
+  "pinned_comment": "दशैंमा पनि ड्युटीमा रहने प्रहरीप्रति तपाईंलाई के लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "तपाईं दशैं मनाउन घर जाँदै हुनुहुन्छ? तपाईंकै सुरक्षाका लागि देशभर ५० हजार ४५८ प्रहरी चाडपर्वमै ड्युटीमा छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "दशैं ड्युटीमा",
+            "value": "५०,४५८ प्रहरी"
+          }
+        ],
+        "data_source_quote": "Onlinekhabar English: mobilised 50,458 personnel; Peoples' Review: 50,458 via Valley office and all seven provinces."
+      },
+      "caption_text": "दशैंमा ५०,४५८ प्रहरी ड्युटीमा",
+      "big_hook_text": "दशैंमा ५०,४५८ प्रहरी ड्युटीमा",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar English Oct 13 + Peoples' Review Oct 14 + Onlinekhabar feature Asoj 31: 50,458 deployed nationwide for Dashain-Tihar-Chhath.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "नेपाल प्रहरीले दशैं, तिहार र छठलाई लक्षित गरी विशेष सुरक्षा योजना लागू गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दशैं-तिहार-छठ विशेष योजना"
+      },
+      "caption_text": "दशैं-तिहार-छठ विशेष योजना",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review: special security plan for Dashain, Tihar, Chhath and other festivals; Onlinekhabar English same.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "काठमाडौं उपत्यकामा ७ हजार ६६८ प्रहरी खटिएका छन् भने निगरानीका लागि ड्रोन र तालिमप्राप्त कुकुरसमेत प्रयोग गरिनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "उपत्यकामा",
+            "value": "७,६६८ प्रहरी"
+          }
+        ],
+        "data_source_quote": "Peoples' Review: 7,668 personnel in Kathmandu Valley; drones and trained dogs for surveillance."
+      },
+      "caption_text": "उपत्यकामा ७,६६८, ड्रोन-कुकुर निगरानी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review Oct 14: 7,668 in Valley; CCTV, drones, trained dogs; Onlinekhabar English confirms Valley figure.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "देशभर ४०८ वटा यात्रु सहायता कक्ष छन् भने १०८ वटा अन्तर्राष्ट्रिय सीमा नाकामा ७०५ जना सहायता डेस्कमा तैनाथ छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "INFOGRAPHIC",
+        "on_screen_data": [
+          {
+            "label": "यात्रु सहायता कक्ष",
+            "value": "४०८ वटा"
+          }
+        ],
+        "data_source_quote": "Peoples' Review: 408 passenger assistance desks nationwide; 705 personnel at help desks at 108 international border locations."
+      },
+      "caption_text": "४०८ सहायता कक्ष, सीमामा ७०५",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review Oct 14: 408 passenger assistance desks; 705 personnel at 108 border help desks.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "घटस्थापनामा जमरा राखेदेखि एकादशीमा आईजीपीबाट टीका थाप्ने चलन भए पनि अधिकांश प्रहरीको दशैं ब्यारेकमै बित्छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "अधिकांशको दशैं ब्यारेकमै"
+      },
+      "caption_text": "अधिकांशको दशैं ब्यारेकमै",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar feature (single source, attributed to Police HQ): most personnel spend Dashain in barracks; jamara on Ghatasthapana, tika from IGP on Ekadashi.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "चाडपर्वमा अपराध बढ्न सक्ने भएकाले प्रहरी यो बेला अझ सक्रिय हुने जनाइएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "चाडपर्वमा अझ सक्रिय"
+      },
+      "caption_text": "चाडपर्वमा अझ सक्रिय",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "SSP Dilip Ghimire ( Kathmandu Valley Police) in Onlinekhabar feature: criminals treat festivals as opportunity, police stay extra alert.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "दशैं सुरक्षामा ५० हजार ४५८ प्रहरी परिचालन, उपत्यकामा ७ हजार ६६८",
+    "youtube_description": "दशैं, तिहार र छठका लागि देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन र कुकुरबाट निगरानी, ४०८ यात्रु सहायता कक्ष।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Dashain",
+      "Nepal Police"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Dashain",
+      "#NepalPolice",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+    "instagram_caption": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+    "facebook_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+    "threads_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+    "linkedin_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Deployment figures (50,458 nationwide; 7,668 Kathmandu Valley) cross-checked between Onlinekhabar English (Oct 13), Peoples' Review (Oct 14) and Onlinekhabar Nepali feature (Asoj 31); 408 help desks and 705 border personnel per Peoples' Review. Barracks-Dashain and Ekadashi-tika color single-source (Onlinekhabar feature, attributed to police officials) and flagged as such in source_evidence. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+दशैं सुरक्षामा ५० हजार ४५८ प्रहरी, उपत्यकामा ७ हजार ६६८
+
+--- PINNED COMMENT (Nepali question) ---
+दशैंमा पनि ड्युटीमा रहने प्रहरीप्रति तपाईंलाई के लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "तपाईं दशैं मनाउन घर जाँदै हुनुहुन्छ? तपाईंकै सुरक्षाका लागि देशभर ५० हजार ४५८ प्रहरी चाडपर्वमै ड्युटीमा छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दशैंमा ५०,४५८ प्रहरी ड्युटीमा",
+      "on_screen_data": [
+        {
+          "label": "दशैं ड्युटीमा",
+          "value": "५०,४५८ प्रहरी"
+        }
+      ]
+    }
+  },
+  {
+    "text": "नेपाल प्रहरीले दशैं, तिहार र छठलाई लक्षित गरी विशेष सुरक्षा योजना लागू गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दशैं-तिहार-छठ विशेष योजना"
+    }
+  },
+  {
+    "text": "काठमाडौं उपत्यकामा ७ हजार ६६८ प्रहरी खटिएका छन् भने निगरानीका लागि ड्रोन र तालिमप्राप्त कुकुरसमेत प्रयोग गरिनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "उपत्यकामा ७,६६८, ड्रोन-कुकुर निगरानी",
+      "on_screen_data": [
+        {
+          "label": "उपत्यकामा",
+          "value": "७,६६८ प्रहरी"
+        }
+      ]
+    }
+  },
+  {
+    "text": "देशभर ४०८ वटा यात्रु सहायता कक्ष छन् भने १०८ वटा अन्तर्राष्ट्रिय सीमा नाकामा ७०५ जना सहायता डेस्कमा तैनाथ छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "INFOGRAPHIC",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "४०८ सहायता कक्ष, सीमामा ७०५",
+      "on_screen_data": [
+        {
+          "label": "यात्रु सहायता कक्ष",
+          "value": "४०८ वटा"
+        }
+      ]
+    }
+  },
+  {
+    "text": "घटस्थापनामा जमरा राखेदेखि एकादशीमा आईजीपीबाट टीका थाप्ने चलन भए पनि अधिकांश प्रहरीको दशैं ब्यारेकमै बित्छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "अधिकांशको दशैं ब्यारेकमै"
+    }
+  },
+  {
+    "text": "चाडपर्वमा अपराध बढ्न सक्ने भएकाले प्रहरी यो बेला अझ सक्रिय हुने जनाइएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "चाडपर्वमा अझ सक्रिय"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "दशैं सुरक्षामा ५० हजार ४५८ प्रहरी परिचालन, उपत्यकामा ७ हजार ६६८",
+  "youtube_description": "दशैं, तिहार र छठका लागि देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन र कुकुरबाट निगरानी, ४०८ यात्रु सहायता कक्ष।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Dashain",
+    "Nepal Police"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Dashain",
+    "#NepalPolice",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+  "instagram_caption": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+  "facebook_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+  "threads_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal",
+  "linkedin_post": "दशैं सुरक्षामा देशभर ५०,४५८ प्रहरी परिचालन। उपत्यकामा ७,६६८; ड्रोन-कुकुर निगरानी। #NepalNews #Dashain #NepalPolice #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar feature: Asoj 31, 2083 (Oct 17, 2026). https://www.onlinekhabar.com/2026/10/2040825/which-is-dashain-and-which-is-tihar-for-the-military
+Peoples' Review: Oct 14, 2026. https://peoplesreview.com.np/2026/10/14/over-50000-police-deployed-nationwide-for-festival-security/
+Onlinekhabar English: Oct 13, 2026. https://english.onlinekhabar.com/nepal-police-deploy-festive-period.html

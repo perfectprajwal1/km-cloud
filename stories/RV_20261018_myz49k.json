@@ -1,0 +1,628 @@
+{
+ "id": "RV_20261018_myz49k",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?",
+ "pinned_comment": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "सुनकोशीमा जिप: ३ मृत्यु",
+   "sub": "सुनकोशी दुर्घटना",
+   "km_default": true,
+   "vo": "सिन्धुलीमा यात्रुवाहक जिप सुनकोशी नदीमा खस्दा तीन जनाको मृत्यु भएको छ, तीन जना बेपत्ता छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_01_9a3f77.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 3.0,
+      "numText": "३",
+      "unit": "मृत्यु, ३ बेपत्ता",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "सुनकोशी दुर्घटना",
+      "at": 0.03
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "place": "काठमाडौं",
+   "headline": "आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो।",
+   "type": "place",
+   "vo": "आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_02_143aca.png",
+    "anim": {
+     "kind": "track",
+     "track": {
+      "ticks": [
+       {
+        "t": "०",
+        "x": 120.0
+       },
+       {
+        "t": "२५",
+        "x": 225.0
+       },
+       {
+        "t": "५०",
+        "x": 330.0
+       },
+       {
+        "t": "७५",
+        "x": 435.0
+       },
+       {
+        "t": "१००",
+        "x": 540.0
+       },
+       {
+        "t": "१२५",
+        "x": 645.0
+       },
+       {
+        "t": "१५०",
+        "x": 750.0
+       },
+       {
+        "t": "१७५",
+        "x": 855.0
+       },
+       {
+        "t": "",
+        "x": 960.0
+       }
+      ],
+      "from": "बजे काठमाडौं",
+      "to": "",
+      "cap": "बिहान साढे २ बजे · मिटर",
+      "a0": 0.213,
+      "a1": 0.86,
+      "layout": {
+       "x1": 120,
+       "x2": 960,
+       "y": 300
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "cap": 48,
+      "from": 68
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "४ जना",
+   "headline": "३ महिलाको घटनास्थलमै मृत्यु",
+   "sub": "घाइते",
+   "km_default": true,
+   "vo": "दुर्घटनामा तीन महिलाको घटनास्थलमै मृत्यु भएको र चालकसहित चार जना घाइते भएका प्रहरीले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_03_59dcbd.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 4,
+      "icon": "people",
+      "label": "घाइते",
+      "at": 0.04,
+      "layout": {
+       "cols": 4,
+       "rows": 1,
+       "step": 190,
+       "size": 148,
+       "x0": 160.0,
+       "y0": 167,
+       "capY": 391
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "people": "<circle pathLength=\"1\" cx=\"9\" cy=\"8\" r=\"3\"/><circle pathLength=\"1\" cx=\"17\" cy=\"9\" r=\"2.5\"/><path pathLength=\"1\" d=\"M3 20c0-3.5 2.5-6 6-6s6 2.5 6 6\"/><path pathLength=\"1\" d=\"M15 14.5c3 0 6 2 6 5.5\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "घाइते घुर्मी पठाइए",
+   "points": [
+    "घाइतेहरूलाई उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर"
+   ],
+   "km_default": true,
+   "vo": "घाइतेहरूलाई उदयपुरको घुर्मीस्थित जनसेवा हेल्थ सेन्टर पठाइएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_04_db176a.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "उदयपुर",
+        "sub": "",
+        "focus": true,
+        "at": 0.155
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "गोताखोर खटिए",
+   "points": [
+    "बेपत्ता तीन यात्रीको खोजीमा गोताखोरसहित प्रहरी र सशस्त्र"
+   ],
+   "km_default": true,
+   "vo": "बेपत्ता तीन यात्रीको खोजीमा गोताखोरसहित प्रहरी र सशस्त्र प्रहरीको संयुक्त टोली परिचालन छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_05_df4d4a.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "बेपत्ता तीन यात्रीको खोजीमा "
+       },
+       {
+        "t": "गोताखोरसहित",
+        "hl": true,
+        "at": 0.302
+       },
+       {
+        "t": " प्रहरी र सशस्त्र प्रहरीको संयुक्त टोली परिचालन छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पहिचान र कारण खुल्न बाँकी",
+   "points": [
+    "मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ"
+   ],
+   "km_default": true,
+   "vo": "मृतकको पहिचान र दुर्घटनाको कारण खुल्न बाँकी छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261018_myz49k_06_6c4fae.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "पहिचान",
+        "key": true,
+        "at": 0.142
+       },
+       {
+        "t": "र",
+        "key": false,
+        "at": 0.224
+       },
+       {
+        "t": "कारण",
+        "key": false,
+        "at": 0.377
+       },
+       {
+        "t": "खुल्न",
+        "key": false,
+        "at": 0.436
+       },
+       {
+        "t": "बाँकी",
+        "key": false,
+        "at": 0.506
+       }
+      ],
+      "icon": "star",
+      "at": 0.142
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "यात्रा अघि गाडी र चालकको अवस्था जाँच्नु कति जरुरी ठान्नुहुन्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "4c4684e22a328eeffa19d79f8872f952ee9a83fbb2e1a615ce5e5c470bb8ba0f",
+  "plan_hash": "be59f5f2f2889813d1a69853eb0abeee6835cf514a0dc377491c4bf2e0b945a3",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:place",
+   "strip:track",
+   "main:scale",
+   "strip:units",
+   "main:points_plain",
+   "strip:place",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:place",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat",
+   "strip:track",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 185.959,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:place",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:place": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "place",
+    "selected_strip": "track",
+    "score": 176.96,
+    "reason": [
+     "one explicit location",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:place",
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place",
+     "strip:track"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "place",
+       "text": "काठमाडौं",
+       "start": 31,
+       "end": 39
+      },
+      {
+       "field": "headline",
+       "text": "आइतबार बिहान करिब साढे दुई बजे काठमाडौंबाट खोटाङतर्फ जाँदै गरेको जिप फिक्कल गाउँपालिका–६ नागथानमा सडकबाट करिब २०० मिटर तल खसेको हो।",
+       "start": 0,
+       "end": 131
+      }
+     ],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:place": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "scale",
+    "selected_strip": "units",
+    "score": 170.606,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 129.832,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.286,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.386,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "48d3442d05524845a669ad1f825fb74617f90cfadfb9eecf0662c7fcd521879f"
+ }
+}
