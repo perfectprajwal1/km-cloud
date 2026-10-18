@@ -1,0 +1,460 @@
+REVIEW ID: RV_20261018_2n921i
+TOPIC: लगानी बोर्डका पूर्व सीईओ सुशील भट्ट पक्राउ
+MODEL: assistant_draft
+STORY ID: ST_ccb51605448f
+DATE: 2026-10-18T17:50:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://english.nepalnews.com/s/crime-news/former-investment-board-ceo-sushil-bhatta-arrested/
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+लगानी बोर्ड नेपालका पूर्व प्रमुख कार्यकारी अधिकृत सुशील भट्ट पक्राउ परेका छन्। काठमाडौं जिल्ला प्रहरी परिसरको टोलीले उनलाई शनिबार साँझ ललितपुरबाट पक्राउ गरेको हो। प्रहरीले आर्थिक कारोबारसम्बन्धी अनुसन्धानका लागि उनलाई नियन्त्रणमा लिएको जनाएको छ। भट्ट चार वर्ष लगानी बोर्डको सीईओ रहँदा सन् २०२४ मा उनको कार्यकाल सकिएको थियो। उनलाई हाल काठमाडौं जिल्ला प्रहरी परिसरमा राखी थप अनुसन्धान भइरहेको छ। ठोस आरोप भने अहिलेसम्म सार्वजनिक भएको छैन। अनुसन्धानका लागि पक्राउ मात्रै दोषी हुनु होइन।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पूर्व सीईओ भट्ट पक्राउ"
+    },
+    "caption_text": "पूर्व सीईओ भट्ट पक्राउ",
+    "big_hook_text": "पूर्व सीईओ भट्ट पक्राउ",
+    "pip_mode": "off",
+    "source_evidence": "Nepal News Oct 18: Former IBN CEO Sushil Bhatta arrested; Peoples' Review Oct 18 confirms.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "शनिबार साँझ ललितपुरबाट"
+    },
+    "caption_text": "शनिबार साँझ ललितपुरबाट",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nepal News: team from District Police Range Kathmandu took him into custody from Lalitpur on Saturday; Peoples' Review: arrested in Lalitpur on Saturday evening, confirmed by DPR chief Dilip Ghimire.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "आर्थिक कारोबार अनुसन्धान"
+    },
+    "caption_text": "आर्थिक कारोबार अनुसन्धान",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review: investigation into suspected money laundering offences; Nepal News: alleged offences under the NRB Act linked to business dealings. Script uses the shared, neutral 'financial-dealings investigation'.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "सन् २०२४ मा कार्यकाल सकिएको"
+    },
+    "caption_text": "सीईओ कार्यकाल २०२४ मा सकियो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review: served as CEO for four years before completing his tenure in 2024.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "जिल्ला प्रहरी परिसरमा अनुसन्धान"
+    },
+    "caption_text": "जिल्ला प्रहरी परिसरमा अनुसन्धान",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nepal News: currently held at the District Police Range, Kathmandu, as further investigations continue.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "आरोप सार्वजनिक छैन"
+    },
+    "caption_text": "आरोप सार्वजनिक छैन",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Peoples' Review: allegations not publicly detailed; an arrest for investigation does not establish guilt.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_ccb51605448f",
+  "source_url": "https://english.nepalnews.com/s/crime-news/former-investment-board-ceo-sushil-bhatta-arrested/",
+  "source_label": "Nepal News / Peoples' Review",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Arrest core (Saturday evening, Lalitpur, District Police Range Kathmandu team, held at DPR Kathmandu, investigation ongoing, 4-year CEO tenure ending 2024) matches Nepal News and Peoples' Review (both Oct 18). Characterization of the probe differs slightly by outlet (NRB Act offences per Nepal News police source; suspected money laundering per Peoples' Review) so the script says only 'financial-dealings investigation'. No charge public; script states arrest does not establish guilt. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "लगानी बोर्ड नेपालका पूर्व प्रमुख कार्यकारी अधिकृत सुशील भट्ट पक्राउ परेका छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://peoplesreview.com.np/2026/10/18/former-investment-board-ceo-sushil-bhatta-arrested/",
+    "article_quote": "Police have arrested Sushil Bhatta, former chief executive officer of Investment Board Nepal, for investigation into suspected money laundering offences.",
+    "asset_ref": "https://peoplesreview.com.np/2026/10/18/former-investment-board-ceo-sushil-bhatta-arrested/",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "पूर्व सीईओ भट्ट पक्राउ: अनुसन्धान जारी",
+  "closing_line": "ठोस आरोप भने अहिलेसम्म सार्वजनिक भएको छैन। अनुसन्धानका लागि पक्राउ मात्रै दोषी हुनु होइन।",
+  "comment_prompt": "पूर्व अधिकृतमाथिको यस्तो अनुसन्धानले के सन्देश दिन्छ?",
+  "pinned_comment": "पूर्व अधिकृतमाथिको यस्तो अनुसन्धानले के सन्देश दिन्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "लगानी बोर्ड नेपालका पूर्व प्रमुख कार्यकारी अधिकृत सुशील भट्ट पक्राउ परेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पूर्व सीईओ भट्ट पक्राउ"
+      },
+      "caption_text": "पूर्व सीईओ भट्ट पक्राउ",
+      "big_hook_text": "पूर्व सीईओ भट्ट पक्राउ",
+      "pip_mode": "off",
+      "source_evidence": "Nepal News Oct 18: Former IBN CEO Sushil Bhatta arrested; Peoples' Review Oct 18 confirms.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "काठमाडौं जिल्ला प्रहरी परिसरको टोलीले उनलाई शनिबार साँझ ललितपुरबाट पक्राउ गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "शनिबार साँझ ललितपुरबाट"
+      },
+      "caption_text": "शनिबार साँझ ललितपुरबाट",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nepal News: team from District Police Range Kathmandu took him into custody from Lalitpur on Saturday; Peoples' Review: arrested in Lalitpur on Saturday evening, confirmed by DPR chief Dilip Ghimire.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "प्रहरीले आर्थिक कारोबारसम्बन्धी अनुसन्धानका लागि उनलाई नियन्त्रणमा लिएको जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "आर्थिक कारोबार अनुसन्धान"
+      },
+      "caption_text": "आर्थिक कारोबार अनुसन्धान",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review: investigation into suspected money laundering offences; Nepal News: alleged offences under the NRB Act linked to business dealings. Script uses the shared, neutral 'financial-dealings investigation'.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "भट्ट चार वर्ष लगानी बोर्डको सीईओ रहँदा सन् २०२४ मा उनको कार्यकाल सकिएको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "सन् २०२४ मा कार्यकाल सकिएको"
+      },
+      "caption_text": "सीईओ कार्यकाल २०२४ मा सकियो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review: served as CEO for four years before completing his tenure in 2024.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "उनलाई हाल काठमाडौं जिल्ला प्रहरी परिसरमा राखी थप अनुसन्धान भइरहेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "जिल्ला प्रहरी परिसरमा अनुसन्धान"
+      },
+      "caption_text": "जिल्ला प्रहरी परिसरमा अनुसन्धान",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nepal News: currently held at the District Police Range, Kathmandu, as further investigations continue.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "ठोस आरोप भने अहिलेसम्म सार्वजनिक भएको छैन। अनुसन्धानका लागि पक्राउ मात्रै दोषी हुनु होइन।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "आरोप सार्वजनिक छैन"
+      },
+      "caption_text": "आरोप सार्वजनिक छैन",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Peoples' Review: allegations not publicly detailed; an arrest for investigation does not establish guilt.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "लगानी बोर्डका पूर्व सीईओ सुशील भट्ट पक्राउ",
+    "youtube_description": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्टलाई प्रहरीले आर्थिक कारोबारसम्बन्धी अनुसन्धानका लागि पक्राउ गरेको छ। ठोस आरोप सार्वजनिक छैन।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Sushil Bhatta",
+      "Investment Board"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#SushilBhatta",
+      "#InvestmentBoard",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+    "instagram_caption": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+    "facebook_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+    "threads_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+    "linkedin_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Arrest core (Saturday evening, Lalitpur, DPR Kathmandu, held for investigation, CEO tenure ended 2024) cross-checked between Nepal News and Peoples' Review (both Oct 18). Probe characterization differs by outlet (NRB Act vs money laundering), so the script uses neutral 'financial-dealings investigation'; no charge public and the closing says arrest does not establish guilt. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+पूर्व सीईओ भट्ट पक्राउ: अनुसन्धान जारी
+
+--- PINNED COMMENT (Nepali question) ---
+पूर्व अधिकृतमाथिको यस्तो अनुसन्धानले के सन्देश दिन्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "लगानी बोर्ड नेपालका पूर्व प्रमुख कार्यकारी अधिकृत सुशील भट्ट पक्राउ परेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पूर्व सीईओ भट्ट पक्राउ"
+    }
+  },
+  {
+    "text": "काठमाडौं जिल्ला प्रहरी परिसरको टोलीले उनलाई शनिबार साँझ ललितपुरबाट पक्राउ गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "शनिबार साँझ ललितपुरबाट"
+    }
+  },
+  {
+    "text": "प्रहरीले आर्थिक कारोबारसम्बन्धी अनुसन्धानका लागि उनलाई नियन्त्रणमा लिएको जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "आर्थिक कारोबार अनुसन्धान"
+    }
+  },
+  {
+    "text": "भट्ट चार वर्ष लगानी बोर्डको सीईओ रहँदा सन् २०२४ मा उनको कार्यकाल सकिएको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "सीईओ कार्यकाल २०२४ मा सकियो"
+    }
+  },
+  {
+    "text": "उनलाई हाल काठमाडौं जिल्ला प्रहरी परिसरमा राखी थप अनुसन्धान भइरहेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "जिल्ला प्रहरी परिसरमा अनुसन्धान"
+    }
+  },
+  {
+    "text": "ठोस आरोप भने अहिलेसम्म सार्वजनिक भएको छैन। अनुसन्धानका लागि पक्राउ मात्रै दोषी हुनु होइन।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "आरोप सार्वजनिक छैन"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "लगानी बोर्डका पूर्व सीईओ सुशील भट्ट पक्राउ",
+  "youtube_description": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्टलाई प्रहरीले आर्थिक कारोबारसम्बन्धी अनुसन्धानका लागि पक्राउ गरेको छ। ठोस आरोप सार्वजनिक छैन।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Sushil Bhatta",
+    "Investment Board"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#SushilBhatta",
+    "#InvestmentBoard",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+  "instagram_caption": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+  "facebook_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+  "threads_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal",
+  "linkedin_post": "लगानी बोर्ड नेपालका पूर्व सीईओ सुशील भट्ट आर्थिक कारोबार अनुसन्धानका लागि पक्राउ। ठोस आरोप सार्वजनिक छैन। #NepalNews #SushilBhatta #InvestmentBoard #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Nepal News English: Oct 18, 2026. https://english.nepalnews.com/s/crime-news/former-investment-board-ceo-sushil-bhatta-arrested/
+Peoples' Review: Oct 18, 2026. https://peoplesreview.com.np/2026/10/18/former-investment-board-ceo-sushil-bhatta-arrested/

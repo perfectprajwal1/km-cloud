@@ -1,0 +1,55 @@
+{
+  "master_sha256": "0370a95e1851300de35430c3acc32a85bf67e5d044456c5b489d31031aedceb1",
+  "cuts_sec": [
+    6.329125,
+    18.820083333333333
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "उनलाई हाल काठमाडौं जिल्ला प्रहरी परिसरमा राखी थप अनुसन्धान भइरहेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.329,
+      "duration_sec": 6.329,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "ठोस आरोप भने अहिलेसम्म सार्वजनिक भएको छैन। अनुसन्धानका लागि पक्राउ मात्रै दोषी हुनु होइन।",
+      "master_start_sec": 6.329,
+      "master_end_sec": 18.82,
+      "duration_sec": 12.491,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "पूर्व अधिकृतमाथिको यस्तो अनुसन्धानले के सन्देश दिन्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 18.82,
+      "master_end_sec": 26.262,
+      "duration_sec": 7.442,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
