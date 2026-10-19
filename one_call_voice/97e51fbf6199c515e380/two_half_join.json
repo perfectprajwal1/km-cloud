@@ -1,0 +1,372 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    8.566749999999999,
+    17.114041666666665,
+    28.952333333333335,
+    41.970958333333336,
+    50.23345833333334,
+    60.81795833333334
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "d7240d370770280002aabb51de7d431914b81cd179e2ce58b561961e78246794",
+      "used_master_sha256": "d7240d370770280002aabb51de7d431914b81cd179e2ce58b561961e78246794",
+      "seconds": 40.970958333333336,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+            "spoken": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+            "mapping": []
+          },
+          {
+            "original": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+            "spoken": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक सत्र र अठार गते सञ्चालन हुनेछ।",
+            "mapping": [
+              {
+                "original": "१७",
+                "spoken": "सत्र",
+                "start": 43,
+                "end": 45,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 48,
+                "end": 50,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+            "spoken": "विगतका वर्षहरूमा पहिलो चरण कात्तिक दुई र तीन गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+            "mapping": [
+              {
+                "original": "२",
+                "spoken": "दुई",
+                "start": 35,
+                "end": 36,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "३",
+                "spoken": "तीन",
+                "start": 39,
+                "end": 40,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+            "spoken": "कार्यक्रमअन्तर्गत छ देखि उनसट्ठी महिनाका बालबालिकालाई भिटामिन ए र बाह्र देखि उनसट्ठी महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+            "mapping": [
+              {
+                "original": "६",
+                "spoken": "छ",
+                "start": 18,
+                "end": 19,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "५९",
+                "spoken": "उनसट्ठी",
+                "start": 25,
+                "end": 27,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१२",
+                "spoken": "बाह्र",
+                "start": 61,
+                "end": 63,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "५९",
+                "spoken": "उनसट्ठी",
+                "start": 69,
+                "end": 71,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "d7240d370770280002aabb51de7d431914b81cd179e2ce58b561961e78246794",
+        "greedy": "दसैको सार्वजनिक विधाकाकारण यस वर्षको भिटामीण एऐए र जुकाको औषधि खुाउने कार्यक्रम सारिएको छअब पहिलो चरणको राष्ट्रिय कार्यक्रम का्तिक सत्र र अठार गते सञ्चालन हुनेछविगतका वर्षहरूमा पहिलो चरण कातिक दुई र तीन गते हुने गरेकोमा यसवर्ष बढादसहको विधा पर्यकाले मिति परिवर्तन गरिएको होकार्यक्र्म अन्तर्गत छदेखि उनसट्ठी महिनाका बालबालिकालाई भिटामेन ए र बाह्रदेखि उनसाट्ठी महिनाकालाई जुकाको औषधि खाइनेछ ",
+        "present_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9475262368815592,
+        "scores": [
+          -0.6405301884473071,
+          -0.11508148844516958,
+          -0.9016607338578676,
+          -0.848647726821461
+        ],
+        "cuts_sec": [
+          8.566749999999999,
+          17.114041666666665,
+          28.952333333333335
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 6.641776448567708,
+            "right_anchor": 10.322760986328126,
+            "scores": [
+              -0.6405301884473071,
+              -0.11508148844516958
+            ],
+            "candidates": [
+              {
+                "cut": 8.566749999999999,
+                "valley_start": 6.9117500000000005,
+                "valley_end": 10.22175,
+                "quiet_sec": 3.31,
+                "rms": 5.192622696915702e-05,
+                "cost": -3.3083103743489586
+              }
+            ],
+            "selected": {
+              "cut": 8.566749999999999,
+              "valley_start": 6.9117500000000005,
+              "valley_end": 10.22175,
+              "quiet_sec": 3.31,
+              "rms": 5.192622696915702e-05,
+              "cost": -3.3083103743489586
+            }
+          },
+          {
+            "left_anchor": 15.244077270507812,
+            "right_anchor": 18.845040405273437,
+            "scores": [
+              -0.11508148844516958,
+              -0.9016607338578676
+            ],
+            "candidates": [
+              {
+                "cut": 17.114041666666665,
+                "valley_start": 15.484041666666666,
+                "valley_end": 18.744041666666664,
+                "quiet_sec": 3.2600000000000002,
+                "rms": 7.596692425335713e-05,
+                "cost": -3.2586103434244795
+              }
+            ],
+            "selected": {
+              "cut": 17.114041666666665,
+              "valley_start": 15.484041666666666,
+              "valley_end": 18.744041666666664,
+              "quiet_sec": 3.2600000000000002,
+              "rms": 7.596692425335713e-05,
+              "cost": -3.2586103434244795
+            }
+          },
+          {
+            "left_anchor": 27.48735192871094,
+            "right_anchor": 30.348117085774742,
+            "scores": [
+              -0.9016607338578676,
+              -0.848647726821461
+            ],
+            "candidates": [
+              {
+                "cut": 28.952333333333335,
+                "valley_start": 27.657333333333334,
+                "valley_end": 30.247333333333334,
+                "quiet_sec": 2.59,
+                "rms": 5.320900464349966e-05,
+                "cost": -2.58930802347819
+              }
+            ],
+            "selected": {
+              "cut": 28.952333333333335,
+              "valley_start": 27.657333333333334,
+              "valley_end": 30.247333333333334,
+              "quiet_sec": 2.59,
+              "rms": 5.320900464349966e-05,
+              "cost": -2.58930802347819
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "fd96992e01954ba1753008f9d6861c0633811fb613111d3dc2eb8f0a3609958b",
+      "used_master_sha256": "fd96992e01954ba1753008f9d6861c0633811fb613111d3dc2eb8f0a3609958b",
+      "seconds": 25.850958333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+            "spoken": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख छ र सात गते हुनेछ।",
+            "mapping": [
+              {
+                "original": "६",
+                "spoken": "छ",
+                "start": 49,
+                "end": 50,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "७",
+                "spoken": "सात",
+                "start": 53,
+                "end": 54,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+            "spoken": "कात्तिक सत्र र अठार गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+            "mapping": [
+              {
+                "original": "१७",
+                "spoken": "सत्र",
+                "start": 8,
+                "end": 10,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 13,
+                "end": 15,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+            "spoken": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "fd96992e01954ba1753008f9d6861c0633811fb613111d3dc2eb8f0a3609958b",
+        "greedy": "दोस्रो चरणको औषधि वितरणु भने हरेक वर्ष जस्तै वैशाख छ र सात गतै हुनेछकातिक शत्र र अठारा गतै बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छके तपनीका छोरा छोरीलाई पनि यसपालि भितामीण ए खुाउनु भाँगि छ कमेन्टमा भन्नुस ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9297820823244553,
+        "scores": [
+          -0.19890449202772895,
+          -0.42403247994146415,
+          -1.3165813862809954
+        ],
+        "cuts_sec": [
+          7.262500000000001,
+          17.847
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 5.982536022961816,
+            "right_anchor": 8.50360471491228,
+            "scores": [
+              -0.19890449202772895,
+              -0.42403247994146415
+            ],
+            "candidates": [
+              {
+                "cut": 7.262500000000001,
+                "valley_start": 6.1225000000000005,
+                "valley_end": 8.402500000000002,
+                "quiet_sec": 2.2800000000000002,
+                "rms": 6.026709560932144e-05,
+                "cost": -2.279611407378741
+              }
+            ],
+            "selected": {
+              "cut": 7.262500000000001,
+              "valley_start": 6.1225000000000005,
+              "valley_end": 8.402500000000002,
+              "quiet_sec": 2.2800000000000002,
+              "rms": 6.026709560932144e-05,
+              "cost": -2.279611407378741
+            }
+          },
+          {
+            "left_anchor": 16.587031314499484,
+            "right_anchor": 19.068083043085654,
+            "scores": [
+              -0.42403247994146415,
+              -1.3165813862809954
+            ],
+            "candidates": [
+              {
+                "cut": 17.847,
+                "valley_start": 16.727,
+                "valley_end": 18.967,
+                "quiet_sec": 2.24,
+                "rms": 4.975275436030253e-05,
+                "cost": -2.2396111435758517
+              }
+            ],
+            "selected": {
+              "cut": 17.847,
+              "valley_start": 16.727,
+              "valley_end": 18.967,
+              "quiet_sec": 2.24,
+              "rms": 4.975275436030253e-05,
+              "cost": -2.2396111435758517
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "77084d073b7ba04839db542c4b406d6c680ad3c6a7dc9fc2183b3b4c40265486",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

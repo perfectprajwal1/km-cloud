@@ -1,0 +1,462 @@
+REVIEW ID: RV_20261019_ft7e2o
+TOPIC: दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम, कात्तिक १७-१८ मा
+MODEL: assistant_draft
+STORY ID: ST_d0e1667ad85a
+DATE: 2026-10-19T08:30:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.ratopati.com/story/600381/national-vitamin-a-and-deworming-program-affected
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ। अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ। विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो। कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ। दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ। कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "भिटामिन ए कार्यक्रम सारियो"
+    },
+    "caption_text": "भिटामिन ए कार्यक्रम सारियो",
+    "big_hook_text": "भिटामिन ए कार्यक्रम सारियो",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381 + Onlinekendra Oct 18: this year's first-round national vitamin A and deworming campaign was moved because of the Dashain public holiday.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कात्तिक १७-१८ मा"
+    },
+    "caption_text": "कात्तिक १७-१८ मा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381: the first round will run on Kartik 17 and 18.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "परम्परागत मिति कात्तिक २-३ थियो"
+    },
+    "caption_text": "परम्परागत मिति कात्तिक २-३ थियो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381: previous years ran the first round on Kartik 2-3; the Bada Dashain public holiday forced the change.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "६-५९ महिना: भिटामिन ए"
+    },
+    "caption_text": "६-५९ महिना: भिटामिन ए",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381: vitamin A for children aged 6-59 months; deworming medicine for 12-59 months.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दोस्रो चरण वैशाख ६-७"
+    },
+    "caption_text": "दोस्रो चरण वैशाख ६-७",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381: the second round runs on Baisakh 6-7 as usual.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नजिकैको केन्द्रमा लैजान अनुरोध"
+    },
+    "caption_text": "नजिकैको केन्द्रमा लैजान अनुरोध",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati 600381: parents are requested to take children to the nearest distribution centre on the set dates.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_d0e1667ad85a",
+  "source_url": "https://www.ratopati.com/story/600381/national-vitamin-a-and-deworming-program-affected",
+  "source_label": "Ratopati / Onlinekendra",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Ratopati (story 600381) and Onlinekendra/Drishti (Oct 18): the first round of the national vitamin A and deworming campaign will run on Kartik 17-18 this year; it normally runs Kartik 2-3 but was moved because of the Bada Dashain public holiday; vitamin A goes to children aged 6-59 months and deworming medicine to children aged 12-59 months; the second round runs on Baisakh 6-7 every year; parents are asked to take children to the nearest distribution centre. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.ratopati.com/story/600381/national-vitamin-a-and-deworming-program-affected",
+    "article_quote": "यस वर्षको पहिलो चरणको कार्यक्रम आउँदो कात्तिक १७ र १८ गते सञ्चालन हुने भएको छ।",
+    "asset_ref": "https://www.ratopati.com/story/600381/national-vitamin-a-and-deworming-program-affected",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "भिटामिन ए कार्यक्रम कात्तिक १७-१८ मा",
+  "closing_line": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+  "comment_prompt": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?",
+  "pinned_comment": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "भिटामिन ए कार्यक्रम सारियो"
+      },
+      "caption_text": "भिटामिन ए कार्यक्रम सारियो",
+      "big_hook_text": "भिटामिन ए कार्यक्रम सारियो",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381 + Onlinekendra Oct 18: this year's first-round national vitamin A and deworming campaign was moved because of the Dashain public holiday.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कात्तिक १७-१८ मा"
+      },
+      "caption_text": "कात्तिक १७-१८ मा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381: the first round will run on Kartik 17 and 18.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "परम्परागत मिति कात्तिक २-३ थियो"
+      },
+      "caption_text": "परम्परागत मिति कात्तिक २-३ थियो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381: previous years ran the first round on Kartik 2-3; the Bada Dashain public holiday forced the change.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "६-५९ महिना: भिटामिन ए"
+      },
+      "caption_text": "६-५९ महिना: भिटामिन ए",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381: vitamin A for children aged 6-59 months; deworming medicine for 12-59 months.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दोस्रो चरण वैशाख ६-७"
+      },
+      "caption_text": "दोस्रो चरण वैशाख ६-७",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381: the second round runs on Baisakh 6-7 as usual.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नजिकैको केन्द्रमा लैजान अनुरोध"
+      },
+      "caption_text": "नजिकैको केन्द्रमा लैजान अनुरोध",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati 600381: parents are requested to take children to the nearest distribution centre on the set dates.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "भिटामिन ए र जुकाको औषधि कार्यक्रम कात्तिक १७-१८ मा सारियो",
+    "youtube_description": "दशैंको सार्वजनिक बिदाका कारण राष्ट्रिय भिटामिन ए तथा जुकाको औषधि खुवाउने कार्यक्रमको पहिलो चरण कात्तिक १७ र १८ गते सञ्चालन हुने भएको छ।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Vitamin A",
+      "Child Health",
+      "Nepal"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#VitaminA",
+      "#ChildHealth",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+    "instagram_caption": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+    "facebook_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+    "threads_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+    "linkedin_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core facts (first round moved to Kartik 17-18 this year; normally Kartik 2-3; moved for the Bada Dashain public holiday; vitamin A for 6-59 months, deworming for 12-59 months; second round Baisakh 6-7; parents asked to use the nearest distribution centre) cross-checked between Ratopati (story 600381) and Onlinekendra/Drishti (Oct 18). Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+भिटामिन ए कार्यक्रम कात्तिक १७-१८ मा
+
+--- PINNED COMMENT (Nepali question) ---
+के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "भिटामिन ए कार्यक्रम सारियो"
+    }
+  },
+  {
+    "text": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कात्तिक १७-१८ मा"
+    }
+  },
+  {
+    "text": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "परम्परागत मिति कात्तिक २-३ थियो"
+    }
+  },
+  {
+    "text": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "६-५९ महिना: भिटामिन ए"
+    }
+  },
+  {
+    "text": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दोस्रो चरण वैशाख ६-७"
+    }
+  },
+  {
+    "text": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नजिकैको केन्द्रमा लैजान अनुरोध"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "भिटामिन ए र जुकाको औषधि कार्यक्रम कात्तिक १७-१८ मा सारियो",
+  "youtube_description": "दशैंको सार्वजनिक बिदाका कारण राष्ट्रिय भिटामिन ए तथा जुकाको औषधि खुवाउने कार्यक्रमको पहिलो चरण कात्तिक १७ र १८ गते सञ्चालन हुने भएको छ।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Vitamin A",
+    "Child Health",
+    "Nepal"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#VitaminA",
+    "#ChildHealth",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+  "instagram_caption": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+  "facebook_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+  "threads_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal",
+  "linkedin_post": "दशैं बिदाले सर्‍यो भिटामिन ए र जुकाको औषधि कार्यक्रम: अब कात्तिक १७-१८ मा। #NepalNews #VitaminA #ChildHealth #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Ratopati: Oct 18, 2026. https://www.ratopati.com/story/600381/national-vitamin-a-and-deworming-program-affected
+Onlinekendra: Oct 18, 2026. https://onlinekendra.com/society/2026/10/18/205941

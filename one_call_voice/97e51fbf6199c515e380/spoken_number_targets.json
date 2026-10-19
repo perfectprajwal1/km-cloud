@@ -1,0 +1,141 @@
+{
+  "version": "numbers-english-unverified-v4",
+  "targets": [
+    {
+      "original": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+      "spoken": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+      "mapping": []
+    },
+    {
+      "original": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+      "spoken": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक सत्र र अठार गते सञ्चालन हुनेछ।",
+      "mapping": [
+        {
+          "original": "१७",
+          "spoken": "सत्र",
+          "start": 43,
+          "end": 45,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१८",
+          "spoken": "अठार",
+          "start": 48,
+          "end": 50,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+      "spoken": "विगतका वर्षहरूमा पहिलो चरण कात्तिक दुई र तीन गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+      "mapping": [
+        {
+          "original": "२",
+          "spoken": "दुई",
+          "start": 35,
+          "end": 36,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "३",
+          "spoken": "तीन",
+          "start": 39,
+          "end": 40,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+      "spoken": "कार्यक्रमअन्तर्गत छ देखि उनसट्ठी महिनाका बालबालिकालाई भिटामिन ए र बाह्र देखि उनसट्ठी महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+      "mapping": [
+        {
+          "original": "६",
+          "spoken": "छ",
+          "start": 18,
+          "end": 19,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "५९",
+          "spoken": "उनसट्ठी",
+          "start": 25,
+          "end": 27,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१२",
+          "spoken": "बाह्र",
+          "start": 61,
+          "end": 63,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "५९",
+          "spoken": "उनसट्ठी",
+          "start": 69,
+          "end": 71,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+      "spoken": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख छ र सात गते हुनेछ।",
+      "mapping": [
+        {
+          "original": "६",
+          "spoken": "छ",
+          "start": 49,
+          "end": 50,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "७",
+          "spoken": "सात",
+          "start": 53,
+          "end": 54,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+      "spoken": "कात्तिक सत्र र अठार गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+      "mapping": [
+        {
+          "original": "१७",
+          "spoken": "सत्र",
+          "start": 8,
+          "end": 10,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "१८",
+          "spoken": "अठार",
+          "start": 13,
+          "end": 15,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+      "spoken": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+      "mapping": []
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+ "id": "RV_20261019_ft7e2o",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?",
+ "pinned_comment": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "भिटामिन ए कार्यक्रम सारियो",
+   "sub": "",
+   "km_default": true,
+   "vo": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_01_44f695.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको "
+       },
+       {
+        "t": "भिटामिन",
+        "hl": true,
+        "at": 0.393
+       },
+       {
+        "t": " ए र जुकाको औषधि खुवाउने "
+       },
+       {
+        "t": "कार्यक्रम सारिएको",
+        "hl": true,
+        "at": 0.674
+       },
+       {
+        "t": " छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "कात्तिक १७-१८ मा",
+   "points": [
+    "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते"
+   ],
+   "km_default": true,
+   "vo": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_02_c34b72.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "कात्तिक",
+        "key": false,
+        "at": 0.334
+       },
+       {
+        "t": "१७-१८",
+        "key": true,
+        "at": 0.369
+       },
+       {
+        "t": "मा",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.334
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "परम्परागत मिति कात्तिक २-३ थियो",
+   "points": [
+    "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा"
+   ],
+   "km_default": true,
+   "vo": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_03_00df8a.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "विगतका वर्षहरूमा पहिलो चरण "
+       },
+       {
+        "t": "कात्तिक",
+        "hl": true,
+        "at": 0.241
+       },
+       {
+        "t": " २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले "
+       },
+       {
+        "t": "मिति",
+        "hl": true,
+        "at": 0.68
+       },
+       {
+        "t": " परिवर्तन गरिएको हो।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "६-५९ महिना: भिटामिन ए",
+   "points": [
+    "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए"
+   ],
+   "km_default": true,
+   "vo": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_04_19ab38.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": ":",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "भिटामिन",
+        "key": true,
+        "at": 0.314
+       },
+       {
+        "t": "ए",
+        "key": false,
+        "at": 0.356
+       }
+      ],
+      "icon": "star",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "दोस्रो चरण वैशाख ६-७",
+   "points": [
+    "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते"
+   ],
+   "km_default": true,
+   "vo": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_05_e15341.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "दोस्रो चरणको औषधि वितरण",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " भने "
+       },
+       {
+        "t": "हरेक वर्षजस्तै वैशाख",
+        "hl": true,
+        "at": 0.395
+       },
+       {
+        "t": " ६ र ७ गते हुनेछ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नजिकैको केन्द्रमा लैजान अनुरोध",
+   "points": [
+    "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा"
+   ],
+   "km_default": true,
+   "vo": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_ft7e2o_06_c83c55.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "कात्तिक १७ र १८ गते बालबालिकालाई "
+       },
+       {
+        "t": "नजिकैको",
+        "hl": true,
+        "at": 0.311
+       },
+       {
+        "t": " वितरण "
+       },
+       {
+        "t": "केन्द्रमा",
+        "hl": true,
+        "at": 0.422
+       },
+       {
+        "t": " लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "cc80e31cc84f7ba328f91887185dec03298e65ae08e7f703223f2fb5cd706890",
+  "plan_hash": "c71965817c6c324c90dae1d8a9cf10fdd52dad6e0c3f20f348e36bb54f39ff84",
+  "selected": [
+   "main:hook",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "evidence",
+    "score": 161.609,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.296,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.228,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.296,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.228,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "दोस्रो चरणको औषधि वितरण",
+       "start": 0,
+       "end": 23
+      },
+      {
+       "field": "t",
+       "text": "भने",
+       "start": 24,
+       "end": 27
+      },
+      {
+       "field": "t",
+       "text": "हरेक वर्षजस्तै वैशाख",
+       "start": 28,
+       "end": 48
+      },
+      {
+       "field": "t",
+       "text": "६ र ७ गते हुनेछ।",
+       "start": 49,
+       "end": 65
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 89.228,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition",
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "2a6c5166740da4da793ca1534274d598893b216ba63a4724d3120ab959f07e8f"
+ }
+}

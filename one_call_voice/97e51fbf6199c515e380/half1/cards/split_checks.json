@@ -1,0 +1,70 @@
+{
+  "master_sha256": "d7240d370770280002aabb51de7d431914b81cd179e2ce58b561961e78246794",
+  "cuts_sec": [
+    8.566749999999999,
+    17.114041666666665,
+    28.952333333333335
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "दशैंको सार्वजनिक बिदाका कारण यस वर्षको भिटामिन ए र जुकाको औषधि खुवाउने कार्यक्रम सारिएको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.567,
+      "duration_sec": 8.567,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "अब पहिलो चरणको राष्ट्रिय कार्यक्रम कात्तिक १७ र १८ गते सञ्चालन हुनेछ।",
+      "master_start_sec": 8.567,
+      "master_end_sec": 17.114,
+      "duration_sec": 8.547,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "विगतका वर्षहरूमा पहिलो चरण कात्तिक २ र ३ गते हुने गरेकोमा यस वर्ष बडादसैंको बिदा परेकाले मिति परिवर्तन गरिएको हो।",
+      "master_start_sec": 17.114,
+      "master_end_sec": 28.952,
+      "duration_sec": 11.838,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "कार्यक्रमअन्तर्गत ६ देखि ५९ महिनाका बालबालिकालाई भिटामिन ए र १२ देखि ५९ महिनाकालाई जुकाको औषधि खुवाइनेछ।",
+      "master_start_sec": 28.952,
+      "master_end_sec": 40.971,
+      "duration_sec": 12.019,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

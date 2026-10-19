@@ -1,0 +1,55 @@
+{
+  "master_sha256": "fd96992e01954ba1753008f9d6861c0633811fb613111d3dc2eb8f0a3609958b",
+  "cuts_sec": [
+    7.262500000000001,
+    17.847
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "दोस्रो चरणको औषधि वितरण भने हरेक वर्षजस्तै वैशाख ६ र ७ गते हुनेछ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.263,
+      "duration_sec": 7.263,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "कात्तिक १७ र १८ गते बालबालिकालाई नजिकैको वितरण केन्द्रमा लगेर औषधि खुवाउन अभिभावकलाई अनुरोध गरिएको छ।",
+      "master_start_sec": 7.263,
+      "master_end_sec": 17.847,
+      "duration_sec": 10.585,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "के तपाईंका छोराछोरीलाई पनि यसपालि भिटामिन ए खुवाउनु बाँकी छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 17.847,
+      "master_end_sec": 25.851,
+      "duration_sec": 8.004,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
