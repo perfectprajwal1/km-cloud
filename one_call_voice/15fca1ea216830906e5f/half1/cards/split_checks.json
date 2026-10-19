@@ -1,0 +1,70 @@
+{
+  "master_sha256": "6d6ce2a38750cb2597465f93e4056cc17e649161b5cc2d46c31cc6093ae792c7",
+  "cuts_sec": [
+    8.402041666666666,
+    17.975,
+    26.567708333333336
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.402,
+      "duration_sec": 8.402,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र ऐनले निषेध गरेको विषयवस्तुमा आधारित रहेको उल्लेख छ।",
+      "master_start_sec": 8.402,
+      "master_end_sec": 17.975,
+      "duration_sec": 9.573,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्।",
+      "master_start_sec": 17.975,
+      "master_end_sec": 26.568,
+      "duration_sec": 8.593,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर आफूलाई कट्टर भारतीय देशभक्त ठान्न थालेको कथा छ।",
+      "master_start_sec": 26.568,
+      "master_end_sec": 36.171,
+      "duration_sec": 9.603,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

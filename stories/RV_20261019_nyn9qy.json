@@ -1,0 +1,608 @@
+{
+ "id": "RV_20261019_nyn9qy",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?",
+ "pinned_comment": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "'उड्ता तीर'लाई नेपालमा रोक",
+   "sub": "",
+   "km_default": true,
+   "vo": "नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_01_edc07f.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नेपाल सरकारले भारतीय चलचित्र "
+       },
+       {
+        "t": "'उड्ता तीर'लाई नेपालमा",
+        "hl": true,
+        "at": 0.28
+       },
+       {
+        "t": " सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "ऐनले निषेध गरेको विषयवस्तु",
+   "points": [
+    "सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र"
+   ],
+   "km_default": true,
+   "vo": "सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र ऐनले निषेध गरेको विषयवस्तुमा आधारित रहेको उल्लेख छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_02_4ea787.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "ऐनले",
+        "key": false,
+        "at": 0.345
+       },
+       {
+        "t": "निषेध",
+        "key": false,
+        "at": 0.38
+       },
+       {
+        "t": "गरेको",
+        "key": false,
+        "at": 0.415
+       },
+       {
+        "t": "विषयवस्तु",
+        "key": true,
+        "at": 0.45
+       }
+      ],
+      "icon": "building",
+      "at": 0.345
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "आयुष्मान-सारा अभिनीत फिल्म",
+   "points": [
+    "आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा"
+   ],
+   "km_default": true,
+   "vo": "आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_03_3fa930.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "आयुष्मान खुराना र सारा अली खान "
+       },
+       {
+        "t": "अभिनीत",
+        "hl": true,
+        "at": 0.282
+       },
+       {
+        "t": " यो "
+       },
+       {
+        "t": "फिल्म",
+        "hl": true,
+        "at": 0.357
+       },
+       {
+        "t": " धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "जासुसको स्मरणशक्ति गुम्ने कथा",
+   "points": [
+    "फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर"
+   ],
+   "km_default": true,
+   "vo": "फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर आफूलाई कट्टर भारतीय देशभक्त ठान्न थालेको कथा छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_04_480358.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "भारत",
+        "sub": "",
+        "focus": true,
+        "at": 0.093
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पत्रको प्रतिसहित समाचार",
+   "points": [
+    "बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई"
+   ],
+   "km_default": true,
+   "vo": "बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई प्रदर्शन अनुमति नदिइएको समाचार सार्वजनिक गरेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_05_c63dbd.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "पत्रको",
+        "key": false,
+        "at": 0.202
+       },
+       {
+        "t": "प्रतिसहित",
+        "key": true,
+        "at": 0.238
+       },
+       {
+        "t": "समाचार",
+        "key": false,
+        "at": 0.464
+       }
+      ],
+      "icon": "building",
+      "at": 0.202
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "अन्य मुलुकमा पनि रोकका घटना",
+   "points": [
+    "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन"
+   ],
+   "km_default": true,
+   "vo": "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261019_nyn9qy_06_52e244.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "यसअघि पनि भारतीय फिल्महरूलाई केही "
+       },
+       {
+        "t": "अन्य मुलुकले",
+        "hl": true,
+        "at": 0.374
+       },
+       {
+        "t": " प्रदर्शन अनुमति नदिएका "
+       },
+       {
+        "t": "घटना",
+        "hl": true,
+        "at": 0.717
+       },
+       {
+        "t": " भएका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "cb1af98bd0a3e7514b5e857298472dd3b5e8e7f4e0fef93a1021cf8b92d007ef",
+  "plan_hash": "e98045ee7f63d7995cd560ab77dd988f4b225db82f1bec0eeecf75fa4f267a3a",
+  "selected": [
+   "main:hook",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:place",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "evidence",
+    "score": 161.566,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.271,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.203,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 121.622,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.271,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.203,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "c979d64654dea231ff51f12bef6d4eadadf57556b499d22abd9a2ca9cf828033"
+ }
+}

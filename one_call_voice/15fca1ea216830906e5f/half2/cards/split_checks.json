@@ -1,0 +1,55 @@
+{
+  "master_sha256": "b3861f2ca3985872cb5cc582238dfaa1ff6ba110459ccf1e6ecffcd835a5f074",
+  "cuts_sec": [
+    7.643000000000001,
+    15.256625
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई प्रदर्शन अनुमति नदिइएको समाचार सार्वजनिक गरेको हो।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.643,
+      "duration_sec": 7.643,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।",
+      "master_start_sec": 7.643,
+      "master_end_sec": 15.257,
+      "duration_sec": 7.614,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 15.257,
+      "master_end_sec": 23.211,
+      "duration_sec": 7.954,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

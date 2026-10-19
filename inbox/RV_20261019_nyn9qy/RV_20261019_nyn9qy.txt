@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261019_nyn9qy
+TOPIC: भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन
+MODEL: assistant_draft
+STORY ID: ST_27c600d952d9
+DATE: 2026-10-19T18:20:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://www.drishtinews.com/archives/476849
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ। सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र ऐनले निषेध गरेको विषयवस्तुमा आधारित रहेको उल्लेख छ। आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्। फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर आफूलाई कट्टर भारतीय देशभक्त ठान्न थालेको कथा छ। बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई प्रदर्शन अनुमति नदिइएको समाचार सार्वजनिक गरेको हो। यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "'उड्ता तीर'लाई नेपालमा रोक"
+    },
+    "caption_text": "'उड्ता तीर'लाई नेपालमा रोक",
+    "big_hook_text": "'उड्ता तीर'लाई नेपालमा रोक",
+    "pip_mode": "off",
+    "source_evidence": "Drishti News Oct 19: Ministry of Communication and Information Technology directed the censor board not to grant public screening permission; NepalTimes/Dainik Nepal confirm the ban.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "ऐनले निषेध गरेको विषयवस्तु"
+    },
+    "caption_text": "ऐनले निषेध गरेको विषयवस्तु",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Drishti Oct 19: ministry letter says the film is based on subject matter prohibited by the Film (Production, Exhibition and Distribution) Act; Bollywood Hungama (with the letter copy) agrees. Section number differs by outlet, so it is not cited.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "आयुष्मान-सारा अभिनीत फिल्म"
+    },
+    "caption_text": "आयुष्मान-सारा अभिनीत फिल्म",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Bollywood Hungama Oct 19: stars Ayushmann Khurrana and Sara Ali Khan; produced by Dharma Productions and Sikhya Entertainment.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "जासुसको स्मरणशक्ति गुम्ने कथा"
+    },
+    "caption_text": "जासुसको स्मरणशक्ति गुम्ने कथा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Bollywood Hungama Oct 19: a Pakistani spy infiltrates India, loses his memory and starts believing he is a hardcore Indian patriot.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पत्रको प्रतिसहित समाचार"
+    },
+    "caption_text": "पत्रको प्रतिसहित समाचार",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Bollywood Hungama Oct 19: obtained a copy of the official order communicated by section officer Bishal Bhandari; Drishti reports the letter went to National Cine Group Nepal.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "अन्य मुलुकमा पनि रोकका घटना"
+    },
+    "caption_text": "अन्य मुलुकमा पनि रोकका घटना",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Bollywood Hungama Oct 19: several Hindi films including Dhurandhar, Border 2, Fighter, Sky Force, Article 370 and Tiger 3 were earlier denied release in certain Middle Eastern markets.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_27c600d952d9",
+  "source_url": "https://www.drishtinews.com/archives/476849",
+  "source_label": "Drishti News / Bollywood Hungama",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Drishti News (Oct 19) and Bollywood Hungama (Oct 19, which obtained a copy of the official letter): the Ministry of Communication and Information Technology directed the central film censor board not to grant public screening permission to the Indian film 'Udta Teer', saying its subject matter falls under what the Film (Production, Exhibition and Distribution) Act prohibits; the letter went to distributor National Cine Group Nepal and was signed by section officer Bishal Bhandari. Film details (Ayushmann Khurrana, Sara Ali Khan, late Mukul Dev; writer-director Akash A Kaushik; Dharma Productions and Sikhya Entertainment; plot of a Pakistani spy who loses memory in India) from Bollywood Hungama. Outlets disagree on the exact cited section number (5(3) vs 6(3)), so the script cites the Act without a section number. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.bollywoodhungama.com/news/bollywood/exclusive-ayushmann-khurrana-sara-ali-khan-starrer-udta-teer-denied-release-permission-in-nepal/",
+    "article_quote": "Bollywood Hungama has learned that Udta Teer has not been granted permission for public screening in Nepal. Bollywood Hungama is in possession of a copy of the official order, which was communicated to the makers by Bishal Bhandari, Section Officer, Ministry of Communication and Information Technology, Government of Nepal.",
+    "asset_ref": "https://www.bollywoodhungama.com/news/bollywood/exclusive-ayushmann-khurrana-sara-ali-khan-starrer-udta-teer-denied-release-permission-in-nepal/",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "आयुष्मान-साराको 'उड्ता तीर' नेपालमा रोक",
+  "closing_line": "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।",
+  "comment_prompt": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?",
+  "pinned_comment": "फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "'उड्ता तीर'लाई नेपालमा रोक"
+      },
+      "caption_text": "'उड्ता तीर'लाई नेपालमा रोक",
+      "big_hook_text": "'उड्ता तीर'लाई नेपालमा रोक",
+      "pip_mode": "off",
+      "source_evidence": "Drishti News Oct 19: Ministry of Communication and Information Technology directed the censor board not to grant public screening permission; NepalTimes/Dainik Nepal confirm the ban.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र ऐनले निषेध गरेको विषयवस्तुमा आधारित रहेको उल्लेख छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "ऐनले निषेध गरेको विषयवस्तु"
+      },
+      "caption_text": "ऐनले निषेध गरेको विषयवस्तु",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Drishti Oct 19: ministry letter says the film is based on subject matter prohibited by the Film (Production, Exhibition and Distribution) Act; Bollywood Hungama (with the letter copy) agrees. Section number differs by outlet, so it is not cited.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "आयुष्मान-सारा अभिनीत फिल्म"
+      },
+      "caption_text": "आयुष्मान-सारा अभिनीत फिल्म",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Bollywood Hungama Oct 19: stars Ayushmann Khurrana and Sara Ali Khan; produced by Dharma Productions and Sikhya Entertainment.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर आफूलाई कट्टर भारतीय देशभक्त ठान्न थालेको कथा छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "जासुसको स्मरणशक्ति गुम्ने कथा"
+      },
+      "caption_text": "जासुसको स्मरणशक्ति गुम्ने कथा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Bollywood Hungama Oct 19: a Pakistani spy infiltrates India, loses his memory and starts believing he is a hardcore Indian patriot.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई प्रदर्शन अनुमति नदिइएको समाचार सार्वजनिक गरेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पत्रको प्रतिसहित समाचार"
+      },
+      "caption_text": "पत्रको प्रतिसहित समाचार",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Bollywood Hungama Oct 19: obtained a copy of the official order communicated by section officer Bishal Bhandari; Drishti reports the letter went to National Cine Group Nepal.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "अन्य मुलुकमा पनि रोकका घटना"
+      },
+      "caption_text": "अन्य मुलुकमा पनि रोकका घटना",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Bollywood Hungama Oct 19: several Hindi films including Dhurandhar, Border 2, Fighter, Sky Force, Article 370 and Tiger 3 were earlier denied release in certain Middle Eastern markets.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन",
+    "youtube_description": "सूचना तथा सञ्चार मन्त्रालयले आयुष्मान खुराना र सारा अली खान अभिनीत भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शन अनुमति नदिन निर्देशन दिएको छ।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Udta Teer",
+      "Film Ban",
+      "Nepal"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#UdtaTeer",
+      "#FilmBan",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+    "instagram_caption": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+    "facebook_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+    "threads_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+    "linkedin_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Ban core (Ministry of Communication and Information Technology directed the censor board not to grant public screening permission to 'Udta Teer'; subject matter prohibited under the Film Act; letter to National Cine Group Nepal signed by section officer Bishal Bhandari) cross-checked between Drishti News (Oct 19) and Bollywood Hungama (Oct 19, holding a copy of the official order), with NepalTimes/Dainik Nepal corroborating. Cited section number differs by outlet (5(3) vs 6(3)) so the script cites the Act without a section number. Film cast, producers and plot from Bollywood Hungama. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+आयुष्मान-साराको 'उड्ता तीर' नेपालमा रोक
+
+--- PINNED COMMENT (Nepali question) ---
+फिल्म प्रदर्शनमा यस्तो रोक लगाउनु उपयुक्त हो कि होइन, तपाईंलाई के लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "नेपाल सरकारले भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शनको अनुमति नदिने निर्णय गरेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "'उड्ता तीर'लाई नेपालमा रोक"
+    }
+  },
+  {
+    "text": "सूचना तथा सञ्चार मन्त्रालयले पठाएको पत्रमा फिल्म चलचित्र ऐनले निषेध गरेको विषयवस्तुमा आधारित रहेको उल्लेख छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "ऐनले निषेध गरेको विषयवस्तु"
+    }
+  },
+  {
+    "text": "आयुष्मान खुराना र सारा अली खान अभिनीत यो फिल्म धर्मा प्रोडक्सन र सिख्या एन्टरटेनमेन्टले निर्माण गरेका हुन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "आयुष्मान-सारा अभिनीत फिल्म"
+    }
+  },
+  {
+    "text": "फिल्ममा भारत छिरेका पाकिस्तानी जासुसको स्मरणशक्ति गुमेर आफूलाई कट्टर भारतीय देशभक्त ठान्न थालेको कथा छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "जासुसको स्मरणशक्ति गुम्ने कथा"
+    }
+  },
+  {
+    "text": "बलिउड हंगामाले मन्त्रालयको पत्रको प्रतिसहित फिल्मलाई प्रदर्शन अनुमति नदिइएको समाचार सार्वजनिक गरेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पत्रको प्रतिसहित समाचार"
+    }
+  },
+  {
+    "text": "यसअघि पनि भारतीय फिल्महरूलाई केही अन्य मुलुकले प्रदर्शन अनुमति नदिएका घटना भएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "अन्य मुलुकमा पनि रोकका घटना"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन",
+  "youtube_description": "सूचना तथा सञ्चार मन्त्रालयले आयुष्मान खुराना र सारा अली खान अभिनीत भारतीय चलचित्र 'उड्ता तीर'लाई नेपालमा सार्वजनिक प्रदर्शन अनुमति नदिन निर्देशन दिएको छ।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Udta Teer",
+    "Film Ban",
+    "Nepal"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#UdtaTeer",
+    "#FilmBan",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+  "instagram_caption": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+  "facebook_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+  "threads_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal",
+  "linkedin_post": "आयुष्मान-साराको भारतीय फिल्म 'उड्ता तीर'लाई नेपालमा प्रदर्शन अनुमति दिइएन। #NepalNews #UdtaTeer #FilmBan #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Drishti News: Oct 19, 2026. https://www.drishtinews.com/archives/476849
+Bollywood Hungama (has copy of the official order): Oct 19, 2026. https://www.bollywoodhungama.com/news/bollywood/exclusive-ayushmann-khurrana-sara-ali-khan-starrer-udta-teer-denied-release-permission-in-nepal/
+NepalTimes: Oct 19, 2026. https://nepaltimes.net/241914/
