@@ -675,6 +675,38 @@
         "strip:evidence",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "cb1af98bd0a3e7514b5e857298472dd3b5e8e7f4e0fef93a1021cf8b92d007ef",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place"
+      ],
+      "id": "RV_20261019_nyn9qy",
+      "missed": {
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "e98045ee7f63d7995cd560ab77dd988f4b225db82f1bec0eeecf75fa4f267a3a",
+      "rendered_at": 1792417821.1934736,
+      "selected": [
+        "main:hook",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:place",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -695,24 +727,25 @@
     "RV_20261018_2n921i:aabfc323235b26e281b82d9cbae74ae5426ffcd0cb9ccec6a19ecba45c6cfdc2": "55b94cedf4d3d8f0cb07d71a66635caa0d3c33e835e7597f75a997dc9e3295ee",
     "RV_20261018_dne6p8:fc15951e641cc01d3a9e5db1c9bb7e8e7d90a2ac1a06eb512f72f2f89a59400c": "7e32c066083ca99e66f00544974e23889ed042a152617375519e5e6983cdb28d",
     "RV_20261018_myz49k:4c4684e22a328eeffa19d79f8872f952ee9a83fbb2e1a615ce5e5c470bb8ba0f": "be59f5f2f2889813d1a69853eb0abeee6835cf514a0dc377491c4bf2e0b945a3",
-    "RV_20261019_ft7e2o:cc80e31cc84f7ba328f91887185dec03298e65ae08e7f703223f2fb5cd706890": "c71965817c6c324c90dae1d8a9cf10fdd52dad6e0c3f20f348e36bb54f39ff84"
+    "RV_20261019_ft7e2o:cc80e31cc84f7ba328f91887185dec03298e65ae08e7f703223f2fb5cd706890": "c71965817c6c324c90dae1d8a9cf10fdd52dad6e0c3f20f348e36bb54f39ff84",
+    "RV_20261019_nyn9qy:cb1af98bd0a3e7514b5e857298472dd3b5e8e7f4e0fef93a1021cf8b92d007ef": "e98045ee7f63d7995cd560ab77dd988f4b225db82f1bec0eeecf75fa4f267a3a"
   },
   "used_total": {
     "main:bignum": 10,
     "main:date": 2,
-    "main:engage": 18,
-    "main:hook": 18,
+    "main:engage": 19,
+    "main:hook": 19,
     "main:place": 3,
-    "main:points_plain": 57,
+    "main:points_plain": 62,
     "main:scale": 15,
     "main:versus": 1,
     "strip:calendar": 1,
     "strip:compare": 1,
-    "strip:evidence": 33,
+    "strip:evidence": 36,
     "strip:incident": 1,
     "strip:money": 1,
-    "strip:phrase": 22,
-    "strip:place": 11,
+    "strip:phrase": 24,
+    "strip:place": 12,
     "strip:quote": 2,
     "strip:schedule": 1,
     "strip:stat": 17,
