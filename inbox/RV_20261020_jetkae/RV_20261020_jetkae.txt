@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261020_jetkae
+TOPIC: दसैंमा पनि माइतीघरमै दीपा: जातीय विभेदविरुद्ध १८४ दिनदेखि धर्ना
+MODEL: assistant_draft
+STORY ID: ST_521a043300ea
+DATE: 2026-10-20T13:25:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://ekantipur.com/news/2026/10/19/deepa-continues-to-protest-on-the-streets-even-during-dashain-waiting-for-justice-for-184-days-26-17.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+जातीय विभेदविरुद्ध न्याय माग्दै कैलालीकी दीपा नेपालीको यसपालिको दसैं काठमाडौंको माइतीघर मण्डलमै बित्दैछ। काठमाडौंमा जातीय विभेदका कारण कोठा भाडामा नपाएपछि 'सरकार, कोठा खाली छ' भन्दै उनी १८४ दिनदेखि धर्नामा छिन्। सरकारले औपचारिक रूपमा वार्तामा नबोलाएको र माग सम्बोधन नगरेको उनको गुनासो छ। घरबहालमा जातीय विभेदलाई दण्डनीय बनाउने, शून्य सहनशीलताको नीति लिने र छुवाछूत ऐन २०६८ संशोधन गरी कडा सजायको व्यवस्था गर्नु उनका मुख्य माग हुन्। घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म सडक नछोड्ने उनको अडान छ। दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दीपाको दसैं माइतीघरमै"
+    },
+    "caption_text": "दीपाको दसैं माइतीघरमै",
+    "big_hook_text": "दीपाको दसैं माइतीघरमै",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Kartik 2: Dipa Nepali of Kailali will spend this Dashain at Maitighar Mandala, on a sit-in against caste discrimination; Ratopati Oct 20 confirms.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "१८४ दिनदेखि धर्नामा"
+    },
+    "caption_text": "१८४ दिनदेखि धर्नामा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Aug 18: she was denied a rental room in Kathmandu because of her caste ('kotha khojda jaat bhetiyo'); Kantipur Kartik 2: 184 days into the sit-in under the slogan 'Sarkar, kotha khali chha'.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "वार्तामा बोलाइएको छैन: गुनासो"
+    },
+    "caption_text": "वार्तामा बोलाइएको छैन: गुनासो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Kartik 2: she complains the government has neither formally invited her for talks nor addressed her demands.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "मुख्य मागहरू"
+    },
+    "caption_text": "मुख्य मागहरू",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Kartik 2 demand list: make caste-based rental discrimination fully punishable with strict enforcement, adopt a zero-tolerance policy, and amend the Caste-Based Discrimination and Untouchability Act 2068 for harsher penalties.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "माग पूरा नभएसम्म सडक नछोड्ने अडान"
+    },
+    "caption_text": "माग पूरा नभएसम्म सडक नछोड्ने अडान",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Kartik 2: despite wishing to celebrate Dashain with family at home, she is determined not to leave the street until her demands are met.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "सबैको साझा मुद्दा: दीपा"
+    },
+    "caption_text": "सबैको साझा मुद्दा: दीपा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Kantipur Kartik 2: 'This movement is not only of Dalits, but of everyone who wants a discrimination-free society.'",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_521a043300ea",
+  "source_url": "https://ekantipur.com/news/2026/10/19/deepa-continues-to-protest-on-the-streets-even-during-dashain-waiting-for-justice-for-184-days-26-17.html",
+  "source_label": "Kantipur / Ratopati",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Kantipur (Kartik 2/Oct 19, by Ranjana Bisi) and Ratopati (Oct 20): Dipa Nepali of Kailali has been on a sit-in at Maitighar Mandala, Kathmandu for 184 days against caste discrimination under the slogan 'Sarkar, kotha khali chha', and will spend this Dashain on the street rather than go home. She says the government has not formally invited her for talks or addressed her demands. Her key demands per Kantipur: make caste-based housing discrimination fully punishable with strict enforcement, adopt a zero-tolerance policy on caste discrimination and untouchability, ensure discrimination-free housing rights for Dalits, Madhesis, persons with disabilities and sexual/gender minorities, amend the Caste-Based Discrimination and Untouchability (Crime and Punishment) Act 2068 for harsher penalties, regulate rent, and take strict action against landlords who discriminate in urban rentals. The trigger incident (denied a rental room in Kathmandu because of her caste) is from Kantipur's Aug 18 interview. No landlord is named, so no unproven allegations against named private individuals. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "जातीय विभेदविरुद्ध न्याय माग्दै कैलालीकी दीपा नेपालीको यसपालिको दसैं काठमाडौंको माइतीघर मण्डलमै बित्दैछ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://ekantipur.com/news/2026/10/19/deepa-continues-to-protest-on-the-streets-even-during-dashain-waiting-for-justice-for-184-days-26-17.html",
+    "article_quote": "जातीय विभेदविरुद्ध न्याय माग्दै दीपा नेपाली १८४ दिनदेखि माइतीघर मण्डलमा धर्नामा छिन् । सरकारले माग सम्बोधन नगरेको र वार्तामा समेत नबोलाएको उनको गुनासो छ ।",
+    "asset_ref": "https://ekantipur.com/news/2026/10/19/deepa-continues-to-protest-on-the-streets-even-during-dashain-waiting-for-justice-for-184-days-26-17.html",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "'सरकार, कोठा खाली छ' भन्दै दीपाको दसैं सडकमै",
+  "closing_line": "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।",
+  "comment_prompt": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?",
+  "pinned_comment": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "जातीय विभेदविरुद्ध न्याय माग्दै कैलालीकी दीपा नेपालीको यसपालिको दसैं काठमाडौंको माइतीघर मण्डलमै बित्दैछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दीपाको दसैं माइतीघरमै"
+      },
+      "caption_text": "दीपाको दसैं माइतीघरमै",
+      "big_hook_text": "दीपाको दसैं माइतीघरमै",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Kartik 2: Dipa Nepali of Kailali will spend this Dashain at Maitighar Mandala, on a sit-in against caste discrimination; Ratopati Oct 20 confirms.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "काठमाडौंमा जातीय विभेदका कारण कोठा भाडामा नपाएपछि 'सरकार, कोठा खाली छ' भन्दै उनी १८४ दिनदेखि धर्नामा छिन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "१८४ दिनदेखि धर्नामा"
+      },
+      "caption_text": "१८४ दिनदेखि धर्नामा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Aug 18: she was denied a rental room in Kathmandu because of her caste ('kotha khojda jaat bhetiyo'); Kantipur Kartik 2: 184 days into the sit-in under the slogan 'Sarkar, kotha khali chha'.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "सरकारले औपचारिक रूपमा वार्तामा नबोलाएको र माग सम्बोधन नगरेको उनको गुनासो छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "वार्तामा बोलाइएको छैन: गुनासो"
+      },
+      "caption_text": "वार्तामा बोलाइएको छैन: गुनासो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Kartik 2: she complains the government has neither formally invited her for talks nor addressed her demands.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "घरबहालमा जातीय विभेदलाई दण्डनीय बनाउने, शून्य सहनशीलताको नीति लिने र छुवाछूत ऐन २०६८ संशोधन गरी कडा सजायको व्यवस्था गर्नु उनका मुख्य माग हुन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "मुख्य मागहरू"
+      },
+      "caption_text": "मुख्य मागहरू",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Kartik 2 demand list: make caste-based rental discrimination fully punishable with strict enforcement, adopt a zero-tolerance policy, and amend the Caste-Based Discrimination and Untouchability Act 2068 for harsher penalties.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म सडक नछोड्ने उनको अडान छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "माग पूरा नभएसम्म सडक नछोड्ने अडान"
+      },
+      "caption_text": "माग पूरा नभएसम्म सडक नछोड्ने अडान",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Kartik 2: despite wishing to celebrate Dashain with family at home, she is determined not to leave the street until her demands are met.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "सबैको साझा मुद्दा: दीपा"
+      },
+      "caption_text": "सबैको साझा मुद्दा: दीपा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Kantipur Kartik 2: 'This movement is not only of Dalits, but of everyone who wants a discrimination-free society.'",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "दसैंमा पनि माइतीघरमै दीपा: जातीय विभेदविरुद्ध १८४ दिनदेखि धर्ना",
+    "youtube_description": "कैलालीकी दीपा नेपाली जातीय विभेदविरुद्ध न्याय माग्दै १८४ दिनदेखि माइतीघर मण्डलमा धर्नामा छिन्। यसपालिको दसैं पनि उनको सडकमै बित्ने भएको छ।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Dipa Nepali",
+      "Caste Discrimination",
+      "Maitighar"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#DipaNepali",
+      "#CasteDiscrimination",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+    "instagram_caption": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+    "facebook_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+    "threads_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+    "linkedin_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Protest core (Dipa Nepali of Kailali, 184 days on sit-in at Maitighar Mandala under 'Sarkar, kotha khali chha', spending Dashain on the street, government has not formally called her for talks, will not leave until demands are met) cross-checked between Kantipur (Kartik 2/Oct 19, Ranjana Bisi) and Ratopati (Oct 20). Trigger incident (denied a rental room in Kathmandu due to her caste) from Kantipur's Aug 18 interview. Demands (punishable rental discrimination, zero-tolerance policy, amendment of the 2068 Act for harsher penalties, rent regulation, action against discriminating landlords) from Kantipur's published demand list. No landlord is named, so no unproven allegations against named individuals. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+'सरकार, कोठा खाली छ' भन्दै दीपाको दसैं सडकमै
+
+--- PINNED COMMENT (Nepali question) ---
+कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "जातीय विभेदविरुद्ध न्याय माग्दै कैलालीकी दीपा नेपालीको यसपालिको दसैं काठमाडौंको माइतीघर मण्डलमै बित्दैछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दीपाको दसैं माइतीघरमै"
+    }
+  },
+  {
+    "text": "काठमाडौंमा जातीय विभेदका कारण कोठा भाडामा नपाएपछि 'सरकार, कोठा खाली छ' भन्दै उनी १८४ दिनदेखि धर्नामा छिन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "१८४ दिनदेखि धर्नामा"
+    }
+  },
+  {
+    "text": "सरकारले औपचारिक रूपमा वार्तामा नबोलाएको र माग सम्बोधन नगरेको उनको गुनासो छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "वार्तामा बोलाइएको छैन: गुनासो"
+    }
+  },
+  {
+    "text": "घरबहालमा जातीय विभेदलाई दण्डनीय बनाउने, शून्य सहनशीलताको नीति लिने र छुवाछूत ऐन २०६८ संशोधन गरी कडा सजायको व्यवस्था गर्नु उनका मुख्य माग हुन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मुख्य मागहरू"
+    }
+  },
+  {
+    "text": "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म सडक नछोड्ने उनको अडान छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "माग पूरा नभएसम्म सडक नछोड्ने अडान"
+    }
+  },
+  {
+    "text": "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "सबैको साझा मुद्दा: दीपा"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "दसैंमा पनि माइतीघरमै दीपा: जातीय विभेदविरुद्ध १८४ दिनदेखि धर्ना",
+  "youtube_description": "कैलालीकी दीपा नेपाली जातीय विभेदविरुद्ध न्याय माग्दै १८४ दिनदेखि माइतीघर मण्डलमा धर्नामा छिन्। यसपालिको दसैं पनि उनको सडकमै बित्ने भएको छ।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Dipa Nepali",
+    "Caste Discrimination",
+    "Maitighar"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#DipaNepali",
+    "#CasteDiscrimination",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+  "instagram_caption": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+  "facebook_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+  "threads_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal",
+  "linkedin_post": "जातीय विभेदविरुद्ध १८४ दिनदेखि माइतीघरमा धर्नामा बसेकी दीपाको दसैं सडकमै। #NepalNews #DipaNepali #CasteDiscrimination #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Kantipur: Oct 19, 2026. https://ekantipur.com/news/2026/10/19/deepa-continues-to-protest-on-the-streets-even-during-dashain-waiting-for-justice-for-184-days-26-17.html
+Ratopati: Oct 20, 2026. https://www.ratopati.com (front page: Dipa Nepali spending Dashain on the street, Maitighar protest)
+Kantipur (background interview): Aug 18, 2026. https://ekantipur.com/news/2026/08/18/deepa-from-kailali-has-been-protesting-at-maitighar-mandala-in-kathmandu-for-four-months-saying-when-i-looked-for-a-room-i-found-caste-when-i-looked-for-justice-i-didnt-find-the-government-54-39.html

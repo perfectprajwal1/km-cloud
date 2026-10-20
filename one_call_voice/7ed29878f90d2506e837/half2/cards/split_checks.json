@@ -1,0 +1,55 @@
+{
+  "master_sha256": "060f00b48569d90723e4187387bd1c785d0c9ae413b841d326ae2ed28a0d67cb",
+  "cuts_sec": [
+    8.712666666666667,
+    18.99670833333333
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म सडक नछोड्ने उनको अडान छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.713,
+      "duration_sec": 8.713,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।",
+      "master_start_sec": 8.713,
+      "master_end_sec": 18.997,
+      "duration_sec": 10.284,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 18.997,
+      "master_end_sec": 28.251,
+      "duration_sec": 9.254,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

@@ -1,0 +1,619 @@
+{
+ "id": "RV_20261020_jetkae",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?",
+ "pinned_comment": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "दीपाको दसैं माइतीघरमै",
+   "sub": "",
+   "km_default": true,
+   "vo": "जातीय विभेदविरुद्ध न्याय माग्दै कैलालीकी दीपा नेपालीको यसपालिको दसैं काठमाडौंको माइतीघर मण्डलमै बित्दैछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_01_fcad4e.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "कैलाली",
+        "sub": "",
+        "focus": false,
+        "at": 0.219
+       },
+       {
+        "ne": "काठमाडौं",
+        "sub": "",
+        "focus": true,
+        "at": 0.415
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 76,
+      "p1": 88
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "place": "काठमाडौं",
+   "headline": "१८४ दिनदेखि धर्नामा",
+   "type": "place",
+   "vo": "काठमाडौंमा जातीय विभेदका कारण कोठा भाडामा नपाएपछि 'सरकार, कोठा खाली छ' भन्दै उनी १८४ दिनदेखि धर्नामा छिन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_02_30018e.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "देखि",
+        "key": false,
+        "at": 0.508
+       },
+       {
+        "t": "धर्नामा",
+        "key": true,
+        "at": 0.543
+       }
+      ],
+      "icon": "building",
+      "at": 0.508
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "वार्तामा बोलाइएको छैन: गुनासो",
+   "points": [
+    "सरकारले औपचारिक रूपमा वार्तामा नबोलाएको र माग सम्बोधन"
+   ],
+   "km_default": true,
+   "vo": "सरकारले औपचारिक रूपमा वार्तामा नबोलाएको र माग सम्बोधन नगरेको उनको गुनासो छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_03_49e7ba.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "सरकारले औपचारिक रूपमा "
+       },
+       {
+        "t": "वार्तामा",
+        "hl": true,
+        "at": 0.285
+       },
+       {
+        "t": " नबोलाएको र माग सम्बोधन नगरेको उनको "
+       },
+       {
+        "t": "गुनासो",
+        "hl": true,
+        "at": 0.754
+       },
+       {
+        "t": " छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "मुख्य मागहरू",
+   "points": [
+    "घरबहालमा जातीय विभेदलाई दण्डनीय बनाउने"
+   ],
+   "km_default": true,
+   "vo": "घरबहालमा जातीय विभेदलाई दण्डनीय बनाउने, शून्य सहनशीलताको नीति लिने र छुवाछूत ऐन २०६८ संशोधन गरी कडा सजायको व्यवस्था गर्नु उनका मुख्य माग हुन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_04_31ddc1.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "मुख्य",
+        "key": false,
+        "at": 0.543
+       },
+       {
+        "t": "मागहरू",
+        "key": true,
+        "at": 0.6
+       }
+      ],
+      "icon": "doc",
+      "at": 0.543
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 98
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "doc": "<path pathLength=\"1\" d=\"M6 2h9l4 4v16H6z\"/><path pathLength=\"1\" d=\"M15 2v4h4M9 11h7M9 15h7M9 19h4\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "माग पूरा नभएसम्म सडक नछोड्ने अडान",
+   "points": [
+    "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म"
+   ],
+   "km_default": true,
+   "vo": "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग पूरा नभएसम्म सडक नछोड्ने उनको अडान छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_05_42bddf.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "घरमा परिवारसँग दसैं मनाउने रहर हुँदाहुँदै माग "
+       },
+       {
+        "t": "पूरा नभएसम्म",
+        "hl": true,
+        "at": 0.493
+       },
+       {
+        "t": " सडक "
+       },
+       {
+        "t": "नछोड्ने",
+        "hl": true,
+        "at": 0.657
+       },
+       {
+        "t": " उनको अडान छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "सबैको साझा मुद्दा: दीपा",
+   "points": [
+    "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने"
+   ],
+   "km_default": true,
+   "vo": "दीपाले आफ्नो आन्दोलन दलितको मात्रै नभई विभेदरहित समाज चाहने सबैको साझा मुद्दा भएको बताएकी छिन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261020_jetkae_06_cd219e.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "सबैको",
+        "key": false,
+        "at": 0.401
+       },
+       {
+        "t": "साझा",
+        "key": false,
+        "at": 0.436
+       },
+       {
+        "t": "मुद्दा:",
+        "key": true,
+        "at": 0.471
+       },
+       {
+        "t": "दीपा",
+        "key": false,
+        "at": 0.506
+       }
+      ],
+      "icon": "law",
+      "at": 0.401
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "law": "<path pathLength=\"1\" d=\"M12 3v18M7 21h10M5 7h14\"/><path pathLength=\"1\" d=\"M5 7l-3 6a3 3 0 006 0z\"/><path pathLength=\"1\" d=\"M19 7l-3 6a3 3 0 006 0z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "कोठा भाडामा जातीय विभेद गर्नेलाई कडा कारबाही हुनुपर्छ भन्नेमा तपाईं सहमत हुनुहुन्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "eb453f6ac00fcbf407c941cfe7989e5751a5b9c52c24bb498687e8f58cf5c45c",
+  "plan_hash": "e0d28c95773d038ee3156ddd2ca7169981c9c94bba5b26e14b5723f307f369b6",
+  "selected": [
+   "main:hook",
+   "strip:place",
+   "main:place",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:place",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "place",
+    "score": 185.921,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "place",
+    "selected_strip": "phrase",
+    "score": 145.872,
+    "reason": [
+     "one explicit location",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:place",
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "place",
+       "text": "काठमाडौं",
+       "start": 0,
+       "end": 8
+      },
+      {
+       "field": "headline",
+       "text": "१८४ दिनदेखि धर्नामा",
+       "start": 81,
+       "end": 100
+      }
+     ],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:place": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.187,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.249,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.187,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.249,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "3a6c97c331c11d93c9da20269007ea8a7aed48a242e3b51859bb29b9a82c72b6"
+ }
+}
