@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261020_nqzpz8
+TOPIC: पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित हवाई उडान स्थगित
+MODEL: assistant_draft
+STORY ID: ST_5b39d5a79bd0
+DATE: 2026-10-20T17:45:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://prakshepandaily.com/2026/10/20/70580/
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+पर्यटकीय याम नसकिँदै पोखरा–जोमसोम रुटको नियमित हवाई उडान स्थगित भएको छ। यस मार्गमा उडान गर्दै आएका तारा एयरले अघिल्लो साता र समिट एयरले सोमबारदेखि नियमित उडान बन्द गरेका हुन्। नागरिक उड्डयन कार्यालयका अनुसार तारा एयरको एउटा जहाज मर्मतमा रहेको र समिट एयरको एउटा जहाज पनि मर्मतका लागि लैजाने तयारी छ। समिट एयरका अनुसार रसुवाको विनाशकारी बाढी र बाढीपहिरोले सडक अवरुद्ध हुँदा यात्रुले बुकिङ रद्द गर्न थालेपछि नियमित उडान स्थगित गरिएको हो। सामान्यतया अगस्टदेखि नोभेम्बरसम्म नियमित उडान हुने यस मार्गमा दुई कम्पनीले बर्सेनि एक हजार दुई सयभन्दा बढी उडान गर्छन्। नियमित उडान बन्द भए पनि चार्टर उडान भने सञ्चालनमै रहने समिट एयरले जनाएको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पोखरा-जोमसोम नियमित उडान बन्द"
+    },
+    "caption_text": "पोखरा-जोमसोम नियमित उडान बन्द",
+    "big_hook_text": "पोखरा-जोमसोम नियमित उडान बन्द",
+    "pip_mode": "off",
+    "source_evidence": "Prakshepan Daily Kartik 3 + Desh Sanchar Oct 19: regular Pokhara-Jomsom flights suspended before the tourist season ends.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "तारा र समिट दुबैले उडान रोके"
+    },
+    "caption_text": "तारा र समिट दुबैले उडान रोके",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets, quoting Jomsom Civil Aviation Office chief Bishwaraj Sharma: Tara Air halted last week, Summit Air from Monday.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "जहाज मर्मतमा"
+    },
+    "caption_text": "जहाज मर्मतमा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets: one of Tara Air's three aircraft is in maintenance; one of Summit Air's four is being prepared for maintenance.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "यात्रुले बुकिङ रद्द गरेपछि निर्णय"
+    },
+    "caption_text": "यात्रुले बुकिङ रद्द गरेपछि निर्णय",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets, quoting Summit Air station in-charge Suman Thakali: booking cancellations rose after the Rasuwa flood and flood/landslide road blockages.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "बर्सेनि १,२००+ नियमित उडान"
+    },
+    "caption_text": "बर्सेनि १,२००+ नियमित उडान",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets: regular flights normally run August to November; the two airlines conduct more than 1,200 regular flights annually on this route.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "चार्टर उडान जारी"
+    },
+    "caption_text": "चार्टर उडान जारी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets, quoting Suman Thakali: charter flights will continue despite the regular-flight suspension.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_5b39d5a79bd0",
+  "source_url": "https://prakshepandaily.com/2026/10/20/70580/",
+  "source_label": "Prakshepan Daily / Desh Sanchar",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Prakshepan Daily (Kartik 3/Oct 20) and Desh Sanchar English (Oct 19), both quoting Jomsom Civil Aviation Office chief Bishwaraj Sharma and Summit Air Jomsom station in-charge Suman Thakali: regular Pokhara-Jomsom flights are suspended before the tourist season ends; Tara Air stopped last week and Summit Air from Monday; normally regular 18-seat flights run August to November in two tourist seasons; one of Tara Air's three aircraft is in maintenance and one of Summit Air's four is being prepared for maintenance; per Thakali, passenger booking cancellations rose after the devastating Rasuwa flood and flood/landslide road blockages, prompting the suspension; charter flights continue; the two airlines fly 1,200+ regular flights a year on the route. Kantipur/Peoples' Review (Oct 17) reported the planned suspension from Wednesday. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "पर्यटकीय याम नसकिँदै पोखरा–जोमसोम रुटको नियमित हवाई उडान स्थगित भएको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://english.deshsanchar.com/pokhara-jomsom-flights-suspended-early-due-to-aircraft-maintenance-issues/",
+    "article_quote": "Pokhara-Jomsom regular flights have been suspended. Private airlines operating on this route have announced the suspension of services even before the end of the tourist season this year.",
+    "asset_ref": "https://english.deshsanchar.com/pokhara-jomsom-flights-suspended-early-due-to-aircraft-maintenance-issues/",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "मुस्ताङ जाने नियमित उडान समयअगावै बन्द",
+  "closing_line": "नियमित उडान बन्द भए पनि चार्टर उडान भने सञ्चालनमै रहने समिट एयरले जनाएको छ।",
+  "comment_prompt": "मुस्ताङ यात्राका लागि नियमित हवाई सेवा बन्द हुनुले तपाईंको योजनामा असर पार्छ?",
+  "pinned_comment": "मुस्ताङ यात्राका लागि नियमित हवाई सेवा बन्द हुनुले तपाईंको योजनामा असर पार्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "पर्यटकीय याम नसकिँदै पोखरा–जोमसोम रुटको नियमित हवाई उडान स्थगित भएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पोखरा-जोमसोम नियमित उडान बन्द"
+      },
+      "caption_text": "पोखरा-जोमसोम नियमित उडान बन्द",
+      "big_hook_text": "पोखरा-जोमसोम नियमित उडान बन्द",
+      "pip_mode": "off",
+      "source_evidence": "Prakshepan Daily Kartik 3 + Desh Sanchar Oct 19: regular Pokhara-Jomsom flights suspended before the tourist season ends.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "यस मार्गमा उडान गर्दै आएका तारा एयरले अघिल्लो साता र समिट एयरले सोमबारदेखि नियमित उडान बन्द गरेका हुन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "तारा र समिट दुबैले उडान रोके"
+      },
+      "caption_text": "तारा र समिट दुबैले उडान रोके",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets, quoting Jomsom Civil Aviation Office chief Bishwaraj Sharma: Tara Air halted last week, Summit Air from Monday.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "नागरिक उड्डयन कार्यालयका अनुसार तारा एयरको एउटा जहाज मर्मतमा रहेको र समिट एयरको एउटा जहाज पनि मर्मतका लागि लैजाने तयारी छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "जहाज मर्मतमा"
+      },
+      "caption_text": "जहाज मर्मतमा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets: one of Tara Air's three aircraft is in maintenance; one of Summit Air's four is being prepared for maintenance.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "समिट एयरका अनुसार रसुवाको विनाशकारी बाढी र बाढीपहिरोले सडक अवरुद्ध हुँदा यात्रुले बुकिङ रद्द गर्न थालेपछि नियमित उडान स्थगित गरिएको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "यात्रुले बुकिङ रद्द गरेपछि निर्णय"
+      },
+      "caption_text": "यात्रुले बुकिङ रद्द गरेपछि निर्णय",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets, quoting Summit Air station in-charge Suman Thakali: booking cancellations rose after the Rasuwa flood and flood/landslide road blockages.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "सामान्यतया अगस्टदेखि नोभेम्बरसम्म नियमित उडान हुने यस मार्गमा दुई कम्पनीले बर्सेनि एक हजार दुई सयभन्दा बढी उडान गर्छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "बर्सेनि १,२००+ नियमित उडान"
+      },
+      "caption_text": "बर्सेनि १,२००+ नियमित उडान",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets: regular flights normally run August to November; the two airlines conduct more than 1,200 regular flights annually on this route.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "नियमित उडान बन्द भए पनि चार्टर उडान भने सञ्चालनमै रहने समिट एयरले जनाएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "चार्टर उडान जारी"
+      },
+      "caption_text": "चार्टर उडान जारी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets, quoting Suman Thakali: charter flights will continue despite the regular-flight suspension.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "पोखरा–जोमसोम नियमित हवाई उडान स्थगित, पर्यटकीय यामअगावै",
+    "youtube_description": "तारा एयर र समिट एयरले पर्यटकीय याम पूरा नहुँदै पोखरा–जोमसोम रुटको नियमित उडान स्थगित गरेका छन्। चार्टर उडान भने जारी रहने।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Pokhara Jomsom",
+      "Flights Suspended",
+      "Mustang"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#PokharaJomsom",
+      "#Mustang",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+    "instagram_caption": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+    "facebook_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+    "threads_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+    "linkedin_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Suspension core (regular Pokhara-Jomsom flights stopped before the tourist season ends; Tara Air last week, Summit Air from Monday; charter flights continue) cross-checked between Prakshepan Daily (Kartik 3/Oct 20) and Desh Sanchar English (Oct 19), both quoting Jomsom Civil Aviation Office chief Bishwaraj Sharma and Summit Air station in-charge Suman Thakali; Kantipur/Peoples' Review (Oct 17) reported the planned suspension. Reasons (one Tara aircraft in maintenance, one Summit aircraft being prepared, booking cancellations after the Rasuwa flood and road blockages) from the same two outlets. Normal season (August-November) and 1,200+ annual flights from both. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+मुस्ताङ जाने नियमित उडान समयअगावै बन्द
+
+--- PINNED COMMENT (Nepali question) ---
+मुस्ताङ यात्राका लागि नियमित हवाई सेवा बन्द हुनुले तपाईंको योजनामा असर पार्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "पर्यटकीय याम नसकिँदै पोखरा–जोमसोम रुटको नियमित हवाई उडान स्थगित भएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पोखरा-जोमसोम नियमित उडान बन्द"
+    }
+  },
+  {
+    "text": "यस मार्गमा उडान गर्दै आएका तारा एयरले अघिल्लो साता र समिट एयरले सोमबारदेखि नियमित उडान बन्द गरेका हुन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "तारा र समिट दुबैले उडान रोके"
+    }
+  },
+  {
+    "text": "नागरिक उड्डयन कार्यालयका अनुसार तारा एयरको एउटा जहाज मर्मतमा रहेको र समिट एयरको एउटा जहाज पनि मर्मतका लागि लैजाने तयारी छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "जहाज मर्मतमा"
+    }
+  },
+  {
+    "text": "समिट एयरका अनुसार रसुवाको विनाशकारी बाढी र बाढीपहिरोले सडक अवरुद्ध हुँदा यात्रुले बुकिङ रद्द गर्न थालेपछि नियमित उडान स्थगित गरिएको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "यात्रुले बुकिङ रद्द गरेपछि निर्णय"
+    }
+  },
+  {
+    "text": "सामान्यतया अगस्टदेखि नोभेम्बरसम्म नियमित उडान हुने यस मार्गमा दुई कम्पनीले बर्सेनि एक हजार दुई सयभन्दा बढी उडान गर्छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "बर्सेनि १,२००+ नियमित उडान"
+    }
+  },
+  {
+    "text": "नियमित उडान बन्द भए पनि चार्टर उडान भने सञ्चालनमै रहने समिट एयरले जनाएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "चार्टर उडान जारी"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "पोखरा–जोमसोम नियमित हवाई उडान स्थगित, पर्यटकीय यामअगावै",
+  "youtube_description": "तारा एयर र समिट एयरले पर्यटकीय याम पूरा नहुँदै पोखरा–जोमसोम रुटको नियमित उडान स्थगित गरेका छन्। चार्टर उडान भने जारी रहने।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Pokhara Jomsom",
+    "Flights Suspended",
+    "Mustang"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#PokharaJomsom",
+    "#Mustang",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+  "instagram_caption": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+  "facebook_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+  "threads_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal",
+  "linkedin_post": "पर्यटकीय यामअगावै पोखरा–जोमसोम नियमित उडान बन्द। चार्टर उडान भने जारी। #NepalNews #PokharaJomsom #Mustang #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Prakshepan Daily: Oct 20, 2026. https://prakshepandaily.com/2026/10/20/70580/
+Desh Sanchar (English): Oct 19, 2026. https://english.deshsanchar.com/pokhara-jomsom-flights-suspended-early-due-to-aircraft-maintenance-issues/
+Kantipur (English): Oct 17, 2026. https://ekantipur.com/business/2026/10/17/en/pokhara-jomsom-flights-suspended-from-wednesday-44-58.html
