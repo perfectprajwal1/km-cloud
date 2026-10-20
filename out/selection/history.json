@@ -1,47 +1,6 @@
 {
   "reels": [
     {
-      "content_hash": "13479c98dfa3ae089da692fd5d0176b95a58a0bd3d329a74b528f1ffdc4bb90b",
-      "eligible": [
-        "main:bignum",
-        "main:engage",
-        "main:hook",
-        "main:place",
-        "main:points_plain",
-        "main:scale",
-        "strip:evidence",
-        "strip:phrase",
-        "strip:place",
-        "strip:stat",
-        "strip:units"
-      ],
-      "id": "RV_20261014_j4z86h",
-      "missed": {
-        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
-        "main:scale": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:place": "fit/repetition/rarity: another legal pair scored higher"
-      },
-      "plan_hash": "958425536d62ae8ea9f03919a84710b0f635b2404693c0d7da437ff8ba00d7c3",
-      "rendered_at": 1791985980.6834877,
-      "selected": [
-        "main:hook",
-        "strip:stat",
-        "main:points_plain",
-        "strip:evidence",
-        "main:bignum",
-        "strip:units",
-        "main:bignum",
-        "strip:units",
-        "main:points_plain",
-        "strip:phrase",
-        "main:place",
-        "strip:stat",
-        "main:engage"
-      ]
-    },
-    {
       "content_hash": "ed2a6d17ecf8ce9e6b3f74e3ee83888ea013ab63bbf058d334816566802a5d45",
       "eligible": [
         "main:bignum",
@@ -742,6 +701,40 @@
         "strip:phrase",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "379458219f32d7e8b984eae95882502263c5b7470b1d34a868a1348fb58ff0f2",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place",
+        "strip:quote"
+      ],
+      "id": "RV_20261020_nqzpz8",
+      "missed": {
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "46456b8fc85f6325ea9ef9d47e57d2faf2910767609524855cb9d287874ec50e",
+      "rendered_at": 1792502777.3219397,
+      "selected": [
+        "main:hook",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:quote",
+        "main:points_plain",
+        "strip:place",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -764,25 +757,26 @@
     "RV_20261018_myz49k:4c4684e22a328eeffa19d79f8872f952ee9a83fbb2e1a615ce5e5c470bb8ba0f": "be59f5f2f2889813d1a69853eb0abeee6835cf514a0dc377491c4bf2e0b945a3",
     "RV_20261019_ft7e2o:cc80e31cc84f7ba328f91887185dec03298e65ae08e7f703223f2fb5cd706890": "c71965817c6c324c90dae1d8a9cf10fdd52dad6e0c3f20f348e36bb54f39ff84",
     "RV_20261019_nyn9qy:cb1af98bd0a3e7514b5e857298472dd3b5e8e7f4e0fef93a1021cf8b92d007ef": "e98045ee7f63d7995cd560ab77dd988f4b225db82f1bec0eeecf75fa4f267a3a",
-    "RV_20261020_jetkae:eb453f6ac00fcbf407c941cfe7989e5751a5b9c52c24bb498687e8f58cf5c45c": "e0d28c95773d038ee3156ddd2ca7169981c9c94bba5b26e14b5723f307f369b6"
+    "RV_20261020_jetkae:eb453f6ac00fcbf407c941cfe7989e5751a5b9c52c24bb498687e8f58cf5c45c": "e0d28c95773d038ee3156ddd2ca7169981c9c94bba5b26e14b5723f307f369b6",
+    "RV_20261020_nqzpz8:379458219f32d7e8b984eae95882502263c5b7470b1d34a868a1348fb58ff0f2": "46456b8fc85f6325ea9ef9d47e57d2faf2910767609524855cb9d287874ec50e"
   },
   "used_total": {
     "main:bignum": 10,
     "main:date": 2,
-    "main:engage": 20,
-    "main:hook": 20,
+    "main:engage": 21,
+    "main:hook": 21,
     "main:place": 4,
-    "main:points_plain": 66,
+    "main:points_plain": 71,
     "main:scale": 15,
     "main:versus": 1,
     "strip:calendar": 1,
     "strip:compare": 1,
-    "strip:evidence": 38,
+    "strip:evidence": 40,
     "strip:incident": 1,
     "strip:money": 1,
-    "strip:phrase": 27,
-    "strip:place": 13,
-    "strip:quote": 2,
+    "strip:phrase": 29,
+    "strip:place": 14,
+    "strip:quote": 3,
     "strip:schedule": 1,
     "strip:stat": 17,
     "strip:track": 1,
