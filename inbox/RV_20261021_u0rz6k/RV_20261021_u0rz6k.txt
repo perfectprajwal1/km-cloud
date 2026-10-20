@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261021_u0rz6k
+TOPIC: दसैंमा उपत्यकाका ३ रुटमा प्रहरीको निःशुल्क बस सेवा
+MODEL: assistant_draft
+STORY ID: ST_22e1130cecfe
+DATE: 2026-10-21T00:35:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.sakriyanews.com/news/30721
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ। दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक ३ र ४ गते चलाइएको हो। पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ। दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ। टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्। सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "प्रहरीको निःशुल्क बस, ३ रुटमा"
+    },
+    "caption_text": "प्रहरीको निःशुल्क बस, ३ रुटमा",
+    "big_hook_text": "प्रहरीको निःशुल्क बस, ३ रुटमा",
+    "pip_mode": "off",
+    "source_evidence": "Sakriya News Kartik 3 (Nepal Police headquarters) + Nepal News/Hamro Patro Oct 20: free bus service on three Valley routes for Bada Dashain.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कात्तिक ३ र ४ गते"
+    },
+    "caption_text": "कात्तिक ३ र ४ गते",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets: the service runs on Kartik 3 and 4 to ease travel amid the Dashain public-transport shortage.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर"
+    },
+    "caption_text": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Sakriya News route 1 (abbreviated): Naxal-Baluwatar-Naya Bus Park-Kalanki-Satdobato-Lagankhel-Maitighar and back to Naxal.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "रुट २ र ३"
+    },
+    "caption_text": "रुट २ र ३",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Sakriya News routes 2 and 3 (abbreviated stop lists; both are loops returning to Naxal).",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कात्तिक ४: बिहान ८ र दिउँसो ३:३०"
+    },
+    "caption_text": "कात्तिक ४: बिहान ८ र दिउँसो ३:३०",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets: on Kartik 4 (Tika day) buses run in two shifts, 8 AM and 3:30 PM.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "यात्रुलाई राहतको अपेक्षा"
+    },
+    "caption_text": "यात्रुलाई राहतको अपेक्षा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Sakriya News: Nepal Police expects the free service to greatly help passengers facing the public-transport shortage.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_22e1130cecfe",
+  "source_url": "https://www.sakriyanews.com/news/30721",
+  "source_label": "Sakriya News / Nepal News",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Sakriya News (Kartik 3, quoting Nepal Police headquarters) and Nepal News/Hamro Patro (Oct 20), with Onlinekhabar confirming: Nepal Police is running free bus services on three Kathmandu Valley routes for Bada Dashain, on Kartik 3 and 4. Kartik 3 service began at 4 PM on all three routes; on Kartik 4 (Tika day) buses run in two shifts, 8 AM and 3:30 PM. Route 1: Naxal-Baluwatar-Teaching-Ring Road-Naya Bus Park-Balaju-Swayambhu-Kalanki-Balkhu-Satdobato-Lagankhel-Jawalakhel-Thapathali-Maitighar-Putalisadak-Krishna Pauroti-Jaya Nepal Hall, back to Naxal. Route 2: Naxal-Ratnapark-Baneshwor-Koteshwor-Sallaghari-Suryabinayak Chowk and back via Koteshwor-Airport-Gaushala-Chabahil-Sukedhara-Ring Road-Teaching-Baluwatar to Naxal. Route 3: Naxal-Sohrakhutte-Balaju Chowk-Naya Bus Park-Narayan Gopal Chowk-Ring Road-Sukedhara-Gaushala-Airport-Koteshwor-Satdobato-Ekantakuna-Balkhu-Kalanki-Naya Bus Park-Ring Road-Maharajgunj, back to Naxal. The script summarizes each route with a few stops rather than the full stop list. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.hamropatro.com/news/detail/4698006893042908-dasainma-upatyakaka-tin-rutama-prahariko-nihshulk-bas",
+    "article_quote": "नेपाल प्रहरीले बडादसैँका अवसरमा सर्वसाधारणको आवागमन सहज बनाउन काठमाडौँ उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गर्ने भएको छ।",
+    "asset_ref": "https://www.hamropatro.com/news/detail/4698006893042908-dasainma-upatyakaka-tin-rutama-prahariko-nihshulk-bas",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "positive",
+  "alternate_hook": "टिकाको दिन पनि चल्नेछ प्रहरीको निःशुल्क बस",
+  "closing_line": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+  "comment_prompt": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?",
+  "pinned_comment": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "प्रहरीको निःशुल्क बस, ३ रुटमा"
+      },
+      "caption_text": "प्रहरीको निःशुल्क बस, ३ रुटमा",
+      "big_hook_text": "प्रहरीको निःशुल्क बस, ३ रुटमा",
+      "pip_mode": "off",
+      "source_evidence": "Sakriya News Kartik 3 (Nepal Police headquarters) + Nepal News/Hamro Patro Oct 20: free bus service on three Valley routes for Bada Dashain.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक ३ र ४ गते चलाइएको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कात्तिक ३ र ४ गते"
+      },
+      "caption_text": "कात्तिक ३ र ४ गते",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets: the service runs on Kartik 3 and 4 to ease travel amid the Dashain public-transport shortage.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर"
+      },
+      "caption_text": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Sakriya News route 1 (abbreviated): Naxal-Baluwatar-Naya Bus Park-Kalanki-Satdobato-Lagankhel-Maitighar and back to Naxal.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "रुट २ र ३"
+      },
+      "caption_text": "रुट २ र ३",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Sakriya News routes 2 and 3 (abbreviated stop lists; both are loops returning to Naxal).",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कात्तिक ४: बिहान ८ र दिउँसो ३:३०"
+      },
+      "caption_text": "कात्तिक ४: बिहान ८ र दिउँसो ३:३०",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets: on Kartik 4 (Tika day) buses run in two shifts, 8 AM and 3:30 PM.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "यात्रुलाई राहतको अपेक्षा"
+      },
+      "caption_text": "यात्रुलाई राहतको अपेक्षा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Sakriya News: Nepal Police expects the free service to greatly help passengers facing the public-transport shortage.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "दसैंमा उपत्यकाका ३ रुटमा प्रहरीको निःशुल्क बस",
+    "youtube_description": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ। टिकाको दिन बिहान ८ बजे र दिउँसो साढे ३ बजे चल्ने।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Free Bus",
+      "Nepal Police",
+      "Dashain"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#FreeBus",
+      "#NepalPolice",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+    "instagram_caption": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+    "facebook_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+    "threads_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+    "linkedin_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Service core (Nepal Police free buses on three Kathmandu Valley routes for Bada Dashain, running Kartik 3 and 4; Kartik 3 from 4 PM; Kartik 4 Tika day in two shifts, 8 AM and 3:30 PM) cross-checked between Sakriya News (Kartik 3, quoting Nepal Police headquarters) and Nepal News/Hamro Patro (Oct 20), with Onlinekhabar confirming. Route summaries in the script are abbreviated from Sakriya News's full stop lists (all three routes are loops starting and ending at Naxal). Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+टिकाको दिन पनि चल्नेछ प्रहरीको निःशुल्क बस
+
+--- PINNED COMMENT (Nepali question) ---
+प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "प्रहरीको निःशुल्क बस, ३ रुटमा"
+    }
+  },
+  {
+    "text": "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक ३ र ४ गते चलाइएको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कात्तिक ३ र ४ गते"
+    }
+  },
+  {
+    "text": "पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर"
+    }
+  },
+  {
+    "text": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "रुट २ र ३"
+    }
+  },
+  {
+    "text": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कात्तिक ४: बिहान ८ र दिउँसो ३:३०"
+    }
+  },
+  {
+    "text": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "यात्रुलाई राहतको अपेक्षा"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "दसैंमा उपत्यकाका ३ रुटमा प्रहरीको निःशुल्क बस",
+  "youtube_description": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ। टिकाको दिन बिहान ८ बजे र दिउँसो साढे ३ बजे चल्ने।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Free Bus",
+    "Nepal Police",
+    "Dashain"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#FreeBus",
+    "#NepalPolice",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+  "instagram_caption": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+  "facebook_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+  "threads_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal",
+  "linkedin_post": "दसैंमा काठमाडौंका ३ रुटमा प्रहरीको निःशुल्क बस। टिकाको दिन पनि दुई सिफ्टमा चल्ने। #NepalNews #FreeBus #NepalPolice #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Sakriya News: Oct 20, 2026. https://www.sakriyanews.com/news/30721
+Nepal News via Hamro Patro: Oct 20, 2026. https://www.hamropatro.com/news/detail/4698006893042908-dasainma-upatyakaka-tin-rutama-prahariko-nihshulk-bas
+Onlinekhabar (front page, Oct 20): काठमाडौंमा प्रहरीको निःशुल्क बस, यी ३ रुटमा उपलब्ध हुनेछ सेवा

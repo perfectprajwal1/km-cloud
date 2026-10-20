@@ -1,0 +1,55 @@
+{
+  "master_sha256": "7a4be783a2d63e499205b707228c02e4fa83e8a59ed08ef0ac5ecb8cec12c558",
+  "cuts_sec": [
+    8.483458333333333,
+    16.922291666666666
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.483,
+      "duration_sec": 8.483,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+      "master_start_sec": 8.483,
+      "master_end_sec": 16.922,
+      "duration_sec": 8.439,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 16.922,
+      "master_end_sec": 24.011,
+      "duration_sec": 7.089,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

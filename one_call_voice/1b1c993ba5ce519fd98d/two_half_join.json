@@ -1,0 +1,233 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    8.970958333333334,
+    19.541916666666665,
+    34.072875,
+    49.163833333333336,
+    58.64729166666667,
+    67.08612500000001
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "ctc_missing_recovered",
+      "original_master_sha256": "54d6ff1209e9d15bfc02d310a0d74f3b8691856d15b2f8c392e21e67923a1208",
+      "used_master_sha256": "058c7db1de03b2d1f71f88fca1df684c7466ba075d5383ca986548161f63d73e",
+      "seconds": 48.163833333333336,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+            "spoken": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+            "mapping": []
+          },
+          {
+            "original": "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक ३ र ४ गते चलाइएको हो।",
+            "spoken": "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक तीन र चार गते चलाइएको हो।",
+            "mapping": [
+              {
+                "original": "३",
+                "spoken": "तीन",
+                "start": 70,
+                "end": 71,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "४",
+                "spoken": "चार",
+                "start": 74,
+                "end": 75,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+            "spoken": "पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+            "mapping": []
+          },
+          {
+            "original": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ।",
+            "spoken": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "54d6ff1209e9d15bfc02d310a0d74f3b8691856d15b2f8c392e21e67923a1208",
+        "greedy": "बणादवसीको अवसरमा नेपाल प्रहरीले काठमाडौँ उपत्यकाका तीन रुटमा निशुल्क बस सेवा सञ्चालन गरेको छ ",
+        "present_indices": [
+          0
+        ],
+        "missing_indices": [
+          1,
+          2,
+          3
+        ],
+        "transcript_char_match": 0.9433962264150944,
+        "scores": [
+          -0.8666910505625613
+        ],
+        "cuts_sec": [],
+        "boundaries": [],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [
+        {
+          "card": 2,
+          "master_sha256": "eaf0cea62db2808c55025962255ef6aa374cac4b0c7cca09c971288b1a5f56d7"
+        },
+        {
+          "card": 3,
+          "master_sha256": "484fc57b86f599d8b1115f8f29fd45d0b5ebf8776c7ac47a8f004ac1ca62d014"
+        },
+        {
+          "card": 4,
+          "master_sha256": "191087a0edf9a9b36857e964a7b1df0b1fb8475fa0e4cd64da8855a3a21343af"
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "7a4be783a2d63e499205b707228c02e4fa83e8a59ed08ef0ac5ecb8cec12c558",
+      "used_master_sha256": "7a4be783a2d63e499205b707228c02e4fa83e8a59ed08ef0ac5ecb8cec12c558",
+      "seconds": 24.010958333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+            "spoken": "टिकाको दिन अर्थात् कात्तिक चार गते बिहान आठ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+            "mapping": [
+              {
+                "original": "४",
+                "spoken": "चार",
+                "start": 27,
+                "end": 28,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "८",
+                "spoken": "आठ",
+                "start": 39,
+                "end": 40,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+            "spoken": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+            "mapping": []
+          },
+          {
+            "original": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ? कमेन्टमा भन्नुस्।",
+            "spoken": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "7a4be783a2d63e499205b707228c02e4fa83e8a59ed08ef0ac5ecb8cec12c558",
+        "greedy": "टिरकाको दिन अर्थात कातिक चार्गते बिहाना आठ बछे र द्युशौ सारत तीन बजेगरी दुई शिफ्टमा वर्श्चलने छन््सार्वजनिक यातयातहूको अभाबमा हिन्नु पर्ने यात्रलाई यो निशुल्क सेवाले ठुलो राहद दिनै प्रहरीको अपेक्षा छप्रहरीको निशूल्क बस सेवाले तपाईँको दशयात्र सहज बनाउछ कम्यन्टमा वन्नुस ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.8571428571428571,
+        "scores": [
+          -1.5878432546771364,
+          -0.9819126573511312,
+          -1.8403269112362977
+        ],
+        "cuts_sec": [
+          8.483458333333333,
+          16.922291666666666
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 7.623479270833334,
+            "right_anchor": 9.344264618055556,
+            "scores": [
+              -1.5878432546771364,
+              -0.9819126573511312
+            ],
+            "candidates": [
+              {
+                "cut": 8.483458333333333,
+                "valley_start": 7.723458333333333,
+                "valley_end": 9.243458333333335,
+                "quiet_sec": 1.52,
+                "rms": 7.591241839427791e-05,
+                "cost": -1.5199917277777777
+              }
+            ],
+            "selected": {
+              "cut": 8.483458333333333,
+              "valley_start": 7.723458333333333,
+              "valley_end": 9.243458333333335,
+              "quiet_sec": 1.52,
+              "rms": 7.591241839427791e-05,
+              "cost": -1.5199917277777777
+            }
+          },
+          {
+            "left_anchor": 16.007305555555558,
+            "right_anchor": 17.748100034722224,
+            "scores": [
+              -0.9819126573511312,
+              -1.8403269112362977
+            ],
+            "candidates": [
+              {
+                "cut": 16.922291666666666,
+                "valley_start": 16.19729166666667,
+                "valley_end": 17.647291666666664,
+                "quiet_sec": 1.45,
+                "rms": 6.126124616112692e-05,
+                "cost": -1.4491082225694445
+              }
+            ],
+            "selected": {
+              "cut": 16.922291666666666,
+              "valley_start": 16.19729166666667,
+              "valley_end": 17.647291666666664,
+              "quiet_sec": 1.45,
+              "rms": 6.126124616112692e-05,
+              "cost": -1.4491082225694445
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "64a23a0abc8a16a79997ec9d0edeb0fcf5652e02ca49c1688d9edd3034423e6e",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

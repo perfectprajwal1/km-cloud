@@ -1,0 +1,616 @@
+{
+ "id": "RV_20261021_u0rz6k",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?",
+ "pinned_comment": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "प्रहरीको निःशुल्क बस, ३ रुटमा",
+   "sub": "",
+   "km_default": true,
+   "vo": "बडादसैँको अवसरमा नेपाल प्रहरीले काठमाडौं उपत्यकाका तीन रुटमा निःशुल्क बस सेवा सञ्चालन गरेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_01_501553.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "काठमाडौं",
+        "sub": "",
+        "focus": true,
+        "at": 0.237
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "कात्तिक ३ र ४ गते",
+   "points": [
+    "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो"
+   ],
+   "km_default": true,
+   "vo": "दशैंमा सार्वजनिक यातायातको अभावमा यात्रुलाई सहज बनाउन यो सेवा कात्तिक ३ र ४ गते चलाइएको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_02_a1c805.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "कात्तिक",
+        "key": false,
+        "at": 0.428
+       },
+       {
+        "t": "३",
+        "key": true,
+        "at": 0.475
+       },
+       {
+        "t": "र",
+        "key": false,
+        "at": 0.51
+       },
+       {
+        "t": "४",
+        "key": false,
+        "at": 0.545
+       },
+       {
+        "t": "गते",
+        "key": false,
+        "at": 0.58
+       }
+      ],
+      "icon": "star",
+      "at": 0.428
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "रुट १: नक्साल-कलंकी-सातदोबाटो-माइतीघर",
+   "points": [
+    "पहिलो रुटमा बस नक्सालबाट बालुवाटार"
+   ],
+   "km_default": true,
+   "vo": "पहिलो रुटमा बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_03_ccbe8e.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "पहिलो रुटमा",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "रुट २ र ३",
+   "points": [
+    "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट"
+   ],
+   "km_default": true,
+   "vo": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी हुँदै नक्साल फर्किनेछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_04_c6e06f.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "दोस्रो रुट नक्साल–रत्नपार्क–कोटेश्वर–सूर्यविनायक–एयरपोर्ट हुँदै र तेस्रो रुट सोह्रखुट्टे–बालाजु–गौशाला–एकान्तकुना–कलंकी "
+       },
+       {
+        "t": "हुँदै नक्साल फर्किनेछ",
+        "hl": true,
+        "at": 0.726
+       },
+       {
+        "t": "।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "month": "कात्तिक",
+   "day": 4,
+   "headline": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+   "weekday": "",
+   "type": "date",
+   "vo": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_05_37e342.png",
+    "anim": {
+     "kind": "schedule",
+     "schedule": {
+      "start": "कात्तिक ४ गते",
+      "startAt": 0.21,
+      "at": 0.21
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "यात्रुलाई राहतको अपेक्षा",
+   "points": [
+    "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो"
+   ],
+   "km_default": true,
+   "vo": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने यात्रुलाई यो निःशुल्क सेवाले ठूलो राहत दिने प्रहरीको अपेक्षा छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_u0rz6k_06_642007.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "सार्वजनिक यातायातको अभावमा हिँड्नुपर्ने "
+       },
+       {
+        "t": "यात्रुलाई",
+        "hl": true,
+        "at": 0.361
+       },
+       {
+        "t": " यो निःशुल्क सेवाले ठूलो "
+       },
+       {
+        "t": "राहत",
+        "hl": true,
+        "at": 0.625
+       },
+       {
+        "t": " दिने प्रहरीको अपेक्षा छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "प्रहरीको निःशुल्क बस सेवाले तपाईंको दसैं यात्रा सहज बनाउँछ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "426aeee925de20c6953b9b345d894518d332ba5c58b3ffa31ef1b08ba327adb6",
+  "plan_hash": "9da3c69e56d761ab2733c6bfcbfa6b389e48d12b799c9d5c700126bd3a50cfb6",
+  "selected": [
+   "main:hook",
+   "strip:place",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:evidence",
+   "main:date",
+   "strip:schedule",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:date",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:calendar",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:schedule"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "place",
+    "score": 185.833,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.217,
+    "reason": [
+     "converter default card",
+     "literal short statement, no inferred relationship"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "text",
+       "text": "कात्तिक ३ र ४ गते",
+       "start": 62,
+       "end": 79
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.171,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "पहिलो रुटमा",
+       "start": 0,
+       "end": 11
+      },
+      {
+       "field": "t",
+       "text": "बस नक्सालबाट बालुवाटार, नयाँ बसपार्क, कलंकी, सातदोबाटो, लगनखेल र माइतीघर हुँदै फर्किनेछ।",
+       "start": 12,
+       "end": 100
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": true,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 89.171,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition",
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": true,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "date",
+    "selected_strip": "schedule",
+    "score": 185.973,
+    "reason": [
+     "explicit month/day, no inferred weekday/year",
+     "explicit schedule relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:date",
+     "main:points_plain",
+     "strip:calendar",
+     "strip:evidence",
+     "strip:schedule"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "month",
+       "text": "कात्तिक",
+       "start": 19,
+       "end": 26
+      },
+      {
+       "field": "headline",
+       "text": "टिकाको दिन अर्थात् कात्तिक ४ गते बिहान ८ बजे र दिउँसो साढे तीन बजे गरी दुई सिफ्टमा बस चल्नेछन्।",
+       "start": 0,
+       "end": 95
+      }
+     ],
+     "strip": [
+      {
+       "field": "start",
+       "text": "कात्तिक ४ गते",
+       "start": 19,
+       "end": 32
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:calendar": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.171,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "daf6f2781967d523176b3d1e1925ecc91436e637d270f35431e4f5d83d6fc586"
+ }
+}

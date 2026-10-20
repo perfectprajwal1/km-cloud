@@ -1,0 +1,8 @@
+{
+  "master_sha256": "54d6ff1209e9d15bfc02d310a0d74f3b8691856d15b2f8c392e21e67923a1208",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "engine": "km-onnx-int8-1",
+  "greedy": "बणादवसीको अवसरमा नेपाल प्रहरीले काठमाडौँ उपत्यकाका तीन रुटमा निशुल्क बस सेवा सञ्चालन गरेको छ ",
+  "duration": 7.970958333333333,
+  "logp_sha256": "ab37dfeecc1a82f3b0f62e626bd009c9465dba9a81a5789947d56e851ad8182c"
+}
