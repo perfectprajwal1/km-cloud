@@ -1,0 +1,32 @@
+{
+  "method": "one_request_per_approved_line",
+  "cards": [
+    {
+      "card": 1,
+      "master_sha256": "d112c5b2a9791f74180ab3c4806e9b87889dcbcaabed8ea61ab0e3281e6d6899",
+      "duration_sec": 7.611
+    },
+    {
+      "card": 2,
+      "master_sha256": "0561f6c589b6d8288005ddaa694376575c7c9df2d74ac835646ee6a2ae2b93a9",
+      "duration_sec": 10.011
+    },
+    {
+      "card": 3,
+      "master_sha256": "82a20ab568b57048fa1b7622b13f28797edf8519d9c01fd795ba333b9148991d",
+      "duration_sec": 7.331
+    },
+    {
+      "card": 4,
+      "master_sha256": "fb2035dd9692f25902ca2a988e26c8a8f2602d6f6fe4331d3e9fe40bbd6697bf",
+      "duration_sec": 8.411
+    }
+  ],
+  "line_to_audio_isolation": "each output clip came from a request containing only its own approved line",
+  "cuts_sec": [
+    8.610958333333333,
+    20.621916666666667,
+    29.952875
+  ],
+  "master_sha256": "e20fc8eff7ffb107e546a054aa26145e880c43908017bd06f5a1d376c49dc5c9"
+}

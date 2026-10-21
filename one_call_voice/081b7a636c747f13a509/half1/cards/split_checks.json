@@ -1,0 +1,70 @@
+{
+  "master_sha256": "e20fc8eff7ffb107e546a054aa26145e880c43908017bd06f5a1d376c49dc5c9",
+  "cuts_sec": [
+    8.610958333333333,
+    20.621916666666667,
+    29.952875
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 8.611,
+      "duration_sec": 8.611,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+      "master_start_sec": 8.611,
+      "master_end_sec": 20.622,
+      "duration_sec": 12.011,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+      "master_start_sec": 20.622,
+      "master_end_sec": 29.953,
+      "duration_sec": 9.331,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+      "master_start_sec": 29.953,
+      "master_end_sec": 39.364,
+      "duration_sec": 9.411,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": true,
+  "sample_preserving": true,
+  "fallback_note": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. CTC found a possible partial match; original half retained and divided without a duplicate voice request."
+}

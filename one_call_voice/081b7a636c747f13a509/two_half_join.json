@@ -1,0 +1,235 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    8.610958333333333,
+    20.621916666666667,
+    29.952875,
+    40.36383333333333,
+    51.407666666666664,
+    58.78091666666666
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "isolated_per_card",
+      "original_master_sha256": "9a3cac543909248b1c2be60edbfb4fd690c7b5d1871fdb18cd88bb9f149fceb6",
+      "used_master_sha256": "e20fc8eff7ffb107e546a054aa26145e880c43908017bd06f5a1d376c49dc5c9",
+      "seconds": 39.36383333333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+            "spoken": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+            "mapping": []
+          },
+          {
+            "original": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+            "spoken": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+            "mapping": []
+          },
+          {
+            "original": "खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+            "spoken": "खरिपाटीमा सैँतिस घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+            "mapping": [
+              {
+                "original": "३७",
+                "spoken": "सैँतिस",
+                "start": 10,
+                "end": 12,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+            "spoken": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "9a3cac543909248b1c2be60edbfb4fd690c7b5d1871fdb18cd88bb9f149fceb6",
+        "greedy": "काफमाडौँ उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुम् बासी परिवारको यस पटको दशै उत्शाह बिहिन बनेको छसरकारलेए गत बैसाखमा खोला किनारका बस्ती डोजर चलाएर हटा एपछि ती परिवार छ महिनदेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्खरिपार्टीमा सैतीज घर धोरी वश्छन् क्यान्टीनले खानादीन छोडेपछि कतीलै फर्षी खाएर दशै मनाएका छन्एउटा संस्थाले दशैमाको ुलाला खसीको मासुखुवआएको भएपनि शरकारले खर्च दिने आशा पुरा भएना ",
+        "present_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "missing_indices": [],
+        "partial_missing_indices": [
+          3
+        ],
+        "transcript_char_match": 0.7959183673469388,
+        "scores": [
+          -0.8200726769825754,
+          -0.12593810006740871,
+          -1.1241737716347415
+        ],
+        "cuts_sec": [
+          8.24,
+          19.465,
+          27.895
+        ],
+        "boundaries": [],
+        "best_effort": true,
+        "fallback_reason": "CTC found a possible partial match; original half retained and divided without a duplicate voice request.",
+        "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+      },
+      "recovered": [
+        {
+          "card": 1,
+          "master_sha256": "d112c5b2a9791f74180ab3c4806e9b87889dcbcaabed8ea61ab0e3281e6d6899",
+          "duration_sec": 7.611
+        },
+        {
+          "card": 2,
+          "master_sha256": "0561f6c589b6d8288005ddaa694376575c7c9df2d74ac835646ee6a2ae2b93a9",
+          "duration_sec": 10.011
+        },
+        {
+          "card": 3,
+          "master_sha256": "82a20ab568b57048fa1b7622b13f28797edf8519d9c01fd795ba333b9148991d",
+          "duration_sec": 7.331
+        },
+        {
+          "card": 4,
+          "master_sha256": "fb2035dd9692f25902ca2a988e26c8a8f2602d6f6fe4331d3e9fe40bbd6697bf",
+          "duration_sec": 8.411
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "368211beab35b4d108ee12ad2789d8449c6a2d645091a9e985cecc9b15917994",
+      "used_master_sha256": "368211beab35b4d108ee12ad2789d8449c6a2d645091a9e985cecc9b15917994",
+      "seconds": 25.170958333333335,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।",
+            "spoken": "बोडेको सेन्टरमा सात सुन्ना ड्यास आठ सुन्ना जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।",
+            "mapping": [
+              {
+                "original": "७०–८०",
+                "spoken": "सात सुन्ना ड्यास आठ सुन्ना",
+                "start": 16,
+                "end": 21,
+                "rule": "numbers-english-unverified-v4",
+                "note": "Ambiguous/identifier numeric span read literally by digits and separators; source meaning not inferred."
+              }
+            ]
+          },
+          {
+            "original": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+            "spoken": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+            "mapping": []
+          },
+          {
+            "original": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+            "spoken": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "368211beab35b4d108ee12ad2789d8449c6a2d645091a9e985cecc9b15917994",
+        "greedy": "बोडेको सेन्टरमा सात सुन्न डस आठ सुन्न जना छन् पकाउने ठाउँर खानेपानीको अभाब छ बच्चालई नयाँ लुगा किन्न सकिएको छैन दशई होइन दसाहँ भयो भन्ने तिी परिवारको एउटै माग्छ आफ्नो बस्ने बास विस्थापित सुखुम्वासीका लागि सरकारले तुरुन्तकी गर्नु पर्छ ज स्तलाग्छ कमेन्टमा भन्नुस ",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9409090909090909,
+        "scores": [
+          -0.994674999068684,
+          -0.70772518163861,
+          -0.9256875703372922
+        ],
+        "cuts_sec": [
+          10.043833333333332,
+          17.41708333333333
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 8.843850225225225,
+            "right_anchor": 11.244895535241124,
+            "scores": [
+              -0.994674999068684,
+              -0.70772518163861
+            ],
+            "candidates": [
+              {
+                "cut": 10.043833333333332,
+                "valley_start": 8.943833333333332,
+                "valley_end": 11.143833333333333,
+                "quiet_sec": 2.2,
+                "rms": 0.00018352964658974584,
+                "cost": -2.1999892090620032
+              }
+            ],
+            "selected": {
+              "cut": 10.043833333333332,
+              "valley_start": 8.943833333333332,
+              "valley_end": 11.143833333333333,
+              "quiet_sec": 2.2,
+              "rms": 0.00018352964658974584,
+              "cost": -2.1999892090620032
+            }
+          },
+          {
+            "left_anchor": 16.28709068627451,
+            "right_anchor": 18.548075019872815,
+            "scores": [
+              -0.70772518163861,
+              -0.9256875703372922
+            ],
+            "candidates": [
+              {
+                "cut": 17.41708333333333,
+                "valley_start": 16.387083333333333,
+                "valley_end": 18.44708333333333,
+                "quiet_sec": 2.06,
+                "rms": 0.00010860257358764959,
+                "cost": -2.0599900096051935
+              }
+            ],
+            "selected": {
+              "cut": 17.41708333333333,
+              "valley_start": 16.387083333333333,
+              "valley_end": 18.44708333333333,
+              "quiet_sec": 2.06,
+              "rms": 0.00010860257358764959,
+              "cost": -2.0599900096051935
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "6fa539651ff695fe78e4fe5ec3115240d15696f19ea3b1349ce747fe51d0299f",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}
