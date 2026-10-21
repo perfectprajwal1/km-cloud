@@ -1,0 +1,620 @@
+{
+ "id": "RV_20261021_dkk3wi",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?",
+ "pinned_comment": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "होल्डिङ सेन्टरको नीरस दसैं",
+   "sub": "",
+   "km_default": true,
+   "vo": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_01_a92533.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "काठमाडौं",
+        "sub": "",
+        "focus": true,
+        "at": 0.05
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "६ महिनादेखि होल्डिङ सेन्टरमा",
+   "points": [
+    "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती"
+   ],
+   "km_default": true,
+   "vo": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_02_1cd72b.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ "
+       },
+       {
+        "t": "महिनादेखि",
+        "hl": true,
+        "at": 0.522
+       },
+       {
+        "t": " खरिपाटी र बोडेका "
+       },
+       {
+        "t": "होल्डिङ सेन्टरमा",
+        "hl": true,
+        "at": 0.706
+       },
+       {
+        "t": " छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 37.0,
+   "unit": "घर",
+   "prefix": "",
+   "decimals": 0,
+   "label": "खरिपाटीमा ३७ घरधुरी बस्छन्",
+   "sub": "",
+   "type": "bignum",
+   "vo": "खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_03_45b218.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 37,
+      "icon": "pin",
+      "label": "खरिपाटीमा धुरी बस्छन्",
+      "at": 0.091,
+      "layout": {
+       "cols": 10,
+       "rows": 4,
+       "step": 82.5,
+       "size": 64,
+       "x0": 127.5,
+       "y0": 97,
+       "capY": 461
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 68
+     },
+     "icons": {
+      "pin": "<path pathLength=\"1\" d=\"M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z\"/><circle pathLength=\"1\" cx=\"12\" cy=\"10\" r=\"2.5\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "संस्थाकै भरमा दसैं",
+   "points": [
+    "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि"
+   ],
+   "km_default": true,
+   "vo": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_04_12a73c.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "संस्थाकै",
+        "key": true,
+        "at": 0.06
+       },
+       {
+        "t": "भरमा",
+        "key": false,
+        "at": 0.33
+       },
+       {
+        "t": "दसैं",
+        "key": false,
+        "at": 0.365
+       }
+      ],
+      "icon": "building",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पानी र खानाको अभाव",
+   "points": [
+    "बोडेको सेन्टरमा ७०–८० जना छन्"
+   ],
+   "km_default": true,
+   "vo": "बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_05_3492e0.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खाने"
+       },
+       {
+        "t": "पानीको अभाव",
+        "hl": true,
+        "at": 0.442
+       },
+       {
+        "t": " छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "एउटै माग: आफ्नो बास",
+   "points": [
+    "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ"
+   ],
+   "km_default": true,
+   "vo": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_dkk3wi_06_ff673c.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "एउटै",
+        "key": false,
+        "at": 0.371
+       },
+       {
+        "t": "माग:",
+        "key": false,
+        "at": 0.412
+       },
+       {
+        "t": "आफ्नो",
+        "key": true,
+        "at": 0.469
+       },
+       {
+        "t": "बास",
+        "key": false,
+        "at": 0.567
+       }
+      ],
+      "icon": "star",
+      "at": 0.371
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "5c61d884877fdc5cf1cd758c486ecb65007cdc87198c847a1a415618f3e0f55c",
+  "plan_hash": "028fd4797336e6d283502447baaadaeadd7628bd3c89f9e6f1d66be2cf816771",
+  "selected": [
+   "main:hook",
+   "strip:place",
+   "main:points_plain",
+   "strip:evidence",
+   "main:bignum",
+   "strip:units",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "place",
+    "score": 185.833,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.162,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 3,
+    "selected_main": "bignum",
+    "selected_strip": "units",
+    "score": 174.703,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit countable objects"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "खरिपाटीमा ३७ घरधुरी बस्छन्",
+       "start": 0,
+       "end": 26
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "३७ घर",
+       "start": 10,
+       "end": 15
+      },
+      {
+       "field": "label",
+       "text": "खरिपाटीमा ३७ घरधुरी बस्छन्",
+       "start": 0,
+       "end": 26
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 105.203,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.162,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.203,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "af2cb409a46fefa8523385dbd5d13d6511e1f431d0b8c5e678492e18926a6e62"
+ }
+}

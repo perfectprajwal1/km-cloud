@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261021_dkk3wi
+TOPIC: होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर
+MODEL: assistant_draft
+STORY ID: ST_5b9b8c6e5dda
+DATE: 2026-10-21T08:25:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2041910/boring-dashain-for-sukum-residents-of-holding-center-they-celebrate-by-eating-farsi
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ। सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्। खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्। एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन। बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन। 'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "होल्डिङ सेन्टरको नीरस दसैं"
+    },
+    "caption_text": "होल्डिङ सेन्टरको नीरस दसैं",
+    "big_hook_text": "होल्डिङ सेन्टरको नीरस दसैं",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar Kartik 3 + Kantipur Oct 19: displaced squatter families in Kathmandu Valley holding centres are spending a joyless Dashain.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "६ महिनादेखि होल्डिङ सेन्टरमा"
+    },
+    "caption_text": "६ महिनादेखि होल्डिङ सेन्टरमा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: displaced when the government bulldozed riverside settlements last Baisakh; about six months in the Kharipati and Bode centres.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "फर्सी खाएर दसैं"
+    },
+    "caption_text": "फर्सी खाएर दसैं",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: 37 households at Kharipati (per Gita Lama); after the canteen stopped feeding them, some marked Dashain eating pumpkin.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "संस्थाकै भरमा दसैं"
+    },
+    "caption_text": "संस्थाकै भरमा दसैं",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: Shanti Sewa organisation provided two meals of chicken and one of goat for Dashain; hoped-for government Dashain expenses did not come (per Menuka Gurung).",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पानी र खानाको अभाव"
+    },
+    "caption_text": "पानी र खानाको अभाव",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: about 70-80 people at the Bode centre (per Rajkumar Majhi); residents cite no cooking space, water shortage and no money for children's new clothes.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "एउटै माग: आफ्नो बास"
+    },
+    "caption_text": "एउटै माग: आफ्नो बास",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: resident Griwanika Thapa says 'this is not Dashain, it is misfortune'; all the families share one demand - a place of their own to live.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_5b9b8c6e5dda",
+  "source_url": "https://www.onlinekhabar.com/2026/10/2041910/boring-dashain-for-sukum-residents-of-holding-center-they-celebrate-by-eating-farsi",
+  "source_label": "Onlinekhabar / Kantipur",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Onlinekhabar (Kartik 3, by Dinesh Gautam) and Kantipur/Ratopati (Oct 19-20): families displaced when the government bulldozed riverside squatter settlements in the Kathmandu Valley last Baisakh are spending a bleak Dashain in the Kharipati and Bode holding centres, about six months on. At Kharipati there are 37 households (per resident Gita Lama); the centre canteen has stopped feeding them; the Shanti Sewa organisation provided two meals of chicken and one of goat meat for Dashain and some ate pumpkin today; residents had hoped for government Dashain expenses, which did not come. At the Bode centre (Agriculture Development Bank training centre), about 70-80 people are staying (per resident Rajkumar Majhi); the institution provided rice and one meal of meat; residents cite no place to cook, water shortage and no money for children's new clothes. Their shared demand is a place of their own to live. All quotes are from named residents interviewed by the outlets. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://ekantipur.com/news/2026/10/19/slum-dwellers-in-holding-centers-even-during-dashain-tihar-say-what-kind-of-festivals-are-there-for-us-poor-people-44-42.html",
+    "article_quote": "दसैं–तिहारमा पनि होल्डिङ सेन्टरमै सुकुम्बासी, भन्छन्– 'हामी गरिबलाई के चाडपर्व ?'",
+    "asset_ref": "https://ekantipur.com/news/2026/10/19/slum-dwellers-in-holding-centers-even-during-dashain-tihar-say-what-kind-of-festivals-are-there-for-us-poor-people-44-42.html",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "'दसैं होइन, दशा भयो': होल्डिङ सेन्टरका सुकुमवासी",
+  "closing_line": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+  "comment_prompt": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?",
+  "pinned_comment": "विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "होल्डिङ सेन्टरको नीरस दसैं"
+      },
+      "caption_text": "होल्डिङ सेन्टरको नीरस दसैं",
+      "big_hook_text": "होल्डिङ सेन्टरको नीरस दसैं",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar Kartik 3 + Kantipur Oct 19: displaced squatter families in Kathmandu Valley holding centres are spending a joyless Dashain.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "६ महिनादेखि होल्डिङ सेन्टरमा"
+      },
+      "caption_text": "६ महिनादेखि होल्डिङ सेन्टरमा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: displaced when the government bulldozed riverside settlements last Baisakh; about six months in the Kharipati and Bode centres.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "फर्सी खाएर दसैं"
+      },
+      "caption_text": "फर्सी खाएर दसैं",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: 37 households at Kharipati (per Gita Lama); after the canteen stopped feeding them, some marked Dashain eating pumpkin.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "संस्थाकै भरमा दसैं"
+      },
+      "caption_text": "संस्थाकै भरमा दसैं",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: Shanti Sewa organisation provided two meals of chicken and one of goat for Dashain; hoped-for government Dashain expenses did not come (per Menuka Gurung).",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पानी र खानाको अभाव"
+      },
+      "caption_text": "पानी र खानाको अभाव",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: about 70-80 people at the Bode centre (per Rajkumar Majhi); residents cite no cooking space, water shortage and no money for children's new clothes.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "एउटै माग: आफ्नो बास"
+      },
+      "caption_text": "एउटै माग: आफ्नो बास",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: resident Griwanika Thapa says 'this is not Dashain, it is misfortune'; all the families share one demand - a place of their own to live.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर",
+    "youtube_description": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने विस्थापित सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Sukumbasi",
+      "Holding Center",
+      "Dashain"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Sukumbasi",
+      "#Dashain",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+    "instagram_caption": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+    "facebook_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+    "threads_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+    "linkedin_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core (families displaced by last Baisakh's bulldozing of riverside squatter settlements spending a bleak Dashain ~6 months on in Kharipati and Bode holding centres; 37 households at Kharipati; canteen stopped feeding; Shanti Sewa provided chicken and goat meals, some ate pumpkin; hoped-for government Dashain expenses did not come; 70-80 people at Bode with cooking-space and water shortages; shared demand for a place of their own) cross-checked between Onlinekhabar (Kartik 3, Dinesh Gautam) and Kantipur/Ratopati (Oct 19-20). All quotes from named residents interviewed by the outlets. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+'दसैं होइन, दशा भयो': होल्डिङ सेन्टरका सुकुमवासी
+
+--- PINNED COMMENT (Nepali question) ---
+विस्थापित सुकुमवासीका लागि सरकारले तुरुन्त के गर्नुपर्छ जस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "होल्डिङ सेन्टरको नीरस दसैं"
+    }
+  },
+  {
+    "text": "सरकारले गत वैशाखमा खोला किनारका बस्ती डोजर चलाएर हटाएपछि ती परिवार छ महिनादेखि खरिपाटी र बोडेका होल्डिङ सेन्टरमा छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "६ महिनादेखि होल्डिङ सेन्टरमा"
+    }
+  },
+  {
+    "text": "खरिपाटीमा ३७ घरधुरी बस्छन्, क्यान्टिनले खाना दिन छोडेपछि कतिले फर्सी खाएर दसैं मनाएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "फर्सी खाएर दसैं"
+    }
+  },
+  {
+    "text": "एउटा संस्थाले दसैंमा कुखुरा र खसीको मासु खुवाएको भए पनि सरकारले खर्च दिने आशा पूरा भएन।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "संस्थाकै भरमा दसैं"
+    }
+  },
+  {
+    "text": "बोडेको सेन्टरमा ७०–८० जना छन्, पकाउने ठाउँ र खानेपानीको अभाव छ, बच्चालाई नयाँ लुगा किन्न सकिएको छैन।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पानी र खानाको अभाव"
+    }
+  },
+  {
+    "text": "'दसैं होइन दशा भयो' भन्ने ती परिवारको एउटै माग छ, आफ्नो बस्ने बास।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "एउटै माग: आफ्नो बास"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर",
+  "youtube_description": "काठमाडौं उपत्यकाका होल्डिङ सेन्टरमा बस्ने विस्थापित सुकुमवासी परिवारको यसपटकको दसैं उत्साहविहीन बनेको छ।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Sukumbasi",
+    "Holding Center",
+    "Dashain"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Sukumbasi",
+    "#Dashain",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+  "instagram_caption": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+  "facebook_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+  "threads_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal",
+  "linkedin_post": "होल्डिङ सेन्टरका सुकुमवासीको नीरस दसैं: फर्सी खाएर। एउटै माग - आफ्नो बस्ने बास। #NepalNews #Sukumbasi #Dashain #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar: Oct 20, 2026. https://www.onlinekhabar.com/2026/10/2041910/boring-dashain-for-sukum-residents-of-holding-center-they-celebrate-by-eating-farsi
+Kantipur: Oct 19, 2026. https://ekantipur.com/news/2026/10/19/slum-dwellers-in-holding-centers-even-during-dashain-tihar-say-what-kind-of-festivals-are-there-for-us-poor-people-44-42.html
+Ratopati: Oct 2026. https://www.ratopati.com/story/600474/dashain-khallo-at-the-holding-center-squatters-question-minister-when-will-the-land-be-given-after-we-die
