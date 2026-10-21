@@ -179,8 +179,8 @@
       "ph": 100
      },
      "icons": {
-      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>",
-      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>"
      }
     }
    }

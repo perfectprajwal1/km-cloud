@@ -1,15 +1,18 @@
 {
   "model": "gemini-2.5-flash-preview-tts",
   "voice": "Sadachbia",
-  "status": "response_received_no_audio",
+  "status": "audio_saved",
   "automatic_retry": false,
-  "manual_no_audio_retries": 0,
+  "manual_no_audio_retries": 1,
+  "last_manual_recovery": {
+    "type": "verified_no_audio",
+    "history": "recovery-0001-1792605177898844473"
+  },
   "attempts": [
     {
       "key_slot": 1,
       "key_file": "gemini_key.txt",
-      "status": "response_received_no_audio",
-      "audio_part_count": 0
+      "status": "response_received"
     }
   ]
 }
