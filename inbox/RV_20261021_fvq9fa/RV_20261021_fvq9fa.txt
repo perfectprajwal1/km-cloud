@@ -1,0 +1,462 @@
+REVIEW ID: RV_20261021_fvq9fa
+TOPIC: हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो
+MODEL: assistant_draft
+STORY ID: ST_5ffc8e356f22
+DATE: 2026-10-21T08:25:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2042070/simkot-hilsa-road-section-which-was-under-natural-blockade-reopens
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ। नारा लेक क्षेत्रमा कतिपय ठाउँमा चारदेखि पाँच मिटरसम्म हिउँ जमेकाले सडक खुलाउन समय लागेको थियो। करिब ९५ किलोमिटर लामो सिमकोटदेखि चीन सीमावर्ती हिल्सासम्मको सडक तीन पटकसम्म हिमपात भएपछि अवरुद्ध भएको थियो। सडक योजना कार्यालयले आफ्नै उपकरण, इन्धन र जनशक्ति परिचालन गरेर हिउँ पन्छाएको प्रमुख बेलबहादुर नेपालीले बताए। सडक खुलेसँगै चीनको ताक्लाकोट क्षेत्रमा व्यापार र रोजगारीका लागि पुगेका नेपाली दसैं मनाउन घर फर्किन थालेका छन्। उच्च हिमाली क्षेत्रको यो सडकमा हरेक वर्ष हिमपातका कारण आवागमन प्रभावित हुने गरेको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "सिमकोट-हिल्सा सडक खुल्यो"
+    },
+    "caption_text": "सिमकोट-हिल्सा सडक खुल्यो",
+    "big_hook_text": "सिमकोट-हिल्सा सडक खुल्यो",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar Kartik 3: Simkot-Hilsa road (Karnali Corridor) reopened after continuous snowfall; Hamro Patro Oct 20 confirms.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कतिँजेल ४-५ मिटर हिउँ"
+    },
+    "caption_text": "कतिँजेल ४-५ मिटर हिउँ",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar, quoting road plan chief Bel Bahadur Nepali: snow piled 4-5 metres deep in places in the Nara Lek area (above 4,500 m).",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "९५ किमी सडक अवरुद्ध थियो"
+    },
+    "caption_text": "९५ किमी सडक अवरुद्ध थियो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: the roughly 95-km Simkot-to-Hilsa road was blocked after snow fell three times; ~15 km Yari-to-Hilsa heavily snowed.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "जेसीबी र जनशक्तिबाट हिउँ पन्छाइयो"
+    },
+    "caption_text": "जेसीबी र जनशक्तिबाट हिउँ पन्छाइयो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: the road plan office deployed its own equipment, fuel and machine operators including a JCB to clear the snow.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दसैंका लागि घर फर्किन थाले"
+    },
+    "caption_text": "दसैंका लागि घर फर्किन थाले",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: Nepalis in trade and work in China's Taklakot area are entering Nepal via the Hilsa border point and heading home for Dashain.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "हरेक वर्ष हिमपातले प्रभावित"
+    },
+    "caption_text": "हरेक वर्ष हिमपातले प्रभावित",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: movement on this high-Himalayan road is affected by snowfall every year.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_5ffc8e356f22",
+  "source_url": "https://www.onlinekhabar.com/2026/10/2042070/simkot-hilsa-road-section-which-was-under-natural-blockade-reopens",
+  "source_label": "Onlinekhabar / Hamro Patro",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Onlinekhabar (Kartik 3, by Hemanta KC, quoting road plan chief Bel Bahadur Nepali) and Hamro Patro (Oct 20): the Simkot-Hilsa road in Humla (Karnali Corridor) has reopened after continuous snowfall blocked it; in the Nara Lek area of Namkha rural municipality snow had piled 4-5 metres deep in places (area above 4,500 m); the roughly 95-km Simkot-to-Hilsa (China border) road was blocked after snow fell three times; about 15 km from Yari to Hilsa was heavily snowed; the road plan office cleared the snow with its own equipment, fuel, JCB and operators. Reopening relieves locals, tourists and Nepalis in trade/work in China's Taklakot area, many of whom are now returning home via the Hilsa border point for Dashain. About 55 km of the 95 km is graveled; the rest is track-opened. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.hamropatro.com/news/detail/4705217626108725-khulyo-prakritik-nakabandima-pareko-simakot-hilsa-sadakakhand",
+    "article_quote": "खुल्यो प्राकृतिक नाकाबन्दीमा परेको सिमकोट–हिल्सा सडकखण्ड",
+    "asset_ref": "https://www.hamropatro.com/news/detail/4705217626108725-khulyo-prakritik-nakabandima-pareko-simakot-hilsa-sadakakhand",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "positive",
+  "alternate_hook": "हिल्सा नाका हुँदै दसैंका लागि घर फर्किन सकिने",
+  "closing_line": "उच्च हिमाली क्षेत्रको यो सडकमा हरेक वर्ष हिमपातका कारण आवागमन प्रभावित हुने गरेको छ।",
+  "comment_prompt": "हिमाली जिल्लाका सडक हिउँदेखि सुरक्षित राख्न सरकारले के गर्नुपर्छ जस्तो लाग्छ?",
+  "pinned_comment": "हिमाली जिल्लाका सडक हिउँदेखि सुरक्षित राख्न सरकारले के गर्नुपर्छ जस्तो लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "सिमकोट-हिल्सा सडक खुल्यो"
+      },
+      "caption_text": "सिमकोट-हिल्सा सडक खुल्यो",
+      "big_hook_text": "सिमकोट-हिल्सा सडक खुल्यो",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar Kartik 3: Simkot-Hilsa road (Karnali Corridor) reopened after continuous snowfall; Hamro Patro Oct 20 confirms.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "नारा लेक क्षेत्रमा कतिपय ठाउँमा चारदेखि पाँच मिटरसम्म हिउँ जमेकाले सडक खुलाउन समय लागेको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कतिँजेल ४-५ मिटर हिउँ"
+      },
+      "caption_text": "कतिँजेल ४-५ मिटर हिउँ",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar, quoting road plan chief Bel Bahadur Nepali: snow piled 4-5 metres deep in places in the Nara Lek area (above 4,500 m).",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "करिब ९५ किलोमिटर लामो सिमकोटदेखि चीन सीमावर्ती हिल्सासम्मको सडक तीन पटकसम्म हिमपात भएपछि अवरुद्ध भएको थियो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "९५ किमी सडक अवरुद्ध थियो"
+      },
+      "caption_text": "९५ किमी सडक अवरुद्ध थियो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: the roughly 95-km Simkot-to-Hilsa road was blocked after snow fell three times; ~15 km Yari-to-Hilsa heavily snowed.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "सडक योजना कार्यालयले आफ्नै उपकरण, इन्धन र जनशक्ति परिचालन गरेर हिउँ पन्छाएको प्रमुख बेलबहादुर नेपालीले बताए।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "जेसीबी र जनशक्तिबाट हिउँ पन्छाइयो"
+      },
+      "caption_text": "जेसीबी र जनशक्तिबाट हिउँ पन्छाइयो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: the road plan office deployed its own equipment, fuel and machine operators including a JCB to clear the snow.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "सडक खुलेसँगै चीनको ताक्लाकोट क्षेत्रमा व्यापार र रोजगारीका लागि पुगेका नेपाली दसैं मनाउन घर फर्किन थालेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दसैंका लागि घर फर्किन थाले"
+      },
+      "caption_text": "दसैंका लागि घर फर्किन थाले",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: Nepalis in trade and work in China's Taklakot area are entering Nepal via the Hilsa border point and heading home for Dashain.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "उच्च हिमाली क्षेत्रको यो सडकमा हरेक वर्ष हिमपातका कारण आवागमन प्रभावित हुने गरेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "हरेक वर्ष हिमपातले प्रभावित"
+      },
+      "caption_text": "हरेक वर्ष हिमपातले प्रभावित",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: movement on this high-Himalayan road is affected by snowfall every year.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो",
+    "youtube_description": "लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ। दसैंका लागि घर फर्किनेलाई राहत।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Humla",
+      "Hilsa",
+      "Karnali Corridor"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Humla",
+      "#Hilsa",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+    "instagram_caption": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+    "facebook_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+    "threads_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+    "linkedin_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Reopening core (Simkot-Hilsa road in Humla back in operation after continuous snowfall; 4-5 m snow in places at Nara Lek; ~95 km Simkot-to-Hilsa blocked after three snowfalls; cleared with own equipment, fuel, JCB and operators per road plan chief Bel Bahadur Nepali; relief for locals, tourists and Nepalis working/trading in China's Taklakot returning home for Dashain) cross-checked between Onlinekhabar (Kartik 3, Hemanta KC) and Hamro Patro (Oct 20). Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+हिल्सा नाका हुँदै दसैंका लागि घर फर्किन सकिने
+
+--- PINNED COMMENT (Nepali question) ---
+हिमाली जिल्लाका सडक हिउँदेखि सुरक्षित राख्न सरकारले के गर्नुपर्छ जस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "सिमकोट-हिल्सा सडक खुल्यो"
+    }
+  },
+  {
+    "text": "नारा लेक क्षेत्रमा कतिपय ठाउँमा चारदेखि पाँच मिटरसम्म हिउँ जमेकाले सडक खुलाउन समय लागेको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कतिँजेल ४-५ मिटर हिउँ"
+    }
+  },
+  {
+    "text": "करिब ९५ किलोमिटर लामो सिमकोटदेखि चीन सीमावर्ती हिल्सासम्मको सडक तीन पटकसम्म हिमपात भएपछि अवरुद्ध भएको थियो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "९५ किमी सडक अवरुद्ध थियो"
+    }
+  },
+  {
+    "text": "सडक योजना कार्यालयले आफ्नै उपकरण, इन्धन र जनशक्ति परिचालन गरेर हिउँ पन्छाएको प्रमुख बेलबहादुर नेपालीले बताए।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "जेसीबी र जनशक्तिबाट हिउँ पन्छाइयो"
+    }
+  },
+  {
+    "text": "सडक खुलेसँगै चीनको ताक्लाकोट क्षेत्रमा व्यापार र रोजगारीका लागि पुगेका नेपाली दसैं मनाउन घर फर्किन थालेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दसैंका लागि घर फर्किन थाले"
+    }
+  },
+  {
+    "text": "उच्च हिमाली क्षेत्रको यो सडकमा हरेक वर्ष हिमपातका कारण आवागमन प्रभावित हुने गरेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "हरेक वर्ष हिमपातले प्रभावित"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो",
+  "youtube_description": "लगातारको हिमपातले अवरुद्ध बनेको हुम्लाको सिमकोट–हिल्सा सडक सञ्चालनमा फर्किएको छ। दसैंका लागि घर फर्किनेलाई राहत।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Humla",
+    "Hilsa",
+    "Karnali Corridor"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Humla",
+    "#Hilsa",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+  "instagram_caption": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+  "facebook_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+  "threads_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal",
+  "linkedin_post": "हिमपातले अवरुद्ध सिमकोट–हिल्सा सडक खुल्यो, दसैंका लागि घर फर्किनेलाई राहत। #NepalNews #Humla #Hilsa #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar: Oct 20, 2026. https://www.onlinekhabar.com/2026/10/2042070/simkot-hilsa-road-section-which-was-under-natural-blockade-reopens
+Hamro Patro: Oct 20, 2026. https://www.hamropatro.com/news/detail/4705217626108725-khulyo-prakritik-nakabandima-pareko-simakot-hilsa-sadakakhand
