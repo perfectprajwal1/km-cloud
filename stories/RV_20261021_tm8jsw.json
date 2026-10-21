@@ -1,0 +1,649 @@
+{
+ "id": "RV_20261021_tm8jsw",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "तपाईंले आज कति बजे टीका लगाउनुभयो?",
+ "pinned_comment": "तपाईंले आज कति बजे टीका लगाउनुभयो?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "आज विजयादशमी",
+   "sub": "",
+   "km_default": true,
+   "vo": "आज विजयादशमी, मान्यजनको हातबाट रातो टीका र जमरा लगाइँदैछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_01_6e7d39.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "आज",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "विजयादशमी",
+        "key": true,
+        "at": 0.095
+       }
+      ],
+      "icon": "star",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "उत्तम साइत बिहान १०:२६",
+   "points": [
+    "नेपाल पञ्चाङ्ग निर्णायक विकास समितिले टीकाको उत्तम साइत"
+   ],
+   "km_default": true,
+   "vo": "नेपाल पञ्चाङ्ग निर्णायक विकास समितिले टीकाको उत्तम साइत बिहान १० बजेर २६ मिनेट तोकेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_02_56c153.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "नेपाल पञ्चाङ्ग निर्णायक विकास समितिले टीकाको उत्तम साइत बिहान १० "
+       },
+       {
+        "t": "बजेर",
+        "hl": true,
+        "at": 0.641
+       },
+       {
+        "t": " २६ "
+       },
+       {
+        "t": "मिनेट तोकेको",
+        "hl": true,
+        "at": 0.714
+       },
+       {
+        "t": " छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "देवी विसर्जन बिहान ८:४९",
+   "points": [
+    "बिहान ८ बजेर ४९ मिनेटमा देवी विसर्जन गरेपछि टीका लगाउन"
+   ],
+   "km_default": true,
+   "vo": "बिहान ८ बजेर ४९ मिनेटमा देवी विसर्जन गरेपछि टीका लगाउन सकिन्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_03_77fc71.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "बिहान",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " ८ बजेर ४९ मिनेटमा "
+       },
+       {
+        "t": "देवी विसर्जन",
+        "hl": true,
+        "at": 0.36
+       },
+       {
+        "t": " गरेपछि टीका लगाउन सकिन्छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नवदुर्गाको प्रसाद",
+   "points": [
+    "नौ दिनसम्म दशैंघर वा पूजा कोठामा पूजा गरिएको नवदुर्गाको"
+   ],
+   "km_default": true,
+   "vo": "नौ दिनसम्म दशैंघर वा पूजा कोठामा पूजा गरिएको नवदुर्गाको प्रसादका रूपमा आज टीका र जमरा ग्रहण गरिन्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_04_212ab5.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "नवदुर्गाको",
+        "key": true,
+        "at": 0.305
+       },
+       {
+        "t": "प्रसाद",
+        "key": false,
+        "at": 0.365
+       }
+      ],
+      "icon": "star",
+      "at": 0.305
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "साइत नखोजे पनि हुन्छ: अध्यक्ष",
+   "points": [
+    "विजयादशमी आफैंमा शुभ दिन भएकाले सामान्य मानिसले साइत खोज्नु"
+   ],
+   "km_default": true,
+   "vo": "विजयादशमी आफैंमा शुभ दिन भएकाले सामान्य मानिसले साइत खोज्नु नपर्ने समितिका अध्यक्ष प्रा. पुरुषोत्तम भट्टराई बताउँछन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_05_ce68f3.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "विजयादशमी आफैंमा शुभ दिन भएकाले सामान्य मानिसले "
+       },
+       {
+        "t": "साइत",
+        "hl": true,
+        "at": 0.378
+       },
+       {
+        "t": " खोज्नु नपर्ने समितिका "
+       },
+       {
+        "t": "अध्यक्ष",
+        "hl": true,
+        "at": 0.563
+       },
+       {
+        "t": " प्रा. पुरुषोत्तम भट्टराई बताउँछन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "देशभर टीकाको दिन",
+   "points": [
+    "टीका र जमरासँगै मान्यजनबाट दशैंको आशीर्वाद लिने परम्परा आज"
+   ],
+   "km_default": true,
+   "vo": "टीका र जमरासँगै मान्यजनबाट दशैंको आशीर्वाद लिने परम्परा आज देशभर मनाइँदैछ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261021_tm8jsw_06_e96378.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "देशभर",
+        "key": false,
+        "at": 0.491
+       },
+       {
+        "t": "टीकाको",
+        "key": true,
+        "at": 0.526
+       },
+       {
+        "t": "दिन",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.491
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "तपाईंले आज कति बजे टीका लगाउनुभयो?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "तपाईंले आज कति बजे टीका लगाउनुभयो? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "667b819b8223377e7dc5bb442e94a6595cc6e972c9c156301eac7f546cc68f1a",
+  "plan_hash": "de897244a1aa75edb50491a46087c934ef6df3250b9f0d98cab71aaa4e0f4366",
+  "selected": [
+   "main:hook",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "phrase",
+    "score": 161.55,
+    "reason": [
+     "converter default card",
+     "literal short statement, no inferred relationship"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "text",
+       "text": "आज विजयादशमी",
+       "start": 0,
+       "end": 12
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.164,
+    "reason": [
+     "converter default card",
+     "literal narration with emphasis"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "t",
+       "text": "नेपाल पञ्चाङ्ग निर्णायक विकास समितिले टीकाको उत्तम साइत बिहान १०",
+       "start": 0,
+       "end": 64
+      },
+      {
+       "field": "t",
+       "text": "बजेर",
+       "start": 65,
+       "end": 69
+      },
+      {
+       "field": "t",
+       "text": "२६",
+       "start": 70,
+       "end": 72
+      },
+      {
+       "field": "t",
+       "text": "मिनेट तोकेको",
+       "start": 73,
+       "end": 85
+      },
+      {
+       "field": "t",
+       "text": "छ।",
+       "start": 86,
+       "end": 88
+      }
+     ]
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 89.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition",
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.215,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.215,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "5cd21510bbadab23dc2a869c275328ab2118412af25f3c1ce9afc5a4ae3171fe"
+ }
+}

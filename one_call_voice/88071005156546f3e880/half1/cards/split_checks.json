@@ -1,0 +1,70 @@
+{
+  "master_sha256": "7ddd4a80b8435118543fe050ea8a48ca9c9e8f7fc14b48bc31fba0baaa63433a",
+  "cuts_sec": [
+    6.356583333333333,
+    15.214541666666666,
+    22.712
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "आज विजयादशमी, मान्यजनको हातबाट रातो टीका र जमरा लगाइँदैछ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.357,
+      "duration_sec": 6.357,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "नेपाल पञ्चाङ्ग निर्णायक विकास समितिले टीकाको उत्तम साइत बिहान १० बजेर २६ मिनेट तोकेको छ।",
+      "master_start_sec": 6.357,
+      "master_end_sec": 15.215,
+      "duration_sec": 8.858,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "बिहान ८ बजेर ४९ मिनेटमा देवी विसर्जन गरेपछि टीका लगाउन सकिन्छ।",
+      "master_start_sec": 15.215,
+      "master_end_sec": 22.712,
+      "duration_sec": 7.497,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "नौ दिनसम्म दशैंघर वा पूजा कोठामा पूजा गरिएको नवदुर्गाको प्रसादका रूपमा आज टीका र जमरा ग्रहण गरिन्छ।",
+      "master_start_sec": 22.712,
+      "master_end_sec": 33.371,
+      "duration_sec": 10.659,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
