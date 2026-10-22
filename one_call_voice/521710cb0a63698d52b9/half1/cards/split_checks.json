@@ -1,0 +1,70 @@
+{
+  "master_sha256": "bdcb789fbeed2b9c29b2acf1f0a98a295a62d44a9fd9bfb5a74c69fa4b907be6",
+  "cuts_sec": [
+    7.692291666666666,
+    17.435583333333334,
+    25.208125
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.692,
+      "duration_sec": 7.692,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+      "master_start_sec": 7.692,
+      "master_end_sec": 17.436,
+      "duration_sec": 9.743,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्।",
+      "master_start_sec": 17.436,
+      "master_end_sec": 25.208,
+      "duration_sec": 7.773,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ।",
+      "master_start_sec": 25.208,
+      "master_end_sec": 33.331,
+      "duration_sec": 8.123,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

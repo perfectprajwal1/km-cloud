@@ -1,0 +1,8 @@
+{
+  "master_sha256": "81b17fc8755df87c3ab4ee0f50ec6c32b01b42cc7fa8a206f6e38ece25815080",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "engine": "km-onnx-int8-1",
+  "greedy": "छ र उपनि जग्गा भाँडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रतयक्ष र अपरत्यक्ष गरी पचास जनाले रोजगारी पाएका छन् ",
+  "duration": 10.370958333333334,
+  "logp_sha256": "d7e23537cabf8366d7f36b22239c3bdaef026a8ab23f50df178b00f558ba6d3a"
+}

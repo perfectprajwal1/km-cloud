@@ -1,0 +1,632 @@
+{
+ "id": "RV_20261022_w7058e",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?",
+ "pinned_comment": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "इन्जिनियरको मासिक १५ लाख बचत",
+   "sub": "",
+   "km_default": true,
+   "vo": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_01_db7396.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 15.0,
+      "numText": "१५",
+      "unit": "लाख",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने",
+      "at": 0.279
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "नागार्जुन-६ मा कृषि फार्म",
+   "points": [
+    "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट"
+   ],
+   "km_default": true,
+   "vo": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_02_d8940e.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "काठमाडौं",
+        "sub": "",
+        "focus": true,
+        "at": 0.177
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 30.0,
+   "unit": "वटा",
+   "prefix": "",
+   "decimals": 0,
+   "label": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्",
+   "sub": "",
+   "type": "bignum",
+   "vo": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_03_192bf5.png",
+    "anim": {
+     "kind": "units",
+     "units": {
+      "n": 30,
+      "icon": "pin",
+      "label": "सन् मा भैँसीबाट सुरु गरेको व्यवसायमा अहिले गाई र भैँसी छन्",
+      "at": 0.111,
+      "layout": {
+       "cols": 10,
+       "rows": 3,
+       "step": 90.0,
+       "size": 70,
+       "x0": 90.0,
+       "y0": 127,
+       "capY": 431
+      }
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "label": 40
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "pin": "<path pathLength=\"1\" d=\"M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z\"/><circle pathLength=\"1\" cx=\"12\" cy=\"10\" r=\"2.5\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "दैनिक १२०० लिटर दूध",
+   "points": [
+    "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ"
+   ],
+   "km_default": true,
+   "vo": "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_04_b4e7fd.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 50.0,
+      "numText": "५०",
+      "unit": "लाख रुपैयाँ",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "दैनिक १२०० लिटर दूध",
+      "at": 0.367
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 50.0,
+   "unit": "जना",
+   "prefix": "",
+   "decimals": 0,
+   "label": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्",
+   "sub": "",
+   "type": "bignum",
+   "vo": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_05_ec7b9b.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "लाई",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "रोजगारी",
+        "key": true,
+        "at": 0.51
+       }
+      ],
+      "icon": "people",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 96
+     },
+     "icons": {
+      "people": "<circle pathLength=\"1\" cx=\"9\" cy=\"8\" r=\"3\"/><circle pathLength=\"1\" cx=\"17\" cy=\"9\" r=\"2.5\"/><path pathLength=\"1\" d=\"M3 20c0-3.5 2.5-6 6-6s6 2.5 6 6\"/><path pathLength=\"1\" d=\"M15 14.5c3 0 6 2 6 5.5\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "number": "१५ लाख",
+   "headline": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्",
+   "sub": "",
+   "type": "scale",
+   "vo": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261022_w7058e_06_e78082.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 15.0,
+      "numText": "१५",
+      "unit": "लाख",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्",
+      "at": 0.108
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "002d294ceb109205e01a0b39366392dd967805965b60455b181d1cf48e823298",
+  "plan_hash": "b387e2386475a3cc648f67dbbbe408e63db39f9e353d094c01058ffa67eccdaa",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:points_plain",
+   "strip:place",
+   "main:bignum",
+   "strip:units",
+   "main:points_plain",
+   "strip:stat",
+   "main:bignum",
+   "strip:phrase",
+   "main:scale",
+   "strip:stat",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat",
+   "strip:units"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 183.889,
+    "reason": [
+     "converter default card",
+     "narrated quantity"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१५ लाख",
+       "start": 46,
+       "end": 52
+      },
+      {
+       "field": "label",
+       "text": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने",
+       "start": 0,
+       "end": 86
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 129.467,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "bignum",
+    "selected_strip": "units",
+    "score": 174.359,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit countable objects"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:stat",
+     "strip:units"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्",
+       "start": 0,
+       "end": 77
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "३० वटा",
+       "start": 12,
+       "end": 18
+      },
+      {
+       "field": "label",
+       "text": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्",
+       "start": 0,
+       "end": 77
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "stat",
+    "score": 129.564,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "bignum",
+    "selected_strip": "phrase",
+    "score": 147.133,
+    "reason": [
+     "narrated quantity with exact unit",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्",
+       "start": 0,
+       "end": 107
+      }
+     ],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "scale",
+    "selected_strip": "stat",
+    "score": 147.13,
+    "reason": [
+     "narrated quantity, non-counting",
+     "narrated quantity"
+    ],
+    "penalties": [
+     "duplicate emphasis"
+    ],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "number",
+       "text": "१५ लाख",
+       "start": 17,
+       "end": 23
+      },
+      {
+       "field": "headline",
+       "text": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्",
+       "start": 0,
+       "end": 48
+      }
+     ],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१५ लाख",
+       "start": 17,
+       "end": 23
+      },
+      {
+       "field": "label",
+       "text": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्",
+       "start": 0,
+       "end": 48
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "5eadc05e5ae1a4e87fab05c3592ec35390e87511f50f87588be1da4f44cbf59b"
+ }
+}

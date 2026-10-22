@@ -1,0 +1,24 @@
+{
+  "master_sha256": "9fbf6db99d76e8807c97c21c8bfefa5e61eebed2e65e89a7eca7dca59708c793",
+  "cuts_sec": [],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.131,
+      "duration_sec": 9.131,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

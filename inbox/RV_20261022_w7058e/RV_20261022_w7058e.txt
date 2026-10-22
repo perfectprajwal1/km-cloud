@@ -1,0 +1,462 @@
+REVIEW ID: RV_20261022_w7058e
+TOPIC: इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत
+MODEL: assistant_draft
+STORY ID: ST_372c1e4cb413
+DATE: 2026-10-22T08:30:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.nagariknews.nagariknetwork.com/economy/engineer-lamichhane-saves-rs-1-5-million-per-month-from-cattle-farming-68-73.html
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने। सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्। सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्। फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ। छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्। खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "इन्जिनियरको मासिक १५ लाख बचत"
+    },
+    "caption_text": "इन्जिनियरको मासिक १५ लाख बचत",
+    "big_hook_text": "इन्जिनियरको मासिक १५ लाख बचत",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News (RSS) + Khabarhub: civil engineer Kumar Lamichhane of Gorkha saves Rs 15 lakh a month from cattle and buffalo farming alongside his engineering career.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नागार्जुन-६ मा कृषि फार्म"
+    },
+    "caption_text": "नागार्जुन-६ मा कृषि फार्म",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News: he runs Kshitij Integrated Agriculture Farm at Ramkot, Dandapauwa, Nagarjun-6, Kathmandu.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "३० भैँसीबाट २५० गाईभैँसी"
+    },
+    "caption_text": "३० भैँसीबाट २५० गाईभैँसी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News: established Jestha 2077 (May 2020) with 30 buffaloes; now 200 cows and 50 buffaloes.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दैनिक १२०० लिटर दूध"
+    },
+    "caption_text": "दैनिक १२०० लिटर दूध",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News: daily production of 1,200 litres; monthly milk sales of Rs 45-50 lakh.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "५० जनालाई रोजगारी"
+    },
+    "caption_text": "५० जनालाई रोजगारी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News: six ropanis rented at Rs 1 lakh a month; about 50 people employed directly and indirectly.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "मेहनत नै सफलताको बाटो"
+    },
+    "caption_text": "मेहनत नै सफलताको बाटो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Nagarik News: Rs 15 lakh monthly savings after expenses; he says hard work and dedication bring success in any profession.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_372c1e4cb413",
+  "source_url": "https://www.nagariknews.nagariknetwork.com/economy/engineer-lamichhane-saves-rs-1-5-million-per-month-from-cattle-farming-68-73.html",
+  "source_label": "Nagarik News (RSS) / Khabarhub",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Nagarik News (Kartik 4, via RSS) and Khabarhub (Oct 21): civil engineer Kumar Lamichhane of Khahare, Siranchok-7, Gorkha runs Kshitij Integrated Agriculture Farm at Ramkot, Dandapauwa, Nagarjun-6, Kathmandu, alongside his engineering career and with his wife, engineer Sangeeta; established Jestha 2077 (May 2020); started with 30 buffaloes and now has 200 cows and 50 buffaloes on six ropanis rented at Rs 100,000 a month with Rs 100 million invested; the farm produces 1,200 litres of milk daily, selling for Rs 45-50 lakh a month, leaving about Rs 15 lakh in monthly savings after expenses; buffalo milk sells at Rs 170 and cow milk at Rs 100 per litre; about 50 people work directly and indirectly at the farm. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.nagariknews.nagariknetwork.com/economy/engineer-lamichhane-saves-rs-1-5-million-per-month-from-cattle-farming-68-73.html",
+    "article_quote": "इन्जिनियर लामिछानेको गाईभैँसी पालनबाट मासिक १५ लाख बचत",
+    "asset_ref": "https://www.nagariknews.nagariknetwork.com/economy/engineer-lamichhane-saves-rs-1-5-million-per-month-from-cattle-farming-68-73.html",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "positive",
+  "alternate_hook": "इन्जिनियरबाट उदाहरणीय कृषक",
+  "closing_line": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+  "comment_prompt": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?",
+  "pinned_comment": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "इन्जिनियरको मासिक १५ लाख बचत"
+      },
+      "caption_text": "इन्जिनियरको मासिक १५ लाख बचत",
+      "big_hook_text": "इन्जिनियरको मासिक १५ लाख बचत",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News (RSS) + Khabarhub: civil engineer Kumar Lamichhane of Gorkha saves Rs 15 lakh a month from cattle and buffalo farming alongside his engineering career.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नागार्जुन-६ मा कृषि फार्म"
+      },
+      "caption_text": "नागार्जुन-६ मा कृषि फार्म",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News: he runs Kshitij Integrated Agriculture Farm at Ramkot, Dandapauwa, Nagarjun-6, Kathmandu.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "३० भैँसीबाट २५० गाईभैँसी"
+      },
+      "caption_text": "३० भैँसीबाट २५० गाईभैँसी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News: established Jestha 2077 (May 2020) with 30 buffaloes; now 200 cows and 50 buffaloes.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दैनिक १२०० लिटर दूध"
+      },
+      "caption_text": "दैनिक १२०० लिटर दूध",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News: daily production of 1,200 litres; monthly milk sales of Rs 45-50 lakh.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "५० जनालाई रोजगारी"
+      },
+      "caption_text": "५० जनालाई रोजगारी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News: six ropanis rented at Rs 1 lakh a month; about 50 people employed directly and indirectly.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "मेहनत नै सफलताको बाटो"
+      },
+      "caption_text": "मेहनत नै सफलताको बाटो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Nagarik News: Rs 15 lakh monthly savings after expenses; he says hard work and dedication bring success in any profession.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत",
+    "youtube_description": "गोरखाका सिभिल इन्जिनियर कुमार लामिछानेले इन्जिनियरिङ पेसासँगै गाईभैँसी पालनबाट मासिक १५ लाख बचत गर्छन्।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Success Story",
+      "Cattle Farming",
+      "Engineer"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#SuccessStory",
+      "#Farming",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+    "instagram_caption": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+    "facebook_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+    "threads_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+    "linkedin_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core (civil engineer Kumar Lamichhane of Gorkha saves Rs 15 lakh/month from cattle and buffalo farming at Kshitij Integrated Agriculture Farm, Ramkot, Nagarjun-6, Kathmandu; est. May 2020 with 30 buffaloes, now 200 cows + 50 buffaloes; 1,200 litres milk daily; Rs 45-50 lakh monthly sales; six ropanis rented at Rs 1 lakh/month; ~50 employed) cross-checked between Nagarik News (Kartik 4, via RSS) and Khabarhub (Oct 21). Figures are the farm owner's own statements as reported. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+इन्जिनियरबाट उदाहरणीय कृषक
+
+--- PINNED COMMENT (Nepali question) ---
+विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "इन्जिनियरको मासिक १५ लाख बचत"
+    }
+  },
+  {
+    "text": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नागार्जुन-६ मा कृषि फार्म"
+    }
+  },
+  {
+    "text": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "३० भैँसीबाट २५० गाईभैँसी"
+    }
+  },
+  {
+    "text": "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दैनिक १२०० लिटर दूध"
+    }
+  },
+  {
+    "text": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "५० जनालाई रोजगारी"
+    }
+  },
+  {
+    "text": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "मेहनत नै सफलताको बाटो"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत",
+  "youtube_description": "गोरखाका सिभिल इन्जिनियर कुमार लामिछानेले इन्जिनियरिङ पेसासँगै गाईभैँसी पालनबाट मासिक १५ लाख बचत गर्छन्।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Success Story",
+    "Cattle Farming",
+    "Engineer"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#SuccessStory",
+    "#Farming",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+  "instagram_caption": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+  "facebook_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+  "threads_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal",
+  "linkedin_post": "इन्जिनियरको गाईभैँसी पालनबाट मासिक १५ लाख बचत। #NepalNews #SuccessStory #Farming #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Nagarik News (RSS): Kartik 4, 2083. https://www.nagariknews.nagariknetwork.com/economy/engineer-lamichhane-saves-rs-1-5-million-per-month-from-cattle-farming-68-73.html
+Khabarhub: Oct 21, 2026. https://english.khabarhub.com/2026/21/572773/

@@ -1,0 +1,134 @@
+{
+  "version": "numbers-english-unverified-v4",
+  "targets": [
+    {
+      "original": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक १५ लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+      "spoken": "इन्जिनियरिङ पेसासँगै गाईभैँसी पालन गरेर मासिक पन्ध्र लाख बचत गर्छन् गोरखाका कुमार लामिछाने।",
+      "mapping": [
+        {
+          "original": "१५",
+          "spoken": "पन्ध्र",
+          "start": 46,
+          "end": 48,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन-६ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+      "spoken": "सिभिल इन्जिनियर लामिछानेले काठमाडौं नागार्जुन ड्यास छ रामकोट, डाँडापौवामा क्षितिज एकीकृत कृषि फार्म सञ्चालन गर्दै आएका छन्।",
+      "mapping": [
+        {
+          "original": "-६",
+          "spoken": "ड्यास छ",
+          "start": 45,
+          "end": 47,
+          "rule": "numbers-english-unverified-v4",
+          "note": "Ambiguous/identifier numeric span read literally by digits and separators; source meaning not inferred."
+        }
+      ]
+    },
+    {
+      "original": "सन् २०२० मा ३० वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले २०० गाई र ५० भैँसी छन्।",
+      "spoken": "सन् दुई हजार बिस मा तिस वटा भैँसीबाट सुरु गरेको व्यवसायमा अहिले दुई सय गाई र पचास भैँसी छन्।",
+      "mapping": [
+        {
+          "original": "२०२०",
+          "spoken": "दुई हजार बिस",
+          "start": 4,
+          "end": 8,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "३०",
+          "spoken": "तिस",
+          "start": 12,
+          "end": 14,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "२००",
+          "spoken": "दुई सय",
+          "start": 55,
+          "end": 58,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "५०",
+          "spoken": "पचास",
+          "start": 65,
+          "end": 67,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "फार्मबाट दैनिक एक हजार २०० लिटर दूध उत्पादन हुन्छ, जसबाट मासिक ४५ देखि ५० लाख रुपैयाँ बिक्री हुन्छ।",
+      "spoken": "फार्मबाट दैनिक एक हजार दुई सय लिटर दूध उत्पादन हुन्छ, जसबाट मासिक पैँतालिस देखि पचास लाख रुपैयाँ बिक्री हुन्छ।",
+      "mapping": [
+        {
+          "original": "२००",
+          "spoken": "दुई सय",
+          "start": 23,
+          "end": 26,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "४५",
+          "spoken": "पैँतालिस",
+          "start": 63,
+          "end": 65,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        },
+        {
+          "original": "५०",
+          "spoken": "पचास",
+          "start": 71,
+          "end": 73,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी ५० जनाले रोजगारी पाएका छन्।",
+      "spoken": "छ रोपनी जग्गा भाडामा लिएर सञ्चालन गरिएको यस व्यवसायमा प्रत्यक्ष र अप्रत्यक्ष गरी पचास जनाले रोजगारी पाएका छन्।",
+      "mapping": [
+        {
+          "original": "५०",
+          "spoken": "पचास",
+          "start": 81,
+          "end": 83,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "खर्च कटाएर मासिक १५ लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+      "spoken": "खर्च कटाएर मासिक पन्ध्र लाख बचत हुने लामिछाने भन्छन्, मेहनत र लगनशील भए जुनसुकै व्यवसायबाट सफल हुन सकिन्छ।",
+      "mapping": [
+        {
+          "original": "१५",
+          "spoken": "पन्ध्र",
+          "start": 17,
+          "end": 19,
+          "rule": "numbers-english-unverified-v4",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "original": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "spoken": "विदेशिनुभन्दा स्वदेशमा व्यवसाय गर्ने रोजाइबारे तपाईंलाई कस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "mapping": []
+    }
+  ]
+}
