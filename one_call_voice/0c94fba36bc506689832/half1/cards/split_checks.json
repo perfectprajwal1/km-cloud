@@ -1,0 +1,70 @@
+{
+  "master_sha256": "07e5e1ce2c7573a60d0acdc686e7469444649db53ae88bb5b497008e6bd049a5",
+  "cuts_sec": [
+    6.97675,
+    18.530166666666666,
+    27.507791666666666
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "साउदी अरबको तेल क्षेत्रमा भएको ड्रोन आक्रमणमा एक नेपाली मजदुरको मृत्यु भएको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.977,
+      "duration_sec": 6.977,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "बुधबार बिहान पूर्वी प्रान्तको शैबाह तेल क्षेत्रस्थित साउदी अराम्कोको परियोजनालाई लक्षित गरेर आएको ड्रोन साउदी वायु रक्षा प्रणालीले खसालेको थियो।",
+      "master_start_sec": 6.977,
+      "master_end_sec": 18.53,
+      "duration_sec": 11.553,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "आक्रमणमा नेपालीसहित दुई विदेशी श्रमिकको मृत्यु भएको छ भने एक पाकिस्तानी र एक भारतीय घाइते भएका छन्।",
+      "master_start_sec": 18.53,
+      "master_end_sec": 27.508,
+      "duration_sec": 8.978,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "आगो तेल क्षेत्रको प्रसोधन केन्द्र बाहिर ठेकेदारको सवारीमा लागेको र तेल क्षेत्रको सञ्चालन प्रभावित नभएको मन्त्रालयले जनाएको छ।",
+      "master_start_sec": 27.508,
+      "master_end_sec": 37.731,
+      "duration_sec": 10.223,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

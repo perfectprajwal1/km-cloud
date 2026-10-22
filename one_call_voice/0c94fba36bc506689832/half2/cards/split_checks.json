@@ -1,0 +1,55 @@
+{
+  "master_sha256": "73822426f3bd7897b9b2d2d01b2cbb3faeab1e54de48593bfc00091b651057ff",
+  "cuts_sec": [
+    6.882791666666667,
+    12.680666666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "मृत्यु हुने नेपालीको परिचय र ठेगाना भने अझै सार्वजनिक भएको छैन।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 6.883,
+      "duration_sec": 6.883,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "साउदी अरब हजारौं नेपाली श्रमिकको प्रमुख गन्तव्य हो।",
+      "master_start_sec": 6.883,
+      "master_end_sec": 12.681,
+      "duration_sec": 5.798,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "विदेशमा रहेका नेपाली श्रमिकको सुरक्षाका लागि सरकारले के गर्नुपर्छ जस्तो लाग्छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 12.681,
+      "master_end_sec": 22.491,
+      "duration_sec": 9.81,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
