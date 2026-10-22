@@ -1,38 +1,6 @@
 {
   "reels": [
     {
-      "content_hash": "e3cdd308a555821e4c3b91ef31f9edd4dce5281bf95ff1a735a3659cc9ebbf20",
-      "eligible": [
-        "main:engage",
-        "main:hook",
-        "main:points_plain",
-        "strip:evidence",
-        "strip:phrase",
-        "strip:voiceprint",
-        "strip:who"
-      ],
-      "id": "RV_20261015_wbhyd2",
-      "missed": {
-        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:who": "fit/repetition/rarity: another legal pair scored higher"
-      },
-      "plan_hash": "8308f2b04af4a982cef9c6ff0beab0aaaf899fa9a0d783966295fe3cbe989352",
-      "rendered_at": 1792057793.6400127,
-      "selected": [
-        "main:hook",
-        "strip:voiceprint",
-        "main:points_plain",
-        "strip:evidence",
-        "main:points_plain",
-        "strip:voiceprint",
-        "main:points_plain",
-        "strip:evidence",
-        "main:points_plain",
-        "strip:phrase",
-        "main:engage"
-      ]
-    },
-    {
       "content_hash": "9d5ff98ec484ebf08b407cf9eff96278140c6b48a79e664cf79d5f30d4123d3c",
       "eligible": [
         "main:engage",
@@ -730,6 +698,47 @@
         "strip:phrase",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "002d294ceb109205e01a0b39366392dd967805965b60455b181d1cf48e823298",
+      "eligible": [
+        "main:bignum",
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "main:scale",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place",
+        "strip:stat",
+        "strip:units"
+      ],
+      "id": "RV_20261022_w7058e",
+      "missed": {
+        "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "b387e2386475a3cc648f67dbbbe408e63db39f9e353d094c01058ffa67eccdaa",
+      "rendered_at": 1792669068.4775703,
+      "selected": [
+        "main:hook",
+        "strip:stat",
+        "main:points_plain",
+        "strip:place",
+        "main:bignum",
+        "strip:units",
+        "main:points_plain",
+        "strip:stat",
+        "main:bignum",
+        "strip:phrase",
+        "main:scale",
+        "strip:stat",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -757,29 +766,30 @@
     "RV_20261021_dkk3wi:5c61d884877fdc5cf1cd758c486ecb65007cdc87198c847a1a415618f3e0f55c": "028fd4797336e6d283502447baaadaeadd7628bd3c89f9e6f1d66be2cf816771",
     "RV_20261021_fvq9fa:e58f56b3fd2511f841618da46934f59d8908f2d69f73fe3b78e36d33c4461ca8": "f597dfa17e7f3fa9b5824018c3ff20667506f3c5221206613754dcb1eb6a1021",
     "RV_20261021_tm8jsw:667b819b8223377e7dc5bb442e94a6595cc6e972c9c156301eac7f546cc68f1a": "de897244a1aa75edb50491a46087c934ef6df3250b9f0d98cab71aaa4e0f4366",
-    "RV_20261021_u0rz6k:426aeee925de20c6953b9b345d894518d332ba5c58b3ffa31ef1b08ba327adb6": "9da3c69e56d761ab2733c6bfcbfa6b389e48d12b799c9d5c700126bd3a50cfb6"
+    "RV_20261021_u0rz6k:426aeee925de20c6953b9b345d894518d332ba5c58b3ffa31ef1b08ba327adb6": "9da3c69e56d761ab2733c6bfcbfa6b389e48d12b799c9d5c700126bd3a50cfb6",
+    "RV_20261022_w7058e:002d294ceb109205e01a0b39366392dd967805965b60455b181d1cf48e823298": "b387e2386475a3cc648f67dbbbe408e63db39f9e353d094c01058ffa67eccdaa"
   },
   "used_total": {
-    "main:bignum": 11,
+    "main:bignum": 13,
     "main:date": 3,
-    "main:engage": 25,
-    "main:hook": 25,
+    "main:engage": 26,
+    "main:hook": 26,
     "main:place": 4,
-    "main:points_plain": 89,
-    "main:scale": 15,
+    "main:points_plain": 91,
+    "main:scale": 16,
     "main:versus": 1,
     "strip:calendar": 1,
     "strip:compare": 1,
     "strip:evidence": 50,
     "strip:incident": 1,
     "strip:money": 1,
-    "strip:phrase": 36,
-    "strip:place": 18,
+    "strip:phrase": 37,
+    "strip:place": 19,
     "strip:quote": 3,
     "strip:schedule": 2,
-    "strip:stat": 17,
+    "strip:stat": 20,
     "strip:track": 2,
-    "strip:units": 7,
+    "strip:units": 8,
     "strip:voiceprint": 2,
     "strip:waffle": 4,
     "strip:who": 3
