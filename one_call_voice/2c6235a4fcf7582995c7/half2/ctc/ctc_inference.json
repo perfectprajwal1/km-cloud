@@ -1,0 +1,8 @@
+{
+  "master_sha256": "a341a4c4affca97552430119280c8702bb53be97b304fa46cd9c2756a6fd5690",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "engine": "km-onnx-int8-1",
+  "greedy": "इएएसएले साउदी हवाई क्षेत्रका तोकिएका भागमा नौउड्न र सतर कता अपनाउन वायु सेवालाई सुझावदिएका छन् ",
+  "duration": 10.010958333333333,
+  "logp_sha256": "b7f24465e1e46a4c24aafc161de8b11ae431607c6c372306d41d0717900a7cde"
+}

@@ -1,0 +1,20 @@
+{
+  "engine": "km-onnx-int8-1",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "master_sha256": "a341a4c4affca97552430119280c8702bb53be97b304fa46cd9c2756a6fd5690",
+  "present_indices": [
+    0,
+    1,
+    2
+  ],
+  "missing_indices": [],
+  "partial_missing_indices": [],
+  "cuts_sec": [
+    1.85,
+    5.46
+  ],
+  "boundaries": [],
+  "best_effort": true,
+  "fallback_reason": "No confident card set: possible omissions, repeats or wrong words. Originals kept; no missing-card request authorized.",
+  "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+}

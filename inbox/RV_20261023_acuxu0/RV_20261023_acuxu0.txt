@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261023_acuxu0
+TOPIC: रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन
+MODEL: assistant_draft
+STORY ID: ST_8ef44639359e
+DATE: 2026-10-23T08:35:00.000000+05:45
+RISK: SENSITIVE
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2042558/is-riyadh-airport-open-for-international-flights
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्। निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ। तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्। बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्। ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्। रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "रियाध उडान अझै अनिश्चित"
+    },
+    "caption_text": "रियाध उडान अझै अनिश्चित",
+    "big_hook_text": "रियाध उडान अझै अनिश्चित",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar Kartik 5: King Khalid International Airport is open but international flights have not returned to normal.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "एक सातापछि विमानस्थल खुल्यो"
+    },
+    "caption_text": "एक सातापछि विमानस्थल खुल्यो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: after repeated missile and drone attacks, the airport resumed operations on October 18 following a week-long closure.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "पूर्वस्वीकृति अनिवार्य"
+    },
+    "caption_text": "पूर्वस्वीकृति अनिवार्य",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: under NOTAMs effective October 17 with no end date, airlines need mandatory prior approval from the civil aviation authority.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "बुधबार १८० उडान रद्द"
+    },
+    "caption_text": "बुधबार १८० उडान रद्द",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar, citing Flightradar24 and airline advisories: 180 flights cancelled on Wednesday alone; Lufthansa suspended until Nov 18, KLM until Oct 31.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "हवाई क्षेत्रमा चेतावनी"
+    },
+    "caption_text": "हवाई क्षेत्रमा चेतावनी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: EASA and the FAA advised airlines to avoid designated parts of Saudi airspace and exercise caution over military activity.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "उडान पक्का गरेर मात्र जानुहोस्"
+    },
+    "caption_text": "उडान पक्का गरेर मात्र जानुहोस्",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: travellers should confirm current flight status directly with their airline before heading to the airport.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_8ef44639359e",
+  "source_url": "https://www.onlinekhabar.com/2026/10/2042558/is-riyadh-airport-open-for-international-flights",
+  "source_label": "Onlinekhabar / Khadi News",
+  "source_credit": "",
+  "risk_flag": "SENSITIVE",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Onlinekhabar (Kartik 5 explainer) and Khadi News (Oct 22), corroborated by The National (Oct 18) and Aerospace Global News (Oct 21): Riyadh's King Khalid International Airport officially reopened on October 18 after a week-long closure following repeated missile and drone attacks on the Saudi capital, but international flights are not back to normal - airlines require mandatory prior approval from the Saudi civil aviation authority under NOTAMs effective October 17 with no end date; a separate NOTAM bars use of the airport as an emergency/alternate landing site. On Wednesday alone 180 flights were cancelled and 3 delayed, the most affected airport worldwide that day per Flightradar24; only Saudia and Flynas operated commercial flights. Lufthansa has suspended Riyadh flights until November 18, KLM until October 31, Philippine Airlines until November 29, Cathay Pacific until late January 2027, Delta's Atlanta-Riyadh launch until March 2027, and Qatar Airways and Etihad extended cancellations to October 24. EASA and the FAA have advised airlines to avoid parts of Saudi airspace and exercise caution. Travellers are advised to confirm flight status directly with their airline before going to the airport. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://khadinews.com/2026/10/22/riyadh-airport-limited-domestic-flights-airlines-status/",
+    "article_quote": "रियाद विमानस्थलबाट सीमित आन्तरिक उडान सुरु, धेरै विदेशी एयरलाइन्सका उडान अझै बन्द",
+    "asset_ref": "https://khadinews.com/2026/10/22/riyadh-airport-limited-domestic-flights-airlines-status/",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "neutral",
+  "alternate_hook": "रियाध उडान गर्नु अघि एयरलाइन्ससँग पक्का गर्नुहोस्",
+  "closing_line": "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।",
+  "comment_prompt": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कस्तो छ?",
+  "pinned_comment": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "रियाध उडान अझै अनिश्चित"
+      },
+      "caption_text": "रियाध उडान अझै अनिश्चित",
+      "big_hook_text": "रियाध उडान अझै अनिश्चित",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar Kartik 5: King Khalid International Airport is open but international flights have not returned to normal.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "एक सातापछि विमानस्थल खुल्यो"
+      },
+      "caption_text": "एक सातापछि विमानस्थल खुल्यो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: after repeated missile and drone attacks, the airport resumed operations on October 18 following a week-long closure.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "पूर्वस्वीकृति अनिवार्य"
+      },
+      "caption_text": "पूर्वस्वीकृति अनिवार्य",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: under NOTAMs effective October 17 with no end date, airlines need mandatory prior approval from the civil aviation authority.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "बुधबार १८० उडान रद्द"
+      },
+      "caption_text": "बुधबार १८० उडान रद्द",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar, citing Flightradar24 and airline advisories: 180 flights cancelled on Wednesday alone; Lufthansa suspended until Nov 18, KLM until Oct 31.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "हवाई क्षेत्रमा चेतावनी"
+      },
+      "caption_text": "हवाई क्षेत्रमा चेतावनी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: EASA and the FAA advised airlines to avoid designated parts of Saudi airspace and exercise caution over military activity.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "उडान पक्का गरेर मात्र जानुहोस्"
+      },
+      "caption_text": "उडान पक्का गरेर मात्र जानुहोस्",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: travellers should confirm current flight status directly with their airline before heading to the airport.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन",
+    "youtube_description": "मिसाइल र ड्रोन आक्रमणपछि रियाधको किङ खालिद विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Riyadh Airport",
+      "Saudi Arabia",
+      "Flight Update"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#Riyadh",
+      "#SaudiArabia",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+    "instagram_caption": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+    "facebook_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+    "threads_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+    "linkedin_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core (King Khalid International Airport reopened Oct 18 after a week-long closure following repeated missile and drone attacks; international flights not back to normal - mandatory prior approval under open-ended NOTAMs effective Oct 17; 180 flights cancelled on Wednesday alone, most affected airport worldwide that day per Flightradar24; Lufthansa suspended to Nov 18, KLM to Oct 31, Philippine Airlines to Nov 29, Qatar/Etihad extended to Oct 24; EASA and FAA advise avoiding parts of Saudi airspace; travellers should confirm flight status with their airline) cross-checked between Onlinekhabar (Kartik 5) and Khadi News (Oct 22), corroborated by The National and Aerospace Global News. Airline dates are per published travel advisories as reported. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+रियाध उडान गर्नु अघि एयरलाइन्ससँग पक्का गर्नुहोस्
+
+--- PINNED COMMENT (Nepali question) ---
+खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "रियाध उडान अझै अनिश्चित"
+    }
+  },
+  {
+    "text": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "एक सातापछि विमानस्थल खुल्यो"
+    }
+  },
+  {
+    "text": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "पूर्वस्वीकृति अनिवार्य"
+    }
+  },
+  {
+    "text": "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "बुधबार १८० उडान रद्द"
+    }
+  },
+  {
+    "text": "ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "हवाई क्षेत्रमा चेतावनी"
+    }
+  },
+  {
+    "text": "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "उडान पक्का गरेर मात्र जानुहोस्"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन",
+  "youtube_description": "मिसाइल र ड्रोन आक्रमणपछि रियाधको किङ खालिद विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Riyadh Airport",
+    "Saudi Arabia",
+    "Flight Update"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Riyadh",
+    "#SaudiArabia",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+  "instagram_caption": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+  "facebook_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+  "threads_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal",
+  "linkedin_post": "रियाध विमानस्थल खुला छ तर अन्तर्राष्ट्रिय उडान अझै सामान्य छैन। #NepalNews #Riyadh #SaudiArabia #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar: Kartik 5, 2083. https://www.onlinekhabar.com/2026/10/2042558/is-riyadh-airport-open-for-international-flights
+Khadi News: Oct 22, 2026. https://khadinews.com/2026/10/22/riyadh-airport-limited-domestic-flights-airlines-status/
+The National: Oct 18, 2026. https://www.thenationalnews.com/travel/2026/10/18/riyadh-airport-reopens-which-airlines-are-still-cancelling-flights-to-saudi-arabia/

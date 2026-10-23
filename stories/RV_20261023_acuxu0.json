@@ -1,0 +1,579 @@
+{
+ "id": "RV_20261023_acuxu0",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ?",
+ "pinned_comment": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "रियाध उडान अझै अनिश्चित",
+   "sub": "",
+   "km_default": true,
+   "vo": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_01_a828e0.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "साउदी राजधानी "
+       },
+       {
+        "t": "रियाधको",
+        "hl": true,
+        "at": 0.148
+       },
+       {
+        "t": " अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय "
+       },
+       {
+        "t": "उडान",
+        "hl": true,
+        "at": 0.562
+       },
+       {
+        "t": " अझै सामान्य अवस्थामा फर्किएका छैनन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "एक सातापछि विमानस्थल खुल्यो",
+   "points": [
+    "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको"
+   ],
+   "km_default": true,
+   "vo": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_02_913974.png",
+    "anim": {
+     "kind": "schedule",
+     "schedule": {
+      "start": "अक्टोबर १८",
+      "startAt": 0.552,
+      "at": 0.552
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पूर्वस्वीकृति अनिवार्य",
+   "points": [
+    "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको"
+   ],
+   "km_default": true,
+   "vo": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_03_d093fb.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको "
+       },
+       {
+        "t": "अनिवार्य पूर्वस्वीकृति",
+        "hl": true,
+        "at": 0.403
+       },
+       {
+        "t": " लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "बुधबार १८० उडान रद्द",
+   "points": [
+    "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले"
+   ],
+   "km_default": true,
+   "vo": "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_04_b92a61.png",
+    "anim": {
+     "kind": "schedule",
+     "schedule": {
+      "start": "अक्टोबर ३१",
+      "startAt": 0.595,
+      "at": 0.595
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "हवाई क्षेत्रमा चेतावनी",
+   "points": [
+    "ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र"
+   ],
+   "km_default": true,
+   "vo": "ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_05_c664d0.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "ईएएसए र एफएएले साउदी "
+       },
+       {
+        "t": "हवाई क्षेत्रका",
+        "hl": true,
+        "at": 0.216
+       },
+       {
+        "t": " तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "उडान पक्का गरेर मात्र जानुहोस्",
+   "points": [
+    "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा"
+   ],
+   "km_default": true,
+   "vo": "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_acuxu0_06_4ddfd8.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "उडान",
+        "key": true,
+        "at": 0.374
+       },
+       {
+        "t": "पक्का",
+        "key": false,
+        "at": 0.409
+       },
+       {
+        "t": "गरेर",
+        "key": false,
+        "at": 0.444
+       },
+       {
+        "t": "मात्र",
+        "key": false,
+        "at": 0.479
+       },
+       {
+        "t": "जानुहोस्",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "plane",
+      "at": 0.374
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>",
+      "plane": "<path pathLength=\"1\" d=\"M2 13l20-8-6 15-4-6z\"/><path pathLength=\"1\" d=\"M12 14l10-9\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "485921c60d7d3a40e1a63cd9fbe4a119b5a4f522d12eabe1541b74612c5d251f",
+  "plan_hash": "8cd52c8c4f8c32e9e7fa00ab1a6a98976e569afbff88cde6ea4cca84f3509057",
+  "selected": [
+   "main:hook",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:schedule",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:schedule",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:schedule"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "evidence",
+    "score": 161.502,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 2,
+    "selected_main": "points_plain",
+    "selected_strip": "schedule",
+    "score": 131.287,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:schedule"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "schedule",
+    "score": 123.287,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:schedule"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.188,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:stat": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:place": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "99541a54853549e4ae604969e4e2b4d4b577db327fa92b81517e6432413313dd"
+ }
+}

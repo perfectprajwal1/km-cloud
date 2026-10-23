@@ -1,0 +1,594 @@
+{
+ "id": "RV_20261023_l8xe0y",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?",
+ "pinned_comment": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "अधिकृतको मेरापिक आरोहण",
+   "sub": "",
+   "km_default": true,
+   "vo": "आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_01_d61794.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 10.0,
+      "numText": "१०",
+      "unit": "लाख रुपैयाँ",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "अधिकृतको मेरापिक आरोहण",
+      "at": 0.122
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 76
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "month": "कात्तिक",
+   "day": 1,
+   "headline": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+   "weekday": "",
+   "type": "date",
+   "vo": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_02_2978b1.png",
+    "anim": {
+     "kind": "schedule",
+     "schedule": {
+      "start": "कात्तिक १ गते",
+      "startAt": 0.288,
+      "at": 0.288,
+      "place": "तेह्रथुम"
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत",
+   "points": [
+    "प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी"
+   ],
+   "km_default": true,
+   "vo": "प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत कर्मचारी भएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_03_2acdc9.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "ओखलढुंगा",
+        "sub": "",
+        "focus": true,
+        "at": 0.16
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "यसअघि पनि हिमाली यात्रा",
+   "points": [
+    "यसअघि पनि उनले मार्दी बेसक्याम्प"
+   ],
+   "km_default": true,
+   "vo": "यसअघि पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पदयात्रा गरिसकेका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_04_bbbbba.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "यसअघि",
+        "hl": true,
+        "at": 0.05
+       },
+       {
+        "t": " पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पद"
+       },
+       {
+        "t": "यात्रा",
+        "hl": true,
+        "at": 0.695
+       },
+       {
+        "t": " गरिसकेका छन्।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "हिमाली पूर्वाधारमा ध्यानाकर्षण",
+   "points": [
+    "आरोहणका क्रममा जीर्ण साँघु र फोहोर शौचालयले यात्रा कठिन"
+   ],
+   "km_default": true,
+   "vo": "आरोहणका क्रममा जीर्ण साँघु र फोहोर शौचालयले यात्रा कठिन बनाएको भन्दै उनले हिमाली पूर्वाधारमा राज्यको ध्यान आकर्षण गराएका छन्।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_05_4abfe1.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "हिमाली",
+        "key": false,
+        "at": 0.38
+       },
+       {
+        "t": "पूर्वाधारमा",
+        "key": true,
+        "at": 0.415
+       },
+       {
+        "t": "ध्यानाकर्षण",
+        "key": false,
+        "at": 0.6
+       }
+      ],
+      "icon": "star",
+      "at": 0.38
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "जागिरसँगै साहसिक सपना",
+   "points": [
+    "सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि"
+   ],
+   "km_default": true,
+   "vo": "सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261023_l8xe0y_06_6a7e6a.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "सरकारी सेवासँगै व्यक्तिगत रुचि र "
+       },
+       {
+        "t": "साहसिक",
+        "hl": true,
+        "at": 0.311
+       },
+       {
+        "t": " यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "63b681399a3fbe4a026e04d8bcc10d305586386342c0232b2d4ede25039f4689",
+  "plan_hash": "31233295d7b081b031c622eecd7288491569da4d7eeb77bfc867c75d736ec1c0",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:date",
+   "strip:schedule",
+   "main:points_plain",
+   "strip:place",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:evidence",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:date",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "strip:calendar",
+   "strip:evidence",
+   "strip:phrase",
+   "strip:place",
+   "strip:schedule",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 185.833,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "date",
+    "selected_strip": "schedule",
+    "score": 184.187,
+    "reason": [
+     "explicit month/day, no inferred weekday/year",
+     "explicit schedule relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:date",
+     "main:points_plain",
+     "strip:calendar",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:schedule"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "month",
+       "text": "कात्तिक",
+       "start": 36,
+       "end": 43
+      },
+      {
+       "field": "headline",
+       "text": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+       "start": 0,
+       "end": 121
+      }
+     ],
+     "strip": [
+      {
+       "field": "start",
+       "text": "कात्तिक १ गते",
+       "start": 36,
+       "end": 49
+      },
+      {
+       "field": "place",
+       "text": "तेह्रथुम",
+       "start": 0,
+       "end": 8
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:calendar": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 129.467,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.188,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 97.164,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:bignum": "source structure absent or extractor could not prove required meaning",
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "main:scale": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning",
+   "strip:incident": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "c99babc924101a95048f3d808afe91770f6aa20e70485b8fd238517dd6c6ea23"
+ }
+}

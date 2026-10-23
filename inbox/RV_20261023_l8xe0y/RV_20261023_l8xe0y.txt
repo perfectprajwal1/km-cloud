@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261023_l8xe0y
+TOPIC: आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा
+MODEL: assistant_draft
+STORY ID: ST_98bb0b4ebba3
+DATE: 2026-10-23T08:35:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.onlinekhabar.com/2026/10/2042667/limbus-adventurous-journey-along-with-government-service-reached-mera-peak-at-his-own-expense
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्। तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्। प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत कर्मचारी भएका छन्। यसअघि पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पदयात्रा गरिसकेका छन्। आरोहणका क्रममा जीर्ण साँघु र फोहोर शौचालयले यात्रा कठिन बनाएको भन्दै उनले हिमाली पूर्वाधारमा राज्यको ध्यान आकर्षण गराएका छन्। सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "अधिकृतको मेरापिक आरोहण"
+    },
+    "caption_text": "अधिकृतको मेरापिक आरोहण",
+    "big_hook_text": "अधिकृतको मेरापिक आरोहण",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar + Pradesh Portal, Kartik 5: senior accounts officer Prithviman Limbu summited Mera Peak spending about Rs 10 lakh of his own money.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "कात्तिक १ मा शिखरमा"
+    },
+    "caption_text": "कात्तिक १ मा शिखरमा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Both outlets: Limbu of Chhathar-6 Sudap, Tehrathum reached the 6,470-metre summit on Kartik 1 (Oct 18) at 7:10 AM.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत"
+    },
+    "caption_text": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Pradesh Portal: he is Nepal's first government adhikrit to climb Mera Peak at personal expense; he also heads the Province Accounts Unit Office Okhaldhunga.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "यसअघि पनि हिमाली यात्रा"
+    },
+    "caption_text": "यसअघि पनि हिमाली यात्रा",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: he earlier trekked to Mardi Base Camp (Falgun 2082) and to Everest Base Camp, Kala Patthar and Cho La this Jestha.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "हिमाली पूर्वाधारमा ध्यानाकर्षण"
+    },
+    "caption_text": "हिमाली पूर्वाधारमा ध्यानाकर्षण",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Pradesh Portal: he highlighted worn bridges and dirty toilets at camps and urged the state to prioritise trail infrastructure.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "जागिरसँगै साहसिक सपना"
+    },
+    "caption_text": "जागिरसँगै साहसिक सपना",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "Onlinekhabar: his journey shows government employees can pursue personal passion and adventure alongside their duties.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_98bb0b4ebba3",
+  "source_url": "https://www.onlinekhabar.com/2026/10/2042667/limbus-adventurous-journey-along-with-government-service-reached-mera-peak-at-his-own-expense",
+  "source_label": "Onlinekhabar / Pradesh Portal",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Onlinekhabar (Kartik 5) and Pradesh Portal (Kartik 5), corroborated by Pradesh Khabar (Oct 18): senior accounts officer Prithviman Limbu of Chhathar-6 Sudap, Tehrathum, chief of the Province Accounts Unit Office Okhaldhunga and an eighth-level officer, summited the 6,470-metre Mera Peak on Kartik 1 (October 18) at 7:10 AM with guide Singi Lama, leaving the 5,800-metre high camp at 3:05 AM; he spent about Rs 10 lakh of his own money on the climb managed by Atlas Alpine Expedition, making him Nepal's first government adhikrit to climb Mera Peak at personal expense; he earlier trekked to Mardi Base Camp in Falgun 2082 and to Everest Base Camp, Kala Patthar, Cho La and Gokyo this Jestha. He highlighted worn bridges and dirty toilets at camps and urged the state to prioritise Himalayan trail infrastructure. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://www.pradeshportal.com/news/28986",
+    "article_quote": "निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत बने पृथ्वीमान लिम्बु",
+    "asset_ref": "https://www.pradeshportal.com/news/28986",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "positive",
+  "alternate_hook": "सरकारी जागिरसँगै हिमाल चुम्ने सपना पूरा",
+  "closing_line": "सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।",
+  "comment_prompt": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?",
+  "pinned_comment": "आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "अधिकृतको मेरापिक आरोहण"
+      },
+      "caption_text": "अधिकृतको मेरापिक आरोहण",
+      "big_hook_text": "अधिकृतको मेरापिक आरोहण",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar + Pradesh Portal, Kartik 5: senior accounts officer Prithviman Limbu summited Mera Peak spending about Rs 10 lakh of his own money.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "कात्तिक १ मा शिखरमा"
+      },
+      "caption_text": "कात्तिक १ मा शिखरमा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Both outlets: Limbu of Chhathar-6 Sudap, Tehrathum reached the 6,470-metre summit on Kartik 1 (Oct 18) at 7:10 AM.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत कर्मचारी भएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत"
+      },
+      "caption_text": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Pradesh Portal: he is Nepal's first government adhikrit to climb Mera Peak at personal expense; he also heads the Province Accounts Unit Office Okhaldhunga.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "यसअघि पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पदयात्रा गरिसकेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "यसअघि पनि हिमाली यात्रा"
+      },
+      "caption_text": "यसअघि पनि हिमाली यात्रा",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: he earlier trekked to Mardi Base Camp (Falgun 2082) and to Everest Base Camp, Kala Patthar and Cho La this Jestha.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "आरोहणका क्रममा जीर्ण साँघु र फोहोर शौचालयले यात्रा कठिन बनाएको भन्दै उनले हिमाली पूर्वाधारमा राज्यको ध्यान आकर्षण गराएका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "हिमाली पूर्वाधारमा ध्यानाकर्षण"
+      },
+      "caption_text": "हिमाली पूर्वाधारमा ध्यानाकर्षण",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Pradesh Portal: he highlighted worn bridges and dirty toilets at camps and urged the state to prioritise trail infrastructure.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "जागिरसँगै साहसिक सपना"
+      },
+      "caption_text": "जागिरसँगै साहसिक सपना",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "Onlinekhabar: his journey shows government employees can pursue personal passion and adventure alongside their duties.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा",
+    "youtube_description": "वरिष्ठ लेखा अधिकृत पृथ्वीमान लिम्बूले आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर ६,४७० मिटर अग्लो मेरापिकको सफल आरोहण गरेका छन्।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Mera Peak",
+      "Mountaineering",
+      "Prithviman Limbu"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#MeraPeak",
+      "#Mountaineering",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+    "instagram_caption": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+    "facebook_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+    "threads_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+    "linkedin_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core (senior accounts officer Prithviman Limbu of Chhathar-6 Sudap, Tehrathum, chief of Province Accounts Unit Office Okhaldhunga, summited 6,470 m Mera Peak on Kartik 1/Oct 18 at 7:10 AM with guide Singi Lama; spent ~Rs 10 lakh of own money; first Nepal government adhikrit to climb Mera Peak at personal expense; earlier trekked Mardi BC, EBC, Kala Patthar, Cho La; urged state attention to Himalayan trail infrastructure) cross-checked between Onlinekhabar (Kartik 5) and Pradesh Portal (Kartik 5), corroborated by Pradesh Khabar. 'First adhikrit' claim is as reported by the outlets. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+सरकारी जागिरसँगै हिमाल चुम्ने सपना पूरा
+
+--- PINNED COMMENT (Nepali question) ---
+आफ्नै देशका हिमाल आरोहण गर्ने सपना तपाईंलाई पनि छ कि छैन?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "अधिकृतको मेरापिक आरोहण"
+    }
+  },
+  {
+    "text": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "कात्तिक १ मा शिखरमा"
+    }
+  },
+  {
+    "text": "प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत कर्मचारी भएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "निजी खर्चमा आरोहण गर्ने पहिलो अधिकृत"
+    }
+  },
+  {
+    "text": "यसअघि पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पदयात्रा गरिसकेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "यसअघि पनि हिमाली यात्रा"
+    }
+  },
+  {
+    "text": "आरोहणका क्रममा जीर्ण साँघु र फोहोर शौचालयले यात्रा कठिन बनाएको भन्दै उनले हिमाली पूर्वाधारमा राज्यको ध्यान आकर्षण गराएका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "हिमाली पूर्वाधारमा ध्यानाकर्षण"
+    }
+  },
+  {
+    "text": "सरकारी सेवासँगै व्यक्तिगत रुचि र साहसिक यात्रा पनि अघि बढाउन सकिने लिम्बूको यो यात्रा उदाहरण बनेको छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "जागिरसँगै साहसिक सपना"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा",
+  "youtube_description": "वरिष्ठ लेखा अधिकृत पृथ्वीमान लिम्बूले आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर ६,४७० मिटर अग्लो मेरापिकको सफल आरोहण गरेका छन्।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Mera Peak",
+    "Mountaineering",
+    "Prithviman Limbu"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#MeraPeak",
+    "#Mountaineering",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+  "instagram_caption": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+  "facebook_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+  "threads_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal",
+  "linkedin_post": "आफ्नै १० लाख खर्चेर सरकारी अधिकृत मेरापिक चुचुरोमा। #NepalNews #MeraPeak #Mountaineering #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Onlinekhabar: Kartik 5, 2083. https://www.onlinekhabar.com/2026/10/2042667/limbus-adventurous-journey-along-with-government-service-reached-mera-peak-at-his-own-expense
+Pradesh Portal: Kartik 5, 2083. https://www.pradeshportal.com/news/28986
+Pradesh Khabar: Oct 18, 2026. https://pradeskhabar.com/archives/130373

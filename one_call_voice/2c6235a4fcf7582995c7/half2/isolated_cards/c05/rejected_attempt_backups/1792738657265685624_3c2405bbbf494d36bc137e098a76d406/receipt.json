@@ -1,0 +1,21 @@
+{
+  "marker_sha256": "747220cb78e091d7016c465a4d71ce0d86052a04df66f9dc6ab00daecfb1bfb8",
+  "attempts": [
+    {
+      "key_slot": 2,
+      "key_file": "gemini_key2.txt",
+      "status": "http_rejected",
+      "http_status": 429,
+      "failover_reason": "quota/rate rejection"
+    },
+    {
+      "key_slot": 1,
+      "key_file": "gemini_key.txt",
+      "status": "http_rejected",
+      "http_status": 429,
+      "failover_reason": "quota/rate rejection"
+    }
+  ],
+  "reason": "all attempts recorded definite rejections",
+  "network_calls": 0
+}

@@ -1,0 +1,70 @@
+{
+  "master_sha256": "602edcaadbdb4f42ca3e330f6646c5c4ed2f2f47f24973a8bc57fab3884add0d",
+  "cuts_sec": [
+    10.170958333333333,
+    20.661916666666666,
+    33.312875
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 10.171,
+      "duration_sec": 10.171,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ।",
+      "master_start_sec": 10.171,
+      "master_end_sec": 20.662,
+      "duration_sec": 10.491,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+      "master_start_sec": 20.662,
+      "master_end_sec": 33.313,
+      "duration_sec": 12.651,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्।",
+      "master_start_sec": 33.313,
+      "master_end_sec": 44.644,
+      "duration_sec": 11.331,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}
