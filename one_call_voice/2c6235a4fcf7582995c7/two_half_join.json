@@ -1,0 +1,174 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    10.170958333333333,
+    20.661916666666666,
+    33.312875,
+    45.64383333333333,
+    57.494791666666664,
+    68.34575
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "ctc_missing_recovered",
+      "original_master_sha256": "09f4329057e87250c2a0d6634c5ca7a95da14c9a783aaf5ca7d510722e6e05f7",
+      "used_master_sha256": "602edcaadbdb4f42ca3e330f6646c5c4ed2f2f47f24973a8bc57fab3884add0d",
+      "seconds": 44.64383333333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+            "spoken": "साउदी राजधानी रियाधको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझै सामान्य अवस्थामा फर्किएका छैनन्।",
+            "mapping": []
+          },
+          {
+            "original": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर १८ देखि पुनः सञ्चालनमा आएको छ।",
+            "spoken": "निरन्तरका मिसाइल र ड्रोन आक्रमणपछि विमानस्थल एक साताको अवरोधपछि अक्टोबर अठार देखि पुनः सञ्चालनमा आएको छ।",
+            "mapping": [
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 72,
+                "end": 74,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+            "spoken": "तर वायुसेवाले अवतरण र उडानका लागि उड्डयन प्राधिकरणको अनिवार्य पूर्वस्वीकृति लिनुपर्ने भएकाले धेरैले उडान रद्द गरेका छन्।",
+            "mapping": []
+          },
+          {
+            "original": "बुधबार मात्र एक सय ८० उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर १८ र केएलएमले अक्टोबर ३१ सम्म उडान स्थगित गरेका छन्।",
+            "spoken": "बुधबार मात्र एक सय असी उडान रद्द भएका थिए भने लुफ्थान्साले नोभेम्बर अठार र केएलएमले अक्टोबर एकतिस सम्म उडान स्थगित गरेका छन्।",
+            "mapping": [
+              {
+                "original": "८०",
+                "spoken": "असी",
+                "start": 19,
+                "end": 21,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 67,
+                "end": 69,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "३१",
+                "spoken": "एकतिस",
+                "start": 89,
+                "end": 91,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "09f4329057e87250c2a0d6634c5ca7a95da14c9a783aaf5ca7d510722e6e05f7",
+        "greedy": "साउदी राजधानी रियातहको अन्तर्राष्ट्रिय विमानस्थल खुले पनि अन्तर्राष्ट्रिय उडान अझही समान्य अवस्थामा फर्किएका छैनन् ",
+        "present_indices": [
+          0
+        ],
+        "missing_indices": [
+          1,
+          2,
+          3
+        ],
+        "transcript_char_match": 0.9651741293532339,
+        "scores": [
+          -0.3809744776672839
+        ],
+        "cuts_sec": [],
+        "boundaries": [],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [
+        {
+          "card": 2,
+          "master_sha256": "649e18b6d5f687af890e63fd2b92659cfe1831f86267a58a41713bb3c64097e5"
+        },
+        {
+          "card": 3,
+          "master_sha256": "a9d4de232fff59e0a56c1bd6d4320a5693e00eb7ac10030c7f5336cee2e9bab1"
+        },
+        {
+          "card": 4,
+          "master_sha256": "82363bf10811fd18c9f3acd90f8508a68e513534208357584bd12aa55606b314"
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "isolated_per_card",
+      "original_master_sha256": "a341a4c4affca97552430119280c8702bb53be97b304fa46cd9c2756a6fd5690",
+      "used_master_sha256": "9e388110aa4be65e4b84f8910f48626e179fb1863dc051452b9920bb086608a4",
+      "seconds": 32.712875,
+      "ctc": {
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "a341a4c4affca97552430119280c8702bb53be97b304fa46cd9c2756a6fd5690",
+        "present_indices": [
+          0,
+          1,
+          2
+        ],
+        "missing_indices": [],
+        "partial_missing_indices": [],
+        "cuts_sec": [
+          1.85,
+          5.46
+        ],
+        "boundaries": [],
+        "best_effort": true,
+        "fallback_reason": "No confident card set: possible omissions, repeats or wrong words. Originals kept; no missing-card request authorized.",
+        "gates": "SOFT FALLBACK: complete audio retained; per-card word identity and exact boundary are unverified."
+      },
+      "recovered": [
+        {
+          "card": 5,
+          "master_sha256": "5915e4e72ba6336e75bc5ed73ebc703a3bcdcdf9e4ac4bf586392e4fb92c4057",
+          "duration_sec": 9.851
+        },
+        {
+          "card": 6,
+          "master_sha256": "64e1e2ba2727d154a3977f1a3862e9461ad88c04bffc3d79682ad574efabb3d2",
+          "duration_sec": 8.851
+        },
+        {
+          "card": 7,
+          "master_sha256": "d8ea52e82c5d7bddee1ef8c830700243c99423a4f9e0428b4650c3c9bc7d1b28",
+          "duration_sec": 10.011
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "dacad96819bcc3ac9145e121925e0c696dd207b6a208900ff2ba081c172f8be3",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

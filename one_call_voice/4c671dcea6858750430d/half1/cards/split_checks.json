@@ -1,0 +1,70 @@
+{
+  "master_sha256": "737b6fa755b1ed4000945d6d149330915bc17ffa47242a0713f9b2b76c248daa",
+  "cuts_sec": [
+    9.451583333333334,
+    23.444541666666666,
+    37.80254166666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "आफ्नै कमाइको करिब १० लाख रुपैयाँ खर्चेर सरकारी अधिकृतले मेरापिक हिमालको सफल आरोहण गरेका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 9.452,
+      "duration_sec": 9.452,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "तेह्रथुम छथर गाउँपालिका-६ का लिम्बू कात्तिक १ गते बिहान ७ बजेर १० मिनेटमा ६ हजार ४ सय ७० मिटर अग्लो चुचुरोमा पुगेका हुन्।",
+      "master_start_sec": 9.452,
+      "master_end_sec": 23.445,
+      "duration_sec": 13.993,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "प्रदेश लेखा इकाइ कार्यालय ओखलढुंगाका प्रमुख समेत रहेका उनी निजी खर्चमा मेरापिक आरोहण गर्ने नेपालकै पहिलो अधिकृत कर्मचारी भएका छन्।",
+      "master_start_sec": 23.445,
+      "master_end_sec": 37.803,
+      "duration_sec": 14.358,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "यसअघि पनि उनले मार्दी बेसक्याम्प, एभरेस्ट बेसक्याम्प, कालापत्थर र चोला पाससम्मको पदयात्रा गरिसकेका छन्।",
+      "master_start_sec": 37.803,
+      "master_end_sec": 51.531,
+      "duration_sec": 13.728,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

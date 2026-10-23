@@ -1,0 +1,55 @@
+{
+  "master_sha256": "9e388110aa4be65e4b84f8910f48626e179fb1863dc051452b9920bb086608a4",
+  "cuts_sec": [
+    10.850958333333333,
+    21.701916666666666
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "ईएएसए र एफएएले साउदी हवाई क्षेत्रका तोकिएका भागमा नउड्न र सतर्कता अपनाउन वायुसेवालाई सुझाव दिएका छन्।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 10.851,
+      "duration_sec": 10.851,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "रियाध यात्रा गर्नेले विमानस्थल जानुअघि आफ्नो वायुसेवा कम्पनीसँग उडानको ताजा अवस्था अनिवार्य सोध्नुपर्ने हुन्छ।",
+      "master_start_sec": 10.851,
+      "master_end_sec": 21.702,
+      "duration_sec": 10.851,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "खाडीका मुलुकमा काम गर्ने आफन्तलाई यात्रा अनिश्चितताले कति असर गर्‍यो, अनुभव कत्तिको छ? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 21.702,
+      "master_end_sec": 32.713,
+      "duration_sec": 11.011,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": true,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": true,
+  "sample_preserving": true,
+  "fallback_note": "No confident card set: possible omissions, repeats or wrong words. Originals kept; no missing-card request authorized.",
+  "check_result": "SOFT FALLBACK: complete source audio retained and split; word identity and exact card boundaries are unverified. No confident card set: possible omissions, repeats or wrong words. Originals kept; no missing-card request authorized."
+}
