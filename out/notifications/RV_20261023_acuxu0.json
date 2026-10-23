@@ -1,6 +1,7 @@
 {
   "attempt_id": "21c6806f-b1b5-4543-bb2f-cbc9d1bc1864",
   "body": "Reel RV_20261023_acuxu0 - Is Riyadh airport open for international flights?\nPosting deferred or reel incomplete. Check the saved run/state logs first.\nDetails: GitHub Actions summary and km-state artifact.",
-  "state": "claimed",
+  "message_id": "wamid.HBgNOTc3OTg0NTc4NjU4MBUCABEYEkJDOTY3ODIxNEYzNjI1MDY5RgA=",
+  "state": "sent",
   "story_id": "RV_20261023_acuxu0"
 }
