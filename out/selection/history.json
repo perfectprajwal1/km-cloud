@@ -1,82 +1,6 @@
 {
   "reels": [
     {
-      "content_hash": "8adf366f29f35491b8fbd595f5af42a058355a8d81ecc4ea9a4819124bb399be",
-      "eligible": [
-        "main:engage",
-        "main:hook",
-        "main:points_plain",
-        "strip:evidence",
-        "strip:phrase",
-        "strip:units"
-      ],
-      "id": "RV_20261015_d7e3cb",
-      "missed": {
-        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
-      },
-      "plan_hash": "de4cecfdd642ba1c1221644c1749a29a4cfb4646f076a71b9ee779309f57a2f7",
-      "rendered_at": 1792092495.298197,
-      "selected": [
-        "main:hook",
-        "strip:units",
-        "main:points_plain",
-        "strip:evidence",
-        "main:points_plain",
-        "strip:phrase",
-        "main:points_plain",
-        "strip:evidence",
-        "main:points_plain",
-        "strip:phrase",
-        "main:points_plain",
-        "strip:evidence",
-        "main:engage"
-      ]
-    },
-    {
-      "content_hash": "4871c1df3094e3faa0c2cfd6cd594a04ef1074009b8933042b19b1ebc094b183",
-      "eligible": [
-        "main:bignum",
-        "main:engage",
-        "main:group",
-        "main:hook",
-        "main:points_plain",
-        "main:scale",
-        "main:versus",
-        "strip:compare",
-        "strip:evidence",
-        "strip:place",
-        "strip:stat",
-        "strip:waffle"
-      ],
-      "id": "RV_20261016_ac0832",
-      "missed": {
-        "main:group": "fit/repetition/rarity: another legal pair scored higher",
-        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
-        "main:scale": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:place": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:stat": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:waffle": "fit/repetition/rarity: another legal pair scored higher"
-      },
-      "plan_hash": "642cddd8ea73c12e1464d05c532e774efe044984fb1926b14bc88a7a7be48cc3",
-      "rendered_at": 1792129392.7172055,
-      "selected": [
-        "main:hook",
-        "strip:waffle",
-        "main:bignum",
-        "strip:stat",
-        "main:points_plain",
-        "strip:stat",
-        "main:bignum",
-        "strip:waffle",
-        "main:points_plain",
-        "strip:stat",
-        "main:versus",
-        "strip:compare",
-        "main:engage"
-      ]
-    },
-    {
       "content_hash": "83995d3e622bae1deb3e469e2b11ec499a31571e8a246eb03746e22dc8ddd967",
       "eligible": [
         "main:bignum",
@@ -735,6 +659,77 @@
         "strip:phrase",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "485921c60d7d3a40e1a63cd9fbe4a119b5a4f522d12eabe1541b74612c5d251f",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:schedule"
+      ],
+      "id": "RV_20261023_acuxu0",
+      "missed": {
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "8cd52c8c4f8c32e9e7fa00ab1a6a98976e569afbff88cde6ea4cca84f3509057",
+      "rendered_at": 1792753125.337292,
+      "selected": [
+        "main:hook",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:schedule",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:schedule",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:engage"
+      ]
+    },
+    {
+      "content_hash": "63b681399a3fbe4a026e04d8bcc10d305586386342c0232b2d4ede25039f4689",
+      "eligible": [
+        "main:date",
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:calendar",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place",
+        "strip:schedule",
+        "strip:stat"
+      ],
+      "id": "RV_20261023_l8xe0y",
+      "missed": {
+        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:calendar": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "31233295d7b081b031c622eecd7288491569da4d7eeb77bfc867c75d736ec1c0",
+      "rendered_at": 1792756857.7944212,
+      "selected": [
+        "main:hook",
+        "strip:stat",
+        "main:date",
+        "strip:schedule",
+        "main:points_plain",
+        "strip:place",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -764,27 +759,29 @@
     "RV_20261021_tm8jsw:667b819b8223377e7dc5bb442e94a6595cc6e972c9c156301eac7f546cc68f1a": "de897244a1aa75edb50491a46087c934ef6df3250b9f0d98cab71aaa4e0f4366",
     "RV_20261021_u0rz6k:426aeee925de20c6953b9b345d894518d332ba5c58b3ffa31ef1b08ba327adb6": "9da3c69e56d761ab2733c6bfcbfa6b389e48d12b799c9d5c700126bd3a50cfb6",
     "RV_20261022_w7058e:002d294ceb109205e01a0b39366392dd967805965b60455b181d1cf48e823298": "b387e2386475a3cc648f67dbbbe408e63db39f9e353d094c01058ffa67eccdaa",
-    "RV_20261022_whypd2:840a7e58bb053371e23e667cc278befdbb2c6f0820a1242321ede67c10fc11e3": "c7d5897e1ad49bc88b61d7e0cf330c0590c0654f30f74edbfc06f8d4aa11c790"
+    "RV_20261022_whypd2:840a7e58bb053371e23e667cc278befdbb2c6f0820a1242321ede67c10fc11e3": "c7d5897e1ad49bc88b61d7e0cf330c0590c0654f30f74edbfc06f8d4aa11c790",
+    "RV_20261023_acuxu0:485921c60d7d3a40e1a63cd9fbe4a119b5a4f522d12eabe1541b74612c5d251f": "8cd52c8c4f8c32e9e7fa00ab1a6a98976e569afbff88cde6ea4cca84f3509057",
+    "RV_20261023_l8xe0y:63b681399a3fbe4a026e04d8bcc10d305586386342c0232b2d4ede25039f4689": "31233295d7b081b031c622eecd7288491569da4d7eeb77bfc867c75d736ec1c0"
   },
   "used_total": {
     "main:bignum": 13,
-    "main:date": 3,
-    "main:engage": 27,
-    "main:hook": 27,
+    "main:date": 4,
+    "main:engage": 29,
+    "main:hook": 29,
     "main:place": 4,
-    "main:points_plain": 96,
+    "main:points_plain": 105,
     "main:scale": 16,
     "main:versus": 1,
     "strip:calendar": 1,
     "strip:compare": 1,
-    "strip:evidence": 53,
+    "strip:evidence": 58,
     "strip:incident": 1,
     "strip:money": 1,
-    "strip:phrase": 40,
-    "strip:place": 19,
+    "strip:phrase": 42,
+    "strip:place": 20,
     "strip:quote": 3,
-    "strip:schedule": 2,
-    "strip:stat": 20,
+    "strip:schedule": 5,
+    "strip:stat": 21,
     "strip:track": 2,
     "strip:units": 8,
     "strip:voiceprint": 2,
