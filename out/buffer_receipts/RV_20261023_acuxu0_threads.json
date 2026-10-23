@@ -1,9 +1,10 @@
 {
   "attempt_id": "a7e67edf-551f-4fea-a70a-cb6bab2c3b9c",
   "channel_id": "28702519189375738",
+  "container_id": "17888835636529659",
   "media_url": "https://perfectprajwal1.github.io/km-media/RV_20261023_acuxu0.mp4",
   "platform": "threads",
-  "stage": "before_create",
+  "stage": "processing",
   "state": "pending",
   "story_id": "RV_20261023_acuxu0"
 }
