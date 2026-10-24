@@ -1,0 +1,463 @@
+REVIEW ID: RV_20261024_ue6c2i
+TOPIC: थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा
+MODEL: assistant_draft
+STORY ID: ST_563de10212c1
+DATE: 2026-10-24T08:40:00.000000+05:45
+RISK: NORMAL
+CATEGORY: news
+SOURCE: https://www.ratopati.com/story/600914/772-tourists-arrive-in-mustang-via-thorong-la-pass-in-two-weeks
+ARTICLE GROUNDING: MANUAL SOURCE CROSS-CHECK
+FACT CHECK: MANUAL SOURCE CHECK ONLY; N8N NOT RUN
+
+--- SCRIPT ---
+हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्। एक्यापको जोमसोम चेकपोस्टको तथ्याङ्कअनुसार तीमध्ये ७ सय २९ सार्क बाहिरका र ४३ सार्क मुलुकका पर्यटक छन्। बेसीसहारबाट मनाङ हुँदै ५ हजार ४ सय १६ मिटर अग्लो थोरङला पास पार गरेर पर्यटक मुक्तिनाथतर्फ आउँदै छन्। स्थानीय पर्यटन व्यवसायी र सुरक्षाकर्मीको संयुक्त प्रयासले हिउँ पन्छाएपछि बाटो खुलेको हो। अहिले दैनिक एक सयभन्दा बढी ट्रेकर थोरङला पास तर्दै मुक्तिनाथ पुगिरहेका पर्यटन व्यवसायी बताउँछन्। नोभेम्बर अन्त्यसम्म उच्च हिमाली ट्रेकिङ जारी रहने अपेक्षा छ।
+
+--- VISUAL WORKBOOK / SHOTS ---
+[
+  {
+    "line_id": 1,
+    "beat": "hook",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दुई सातामा ७७२ पर्यटक"
+    },
+    "caption_text": "दुई सातामा ७७२ पर्यटक",
+    "big_hook_text": "दुई सातामा ७७२ पर्यटक",
+    "pip_mode": "off",
+    "source_evidence": "Ratopati + Republica + Hamro Patro, Oct 23: 772 foreign tourists entered Mustang via Thorong La Pass in two weeks.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 2,
+    "beat": "context",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "७२९ सार्क बाहिरका, ४३ सार्कका"
+    },
+    "caption_text": "७२९ सार्क बाहिरका, ४३ सार्कका",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "All outlets, citing ACAP Jomsom checkpoint records: 729 from non-SAARC and 43 from SAARC countries.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 3,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "५,४१६ मिटरको थोरङला"
+    },
+    "caption_text": "५,४१६ मिटरको थोरङला",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "All outlets: trekkers cross the 5,416-metre pass from Besisahar via Manang towards Muktinath on the Annapurna Circuit.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 4,
+    "beat": "detail",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "संयुक्त प्रयासले हिउँ पन्छाइयो"
+    },
+    "caption_text": "संयुक्त प्रयासले हिउँ पन्छाइयो",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "All outlets: local tourism entrepreneurs and security personnel jointly cleared the snow to reopen the trail.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 5,
+    "beat": "impact",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "दैनिक १००+ ट्रेकर"
+    },
+    "caption_text": "दैनिक १००+ ट्रेकर",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "All outlets: tourism representatives say more than 100 trekkers are crossing the pass daily.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  },
+  {
+    "line_id": 6,
+    "beat": "closing",
+    "visual": {
+      "type": "TEXT_PLATE",
+      "text": "नोभेम्बरसम्म ट्रेकिङ जारी"
+    },
+    "caption_text": "नोभेम्बरसम्म ट्रेकिङ जारी",
+    "big_hook_text": "",
+    "pip_mode": "off",
+    "source_evidence": "All outlets: high-altitude trekking is expected to continue until the end of November.",
+    "sfx": {
+      "bed": "none",
+      "transition": "none",
+      "pops": [],
+      "hook_impact": false,
+      "serious_clock_motif": false
+    }
+  }
+]
+
+--- FULL WORKBOOK JSON ---
+{
+  "schema_version": "6.6.9",
+  "story_id": "ST_563de10212c1",
+  "source_url": "https://www.ratopati.com/story/600914/772-tourists-arrive-in-mustang-via-thorong-la-pass-in-two-weeks",
+  "source_label": "Ratopati / Republica",
+  "source_credit": "",
+  "risk_flag": "NORMAL",
+  "uncertainty_level": "low",
+  "uncertainty_note": "Core facts match across Ratopati, Hamro Patro, myRepublica (all Oct 23) and Khabarhub (Oct 24): 772 foreign tourists entered Mustang via Thorong La Pass in two weeks after snow was cleared from the route - 729 from outside SAARC and 43 from SAARC countries, per records at the Annapurna Conservation Area Project (ACAP) checkpoint in Jomsom; the 5,416-metre pass on the Annapurna Circuit was cleared through joint efforts of local tourism entrepreneurs and security personnel; more than 100 trekkers are now crossing daily towards Muktinath, with high-altitude trekking expected to continue until the end of November. Original n8n validator/checker not run.",
+  "safe_to_publish": false,
+  "hook_type": "direct_callout",
+  "hook_claim": "हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्।",
+  "proof_asset": {
+    "kind": "article_text",
+    "source_url": "https://myrepublica.nagariknetwork.com/index.php/news/772-foreign-tourists-enter-mustang-via-thorong-la-pass-in-two-weeks-86-94.html",
+    "article_quote": "772 foreign tourists enter Mustang via Thorong La Pass in two weeks",
+    "asset_ref": "https://myrepublica.nagariknetwork.com/index.php/news/772-foreign-tourists-enter-mustang-via-thorong-la-pass-in-two-weeks-86-94.html",
+    "status": "manually_source_checked"
+  },
+  "story_emotion": "positive",
+  "alternate_hook": "थोरङला पासबाट दैनिक एक सयभन्दा बढी ट्रेकर",
+  "closing_line": "नोभेम्बर अन्त्यसम्म उच्च हिमाली ट्रेकिङ जारी रहने अपेक्षा छ।",
+  "comment_prompt": "मुस्ताङ–मनाङ ट्रेकिङ गर्ने योजना तपाईंको पनि छ कि छैन?",
+  "pinned_comment": "मुस्ताङ–मनाङ ट्रेकिङ गर्ने योजना तपाईंको पनि छ कि छैन?",
+  "lines": [
+    {
+      "line_id": 1,
+      "beat": "hook",
+      "narration_text": "हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दुई सातामा ७७२ पर्यटक"
+      },
+      "caption_text": "दुई सातामा ७७२ पर्यटक",
+      "big_hook_text": "दुई सातामा ७७२ पर्यटक",
+      "pip_mode": "off",
+      "source_evidence": "Ratopati + Republica + Hamro Patro, Oct 23: 772 foreign tourists entered Mustang via Thorong La Pass in two weeks.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 2,
+      "beat": "context",
+      "narration_text": "एक्यापको जोमसोम चेकपोस्टको तथ्याङ्कअनुसार तीमध्ये ७ सय २९ सार्क बाहिरका र ४३ सार्क मुलुकका पर्यटक छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "७२९ सार्क बाहिरका, ४३ सार्कका"
+      },
+      "caption_text": "७२९ सार्क बाहिरका, ४३ सार्कका",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "All outlets, citing ACAP Jomsom checkpoint records: 729 from non-SAARC and 43 from SAARC countries.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 3,
+      "beat": "detail",
+      "narration_text": "बेसीसहारबाट मनाङ हुँदै ५ हजार ४ सय १६ मिटर अग्लो थोरङला पास पार गरेर पर्यटक मुक्तिनाथतर्फ आउँदै छन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "५,४१६ मिटरको थोरङला"
+      },
+      "caption_text": "५,४१६ मिटरको थोरङला",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "All outlets: trekkers cross the 5,416-metre pass from Besisahar via Manang towards Muktinath on the Annapurna Circuit.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 4,
+      "beat": "detail",
+      "narration_text": "स्थानीय पर्यटन व्यवसायी र सुरक्षाकर्मीको संयुक्त प्रयासले हिउँ पन्छाएपछि बाटो खुलेको हो।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "संयुक्त प्रयासले हिउँ पन्छाइयो"
+      },
+      "caption_text": "संयुक्त प्रयासले हिउँ पन्छाइयो",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "All outlets: local tourism entrepreneurs and security personnel jointly cleared the snow to reopen the trail.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 5,
+      "beat": "impact",
+      "narration_text": "अहिले दैनिक एक सयभन्दा बढी ट्रेकर थोरङला पास तर्दै मुक्तिनाथ पुगिरहेका पर्यटन व्यवसायी बताउँछन्।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "दैनिक १००+ ट्रेकर"
+      },
+      "caption_text": "दैनिक १००+ ट्रेकर",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "All outlets: tourism representatives say more than 100 trekkers are crossing the pass daily.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    },
+    {
+      "line_id": 6,
+      "beat": "closing",
+      "narration_text": "नोभेम्बर अन्त्यसम्म उच्च हिमाली ट्रेकिङ जारी रहने अपेक्षा छ।",
+      "voice": "neutral_talking",
+      "emotion": "neutral",
+      "visual": {
+        "type": "TEXT_PLATE",
+        "text": "नोभेम्बरसम्म ट्रेकिङ जारी"
+      },
+      "caption_text": "नोभेम्बरसम्म ट्रेकिङ जारी",
+      "big_hook_text": "",
+      "pip_mode": "off",
+      "source_evidence": "All outlets: high-altitude trekking is expected to continue until the end of November.",
+      "sfx": {
+        "bed": "none",
+        "transition": "none",
+        "pops": [],
+        "hook_impact": false,
+        "serious_clock_motif": false
+      }
+    }
+  ],
+  "platform_pack": {
+    "youtube_title": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा",
+    "youtube_description": "हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्।",
+    "youtube_tags": [
+      "Nepal News",
+      "Khabar Minute",
+      "Thorong La",
+      "Mustang",
+      "Trekking Nepal"
+    ],
+    "hashtags": [
+      "#NepalNews",
+      "#ThorongLa",
+      "#Mustang",
+      "#khabarminutenepal"
+    ],
+    "source_credit": "",
+    "tiktok_caption": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+    "instagram_caption": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+    "facebook_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+    "threads_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+    "linkedin_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal"
+  }
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Core (772 foreign tourists entered Mustang via Thorong La Pass in two weeks after snow clearance - 729 non-SAARC, 43 SAARC, per ACAP Jomsom checkpoint; 5,416 m pass on Annapurna Circuit; joint clearance by local tourism entrepreneurs and security personnel; 100+ trekkers crossing daily towards Muktinath; high-altitude trekking expected until end of November) cross-checked between Ratopati, Hamro Patro and myRepublica (all Oct 23), corroborated by Khabarhub (Oct 24). Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- ALTERNATE HOOK ---
+थोरङला पासबाट दैनिक एक सयभन्दा बढी ट्रेकर
+
+--- PINNED COMMENT (Nepali question) ---
+मुस्ताङ–मनाङ ट्रेकिङ गर्ने योजना तपाईंको पनि छ कि छैन?
+
+--- TAGGED LINES (text/voice/pose/broll, JSON) ---
+[
+  {
+    "text": "हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 1,
+      "beat": "hook",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दुई सातामा ७७२ पर्यटक"
+    }
+  },
+  {
+    "text": "एक्यापको जोमसोम चेकपोस्टको तथ्याङ्कअनुसार तीमध्ये ७ सय २९ सार्क बाहिरका र ४३ सार्क मुलुकका पर्यटक छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 2,
+      "beat": "context",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "७२९ सार्क बाहिरका, ४३ सार्कका"
+    }
+  },
+  {
+    "text": "बेसीसहारबाट मनाङ हुँदै ५ हजार ४ सय १६ मिटर अग्लो थोरङला पास पार गरेर पर्यटक मुक्तिनाथतर्फ आउँदै छन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 3,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "५,४१६ मिटरको थोरङला"
+    }
+  },
+  {
+    "text": "स्थानीय पर्यटन व्यवसायी र सुरक्षाकर्मीको संयुक्त प्रयासले हिउँ पन्छाएपछि बाटो खुलेको हो।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 4,
+      "beat": "detail",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "संयुक्त प्रयासले हिउँ पन्छाइयो"
+    }
+  },
+  {
+    "text": "अहिले दैनिक एक सयभन्दा बढी ट्रेकर थोरङला पास तर्दै मुक्तिनाथ पुगिरहेका पर्यटन व्यवसायी बताउँछन्।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 5,
+      "beat": "impact",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "दैनिक १००+ ट्रेकर"
+    }
+  },
+  {
+    "text": "नोभेम्बर अन्त्यसम्म उच्च हिमाली ट्रेकिङ जारी रहने अपेक्षा छ।",
+    "voice": "neutral_talking",
+    "pose": "neutral_talking",
+    "broll": "",
+    "broll_kind": "text_plate",
+    "broll_plan": {
+      "line_id": 6,
+      "beat": "closing",
+      "layer": "plate",
+      "visual_type": "TEXT_PLATE",
+      "asset_kind": "text_plate",
+      "quality": "story_fact",
+      "primary_query": "",
+      "motion_text": "नोभेम्बरसम्म ट्रेकिङ जारी"
+    }
+  }
+]
+
+--- B-ROLL PLAN (per line) ---
+Drawn text/number plates only. No stock/event images requested or verified. Card/strip appearance not rendered or approved.
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा",
+  "youtube_description": "हिउँ पन्छाएर बाटो खुलेपछि दुई सातामा ७ सय ७२ विदेशी पर्यटक थोरङला पास हुँदै मुस्ताङ प्रवेश गरेका छन्।",
+  "youtube_tags": [
+    "Nepal News",
+    "Khabar Minute",
+    "Thorong La",
+    "Mustang",
+    "Trekking Nepal"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#ThorongLa",
+    "#Mustang",
+    "#khabarminutenepal"
+  ],
+  "source_credit": "",
+  "tiktok_caption": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+  "instagram_caption": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+  "facebook_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+  "threads_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal",
+  "linkedin_post": "थोरङला पास हुँदै दुई सातामा ७७२ विदेशी पर्यटक मुस्ताङमा। #NepalNews #ThorongLa #Mustang #khabarminutenepal"
+}
+
+--- FACT-CHECK SOURCES ---
+Ratopati: Oct 23, 2026. https://www.ratopati.com/story/600914/772-tourists-arrive-in-mustang-via-thorong-la-pass-in-two-weeks
+myRepublica: Oct 23, 2026. https://myrepublica.nagariknetwork.com/index.php/news/772-foreign-tourists-enter-mustang-via-thorong-la-pass-in-two-weeks-86-94.html
+Hamro Patro: Oct 23, 2026. https://www.hamropatro.com/news/detail/4929313541553021-thorangala-pas-hundai-dui-satama-772-paryatak-puge-mustang
