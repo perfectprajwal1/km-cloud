@@ -1,45 +1,6 @@
 {
   "reels": [
     {
-      "content_hash": "83995d3e622bae1deb3e469e2b11ec499a31571e8a246eb03746e22dc8ddd967",
-      "eligible": [
-        "main:bignum",
-        "main:engage",
-        "main:hook",
-        "main:points_plain",
-        "main:scale",
-        "strip:evidence",
-        "strip:phrase",
-        "strip:place",
-        "strip:quote",
-        "strip:stat"
-      ],
-      "id": "RV_20261016_8e25da",
-      "missed": {
-        "main:bignum": "fit/repetition/rarity: another legal pair scored higher",
-        "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
-        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
-      },
-      "plan_hash": "efb2d9673037ad6f8392dcd4cd547673ba3185b0c5a085d030f6c0beed154802",
-      "rendered_at": 1792141515.7788076,
-      "selected": [
-        "main:hook",
-        "strip:stat",
-        "main:points_plain",
-        "strip:phrase",
-        "main:scale",
-        "strip:stat",
-        "main:points_plain",
-        "strip:place",
-        "main:scale",
-        "strip:stat",
-        "main:points_plain",
-        "strip:quote",
-        "main:engage"
-      ]
-    },
-    {
       "content_hash": "caa169ac2fcd6efd0cf6ede5712d3cc8cc3ba2f41c2352ed75dfc123c75c31a8",
       "eligible": [
         "main:bignum",
@@ -730,6 +691,39 @@
         "strip:evidence",
         "main:engage"
       ]
+    },
+    {
+      "content_hash": "985bddadd9e1415ad2940ef5c6796d391dc8bb7c3f352844bb7eae4958858bdf",
+      "eligible": [
+        "main:engage",
+        "main:hook",
+        "main:points_plain",
+        "strip:evidence",
+        "strip:phrase",
+        "strip:place"
+      ],
+      "id": "RV_20261024_ue6c2i",
+      "missed": {
+        "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+        "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+      },
+      "plan_hash": "be879b6d945a209e5d94b2f5c1718e3b13abcf11a0bb5d8b5226ea87362a2aa0",
+      "rendered_at": 1792859055.1985834,
+      "selected": [
+        "main:hook",
+        "strip:place",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:evidence",
+        "main:points_plain",
+        "strip:phrase",
+        "main:engage"
+      ]
     }
   ],
   "seen": {
@@ -761,24 +755,25 @@
     "RV_20261022_w7058e:002d294ceb109205e01a0b39366392dd967805965b60455b181d1cf48e823298": "b387e2386475a3cc648f67dbbbe408e63db39f9e353d094c01058ffa67eccdaa",
     "RV_20261022_whypd2:840a7e58bb053371e23e667cc278befdbb2c6f0820a1242321ede67c10fc11e3": "c7d5897e1ad49bc88b61d7e0cf330c0590c0654f30f74edbfc06f8d4aa11c790",
     "RV_20261023_acuxu0:485921c60d7d3a40e1a63cd9fbe4a119b5a4f522d12eabe1541b74612c5d251f": "8cd52c8c4f8c32e9e7fa00ab1a6a98976e569afbff88cde6ea4cca84f3509057",
-    "RV_20261023_l8xe0y:63b681399a3fbe4a026e04d8bcc10d305586386342c0232b2d4ede25039f4689": "31233295d7b081b031c622eecd7288491569da4d7eeb77bfc867c75d736ec1c0"
+    "RV_20261023_l8xe0y:63b681399a3fbe4a026e04d8bcc10d305586386342c0232b2d4ede25039f4689": "31233295d7b081b031c622eecd7288491569da4d7eeb77bfc867c75d736ec1c0",
+    "RV_20261024_ue6c2i:985bddadd9e1415ad2940ef5c6796d391dc8bb7c3f352844bb7eae4958858bdf": "be879b6d945a209e5d94b2f5c1718e3b13abcf11a0bb5d8b5226ea87362a2aa0"
   },
   "used_total": {
     "main:bignum": 13,
     "main:date": 4,
-    "main:engage": 29,
-    "main:hook": 29,
+    "main:engage": 30,
+    "main:hook": 30,
     "main:place": 4,
-    "main:points_plain": 105,
+    "main:points_plain": 110,
     "main:scale": 16,
     "main:versus": 1,
     "strip:calendar": 1,
     "strip:compare": 1,
-    "strip:evidence": 58,
+    "strip:evidence": 61,
     "strip:incident": 1,
     "strip:money": 1,
-    "strip:phrase": 42,
-    "strip:place": 20,
+    "strip:phrase": 44,
+    "strip:place": 21,
     "strip:quote": 3,
     "strip:schedule": 5,
     "strip:stat": 21,
