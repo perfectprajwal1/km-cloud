@@ -1,0 +1,8 @@
+{
+  "master_sha256": "b60c39e6109b53d3d900c76d1fb330a449eb4f9f9e13dd32283e45b40ea14592",
+  "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+  "engine": "km-onnx-int8-1",
+  "greedy": "विगतमा कोसको खर्चर र पारदरशिताबारय प्रस्ण उठदै आएकाले बर्दो मौजदातसँगै हिसव किताब सार्वजनि गर्नुपर्ने माग पनि उट्ने गरेको छ ",
+  "duration": 10.490958333333333,
+  "logp_sha256": "7b3b5fa48dde75bfc4d6c000efb87bc8c667c30ff3d7faca58a1a2636d8a1b1a"
+}

@@ -1,0 +1,70 @@
+{
+  "master_sha256": "58eb77c918cb6ef710a78318cc9a433c2c41dc3ff69e9eded3b316a266616176",
+  "cuts_sec": [
+    7.956791666666666,
+    21.655416666666667,
+    30.002625000000002
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात १८ अर्ब रुपैयाँ नाघेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 7.957,
+      "duration_sec": 7.957,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयका अनुसार सोमबार बिहान ९ बजेसम्म दुवै कोषको खातामा १८ अर्ब ९ करोड ३२ लाख ३६ हजार ८५२ रुपैयाँ मौज्दात रहेको हो।",
+      "master_start_sec": 7.957,
+      "master_end_sec": 21.655,
+      "duration_sec": 13.699,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "रसुवाको भोटेकोशी बाढीपछि दुवै कोषमा आर्थिक सहयोग जुट्ने क्रम अझै जारी रहेको कार्यालयले जनाएको छ।",
+      "master_start_sec": 21.655,
+      "master_end_sec": 30.003,
+      "duration_sec": 8.347,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 4,
+      "expected_text": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा १३ अर्ब ४८ करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ।",
+      "master_start_sec": 30.003,
+      "master_end_sec": 41.491,
+      "duration_sec": 11.488,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

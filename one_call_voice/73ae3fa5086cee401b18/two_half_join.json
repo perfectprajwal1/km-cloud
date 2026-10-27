@@ -1,0 +1,298 @@
+{
+  "design": "line_sync_v2",
+  "half_ranges": [
+    [
+      0,
+      4
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cuts_sec": [
+    7.956791666666666,
+    21.655416666666667,
+    30.002625000000002,
+    42.49095833333333,
+    54.98191666666666,
+    66.632875
+  ],
+  "diagnostics": [
+    {
+      "half": 1,
+      "card_count": 4,
+      "sync_method": "ctc_boundaries",
+      "original_master_sha256": "58eb77c918cb6ef710a78318cc9a433c2c41dc3ff69e9eded3b316a266616176",
+      "used_master_sha256": "58eb77c918cb6ef710a78318cc9a433c2c41dc3ff69e9eded3b316a266616176",
+      "seconds": 41.49095833333333,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात १८ अर्ब रुपैयाँ नाघेको छ।",
+            "spoken": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात अठार अर्ब रुपैयाँ नाघेको छ।",
+            "mapping": [
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 78,
+                "end": 80,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयका अनुसार सोमबार बिहान ९ बजेसम्म दुवै कोषको खातामा १८ अर्ब ९ करोड ३२ लाख ३६ हजार ८५२ रुपैयाँ मौज्दात रहेको हो।",
+            "spoken": "प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयका अनुसार सोमबार बिहान नौ बजेसम्म दुवै कोषको खातामा अठार अर्ब नौ करोड बत्तिस लाख छत्तिस हजार आठ सय बाउन्न रुपैयाँ मौज्दात रहेको हो।",
+            "mapping": [
+              {
+                "original": "९",
+                "spoken": "नौ",
+                "start": 63,
+                "end": 64,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "१८",
+                "spoken": "अठार",
+                "start": 91,
+                "end": 93,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "९",
+                "spoken": "नौ",
+                "start": 99,
+                "end": 100,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "३२",
+                "spoken": "बत्तिस",
+                "start": 106,
+                "end": 108,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "३६",
+                "spoken": "छत्तिस",
+                "start": 113,
+                "end": 115,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "८५२",
+                "spoken": "आठ सय बाउन्न",
+                "start": 121,
+                "end": 124,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          },
+          {
+            "original": "रसुवाको भोटेकोशी बाढीपछि दुवै कोषमा आर्थिक सहयोग जुट्ने क्रम अझै जारी रहेको कार्यालयले जनाएको छ।",
+            "spoken": "रसुवाको भोटेकोशी बाढीपछि दुवै कोषमा आर्थिक सहयोग जुट्ने क्रम अझै जारी रहेको कार्यालयले जनाएको छ।",
+            "mapping": []
+          },
+          {
+            "original": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा १३ अर्ब ४८ करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ।",
+            "spoken": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा तेह्र अर्ब अठचालिस करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ।",
+            "mapping": [
+              {
+                "original": "१३",
+                "spoken": "तेह्र",
+                "start": 59,
+                "end": 61,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              },
+              {
+                "original": "४८",
+                "spoken": "अठचालिस",
+                "start": 67,
+                "end": 69,
+                "rule": "numbers-english-unverified-v4",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "58eb77c918cb6ef710a78318cc9a433c2c41dc3ff69e9eded3b316a266616176",
+        "greedy": "प्रधानमन्त्री राहतकोष र प्रधानमन्त्री दैबी प्रको पुद्दार कोशमा जम्मा मौजधात अठार अर्बरपया नागेको छप्रधानमन्त्री तथा मन्त्री परिषत कार्यालयकानो सार सोमबार बिहान नौ बजेसम्म दुवै कोशको खातामा अठार अर्बनौकरोड बत्तीस लाख छत्तीस हजार आठ सय बाउन्नरूपया मौजदात रहेको होरसुवाको भोटेकोशी बाँडी पछि दुवै कोशमा आर्थेक सहयोग जुटनेक्रम अछै जारी रहेको कार्यालयले जनाएको छदैभी प्रको भुद्दारकोशको रकम नौ वटा बानिज्य बैङका खातामा तेह्र अर्व अर्चालिसकरोडभन्दा बढिरूपया र केही अमेरिकी ड्लरमा रहेको छ ",
+        "present_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "missing_indices": [],
+        "transcript_char_match": 0.9121540312876053,
+        "scores": [
+          -1.271080048532834,
+          -1.225267983729797,
+          -0.39405126838928484,
+          -1.500840023794323
+        ],
+        "cuts_sec": [
+          7.956791666666666,
+          21.655416666666667,
+          30.002625000000002
+        ],
+        "boundaries": [
+          {
+            "left_anchor": 6.901822866441658,
+            "right_anchor": 8.962367084538732,
+            "scores": [
+              -1.271080048532834,
+              -1.225267983729797
+            ],
+            "candidates": [
+              {
+                "cut": 7.956791666666666,
+                "valley_start": 7.0517916666666665,
+                "valley_end": 8.861791666666667,
+                "quiet_sec": 1.81,
+                "rms": 7.747271134194407e-05,
+                "cost": -1.8095060661764706
+              }
+            ],
+            "selected": {
+              "cut": 7.956791666666666,
+              "valley_start": 7.0517916666666665,
+              "valley_end": 8.861791666666667,
+              "quiet_sec": 1.81,
+              "rms": 7.747271134194407e-05,
+              "cost": -1.8095060661764706
+            }
+          },
+          {
+            "left_anchor": 20.645452748312437,
+            "right_anchor": 22.665986399067823,
+            "scores": [
+              -1.225267983729797,
+              -0.39405126838928484
+            ],
+            "candidates": [
+              {
+                "cut": 21.655416666666667,
+                "valley_start": 20.745416666666667,
+                "valley_end": 22.565416666666664,
+                "quiet_sec": 1.82,
+                "rms": 2.792352667391562e-06,
+                "cost": -1.8199939418595308
+              }
+            ],
+            "selected": {
+              "cut": 21.655416666666667,
+              "valley_start": 20.745416666666667,
+              "valley_end": 22.565416666666664,
+              "quiet_sec": 1.82,
+              "rms": 2.792352667391562e-06,
+              "cost": -1.8199939418595308
+            }
+          },
+          {
+            "left_anchor": 28.947645471713273,
+            "right_anchor": 30.988184406139503,
+            "scores": [
+              -0.39405126838928484,
+              -1.500840023794323
+            ],
+            "candidates": [
+              {
+                "cut": 30.002625000000002,
+                "valley_start": 29.117625,
+                "valley_end": 30.887625,
+                "quiet_sec": 1.77,
+                "rms": 8.321645013713587e-05,
+                "cost": -1.7693057987785277
+              }
+            ],
+            "selected": {
+              "cut": 30.002625000000002,
+              "valley_start": 29.117625,
+              "valley_end": 30.887625,
+              "quiet_sec": 1.77,
+              "rms": 8.321645013713587e-05,
+              "cost": -1.7693057987785277
+            }
+          }
+        ],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [],
+      "manual_override": false,
+      "word_identity_certified": false
+    },
+    {
+      "half": 2,
+      "card_count": 3,
+      "sync_method": "ctc_missing_recovered",
+      "original_master_sha256": "b60c39e6109b53d3d900c76d1fb330a449eb4f9f9e13dd32283e45b40ea14592",
+      "used_master_sha256": "b39ecb893d325b7d97883a5814d32f29bc6b6e9cd625ebb2560bac32088e738a",
+      "seconds": 30.992875,
+      "ctc": {
+        "spoken_form_version": "numbers-english-unverified-v4",
+        "alignment_targets": [
+          {
+            "original": "विगतमा कोषको खर्च र पारदर्शिताबारे प्रश्न उठ्दै आएकाले बढ्दो मौज्दातसँगै हिसाबकिताब सार्वजनिक गर्नुपर्ने माग पनि उठ्ने गरेको छ।",
+            "spoken": "विगतमा कोषको खर्च र पारदर्शिताबारे प्रश्न उठ्दै आएकाले बढ्दो मौज्दातसँगै हिसाबकिताब सार्वजनिक गर्नुपर्ने माग पनि उठ्ने गरेको छ।",
+            "mapping": []
+          },
+          {
+            "original": "बाढीपहिरो र दुर्घटनाका घटना नरोकिँदा कोषको मौज्दात बढ्दै गएको छ; यो रकम प्रभावितलाई कति छिटो र कसरी पुग्छ भन्ने नै मुख्य कुरा हो।",
+            "spoken": "बाढीपहिरो र दुर्घटनाका घटना नरोकिँदा कोषको मौज्दात बढ्दै गएको छ; यो रकम प्रभावितलाई कति छिटो र कसरी पुग्छ भन्ने नै मुख्य कुरा हो।",
+            "mapping": []
+          },
+          {
+            "original": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई? कमेन्टमा भन्नुस्।",
+            "spoken": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई? कमेन्टमा भन्नुस्।",
+            "mapping": []
+          }
+        ],
+        "engine": "km-onnx-int8-1",
+        "model_revision": "d1dc1c34a3f2387d00d4bfe351e940cb7c06fb80",
+        "master_sha256": "b60c39e6109b53d3d900c76d1fb330a449eb4f9f9e13dd32283e45b40ea14592",
+        "greedy": "विगतमा कोसको खर्चर र पारदरशिताबारय प्रस्ण उठदै आएकाले बर्दो मौजदातसँगै हिसव किताब सार्वजनि गर्नुपर्ने माग पनि उट्ने गरेको छ ",
+        "present_indices": [
+          0
+        ],
+        "missing_indices": [
+          1,
+          2
+        ],
+        "transcript_char_match": 0.9065420560747663,
+        "scores": [
+          -0.6670754755034067
+        ],
+        "cuts_sec": [],
+        "boundaries": [],
+        "gates": "provisional thresholds; card listening review still required"
+      },
+      "recovered": [
+        {
+          "card": 6,
+          "master_sha256": "7e18ec452228813fceb1f82cd2298a180bd1f8fa3478af3bf313f97c8bb623ea"
+        },
+        {
+          "card": 7,
+          "master_sha256": "5e00ca4dac207a34ef091a6471534d30366b145a21b7bfd4ec6c97f9687f7edc"
+        }
+      ],
+      "manual_override": false,
+      "word_identity_certified": false
+    }
+  ],
+  "master_sha256": "792a2bd8f8dc1c8e781a82ba4eda74862edbe85813ca4043f3f60e976b552281",
+  "internal_word_completeness": "CTC provisional; line-to-audio mapping is recorded separately from word identity."
+}

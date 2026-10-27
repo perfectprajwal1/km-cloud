@@ -1,0 +1,55 @@
+{
+  "master_sha256": "b39ecb893d325b7d97883a5814d32f29bc6b6e9cd625ebb2560bac32088e738a",
+  "cuts_sec": [
+    11.490958333333333,
+    23.141916666666667
+  ],
+  "cards": [
+    {
+      "card": 1,
+      "expected_text": "विगतमा कोषको खर्च र पारदर्शिताबारे प्रश्न उठ्दै आएकाले बढ्दो मौज्दातसँगै हिसाबकिताब सार्वजनिक गर्नुपर्ने माग पनि उठ्ने गरेको छ।",
+      "master_start_sec": 0.0,
+      "master_end_sec": 11.491,
+      "duration_sec": 11.491,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 2,
+      "expected_text": "बाढीपहिरो र दुर्घटनाका घटना नरोकिँदा कोषको मौज्दात बढ्दै गएको छ; यो रकम प्रभावितलाई कति छिटो र कसरी पुग्छ भन्ने नै मुख्य कुरा हो।",
+      "master_start_sec": 11.491,
+      "master_end_sec": 23.142,
+      "duration_sec": 11.651,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    },
+    {
+      "card": 3,
+      "expected_text": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई? कमेन्टमा भन्नुस्।",
+      "master_start_sec": 23.142,
+      "master_end_sec": 30.993,
+      "duration_sec": 7.851,
+      "script_adjacent_repeats": [],
+      "spoken_text_verified": false,
+      "spoken_repeat_check": "NOT VERIFIED. Listen for repeats, especially बैठकले. Waveform cannot reliably identify words.",
+      "soft_fallback": false,
+      "sample_preserving": true,
+      "boundary_in_silence": true,
+      "quality_notes": []
+    }
+  ],
+  "soft_fallback": false,
+  "sample_preserving": true,
+  "fallback_note": "",
+  "check_result": "Known line-to-audio cuts used; source samples preserved. Spoken word identity remains unverified."
+}

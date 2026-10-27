@@ -1,0 +1,616 @@
+{
+ "id": "RV_20261027_1ynpfs",
+ "sample": false,
+ "voice": "ne-NP-SagarNeural",
+ "rate": "+6%",
+ "pitch": "-2Hz",
+ "source_spoken": "",
+ "comment_prompt": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई?",
+ "pinned_comment": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई?",
+ "cards": [
+  {
+   "type": "hook",
+   "headline": "{{१८ अर्ब नाघ्यो}}",
+   "sub": "राहत कोषमा मौज्दात",
+   "km_default": true,
+   "vo": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात १८ अर्ब रुपैयाँ नाघेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_01_8d14ff.png",
+    "anim": {
+     "kind": "stat",
+     "stat": {
+      "prefix": "",
+      "num": 18.0,
+      "numText": "१८",
+      "unit": "अर्ब रुपैयाँ",
+      "decimals": 0,
+      "comma": false,
+      "percent": null,
+      "label": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात १८ अर्ब रुपैयाँ नाघेको छ",
+      "at": 0.386
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "num": 210,
+      "label": 44
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "scale",
+   "number": "१८ अर्ब ९ करोड ३२ लाख",
+   "headline": "{{१८ अर्ब ९ करोड ३२ लाख}}",
+   "sub": "सोमबार बिहानसम्म",
+   "km_default": true,
+   "vo": "प्रधानमन्त्री तथा मन्त्रिपरिषद् कार्यालयका अनुसार सोमबार बिहान ९ बजेसम्म दुवै कोषको खातामा १८ अर्ब ९ करोड ३२ लाख ३६ हजार ८५२ रुपैयाँ मौज्दात रहेको हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_02_884f3b.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "प्रधानमन्त्री",
+        "key": false,
+        "at": 0.06
+       },
+       {
+        "t": "तथा",
+        "key": false,
+        "at": 0.11
+       },
+       {
+        "t": "मन्त्रिपरिषद्",
+        "key": false,
+        "at": 0.145
+       },
+       {
+        "t": "कार्यालयका",
+        "key": true,
+        "at": 0.18
+       },
+       {
+        "t": "अनुसार",
+        "key": false,
+        "at": 0.215
+       },
+       {
+        "t": "सोमबार",
+        "key": false,
+        "at": 0.25
+       }
+      ],
+      "icon": "building",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 82
+     },
+     "icons": {
+      "building": "<path pathLength=\"1\" d=\"M4 21V5h10v16\"/><path pathLength=\"1\" d=\"M14 10h6v11\"/><path pathLength=\"1\" d=\"M7 9h4M7 13h4M7 17h4\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "भोटेकोशीपछि सहयोग जारी",
+   "points": [
+    "रसुवाको भोटेकोशी बाढीपछि दुवै कोषमा आर्थिक सहयोग जुट्ने"
+   ],
+   "km_default": true,
+   "vo": "रसुवाको भोटेकोशी बाढीपछि दुवै कोषमा आर्थिक सहयोग जुट्ने क्रम अझै जारी रहेको कार्यालयले जनाएको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_03_8c8b81.png",
+    "anim": {
+     "kind": "place",
+     "place": {
+      "places": [
+       {
+        "ne": "रसुवा",
+        "sub": "",
+        "focus": true,
+        "at": 0.05
+       }
+      ]
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "p0": 116
+     },
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "value": 48.0,
+   "unit": "करोड",
+   "prefix": "",
+   "decimals": 0,
+   "label": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा १३ अर्ब ४८ करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ",
+   "sub": "",
+   "type": "bignum",
+   "vo": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा १३ अर्ब ४८ करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_04_4b74d5.png",
+    "anim": {
+     "kind": "incident",
+     "incident": {
+      "headline": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य",
+      "at": 0.05,
+      "state": "रहेको छ"
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "पारदर्शिताको माग",
+   "points": [
+    "विगतमा कोषको खर्च र पारदर्शिताबारे प्रश्न उठ्दै आएकाले"
+   ],
+   "km_default": true,
+   "vo": "विगतमा कोषको खर्च र पारदर्शिताबारे प्रश्न उठ्दै आएकाले बढ्दो मौज्दातसँगै हिसाबकिताब सार्वजनिक गर्नुपर्ने माग पनि उठ्ने गरेको छ।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_05_02d7bb.png",
+    "anim": {
+     "kind": "evidence",
+     "evidence": {
+      "parts": [
+       {
+        "t": "विगतमा कोषको खर्च र "
+       },
+       {
+        "t": "पारदर्शिताबारे",
+        "hl": true,
+        "at": 0.176
+       },
+       {
+        "t": " प्रश्न उठ्दै आएकाले बढ्दो मौज्दातसँगै हिसाबकिताब सार्वजनिक गर्नुपर्ने माग पनि उठ्ने गरेको छ।"
+       }
+      ],
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {},
+     "icons": {
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "points",
+   "title": "प्रभावितसम्म कति पुग्छ?",
+   "points": [
+    "बाढीपहिरो र दुर्घटनाका घटना नरोकिँदा कोषको मौज्दात बढ्दै"
+   ],
+   "km_default": true,
+   "vo": "बाढीपहिरो र दुर्घटनाका घटना नरोकिँदा कोषको मौज्दात बढ्दै गएको छ; यो रकम प्रभावितलाई कति छिटो र कसरी पुग्छ भन्ने नै मुख्य कुरा हो।",
+   "dark": true,
+   "voice_tone": "neutral_talking",
+   "strip": {
+    "kind": "graphic",
+    "label": "",
+    "src": "../public/strips/RV_20261027_1ynpfs_06_93ceef.png",
+    "anim": {
+     "kind": "phrase",
+     "phrase": {
+      "words": [
+       {
+        "t": "प्रभावितसम्म",
+        "key": true,
+        "at": 0.06
+       },
+       {
+        "t": "कति",
+        "key": false,
+        "at": 0.412
+       },
+       {
+        "t": "पुग्छ?",
+        "key": false,
+        "at": 0.479
+       }
+      ],
+      "icon": "water",
+      "at": 0.06
+     },
+     "v": 3,
+     "dark": true,
+     "fit": {
+      "ph": 100
+     },
+     "icons": {
+      "water": "<path pathLength=\"1\" d=\"M12 3s6 6.5 6 11a6 6 0 01-12 0c0-4.5 6-11 6-11z\"/><path pathLength=\"1\" d=\"M9 15a3 3 0 003 3\"/>",
+      "star": "<path pathLength=\"1\" d=\"M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.2 6.5 20.2l1-6.2L3 9.6l6.2-.9z\"/>"
+     }
+    }
+   }
+  },
+  {
+   "type": "engage",
+   "dark": true,
+   "question": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई?",
+   "cta": "कमेन्टमा भन्नुस्",
+   "key": "",
+   "vo": "राहत कोषमा जम्मा भएको यो रकम कसरी खर्च हुनुपर्छ जस्तो लाग्छ तपाईंलाई? कमेन्टमा भन्नुस्।",
+   "voice_tone": "curious",
+   "sfx": {
+    "land": "Message.mp3",
+    "cta": "Click.mp3"
+   },
+   "strip": {
+    "kind": "none"
+   }
+  }
+ ],
+ "selection": {
+  "extractor_revision": "festival-time-venue-2+default-pool-1+decimal-1",
+  "version": "1.0",
+  "content_hash": "955cb8e86a58b5cc59cdd6f1f660528f2694af7aae569439122e1660918bafcf",
+  "plan_hash": "dd1284e2c8f09a9822a48c5477e8185c7462f337772bcd4885a5b03fd90c960c",
+  "selected": [
+   "main:hook",
+   "strip:stat",
+   "main:scale",
+   "strip:phrase",
+   "main:points_plain",
+   "strip:place",
+   "main:bignum",
+   "strip:incident",
+   "main:points_plain",
+   "strip:evidence",
+   "main:points_plain",
+   "strip:phrase",
+   "main:engage"
+  ],
+  "eligible": [
+   "main:bignum",
+   "main:engage",
+   "main:hook",
+   "main:points_plain",
+   "main:scale",
+   "strip:evidence",
+   "strip:incident",
+   "strip:phrase",
+   "strip:place",
+   "strip:stat"
+  ],
+  "lines": [
+   {
+    "line": 1,
+    "selected_main": "hook",
+    "selected_strip": "stat",
+    "score": 184.041,
+    "reason": [
+     "converter default card",
+     "narrated quantity"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:hook",
+     "strip:evidence",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": [
+      {
+       "field": "value",
+       "text": "१८ अर्ब रुपैयाँ",
+       "start": 78,
+       "end": 93
+      },
+      {
+       "field": "label",
+       "text": "प्रधानमन्त्री राहत कोष र प्रधानमन्त्री दैवी प्रकोप उद्धार कोषमा जम्मा मौज्दात १८ अर्ब रुपैयाँ नाघेको छ",
+       "start": 0,
+       "end": 102
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 2,
+    "selected_main": "scale",
+    "selected_strip": "phrase",
+    "score": 145.893,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": true,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 3,
+    "selected_main": "points_plain",
+    "selected_strip": "place",
+    "score": 129.44,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:place"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 4,
+    "selected_main": "bignum",
+    "selected_strip": "incident",
+    "score": 182.023,
+    "reason": [
+     "narrated quantity with exact unit",
+     "explicit incident relation"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:bignum",
+     "main:points_plain",
+     "main:scale",
+     "strip:evidence",
+     "strip:incident",
+     "strip:phrase",
+     "strip:stat"
+    ],
+    "evidence": {
+     "main": [
+      {
+       "field": "label",
+       "text": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य बैङ्कका खातामा १३ अर्ब ४८ करोडभन्दा बढी रुपैयाँ र केही अमेरिकी डलरमा रहेको छ",
+       "start": 0,
+       "end": 120
+      }
+     ],
+     "strip": [
+      {
+       "field": "headline",
+       "text": "दैवी प्रकोप उद्धार कोषको रकम नौ वटा वाणिज्य",
+       "start": 0,
+       "end": 43
+      },
+      {
+       "field": "state",
+       "text": "रहेको छ",
+       "start": 113,
+       "end": 120
+      }
+     ]
+    },
+    "rejected": [],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "main:points_plain": "fit/repetition/rarity: another legal pair scored higher",
+     "main:scale": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:phrase": "fit/repetition/rarity: another legal pair scored higher",
+     "strip:stat": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 5,
+    "selected_main": "points_plain",
+    "selected_strip": "evidence",
+    "score": 105.149,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {}
+   },
+   {
+    "line": 6,
+    "selected_main": "points_plain",
+    "selected_strip": "phrase",
+    "score": 97.182,
+    "reason": [
+     "converter default card",
+     "converter default strip"
+    ],
+    "penalties": [
+     "adjacent repetition"
+    ],
+    "eligible": [
+     "main:points_plain",
+     "strip:evidence",
+     "strip:phrase"
+    ],
+    "evidence": {
+     "main": [],
+     "strip": []
+    },
+    "rejected": [
+     {
+      "design": "main:points_plain",
+      "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+     }
+    ],
+    "extraction_signals": {
+     "clock_markers": false,
+     "named_period_markers": false,
+     "venue_markers": false,
+     "shared_role_markers": false
+    },
+    "missed_reasons": {
+     "strip:evidence": "fit/repetition/rarity: another legal pair scored higher"
+    }
+   },
+   {
+    "line": 7,
+    "selected_main": "engage",
+    "selected_strip": "none",
+    "reason": "original engagement wording preserved",
+    "eligible": [
+     "main:engage"
+    ],
+    "evidence": []
+   }
+  ],
+  "extractor_failures": [
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   },
+   {
+    "design": "main:points_plain",
+    "reason": "extractor limitation or no supported structure: inspect extraction_signals; no rich main candidate selected"
+   }
+  ],
+  "status": "planned",
+  "not_eligible": {
+   "main:versus": "source structure absent or extractor could not prove required meaning",
+   "main:date": "source structure absent or extractor could not prove required meaning",
+   "main:group": "source structure absent or extractor could not prove required meaning",
+   "main:place": "source structure absent or extractor could not prove required meaning",
+   "main:quote": "source structure absent or extractor could not prove required meaning",
+   "main:points": "source structure absent or extractor could not prove required meaning",
+   "main:change": "source structure absent or extractor could not prove required meaning",
+   "main:next": "source structure absent or extractor could not prove required meaning",
+   "strip:concept": "source structure absent or extractor could not prove required meaning",
+   "strip:calendar": "source structure absent or extractor could not prove required meaning",
+   "strip:track": "source structure absent or extractor could not prove required meaning",
+   "strip:units": "source structure absent or extractor could not prove required meaning",
+   "strip:waffle": "source structure absent or extractor could not prove required meaning",
+   "strip:chain": "source structure absent or extractor could not prove required meaning",
+   "strip:who": "source structure absent or extractor could not prove required meaning",
+   "strip:voiceprint": "source structure absent or extractor could not prove required meaning",
+   "strip:compare": "source structure absent or extractor could not prove required meaning",
+   "strip:roster": "source structure absent or extractor could not prove required meaning",
+   "strip:schedule": "source structure absent or extractor could not prove required meaning",
+   "strip:rule": "source structure absent or extractor could not prove required meaning",
+   "strip:result": "source structure absent or extractor could not prove required meaning",
+   "strip:money": "source structure absent or extractor could not prove required meaning",
+   "strip:contrast": "source structure absent or extractor could not prove required meaning",
+   "strip:movement": "source structure absent or extractor could not prove required meaning",
+   "strip:lawstage": "source structure absent or extractor could not prove required meaning",
+   "strip:verdict": "source structure absent or extractor could not prove required meaning",
+   "strip:hook": "source structure absent or extractor could not prove required meaning",
+   "strip:quote": "source structure absent or extractor could not prove required meaning"
+  },
+  "render_seal": "9eff6c681629236d9f2f63db6d690714a906a860cfd7b8922538ffd7ef9a55a3"
+ }
+}
