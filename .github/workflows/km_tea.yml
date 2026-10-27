@@ -1,0 +1,51 @@
+# Tea-shop reel TEST workflow. Manual only. Makes ONE reel from tea_inbox/<ID>/script.txt, uploads it as an Actions artifact.
+# Does NOT post, does NOT write to Drive, does NOT commit, does NOT touch the KM reel workflow or the Sheet.
+name: KM tea test
+
+on:
+  workflow_dispatch:
+    inputs:
+      story_id:
+        description: "Folder name under tea_inbox, e.g. RV_20261027_1ynpfs"
+        required: true
+        default: "RV_20261027_1ynpfs"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: km-tea
+  cancel-in-progress: false
+
+jobs:
+  tea:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      STORY: ${{ github.event.inputs.story_id }}
+    steps:
+      - name: Check input
+        run: |
+          case "$STORY" in *[!A-Za-z0-9_-]*|"") echo "Bad story id"; exit 1;; esac
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ffmpeg and Nepali font
+        run: |
+          sudo apt-get update -y >/dev/null 2>&1
+          sudo apt-get install -y ffmpeg fonts-noto-core >/dev/null 2>&1 || echo "apt problem"
+          ffmpeg -version | head -1
+          ls /usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf
+          pip install --no-input pillow >/dev/null
+      - name: Make the reel (one Gemini call)
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: |
+          test -f "tea_inbox/$STORY/script.txt" || { echo "No tea_inbox/$STORY/script.txt in the repo"; exit 1; }
+          python tea_reel.py "tea_inbox/$STORY/script.txt" 2>&1 | sed "s/$GEMINI_KEY/***/g"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tea-reel-${{ github.event.inputs.story_id }}
+          path: out/
+          retention-days: 3
