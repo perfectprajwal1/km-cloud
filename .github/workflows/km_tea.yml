@@ -32,9 +32,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: ffmpeg and Nepali font
+        timeout-minutes: 8
         run: |
-          sudo apt-get update -y >/dev/null 2>&1
-          sudo apt-get install -y ffmpeg fonts-noto-core >/dev/null 2>&1 || echo "apt problem"
+          if ! command -v ffmpeg >/dev/null 2>&1 || [ ! -f /usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf ]; then
+            for i in 1 2 3; do
+              timeout 90 sudo apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=20 update -y >/dev/null 2>&1 || echo "apt update try $i failed"
+              timeout 180 sudo apt-get -o Acquire::http::Timeout=20 install -y ffmpeg fonts-noto-core >/dev/null 2>&1 && break || echo "apt install try $i failed"
+            done
+          fi
           ffmpeg -version | head -1
           ls /usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf
           pip install --no-input pillow >/dev/null
@@ -43,7 +48,7 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: |
           test -f "tea_inbox/$STORY/script.txt" || { echo "No tea_inbox/$STORY/script.txt in the repo"; exit 1; }
-          python tea_reel.py "tea_inbox/$STORY/script.txt" 2>&1 | sed "s/$GEMINI_KEY/***/g"
+          python tea_reel.py "tea_inbox/$STORY/script.txt"
       - uses: actions/upload-artifact@v4
         with:
           name: tea-reel-${{ github.event.inputs.story_id }}
