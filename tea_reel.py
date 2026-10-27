@@ -91,7 +91,34 @@ def chunks(t, maxc=36):
     for w in t.split(' '):
         if len((c + ' ' + w).strip()) > maxc and c: out.append(c); c = w
         else: c = (c + ' ' + w).strip()
-    out.append(c); return out
+        if c.endswith((',', '।', '?', '!')) and len(c) >= 12: out.append(c); c = ''
+    if c: out.append(c)
+    return out
+def speech_gaps(wav):
+    o = sp.run(['ffmpeg', '-v', 'info', '-i', wav, '-af', 'silencedetect=noise=-35dB:d=0.10', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    st = [float(x) for x in re.findall(r'silence_start: ([0-9.]+)', o)]; en = [float(x) for x in re.findall(r'silence_end: ([0-9.]+)', o)]
+    return [(a, b) for a, b in zip(st, en) if b > a]
+def chunk_times(cs, a, b, gaps):
+    # speech-only timeline of this line: letters are spread over the time the voice is really speaking, then snapped to real pauses
+    g = [(max(x, a), min(y, b)) for x, y in gaps if y > a and x < b and min(y, b) > max(x, a)]
+    segs = []; p = a
+    for x, y in sorted(g):
+        if x > p: segs.append((p, x))
+        p = max(p, y)
+    if p < b: segs.append((p, b))
+    S = sum(e - s_ for s_, e in segs) or (b - a)
+    def at(sec):
+        for s_, e in segs:
+            if sec <= e - s_: return s_ + sec
+            sec -= e - s_
+        return b
+    tot = sum(len(c) for c in cs); cum = 0; starts = [a]
+    for c in cs[:-1]:
+        cum += len(c); t = at(S * cum / tot)
+        near = [(abs((x + y) / 2 - t), (x + y) / 2) for x, y in g if abs((x + y) / 2 - t) <= 0.6]
+        starts.append(min(near)[1] if near else t)
+    starts = sorted(starts); starts[0] = a
+    return starts + [b]
 def cap_png(name, t):
     im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im); sz = 50; f = F(sz)
     while d.textlength(t, font=f) > 940 and sz > 30: sz -= 2; f = F(sz)
@@ -137,7 +164,7 @@ def main():
     if not os.environ.get('TEA_AUDIO'): tts(lines, wav)
     total = dur(wav)
     if total < 8 or total > 75: fail('voice length %.1fs looks wrong' % total)
-    BD, notes = boundaries(wav, lines)
+    BD, notes = boundaries(wav, lines); GAPS = speech_gaps(wav)
     Dn = [BD[i + 1] - BD[i] for i in range(n)]
     H0 = 0.3; OPEN = 1.5
     Wd, Yg, Ob, T2 = [os.path.join(A, x) for x in ('wide.mp4', 'young.mp4', 'uncle.mp4', 'two.mp4')]
@@ -186,11 +213,10 @@ def main():
     open('l.txt', 'w').write(''.join(f'file {s}\n' for s in segs)); run('-f', 'concat', '-i', 'l.txt', '-c', 'copy', 'base.mp4')
     ov = []; k = 0
     for i, (s_, t) in enumerate(lines):
-        cs = chunks(t); tot = sum(len(c) for c in cs); a = H0 + BD[i]
-        for c in cs:
-            e = a + Dn[i] * len(c) / tot; nm = f'cap{k}.png'; k += 1; cap_png(nm, c)
+        cs = chunks(t); tm = chunk_times(cs, BD[i], BD[i + 1], GAPS)
+        for ci, c in enumerate(cs):
+            a = H0 + tm[ci]; e = H0 + tm[ci + 1]; nm = f'cap{k}.png'; k += 1; cap_png(nm, c)
             if i < n - 1: ov.append((nm, a, e))   # last line shows as the question card instead
-            a = e
     headline_png('hl.png', D['headline']); ov.append(('hl.png', 0.0, OPEN))
     for li, (lab, val, sub) in D['cards'].items():
         if 0 <= li < n - 1:
