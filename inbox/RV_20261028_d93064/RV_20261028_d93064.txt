@@ -1,0 +1,43 @@
+STYLE: tea
+ID: RV_20261028_d93064
+HEADLINE: तिहारमा उपत्यकामा करिब बावन्न लाख फूलमाला चाहिने अनुमान
+Y: काका, यसपालि तिहारमा काठमाडौं उपत्यकामा करिब बावन्न लाख फूलमाला चाहिने अनुमान रहेछ।
+U: फ्लोरिकल्चर एसोसिएसनका अनुसार सयपत्रीका मात्रै पैँतालीस लाख माला खपत हुने अनुमान छ।
+Y: मखमलीका छ लाख माला खपत हुने अनुमान पनि छ।
+U: गोदावरीका बीस हजार र विभिन्न फूल मिसाएका साठी हजार माला चाहिने अनुमान छ।
+Y: मालाको मात्रै करिब अड्चालीस करोड रुपैयाँको कारोबार हुने एसोसिएसनको अपेक्षा छ।
+U: यी अनुमान हुन्, तिहारको वास्तविक बिक्रीको हिसाब होइन।
+Y: तिहारमा तपाईं कुन फूलको माला रोज्नुहुन्छ? कमेन्टमा भन्नुहोस्।
+CARD 1: उपत्यकामा तिहारको अनुमान | करिब ५२ लाख माला | फ्लोरिकल्चर एसोसिएसन नेपाल
+CARD 2: सयपत्रीका माला | ४५ लाख | अनुमानित खपत
+CARD 3: मखमलीका माला | ६ लाख | अनुमानित खपत
+CARD 5: मालाको कारोबार | करिब रु. ४८ करोड | एसोसिएसनको अनुमान
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "तिहारमा उपत्यकामा करिब बावन्न लाख फूलमाला चाहिने अनुमान",
+  "youtube_description": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन।",
+  "youtube_tags": [
+    "तिहार",
+    "फूलमाला",
+    "नेपाल समाचार"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Tihar",
+    "#Flowers",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन। #NepalNews #Tihar #Flowers #khabarminutenepal",
+  "instagram_caption": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन। #NepalNews #Tihar #Flowers #khabarminutenepal",
+  "facebook_post": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन। #NepalNews #Tihar #Flowers #khabarminutenepal",
+  "threads_post": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन। #NepalNews #Tihar #Flowers #khabarminutenepal",
+  "linkedin_post": "फ्लोरिकल्चर एसोसिएसन नेपालको अनुमानअनुसार तिहारमा काठमाडौं उपत्यकामा करिब ५२ लाख फूलमाला खपत र मालाको करिब ४८ करोड रुपैयाँको कारोबार हुने अपेक्षा छ। यो पूर्वानुमान हो, वास्तविक बिक्री होइन। #NepalNews #Tihar #Flowers #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Two independent publishers checked: Kantipur (Seema Tamang) and Khabarhub, both Oct 27, reporting the same Floriculture Association Nepal briefing. Shared underlying association forecast, not two independent datasets. All dialogue figures match both: Kathmandu Valley ~52 lakh garlands; marigold 45 lakh, globe amaranth 6 lakh, chrysanthemum 20,000, mixed 60,000; garlands-only turnover ~Rs 48 crore. Exact component sum is 51.8 lakh, rounded to about 52 lakh. Excluded conflicting domestic-share estimates and total plants/pots turnover. Forecast, not completed sales. No approval; AB stays blank. No Gemini calls; N8N NOT RUN.
+
+--- FACT-CHECK SOURCES ---
+https://ekantipur.com/business/2026/10/27/52-million-garlands-to-be-consumed-during-tihar-turnover-estimated-at-rs-645-million-08-58.html
+https://khabarhub.com/2026/27/1040732/
