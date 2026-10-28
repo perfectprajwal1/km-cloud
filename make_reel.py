@@ -142,11 +142,16 @@ def pending_ids(limit=5):
 
 def process_stories(ids,recover=False):
     """Try every selected approved story; one failure never exits the batch loop."""
-    prepared=[];failed=[]
+    prepared=[];failed=[];tea={}
     for rid in ids:
         print('SELECTED ONLY: '+rid,flush=True)
         try:
-            if ensure_layout(rid,always=True):prepared.append(rid)
+            from scripts import km_tea
+            tea_path=km_tea.package_path(rid)
+            if tea_path:
+                tea[rid]=km_tea.prepare(rid,tea_path)
+                prepared.append(rid)
+            elif ensure_layout(rid,always=True):prepared.append(rid)
             else:failed.append(rid)
         except Exception as e:
             failed.append(rid)
@@ -161,7 +166,10 @@ def process_stories(ids,recover=False):
             print('NOTE: reusable artifact lookup failed softly ('+type(e).__name__+'); rendering any missing mp4.',flush=True)
     for rid in prepared:
         try:
-            code=voice_and_render(rid,recover=recover)
+            if rid in tea:
+                code=km_tea.render(rid,tea[rid])
+            else:
+                code=voice_and_render(rid,recover=recover)
             if code:
                 failed.append(rid)
                 print('STORY FAILED (continuing queue): '+rid+' | pipeline exit '+str(code),flush=True)
