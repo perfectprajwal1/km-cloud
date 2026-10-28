@@ -42,7 +42,14 @@ jobs:
           fi
           ffmpeg -version | head -1
           ls /usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf
-          pip install --no-input pillow >/dev/null
+          pip install --no-input pillow numpy onnxruntime >/dev/null
+      - name: Pinned free local speech alignment model
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download models-v1 --pattern 'km_nepali_ctc.zip' --dir /tmp
+          mkdir -p models
+          unzip -q /tmp/km_nepali_ctc.zip -d models
       - name: Make the reel (one Gemini call)
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
