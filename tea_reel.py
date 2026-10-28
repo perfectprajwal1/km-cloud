@@ -463,7 +463,11 @@ def main():
     Wd, Yg, Ob, T2 = [os.path.join(A, x) for x in ('wide.mp4', 'young.mp4', 'uncle.mp4', 'two.mp4')]
     TM = os.path.join(A, 'teamaker.mp4')
     OB = Ob; OBMAX = dur(Ob) - 0.05  # forward only, never reversed or looped
-    CR = lambda x: f"[0:v]crop=405:720:{x}:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.8,fps=24,format=yuv420p,tpad=stop_mode=clone:stop_duration=75[v]"
+    GRADE = "eq=contrast=1.03:saturation=1.05:brightness=0.004,colorbalance=rs=0.02:gs=0.005:bs=-0.02"
+    # Gentle restrained push-in on talking shots: 4x upscale then zoompan (~2%/s, cap 6%), centre anchored.
+    CR = lambda x: (f"[0:v]crop=405:720:{x}:0,scale=1620:2880:flags=lanczos,"
+                    f"zoompan=z='min(1+0.0008*on,1.06)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=24,"
+                    f"{GRADE},unsharp=5:5:0.8,fps=24,format=yuv420p,tpad=stop_mode=clone:stop_duration=75[v]")
     # Fix 10-27 9:20PM: during uncle lines never cut to the over-the-shoulder clip (young man's mouth moves, looked out of sync); cut to the wide.
     # Shot rules (Luna, 10-27): first young line wide; later young lines alternate his face close-up and the over-the-shoulder shot;
     # uncle line = his close-up (forward only, short), long ones cut to the two-shot or wide and back; a second uncle line in a row
@@ -530,7 +534,7 @@ def main():
     segs = []
     for k, (src, ss, d_, x, loop) in enumerate(plan):
         nm = f'g{k}.mp4'
-        run(*(['-stream_loop', '3'] if loop else []), '-ss', str(ss), '-i', src, '-t', f'{max(d_, 1 / 24):.3f}', '-filter_complex', ("[0:v]crop=480:720:710:0,scale=1080:1620:flags=lanczos,pad=1080:1920:0:150:color=0xf2d39b,setsar=1,unsharp=5:5:0.6,fps=24,format=yuv420p,tpad=stop_mode=clone:stop_duration=75[v]" if k == len(plan) - 1 else CR(x)), '-map', '[v]', '-an', '-preset', 'veryfast', '-crf', '20', nm)
+        run(*(['-stream_loop', '3'] if loop else []), '-ss', str(ss), '-i', src, '-t', f'{max(d_, 1 / 24):.3f}', '-filter_complex', ("[0:v]crop=480:720:710:0,scale=1080:1620:flags=lanczos," + GRADE + ",pad=1080:1920:0:150:color=0xf2d39b,setsar=1,unsharp=5:5:0.6,fps=24,format=yuv420p,tpad=stop_mode=clone:stop_duration=75[v]" if k == len(plan) - 1 else CR(x)), '-map', '[v]', '-an', '-preset', 'veryfast', '-crf', '20', nm)
         segs.append(nm)
     final_wide_start = sum(dur(segment) for segment in segs[:-1])
     open('l.txt', 'w').write(''.join(f'file {s}\n' for s in segs)); run('-f', 'concat', '-i', 'l.txt', '-c', 'copy', 'base.mp4')
