@@ -203,59 +203,134 @@ def mix_morning_audio(voice, target, length):
 
 
 def audio_timing(wav, lines, cards):
-    """Audio-specific local CTC alignment. Never substitutes length-based guesses."""
-    import hashlib
+    """Best-effort local timing. Uncertainty never requests a new voice or stops rendering."""
+    import hashlib, math
     from pathlib import Path
     root = Path(__file__).resolve().parent
-    sys.path.insert(0, str(root / 'scripts'))
-    from km_ctc import Engine, normalize, spoken_form, letters, similarity
     identity = hashlib.sha256(Path(wav).read_bytes() + json.dumps(lines, ensure_ascii=False).encode()).hexdigest()
     cache = root / 'one_call_voice' / ('tea_alignment_' + identity)
-    engine = Engine(root / 'models' / 'km_nepali_ctc')
-    samples, rate, logits, greedy = engine.infer(wav, cache)
+    total = dur(wav)
+    warnings = []
+    # A monotonic, bounded fallback exists BEFORE importing or running the optional model.
+    try:
+        fallback, gap_notes = boundaries(wav, lines)
+    except Exception as exc:
+        weights = [max(1, len(text)) for _, text in lines]
+        fallback = [0.0]
+        for weight in weights: fallback.append(fallback[-1] + total * weight / sum(weights))
+        gap_notes = ['proportional'] * (len(lines) - 1)
+        warnings.append('Silence detection unavailable: ' + type(exc).__name__)
+    minimum = min(0.25, total / (2 * len(lines)))
+    for i in range(1, len(lines)):
+        fallback[i] = min(total - (len(lines) - i) * minimum,
+                          max(fallback[i - 1] + minimum, fallback[i]))
+    fallback[-1] = total
     words = []
+    try: gaps = speech_gaps(wav)
+    except Exception: gaps = []
     for i, (_, text) in enumerate(lines):
-        for word in text.split():
-            target = normalize(word, engine.vocab)
-            if not target: fail('tea alignment cannot certify Latin-only narration; no guessed timing')
-            words.append({'line': i, 'word': word, 'target': target})
-    segments, _ = engine.align(logits, len(samples) / rate, [w['target'] for w in words])
-    for word, segment in zip(words, segments):
-        word.update(start=float(segment[0]), end=float(segment[1]), score=float(segment[2]))
-    expected = ' '.join(spoken_form(text)[0] for _, text in lines)
-    match = similarity(expected, greedy)
-    if match < 0.65 or any(w['end'] <= w['start'] or w['score'] < -4 for w in words):
-        fail('tea acoustic alignment uncertain; original voice retained, no guessed render or automatic new voice')
+        tokens = text.split()
+        times = chunk_times(tokens, fallback[i], fallback[i + 1], gaps)
+        for j, word in enumerate(tokens):
+            words.append({'line': i, 'word': word, 'start': times[j], 'end': times[j + 1],
+                          'score': None, 'source': 'silence/length estimate'})
+    match = None
+    acoustic_count = 0
+    try:
+        sys.path.insert(0, str(root / 'scripts'))
+        from km_ctc import Engine, normalize, spoken_form, letters, similarity
+        engine = Engine(root / 'models' / 'km_nepali_ctc')
+        samples, rate, logits, greedy = engine.infer(wav, cache)
+        # Unsupported tokens do not prevent supported tokens from being aligned.
+        supported = [(j, normalize(w['word'], engine.vocab)) for j, w in enumerate(words)]
+        supported = [(j, token) for j, token in supported if token]
+        segments, _ = engine.align(logits, len(samples) / rate, [token for _, token in supported])
+        if len(segments) != len(supported): raise ValueError('alignment word count mismatch')
+        match = similarity(' '.join(spoken_form(text)[0] for _, text in lines), greedy)
+        anchors = []
+        previous_end = 0.0
+        for (j, _), segment in zip(supported, segments):
+            start, end, score = map(float, segment[:3])
+            words[j]['score'] = score if math.isfinite(score) else None
+            if (match >= 0.65 and all(math.isfinite(v) for v in (start, end, score))
+                    and 0 <= start < end <= total + 0.02 and start >= previous_end - 0.02 and score >= -4):
+                anchors.append((j, max(previous_end, start), min(end, total)))
+                previous_end = min(end, total)
+        # Fill only uncertain runs between reliable acoustic anchors. Original voice stays untouched.
+        left_index, left_end = -1, 0.0
+        for right_index, right_start, right_end in anchors + [(len(words), total, total)]:
+            missing = words[left_index + 1:right_index]
+            weight = sum(max(1, len(w['word'])) for w in missing)
+            cursor = left_end
+            for word in missing:
+                end = cursor + max(0.0, right_start - left_end) * max(1, len(word['word'])) / max(1, weight)
+                word.update(start=cursor, end=end, source='interpolated between acoustic anchors')
+                cursor = end
+            if right_index < len(words):
+                words[right_index].update(start=right_start, end=right_end, source='acoustic')
+            left_index, left_end = right_index, right_end
+        acoustic_count = len(anchors)
+        if not anchors:
+            # Low transcript similarity is NOT a license to trust forced word positions.
+            for word in words:
+                word['source'] = 'silence/length estimate'
+            # Restore the silence-aware timing instead of the interpolation above.
+            for i, (_, text) in enumerate(lines):
+                row = [w for w in words if w['line'] == i]
+                times = chunk_times(text.split(), fallback[i], fallback[i + 1], gaps)
+                for j, word in enumerate(row): word.update(start=times[j], end=times[j + 1])
+        if acoustic_count < len(words):
+            warnings.append('%d/%d words use estimated timing; transcript match %.3f; original voice retained' %
+                            (len(words) - acoustic_count, len(words), match))
+    except Exception as exc:
+        warnings.append('Local acoustic timing unavailable: %s; silence/length timing used; original voice retained' % type(exc).__name__)
     rows = [[w for w in words if w['line'] == i] for i in range(len(lines))]
-    total = len(samples) / rate
     edges = [0.0] + [(rows[i - 1][-1]['end'] + rows[i][0]['start']) / 2 for i in range(1, len(lines))] + [total]
+    for i in range(1, len(lines)):
+        edges[i] = min(total - (len(lines) - i) * minimum, max(edges[i - 1] + minimum, edges[i]))
     captions = []
     for i, (_, text) in enumerate(lines):
         cursor = 0; windows = []
         for chunk in chunks(text):
             count = len(chunk.split()); group = rows[i][cursor:cursor + count]
-            if len(group) != count: fail('caption alignment word count mismatch')
-            windows.append((chunk, group[0]['start'], group[-1]['end']))
+            start = max(edges[i], group[0]['start'] - 0.06)
+            end = min(edges[i + 1], group[-1]['end'] + 0.10)
+            if end > start: windows.append((chunk, start, end))
             cursor += count
+        # Do not overlap successive rolling captions after adding reading padding.
+        for j in range(len(windows) - 1):
+            chunk, start, end = windows[j]
+            windows[j] = (chunk, start, min(end, windows[j + 1][1]))
         captions.append(windows)
     card_starts = {}
     for i, (_, value, _) in cards.items():
         if not 0 <= i < len(lines) - 1: continue
+        start = max(edges[i], rows[i][0]['start'])
         number = re.search(r'[0-9०-९]+(?:[,\.][0-9०-९]+)*', value)
-        start = rows[i][0]['start']
         if number:
-            target = letters(spoken_form(number.group())[0])
-            targets = [letters(spoken_form(w['word'])[0]) for w in rows[i]]
-            joined = ''.join(targets); position = joined.find(target)
-            if position < 0: fail('card number not found in its spoken line; review script instead of guessing')
-            cursor = 0
-            for word, token in zip(rows[i], targets):
-                if cursor + len(token) > position: start = word['start']; break
-                cursor += len(token)
-        card_starts[i] = start
-    evidence = {'audio_sha256': hashlib.sha256(Path(wav).read_bytes()).hexdigest(), 'method': 'local CTC word alignment, not human listening', 'match': match, 'words': words, 'boundaries': edges, 'card_starts': card_starts}
-    cache.mkdir(parents=True, exist_ok=True)
-    (cache / 'tea_timing.json').write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding='utf-8')
+            try:
+                from km_ctc import spoken_form, letters
+                target = letters(spoken_form(number.group())[0])
+                targets = [letters(spoken_form(w['word'])[0]) for w in rows[i]]
+                position = ''.join(targets).find(target) if target else -1
+                if position < 0: raise ValueError('number spelling not matched')
+                cursor = 0
+                for word, token in zip(rows[i], targets):
+                    if cursor + len(token) > position: start = word['start']; break
+                    cursor += len(token)
+            except Exception:
+                warnings.append('Card %d number timing not matched; shown from its line start' % (i + 1))
+        card_starts[i] = min(max(edges[i], start), max(edges[i], edges[i + 1] - 0.2))
+    evidence = {'audio_sha256': hashlib.sha256(Path(wav).read_bytes()).hexdigest(),
+                'method': 'local acoustic anchors with soft silence/length fallback, not human listening',
+                'match': match, 'acoustic_words': acoustic_count, 'estimated_words': len(words) - acoustic_count,
+                'warnings': warnings, 'words': words, 'boundaries': edges, 'card_starts': card_starts}
+    for warning in warnings: print('TEA TIMING NOTE:', warning)
+    try:
+        cache.mkdir(parents=True, exist_ok=True)
+        (cache / 'tea_timing.json').write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding='utf-8')
+    except OSError:
+        print('TEA TIMING NOTE: optional alignment cache could not be saved')
     return edges, captions, card_starts, evidence
 
 def main():
@@ -268,7 +343,7 @@ def main():
     if not os.environ.get('TEA_AUDIO'): tts(lines, wav)
     total = dur(wav)
     if total < 8 or total > 75: fail('voice length %.1fs looks wrong' % total)
-    BD, CAPTIONS, CARD_STARTS, TIMING = audio_timing(wav, lines, D['cards']); notes = ['local CTC'] * (n - 1)
+    BD, CAPTIONS, CARD_STARTS, TIMING = audio_timing(wav, lines, D['cards']); notes = [TIMING['method']] * (n - 1)
     Dn = [BD[i + 1] - BD[i] for i in range(n)]
     H0 = 0.3; OPEN = 1.5
     Wd, Yg, Ob, T2 = [os.path.join(A, x) for x in ('wide.mp4', 'young.mp4', 'uncle.mp4', 'two.mp4')]
@@ -353,7 +428,7 @@ def main():
     d_out = dur(final)
     open(final.replace('.mp4', '_timing.json'), 'w', encoding='utf-8').write(json.dumps(TIMING, ensure_ascii=False, indent=2))
     rep = [f'id {rid}', f'lines {n}', f'voice seconds {total:.1f}', 'boundaries ' + ' '.join(f'{b:.2f}' for b in BD), 'boundary method ' + ','.join(notes),
-           f'outro {"yes" if OUTRO and os.path.exists(OUTRO) else "no (removed)"}', f'final seconds {d_out:.1f}', f'cards {sorted(D["cards"])}']
+           f'outro {"yes" if OUTRO and os.path.exists(OUTRO) else "no (removed)"}', f'final seconds {d_out:.1f}', f'cards {sorted(D["cards"])}'] + ['timing note ' + warning for warning in TIMING.get('warnings', [])]
     open(final.replace('.mp4', '_report.txt'), 'w').write('\n'.join(rep) + '\n'); print('\n'.join(rep)); print('TEA OK', final)
 
 if __name__ == '__main__': main()
