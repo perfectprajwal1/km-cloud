@@ -1,0 +1,38 @@
+STYLE: tea
+ID: RV_20261028_k7m2qx
+HEADLINE: बेलायत विद्यार्थी भिजा: ३० नोभेम्बरदेखि जीवनयापन खर्च धेरै देखाउनुपर्ने
+Y: काका, बेलायतमा विद्यार्थी भिजा लिन देखाउनुपर्ने जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै रहेछ।
+U: कति बढ्यो त?
+Y: लन्डनमा पढ्ने विद्यार्थीले मासिक एक हजार ५ सय २९ बाट एक हजार ५ सय ७० पाउण्ड देखाउनुपर्ने भएको छ।
+U: नौ महिनाको कोर्समा त १४ हजार १ सय ३० पाउण्डसम्म पुग्यो कि?
+Y: हो, अनि लन्डनबाहिर पढ्नेले पनि नौ महिनाका लागि १० हजार ५ सय ३९ बाट १० हजार ८ सय २७ पाउण्ड देखाउनुपर्ने हुन्छ।
+U: यो रकम कलेजको फी र भिसा शुल्कबाहेकको जीवनयापन खर्च हो है।
+Y: भारत, चीन, पाकिस्तान र नाइजेरियापछि नेपाल नै बेलायतमा विद्यार्थी पठाउने पाँचौँ ठूलो मुलुक हो। बढ्दो खर्चले बेलायत अध्ययनको योजनामा के फरक ल्याउँछ जस्तो लाग्छ तपाईंलाई? कमेन्टमा भन्नुहोस्।
+CARD 3: लन्डन, मासिक खर्च | £१,५७० | पहिले £१,५२९
+CARD 4: लन्डन, नौ महिना | £१४,१३० | पहिले £१३,७६१
+CARD 5: लन्डनबाहिर, नौ महिना | £१०,८२७ | पहिले £१०,५३९
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "बेलायत विद्यार्थी भिजा: ३० नोभेम्बरदेखि जीवनयापन खर्च धेरै देखाउनुपर्ने",
+  "youtube_description": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने।",
+  "tiktok_caption": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने। #NepalNews #UKVisa #StudyAbroad #khabarminutenepal",
+  "instagram_caption": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने। #NepalNews #UKVisa #StudyAbroad #khabarminutenepal",
+  "facebook_post": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने। #NepalNews #UKVisa #StudyAbroad #khabarminutenepal",
+  "threads_post": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने। #NepalNews #UKVisa #StudyAbroad #khabarminutenepal",
+  "linkedin_post": "बेलायतमा विद्यार्थी भिजाका लागि जीवनयापन खर्चको आर्थिक मापदण्ड ३० नोभेम्बरदेखि बढ्दै। लन्डनमा नौ महिनाका लागि १४,१३० पाउण्ड देखाउनुपर्ने। #NepalNews #UKVisa #StudyAbroad #khabarminutenepal",
+  "hashtags": [
+    "#NepalNews",
+    "#UKVisa",
+    "#StudyAbroad",
+    "#khabarminutenepal"
+  ]
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Tea-style package (pk-approved test row). Facts: UK Home Office statement of changes HC 584 (3 Sep 2026), ST8/ST9 effective 30 Nov 2026 - London GBP 1,529->1,570/month (9-month max GBP 13,761->14,130), outside London GBP 1,171->1,203/month (9-month max GBP 10,539->10,827); pre-change baselines match gov.uk student visa money page; Nepal 5th largest student source country per Onlinekhabar (Oct 28) expert source. Original n8n checker/schema validator NOT RUN; safe_to_publish=false. Not approved; approve cell blank.
+
+--- FACT-CHECK SOURCES ---
+UK Home Office, Statement of Changes HC 584 (3 Sep 2026): https://www.gov.uk/government/publications/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026/statement-of-changes-to-the-immigration-rules-hc-584-3-september-2026-accessible
+UK Home Office, gov.uk student visa money (current baselines): https://www.gov.uk/student-visa/money
+Onlinekhabar (own reporter): Oct 28, 2026. https://www.onlinekhabar.com/2026/10/2045367/financial-criteria-for-student-visas-in-the-uk-from-november-30-more-living-expenses-must-be-shown
