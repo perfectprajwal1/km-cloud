@@ -119,22 +119,55 @@ def chunk_times(cs, a, b, gaps):
         starts.append(min(near)[1] if near else t)
     starts = sorted(starts); starts[0] = a
     return starts + [b]
-def cap_png(name, t):
+def cap_png(name, t, y=420):
     im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im); sz = 50; f = F(sz)
-    while d.textlength(t, font=f) > 940 and sz > 30: sz -= 2; f = F(sz)
-    w = d.textlength(t, font=f) + 70; y = 1630
-    d.rounded_rectangle(((1080 - w) / 2, y, (1080 + w) / 2, y + 92), radius=28, fill=(15, 10, 8, 205))
-    d.text(((1080 - d.textlength(t, font=f)) / 2, y + 14), t, font=f, fill=(255, 255, 255, 255)); im.save(name)
+    while d.textlength(t, font=f) > 800 and sz > 30: sz -= 2; f = F(sz)
+    if d.textlength(t, font=f) > 800: fail('caption too wide for the mobile safe area')
+    w = d.textlength(t, font=f) + 70  # default captions sit above number cards
+    d.rounded_rectangle(((1000 - w) / 2, y, (1000 + w) / 2, y + 92), radius=28, fill=(15, 10, 8, 205))
+    d.text(((1000 - d.textlength(t, font=f)) / 2, y + 14), t, font=f, fill=(255, 255, 255, 255)); im.save(name)
 def card_png(name, label, value, sub):
+    # Flat tea-house poster: terracotta, warm paper and a simple cup mark.
+    def currency_text(text):
+        text = re.sub(r'£\s*([0-9०-९][0-9०-९,.]*)', r'\1 पाउण्ड', text)
+        return text.replace('£', 'पाउण्ड')
+    label, value, sub = [currency_text(text) for text in (label, value, sub)]
     im = Image.new('RGB', (1080, 1920), (54, 38, 28)); d = ImageDraw.Draw(im)
-    d.rounded_rectangle((70, 560, 1010, 1360), radius=50, fill=(255, 244, 222), outline=(190, 60, 30), width=10)
-    f1 = F(58); w = d.textlength(label, font=f1); d.text(((1080 - w) / 2, 620), label, font=f1, fill=(90, 60, 40))
-    s = 96; f2 = F(s); ls = wrap(d, value, f2, 820)
-    while len(ls) > 3: s -= 6; f2 = F(s); ls = wrap(d, value, f2, 820)
-    y = 760
-    for l in ls:
-        w = d.textlength(l, font=f2); d.text(((1080 - w) / 2, y), l, font=f2, fill=(190, 45, 25)); y += s + 26
-    f3 = F(50); w = d.textlength(sub, font=f3); d.text(((1080 - w) / 2, 1250), sub, font=f3, fill=(90, 60, 40)); im.save(name)
+    ink = (67, 39, 28); red = (168, 57, 35); paper = (255, 243, 216)
+    d.rounded_rectangle((68, 552, 948, 1360), radius=36, fill=(28, 21, 18))
+    d.rounded_rectangle((54, 538, 934, 1346), radius=36, fill=paper)
+    d.rounded_rectangle((54, 538, 934, 666), radius=36, fill=red)
+    d.rectangle((54, 604, 934, 666), fill=red)
+    d.text((88, 570), 'खबर मिनेट', font=F(48), fill=paper)
+    # Drawn cup icon, not an emoji or a photographed object.
+    d.arc((830, 576, 883, 624), 250, 100, fill=paper, width=5)
+    d.rounded_rectangle((792, 577, 849, 628), radius=10, outline=paper, width=5)
+    d.line((783, 637, 865, 637), fill=paper, width=5)
+    for x in (802, 820, 838): d.line((x, 550, x - 4, 566), fill=paper, width=3)
+    def text_rows(text, size, width, max_rows):
+        for sz in range(size, 27, -2):
+            font = F(sz); rows = wrap(d, text, font, width)
+            if len(rows) <= max_rows and all(d.textlength(row, font=font) <= width for row in rows): return font, rows, sz
+        fail('card copy too long for the mobile safe area')
+    fl, labels, sl = text_rows(label, 48, 780, 2)
+    y = 705
+    for row in labels:
+        d.text((92, y), row, font=fl, fill=ink); y += sl + 12
+    # Keep units separate so the actual number remains large and legible.
+    unit = 'पाउण्ड' if value.endswith(' पाउण्ड') else '%' if value.endswith('%') else ''
+    main_value = value[:-len(unit)].strip() if unit else value
+    fv, values, sv = text_rows(main_value, 154 if unit else 124, 780, 2)
+    block_h = (sv + 20) * len(values) + (62 if unit else 0)
+    y = max(844, 1035 - block_h // 2)
+    for row in values:
+        d.text((92, y), row, font=fv, fill=red); y += sv + 20
+    if unit: d.text((96, y - 4), unit, font=F(46), fill=ink)
+    d.line((92, 1185, 894, 1185), fill=(205, 178, 145), width=3)
+    fs, subs, ss = text_rows(sub, 40, 780, 2)
+    y = 1210
+    for row in subs:
+        d.text((92, y), row, font=fs, fill=ink); y += ss + 10
+    im.save(name)
 def headline_png(name, t):
     im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im); fh = F(72)
     ls = wrap(d, t, fh, 900); h = 40 + 100 * len(ls)
@@ -142,17 +175,88 @@ def headline_png(name, t):
     for l in ls:
         w = d.textlength(l, font=fh); d.text(((1080 - w) / 2, y), l, font=fh, fill=(255, 255, 255, 255)); y += 100
     im.save(name)
-def question_png(name, t):
-    parts = [p.strip() for p in re.split(r'(?<=[?।])\s+', t) if p.strip()]
-    rows = []
-    d0 = ImageDraw.Draw(Image.new('RGB', (10, 10))); fq = F(58)
-    for k, p in enumerate(parts):
-        for l in wrap(d0, p, fq, 900): rows.append((l, (255, 90, 60, 255) if (k == len(parts) - 1 and len(parts) > 1) else (255, 255, 255, 255)))
-    im = Image.new('RGBA', (1080, 1920), (0, 0, 0, 0)); d = ImageDraw.Draw(im); y = 1490
-    d.rounded_rectangle((60, y - 30, 1020, y + 105 * len(rows) + 15), radius=36, fill=(15, 10, 8, 225))
-    for l, c in rows:
-        w = d.textlength(l, font=fq); d.text(((1080 - w) / 2, y), l, font=fq, fill=c); y += 105
-    im.save(name)
+
+def mix_morning_audio(voice, target, length):
+    """Optional audition mix. Asset/mixer failures preserve plain narration."""
+    names = ('morning_birds_cleaned_hq.mp3', 'madal_80bpm_hq.mp3', 'bansuri_rag_jog_hq.mp3', 'tea_pour_hq.mp3')
+    if not all(os.path.isfile(os.path.join(A, name)) for name in names):
+        print('TEA MORNING: assets missing; plain voice'); return voice
+    try:
+        inputs = ['-i', voice, '-stream_loop', '-1', '-i', os.path.join(A, names[0]), '-stream_loop', '-1', '-i', os.path.join(A, names[1]), '-i', os.path.join(A, names[2]), '-i', os.path.join(A, names[3])]
+        phrase2 = max(8, min(24, length - 10))
+        filters = ['[0:a]aformat=sample_rates=44100:channel_layouts=mono,asplit=2[v][key]',
+            f'[1:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:{length},volume=-19dB,afade=t=in:d=1[b]',
+            f'[2:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:{length},volume=-22dB,afade=t=in:d=1.5[m]',
+            '[3:a]aformat=sample_rates=44100:channel_layouts=mono,volume=-16dB,afade=t=in:d=0.2,afade=t=out:st=3:d=0.6,asplit=4[f1][f2][f3][f4]',
+            '[f1]adelay=4000[fa];[f2]adelay=15000[fb];[f3]adelay=26000[fc];[f4]adelay=37000[fd]',
+            '[4:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:1.5,afade=t=out:st=1:d=0.5,volume=-14dB[p]',
+            f'[b][m][fa][fb][fc][fd][p]amix=inputs=7:normalize=0:duration=longest,atrim=0:{length},afade=t=out:st={max(0,length-1.5)}:d=1.5[bg]',
+            '[bg][key]sidechaincompress=threshold=0.025:ratio=3:attack=20:release=250,volume=16dB[duck]',
+            f'[v][duck]amix=inputs=2:normalize=0:duration=longest,atrim=0:{length},afade=t=out:st={max(0,length-0.7)}:d=0.7[premix]']
+        run(*inputs, '-filter_complex', ';'.join(filters), '-map', '[premix]', '-ar', '44100', '-ac', '1', 'morning_premix.wav')
+        analysis = sp.run(['ffmpeg', '-hide_banner', '-i', 'morning_premix.wav', '-af', 'loudnorm=I=-14:TP=-1.5:print_format=json', '-f', 'null', '-'], capture_output=True, text=True, check=True).stderr
+        stats = json.loads(analysis[analysis.rindex('{'):]); gain = -14 - float(stats['input_i'])
+        run('-i', 'morning_premix.wav', '-af', f'volume={gain}dB,alimiter=limit=0.79:level=disabled', '-ar', '44100', '-ac', '1', target)
+        print('TEA MORNING: optional birds, madal, sparse bansuri, opening pour'); return target
+    except Exception as error:
+        print('TEA MORNING: mix unavailable (' + type(error).__name__ + '); plain voice'); return voice
+
+
+def audio_timing(wav, lines, cards):
+    """Audio-specific local CTC alignment. Never substitutes length-based guesses."""
+    import hashlib
+    from pathlib import Path
+    root = Path(__file__).resolve().parent
+    sys.path.insert(0, str(root / 'scripts'))
+    from km_ctc import Engine, normalize, spoken_form, letters, similarity
+    identity = hashlib.sha256(Path(wav).read_bytes() + json.dumps(lines, ensure_ascii=False).encode()).hexdigest()
+    cache = root / 'one_call_voice' / ('tea_alignment_' + identity)
+    engine = Engine(root / 'models' / 'km_nepali_ctc')
+    samples, rate, logits, greedy = engine.infer(wav, cache)
+    words = []
+    for i, (_, text) in enumerate(lines):
+        for word in text.split():
+            target = normalize(word, engine.vocab)
+            if not target: fail('tea alignment cannot certify Latin-only narration; no guessed timing')
+            words.append({'line': i, 'word': word, 'target': target})
+    segments, _ = engine.align(logits, len(samples) / rate, [w['target'] for w in words])
+    for word, segment in zip(words, segments):
+        word.update(start=float(segment[0]), end=float(segment[1]), score=float(segment[2]))
+    expected = ' '.join(spoken_form(text)[0] for _, text in lines)
+    match = similarity(expected, greedy)
+    if match < 0.65 or any(w['end'] <= w['start'] or w['score'] < -4 for w in words):
+        fail('tea acoustic alignment uncertain; original voice retained, no guessed render or automatic new voice')
+    rows = [[w for w in words if w['line'] == i] for i in range(len(lines))]
+    total = len(samples) / rate
+    edges = [0.0] + [(rows[i - 1][-1]['end'] + rows[i][0]['start']) / 2 for i in range(1, len(lines))] + [total]
+    captions = []
+    for i, (_, text) in enumerate(lines):
+        cursor = 0; windows = []
+        for chunk in chunks(text):
+            count = len(chunk.split()); group = rows[i][cursor:cursor + count]
+            if len(group) != count: fail('caption alignment word count mismatch')
+            windows.append((chunk, group[0]['start'], group[-1]['end']))
+            cursor += count
+        captions.append(windows)
+    card_starts = {}
+    for i, (_, value, _) in cards.items():
+        if not 0 <= i < len(lines) - 1: continue
+        number = re.search(r'[0-9०-९]+(?:[,\.][0-9०-९]+)*', value)
+        start = rows[i][0]['start']
+        if number:
+            target = letters(spoken_form(number.group())[0])
+            targets = [letters(spoken_form(w['word'])[0]) for w in rows[i]]
+            joined = ''.join(targets); position = joined.find(target)
+            if position < 0: fail('card number not found in its spoken line; review script instead of guessing')
+            cursor = 0
+            for word, token in zip(rows[i], targets):
+                if cursor + len(token) > position: start = word['start']; break
+                cursor += len(token)
+        card_starts[i] = start
+    evidence = {'audio_sha256': hashlib.sha256(Path(wav).read_bytes()).hexdigest(), 'method': 'local CTC word alignment, not human listening', 'match': match, 'words': words, 'boundaries': edges, 'card_starts': card_starts}
+    cache.mkdir(parents=True, exist_ok=True)
+    (cache / 'tea_timing.json').write_text(json.dumps(evidence, ensure_ascii=False, indent=2), encoding='utf-8')
+    return edges, captions, card_starts, evidence
 
 def main():
     os.environ['START_DIR'] = os.getcwd(); script = sys.argv[1]; D = parse(script); rid = D['id']; lines = D['lines']; n = len(lines)
@@ -164,13 +268,13 @@ def main():
     if not os.environ.get('TEA_AUDIO'): tts(lines, wav)
     total = dur(wav)
     if total < 8 or total > 75: fail('voice length %.1fs looks wrong' % total)
-    BD, notes = boundaries(wav, lines); GAPS = speech_gaps(wav)
+    BD, CAPTIONS, CARD_STARTS, TIMING = audio_timing(wav, lines, D['cards']); notes = ['local CTC'] * (n - 1)
     Dn = [BD[i + 1] - BD[i] for i in range(n)]
     H0 = 0.3; OPEN = 1.5
     Wd, Yg, Ob, T2 = [os.path.join(A, x) for x in ('wide.mp4', 'young.mp4', 'uncle.mp4', 'two.mp4')]
     TM = os.path.join(A, 'teamaker.mp4')
     OB = Ob; OBMAX = dur(Ob) - 0.05  # forward only, never reversed or looped
-    CR = lambda x: f"[0:v]crop=405:720:{x}:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.8,fps=24,format=yuv420p[v]"
+    CR = lambda x: f"[0:v]crop=405:720:{x}:0,scale=1080:1920:flags=lanczos,unsharp=5:5:0.8,fps=24,format=yuv420p,tpad=stop_mode=clone:stop_duration=75[v]"
     # Fix 10-27 9:20PM: during uncle lines never cut to the over-the-shoulder clip (young man's mouth moves, looked out of sync); cut to the wide.
     # Shot rules (Luna, 10-27): first young line wide; later young lines alternate his face close-up and the over-the-shoulder shot;
     # uncle line = his close-up (forward only, short), long ones cut to the two-shot or wide and back; a second uncle line in a row
@@ -182,6 +286,7 @@ def main():
     def add(clip, ss, d_, x, loop):
         if d_ >= 0.25: plan.append((clip, ss, d_, x, loop))
     for i, (sp_, t) in enumerate(lines):
+        line_plan_start = len(plan)
         dd = Dn[i] if i else H0 + BD[1] - OPEN
         if sp_ == 'Y':
             if i == 0: add(Wd, 3.0, dd, 700, True)
@@ -203,6 +308,8 @@ def main():
                 add(Wd, 4.0 + (i % 2), cut, 700, True)  # wide only: the over-the-shoulder clip shows the young man talking
                 if back > 0.3: add(Ob, min(ss + a_, OBMAX - 0.3), min(back, 0.3 + OBMAX - min(ss + a_, OBMAX - 0.3)), 470, False)
             prev_u = True
+        covered = sum(shot[2] for shot in plan[line_plan_start:])
+        if dd - covered > 0.001: plan.append((Wd, 4.0, dd - covered, 700, True))
     plan.append((Wd, 5.0, 3.2, 700, True))
     END = H0 + BD[-1] + 3.2 - 0  # voice end + end screen
     segs = []
@@ -210,25 +317,27 @@ def main():
         nm = f'g{k}.mp4'
         run(*(['-stream_loop', '3'] if loop else []), '-ss', str(ss), '-i', src, '-t', f'{max(d_, 0.2):.3f}', '-filter_complex', CR(x), '-map', '[v]', '-an', '-preset', 'veryfast', '-crf', '20', nm)
         segs.append(nm)
+    final_wide_start = sum(dur(segment) for segment in segs[:-1])
     open('l.txt', 'w').write(''.join(f'file {s}\n' for s in segs)); run('-f', 'concat', '-i', 'l.txt', '-c', 'copy', 'base.mp4')
     ov = []; k = 0
-    for i, (s_, t) in enumerate(lines):
-        cs = chunks(t); tm = chunk_times(cs, BD[i], BD[i + 1], GAPS)
-        for ci, c in enumerate(cs):
-            a = H0 + tm[ci]; e = H0 + tm[ci + 1]; nm = f'cap{k}.png'; k += 1; cap_png(nm, c)
-            if i < n - 1: ov.append((nm, a, e))   # last line shows as the question card instead
+    for i, (s_, text) in enumerate(lines):
+        for c, start, end in CAPTIONS[i]:
+            a = H0 + start; e = H0 + end; nm = f'cap{k}.png'; k += 1
+            cap_png(nm, c, y=1120 if i == n - 1 else 420)
+            if i == n - 1: e = min(e, final_wide_start - 0.05)
+            if e > a: ov.append((nm, a, e))
     headline_png('hl.png', D['headline']); ov.append(('hl.png', 0.0, OPEN))
     for li, (lab, val, sub) in D['cards'].items():
         if 0 <= li < n - 1:
-            nm = f'card{li}.png'; card_png(nm, lab, val, sub); ov.append((nm, H0 + BD[li] + Dn[li] * 0.4, H0 + BD[li + 1] - 0.1))
-    question_png('q.png', lines[-1][1]); ov.append(('q.png', H0 + BD[n - 1], END))
+            nm = f'card{li}.png'; card_png(nm, lab, val, sub); ov.append((nm, H0 + CARD_STARTS[li], H0 + BD[li + 1] - 0.1))
     inp = ['-i', 'base.mp4']; fc = ''; last = '[0:v]'
     for j, (png, a, e) in enumerate(ov, 1):
         inp += ['-i', png]; fc += f"{last}[{j}:v]overlay=0:0:enable='between(t,{a:.2f},{e:.2f})'[o{j}];"; last = f'[o{j}]'
     run(*inp, '-filter_complex', fc.rstrip(';'), '-map', last, '-preset', 'veryfast', '-crf', '23', '-pix_fmt', 'yuv420p', 'vid.mp4')
     ms = int(H0 * 1000)
     run('-i', wav, '-filter_complex', f'[0:a]adelay={ms}|{ms},loudnorm=I=-14:TP=-1.5:LRA=11,apad,aresample=24000[a]', '-map', '[a]', '-t', f'{END:.2f}', '-c:a', 'aac', 'aud.m4a')
-    run('-i', 'vid.mp4', '-i', 'aud.m4a', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-r', '30', '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-shortest', 'main.mp4')
+    audio = mix_morning_audio('aud.m4a', 'morning_mix.wav', END)
+    run('-i', 'vid.mp4', '-i', audio, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-r', '30', '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-shortest', 'main.mp4')
     final = os.path.join(os.environ.get('START_DIR', '.'), out_dir, f'{rid}_tea.mp4')
     if OUTRO and os.path.exists(OUTRO):
         # outro: video-only safe concat (outro audio re-encoded if present, else silence)
@@ -242,6 +351,7 @@ def main():
         shutil.copy('final.mp4', final)
     else: shutil.copy('main.mp4', final)
     d_out = dur(final)
+    open(final.replace('.mp4', '_timing.json'), 'w', encoding='utf-8').write(json.dumps(TIMING, ensure_ascii=False, indent=2))
     rep = [f'id {rid}', f'lines {n}', f'voice seconds {total:.1f}', 'boundaries ' + ' '.join(f'{b:.2f}' for b in BD), 'boundary method ' + ','.join(notes),
            f'outro {"yes" if OUTRO and os.path.exists(OUTRO) else "no (removed)"}', f'final seconds {d_out:.1f}', f'cards {sorted(D["cards"])}']
     open(final.replace('.mp4', '_report.txt'), 'w').write('\n'.join(rep) + '\n'); print('\n'.join(rep)); print('TEA OK', final)
