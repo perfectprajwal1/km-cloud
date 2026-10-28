@@ -82,13 +82,28 @@ def render(rid, prepared):
     if valid_mp4(final):
         print('REUSING saved tea mp4 for ' + rid, flush=True)
         return 0
-    cache = ROOT / 'one_call_voice' / ('tea_' + prepared['identity'])
+    # Voice identity excludes visual edits, so timing/card fixes reuse narration.
+    voice_spec = json.dumps([prepared['script'], tea_reel.STYLE_PROMPT, tea_reel.VOICES], ensure_ascii=False, sort_keys=True)
+    voice_id = hashlib.sha256(voice_spec.encode()).hexdigest()
+    cache = ROOT / 'one_call_voice' / ('tea_voice_' + voice_id)
     cache.mkdir(parents=True, exist_ok=True)
     wav = cache / 'master.wav'
     attempted = cache / 'attempt.json'
     if not wav.is_file():
+        # Match the exact deployed legacy renderer identity, never a nearby script.
+        legacy_id = hashlib.sha256((prepared['script'] + 'e667ec0a79dd6c02794f825efc5c28d97b91737d49354a1bf83289227806830d').encode()).hexdigest()
+        legacy = ROOT / 'one_call_voice' / ('tea_' + legacy_id)
+        if (legacy / 'master.wav').is_file():
+            shutil.copy2(legacy / 'master.wav', wav)
+        elif (legacy / 'attempt.json').exists():
+            raise RuntimeError('legacy voice attempt exists; no blind new request')
+    if not wav.is_file():
         if attempted.exists():
             raise RuntimeError('tea voice was already attempted; inspect saved state before authorizing another call')
+        # Validate free alignment dependencies before any new voice request.
+        sys.path.insert(0, str(ROOT / 'scripts'))
+        from km_ctc import Engine
+        Engine(ROOT / 'models' / 'km_nepali_ctc').load()
         # Verify configuration before claiming a voice attempt.
         key_file = ROOT / 'gemini_key.txt'
         if not os.environ.get('TEA_AUDIO') and not os.environ.get('GEMINI_KEY') and (not key_file.is_file() or not key_file.read_text().strip()):
