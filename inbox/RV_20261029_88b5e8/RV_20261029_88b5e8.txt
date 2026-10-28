@@ -1,0 +1,41 @@
+STYLE: tea
+ID: RV_20261029_88b5e8
+HEADLINE: ग्यास किन्दा बिल माग्न महासंघको आग्रह
+Y: काका, ग्यास किन्दा बिल मागेर लिन ग्यास विक्रेता महासंघले उपभोक्तालाई आग्रह गरेको छ।
+U: व्यवसायीलाई पनि ग्यास बेच्दा अनिवार्य भ्याट बिल वा बिजक दिन आग्रह गरिएको छ।
+Y: नेपाल आयल निगमले कात्तिक नौ गते ग्यास उद्योगहरूलाई यसबारे पत्र पठाएको थियो।
+U: उपभोक्ताले ग्यास किनेपछि बिल नपाएको गुनासो बढेको निगमले जनाएको छ।
+Y: महासंघले बुधबार विज्ञप्ति निकालेर निगमको निर्देशनको स्वागत गरेको हो।
+U: महासंघका अध्यक्षले सबै ग्यास व्यवसायीलाई निर्देशन पालना गर्न आग्रह गरेका छन्।
+Y: तपाईंले ग्यास किन्दा बिल पाउनुभएको छ? कमेन्टमा भन्नुहोस्।
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "ग्यास किन्दा बिल माग्न महासंघको आग्रह",
+  "youtube_description": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान।",
+  "youtube_tags": [
+    "ग्यास",
+    "बिल",
+    "उपभोक्ता",
+    "नेपाल समाचार"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Gas",
+    "#ConsumerRights",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान। #NepalNews #Gas #ConsumerRights #khabarminutenepal",
+  "instagram_caption": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान। #NepalNews #Gas #ConsumerRights #khabarminutenepal",
+  "facebook_post": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान। #NepalNews #Gas #ConsumerRights #khabarminutenepal",
+  "threads_post": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान। #NepalNews #Gas #ConsumerRights #khabarminutenepal",
+  "linkedin_post": "ग्यास विक्रेता महासंघ नेपालले ग्यास खरिद गर्दा बिल माग्न उपभोक्तालाई र अनिवार्य भ्याट बिल वा बिजक दिन व्यवसायीलाई आग्रह गरेको छ। निगमको निर्देशन पालना गर्न महासंघको आह्वान। #NepalNews #Gas #ConsumerRights #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Tea format. Sentence-by-sentence checked against Onlinekhabar, Bizshala and Madhyanha Daily, all Oct 28. Three independent publishers covering the same federation statement, not independent underlying datasets. L1 consumer request; L2 mandatory VAT bill/invoice request to sellers; L3 NOC letter to gas industries Kartik 9; L4 increased complaints of missing bills; L5 federation Wednesday statement welcoming direction; L6 president request to sellers. Final question adds no factual claim. No price change, penalty, new tax, or nationwide compliance claimed. Spoken date entirely in Nepali words; no number card needed. No approval; AB blank. N8N NOT RUN; no Gemini calls.
+
+--- FACT-CHECK SOURCES ---
+https://www.onlinekhabar.com/2026/10/2045587/federation-urges-gas-businessmen-to-issue-vat-bills-and-consumers-to-ask-for-bills
+https://bizshala.com/article/35474
+https://madhyanhadaily.com/post/47405
