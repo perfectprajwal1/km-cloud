@@ -1,0 +1,39 @@
+STYLE: tea
+ID: RV_20261029_7dc8a9
+HEADLINE: केरौन सबस्टेसन जोड्दा पूर्वका जिल्लामा दुई दिन बिहान बिजुली रोकिने
+Y: काका, शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ।
+U: दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ।
+Y: झापा, इलाम, पाँचथर र ताप्लेजुङभरि त्यस समयमा विद्युत् आपूर्ति बन्द हुने जनाइएको छ।
+U: मोरङको उर्लाबारी र पथरी आसपासका क्षेत्र पनि प्रभावित हुनेछन्।
+Y: केरौन सबस्टेसनमा लाइन जोड्न दुहबीदेखि दमकसम्मको प्रसारण लाइन बन्द गरिने हो।
+U: मोरङको कानेपोखरीमा एक सय बत्तीस केभीको सबस्टेसन निर्माण सम्पन्न भएको छ।
+Y: बिजुली रोकिने समयमा तपाईं काम कसरी मिलाउनुहुन्छ? कमेन्टमा भन्नुहोस्।
+CARD 2: शनिबार र आइतबार | बिहान ४ देखि मध्याह्न १२ | दुवै दिनको नियोजित बन्द
+CARD 6: केरौन सबस्टेसन | १३२ केभी | निर्माण सम्पन्न
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "केरौन सबस्टेसन जोड्दा पूर्वका जिल्लामा दुई दिन बिहान बिजुली रोकिने",
+  "youtube_description": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ।",
+  "youtube_tags": [
+    "नेपाल समाचार",
+    "खबर मिनेट"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#KhabarMinute",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ। #NepalNews #KhabarMinute #khabarminutenepal",
+  "instagram_caption": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ। #NepalNews #KhabarMinute #khabarminutenepal",
+  "facebook_post": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ। #NepalNews #KhabarMinute #khabarminutenepal",
+  "threads_post": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ। #NepalNews #KhabarMinute #khabarminutenepal",
+  "linkedin_post": "शनिबार र आइतबार बिहान पूर्वका केही जिल्लामा बिजुली रोकिने प्राधिकरणले जनाएको छ। दुवै दिन बिहान चार बजेदेखि मध्याह्न बाह्र बजेसम्म प्रसारण लाइन बन्द गरिनेछ। #NepalNews #KhabarMinute #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Onlinekhabar Oct 28 17:55 and Urjakhabar Oct 29. Independent publishers, same NEA announcement. Scope preserved: whole Jhapa/Ilam/Panchthar/Taplejung and Urlabari/Pathari surroundings only in Morang. Planned outage, not already occurring. Saturday/Sunday calculated as Oct 31/Nov 1 2026; sources also say Kartik 14/15. No claim station already commissioned. Every dialogue claim checked against both fetched articles. N8N NOT RUN. No Gemini calls. AB stays blank; pk approval required.
+
+--- FACT-CHECK SOURCES ---
+https://www.onlinekhabar.com/2026/10/2045840/morang-keraun-132-kv-substation-construction-completed-electricity-supply-smooth
+https://new.urjakhabar.com/news/2810758045
