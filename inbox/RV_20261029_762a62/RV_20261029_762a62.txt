@@ -1,0 +1,39 @@
+STYLE: tea
+ID: RV_20261029_762a62
+HEADLINE: तीन महिनामै एक खर्बभन्दा बढी निर्यात, आयात अझै ठूलो
+Y: काका, चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ।
+U: भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो।
+Y: त्यही अवधिमा वस्तु आयात भने छ खर्ब छयालीस अर्ब अठहत्तर करोड रुपैयाँ पुगेको छ।
+U: गत वर्षको सोही अवधिभन्दा आयात र निर्यात दुवै बढेका हुन्।
+Y: निर्यातभन्दा आयात ठूलो भएकाले व्यापार घाटा पनि बढेको तथ्याङ्कमा छ।
+U: यी चालु आर्थिक वर्षको पहिलो त्रैमासका तथ्याङ्क हुन्, पूरै वर्षको होइनन्।
+Y: नेपालको निर्यात बढाउन कुन उत्पादनमा ध्यान दिनुपर्छ? कमेन्टमा भन्नुहोस्।
+CARD 2: साउनदेखि असोजसम्म निर्यात | रु. १ खर्ब १४ अर्ब २८ करोड | भन्सार विभागको तथ्याङ्क
+CARD 3: सोही अवधिको आयात | रु. ६ खर्ब ४६ अर्ब ७८ करोड | चालु आर्थिक वर्षको पहिलो त्रैमास
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "तीन महिनामै एक खर्बभन्दा बढी निर्यात, आयात अझै ठूलो",
+  "youtube_description": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो।",
+  "youtube_tags": [
+    "नेपाल समाचार",
+    "खबर मिनेट"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#KhabarMinute",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "instagram_caption": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "facebook_post": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "threads_post": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "linkedin_post": "चालु आर्थिक वर्षको पहिलो तीन महिनामै नेपालको वस्तु निर्यात एक खर्ब नाघेको छ। भन्सार विभागका अनुसार साउनदेखि असोजसम्म एक खर्ब चौध अर्ब अट्ठाइस करोड रुपैयाँको निर्यात भयो। #NepalNews #KhabarMinute #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Onlinekhabar Oct 28 15:34 and Global Aawaj Oct 28 20:21. Independent publishers citing the same Customs dataset, not independent datasets. Both agree exports Rs 114.28bn and imports Rs 646.78bn, both up YoY, deficit up. Avoided exact rounded deficit because subtraction of rounded components differs by Rs 10m from published aggregate. Period FY2083/84 Shrawan-Ashoj only, not calendar-year trade. Every dialogue claim checked against both fetched articles. N8N NOT RUN. No Gemini calls. AB stays blank; pk approval required.
+
+--- FACT-CHECK SOURCES ---
+https://www.onlinekhabar.com/2026/10/2045700/exports-exceed-rs-1-trillion-in-first-quarter-imports-surge-due-to-festivals
+https://www.globalaawaj.com/archives/301184
