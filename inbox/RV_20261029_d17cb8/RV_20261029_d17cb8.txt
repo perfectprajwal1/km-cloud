@@ -1,0 +1,44 @@
+STYLE: tea
+ID: RV_20261029_d17cb8
+HEADLINE: तीन महिनामा काजु र बदाममै झन्डै एक अर्बको आयात
+Y: काका, नेपालले तीन महिनामा काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात गरेको छ।
+U: भन्सार विभागका यी तथ्याङ्क चालु आर्थिक वर्षको साउनदेखि असोजसम्मका हुन्।
+Y: त्यस अवधिमा काजु मात्रै छयालीस करोड रुपैयाँभन्दा बढीको आयात भएको छ।
+U: बदामको आयात पनि सतचालीस करोड रुपैयाँभन्दा बढी छ।
+Y: बोक्रासहितको ओखर चौध लाख एकाउन्न हजार दुई सय किलो आयात भएको तथ्याङ्कमा छ।
+U: यो तीन महिनाको आयात हो, तिहारको बिक्री रकम मात्रै होइन।
+Y: तपाईंको भाइमसलामा कुन खानेकुरा छुट्दैन? कमेन्टमा भन्नुहोस्।
+CARD 1: साउनदेखि असोजसम्म | काजु र बदाम झन्डै रु. १ अर्ब | तीन महिनाको आयात
+CARD 3: काजु आयात | रु. ४६ करोडभन्दा बढी | साउनदेखि असोजसम्म
+CARD 4: बदाम आयात | रु. ४७ करोडभन्दा बढी | साउनदेखि असोजसम्म
+CARD 5: बोक्रासहितको ओखर | १४,५१,२०० किलो | तीन महिनाको आयात
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "तीन महिनामा काजु र बदाममै झन्डै एक अर्बको आयात",
+  "youtube_description": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन।",
+  "youtube_tags": [
+    "भाइमसला",
+    "तिहार",
+    "आयात",
+    "नेपाल समाचार"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#Tihar",
+    "#BhaiMasala",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन। #NepalNews #Tihar #BhaiMasala #khabarminutenepal",
+  "instagram_caption": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन। #NepalNews #Tihar #BhaiMasala #khabarminutenepal",
+  "facebook_post": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन। #NepalNews #Tihar #BhaiMasala #khabarminutenepal",
+  "threads_post": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन। #NepalNews #Tihar #BhaiMasala #khabarminutenepal",
+  "linkedin_post": "भन्सार विभागको तथ्याङ्कअनुसार चालु आर्थिक वर्षको साउनदेखि असोजसम्म काजु र बदाममै झन्डै एक अर्ब रुपैयाँको आयात भएको छ। यो तीन महिनाको आयात हो, तिहारको बिक्री मात्र होइन। #NepalNews #Tihar #BhaiMasala #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Two independent publishers fetched Oct 29: Onlinekhabar (Ritu Kafle) and Kendrabindu, citing same Customs dataset. L1 combined cashew/almond imports nearly Rs 1bn: OK components ~Rs 465.678m + Rs 476.810m; Kendrabindu broader categories Rs 465.726m + Rs 479.335m. L2 period FY2083/84 Shrawan-Ashoj; L3 cashew exceeds Rs 460m in both; L4 almond exceeds Rs 470m in both; L5 shelled-in walnut weight 1,451,200 kg exact in both; L6 clarifies import period is not Tihar-only retail sales. Excluded conflicting total dryfruit aggregate (OK over Rs3bn vs Kendrabindu Rs2.479bn) and differing exact category values; only explicitly rounded cross-checked facts used. Two publishers, shared underlying dataset. Final question contains no factual claim. No approval; AB blank. N8N NOT RUN; no Gemini calls.
+
+--- FACT-CHECK SOURCES ---
+https://www.onlinekhabar.com/2026/10/2046000/cashews-and-almonds-worth-one-and-a-half-billion-for-tihar-how-much-more
+https://kendrabindu.com/economy/567263/
