@@ -1,0 +1,38 @@
+STYLE: tea
+ID: RV_20261029_9afc61
+HEADLINE: मलेसिया रोजगारीबारे आधिकारिक सूचनामा भर पर्न मन्त्रालयको आग्रह
+Y: काका, मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ।
+U: मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो।
+Y: मलेसियाका सम्बन्धित सरकारी निकायसँग निरन्तर संवाद भइरहेको मन्त्रालयले जनाएको छ।
+U: श्रमिकको छनोट र भर्ना प्रक्रिया निष्पक्ष बनाउने पक्षमा सरकार रहेको विज्ञप्तिमा छ।
+Y: नेपाली श्रमिकको अधिकार र दीर्घकालीन हित संरक्षणमा प्रतिबद्ध रहेको पनि मन्त्रालयको भनाइ छ।
+U: प्रवक्ता मिरा आचार्यले जारी गरेको विज्ञप्तिले आधिकारिक स्रोतबाट जानकारी लिन आग्रह गरेको छ।
+Y: वैदेशिक रोजगारीको सूचना तपाईं कहाँबाट लिनुहुन्छ? कमेन्टमा भन्नुहोस्।
+
+
+--- PLATFORM PACK (JSON) ---
+{
+  "youtube_title": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा भर पर्न मन्त्रालयको आग्रह",
+  "youtube_description": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो।",
+  "youtube_tags": [
+    "नेपाल समाचार",
+    "खबर मिनेट"
+  ],
+  "hashtags": [
+    "#NepalNews",
+    "#KhabarMinute",
+    "#khabarminutenepal"
+  ],
+  "tiktok_caption": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "instagram_caption": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "facebook_post": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "threads_post": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो। #NepalNews #KhabarMinute #khabarminutenepal",
+  "linkedin_post": "मलेसिया रोजगारीबारे आधिकारिक सूचनामा मात्रै भर पर्न श्रम मन्त्रालयले आग्रह गरेको छ। मन्त्रालयले बुधबार विज्ञप्ति निकालेर अपुष्ट सूचना नफैलाउन अनुरोध गरेको हो। #NepalNews #KhabarMinute #khabarminutenepal"
+}
+
+--- WARNINGS ---
+DRAFT FOR REVIEW ONLY. Capital Nepal Oct 28 20:11 and Kendrabindu Oct 28. Independent publishers covering the same ministry statement. Every factual line attributed to ministry, not independently proven policy outcomes. No claim recruitment has reopened, stopped, or visas are guaranteed. No named-person allegations. Not a duplicate of pending health-check fraud row 95. Every dialogue claim checked against both fetched articles. N8N NOT RUN. No Gemini calls. AB stays blank; pk approval required.
+
+--- FACT-CHECK SOURCES ---
+https://www.capitalnepal.com/detail/87473
+https://kendrabindu.com/news/567112/
