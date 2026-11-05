@@ -1,0 +1,6 @@
+{
+  "attempt_id": "d7f0767e-69a9-415d-826d-553fe1e9a3eb",
+  "body": "Reel run stopped before a reel was identified. Check GitHub Actions summary and saved logs. No blind rerun.",
+  "state": "claimed",
+  "story_id": "RUN_42060686617"
+}
